@@ -30,7 +30,11 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 ```text
 ├── README.md               # Main roadmap and progress tracker
 └── Day 1/                  # Day-by-day learning directories
-    └── Day1.txt            # Daily concept explanations and notes
+    ├── Day1.txt            # Daily concept explanations and notes
+    ├── About.py            # Overview of Python characteristics
+    ├── PrintHello.py       # Basic printing examples
+    ├── InputAbout.py       # Interactivity and inputs
+    └── DataType.py         # Variables and basic data types
 ```
 
 ---
@@ -118,8 +122,8 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 ## 📅 Progress Log
 
 | Day | Date | Topic | Status | Resources |
-| :---: | :---: | :--- | :---: | :---: |
-| **Day 1** | Jul 20, 2026 | Python Basics, Variables, Setup, and Naming Conventions | 🟢 Completed | [Notes](file:///s:/Programming/Python200days/Day%201/Day1.txt) |
+| :---: | :---: | :--- | :---: | :--- |
+| **Day 1** | Jul 20, 2026 | Python Basics, Variables, Setup, and Naming Conventions | 🟢 Completed | [Notes](Day%201/Day1.txt) • [Hello World](Day%201/PrintHello.py) • [About](Day%201/About.py) • [Data Types](Day%201/DataType.py) • [User Input](Day%201/InputAbout.py) |
 | **Day 2** | | *Upcoming* | ⚪ Pending | - |
 | **Day 3** | | *Upcoming* | ⚪ Pending | - |
 
@@ -128,11 +132,11 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 ## 🚀 How to Run the Code
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/Python200days.git
+   git clone https://github.com/daystar-1nine/200DaysOfPython.git
    ```
 2. Navigate into the folder:
    ```bash
-   cd Python200days
+   cd 200DaysOfPython
    ```
 3. Run the daily Python scripts:
    ```bash
