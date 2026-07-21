@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white&style=for-the-badge" alt="Python Version">
   <img src="https://img.shields.io/badge/Challenge%20Status-In%20Progress-orange?style=for-the-badge" alt="Challenge Status">
-  <img src="https://img.shields.io/badge/Progress-1%20%2F%20200%20Days-green?style=for-the-badge" alt="Progress Badge">
+  <img src="https://img.shields.io/badge/Progress-2%20%2F%20200%20Days-green?style=for-the-badge" alt="Progress Badge">
 </p>
 
 A 200-day journey to master Python from beginner to advanced by learning daily, solving coding problems, building real-world projects, and sharing my progress publicly. This repository documents my growth, projects, and consistent learning—one day at a time. 🚀
@@ -11,9 +11,9 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 ---
 
 ## 📊 Challenge Progress
-**Current Progress:** `1 / 200 Days` (0.5%)
+**Current Progress:** `2 / 200 Days` (1.0%)
 ```text
-[░░░░░░░░░░░░░░░░░░░░] 0.5% Complete
+[░░░░░░░░░░░░░░░░░░░░] 1.0% Complete
 ```
 
 ---
@@ -29,12 +29,23 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 ## 📂 Repository Structure
 ```text
 ├── README.md               # Main roadmap and progress tracker
-└── Day 1/                  # Day-by-day learning directories
-    ├── Day1.txt            # Daily concept explanations and notes
-    ├── About.py            # Overview of Python characteristics
-    ├── PrintHello.py       # Basic printing examples
-    ├── InputAbout.py       # Interactivity and inputs
-    └── DataType.py         # Variables and basic data types
+├── Day 1/                  # Day-by-day learning directories
+│   ├── Day1.txt            # Daily concept explanations and notes
+│   ├── About.py            # Overview of Python characteristics
+│   ├── PrintHello.py       # Basic printing examples
+│   ├── InputAbout.py       # Interactivity and inputs
+│   └── DataType.py         # Variables and basic data types
+└── Day 2/
+    ├── Day2.txt                    # Variables, Operators & Type Conversion notes
+    ├── TwoNumberAdd.py             # Addition of two numbers
+    ├── SwapTwoNumber.py            # Variable swapping
+    ├── AreaOfRectangle.py          # Geometry calculation
+    ├── AreaOfCircle.py             # Area and circumference
+    ├── AverageOfThreeNumbers.py    # Average calculation
+    ├── FahrenheitConverter.py      # Temperature unit converter
+    ├── SimpleInterest.py           # Financial interest formula
+    ├── SquareAndCubeOfNumber.py    # Exponentiation and pow()
+    └── StudentGradeCalculator.py   # Student marks and report card
 ```
 
 ---
@@ -124,7 +135,7 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 | Day | Date | Topic | Status | Resources |
 | :---: | :---: | :--- | :---: | :--- |
 | **Day 1** | Jul 20, 2026 | Python Basics, Variables, Setup, and Naming Conventions | 🟢 Completed | [Notes](Day%201/Day1.txt) • [Hello World](Day%201/PrintHello.py) • [About](Day%201/About.py) • [Data Types](Day%201/DataType.py) • [User Input](Day%201/InputAbout.py) |
-| **Day 2** | | *Upcoming* | ⚪ Pending | - |
+| **Day 2** | Jul 21, 2026 | Variables, Operators & Type Conversion | 🟢 Completed | [Notes](Day%202/Day2.txt) • [Addition](Day%202/TwoNumberAdd.py) • [Swap](Day%202/SwapTwoNumber.py) • [Rectangle Area](Day%202/AreaOfRectangle.py) • [Circle Area](Day%202/AreaOfCircle.py) • [Average](Day%202/AverageOfThreeNumbers.py) • [Temp Converter](Day%202/FahrenheitConverter.py) • [Simple Interest](Day%202/SimpleInterest.py) • [Square & Cube](Day%202/SquareAndCubeOfNumber.py) • [Grade Calculator](Day%202/StudentGradeCalculator.py) |
 | **Day 3** | | *Upcoming* | ⚪ Pending | - |
 
 ---
