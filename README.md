@@ -56,7 +56,8 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
     ├── LoginSystem.py              # Username/password check
     ├── GradeCalculator.py          # Detailed grading criteria
     ├── LargestOf3Numbers.py        # Finding maximum of three numbers
-    └── DivisibleBy5and11.py        # Divisibility checks with 'and'
+    ├── DivisibleBy5and11.py        # Divisibility checks with 'and'
+    └── ATMEligibilityChecker.py    # ATM PIN and withdrawal checker
 ```
 
 ---
@@ -147,7 +148,7 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 | :---: | :---: | :--- | :---: | :--- |
 | **Day 1** | Jul 20, 2026 | Python Basics, Variables, Setup, and Naming Conventions | 🟢 Completed | [Notes](Day%201/Day1.txt) • [Hello World](Day%201/PrintHello.py) • [About](Day%201/About.py) • [Data Types](Day%201/DataType.py) • [User Input](Day%201/InputAbout.py) |
 | **Day 2** | Jul 21, 2026 | Variables, Operators & Type Conversion | 🟢 Completed | [Notes](Day%202/Day2.txt) • [Addition](Day%202/TwoNumberAdd.py) • [Swap](Day%202/SwapTwoNumber.py) • [Rectangle Area](Day%202/AreaOfRectangle.py) • [Circle Area](Day%202/AreaOfCircle.py) • [Average](Day%202/AverageOfThreeNumbers.py) • [Temp Converter](Day%202/FahrenheitConverter.py) • [Simple Interest](Day%202/SimpleInterest.py) • [Square & Cube](Day%202/SquareAndCubeOfNumber.py) • [Grade Calculator](Day%202/StudentGradeCalculator.py) |
-| **Day 3** | Jul 22, 2026 | Conditional Statements (Control Flow) | 🟢 Completed | [Notes](Day%203/Day3.txt) • [Vote Check](Day%203/VoteAge.py) • [Even/Odd](Day%203/EvenOdd.py) • [Pass/Fail](Day%203/PassOrFail.py) • [Pos/Neg/Zero](Day%203/PovNegZero.py) • [Leap Year](Day%203/LeapYear.py) • [Login System](Day%203/LoginSystem.py) • [Grade Calc](Day%203/GradeCalculator.py) • [Largest Number](Day%203/LargestOf3Numbers.py) • [Divisibility](Day%203/DivisibleBy5and11.py) |
+| **Day 3** | Jul 22, 2026 | Conditional Statements (Control Flow) | 🟢 Completed | [Notes](Day%203/Day3.txt) • [ATM Check](Day%203/ATMEligibilityChecker.py) • [Vote Check](Day%203/VoteAge.py) • [Even/Odd](Day%203/EvenOdd.py) • [Pass/Fail](Day%203/PassOrFail.py) • [Pos/Neg/Zero](Day%203/PovNegZero.py) • [Leap Year](Day%203/LeapYear.py) • [Login System](Day%203/LoginSystem.py) • [Grade Calc](Day%203/GradeCalculator.py) • [Largest Number](Day%203/LargestOf3Numbers.py) • [Divisibility](Day%203/DivisibleBy5and11.py) |
 | **Day 4** | | *Upcoming* | ⚪ Pending | - |
 
 ---
