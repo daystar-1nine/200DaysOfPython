@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white&style=for-the-badge" alt="Python Version">
   <img src="https://img.shields.io/badge/Challenge%20Status-In%20Progress-orange?style=for-the-badge" alt="Challenge Status">
-  <img src="https://img.shields.io/badge/Progress-2%20%2F%20200%20Days-green?style=for-the-badge" alt="Progress Badge">
+  <img src="https://img.shields.io/badge/Progress-3%20%2F%20200%20Days-green?style=for-the-badge" alt="Progress Badge">
 </p>
 
 A 200-day journey to master Python from beginner to advanced by learning daily, solving coding problems, building real-world projects, and sharing my progress publicly. This repository documents my growth, projects, and consistent learning—one day at a time. 🚀
@@ -11,9 +11,9 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 ---
 
 ## 📊 Challenge Progress
-**Current Progress:** `2 / 200 Days` (1.0%)
+**Current Progress:** `3 / 200 Days` (1.5%)
 ```text
-[░░░░░░░░░░░░░░░░░░░░] 1.0% Complete
+[░░░░░░░░░░░░░░░░░░░░] 1.5% Complete
 ```
 
 ---
@@ -46,6 +46,17 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
     ├── SimpleInterest.py           # Financial interest formula
     ├── SquareAndCubeOfNumber.py    # Exponentiation and pow()
     └── StudentGradeCalculator.py   # Student marks and report card
+└── Day 3/
+    ├── Day3.txt                    # Conditional Statements notes
+    ├── VoteAge.py                  # Voter eligibility check
+    ├── EvenOdd.py                  # Even, odd, or zero check
+    ├── PassOrFail.py               # Pass/fail boundaries check
+    ├── PovNegZero.py               # Sign of a number check
+    ├── LeapYear.py                 # Leap year checker logic
+    ├── LoginSystem.py              # Username/password check
+    ├── GradeCalculator.py          # Detailed grading criteria
+    ├── LargestOf3Numbers.py        # Finding maximum of three numbers
+    └── DivisibleBy5and11.py        # Divisibility checks with 'and'
 ```
 
 ---
@@ -136,7 +147,8 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 | :---: | :---: | :--- | :---: | :--- |
 | **Day 1** | Jul 20, 2026 | Python Basics, Variables, Setup, and Naming Conventions | 🟢 Completed | [Notes](Day%201/Day1.txt) • [Hello World](Day%201/PrintHello.py) • [About](Day%201/About.py) • [Data Types](Day%201/DataType.py) • [User Input](Day%201/InputAbout.py) |
 | **Day 2** | Jul 21, 2026 | Variables, Operators & Type Conversion | 🟢 Completed | [Notes](Day%202/Day2.txt) • [Addition](Day%202/TwoNumberAdd.py) • [Swap](Day%202/SwapTwoNumber.py) • [Rectangle Area](Day%202/AreaOfRectangle.py) • [Circle Area](Day%202/AreaOfCircle.py) • [Average](Day%202/AverageOfThreeNumbers.py) • [Temp Converter](Day%202/FahrenheitConverter.py) • [Simple Interest](Day%202/SimpleInterest.py) • [Square & Cube](Day%202/SquareAndCubeOfNumber.py) • [Grade Calculator](Day%202/StudentGradeCalculator.py) |
-| **Day 3** | | *Upcoming* | ⚪ Pending | - |
+| **Day 3** | Jul 22, 2026 | Conditional Statements (Control Flow) | 🟢 Completed | [Notes](Day%203/Day3.txt) • [Vote Check](Day%203/VoteAge.py) • [Even/Odd](Day%203/EvenOdd.py) • [Pass/Fail](Day%203/PassOrFail.py) • [Pos/Neg/Zero](Day%203/PovNegZero.py) • [Leap Year](Day%203/LeapYear.py) • [Login System](Day%203/LoginSystem.py) • [Grade Calc](Day%203/GradeCalculator.py) • [Largest Number](Day%203/LargestOf3Numbers.py) • [Divisibility](Day%203/DivisibleBy5and11.py) |
+| **Day 4** | | *Upcoming* | ⚪ Pending | - |
 
 ---
 
