@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white&style=for-the-badge" alt="Python Version">
   <img src="https://img.shields.io/badge/Challenge%20Status-In%20Progress-orange?style=for-the-badge" alt="Challenge Status">
-  <img src="https://img.shields.io/badge/Progress-3%20%2F%20200%20Days-green?style=for-the-badge" alt="Progress Badge">
+  <img src="https://img.shields.io/badge/Progress-4%20%2F%20200%20Days-green?style=for-the-badge" alt="Progress Badge">
 </p>
 
 A 200-day journey to master Python from beginner to advanced by learning daily, solving coding problems, building real-world projects, and sharing my progress publicly. This repository documents my growth, projects, and consistent learning—one day at a time. 🚀
@@ -11,9 +11,9 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 ---
 
 ## 📊 Challenge Progress
-**Current Progress:** `3 / 200 Days` (1.5%)
+**Current Progress:** `4 / 200 Days` (2.0%)
 ```text
-[░░░░░░░░░░░░░░░░░░░░] 1.5% Complete
+[░░░░░░░░░░░░░░░░░░░░] 2.0% Complete
 ```
 
 ---
@@ -30,34 +30,46 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 ```text
 ├── README.md               # Main roadmap and progress tracker
 ├── Day 1/                  # Day-by-day learning directories
-│   ├── Day1.txt            # Daily concept explanations and notes
-│   ├── About.py            # Overview of Python characteristics
-│   ├── PrintHello.py       # Basic printing examples
-│   ├── InputAbout.py       # Interactivity and inputs
-│   └── DataType.py         # Variables and basic data types
-└── Day 2/
-    ├── Day2.txt                    # Variables, Operators & Type Conversion notes
-    ├── TwoNumberAdd.py             # Addition of two numbers
-    ├── SwapTwoNumber.py            # Variable swapping
-    ├── AreaOfRectangle.py          # Geometry calculation
-    ├── AreaOfCircle.py             # Area and circumference
-    ├── AverageOfThreeNumbers.py    # Average calculation
-    ├── FahrenheitConverter.py      # Temperature unit converter
-    ├── SimpleInterest.py           # Financial interest formula
-    ├── SquareAndCubeOfNumber.py    # Exponentiation and pow()
-    └── StudentGradeCalculator.py   # Student marks and report card
-└── Day 3/
-    ├── Day3.txt                    # Conditional Statements notes
-    ├── VoteAge.py                  # Voter eligibility check
-    ├── EvenOdd.py                  # Even, odd, or zero check
-    ├── PassOrFail.py               # Pass/fail boundaries check
-    ├── PovNegZero.py               # Sign of a number check
-    ├── LeapYear.py                 # Leap year checker logic
-    ├── LoginSystem.py              # Username/password check
-    ├── GradeCalculator.py          # Detailed grading criteria
-    ├── LargestOf3Numbers.py        # Finding maximum of three numbers
-    ├── DivisibleBy5and11.py        # Divisibility checks with 'and'
-    └── ATMEligibilityChecker.py    # ATM PIN and withdrawal checker
+│   ├── Day1.md            # Daily concept explanations and notes
+│   ├── about.py            # Overview of Python characteristics
+│   ├── print_hello.py       # Basic printing examples
+│   ├── input_about.py       # Interactivity and inputs
+│   └── data_type.py         # Variables and basic data types
+├── Day 2/
+│   ├── Day2.md                    # Variables, Operators & Type Conversion notes
+│   ├── two_number_add.py             # Addition of two numbers
+│   ├── swap_two_number.py            # Variable swapping
+│   ├── area_of_rectangle.py          # Geometry calculation
+│   ├── area_of_circle.py             # Area and circumference
+│   ├── average_of_three_numbers.py    # Average calculation
+│   ├── fahrenheit_converter.py      # Temperature unit converter
+│   ├── simple_interest.py           # Financial interest formula
+│   ├── square_and_cube_of_number.py    # Exponentiation and pow()
+│   └── student_grade_calculator.py   # Student marks and report card
+├── Day 3/
+│   ├── Day3.md                    # Conditional Statements notes
+│   ├── vote_age.py                  # Voter eligibility check
+│   ├── even_odd.py                  # Even, odd, or zero check
+│   ├── pass_or_fail.py               # Pass/fail boundaries check
+│   ├── pov_neg_zero.py               # Sign of a number check
+│   ├── leap_year.py                 # Leap year checker logic
+│   ├── login_system.py              # Username/password check
+│   ├── grade_calculator.py          # Detailed grading criteria
+│   ├── largest_of_3_numbers.py        # Finding maximum of three numbers
+│   ├── divisible_by_5_and_11.py        # Divisibility checks with 'and'
+│   └── atm_eligibility_checker.py    # ATM PIN and withdrawal checker
+└── Day 4/
+    ├── Day4.md                    # Loops & Control Statements notes
+    ├── print_1_to_100.py          # Printing 1 to 100
+    ├── reverse_counting_100_to_1.py # Printing 100 to 1
+    ├── even_1_to_100.py           # Even numbers 1 to 100
+    ├── odd_1_to_100.py            # Odd numbers 1 to 100
+    ├── sum_of_n.py                # Sum of first N natural numbers
+    ├── factorial.py               # Factorial of a number
+    ├── multiplication_table.py    # Multiplication table
+    ├── squares_1_to_20.py         # Squares of 1 to 20
+    ├── cube_1_to_20.py            # Cubes of 1 to 20
+    └── vowel_count.py             # Count vowels in a string
 ```
 
 ---
@@ -146,10 +158,11 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 
 | Day | Date | Topic | Status | Resources |
 | :---: | :---: | :--- | :---: | :--- |
-| **Day 1** | Jul 20, 2026 | Python Basics, Variables, Setup, and Naming Conventions | 🟢 Completed | [Notes](Day%201/Day1.txt) • [Hello World](Day%201/PrintHello.py) • [About](Day%201/About.py) • [Data Types](Day%201/DataType.py) • [User Input](Day%201/InputAbout.py) |
-| **Day 2** | Jul 21, 2026 | Variables, Operators & Type Conversion | 🟢 Completed | [Notes](Day%202/Day2.txt) • [Addition](Day%202/TwoNumberAdd.py) • [Swap](Day%202/SwapTwoNumber.py) • [Rectangle Area](Day%202/AreaOfRectangle.py) • [Circle Area](Day%202/AreaOfCircle.py) • [Average](Day%202/AverageOfThreeNumbers.py) • [Temp Converter](Day%202/FahrenheitConverter.py) • [Simple Interest](Day%202/SimpleInterest.py) • [Square & Cube](Day%202/SquareAndCubeOfNumber.py) • [Grade Calculator](Day%202/StudentGradeCalculator.py) |
-| **Day 3** | Jul 22, 2026 | Conditional Statements (Control Flow) | 🟢 Completed | [Notes](Day%203/Day3.txt) • [ATM Check](Day%203/ATMEligibilityChecker.py) • [Vote Check](Day%203/VoteAge.py) • [Even/Odd](Day%203/EvenOdd.py) • [Pass/Fail](Day%203/PassOrFail.py) • [Pos/Neg/Zero](Day%203/PovNegZero.py) • [Leap Year](Day%203/LeapYear.py) • [Login System](Day%203/LoginSystem.py) • [Grade Calc](Day%203/GradeCalculator.py) • [Largest Number](Day%203/LargestOf3Numbers.py) • [Divisibility](Day%203/DivisibleBy5and11.py) |
-| **Day 4** | | *Upcoming* | ⚪ Pending | - |
+| **Day 1** | Jul 20, 2026 | Python Basics, Variables, Setup, and Naming Conventions | 🟢 Completed | [Notes](Day%201/Day1.md) • [Hello World](Day%201/print_hello.py) • [About](Day%201/about.py) • [Data Types](Day%201/data_type.py) • [User Input](Day%201/input_about.py) |
+| **Day 2** | Jul 21, 2026 | Variables, Operators & Type Conversion | 🟢 Completed | [Notes](Day%202/Day2.md) • [Addition](Day%202/two_number_add.py) • [Swap](Day%202/swap_two_number.py) • [Rectangle Area](Day%202/area_of_rectangle.py) • [Circle Area](Day%202/area_of_circle.py) • [Average](Day%202/average_of_three_numbers.py) • [Temp Converter](Day%202/fahrenheit_converter.py) • [Simple Interest](Day%202/simple_interest.py) • [Square & Cube](Day%202/square_and_cube_of_number.py) • [Grade Calculator](Day%202/student_grade_calculator.py) |
+| **Day 3** | Jul 22, 2026 | Conditional Statements (Control Flow) | 🟢 Completed | [Notes](Day%203/Day3.md) • [ATM Check](Day%203/atm_eligibility_checker.py) • [Vote Check](Day%203/vote_age.py) • [Even/Odd](Day%203/even_odd.py) • [Pass/Fail](Day%203/pass_or_fail.py) • [Pos/Neg/Zero](Day%203/pov_neg_zero.py) • [Leap Year](Day%203/leap_year.py) • [Login System](Day%203/login_system.py) • [Grade Calc](Day%203/grade_calculator.py) • [Largest Number](Day%203/largest_of_3_numbers.py) • [Divisibility](Day%203/divisible_by_5_and_11.py) |
+| **Day 4** | Jul 23, 2026 | Loops & Control Statements | 🟢 Completed | [Notes](Day%204/Day4.md) • [Print 1-100](Day%204/print_1_to_100.py) • [Reverse 100-1](Day%204/reverse_counting_100_to_1.py) • [Even](Day%204/even_1_to_100.py) • [Odd](Day%204/odd_1_to_100.py) • [Sum of N](Day%204/sum_of_n.py) • [Factorial](Day%204/factorial.py) • [Multiplication](Day%204/multiplication_table.py) • [Squares](Day%204/squares_1_to_20.py) • [Cubes](Day%204/cube_1_to_20.py) • [Vowel Count](Day%204/vowel_count.py) |
+| **Day 5** | | *Upcoming* | ⚪ Pending | - |
 
 ---
 
