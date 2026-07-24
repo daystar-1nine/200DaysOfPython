@@ -2,7 +2,7 @@
 # Concept: Negative step limits in range(), decrementing counters in while loops
 
 print("--- Reverse counting using for loop ---")
-for i in range(100, 0, -1):
+for i in reversed(range(1,101)):
     print(i, end=" ")
 print()
 

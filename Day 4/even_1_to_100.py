@@ -2,8 +2,7 @@
 # Concept: Loop iteration with condition logic (modulo check for even numbers)
 
 print("--- Even numbers using for loop ---")
-for i in range(2, 101):
-    if i % 2 == 0:
+for i in range(2, 101, 2):
         print(i, end=" ")
 print()
 
