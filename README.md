@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white&style=for-the-badge" alt="Python Version">
   <img src="https://img.shields.io/badge/Challenge%20Status-In%20Progress-orange?style=for-the-badge" alt="Challenge Status">
-  <img src="https://img.shields.io/badge/Progress-6%20%2F%20200%20Days-green?style=for-the-badge" alt="Progress Badge">
+  <img src="https://img.shields.io/badge/Progress-7%20%2F%20200%20Days-green?style=for-the-badge" alt="Progress Badge">
 </p>
 
 A 200-day journey to master Python from beginner to advanced by learning daily, solving coding problems, building real-world projects, and sharing my progress publicly. This repository documents my growth, projects, and consistent learning—one day at a time. 🚀
@@ -11,9 +11,9 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 ---
 
 ## 📊 Challenge Progress
-**Current Progress:** `6 / 200 Days` (3.0%)
+**Current Progress:** `7 / 200 Days` (3.5%)
 ```text
-[█░░░░░░░░░░░░░░░░░░░] 3.0% Complete
+[█░░░░░░░░░░░░░░░░░░░] 3.5% Complete
 ```
 
 ---
@@ -96,6 +96,21 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
     ├── student_marks_management.py # Mini Project: Student Marks Management System
     ├── shopping_cart.py           # Challenge Project: Shopping Cart CLI App
     └── todo_list.py               # Bonus Challenge: To-Do List App
+└── Day 7/
+    ├── Day7.md                    # Tuples, Sets & Dictionaries notes
+    ├── remove_duplicates_set.py   # Remove duplicates using set
+    ├── set_union.py               # Find set union
+    ├── set_intersection.py        # Find set intersection
+    ├── create_student_dict.py     # Create student dictionary
+    ├── dict_keys.py               # Print dictionary keys
+    ├── dict_values.py             # Print dictionary values
+    ├── update_dict.py             # Update dictionary entries
+    ├── search_key.py              # Search key in dictionary
+    ├── word_frequency.py          # Word frequency counter
+    ├── list_to_tuple.py           # Type casting between list and tuple
+    ├── student_database.py        # Mini Project: Student Database System
+    ├── phone_book.py              # Challenge Project: Phone Book CLI App
+    └── inventory_management.py    # Bonus Challenge: Inventory Management System
 ```
 
 ---
@@ -190,7 +205,8 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 | **Day 4** | Jul 23, 2026 | Loops & Control Statements | 🟢 Completed | [Notes](Day%204/Day4.md) • [Print 1-100](Day%204/print_1_to_100.py) • [Reverse 100-1](Day%204/reverse_counting_100_to_1.py) • [Even](Day%204/even_1_to_100.py) • [Odd](Day%204/odd_1_to_100.py) • [Sum of N](Day%204/sum_of_n.py) • [Factorial](Day%204/factorial.py) • [Multiplication](Day%204/multiplication_table.py) • [Squares](Day%204/squares_1_to_20.py) • [Cubes](Day%204/cube_1_to_20.py) • [Vowel Count](Day%204/vowel_count.py) |
 | **Day 5** | Jul 24, 2026 | Functions | 🟢 Completed | [Notes](Day%205/Day5.md) • [Hello World](Day%205/print_hello_world.py) • [Add Two Numbers](Day%205/add_two_numbers.py) • [Square](Day%205/square_of_number.py) • [Cube](Day%205/cube_of_number.py) • [Even/Odd](Day%205/even_or_odd.py) • [Largest of 3](Day%205/largest_of_three.py) • [Circle Area](Day%205/area_of_circle.py) • [Factorial](Day%205/factorial_calc.py) • [Reverse String](Day%205/reverse_string.py) • [Count Vowels](Day%205/count_vowels.py) |
 | **Day 6** | Jul 25, 2026 | Lists & Operations | 🟢 Completed | [Notes](Day%206/Day6.md) • [Largest](Day%206/largest_number.py) • [Smallest](Day%206/smallest_number.py) • [Sum](Day%206/sum_of_list.py) • [Average](Day%206/average_of_list.py) • [Even/Odd Count](Day%206/count_even_odd.py) • [Reverse](Day%206/reverse_list.py) • [Sort](Day%206/sort_list.py) • [Deduplicate](Day%206/remove_duplicates.py) • [Search](Day%206/search_item.py) • [Marks System](Day%206/student_marks_management.py) • [Shopping Cart](Day%206/shopping_cart.py) • [To-Do App](Day%206/todo_list.py) |
-| **Day 7** | | *Upcoming* | ⚪ Pending | - |
+| **Day 7** | Jul 26, 2026 | Tuples, Sets & Dictionaries | 🟢 Completed | [Notes](Day%207/Day7.md) • [Set Deduplicate](Day%207/remove_duplicates_set.py) • [Union](Day%207/set_union.py) • [Intersection](Day%207/set_intersection.py) • [Student Dict](Day%207/create_student_dict.py) • [Keys](Day%207/dict_keys.py) • [Values](Day%207/dict_values.py) • [Update Dict](Day%207/update_dict.py) • [Search Key](Day%207/search_key.py) • [Word Frequency](Day%207/word_frequency.py) • [List ↔ Tuple](Day%207/list_to_tuple.py) • [Student DB](Day%207/student_database.py) • [Phone Book](Day%207/phone_book.py) • [Inventory System](Day%207/inventory_management.py) |
+| **Day 8** | | *Upcoming* | ⚪ Pending | - |
 
 ---
 
