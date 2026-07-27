@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white&style=for-the-badge" alt="Python Version">
   <img src="https://img.shields.io/badge/Challenge%20Status-In%20Progress-orange?style=for-the-badge" alt="Challenge Status">
-  <img src="https://img.shields.io/badge/Progress-7%20%2F%20200%20Days-green?style=for-the-badge" alt="Progress Badge">
+  <img src="https://img.shields.io/badge/Progress-8%20%2F%20200%20Days-green?style=for-the-badge" alt="Progress Badge">
 </p>
 
 A 200-day journey to master Python from beginner to advanced by learning daily, solving coding problems, building real-world projects, and sharing my progress publicly. This repository documents my growth, projects, and consistent learning—one day at a time. 🚀
@@ -11,9 +11,9 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 ---
 
 ## 📊 Challenge Progress
-**Current Progress:** `7 / 200 Days` (3.5%)
+**Current Progress:** `8 / 200 Days` (4.0%)
 ```text
-[█░░░░░░░░░░░░░░░░░░░] 3.5% Complete
+[█░░░░░░░░░░░░░░░░░░░] 4.0% Complete
 ```
 
 ---
@@ -111,6 +111,21 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
     ├── student_database.py        # Mini Project: Student Database System
     ├── phone_book.py              # Challenge Project: Phone Book CLI App
     └── inventory_management.py    # Bonus Challenge: Inventory Management System
+└── Day 8/
+    ├── Day8.md                    # Strings & Text Processing notes
+    ├── reverse_string.py          # Reverse a string
+    ├── palindrome_check.py        # Check if string is a palindrome
+    ├── vowels_consonants_count.py # Count vowels and consonants
+    ├── word_count.py              # Count words in a sentence
+    ├── remove_spaces.py           # Remove all spaces from string
+    ├── replace_word.py            # Replace word in sentence
+    ├── starts_with_letter.py      # Check starting letter
+    ├── char_frequency.py          # Character frequency counter
+    ├── longest_word.py            # Find longest word in sentence
+    ├── anagram_check.py           # Anagram checker
+    ├── password_strength_checker.py # Mini Project: Password Strength Checker
+    ├── text_analyzer.py           # Challenge Project: Text Analyzer
+    └── email_validator.py         # Bonus Challenge: Email Validator
 ```
 
 ---
@@ -206,7 +221,8 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 | **Day 5** | Jul 24, 2026 | Functions | 🟢 Completed | [Notes](Day%205/Day5.md) • [Hello World](Day%205/print_hello_world.py) • [Add Two Numbers](Day%205/add_two_numbers.py) • [Square](Day%205/square_of_number.py) • [Cube](Day%205/cube_of_number.py) • [Even/Odd](Day%205/even_or_odd.py) • [Largest of 3](Day%205/largest_of_three.py) • [Circle Area](Day%205/area_of_circle.py) • [Factorial](Day%205/factorial_calc.py) • [Reverse String](Day%205/reverse_string.py) • [Count Vowels](Day%205/count_vowels.py) |
 | **Day 6** | Jul 25, 2026 | Lists & Operations | 🟢 Completed | [Notes](Day%206/Day6.md) • [Largest](Day%206/largest_number.py) • [Smallest](Day%206/smallest_number.py) • [Sum](Day%206/sum_of_list.py) • [Average](Day%206/average_of_list.py) • [Even/Odd Count](Day%206/count_even_odd.py) • [Reverse](Day%206/reverse_list.py) • [Sort](Day%206/sort_list.py) • [Deduplicate](Day%206/remove_duplicates.py) • [Search](Day%206/search_item.py) • [Marks System](Day%206/student_marks_management.py) • [Shopping Cart](Day%206/shopping_cart.py) • [To-Do App](Day%206/todo_list.py) |
 | **Day 7** | Jul 26, 2026 | Tuples, Sets & Dictionaries | 🟢 Completed | [Notes](Day%207/Day7.md) • [Set Deduplicate](Day%207/remove_duplicates_set.py) • [Union](Day%207/set_union.py) • [Intersection](Day%207/set_intersection.py) • [Student Dict](Day%207/create_student_dict.py) • [Keys](Day%207/dict_keys.py) • [Values](Day%207/dict_values.py) • [Update Dict](Day%207/update_dict.py) • [Search Key](Day%207/search_key.py) • [Word Frequency](Day%207/word_frequency.py) • [List ↔ Tuple](Day%207/list_to_tuple.py) • [Student DB](Day%207/student_database.py) • [Phone Book](Day%207/phone_book.py) • [Inventory System](Day%207/inventory_management.py) |
-| **Day 8** | | *Upcoming* | ⚪ Pending | - |
+| **Day 8** | Jul 27, 2026 | Strings & Text Manipulation | 🟢 Completed | [Notes](Day%208/Day8.md) • [Reverse String](Day%208/reverse_string.py) • [Palindrome](Day%208/palindrome_check.py) • [Vowels/Consonants](Day%208/vowels_consonants_count.py) • [Word Count](Day%208/word_count.py) • [Remove Spaces](Day%208/remove_spaces.py) • [Replace Word](Day%208/replace_word.py) • [Starts With](Day%208/starts_with_letter.py) • [Char Frequency](Day%208/char_frequency.py) • [Longest Word](Day%208/longest_word.py) • [Anagram](Day%208/anagram_check.py) • [Password Checker](Day%208/password_strength_checker.py) • [Text Analyzer](Day%208/text_analyzer.py) • [Email Validator](Day%208/email_validator.py) |
+| **Day 9** | | *Upcoming* | ⚪ Pending | - |
 
 ---
 
