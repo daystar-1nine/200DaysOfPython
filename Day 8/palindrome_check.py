@@ -9,6 +9,6 @@ def is_palindrome(text):
 input_str = input("Enter a word or sentence: ")
 
 if is_palindrome(input_str):
-    print(f"✅ '{input_str}' is a Palindrome!")
+    print(f"[PASS] '{input_str}' is a Palindrome!")
 else:
-    print(f"❌ '{input_str}' is NOT a Palindrome.")
+    print(f"[FAIL] '{input_str}' is NOT a Palindrome.")

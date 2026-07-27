@@ -5,7 +5,7 @@ def main():
     cart = ["Apple", "Milk", "Bread", "Eggs"]  # Pre-populated sample items
 
     while True:
-        print("\n--- 🛒 Shopping Cart ---")
+        print("\n--- Shopping Cart ---")
         print("1. Add Item")
         print("2. Remove Item")
         print("3. View Cart")

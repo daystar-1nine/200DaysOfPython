@@ -38,11 +38,9 @@ def main():
     reasons = check_password_strength(password)
 
     if not reasons:
-        print("
-Password Strength: Strong ✅")
+        print("\nPassword Strength: Strong [PASS]")
     else:
-        print("
-Password Strength: Weak ❌")
+        print("\nPassword Strength: Weak [FAIL]")
         print("Reason(s):")
         for reason in reasons:
             print(f" - {reason}")

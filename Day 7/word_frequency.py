@@ -11,7 +11,6 @@ for word in words:
     # Increment count if word exists, otherwise default to 0 + 1
     word_count[word] = word_count.get(word, 0) + 1
 
-print("
---- Word Frequency ---")
+print("\n--- Word Frequency ---")
 for word, count in word_count.items():
     print(f"'{word}': {count} time(s)")

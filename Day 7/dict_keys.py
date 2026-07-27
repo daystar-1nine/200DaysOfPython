@@ -11,7 +11,6 @@ student = {
 
 print("Dictionary Keys list:", list(student.keys()))
 
-print("
---- Iterating through Keys ---")
+print("\n--- Iterating through Keys ---")
 for key in student.keys():
     print("Key:", key)

@@ -7,7 +7,6 @@ new_word = input("Enter replacement word: ")
 
 updated_sentence = sentence.replace(old_word, new_word)
 
-print("
---- Updated Result ---")
+print("\n--- Updated Result ---")
 print("Original:", sentence)
 print("Updated :", updated_sentence)

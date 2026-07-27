@@ -27,7 +27,7 @@ def validate_email(email):
     if not domain.endswith(valid_extensions):
         return False, f"Domain extension must end with one of {valid_extensions}."
 
-    return True, "Valid Email ✅"
+    return True, "Valid Email [PASS]"
 
 def main():
     print("====================================")
@@ -38,11 +38,9 @@ def main():
     is_valid, message = validate_email(email_input)
 
     if is_valid:
-        print(f"
-{message}")
+        print(f"\n{message}")
     else:
-        print(f"
-Invalid Email ❌")
+        print("\nInvalid Email [FAIL]")
         print(f"Reason: {message}")
 
 if __name__ == "__main__":

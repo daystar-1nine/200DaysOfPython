@@ -9,6 +9,6 @@ if not text or not target_letter:
 else:
     # Perform case-insensitive check
     if text.lower().startswith(target_letter.lower()):
-        print(f"✅ '{text}' starts with '{target_letter}'.")
+        print(f"[PASS] '{text}' starts with '{target_letter}'.")
     else:
-        print(f"❌ '{text}' does NOT start with '{target_letter}'.")
+        print(f"[FAIL] '{text}' does NOT start with '{target_letter}'.")

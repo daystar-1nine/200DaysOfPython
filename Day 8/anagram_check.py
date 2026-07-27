@@ -13,6 +13,6 @@ str1 = input("Enter first string: ")
 str2 = input("Enter second string: ")
 
 if is_anagram(str1, str2):
-    print(f"✅ '{str1}' and '{str2}' ARE Anagrams!")
+    print(f"[PASS] '{str1}' and '{str2}' ARE Anagrams!")
 else:
-    print(f"❌ '{str1}' and '{str2}' are NOT Anagrams.")
+    print(f"[FAIL] '{str1}' and '{str2}' are NOT Anagrams.")

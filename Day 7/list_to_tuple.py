@@ -10,8 +10,7 @@ print("Converted Tuple:", languages_tuple, type(languages_tuple))
 
 # Step 2: Tuple to List
 fixed_coordinates = (19.0760, 72.8777)  # Mumbai coordinates
-print("
-Original Tuple:", fixed_coordinates, type(fixed_coordinates))
+print("\nOriginal Tuple:", fixed_coordinates, type(fixed_coordinates))
 
 coordinates_list = list(fixed_coordinates)
 print("Converted List:", coordinates_list, type(coordinates_list))

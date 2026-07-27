@@ -11,7 +11,7 @@ def display_inventory():
     print("\n=======================================================")
     print("              INVENTORY MANAGEMENT SYSTEM")
     print("=======================================================")
-    print(f"{'Product':<15} {'Quantity':<10} {'Price (₹)':<12} {'Total Value (₹)':<15}")
+    print(f"{'Product':<15} {'Quantity':<10} {'Price (Rs.)':<12} {'Total Value (Rs.)':<15}")
     print("-------------------------------------------------------")
     
     grand_total = 0
@@ -23,7 +23,7 @@ def display_inventory():
         print(f"{product:<15} {qty:<10} {price:<12} {total:<15}")
     
     print("-------------------------------------------------------")
-    print(f"GRAND TOTAL INVENTORY VALUE: ₹{grand_total:,}")
+    print(f"GRAND TOTAL INVENTORY VALUE: Rs.{grand_total:,}")
     print("=======================================================")
 
 def add_or_update_product():
@@ -33,7 +33,7 @@ def add_or_update_product():
         return
     try:
         qty = int(input("Enter Quantity: "))
-        price = float(input("Enter Price per unit (₹): "))
+        price = float(input("Enter Price per unit (Rs.): "))
         
         inventory[product] = {"quantity": qty, "price": price}
         print(f"Product '{product}' added/updated successfully!")

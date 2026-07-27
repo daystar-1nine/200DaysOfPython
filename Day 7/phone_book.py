@@ -8,7 +8,7 @@ contacts = {
 
 def main():
     while True:
-        print("\n--- 📞 Phone Book Application ---")
+        print("\n--- Phone Book Application ---")
         print("1. Add Contact")
         print("2. Search Contact")
         print("3. Delete Contact")
@@ -29,7 +29,7 @@ def main():
         elif choice == "2":
             name = input("Enter Contact Name to search: ").strip()
             if name in contacts:
-                print(f"📞 {name}: {contacts[name]}")
+                print(f"Contact {name}: {contacts[name]}")
             else:
                 print(f"Contact '{name}' not found.")
 
@@ -47,7 +47,7 @@ def main():
             else:
                 print("\n------ CONTACT LIST ------")
                 for name, phone in contacts.items():
-                    print(f"👤 {name:<15} : 📞 {phone}")
+                    print(f"Contact {name:<15} : {phone}")
 
         elif choice == "5":
             print("Exiting Phone Book. Goodbye!")

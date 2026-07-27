@@ -10,7 +10,7 @@ def main():
     ]
 
     while True:
-        print("\n--- 📝 To-Do List App ---")
+        print("\n--- To-Do List App ---")
         print("1. View Tasks")
         print("2. Add Task")
         print("3. Mark Task as Completed")
@@ -25,7 +25,7 @@ def main():
             else:
                 print("\nYour Tasks:")
                 for idx, task in enumerate(tasks, start=1):
-                    status = "[✓] Completed" if task["completed"] else "[ ] Pending"
+                    status = "[X] Completed" if task["completed"] else "[ ] Pending"
                     print(f"{idx}. {task['title']} - {status}")
 
         elif choice == "2":
@@ -65,7 +65,7 @@ def main():
                 print("Please enter a valid number.")
 
         elif choice == "5":
-            print("Goodbye! Stay productive! 🚀")
+            print("Goodbye! Stay productive!")
             break
         else:
             print("Invalid option. Please enter 1-5.")

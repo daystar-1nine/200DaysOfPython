@@ -21,8 +21,7 @@ def analyze_text(text):
     most_frequent_char = max(freq, key=freq.get) if freq else "None"
     most_frequent_count = freq.get(most_frequent_char, 0)
 
-    print("
-====================================")
+    print("\n====================================")
     print("           TEXT ANALYZER            ")
     print("====================================")
     print(f"Total Characters        : {total_chars}")
@@ -35,8 +34,7 @@ def analyze_text(text):
     print("====================================")
 
 def main():
-    paragraph = input("Enter a paragraph or text:
-")
+    paragraph = input("Enter a paragraph or text:\n")
     if not paragraph:
         print("Empty text provided!")
     else:
