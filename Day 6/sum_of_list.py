@@ -1,5 +1,9 @@
-# Program: Find the sum of all numbers in a list
-# Concept: Accumulator variable in loops vs built-in sum()
+# ==============================================================================
+# Program    : Find the sum of all numbers in a list
+# Objective  : Practice and master find the sum of all numbers in a list logic.
+# Concept    : Accumulator variable in loops vs built-in sum()
+# Why Used   : Repeats execution for a known sequence or range of items efficiently. Stores ordered, mutable collections of items allowing dynamic modification.
+# ==============================================================================
 
 numbers = [10, 20, 30, 40, 50]
 print("Original List:", numbers)

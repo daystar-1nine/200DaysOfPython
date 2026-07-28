@@ -1,5 +1,9 @@
-# Program: Find the largest of three numbers using a function
-# Concept: Multi-parameter functions and comparison logic
+# ==============================================================================
+# Program    : Find the largest of three numbers using a function
+# Objective  : Practice and master find the largest of three numbers using a function logic.
+# Concept    : Multi-parameter functions and comparison logic
+# Why Used   : Encapsulates reusable modular logic to enforce DRY (Don't Repeat Yourself) principle. Pauses execution to capture interactive user input from standard input.
+# ==============================================================================
 
 def find_largest(a, b, c):
     """Returns the maximum of three numbers"""

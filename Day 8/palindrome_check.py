@@ -1,5 +1,9 @@
-# Program: Check if a string is a palindrome
-# Concept: String normalization (case-insensitive & whitespace-stripping) and comparison
+# ==============================================================================
+# Program    : Check if a string is a palindrome
+# Objective  : Practice and master check if a string is a palindrome logic.
+# Concept    : String normalization (case-insensitive & whitespace-stripping) and comparison
+# Why Used   : Repeats execution for a known sequence or range of items efficiently. Encapsulates reusable modular logic to enforce DRY (Don't Repeat Yourself) principle.
+# ==============================================================================
 
 def is_palindrome(text):
     # Clean string: lowercase and remove non-alphanumeric characters

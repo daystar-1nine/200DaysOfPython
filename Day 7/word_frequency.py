@@ -1,5 +1,9 @@
-# Program: Count word frequency in a sentence
-# Concept: Building frequency counter dictionary using loop and .get()
+# ==============================================================================
+# Program    : Count word frequency in a sentence
+# Objective  : Practice and master count word frequency in a sentence logic.
+# Concept    : Building frequency counter dictionary using loop and .get()
+# Why Used   : Repeats execution for a known sequence or range of items efficiently. Encapsulates reusable modular logic to enforce DRY (Don't Repeat Yourself) principle.
+# ==============================================================================
 
 sentence = "python is easy and python is powerful and python is fun"
 print("Sentence:", sentence)

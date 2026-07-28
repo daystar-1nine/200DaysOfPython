@@ -1,5 +1,9 @@
-# Program: Remove duplicates from a list
-# Concept: Using set() vs maintaining original order with a loop
+# ==============================================================================
+# Program    : Remove duplicates from a list
+# Objective  : Practice and master remove duplicates from a list logic.
+# Concept    : Using set() vs maintaining original order with a loop
+# Why Used   : Repeats execution for a known sequence or range of items efficiently. Stores ordered, mutable collections of items allowing dynamic modification.
+# ==============================================================================
 
 numbers = [10, 20, 10, 30, 40, 20, 50, 30, 60]
 print("Original List with Duplicates:", numbers)

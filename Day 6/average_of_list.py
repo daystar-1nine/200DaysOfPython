@@ -1,5 +1,9 @@
-# Program: Find the average of numbers in a list
-# Concept: Sum divided by total count (len())
+# ==============================================================================
+# Program    : Find the average of numbers in a list
+# Objective  : Practice and master find the average of numbers in a list logic.
+# Concept    : Sum divided by total count (len())
+# Why Used   : Stores ordered, mutable collections of items allowing dynamic modification.
+# ==============================================================================
 
 numbers = [85, 90, 78, 92, 88]
 print("Marks List:", numbers)

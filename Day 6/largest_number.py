@@ -1,5 +1,9 @@
-# Program: Find the largest number in a list
-# Concept: Iterating over list items to track maximum value vs built-in max()
+# ==============================================================================
+# Program    : Find the largest number in a list
+# Objective  : Practice and master find the largest number in a list logic.
+# Concept    : Iterating over list items to track maximum value vs built-in max()
+# Why Used   : Repeats execution for a known sequence or range of items efficiently. Stores ordered, mutable collections of items allowing dynamic modification.
+# ==============================================================================
 
 numbers = [23, 89, 12, 56, 99, 45, 78]
 print("Original List:", numbers)

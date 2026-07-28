@@ -1,5 +1,9 @@
-# Program: Remove duplicates using a set
-# Concept: Converting list to set automatically removes duplicates
+# ==============================================================================
+# Program    : Remove duplicates using a set
+# Objective  : Practice and master remove duplicates using a set logic.
+# Concept    : Converting list to set automatically removes duplicates
+# Why Used   : Stores ordered, mutable collections of items allowing dynamic modification. Automatically eliminates duplicate elements and enables set theory operations.
+# ==============================================================================
 
 numbers = [10, 20, 30, 20, 10, 40, 50, 30, 60]
 print("Original List with Duplicates:", numbers)

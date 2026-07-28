@@ -1,5 +1,9 @@
-# Program: Add two numbers using a function
-# Concept: Function parameters, arguments, and return values
+# ==============================================================================
+# Program    : Add two numbers using a function
+# Objective  : Practice and master add two numbers using a function logic.
+# Concept    : Function parameters, arguments, and return values
+# Why Used   : Encapsulates reusable modular logic to enforce DRY (Don't Repeat Yourself) principle. Pauses execution to capture interactive user input from standard input.
+# ==============================================================================
 
 def add_numbers(num1, num2):
     """Returns the sum of two numbers"""

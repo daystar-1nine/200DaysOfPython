@@ -1,5 +1,9 @@
-# Program: Count even and odd numbers in a list
-# Concept: Loop iteration combined with modulo operator (%)
+# ==============================================================================
+# Program    : Count even and odd numbers in a list
+# Objective  : Practice and master count even and odd numbers in a list logic.
+# Concept    : Loop iteration combined with modulo operator (%)
+# Why Used   : Repeats execution for a known sequence or range of items efficiently. Stores ordered, mutable collections of items allowing dynamic modification.
+# ==============================================================================
 
 numbers = [12, 7, 19, 24, 33, 40, 55, 62, 81, 90]
 print("Original List:", numbers)

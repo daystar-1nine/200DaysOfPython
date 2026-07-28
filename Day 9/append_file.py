@@ -1,5 +1,9 @@
-# Program: Append new text to an existing file
-# Concept: Opening file in 'a' mode to append data without overwriting
+# ==============================================================================
+# Program    : Append new text to an existing file
+# Objective  : Practice and master append new text to an existing file logic.
+# Concept    : Opening file in 'a' mode to append data without overwriting
+# Why Used   : Establishes a file stream for persistent data reading, writing, or appending.
+# ==============================================================================
 
 filename = "append_demo.txt"
 

@@ -1,5 +1,9 @@
-# Program: Count lines in a file
-# Concept: Iterating line by line to count total lines
+# ==============================================================================
+# Program    : Count lines in a file
+# Objective  : Practice and master count lines in a file logic.
+# Concept    : Iterating line by line to count total lines
+# Why Used   : Repeats execution for a known sequence or range of items efficiently. Establishes a file stream for persistent data reading, writing, or appending.
+# ==============================================================================
 
 filename = "sample_lines.txt"
 

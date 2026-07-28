@@ -1,5 +1,9 @@
-# Program: Print dictionary values
-# Concept: Using .values() method and loop iteration over values
+# ==============================================================================
+# Program    : Print dictionary values
+# Objective  : Practice and master print dictionary values logic.
+# Concept    : Using .values() method and loop iteration over values
+# Why Used   : Repeats execution for a known sequence or range of items efficiently. Stores ordered, mutable collections of items allowing dynamic modification.
+# ==============================================================================
 
 student = {
     "name": "Suraj",

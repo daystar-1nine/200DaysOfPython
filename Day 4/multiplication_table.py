@@ -1,5 +1,9 @@
-# Program: Print Multiplication Table
-# Concept: Basic math operations within loops, loops with start/stop limits
+# ==============================================================================
+# Program    : Print Multiplication Table
+# Objective  : Practice and master print multiplication table logic.
+# Concept    : Basic math operations within loops, loops with start/stop limits
+# Why Used   : Repeats execution for a known sequence or range of items efficiently. Executes continuously as long as the specified boolean condition remains True.
+# ==============================================================================
 
 num = int(input("Enter Number: "))
 

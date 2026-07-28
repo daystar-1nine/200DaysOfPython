@@ -1,5 +1,9 @@
-# Program: Count Vowels in a Word
-# Concept: String traversal, character membership check, case sensitivity handling, loop counters
+# ==============================================================================
+# Program    : Count Vowels in a Word
+# Objective  : Practice and master count vowels in a word logic.
+# Concept    : String traversal, character membership check, case sensitivity handling, loop counters
+# Why Used   : Repeats execution for a known sequence or range of items efficiently. Executes continuously as long as the specified boolean condition remains True.
+# ==============================================================================
 
 word = input("Enter a word: ")
 

@@ -1,5 +1,9 @@
-# Program: Search for a key in a dictionary
-# Concept: Checking key existence using 'in' operator and .get()
+# ==============================================================================
+# Program    : Search for a key in a dictionary
+# Objective  : Practice and master search for a key in a dictionary logic.
+# Concept    : Checking key existence using 'in' operator and .get()
+# Why Used   : Pauses execution to capture interactive user input from standard input. Evaluates conditional expressions to control program execution flow.
+# ==============================================================================
 
 phone_book = {
     "Suraj": "9876543210",

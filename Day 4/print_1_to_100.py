@@ -1,5 +1,9 @@
-# Program: Print Numbers from 1 to 100
-# Concept: Simple loop iterations (for and while loops)
+# ==============================================================================
+# Program    : Print Numbers from 1 to 100
+# Objective  : Practice and master print numbers from 1 to 100 logic.
+# Concept    : Simple loop iterations (for and while loops)
+# Why Used   : Repeats execution for a known sequence or range of items efficiently. Executes continuously as long as the specified boolean condition remains True.
+# ==============================================================================
 
 print("--- Printing 1 to 100 using while loop ---")
 count = 1

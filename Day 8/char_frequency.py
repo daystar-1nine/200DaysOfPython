@@ -1,5 +1,9 @@
-# Program: Count the frequency of each character in a string
-# Concept: Dictionary-based frequency counting
+# ==============================================================================
+# Program    : Count the frequency of each character in a string
+# Objective  : Practice and master count the frequency of each character in a string logic.
+# Concept    : Dictionary-based frequency counting
+# Why Used   : Repeats execution for a known sequence or range of items efficiently. Pauses execution to capture interactive user input from standard input.
+# ==============================================================================
 
 text = input("Enter a string: ")
 

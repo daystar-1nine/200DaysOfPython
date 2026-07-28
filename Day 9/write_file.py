@@ -1,5 +1,9 @@
-# Program: Write text to a file
-# Concept: Writing text using write() and writelines() methods
+# ==============================================================================
+# Program    : Write text to a file
+# Objective  : Practice and master write text to a file logic.
+# Concept    : Writing text using write() and writelines() methods
+# Why Used   : Establishes a file stream for persistent data reading, writing, or appending. Evaluates conditional expressions to control program execution flow.
+# ==============================================================================
 
 filename = "written_notes.txt"
 

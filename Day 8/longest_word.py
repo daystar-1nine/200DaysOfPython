@@ -1,5 +1,9 @@
-# Program: Find the longest word in a sentence
-# Concept: Tokenization using split() and max() with key=len
+# ==============================================================================
+# Program    : Find the longest word in a sentence
+# Objective  : Practice and master find the longest word in a sentence logic.
+# Concept    : Tokenization using split() and max() with key=len
+# Why Used   : Repeats execution for a known sequence or range of items efficiently. Pauses execution to capture interactive user input from standard input.
+# ==============================================================================
 
 sentence = input("Enter a sentence: ").strip()
 

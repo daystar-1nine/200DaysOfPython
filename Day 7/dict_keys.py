@@ -1,5 +1,9 @@
-# Program: Print dictionary keys
-# Concept: Using .keys() method and loop iteration over dictionary keys
+# ==============================================================================
+# Program    : Print dictionary keys
+# Objective  : Practice and master print dictionary keys logic.
+# Concept    : Using .keys() method and loop iteration over dictionary keys
+# Why Used   : Repeats execution for a known sequence or range of items efficiently. Stores ordered, mutable collections of items allowing dynamic modification.
+# ==============================================================================
 
 student = {
     "name": "Suraj",

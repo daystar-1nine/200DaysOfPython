@@ -1,5 +1,9 @@
-# Program: Sort a list in ascending and descending order
-# Concept: In-place sort() vs sorted() function
+# ==============================================================================
+# Program    : Sort a list in ascending and descending order
+# Objective  : Practice and master sort a list in ascending and descending order logic.
+# Concept    : In-place sort() vs sorted() function
+# Why Used   : Stores ordered, mutable collections of items allowing dynamic modification.
+# ==============================================================================
 
 numbers = [42, 15, 88, 3, 67, 29, 91]
 print("Original List:", numbers)

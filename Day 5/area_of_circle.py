@@ -1,5 +1,9 @@
-# Program: Calculate the area of a circle using a function
-# Concept: Mathematical formulas inside functions
+# ==============================================================================
+# Program    : Calculate the area of a circle using a function
+# Objective  : Practice and master calculate the area of a circle using a function logic.
+# Concept    : Mathematical formulas inside functions
+# Why Used   : Repeats execution for a known sequence or range of items efficiently. Encapsulates reusable modular logic to enforce DRY (Don't Repeat Yourself) principle.
+# ==============================================================================
 
 def calculate_area(radius):
     """Returns the area of a circle for a given radius"""

@@ -1,5 +1,9 @@
-# Challenge Project: Personal Diary
-# Features: Write Entry, View Diary, Exit (Stored in diary.txt with Date/Time)
+# ==============================================================================
+# Program    : Challenge Project: Personal Diary
+# Objective  : Practice and master challenge project: personal diary logic.
+# Concept    : Write Entry, View Diary, Exit (Stored in diary.txt with Date/Time)
+# Why Used   : Executes continuously as long as the specified boolean condition remains True. Encapsulates reusable modular logic to enforce DRY (Don't Repeat Yourself) principle.
+# ==============================================================================
 
 import os
 from datetime import datetime

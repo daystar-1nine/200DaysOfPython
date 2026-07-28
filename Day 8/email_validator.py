@@ -1,5 +1,9 @@
-# Bonus Challenge: Email Validator
-# Features: Validates email format (@ count, domain extension, spaces, username)
+# ==============================================================================
+# Program    : Bonus Challenge: Email Validator
+# Objective  : Practice and master bonus challenge: email validator logic.
+# Concept    : Validates email format (@ count, domain extension, spaces, username)
+# Why Used   : Repeats execution for a known sequence or range of items efficiently. Encapsulates reusable modular logic to enforce DRY (Don't Repeat Yourself) principle.
+# ==============================================================================
 
 def validate_email(email):
     email = email.strip()

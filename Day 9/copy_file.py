@@ -1,5 +1,9 @@
-# Program: Copy one file into another
-# Concept: Reading source file content and writing to destination file
+# ==============================================================================
+# Program    : Copy one file into another
+# Objective  : Practice and master copy one file into another logic.
+# Concept    : Reading source file content and writing to destination file
+# Why Used   : Establishes a file stream for persistent data reading, writing, or appending.
+# ==============================================================================
 
 source_file = "source.txt"
 dest_file = "destination.txt"

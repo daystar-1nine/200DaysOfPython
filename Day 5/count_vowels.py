@@ -1,5 +1,9 @@
-# Program: Count vowels in a string using a function
-# Concept: Iteration, membership operators, and character analysis in functions
+# ==============================================================================
+# Program    : Count vowels in a string using a function
+# Objective  : Practice and master count vowels in a string using a function logic.
+# Concept    : Iteration, membership operators, and character analysis in functions
+# Why Used   : Repeats execution for a known sequence or range of items efficiently. Encapsulates reusable modular logic to enforce DRY (Don't Repeat Yourself) principle.
+# ==============================================================================
 
 def count_vowels(text):
     """Returns the number of vowels (a, e, i, o, u) in a string"""

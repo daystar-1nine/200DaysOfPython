@@ -1,5 +1,9 @@
-# Program: Convert list to tuple and tuple to list
-# Concept: Type casting between tuple() and list() constructors
+# ==============================================================================
+# Program    : Convert list to tuple and tuple to list
+# Objective  : Practice and master convert list to tuple and tuple to list logic.
+# Concept    : Type casting between tuple() and list() constructors
+# Why Used   : Stores ordered, mutable collections of items allowing dynamic modification. Provides an immutable, memory-efficient collection for fixed data.
+# ==============================================================================
 
 # Step 1: List to Tuple
 programming_languages = ["Python", "Java", "C++", "JavaScript"]

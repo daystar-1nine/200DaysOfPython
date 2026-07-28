@@ -1,5 +1,9 @@
-# Program: Count characters in a file
-# Concept: Reading file content and calculating character length
+# ==============================================================================
+# Program    : Count characters in a file
+# Objective  : Practice and master count characters in a file logic.
+# Concept    : Reading file content and calculating character length
+# Why Used   : Establishes a file stream for persistent data reading, writing, or appending.
+# ==============================================================================
 
 filename = "sample_chars.txt"
 

@@ -1,5 +1,9 @@
-# Program: Sum of Natural Numbers up to N
-# Concept: Accumulation (addition), loop bounds, user input processing
+# ==============================================================================
+# Program    : Sum of Natural Numbers up to N
+# Objective  : Practice and master sum of natural numbers up to n logic.
+# Concept    : Accumulation (addition), loop bounds, user input processing
+# Why Used   : Repeats execution for a known sequence or range of items efficiently. Executes continuously as long as the specified boolean condition remains True.
+# ==============================================================================
 
 num = int(input("Enter number: "))
 

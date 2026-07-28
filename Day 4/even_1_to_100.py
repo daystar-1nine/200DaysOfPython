@@ -1,5 +1,9 @@
-# Program: Print Even Numbers from 1 to 100
-# Concept: Loop iteration with condition logic (modulo check for even numbers)
+# ==============================================================================
+# Program    : Print Even Numbers from 1 to 100
+# Objective  : Practice and master print even numbers from 1 to 100 logic.
+# Concept    : Loop iteration with condition logic (modulo check for even numbers)
+# Why Used   : Repeats execution for a known sequence or range of items efficiently. Executes continuously as long as the specified boolean condition remains True.
+# ==============================================================================
 
 print("--- Even numbers using for loop ---")
 for i in range(2, 101, 2):

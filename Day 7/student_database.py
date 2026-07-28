@@ -1,5 +1,9 @@
-# Mini Project: Student Database System
-# Features: Add Student, Delete Student, Update Student, Search Student, Display All Students
+# ==============================================================================
+# Program    : Mini Project: Student Database System
+# Objective  : Practice and master mini project: student database system logic.
+# Concept    : Add Student, Delete Student, Update Student, Search Student, Display All Students
+# Why Used   : Repeats execution for a known sequence or range of items efficiently. Executes continuously as long as the specified boolean condition remains True.
+# ==============================================================================
 
 students = {
     101: {"name": "Suraj", "marks": 91, "grade": "A+"},

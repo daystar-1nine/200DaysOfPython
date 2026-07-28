@@ -1,5 +1,9 @@
-# Program: Count words in a sentence
-# Concept: Using split() method to tokenize sentence by whitespace
+# ==============================================================================
+# Program    : Count words in a sentence
+# Objective  : Practice and master count words in a sentence logic.
+# Concept    : Using split() method to tokenize sentence by whitespace
+# Why Used   : Stores ordered, mutable collections of items allowing dynamic modification. Pauses execution to capture interactive user input from standard input.
+# ==============================================================================
 
 sentence = input("Enter a sentence: ").strip()
 

@@ -1,5 +1,9 @@
-# Program: Replace one word with another in a sentence
-# Concept: Using replace(old, new) method
+# ==============================================================================
+# Program    : Replace one word with another in a sentence
+# Objective  : Practice and master replace one word with another in a sentence logic.
+# Concept    : Using replace(old, new) method
+# Why Used   : Pauses execution to capture interactive user input from standard input.
+# ==============================================================================
 
 sentence = input("Enter original sentence: ")
 old_word = input("Enter word to replace: ")

@@ -1,5 +1,9 @@
-# Program: Create a new file
-# Concept: File creation using 'w' or 'x' mode and context manager
+# ==============================================================================
+# Program    : Create a new file
+# Objective  : Practice and master create a new file logic.
+# Concept    : File creation using 'w' or 'x' mode and context manager
+# Why Used   : Establishes a file stream for persistent data reading, writing, or appending.
+# ==============================================================================
 
 filename = "sample_created.txt"
 

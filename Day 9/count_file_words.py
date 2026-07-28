@@ -1,5 +1,9 @@
-# Program: Count words in a file
-# Concept: Reading file text and tokenizing words using split()
+# ==============================================================================
+# Program    : Count words in a file
+# Objective  : Practice and master count words in a file logic.
+# Concept    : Reading file text and tokenizing words using split()
+# Why Used   : Repeats execution for a known sequence or range of items efficiently. Establishes a file stream for persistent data reading, writing, or appending.
+# ==============================================================================
 
 filename = "sample_words.txt"
 

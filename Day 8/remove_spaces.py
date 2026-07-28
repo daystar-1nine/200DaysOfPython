@@ -1,5 +1,9 @@
-# Program: Remove all spaces from a string
-# Concept: Using replace(" ", "") vs "".join(split())
+# ==============================================================================
+# Program    : Remove all spaces from a string
+# Objective  : Practice and master remove all spaces from a string logic.
+# Concept    : Using replace(" ", "") vs "".join(split())
+# Why Used   : Pauses execution to capture interactive user input from standard input.
+# ==============================================================================
 
 text = input("Enter a sentence with spaces: ")
 

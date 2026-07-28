@@ -1,5 +1,9 @@
-# Program: Reverse a string
-# Concept: Slicing [::-1], reversed() function, and loop concatenation
+# ==============================================================================
+# Program    : Reverse a string
+# Objective  : Practice and master reverse a string logic.
+# Concept    : Slicing [::-1], reversed() function, and loop concatenation
+# Why Used   : Repeats execution for a known sequence or range of items efficiently. Pauses execution to capture interactive user input from standard input.
+# ==============================================================================
 
 user_str = input("Enter a string to reverse: ")
 

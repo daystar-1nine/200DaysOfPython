@@ -1,5 +1,9 @@
-# Mini Project: Student Record File System
-# Features: Add Student, View Students, Search Student, Exit (Stored in students.txt)
+# ==============================================================================
+# Program    : Mini Project: Student Record File System
+# Objective  : Practice and master mini project: student record file system logic.
+# Concept    : Add Student, View Students, Search Student, Exit (Stored in students.txt)
+# Why Used   : Repeats execution for a known sequence or range of items efficiently. Executes continuously as long as the specified boolean condition remains True.
+# ==============================================================================
 
 import os
 

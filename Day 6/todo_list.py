@@ -1,5 +1,9 @@
-# Bonus Challenge: To-Do List Application
-# Features: Add task, Remove task, Mark task completed, View tasks, Exit
+# ==============================================================================
+# Program    : Bonus Challenge: To-Do List Application
+# Objective  : Practice and master bonus challenge: to-do list application logic.
+# Concept    : Add task, Remove task, Mark task completed, View tasks, Exit
+# Why Used   : Repeats execution for a known sequence or range of items efficiently. Executes continuously as long as the specified boolean condition remains True.
+# ==============================================================================
 
 def main():
     # Each task is stored as a dictionary: {"title": task_name, "completed": True/False}

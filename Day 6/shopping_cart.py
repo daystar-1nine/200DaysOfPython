@@ -1,4 +1,10 @@
-# Challenge Project: Shopping Cart CLI Application
+# ==============================================================================
+# Program    : Challenge Project: Shopping Cart CLI Application
+# Objective  : Practice and master challenge project: shopping cart cli application logic.
+# Concept    : Core Concepts
+# Why Used   : Repeats execution for a known sequence or range of items efficiently. Executes continuously as long as the specified boolean condition remains True.
+# ==============================================================================
+
 # Menu: 1. Add Item, 2. Remove Item, 3. View Cart, 4. Search Item, 5. Exit
 
 def main():

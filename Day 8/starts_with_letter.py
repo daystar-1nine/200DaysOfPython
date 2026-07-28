@@ -1,5 +1,9 @@
-# Program: Check if a string starts with a given letter
-# Concept: Using startswith() method (case-insensitive check)
+# ==============================================================================
+# Program    : Check if a string starts with a given letter
+# Objective  : Practice and master check if a string starts with a given letter logic.
+# Concept    : Using startswith() method (case-insensitive check)
+# Why Used   : Repeats execution for a known sequence or range of items efficiently. Pauses execution to capture interactive user input from standard input.
+# ==============================================================================
 
 text = input("Enter a string: ").strip()
 target_letter = input("Enter target starting letter: ").strip()

@@ -1,5 +1,9 @@
-# Bonus Challenge: Inventory Management System
-# Features: Product, Quantity, Price, Calculate total inventory value
+# ==============================================================================
+# Program    : Bonus Challenge: Inventory Management System
+# Objective  : Practice and master bonus challenge: inventory management system logic.
+# Concept    : Product, Quantity, Price, Calculate total inventory value
+# Why Used   : Repeats execution for a known sequence or range of items efficiently. Executes continuously as long as the specified boolean condition remains True.
+# ==============================================================================
 
 inventory = {
     "Laptop": {"quantity": 5, "price": 65000},

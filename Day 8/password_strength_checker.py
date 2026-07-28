@@ -1,5 +1,9 @@
-# Mini Project: Password Strength Checker
-# Features: Checks min length (8), uppercase, lowercase, digit, and special character
+# ==============================================================================
+# Program    : Mini Project: Password Strength Checker
+# Objective  : Practice and master mini project: password strength checker logic.
+# Concept    : Checks min length (8), uppercase, lowercase, digit, and special character
+# Why Used   : Repeats execution for a known sequence or range of items efficiently. Encapsulates reusable modular logic to enforce DRY (Don't Repeat Yourself) principle.
+# ==============================================================================
 
 import string
 

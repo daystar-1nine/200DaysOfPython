@@ -1,5 +1,9 @@
-# Program: Read file contents
-# Concept: Demonstration of read(), readline(), and readlines() methods
+# ==============================================================================
+# Program    : Read file contents
+# Objective  : Practice and master read file contents logic.
+# Concept    : Demonstration of read(), readline(), and readlines() methods
+# Why Used   : Repeats execution for a known sequence or range of items efficiently. Establishes a file stream for persistent data reading, writing, or appending.
+# ==============================================================================
 
 filename = "read_demo.txt"
 

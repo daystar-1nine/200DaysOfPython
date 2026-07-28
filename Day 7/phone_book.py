@@ -1,4 +1,10 @@
-# Challenge Project: Phone Book Application
+# ==============================================================================
+# Program    : Challenge Project: Phone Book Application
+# Objective  : Practice and master challenge project: phone book application logic.
+# Concept    : Core Concepts
+# Why Used   : Repeats execution for a known sequence or range of items efficiently. Executes continuously as long as the specified boolean condition remains True.
+# ==============================================================================
+
 # Menu: 1 Add Contact, 2 Search Contact, 3 Delete Contact, 4 Display All, 5 Exit
 
 contacts = {

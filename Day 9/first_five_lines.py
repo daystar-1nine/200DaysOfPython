@@ -1,5 +1,9 @@
-# Program: Display only the first 5 lines of a file
-# Concept: Line-by-line reading with counter limit or itertools.islice
+# ==============================================================================
+# Program    : Display only the first 5 lines of a file
+# Objective  : Practice and master display only the first 5 lines of a file logic.
+# Concept    : Line-by-line reading with counter limit or itertools.islice
+# Why Used   : Repeats execution for a known sequence or range of items efficiently. Establishes a file stream for persistent data reading, writing, or appending.
+# ==============================================================================
 
 filename = "multi_lines.txt"
 

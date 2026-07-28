@@ -1,5 +1,9 @@
-# Program: Calculate Factorial of a Number
-# Concept: Accumulation (multiplicative), loop structures (for & while), and user input
+# ==============================================================================
+# Program    : Calculate Factorial of a Number
+# Objective  : Practice and master calculate factorial of a number logic.
+# Concept    : Accumulation (multiplicative), loop structures (for & while), and user input
+# Why Used   : Repeats execution for a known sequence or range of items efficiently. Executes continuously as long as the specified boolean condition remains True.
+# ==============================================================================
 
 # Step 1: Accept positive integer input from user
 num = int(input("Enter number: "))

@@ -1,5 +1,9 @@
-# Program: Reverse a list
-# Concept: List slicing [::-1] vs .reverse() method vs reversed()
+# ==============================================================================
+# Program    : Reverse a list
+# Objective  : Practice and master reverse a list logic.
+# Concept    : List slicing [::-1] vs .reverse() method vs reversed()
+# Why Used   : Stores ordered, mutable collections of items allowing dynamic modification. Evaluates conditional expressions to control program execution flow.
+# ==============================================================================
 
 numbers = [1, 2, 3, 4, 5, 6, 7]
 print("Original List:", numbers)

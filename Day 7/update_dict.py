@@ -1,5 +1,9 @@
-# Program: Update dictionary values and add new entries
-# Concept: Mutating dictionary entries and using .update() method
+# ==============================================================================
+# Program    : Update dictionary values and add new entries
+# Objective  : Practice and master update dictionary values and add new entries logic.
+# Concept    : Mutating dictionary entries and using .update() method
+# Why Used   : Provides fast O(1) average lookup speed via key-value mappings.
+# ==============================================================================
 
 student = {
     "name": "Suraj",

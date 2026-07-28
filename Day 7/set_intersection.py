@@ -1,5 +1,9 @@
-# Program: Find intersection of two sets
-# Concept: Intersection returns common elements using intersection() or & operator
+# ==============================================================================
+# Program    : Find intersection of two sets
+# Objective  : Practice and master find intersection of two sets logic.
+# Concept    : Intersection returns common elements using intersection() or & operator
+# Why Used   : Demonstrates fundamental Python programming logic and best practices.
+# ==============================================================================
 
 devs_frontend = {"HTML", "CSS", "JavaScript", "Python"}
 devs_backend = {"Python", "Java", "C++", "JavaScript"}

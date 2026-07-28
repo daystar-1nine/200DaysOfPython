@@ -1,5 +1,9 @@
-# Challenge Project: Text Analyzer
-# Features: Counts characters, words, vowels, consonants, digits, spaces, & most frequent char
+# ==============================================================================
+# Program    : Challenge Project: Text Analyzer
+# Objective  : Practice and master challenge project: text analyzer logic.
+# Concept    : Counts characters, words, vowels, consonants, digits, spaces, & most frequent char
+# Why Used   : Repeats execution for a known sequence or range of items efficiently. Encapsulates reusable modular logic to enforce DRY (Don't Repeat Yourself) principle.
+# ==============================================================================
 
 def analyze_text(text):
     total_chars = len(text)

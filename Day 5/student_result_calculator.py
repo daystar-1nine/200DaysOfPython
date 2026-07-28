@@ -1,5 +1,9 @@
-# Program: Student Result Calculator
-# Concept: Splitting logic into multiple focused functions — get, calculate, and display
+# ==============================================================================
+# Program    : Student Result Calculator
+# Objective  : Practice and master student result calculator logic.
+# Concept    : Splitting logic into multiple focused functions — get, calculate, and display
+# Why Used   : Repeats execution for a known sequence or range of items efficiently. Encapsulates reusable modular logic to enforce DRY (Don't Repeat Yourself) principle.
+# ==============================================================================
 
 # ─────────────────────────────────────────────
 # Function 1: Get student name and marks

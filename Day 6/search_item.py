@@ -1,5 +1,9 @@
-# Program: Search for an item in a list
-# Concept: 'in' operator, index() method, and linear search logic
+# ==============================================================================
+# Program    : Search for an item in a list
+# Objective  : Practice and master search for an item in a list logic.
+# Concept    : 'in' operator, index() method, and linear search logic
+# Why Used   : Stores ordered, mutable collections of items allowing dynamic modification. Pauses execution to capture interactive user input from standard input.
+# ==============================================================================
 
 fruits = ["Apple", "Banana", "Mango", "Orange", "Grapes"]
 print("Available Fruits:", fruits)

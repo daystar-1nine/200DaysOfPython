@@ -1,5 +1,9 @@
-# Program: Find union of two sets
-# Concept: Union combines all unique elements from both sets using union() or | operator
+# ==============================================================================
+# Program    : Find union of two sets
+# Objective  : Practice and master find union of two sets logic.
+# Concept    : Union combines all unique elements from both sets using union() or | operator
+# Why Used   : Automatically eliminates duplicate elements and enables set theory operations.
+# ==============================================================================
 
 set_a = {"Python", "Java", "C++"}
 set_b = {"JavaScript", "Python", "HTML"}

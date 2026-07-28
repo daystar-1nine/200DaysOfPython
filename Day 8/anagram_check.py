@@ -1,5 +1,9 @@
-# Program: Check if two strings are anagrams
-# Concept: Sorting characters or character frequency equality
+# ==============================================================================
+# Program    : Check if two strings are anagrams
+# Objective  : Practice and master check if two strings are anagrams logic.
+# Concept    : Sorting characters or character frequency equality
+# Why Used   : Repeats execution for a known sequence or range of items efficiently. Encapsulates reusable modular logic to enforce DRY (Don't Repeat Yourself) principle.
+# ==============================================================================
 
 def is_anagram(str1, str2):
     # Clean strings: lowercase and remove spaces

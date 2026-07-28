@@ -1,5 +1,9 @@
-# Program: Search for a word in a file
-# Concept: Line traversal with substring search and line numbering
+# ==============================================================================
+# Program    : Search for a word in a file
+# Objective  : Practice and master search for a word in a file logic.
+# Concept    : Line traversal with substring search and line numbering
+# Why Used   : Repeats execution for a known sequence or range of items efficiently. Establishes a file stream for persistent data reading, writing, or appending.
+# ==============================================================================
 
 filename = "search_sample.txt"
 

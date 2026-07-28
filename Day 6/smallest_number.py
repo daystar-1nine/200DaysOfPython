@@ -1,5 +1,9 @@
-# Program: Find the smallest number in a list
-# Concept: Tracking minimum value during list iteration vs built-in min()
+# ==============================================================================
+# Program    : Find the smallest number in a list
+# Objective  : Practice and master find the smallest number in a list logic.
+# Concept    : Tracking minimum value during list iteration vs built-in min()
+# Why Used   : Repeats execution for a known sequence or range of items efficiently. Stores ordered, mutable collections of items allowing dynamic modification.
+# ==============================================================================
 
 numbers = [45, 12, 89, 7, 34, 99, 21]
 print("Original List:", numbers)

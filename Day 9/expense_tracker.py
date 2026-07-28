@@ -1,5 +1,9 @@
-# Bonus Challenge: Expense Tracker
-# Features: Add Expense, View Expenses, Calculate Total Expense (Stored in expenses.txt)
+# ==============================================================================
+# Program    : Bonus Challenge: Expense Tracker
+# Objective  : Practice and master bonus challenge: expense tracker logic.
+# Concept    : Add Expense, View Expenses, Calculate Total Expense (Stored in expenses.txt)
+# Why Used   : Repeats execution for a known sequence or range of items efficiently. Executes continuously as long as the specified boolean condition remains True.
+# ==============================================================================
 
 import os
 

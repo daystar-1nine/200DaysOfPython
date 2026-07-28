@@ -1,5 +1,9 @@
-# Mini Project: Student Marks Management System
-# Features: Add student marks, Display all marks, Calculate average, Highest & Lowest mark
+# ==============================================================================
+# Program    : Mini Project: Student Marks Management System
+# Objective  : Practice and master mini project: student marks management system logic.
+# Concept    : Add student marks, Display all marks, Calculate average, Highest & Lowest mark
+# Why Used   : Repeats execution for a known sequence or range of items efficiently. Executes continuously as long as the specified boolean condition remains True.
+# ==============================================================================
 
 def display_menu():
     print("\n==================================")
