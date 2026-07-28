@@ -1,23 +1,25 @@
-# Program: Student Grade Calculator
-# Concept: Logical 'or' for input validation, If-elif-else ladder for grading thresholds
+# ==============================================================================
+# Program    : Student Grade Evaluator
+# Objective  : Assign letter grades based on student percentage score.
+# Why Used   : Demonstrates sequential checking using if-elif-else conditional ladder.
+# ==============================================================================
 
-# Step 1: Input marks as a float
-marks = float(input("Enter your marks: "))
+# Step 1: Accept percentage score
+marks = float(input("Enter student percentage (0-100): "))
 
-# Step 2: Validate if marks are within the valid 0-100 range
-if marks < 0 or marks > 100:
-    print("Invalid marks!!")
-# Step 3: Categorize grades sequentially from highest to lowest
-elif marks >= 90:
-    print("Grade A+")
+# Step 2: Evaluate grade criteria from highest to lowest boundary
+if marks >= 90:
+    grade = "A+ (Outstanding)"
 elif marks >= 80:
-    print("Grade A")
+    grade = "A (Excellent)"
 elif marks >= 70:
-    print("Grade B")
+    grade = "B (Very Good)"
 elif marks >= 60:
-    print("Grade C")
+    grade = "C (Good)"
 elif marks >= 40:
-    print("Grade D")
-# Step 4: If marks are below 40, student fails
+    grade = "D (Pass)"
 else:
-    print("Grade F - Fail!!")
+    grade = "F (Fail)"
+
+# Step 3: Output resulting grade
+print(f"Percentage: {marks}% | Grade: {grade}")

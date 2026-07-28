@@ -1,14 +1,14 @@
-# Program: Vote Eligibility Checker
-# Concept: Boundary Validation, Threshold comparison (age >= 18)
+# ==============================================================================
+# Program    : Voter Eligibility Checker
+# Objective  : Verify if a person meets the legal voting age limit (18+).
+# Why Used   : Uses relational operator (>=) to test eligibility threshold.
+# ==============================================================================
 
-# Step 1: Input age from user
-age = int(input("Enter age: "))
+# Step 1: Input age
+age = int(input("Enter your age: "))
 
-# Step 2: Validate if age is non-positive (invalid age)
-if age <= 0:
-    print("Invalid age!!")
-# Step 3: Check eligibility based on the voting age limit of 18
-elif age < 18:
-    print("Not eligible to vote!!")
+# Step 2: Evaluate age condition
+if age >= 18:
+    print("Eligible to Vote!")
 else:
-    print("Eligible to vote!!")
+    print(f"Not Eligible to Vote. Please wait {18 - age} more year(s).")

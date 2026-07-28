@@ -1,12 +1,19 @@
-# Program: Basic Login System
-# Concept: String Comparison and Logical 'and' Operator
+# ==============================================================================
+# Program    : Basic User Login Authentication System
+# Objective  : Validate username and password against registered credentials.
+# Why Used   : Demonstrates string comparison and logical AND operator in security logic.
+# ==============================================================================
 
-# Step 1: Input username and password from user
-username = input("Enter username: ")
-password = input("Enter password: ")
+# Pre-defined credentials
+CORRECT_USER = "admin"
+CORRECT_PASS = "admin123"
 
-# Step 2: Check if credentials match exactly
-if username == "admin" and password == "1234":
-    print("Login Successful!!")
+# Step 1: Accept credentials input
+username = input("Enter username: ").strip()
+password = input("Enter password: ").strip()
+
+# Step 2: Validate both username AND password match
+if username == CORRECT_USER and password == CORRECT_PASS:
+    print("\nLogin Successful! Welcome to System Dashboard.")
 else:
-    print("Invalid Username or Password!!")
+    print("\nLogin Failed! Invalid username or password.")

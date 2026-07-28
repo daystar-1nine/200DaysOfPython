@@ -1,36 +1,34 @@
-# Program: ATM Withdrawal Eligibility Checker
-# Concept: Nested conditional statements, comparison operators, and logical 'and' operator.
+# ==============================================================================
+# Program    : ATM Withdrawal Eligibility Checker
+# Objective  : Validate ATM PIN and account balance before processing withdrawal.
+# Why Used   : Demonstrates nested conditional statements (if-else) to validate security 
+#              and financial constraints sequentially.
+# ==============================================================================
 
-# Step 1: Initialize account dummy credentials and database
-correct_pin = "1234"
-account_balance = 50000.00
-card_active = True
+# Defined static balance and correct PIN for demonstration
+CORRECT_PIN = 1234
+balance = 10000.0
 
-print("========== Welcome to Python ATM ==========")
+print("=== ATM WITHDRAWAL SYSTEM ===")
 
-# Step 2: Input card PIN
-user_pin = input("Enter your 4-digit PIN: ")
+# Step 1: Accept PIN input from user
+user_pin = int(input("Enter your 4-digit PIN: "))
 
-# Step 3: Check if PIN is correct
-if user_pin == correct_pin:
-    # Step 4: Check if card is active (nested condition)
-    if card_active:
-        # Step 5: Input withdrawal amount
-        withdrawal_amount = float(input(f"Enter withdrawal amount (Current Balance: Rs.{account_balance}): "))
-        
-        # Step 6: Validate withdrawal limit and balance eligibility
-        if withdrawal_amount <= 0:
-            print("Error: Invalid withdrawal amount!")
-        elif withdrawal_amount <= account_balance:
-            account_balance -= withdrawal_amount
-            print("\nTransaction Successful!")
-            print(f"Please collect your cash.")
-            print(f"Remaining Balance: Rs.{account_balance}")
-        else:
-            print("\nError: Insufficient balance!")
+# Step 2: Check PIN correctness (First level condition)
+if user_pin == CORRECT_PIN:
+    print("PIN Verified Successfully!")
+    
+    # Step 3: Input withdrawal amount
+    withdrawal_amount = float(input("Enter withdrawal amount: Rs."))
+    
+    # Step 4: Check if account has sufficient balance (Nested condition)
+    if withdrawal_amount <= balance:
+        balance -= withdrawal_amount
+        print("\nTransaction Successful!")
+        print(f"Amount Withdrawn : Rs.{withdrawal_amount:.2f}")
+        print(f"Remaining Balance: Rs.{balance:.2f}")
     else:
-        print("\nError: Your card is blocked. Please contact your bank.")
+        print("\nTransaction Failed: Insufficient Balance!")
+        print(f"Available Balance: Rs.{balance:.2f}")
 else:
-    print("\nError: Incorrect PIN! Access Denied.")
-
-print("===========================================")
+    print("\nTransaction Failed: Incorrect PIN!")

@@ -1,13 +1,16 @@
-# Program: Check if Number is Positive, Negative, or Zero
-# Concept: If-elif-else ladder, Comparison Operators (==, <, >)
+# ==============================================================================
+# Program    : Number Sign Checker (Positive, Negative, or Zero)
+# Objective  : Classify a number based on its relationship to 0.
+# Why Used   : Demonstrates relational comparison operators (>, <, ==).
+# ==============================================================================
 
-# Step 1: Input integer number from user
-num = int(input("Enter number: "))
+# Step 1: Accept number input
+num = float(input("Enter a number: "))
 
-# Step 2: Evaluate the sign of the number
-if num == 0:
-    print("Number is Zero!!")
+# Step 2: Classify sign
+if num > 0:
+    print("The number is POSITIVE.")
 elif num < 0:
-    print("Number is Negative!!")
+    print("The number is NEGATIVE.")
 else:
-    print("Number is Positive!!")
+    print("The number is ZERO.")

@@ -1,15 +1,16 @@
-# Program: Check if Number is Even, Odd, or Zero
-# Concept: If-elif-else ladder, Modulus Operator (%) for even/odd check
+# ==============================================================================
+# Program    : Even or Odd Number Checker
+# Objective  : Determine whether a number is even, odd, or zero.
+# Why Used   : Uses Modulus operator (% 2) to test divisibility by 2.
+# ==============================================================================
 
-# Step 1: Input integer number from the user
-num = int(input("Enter number: "))
+# Step 1: Accept integer input
+num = int(input("Enter a number: "))
 
-# Step 2: First check if the number is zero
+# Step 2: Check if number is 0, even, or odd using if-elif-else ladder
 if num == 0:
-    print("Number entered is Zero")
-# Step 3: If not zero, check if it's divisible by 2 with no remainder (even number)
+    print("The number is Zero.")
 elif num % 2 == 0:
-    print("Number entered is Even")
-# Step 4: Otherwise, the number must be odd
+    print(f"{num} is an Even number.")
 else:
-    print("Number entered is Odd")
+    print(f"{num} is an Odd number.")

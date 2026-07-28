@@ -1,14 +1,14 @@
-# Program: Pass or Fail Checker
-# Concept: Logical 'or' for boundaries, basic conditional statements
+# ==============================================================================
+# Program    : Student Pass or Fail Evaluator
+# Objective  : Determine pass/fail status based on 40% threshold.
+# Why Used   : Demonstrates basic binary conditional branching (if-else).
+# ==============================================================================
 
-# Step 1: Input marks
-marks = float(input("Enter your marks: "))
+# Step 1: Accept marks score
+marks = float(input("Enter marks (out of 100): "))
 
-# Step 2: Validate the input range
-if marks < 0 or marks > 100:
-    print("Invalid marks!!")
-# Step 3: Check if marks satisfy the passing criteria (40 or above)
-elif marks >= 40:
-    print("Pass!!")
+# Step 2: Evaluate pass/fail boundary
+if marks >= 40:
+    print("Result: PASS [PASS]")
 else:
-    print("Fail!!")
+    print("Result: FAIL [FAIL]")

@@ -1,21 +1,21 @@
-# Program: Swap Two Numbers
-# Concept: Variable Value Swapping using a Temporary Variable and Pythonic Tuple Unpacking
+# ==============================================================================
+# Program    : Swap Two Numbers
+# Objective  : Exchange the values stored in two variables.
+# Why Used   : Demonstrates Python's tuple unpacking syntax for 1-line variable swapping 
+#              without needing a temporary third variable.
+# ==============================================================================
 
-# Step 1: Input two numbers
-num1 = int(input("Enter first number: "))
-num2 = int(input("Enter second number: "))
+# Step 1: Input two values
+a = input("Enter first value (a): ")
+b = input("Enter second value (b): ")
 
-print(f"\nBefore swapping: First = {num1}, Second = {num2}")
+print(f"\n--- Before Swapping ---")
+print(f"a = {a}, b = {b}")
 
-# Method 1: Using a temporary variable (Standard Logic)
-temp = num1
-num1 = num2
-num2 = temp
+# Step 2: Swap values using Python's tuple unpacking: a, b = b, a
+# Python packs (b, a) into a tuple in memory, then unpacks into a and b
+a, b = b, a
 
-# Note: Pythonic Way (Alternative without temp):
-# num1, num2 = num2, num1
-
-# Step 2: Display swapped values
-print("After swapping:")
-print("First number =", num1)
-print("Second number =", num2)
+# Step 3: Display swapped values
+print(f"\n--- After Swapping ---")
+print(f"a = {a}, b = {b}")
