@@ -1,13 +1,18 @@
-# Program: Calculate Average of Three Numbers
-# Concept: Float Input, Parentheses Precedence, Division Operator, and round() Function
+# ==============================================================================
+# Program    : Average of Three Numbers
+# Objective  : Compute the arithmetic mean of three numeric inputs.
+# Why Used   : Illustrates operator precedence — parentheses () are necessary to ensure 
+#              addition occurs BEFORE division.
+# ==============================================================================
 
-# Step 1: Accept three floating-point numbers from user input
+# Step 1: Accept three float numbers
 num1 = float(input("Enter first number: "))
 num2 = float(input("Enter second number: "))
 num3 = float(input("Enter third number: "))
 
-# Step 2: Calculate sum inside parentheses first to maintain operator precedence, then divide by 3
+# Step 2: Compute average
+# Parentheses force addition of all 3 numbers before dividing by 3
 average = (num1 + num2 + num3) / 3
 
-# Step 3: Print the result rounded to 2 decimal places
-print("Average =", round(average, 2))
+# Step 3: Display result
+print(f"\nThe average of {num1}, {num2}, and {num3} is: {round(average, 2)}")

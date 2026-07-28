@@ -1,12 +1,19 @@
-# Program: Calculate Area of a Rectangle
-# Concept: Variable Assignment, Integer Conversion, and Multiplication Operator
+# ==============================================================================
+# Program    : Calculate Area and Perimeter of a Rectangle
+# Objective  : Perform standard geometric computations using multiplication and addition.
+# Why Used   : Teaches multi-input processing and user-defined formulas.
+# ==============================================================================
 
-# Step 1: Input length and breadth from user (converting string input to integer)
-length = int(input("Enter length of Rectangle: "))
-breadth = int(input("Enter breadth of Rectangle: "))
+# Step 1: Input length and width
+length = float(input("Enter the length of rectangle: "))
+width = float(input("Enter the width of rectangle: "))
 
-# Step 2: Calculate Area (Formula: Length * Breadth)
-area = length * breadth
+# Step 2: Calculate Area (length * width) and Perimeter (2 * (length + width))
+area = length * width
+perimeter = 2 * (length + width)
 
-# Step 3: Print the result
-print("Area of Rectangle =", area)
+# Step 3: Output results
+print(f"\nLength    : {length}")
+print(f"Width     : {width}")
+print(f"Area      : {round(area, 2)}")
+print(f"Perimeter : {round(perimeter, 2)}")

@@ -1,18 +1,20 @@
-# Program: Calculate Area of a Circle
-# Concept: User Input, Type Conversion (int/float), and Arithmetic Operators (** or multiplication)
+# ==============================================================================
+# Program    : Calculate Area and Circumference of a Circle
+# Objective  : Apply mathematical formulas in Python using exponentiation (**).
+# Why Used   : Demonstrates float inputs, arithmetic operations, and round() formatting.
+# ==============================================================================
 
-# Step 1: Take radius input from user and convert it to float (handles both integers and decimals)
-radius = float(input("Enter radius of circle: "))
+import math
 
-# Constant value of Pi
-pie = 3.14159
+# Step 1: Accept radius as float from user
+radius = float(input("Enter the radius of the circle: "))
 
-# Step 2: Calculate Area using formula: Area = π * r²
-area = pie * (radius ** 2)
+# Step 2: Calculate Area (pi * r^2) and Circumference (2 * pi * r)
+# math.pi provides high-precision value for Pi (~3.14159)
+area = math.pi * (radius ** 2)
+circumference = 2 * math.pi * radius
 
-# Step 3: Calculate Circumference using formula: Circumference = 2 * π * r
-circumference = 2 * pie * radius
-
-# Step 4: Display the calculated results
-print("Area of Circle =", round(area, 2))
-print("Circumference of Circle =", round(circumference, 2))
+# Step 3: Display results rounded to 2 decimal places
+print(f"\nCircle Radius       : {radius}")
+print(f"Area of Circle      : {round(area, 2)}")
+print(f"Circumference       : {round(circumference, 2)}")

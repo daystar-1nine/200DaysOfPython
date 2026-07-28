@@ -1,11 +1,12 @@
-# Program: First Python Greeting Script
-# Concept: Basic print() function, input() string prompt, and string concatenation (+)
+# ==============================================================================
+# Program    : Hello World Printer
+# Objective  : Execute the standard first program in Python.
+# Why Used   : Demonstrates built-in print() function and f-string interpolation.
+# ==============================================================================
 
-# Step 1: Print initial greeting
+# Step 1: Basic print statement
 print("Hello World!")
 
-# Step 2: Accept user name as string input
-name = input("Enter your name: ")
-
-# Step 3: Print personalized welcome message using string concatenation
-print(name + ", Welcome to Python World!")
+# Step 2: Using variables with f-string formatting
+message = "Welcome to 200 Days of Python Challenge"
+print(f"Greeting: {message}")

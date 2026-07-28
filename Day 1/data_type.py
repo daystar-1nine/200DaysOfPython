@@ -1,26 +1,18 @@
-# Program: Exploring Basic Python Data Types
-# Concept: int, float, str, bool, and checking data types using the type() function
+# ==============================================================================
+# Program    : Data Types Demonstration
+# Objective  : Explore Python's fundamental built-in data types (int, float, str, bool).
+# Why Used   : Demonstrates type inspection using type() and shows how Python 
+#              dynamically binds types to variables based on assigned values.
+# ==============================================================================
 
-print("----- BASIC DATA TYPES IN PYTHON -----")
+# Step 1: Declare variables of different fundamental data types
+age = 20                # Integer (int): Represents whole numbers
+height = 5.9            # Floating-point (float): Represents decimal numbers
+name = "Suraj Sawant"   # String (str): Sequence of Unicode text characters
+is_student = True       # Boolean (bool): Represents truth value (True or False)
 
-# 1. Integer (int): Whole numbers without decimals
-age = 20
-print("Age:", age)
-print("Data Type:", type(age))
-
-# 2. Float (float): Numbers containing decimal points
-height = 5.8
-print("\nHeight:", height)
-print("Data Type:", type(height))
-
-# 3. String (str): Text enclosed in single or double quotes
-name = "Suraj"
-print("\nName:", name)
-print("Data Type:", type(name))
-
-# 4. Boolean (bool): Logical values representing True or False
-is_student = True
-print("\nIs Student:", is_student)
-print("Data Type:", type(is_student))
-
-print("\n----- END -----")
+# Step 2: Output values and inspect their runtime data types using type()
+print("Name       :", name, "| Type:", type(name))
+print("Age        :", age, "| Type:", type(age))
+print("Height     :", height, "| Type:", type(height))
+print("Is Student :", is_student, "| Type:", type(is_student))
