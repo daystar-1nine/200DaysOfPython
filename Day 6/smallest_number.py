@@ -14,7 +14,13 @@ print("Smallest number (using min()):", smallest_builtin)
 
 # Method 2: Manual iteration using a loop
 smallest_manual = numbers[0]
+
+# What is used : for loop iteration
+# Why it is used: Iterates sequentially over elements in an iterable or range sequence
+# How it works : Assigns each element to loop variable one by one until exhausted
 for num in numbers:
+# What is used : Conditional statement (if)
+# Why it is used: Evaluates boolean condition to control branching execution flow
     if num < smallest_manual:
         smallest_manual = num
 

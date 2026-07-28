@@ -5,6 +5,8 @@
 # ==============================================================================
 
 # Step 1: Accept temperature in Celsius
+# What is used : Built-in input() function
+# Why it is used: Pauses program execution to collect user input as string
 celsius = float(input("Enter temperature in Celsius (°C): "))
 
 # Step 2: Apply conversion formula

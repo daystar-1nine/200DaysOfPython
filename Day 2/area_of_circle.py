@@ -7,6 +7,8 @@
 import math
 
 # Step 1: Accept radius as float from user
+# What is used : Built-in input() function
+# Why it is used: Pauses program execution to collect user input as string
 radius = float(input("Enter the radius of the circle: "))
 
 # Step 2: Calculate Area (pi * r^2) and Circumference (2 * pi * r)

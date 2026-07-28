@@ -5,6 +5,8 @@
 # Why Used   : Pauses execution to capture interactive user input from standard input.
 # ==============================================================================
 
+# What is used : Built-in input() function
+# Why it is used: Pauses program execution to collect user input as string
 text = input("Enter a sentence with spaces: ")
 
 # Method 1: Using replace()

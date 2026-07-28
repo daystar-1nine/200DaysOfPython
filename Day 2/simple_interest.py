@@ -5,8 +5,14 @@
 # ==============================================================================
 
 # Step 1: Input principal, interest rate, and time in years
+# What is used : Built-in input() function
+# Why it is used: Pauses program execution to collect user input as string
 principal = float(input("Enter Principal amount (P): "))
+# What is used : Built-in input() function
+# Why it is used: Pauses program execution to collect user input as string
 rate = float(input("Enter annual Interest Rate (%): "))
+# What is used : Built-in input() function
+# Why it is used: Pauses program execution to collect user input as string
 time = float(input("Enter Time in years (T): "))
 
 # Step 2: Calculate Simple Interest and Total Payable Amount

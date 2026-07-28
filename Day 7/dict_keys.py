@@ -16,5 +16,9 @@ student = {
 print("Dictionary Keys list:", list(student.keys()))
 
 print("\n--- Iterating through Keys ---")
+
+# What is used : for loop iteration
+# Why it is used: Iterates sequentially over elements in an iterable or range sequence
+# How it works : Assigns each element to loop variable one by one until exhausted
 for key in student.keys():
     print("Key:", key)

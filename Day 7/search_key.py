@@ -11,9 +11,13 @@ phone_book = {
     "Priya": "9988776655"
 }
 
+# What is used : Built-in input() function
+# Why it is used: Pauses program execution to collect user input as string
 search_name = input("Enter contact name to search: ").strip()
 
 # Method 1: Using 'in' keyword
+# What is used : Conditional statement (if)
+# Why it is used: Evaluates boolean condition to control branching execution flow
 if search_name in phone_book:
     print(f"Found! {search_name}'s Number: {phone_book[search_name]}")
 else:

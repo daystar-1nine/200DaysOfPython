@@ -5,13 +5,21 @@
 # Why Used   : Repeats execution for a known sequence or range of items efficiently. Encapsulates reusable modular logic to enforce DRY (Don't Repeat Yourself) principle.
 # ==============================================================================
 
+
+# What is used : Function definition 'def is_palindrome'
+# Why it is used: Encapsulates reusable modular logic to enforce DRY principle
+# How it works : Defines a named callable block of code that accepts parameters
 def is_palindrome(text):
     # Clean string: lowercase and remove non-alphanumeric characters
     cleaned = "".join(char.lower() for char in text if char.isalnum())
     return cleaned == cleaned[::-1]
 
+# What is used : Built-in input() function
+# Why it is used: Pauses program execution to collect user input as string
 input_str = input("Enter a word or sentence: ")
 
+# What is used : Conditional statement (if)
+# Why it is used: Evaluates boolean condition to control branching execution flow
 if is_palindrome(input_str):
     print(f"[PASS] '{input_str}' is a Palindrome!")
 else:

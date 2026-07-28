@@ -7,14 +7,28 @@
 print("----- Student Grade Calculator -----")
 
 # Step 1: Input student identification details
+# What is used : Built-in input() function
+# Why it is used: Pauses program execution to collect user input as string
 name = input("Enter Student Name: ")
+# What is used : Built-in input() function
+# Why it is used: Pauses program execution to collect user input as string
 roll_number = input("Enter Roll Number: ")
 
 # Step 2: Input marks for 5 subjects (float allows decimal marks)
+# What is used : Built-in input() function
+# Why it is used: Pauses program execution to collect user input as string
 subject1 = float(input("Enter marks for Subject 1: "))
+# What is used : Built-in input() function
+# Why it is used: Pauses program execution to collect user input as string
 subject2 = float(input("Enter marks for Subject 2: "))
+# What is used : Built-in input() function
+# Why it is used: Pauses program execution to collect user input as string
 subject3 = float(input("Enter marks for Subject 3: "))
+# What is used : Built-in input() function
+# Why it is used: Pauses program execution to collect user input as string
 subject4 = float(input("Enter marks for Subject 4: "))
+# What is used : Built-in input() function
+# Why it is used: Pauses program execution to collect user input as string
 subject5 = float(input("Enter marks for Subject 5: "))
 
 # Step 3: Calculate total marks obtained (out of 500)

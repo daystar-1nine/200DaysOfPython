@@ -6,6 +6,8 @@
 
 # Step 1: Accept numeric input from user
 # float() allows processing both integer and decimal inputs
+# What is used : Built-in input() function
+# Why it is used: Pauses program execution to collect user input as string
 num = float(input("Enter a number: "))
 
 # Step 2: Compute square (num^2) and cube (num^3)

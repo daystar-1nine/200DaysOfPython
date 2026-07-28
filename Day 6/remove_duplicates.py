@@ -14,7 +14,13 @@ print("Unique Items (set, order lost):", unique_set)
 
 # Method 2: Loop iteration (Preserves original order)
 unique_list = []
+
+# What is used : for loop iteration
+# Why it is used: Iterates sequentially over elements in an iterable or range sequence
+# How it works : Assigns each element to loop variable one by one until exhausted
 for item in numbers:
+# What is used : Conditional statement (if)
+# Why it is used: Evaluates boolean condition to control branching execution flow
     if item not in unique_list:
         unique_list.append(item)
 

@@ -8,9 +8,13 @@
 fruits = ["Apple", "Banana", "Mango", "Orange", "Grapes"]
 print("Available Fruits:", fruits)
 
+# What is used : Built-in input() function
+# Why it is used: Pauses program execution to collect user input as string
 search_term = input("Enter fruit name to search: ").strip()
 
 # Check existence using 'in' keyword
+# What is used : Conditional statement (if)
+# Why it is used: Evaluates boolean condition to control branching execution flow
 if search_term in fruits:
     position = fruits.index(search_term)
     print(f"Found '{search_term}' at index {position} (Position {position + 1})")

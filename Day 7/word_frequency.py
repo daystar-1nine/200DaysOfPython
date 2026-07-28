@@ -11,10 +11,18 @@ print("Sentence:", sentence)
 words = sentence.split()
 word_count = {}
 
+
+# What is used : for loop iteration
+# Why it is used: Iterates sequentially over elements in an iterable or range sequence
+# How it works : Assigns each element to loop variable one by one until exhausted
 for word in words:
     # Increment count if word exists, otherwise default to 0 + 1
     word_count[word] = word_count.get(word, 0) + 1
 
 print("\n--- Word Frequency ---")
+
+# What is used : for loop iteration
+# Why it is used: Iterates sequentially over elements in an iterable or range sequence
+# How it works : Assigns each element to loop variable one by one until exhausted
 for word, count in word_count.items():
     print(f"'{word}': {count} time(s)")

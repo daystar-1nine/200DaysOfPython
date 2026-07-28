@@ -9,8 +9,12 @@ print("-------- MY PROFILE --------")
 
 # Step 1: Input user details
 # input() pauses execution to get string input from user
+# What is used : Built-in input() function
+# Why it is used: Pauses program execution to collect user input as string
 name = input("Enter your name: ")
 # int() explicitly converts string input to integer
+# What is used : Built-in input() function
+# Why it is used: Pauses program execution to collect user input as string
 age = int(input("Enter your age: "))
 
 # Step 2: Define static profile variables

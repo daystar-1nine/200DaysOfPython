@@ -5,7 +5,11 @@
 # ==============================================================================
 
 # Step 1: Input length and width
+# What is used : Built-in input() function
+# Why it is used: Pauses program execution to collect user input as string
 length = float(input("Enter the length of rectangle: "))
+# What is used : Built-in input() function
+# Why it is used: Pauses program execution to collect user input as string
 width = float(input("Enter the width of rectangle: "))
 
 # Step 2: Calculate Area (length * width) and Perimeter (2 * (length + width))

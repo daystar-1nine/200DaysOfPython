@@ -5,6 +5,10 @@
 # Why Used   : Repeats execution for a known sequence or range of items efficiently. Encapsulates reusable modular logic to enforce DRY (Don't Repeat Yourself) principle.
 # ==============================================================================
 
+
+# What is used : Function definition 'def analyze_text'
+# Why it is used: Encapsulates reusable modular logic to enforce DRY principle
+# How it works : Defines a named callable block of code that accepts parameters
 def analyze_text(text):
     total_chars = len(text)
     words = text.split()
@@ -18,7 +22,13 @@ def analyze_text(text):
 
     # Find most frequent character (excluding spaces)
     freq = {}
+
+# What is used : for loop iteration
+# Why it is used: Iterates sequentially over elements in an iterable or range sequence
+# How it works : Assigns each element to loop variable one by one until exhausted
     for c in text:
+# What is used : Conditional statement (if)
+# Why it is used: Evaluates boolean condition to control branching execution flow
         if not c.isspace():
             freq[c] = freq.get(c, 0) + 1
 
@@ -37,12 +47,22 @@ def analyze_text(text):
     print(f"Most Frequent Character : '{most_frequent_char}' ({most_frequent_count} times)")
     print("====================================")
 
+
+# What is used : Function definition 'def main'
+# Why it is used: Encapsulates reusable modular logic to enforce DRY principle
+# How it works : Defines a named callable block of code that accepts parameters
 def main():
+# What is used : Built-in input() function
+# Why it is used: Pauses program execution to collect user input as string
     paragraph = input("Enter a paragraph or text:\n")
+# What is used : Conditional statement (if)
+# Why it is used: Evaluates boolean condition to control branching execution flow
     if not paragraph:
         print("Empty text provided!")
     else:
         analyze_text(paragraph)
 
+# What is used : Conditional statement (if)
+# Why it is used: Evaluates boolean condition to control branching execution flow
 if __name__ == "__main__":
     main()

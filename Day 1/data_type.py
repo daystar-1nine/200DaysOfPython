@@ -1,17 +1,30 @@
 # ==============================================================================
 # Program    : Data Types Demonstration
 # Objective  : Explore Python's fundamental built-in data types (int, float, str, bool).
-# Why Used   : Demonstrates type inspection using type() and shows how Python 
-#              dynamically binds types to variables based on assigned values.
+# Concept    : Dynamic Typing & Type Inspection
+# Why Used   : Demonstrates type inspection using type() and dynamic binding.
 # ==============================================================================
 
-# Step 1: Declare variables of different fundamental data types
-age = 20                # Integer (int): Represents whole numbers
-height = 5.9            # Floating-point (float): Represents decimal numbers
-name = "Suraj Sawant"   # String (str): Sequence of Unicode text characters
-is_student = True       # Boolean (bool): Represents truth value (True or False)
+# What is used : Integer (int) data type
+# Why it is used: Stores whole numbers without decimal points
+# How it works : Binds name 'age' to integer object 20 in memory
+age = 20
 
-# Step 2: Output values and inspect their runtime data types using type()
+# What is used : Floating-point (float) data type
+# Why it is used: Stores real numbers with decimal precision
+height = 5.9
+
+# What is used : String (str) data type
+# Why it is used: Stores text sequence of characters
+name = "Suraj Sawant"
+
+# What is used : Boolean (bool) data type
+# Why it is used: Stores binary state values (True or False)
+is_student = True
+
+# What is used : Built-in type() function inside print()
+# Why it is used: Returns data type class of variable
+# How it works : Inspects internal __class__ attribute of object
 print("Name       :", name, "| Type:", type(name))
 print("Age        :", age, "| Type:", type(age))
 print("Height     :", height, "| Type:", type(height))

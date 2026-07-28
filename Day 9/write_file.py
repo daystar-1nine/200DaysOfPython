@@ -14,6 +14,10 @@ content_lines = [
     "3. Close files properly.\n"
 ]
 
+
+# What is used : Context manager 'with open(...)'
+# Why it is used: Guarantees file stream handles are automatically closed after execution
+# How it works : Calls __enter__ to open stream and __exit__ to close stream safely
 with open(filename, "w", encoding="utf-8") as file:
     file.write("--- Start of Notes ---\n")
     file.writelines(content_lines)

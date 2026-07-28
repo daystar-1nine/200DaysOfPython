@@ -16,5 +16,9 @@ student = {
 print("Dictionary Values list:", list(student.values()))
 
 print("\n--- Iterating through Values ---")
+
+# What is used : for loop iteration
+# Why it is used: Iterates sequentially over elements in an iterable or range sequence
+# How it works : Assigns each element to loop variable one by one until exhausted
 for value in student.values():
     print("Value:", value)

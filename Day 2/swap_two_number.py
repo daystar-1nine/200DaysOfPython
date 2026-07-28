@@ -6,7 +6,11 @@
 # ==============================================================================
 
 # Step 1: Input two values
+# What is used : Built-in input() function
+# Why it is used: Pauses program execution to collect user input as string
 a = input("Enter first value (a): ")
+# What is used : Built-in input() function
+# Why it is used: Pauses program execution to collect user input as string
 b = input("Enter second value (b): ")
 
 print(f"\n--- Before Swapping ---")
