@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white&style=for-the-badge" alt="Python Version">
   <img src="https://img.shields.io/badge/Challenge%20Status-In%20Progress-orange?style=for-the-badge" alt="Challenge Status">
-  <img src="https://img.shields.io/badge/Progress-9%20%2F%20200%20Days-green?style=for-the-badge" alt="Progress Badge">
+  <img src="https://img.shields.io/badge/Progress-10%20%2F%20200%20Days-green?style=for-the-badge" alt="Progress Badge">
 </p>
 
 A 200-day journey to master Python from beginner to advanced by learning daily, solving coding problems, building real-world projects, and sharing my progress publicly. This repository documents my growth, projects, and consistent learning—one day at a time. 🚀
@@ -11,9 +11,9 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 ---
 
 ## 📊 Challenge Progress
-**Current Progress:** `9 / 200 Days` (4.5%)
+**Current Progress:** `10 / 200 Days` (5.0%)
 ```text
-[█░░░░░░░░░░░░░░░░░░░] 4.5% Complete
+[█░░░░░░░░░░░░░░░░░░░] 5.0% Complete
 ```
 
 ---
@@ -141,6 +141,21 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
     ├── student_record_system.py   # Mini Project: Student Record File System
     ├── personal_diary.py          # Challenge Project: Personal Diary App
     └── expense_tracker.py         # Bonus Challenge: Expense Tracker System
+└── Day 10/
+    ├── Day10.md                   # Exception Handling notes
+    ├── division_by_zero.py        # Handle division by zero
+    ├── invalid_integer_input.py   # Handle invalid integer input
+    ├── missing_file_handler.py    # Handle missing file
+    ├── invalid_list_index.py      # Handle invalid list index
+    ├── missing_dict_key.py        # Handle missing dictionary key
+    ├── negative_number_exception.py # Raise exception for negative numbers
+    ├── validate_age_input.py      # Validate age input
+    ├── validate_email_format.py   # Validate email format
+    ├── validate_password_length.py # Validate password length
+    ├── multiple_exceptions_handler.py # Handle multiple exceptions
+    ├── atm_simulator.py           # Mini Project: ATM Simulator
+    ├── student_result_manager.py  # Challenge Project: Student Result Manager
+    └── secure_login_system.py     # Bonus Challenge: Secure Login System
 ```
 
 ---
@@ -238,7 +253,8 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 | **Day 7** | Jul 26, 2026 | Tuples, Sets & Dictionaries | 🟢 Completed | [Notes](Day%207/Day7.md) • [Set Deduplicate](Day%207/remove_duplicates_set.py) • [Union](Day%207/set_union.py) • [Intersection](Day%207/set_intersection.py) • [Student Dict](Day%207/create_student_dict.py) • [Keys](Day%207/dict_keys.py) • [Values](Day%207/dict_values.py) • [Update Dict](Day%207/update_dict.py) • [Search Key](Day%207/search_key.py) • [Word Frequency](Day%207/word_frequency.py) • [List ↔ Tuple](Day%207/list_to_tuple.py) • [Student DB](Day%207/student_database.py) • [Phone Book](Day%207/phone_book.py) • [Inventory System](Day%207/inventory_management.py) |
 | **Day 8** | Jul 27, 2026 | Strings & Text Manipulation | 🟢 Completed | [Notes](Day%208/Day8.md) • [Reverse String](Day%208/reverse_string.py) • [Palindrome](Day%208/palindrome_check.py) • [Vowels/Consonants](Day%208/vowels_consonants_count.py) • [Word Count](Day%208/word_count.py) • [Remove Spaces](Day%208/remove_spaces.py) • [Replace Word](Day%208/replace_word.py) • [Starts With](Day%208/starts_with_letter.py) • [Char Frequency](Day%208/char_frequency.py) • [Longest Word](Day%208/longest_word.py) • [Anagram](Day%208/anagram_check.py) • [Password Checker](Day%208/password_strength_checker.py) • [Text Analyzer](Day%208/text_analyzer.py) • [Email Validator](Day%208/email_validator.py) |
 | **Day 9** | Jul 28, 2026 | File Handling & Persistence | 🟢 Completed | [Notes](Day%209/Day9.md) • [Create](Day%209/create_file.py) • [Write](Day%209/write_file.py) • [Read](Day%209/read_file.py) • [Count Lines](Day%209/count_file_lines.py) • [Count Words](Day%209/count_file_words.py) • [Count Chars](Day%209/count_file_chars.py) • [Copy](Day%209/copy_file.py) • [Append](Day%209/append_file.py) • [First 5 Lines](Day%209/first_five_lines.py) • [Search Word](Day%209/search_word_file.py) • [Student Record](Day%209/student_record_system.py) • [Personal Diary](Day%209/personal_diary.py) • [Expense Tracker](Day%209/expense_tracker.py) |
-| **Day 10** | | *Upcoming* | ⚪ Pending | - |
+| **Day 10** | Jul 29, 2026 | Exception Handling & Robustness | 🟢 Completed | [Notes](Day%2010/Day10.md) • [Div Zero](Day%2010/division_by_zero.py) • [Invalid Int](Day%2010/invalid_integer_input.py) • [Missing File](Day%2010/missing_file_handler.py) • [List Index](Day%2010/invalid_list_index.py) • [Dict Key](Day%2010/missing_dict_key.py) • [Negative Num](Day%2010/negative_number_exception.py) • [Age Validate](Day%2010/validate_age_input.py) • [Email Validate](Day%2010/validate_email_format.py) • [Password Validate](Day%2010/validate_password_length.py) • [Multiple Exceptions](Day%2010/multiple_exceptions_handler.py) • [ATM Simulator](Day%2010/atm_simulator.py) • [Result Manager](Day%2010/student_result_manager.py) • [Secure Login](Day%2010/secure_login_system.py) |
+| **Day 11** | | *Upcoming* | ⚪ Pending | - |
 
 ---
 
