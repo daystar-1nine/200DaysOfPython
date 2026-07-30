@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white&style=for-the-badge" alt="Python Version">
   <img src="https://img.shields.io/badge/Challenge%20Status-In%20Progress-orange?style=for-the-badge" alt="Challenge Status">
-  <img src="https://img.shields.io/badge/Progress-11%20%2F%20200%20Days-green?style=for-the-badge" alt="Progress Badge">
+  <img src="https://img.shields.io/badge/Progress-12%20%2F%20200%20Days-green?style=for-the-badge" alt="Progress Badge">
 </p>
 
 A 200-day journey to master Python from beginner to advanced by learning daily, solving coding problems, building real-world projects, and sharing my progress publicly. This repository documents my growth, projects, and consistent learning—one day at a time. 🚀
@@ -11,9 +11,9 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 ---
 
 ## 📊 Challenge Progress
-**Current Progress:** `11 / 200 Days` (5.5%)
+**Current Progress:** `12 / 200 Days` (6.0%)
 ```text
-[█░░░░░░░░░░░░░░░░░░░] 5.5% Complete
+[█░░░░░░░░░░░░░░░░░░░] 6.0% Complete
 ```
 
 ---
@@ -172,6 +172,16 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
     ├── password_generator.py      # Mini Project: Secure Password Generator
     ├── dice_rolling_simulator.py  # Challenge Project: Dice Rolling Simulator
     └── birthday_countdown.py      # Bonus Challenge: Birthday Countdown App
+└── Day 12/
+    ├── Day12.md                   # Object-Oriented Programming (Part 1) notes
+    ├── student_class.py           # Student Class
+    ├── car_class.py               # Car Class
+    ├── employee_class.py          # Employee Class
+    ├── book_class.py              # Book Class
+    ├── mobile_class.py            # Mobile Class
+    ├── library_book_system.py     # Mini Project: Library Book System
+    ├── bank_account_oop.py        # Challenge Project: Bank Account Class
+    └── student_management_system_oop.py # Bonus Challenge: Student Management System (OOP)
 ```
 
 ---
@@ -271,7 +281,8 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 | **Day 9** | Jul 28, 2026 | File Handling & Persistence | 🟢 Completed | [Notes](Day%209/Day9.md) • [Create](Day%209/create_file.py) • [Write](Day%209/write_file.py) • [Read](Day%209/read_file.py) • [Count Lines](Day%209/count_file_lines.py) • [Count Words](Day%209/count_file_words.py) • [Count Chars](Day%209/count_file_chars.py) • [Copy](Day%209/copy_file.py) • [Append](Day%209/append_file.py) • [First 5 Lines](Day%209/first_five_lines.py) • [Search Word](Day%209/search_word_file.py) • [Student Record](Day%209/student_record_system.py) • [Personal Diary](Day%209/personal_diary.py) • [Expense Tracker](Day%209/expense_tracker.py) |
 | **Day 10** | Jul 29, 2026 | Exception Handling & Robustness | 🟢 Completed | [Notes](Day%2010/Day10.md) • [Div Zero](Day%2010/division_by_zero.py) • [Invalid Int](Day%2010/invalid_integer_input.py) • [Missing File](Day%2010/missing_file_handler.py) • [List Index](Day%2010/invalid_list_index.py) • [Dict Key](Day%2010/missing_dict_key.py) • [Negative Num](Day%2010/negative_number_exception.py) • [Age Validate](Day%2010/validate_age_input.py) • [Email Validate](Day%2010/validate_email_format.py) • [Password Validate](Day%2010/validate_password_length.py) • [Multiple Exceptions](Day%2010/multiple_exceptions_handler.py) • [ATM Simulator](Day%2010/atm_simulator.py) • [Result Manager](Day%2010/student_result_manager.py) • [Secure Login](Day%2010/secure_login_system.py) |
 | **Day 11** | Jul 30, 2026 | Modules, Packages & Standard Library | 🟢 Completed | [Notes](Day%2011/Day11.md) • [Calc Module](Day%2011/my_calculator.py) • [Square Root](Day%2011/square_root_calc.py) • [Factorial](Day%2011/factorial_std.py) • [Random Gen](Day%2011/random_number_gen.py) • [Coin Toss](Day%2011/coin_toss_sim.py) • [Dice Roll](Day%2011/dice_roll.py) • [DateTime](Day%2011/current_datetime_display.py) • [Folder OS](Day%2011/create_folder_os.py) • [List Dir](Day%2011/list_directory_files.py) • [Statistics](Day%2011/statistics_calc.py) • [Custom Module](Day%2011/custom_module_demo.py) • [Password Generator](Day%2011/password_generator.py) • [Dice Simulator](Day%2011/dice_rolling_simulator.py) • [Birthday Countdown](Day%2011/birthday_countdown.py) |
-| **Day 12** | | *Upcoming* | ⚪ Pending | - |
+| **Day 12** | Jul 30, 2026 | Object-Oriented Programming (OOP) – Part 1 | 🟢 Completed | [Notes](Day%2012/Day12.md) • [Student Class](Day%2012/student_class.py) • [Car Class](Day%2012/car_class.py) • [Employee Class](Day%2012/employee_class.py) • [Book Class](Day%2012/book_class.py) • [Mobile Class](Day%2012/mobile_class.py) • [Library System](Day%2012/library_book_system.py) • [Bank Account](Day%2012/bank_account_oop.py) • [Student SMS OOP](Day%2012/student_management_system_oop.py) |
+| **Day 13** | | *Upcoming* | ⚪ Pending | - |
 
 ---
 
