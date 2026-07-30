@@ -2,7 +2,7 @@
 # Program    : Function Execution Timer System (Mini Project)
 # Objective  : Benchmark runtime of sorting, searching, and math algorithms using decorators.
 # Concept    : Benchmark Decorators with High Precision Timers
-# Why Used   : Measures and logs algorithm duration in seconds with 4 decimal places.
+# Why Used   : Measures and logs algorithm duration in seconds with 6 decimal places.
 # ==============================================================================
 
 import functools

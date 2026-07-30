@@ -9,6 +9,7 @@ import functools
 
 # What is used : Decorator function 'def simple_decorator(func)'
 # Why it is used: Higher-order function taking a function 'func' as argument
+# How it works : Returns inner wrapper function that encapsulates target func call
 def simple_decorator(func):
     # What is used : @functools.wraps(func)
     # Why it is used: Preserves original function's __name__ and __doc__ metadata
