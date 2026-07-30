@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white&style=for-the-badge" alt="Python Version">
   <img src="https://img.shields.io/badge/Challenge%20Status-In%20Progress-orange?style=for-the-badge" alt="Challenge Status">
-  <img src="https://img.shields.io/badge/Progress-10%20%2F%20200%20Days-green?style=for-the-badge" alt="Progress Badge">
+  <img src="https://img.shields.io/badge/Progress-11%20%2F%20200%20Days-green?style=for-the-badge" alt="Progress Badge">
 </p>
 
 A 200-day journey to master Python from beginner to advanced by learning daily, solving coding problems, building real-world projects, and sharing my progress publicly. This repository documents my growth, projects, and consistent learning—one day at a time. 🚀
@@ -11,9 +11,9 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 ---
 
 ## 📊 Challenge Progress
-**Current Progress:** `10 / 200 Days` (5.0%)
+**Current Progress:** `11 / 200 Days` (5.5%)
 ```text
-[█░░░░░░░░░░░░░░░░░░░] 5.0% Complete
+[█░░░░░░░░░░░░░░░░░░░] 5.5% Complete
 ```
 
 ---
@@ -156,6 +156,22 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
     ├── atm_simulator.py           # Mini Project: ATM Simulator
     ├── student_result_manager.py  # Challenge Project: Student Result Manager
     └── secure_login_system.py     # Bonus Challenge: Secure Login System
+└── Day 11/
+    ├── Day11.md                   # Modules & Standard Library notes
+    ├── my_calculator.py           # Helper Custom Module
+    ├── square_root_calc.py        # Find square root using math.sqrt
+    ├── factorial_std.py           # Calculate factorial using math.factorial
+    ├── random_number_gen.py       # Generate random numbers
+    ├── coin_toss_sim.py           # Coin toss simulator
+    ├── dice_roll.py               # Roll single dice
+    ├── current_datetime_display.py # Display formatted date & time
+    ├── create_folder_os.py        # Create directory using os.makedirs
+    ├── list_directory_files.py    # List files using os.listdir
+    ├── statistics_calc.py         # Calculate averages using statistics
+    ├── custom_module_demo.py      # Import and use custom module
+    ├── password_generator.py      # Mini Project: Secure Password Generator
+    ├── dice_rolling_simulator.py  # Challenge Project: Dice Rolling Simulator
+    └── birthday_countdown.py      # Bonus Challenge: Birthday Countdown App
 ```
 
 ---
@@ -254,7 +270,8 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 | **Day 8** | Jul 27, 2026 | Strings & Text Manipulation | 🟢 Completed | [Notes](Day%208/Day8.md) • [Reverse String](Day%208/reverse_string.py) • [Palindrome](Day%208/palindrome_check.py) • [Vowels/Consonants](Day%208/vowels_consonants_count.py) • [Word Count](Day%208/word_count.py) • [Remove Spaces](Day%208/remove_spaces.py) • [Replace Word](Day%208/replace_word.py) • [Starts With](Day%208/starts_with_letter.py) • [Char Frequency](Day%208/char_frequency.py) • [Longest Word](Day%208/longest_word.py) • [Anagram](Day%208/anagram_check.py) • [Password Checker](Day%208/password_strength_checker.py) • [Text Analyzer](Day%208/text_analyzer.py) • [Email Validator](Day%208/email_validator.py) |
 | **Day 9** | Jul 28, 2026 | File Handling & Persistence | 🟢 Completed | [Notes](Day%209/Day9.md) • [Create](Day%209/create_file.py) • [Write](Day%209/write_file.py) • [Read](Day%209/read_file.py) • [Count Lines](Day%209/count_file_lines.py) • [Count Words](Day%209/count_file_words.py) • [Count Chars](Day%209/count_file_chars.py) • [Copy](Day%209/copy_file.py) • [Append](Day%209/append_file.py) • [First 5 Lines](Day%209/first_five_lines.py) • [Search Word](Day%209/search_word_file.py) • [Student Record](Day%209/student_record_system.py) • [Personal Diary](Day%209/personal_diary.py) • [Expense Tracker](Day%209/expense_tracker.py) |
 | **Day 10** | Jul 29, 2026 | Exception Handling & Robustness | 🟢 Completed | [Notes](Day%2010/Day10.md) • [Div Zero](Day%2010/division_by_zero.py) • [Invalid Int](Day%2010/invalid_integer_input.py) • [Missing File](Day%2010/missing_file_handler.py) • [List Index](Day%2010/invalid_list_index.py) • [Dict Key](Day%2010/missing_dict_key.py) • [Negative Num](Day%2010/negative_number_exception.py) • [Age Validate](Day%2010/validate_age_input.py) • [Email Validate](Day%2010/validate_email_format.py) • [Password Validate](Day%2010/validate_password_length.py) • [Multiple Exceptions](Day%2010/multiple_exceptions_handler.py) • [ATM Simulator](Day%2010/atm_simulator.py) • [Result Manager](Day%2010/student_result_manager.py) • [Secure Login](Day%2010/secure_login_system.py) |
-| **Day 11** | | *Upcoming* | ⚪ Pending | - |
+| **Day 11** | Jul 30, 2026 | Modules, Packages & Standard Library | 🟢 Completed | [Notes](Day%2011/Day11.md) • [Calc Module](Day%2011/my_calculator.py) • [Square Root](Day%2011/square_root_calc.py) • [Factorial](Day%2011/factorial_std.py) • [Random Gen](Day%2011/random_number_gen.py) • [Coin Toss](Day%2011/coin_toss_sim.py) • [Dice Roll](Day%2011/dice_roll.py) • [DateTime](Day%2011/current_datetime_display.py) • [Folder OS](Day%2011/create_folder_os.py) • [List Dir](Day%2011/list_directory_files.py) • [Statistics](Day%2011/statistics_calc.py) • [Custom Module](Day%2011/custom_module_demo.py) • [Password Generator](Day%2011/password_generator.py) • [Dice Simulator](Day%2011/dice_rolling_simulator.py) • [Birthday Countdown](Day%2011/birthday_countdown.py) |
+| **Day 12** | | *Upcoming* | ⚪ Pending | - |
 
 ---
 
