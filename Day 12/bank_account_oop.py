@@ -15,7 +15,8 @@ class BankAccount:
         self.account_number = account_number
         self.balance = initial_balance
 
-    # What is used : Instance method deposit(amount)
+    # What is used : Instance method 'deposit(self, amount)'
+    # Why it is used: Validates deposit amount > 0 and adds to self.balance
     def deposit(self, amount):
         if amount <= 0:
             print("Deposit Error: Amount must be greater than zero!")
@@ -24,7 +25,8 @@ class BankAccount:
         print(f"[Success] Rs.{amount:,.2f} deposited. New Balance: Rs.{self.balance:,.2f}")
         return True
 
-    # What is used : Instance method withdraw(amount)
+    # What is used : Instance method 'withdraw(self, amount)'
+    # Why it is used: Validates withdrawal amount <= self.balance and subtracts from balance
     def withdraw(self, amount):
         if amount <= 0:
             print("Withdrawal Error: Amount must be greater than zero!")
@@ -36,7 +38,8 @@ class BankAccount:
         print(f"[Success] Rs.{amount:,.2f} withdrawn. Remaining Balance: Rs.{self.balance:,.2f}")
         return True
 
-    # What is used : Instance method check_balance()
+    # What is used : Instance method 'check_balance(self)'
+    # Why it is used: Outputs current account holder and balance summary
     def check_balance(self):
         print(f"\n--- Account Summary ({self.account_number}) ---")
         print(f"Account Holder: {self.name}")

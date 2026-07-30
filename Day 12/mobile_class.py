@@ -6,17 +6,20 @@
 # ==============================================================================
 
 # What is used : Class definition 'class Mobile:'
+# Why it is used: Blueprint for mobile phone instances
 class Mobile:
     """Class representing a mobile phone."""
 
-    # What is used : Constructor __init__
+    # What is used : Constructor __init__(self, brand, model, ram, price)
+    # Why it is used: Stores hardware specifications inside instance
     def __init__(self, brand, model, ram, price):
         self.brand = brand
         self.model = model
         self.ram = ram
         self.price = price
 
-    # What is used : Instance method display_specs()
+    # What is used : Instance method 'display_specs(self)'
+    # Why it is used: Formats mobile specifications into a table row
     def display_specs(self):
         print(f"[Mobile] Phone: {self.brand} {self.model:<10} | RAM: {self.ram:<4} | Price: Rs.{self.price:,.2f}")
 

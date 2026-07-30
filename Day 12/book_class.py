@@ -6,21 +6,25 @@
 # ==============================================================================
 
 # What is used : Class definition 'class Book:'
+# Why it is used: Blueprint for book entity objects
 class Book:
     """Class representing a published book."""
 
-    # What is used : Constructor __init__
+    # What is used : Constructor __init__(self, title, author, pages)
+    # Why it is used: Initializes title, author, and page count upon creation
     def __init__(self, title, author, pages):
         self.title = title
         self.author = author
         self.pages = pages
 
-    # What is used : Instance method display_summary()
+    # What is used : Instance method 'display_summary(self)'
+    # Why it is used: Displays clean summary line for the book
     def display_summary(self):
         print(f"[Book] Title: '{self.title}' | Author: {self.author} | Pages: {self.pages}")
 
 def main():
     print("=== BOOK CATALOG ===")
+    # What is used : Creating Book objects
     book1 = Book("Python Crash Course", "Eric Matthes", 544)
     book2 = Book("Clean Code", "Robert C. Martin", 464)
 

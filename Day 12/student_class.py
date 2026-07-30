@@ -6,8 +6,8 @@
 # ==============================================================================
 
 # What is used : Class definition 'class Student:'
-# Why it is used: Defines the template/blueprint for student objects
-# How it works : Allocates a class type in Python namespace
+# Why it is used: Defines the template/blueprint for student objects in memory
+# How it works : Allocates a class type object in Python module namespace
 class Student:
     """Class representing a student entity."""
 
@@ -16,6 +16,7 @@ class Student:
     # How it works : Self points to newly created instance; binds parameter values to instance variables
     def __init__(self, name, roll_no, marks):
         # What is used : Instance attribute assignments
+        # Why it is used: Stores state/data specific to each student object
         self.name = name
         self.roll_no = roll_no
         self.marks = marks
@@ -38,7 +39,7 @@ def main():
     student2 = Student("Rahul", 102, 88)
 
     # What is used : Instance method calls 'student1.display_info()'
-    # How it works : Passes student1 into self parameter of display_info()
+    # How it works : Passes student1 into self parameter of display_info() behind the scenes
     student1.display_info()
     student2.display_info()
 
