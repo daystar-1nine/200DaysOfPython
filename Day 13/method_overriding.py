@@ -9,6 +9,8 @@
 class Animal:
     """Parent base class."""
 
+    # What is used : Base method 'speak(self)'
+    # Why it is used: Defines generic default implementation
     def speak(self):
         print("Animal speaks a generic sound.")
 
@@ -26,6 +28,8 @@ class Dog(Animal):
 class Cat(Animal):
     """Child subclass Cat."""
 
+    # What is used : Method overriding
+    # Why it is used: Replaces parent implementation with cat-specific meowing behavior
     def speak(self):
         print("Cat meows: Meow! Meow!")
 
