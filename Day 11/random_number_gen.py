@@ -1,12 +1,13 @@
 # ==============================================================================
 # Program    : Generate Random Number
 # Objective  : Produce pseudo-random integers and floats within specified ranges.
-# Concept    : Standard Library Import (random module)
-# Why Used   : random module provides PRNG algorithms like Mersenne Twister for simulations.
+# Concept    : Pseudo-Random Number Generation (PRNG using random module)
+# Why Used   : random module uses Mersenne Twister algorithm to generate uniform random values.
 # ==============================================================================
 
 # What is used : import random
-# Why it is used: Loads pseudo-random number generator utilities
+# Why it is used: Loads pseudo-random number generation functions
+# How it works : Initializes PRNG state machine
 import random
 
 print("=== Random Number Generator ===")
@@ -19,5 +20,6 @@ print(f"Random Integer (1 to 100) : {rand_int}")
 
 # What is used : random.uniform(10.0, 50.0)
 # Why it is used: Generates a random floating-point decimal number between 10.0 and 50.0
+# How it works : Returns random float N using formula: a + (b - a) * random()
 rand_float = random.uniform(10.0, 50.0)
 print(f"Random Float (10.0 to 50.0): {rand_float:.2f}")
