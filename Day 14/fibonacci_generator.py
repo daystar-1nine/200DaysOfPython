@@ -13,6 +13,7 @@ def fibonacci_gen(n_terms):
     count = 0
     while count < n_terms:
         # What is used : yield keyword
+        # How it works : Suspends stack frame and yields value 'a' to consumer
         yield a
         # What is used : Tuple unpacking for state transition
         a, b = b, a + b
