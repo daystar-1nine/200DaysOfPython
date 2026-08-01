@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white&style=for-the-badge" alt="Python Version">
   <img src="https://img.shields.io/badge/Challenge%20Status-In%20Progress-orange?style=for-the-badge" alt="Challenge Status">
-  <img src="https://img.shields.io/badge/Progress-15%20%2F%20200%20Days-green?style=for-the-badge" alt="Progress Badge">
+  <img src="https://img.shields.io/badge/Progress-16%20%2F%20200%20Days-green?style=for-the-badge" alt="Progress Badge">
 </p>
 
 A 200-day journey to master Python from beginner to advanced by learning daily, solving coding problems, building real-world projects, and sharing my progress publicly. This repository documents my growth, projects, and consistent learning—one day at a time. 🚀
@@ -11,9 +11,9 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 ---
 
 ## 📊 Challenge Progress
-**Current Progress:** `15 / 200 Days` (7.5%)
+**Current Progress:** `16 / 200 Days` (8.0%)
 ```text
-[██░░░░░░░░░░░░░░░░░░] 7.5% Complete
+[██░░░░░░░░░░░░░░░░░░] 8.0% Complete
 ```
 
 ---
@@ -220,6 +220,20 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
     ├── execution_timer_system.py # Mini Project: Execution Timer System
     ├── login_auth_decorator.py    # Challenge Project: Login Authentication Decorator
     └── calculator_logging_system.py # Bonus Challenge: Calculator with Audit Logging
+└── Day 16/
+    ├── Day16.md                   # Functional Programming & Comprehensions notes
+    ├── square_numbers_map.py      # Square Numbers via map() & Lambda
+    ├── uppercase_names_map.py     # Uppercase Names via map()
+    ├── filter_even_numbers.py     # Filter Even Numbers via filter() & Lambda
+    ├── filter_long_names.py       # Filter Long Names via filter()
+    ├── product_reduce.py          # Calculate Product via functools.reduce()
+    ├── squares_list_comp.py       # Squares via List Comprehension with Condition
+    ├── multiplication_table_dict_comp.py # Multiplication Table via Dict Comp
+    ├── remove_duplicates_set_comp.py # Remove Duplicates via Set Comp
+    ├── fibonacci_comprehension.py # Fibonacci via Functional reduce()
+    ├── student_marks_analyzer.py  # Mini Project: Student Marks Analyzer
+    ├── employee_salary_processor.py # Challenge Project: Employee Salary Processor
+    └── shopping_cart_analyzer.py  # Bonus Challenge: Online Shopping Cart Analyzer
 ```
 
 ---
@@ -323,7 +337,8 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 | **Day 13** | Jul 30, 2026 | Object-Oriented Programming (OOP) – Part 2 | 🟢 Completed | [Notes](Day%2013/Day13.md) • [Single Inh](Day%2013/single_inheritance.py) • [Multiple Inh](Day%2013/multiple_inheritance.py) • [Overriding](Day%2013/method_overriding.py) • [super()](Day%2013/super_keyword_demo.py) • [Polymorphism](Day%2013/polymorphism_demo.py) • [Encapsulation](Day%2013/encapsulation_demo.py) • [Getters/Setters](Day%2013/getters_and_setters.py) • [Abstraction](Day%2013/abstract_classes.py) • [Employee System](Day%2013/employee_management_system_oop2.py) • [Vehicle System](Day%2013/vehicle_management_system.py) • [Shopping System](Day%2013/online_shopping_system.py) |
 | **Day 14** | Jul 30, 2026 | Iterators & Generators | 🟢 Completed | [Notes](Day%2014/Day14.md) • [iter()/next()](Day%2014/iterate_list_next.py) • [Even Gen](Day%2014/even_numbers_generator.py) • [Fibonacci Gen](Day%2014/fibonacci_generator.py) • [Prime Gen](Day%2014/prime_numbers_generator.py) • [Squares Gen](Day%2014/squares_generator.py) • [Countdown Gen](Day%2014/countdown_generator.py) • [Alphabet Gen](Day%2014/alphabet_generator.py) • [Infinite Gen](Day%2014/infinite_number_generator.py) • [Custom Step Gen](Day%2014/custom_step_generator.py) • [Fibonacci Series](Day%2014/fibonacci_series_generator.py) • [File Reader Gen](Day%2014/file_reader_generator.py) |
 | **Day 15** | Jul 30, 2026 | Decorators & Closures | 🟢 Completed | [Notes](Day%2015/Day15.md) • [Simple Dec](Day%2015/simple_decorator.py) • [Logging Dec](Day%2015/logging_decorator.py) • [Timer Dec](Day%2015/timer_decorator.py) • [Greeting Dec](Day%2015/greeting_decorator.py) • [Name Closure](Day%2015/name_closure.py) • [Counter Closure](Day%2015/counter_closure.py) • [Stacked Dec](Day%2015/multiple_decorators.py) • [Timer System](Day%2015/execution_timer_system.py) • [Auth System](Day%2015/login_auth_decorator.py) • [Calc Audit](Day%2015/calculator_logging_system.py) |
-| **Day 16** | | *Upcoming* | ⚪ Pending | - |
+| **Day 16** | Aug 01, 2026 | Lambda, map(), filter(), reduce() & Comprehensions | 🟢 Completed | [Notes](Day%2016/Day16.md) • [Square map](Day%2016/square_numbers_map.py) • [Upper map](Day%2016/uppercase_names_map.py) • [Even filter](Day%2016/filter_even_numbers.py) • [Long filter](Day%2016/filter_long_names.py) • [Product reduce](Day%2016/product_reduce.py) • [Squares List Comp](Day%2016/squares_list_comp.py) • [Mult Dict Comp](Day%2016/multiplication_table_dict_comp.py) • [Dedupe Set Comp](Day%2016/remove_duplicates_set_comp.py) • [Fibonacci Comp](Day%2016/fibonacci_comprehension.py) • [Marks Analyzer](Day%2016/student_marks_analyzer.py) • [Salary Processor](Day%2016/employee_salary_processor.py) • [Cart Analyzer](Day%2016/shopping_cart_analyzer.py) |
+| **Day 17** | | *Upcoming* | ⚪ Pending | - |
 
 ---
 
