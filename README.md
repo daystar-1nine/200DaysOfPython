@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white&style=for-the-badge" alt="Python Version">
   <img src="https://img.shields.io/badge/Challenge%20Status-In%20Progress-orange?style=for-the-badge" alt="Challenge Status">
-  <img src="https://img.shields.io/badge/Progress-17%20%2F%20200%20Days-green?style=for-the-badge" alt="Progress Badge">
+  <img src="https://img.shields.io/badge/Progress-18%20%2F%20200%20Days-green?style=for-the-badge" alt="Progress Badge">
 </p>
 
 A 200-day journey to master Python from beginner to advanced by learning daily, solving coding problems, building real-world projects, and sharing my progress publicly. This repository documents my growth, projects, and consistent learning—one day at a time. 🚀
@@ -11,9 +11,9 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 ---
 
 ## 📊 Challenge Progress
-**Current Progress:** `17 / 200 Days` (8.5%)
+**Current Progress:** `18 / 200 Days` (9.0%)
 ```text
-[██░░░░░░░░░░░░░░░░░░] 8.5% Complete
+[██░░░░░░░░░░░░░░░░░░] 9.0% Complete
 ```
 
 ---
@@ -249,6 +249,21 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
     ├── email_phone_validator_gui_cli.py # Mini Project: Email & Phone Validator
     ├── resume_info_extractor.py   # Challenge Project: Resume Info Extractor
     └── password_strength_analyzer.py # Bonus Challenge: Password Strength Analyzer
+└── Day 18/
+    ├── Day18.md                   # JSON, CSV & REST APIs notes
+    ├── dict_to_json.py            # Dict to JSON (json.dumps)
+    ├── json_to_dict.py            # JSON to Dict (json.loads)
+    ├── read_json_file.py          # Read JSON File (json.load)
+    ├── write_json_file.py         # Write JSON File (json.dump)
+    ├── read_csv_file.py           # Read CSV File (csv.DictReader)
+    ├── write_csv_file.py          # Write CSV File (csv.DictWriter)
+    ├── fetch_github_api.py        # Fetch Data from GitHub REST API
+    ├── check_http_status.py       # Check HTTP Status Codes
+    ├── extract_json_fields.py     # Extract Fields from Nested JSON
+    ├── handle_api_errors.py       # Robust API Error Handling
+    ├── github_profile_viewer.py   # Mini Project: GitHub Profile Viewer CLI
+    ├── weather_app_cli.py         # Challenge Project: Weather App CLI
+    └── currency_converter_api.py  # Bonus Challenge: Currency Converter CLI
 ```
 
 ---
@@ -354,7 +369,8 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 | **Day 15** | Jul 30, 2026 | Decorators & Closures | 🟢 Completed | [Notes](Day%2015/Day15.md) • [Simple Dec](Day%2015/simple_decorator.py) • [Logging Dec](Day%2015/logging_decorator.py) • [Timer Dec](Day%2015/timer_decorator.py) • [Greeting Dec](Day%2015/greeting_decorator.py) • [Name Closure](Day%2015/name_closure.py) • [Counter Closure](Day%2015/counter_closure.py) • [Stacked Dec](Day%2015/multiple_decorators.py) • [Timer System](Day%2015/execution_timer_system.py) • [Auth System](Day%2015/login_auth_decorator.py) • [Calc Audit](Day%2015/calculator_logging_system.py) |
 | **Day 16** | Aug 01, 2026 | Lambda, map(), filter(), reduce() & Comprehensions | 🟢 Completed | [Notes](Day%2016/Day16.md) • [Square map](Day%2016/square_numbers_map.py) • [Upper map](Day%2016/uppercase_names_map.py) • [Even filter](Day%2016/filter_even_numbers.py) • [Long filter](Day%2016/filter_long_names.py) • [Product reduce](Day%2016/product_reduce.py) • [Squares List Comp](Day%2016/squares_list_comp.py) • [Mult Dict Comp](Day%2016/multiplication_table_dict_comp.py) • [Dedupe Set Comp](Day%2016/remove_duplicates_set_comp.py) • [Fibonacci Comp](Day%2016/fibonacci_comprehension.py) • [Marks Analyzer](Day%2016/student_marks_analyzer.py) • [Salary Processor](Day%2016/employee_salary_processor.py) • [Cart Analyzer](Day%2016/shopping_cart_analyzer.py) |
 | **Day 17** | Aug 01, 2026 | Regular Expressions (Regex) | 🟢 Completed | [Notes](Day%2017/Day17.md) • [Find Num](Day%2017/find_all_numbers.py) • [Emails](Day%2017/extract_emails.py) • [Phone Val](Day%2017/validate_phone_number.py) • [Pwd Val](Day%2017/validate_password_regex.py) • [Words P](Day%2017/words_starting_with_p.py) • [Slug Sub](Day%2017/replace_spaces_hyphen.py) • [URLs](Day%2017/extract_urls.py) • [Hashtags](Day%2017/extract_hashtags.py) • [Dates](Day%2017/extract_dates.py) • [Sanitize](Day%2017/remove_special_characters.py) • [Validator](Day%2017/email_phone_validator_gui_cli.py) • [Resume Extractor](Day%2017/resume_info_extractor.py) • [Pwd Analyzer](Day%2017/password_strength_analyzer.py) |
-| **Day 18** | | *Upcoming* | ⚪ Pending | - |
+| **Day 18** | Aug 07, 2026 | JSON, CSV & REST APIs | 🟢 Completed | [Notes](Day%2018/Day18.md) • [Dict2JSON](Day%2018/dict_to_json.py) • [JSON2Dict](Day%2018/json_to_dict.py) • [Read JSON](Day%2018/read_json_file.py) • [Write JSON](Day%2018/write_json_file.py) • [Read CSV](Day%2018/read_csv_file.py) • [Write CSV](Day%2018/write_csv_file.py) • [GitHub API](Day%2018/fetch_github_api.py) • [Status Codes](Day%2018/check_http_status.py) • [Extract JSON](Day%2018/extract_json_fields.py) • [API Errors](Day%2018/handle_api_errors.py) • [GitHub Viewer](Day%2018/github_profile_viewer.py) • [Weather App](Day%2018/weather_app_cli.py) • [Currency Conv](Day%2018/currency_converter_api.py) |
+| **Day 19** | | *Upcoming* | ⚪ Pending | - |
 
 ---
 
