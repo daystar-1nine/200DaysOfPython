@@ -8,6 +8,7 @@
 import json
 
 # What is used : Python dictionary containing nested lists and primitive types
+# Why it is used: Serves as native in-memory data model
 student = {
     "name": "Suraj",
     "age": 20,
