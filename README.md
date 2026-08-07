@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white&style=for-the-badge" alt="Python Version">
   <img src="https://img.shields.io/badge/Challenge%20Status-In%20Progress-orange?style=for-the-badge" alt="Challenge Status">
-  <img src="https://img.shields.io/badge/Progress-19%20%2F%20200%20Days-green?style=for-the-badge" alt="Progress Badge">
+  <img src="https://img.shields.io/badge/Progress-20%20%2F%20200%20Days-green?style=for-the-badge" alt="Progress Badge">
 </p>
 
 A 200-day journey to master Python from beginner to advanced by learning daily, solving coding problems, building real-world projects, and sharing my progress publicly. This repository documents my growth, projects, and consistent learning—one day at a time. 🚀
@@ -11,9 +11,9 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 ---
 
 ## 📊 Challenge Progress
-**Current Progress:** `19 / 200 Days` (9.5%)
+**Current Progress:** `20 / 200 Days` (10.0%)
 ```text
-[██░░░░░░░░░░░░░░░░░░] 9.5% Complete
+[████░░░░░░░░░░░░░░░░] 10.0% Complete
 ```
 
 ---
@@ -299,6 +299,21 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
         │   └── core.py
         └── tests/
             └── test_core.py
+└── Day 20/
+    ├── Day20.md                   # Testing in Python (unittest) notes
+    ├── test_addition.py           # Unit Test for Addition Function
+    ├── test_subtraction.py        # Unit Test for Subtraction Function
+    ├── test_multiplication.py     # Unit Test for Multiplication Function
+    ├── test_division.py           # Unit Test for Division & ZeroDivisionError
+    ├── test_factorial.py          # Unit Test for Factorial & ValueError
+    ├── test_string_reverse.py     # Unit Test for String Reversal
+    ├── test_even_odd.py           # Unit Test for Even/Odd (assertTrue/False)
+    ├── test_palindrome.py         # Unit Test for Palindrome Checker
+    ├── test_list_sorting.py       # Unit Test for List Sorting
+    ├── test_file_existence.py     # Unit Test using setUp() & tearDown() Fixtures
+    ├── calculator_test_suite.py   # Mini Project: Calculator Test Suite
+    ├── student_grade_system_test.py # Challenge Project: Student Grade System Test
+    └── bank_account_testing.py    # Bonus Challenge: Bank Account Class & Test Suite
 ```
 
 ---
@@ -406,7 +421,8 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 | **Day 17** | Aug 01, 2026 | Regular Expressions (Regex) | 🟢 Completed | [Notes](Day%2017/Day17.md) • [Find Num](Day%2017/find_all_numbers.py) • [Emails](Day%2017/extract_emails.py) • [Phone Val](Day%2017/validate_phone_number.py) • [Pwd Val](Day%2017/validate_password_regex.py) • [Words P](Day%2017/words_starting_with_p.py) • [Slug Sub](Day%2017/replace_spaces_hyphen.py) • [URLs](Day%2017/extract_urls.py) • [Hashtags](Day%2017/extract_hashtags.py) • [Dates](Day%2017/extract_dates.py) • [Sanitize](Day%2017/remove_special_characters.py) • [Validator](Day%2017/email_phone_validator_gui_cli.py) • [Resume Extractor](Day%2017/resume_info_extractor.py) • [Pwd Analyzer](Day%2017/password_strength_analyzer.py) |
 | **Day 18** | Aug 07, 2026 | JSON, CSV & REST APIs | 🟢 Completed | [Notes](Day%2018/Day18.md) • [Dict2JSON](Day%2018/dict_to_json.py) • [JSON2Dict](Day%2018/json_to_dict.py) • [Read JSON](Day%2018/read_json_file.py) • [Write JSON](Day%2018/write_json_file.py) • [Read CSV](Day%2018/read_csv_file.py) • [Write CSV](Day%2018/write_csv_file.py) • [GitHub API](Day%2018/fetch_github_api.py) • [Status Codes](Day%2018/check_http_status.py) • [Extract JSON](Day%2018/extract_json_fields.py) • [API Errors](Day%2018/handle_api_errors.py) • [GitHub Viewer](Day%2018/github_profile_viewer.py) • [Weather App](Day%2018/weather_app_cli.py) • [Currency Conv](Day%2018/currency_converter_api.py) |
 | **Day 19** | Aug 07, 2026 | Virtual Environments, Package Management & Project Structure | 🟢 Completed | [Notes](Day%2019/Day19.md) • [vEnv Demo](Day%2019/venv_management_demo.py) • [Pip Checker](Day%2019/pip_dependency_checker.py) • [Env Loader](Day%2019/env_config_loader.py) • [Layout Gen](Day%2019/project_structure_creator.py) • [User Finder App](Day%2019/github_user_finder/app.py) • [Weather Dashboard](Day%2019/weather_dashboard/app.py) • [Starter Template](Day%2019/python_project_starter/main.py) |
-| **Day 20** | | *Upcoming* | ⚪ Pending | - |
+| **Day 20** | Aug 07, 2026 | Testing in Python (unittest) | 🟢 Completed | [Notes](Day%2020/Day20.md) • [Add Test](Day%2020/test_addition.py) • [Sub Test](Day%2020/test_subtraction.py) • [Mult Test](Day%2020/test_multiplication.py) • [Div Test](Day%2020/test_division.py) • [Fact Test](Day%2020/test_factorial.py) • [Rev Test](Day%2020/test_string_reverse.py) • [Parity Test](Day%2020/test_even_odd.py) • [Palin Test](Day%2020/test_palindrome.py) • [Sort Test](Day%2020/test_list_sorting.py) • [File Fixture](Day%2020/test_file_existence.py) • [Calc Suite](Day%2020/calculator_test_suite.py) • [Grade System](Day%2020/student_grade_system_test.py) • [Bank Account](Day%2020/bank_account_testing.py) |
+| **Day 21** | | *Upcoming* | ⚪ Pending | - |
 
 ---
 
