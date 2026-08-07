@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white&style=for-the-badge" alt="Python Version">
   <img src="https://img.shields.io/badge/Challenge%20Status-In%20Progress-orange?style=for-the-badge" alt="Challenge Status">
-  <img src="https://img.shields.io/badge/Progress-18%20%2F%20200%20Days-green?style=for-the-badge" alt="Progress Badge">
+  <img src="https://img.shields.io/badge/Progress-19%20%2F%20200%20Days-green?style=for-the-badge" alt="Progress Badge">
 </p>
 
 A 200-day journey to master Python from beginner to advanced by learning daily, solving coding problems, building real-world projects, and sharing my progress publicly. This repository documents my growth, projects, and consistent learning—one day at a time. 🚀
@@ -11,9 +11,9 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 ---
 
 ## 📊 Challenge Progress
-**Current Progress:** `18 / 200 Days` (9.0%)
+**Current Progress:** `19 / 200 Days` (9.5%)
 ```text
-[██░░░░░░░░░░░░░░░░░░] 9.0% Complete
+[██░░░░░░░░░░░░░░░░░░] 9.5% Complete
 ```
 
 ---
@@ -264,6 +264,41 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
     ├── github_profile_viewer.py   # Mini Project: GitHub Profile Viewer CLI
     ├── weather_app_cli.py         # Challenge Project: Weather App CLI
     └── currency_converter_api.py  # Bonus Challenge: Currency Converter CLI
+└── Day 19/
+    ├── Day19.md                   # Virtual Environments, Package Management & Project Structure notes
+    ├── venv_management_demo.py    # Virtual Environment Inspection Utility
+    ├── pip_dependency_checker.py  # Pip Dependency Manifest Parser & Builder
+    ├── env_config_loader.py       # Environment Configuration Loader (.env)
+    ├── project_structure_creator.py # Python Project Layout Generator
+    ├── .gitignore                 # Git Exclusion Rules
+    ├── .env.example               # Environment Configuration Template
+    ├── github_user_finder/        # Mini Project: GitHub User Finder App
+    │   ├── app.py
+    │   ├── requirements.txt
+    │   ├── README.md
+    │   ├── .env
+    │   ├── .gitignore
+    │   └── utils/
+    │       └── github.py
+    ├── weather_dashboard/         # Challenge Project: Weather Dashboard App
+    │   ├── app.py
+    │   ├── config.py
+    │   ├── requirements.txt
+    │   ├── README.md
+    │   ├── .env
+    │   └── utils/
+    │       └── weather_api.py
+    └── python_project_starter/    # Bonus Challenge: Python Project Starter Template
+        ├── main.py
+        ├── requirements.txt
+        ├── README.md
+        ├── .gitignore
+        ├── .env.example
+        ├── src/
+        │   ├── __init__.py
+        │   └── core.py
+        └── tests/
+            └── test_core.py
 ```
 
 ---
@@ -370,7 +405,8 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 | **Day 16** | Aug 01, 2026 | Lambda, map(), filter(), reduce() & Comprehensions | 🟢 Completed | [Notes](Day%2016/Day16.md) • [Square map](Day%2016/square_numbers_map.py) • [Upper map](Day%2016/uppercase_names_map.py) • [Even filter](Day%2016/filter_even_numbers.py) • [Long filter](Day%2016/filter_long_names.py) • [Product reduce](Day%2016/product_reduce.py) • [Squares List Comp](Day%2016/squares_list_comp.py) • [Mult Dict Comp](Day%2016/multiplication_table_dict_comp.py) • [Dedupe Set Comp](Day%2016/remove_duplicates_set_comp.py) • [Fibonacci Comp](Day%2016/fibonacci_comprehension.py) • [Marks Analyzer](Day%2016/student_marks_analyzer.py) • [Salary Processor](Day%2016/employee_salary_processor.py) • [Cart Analyzer](Day%2016/shopping_cart_analyzer.py) |
 | **Day 17** | Aug 01, 2026 | Regular Expressions (Regex) | 🟢 Completed | [Notes](Day%2017/Day17.md) • [Find Num](Day%2017/find_all_numbers.py) • [Emails](Day%2017/extract_emails.py) • [Phone Val](Day%2017/validate_phone_number.py) • [Pwd Val](Day%2017/validate_password_regex.py) • [Words P](Day%2017/words_starting_with_p.py) • [Slug Sub](Day%2017/replace_spaces_hyphen.py) • [URLs](Day%2017/extract_urls.py) • [Hashtags](Day%2017/extract_hashtags.py) • [Dates](Day%2017/extract_dates.py) • [Sanitize](Day%2017/remove_special_characters.py) • [Validator](Day%2017/email_phone_validator_gui_cli.py) • [Resume Extractor](Day%2017/resume_info_extractor.py) • [Pwd Analyzer](Day%2017/password_strength_analyzer.py) |
 | **Day 18** | Aug 07, 2026 | JSON, CSV & REST APIs | 🟢 Completed | [Notes](Day%2018/Day18.md) • [Dict2JSON](Day%2018/dict_to_json.py) • [JSON2Dict](Day%2018/json_to_dict.py) • [Read JSON](Day%2018/read_json_file.py) • [Write JSON](Day%2018/write_json_file.py) • [Read CSV](Day%2018/read_csv_file.py) • [Write CSV](Day%2018/write_csv_file.py) • [GitHub API](Day%2018/fetch_github_api.py) • [Status Codes](Day%2018/check_http_status.py) • [Extract JSON](Day%2018/extract_json_fields.py) • [API Errors](Day%2018/handle_api_errors.py) • [GitHub Viewer](Day%2018/github_profile_viewer.py) • [Weather App](Day%2018/weather_app_cli.py) • [Currency Conv](Day%2018/currency_converter_api.py) |
-| **Day 19** | | *Upcoming* | ⚪ Pending | - |
+| **Day 19** | Aug 07, 2026 | Virtual Environments, Package Management & Project Structure | 🟢 Completed | [Notes](Day%2019/Day19.md) • [vEnv Demo](Day%2019/venv_management_demo.py) • [Pip Checker](Day%2019/pip_dependency_checker.py) • [Env Loader](Day%2019/env_config_loader.py) • [Layout Gen](Day%2019/project_structure_creator.py) • [User Finder App](Day%2019/github_user_finder/app.py) • [Weather Dashboard](Day%2019/weather_dashboard/app.py) • [Starter Template](Day%2019/python_project_starter/main.py) |
+| **Day 20** | | *Upcoming* | ⚪ Pending | - |
 
 ---
 

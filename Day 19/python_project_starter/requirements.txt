@@ -1,0 +1,6 @@
+# Production Dependencies
+requests==2.32.0
+python-dotenv==1.0.1
+
+# Testing & Linting Dependencies
+pytest>=8.0.0
