@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white&style=for-the-badge" alt="Python Version">
   <img src="https://img.shields.io/badge/Challenge%20Status-In%20Progress-orange?style=for-the-badge" alt="Challenge Status">
-  <img src="https://img.shields.io/badge/Progress-21%20%2F%20200%20Days-green?style=for-the-badge" alt="Progress Badge">
+  <img src="https://img.shields.io/badge/Progress-23%20%2F%20200%20Days-green?style=for-the-badge" alt="Progress Badge">
 </p>
 
 A 200-day journey to master Python from beginner to advanced by learning daily, solving coding problems, building real-world projects, and sharing my progress publicly. This repository documents my growth, projects, and consistent learning—one day at a time. 🚀
@@ -11,9 +11,9 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 ---
 
 ## 📊 Challenge Progress
-**Current Progress:** `21 / 200 Days` (10.5%)
+**Current Progress:** `23 / 200 Days` (11.5%)
 ```text
-[████░░░░░░░░░░░░░░░░] 10.5% Complete
+[████░░░░░░░░░░░░░░░░] 11.5% Complete
 ```
 
 ---
@@ -336,6 +336,28 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
     ├── multiprocess_image_processor.py # Challenge Project: Multiprocess Image Processor
     ├── async_api_checker.py       # Challenge Project: Async Website Status Checker
     └── concurrent_image_downloader.py # Bonus Challenge: Concurrent Image Downloader Benchmark
+└── Day 22/
+    ├── Day22.md                   # Type Hints & Dataclasses notes
+    ├── typed_calculator.py        # Task 1: Typed Calculator Functions
+    ├── list_average_typed.py      # Task 2: Typed List Average Function
+    ├── student_typed_dict.py      # Task 3: Student TypedDict Schema
+    ├── product_dataclass.py       # Task 4: Product Dataclass Definition
+    ├── product_methods_dataclass.py # Task 5: Product Dataclass with Methods
+    ├── student_management_dataclass.py # Mini Project: Student Management System
+    ├── inventory_system_dataclass.py # Challenge Project: Inventory System
+    └── api_data_model_converter.py # Bonus Challenge: API Data Model Converter
+└── Day 23/
+    ├── Day23.md                   # Logging & Debugging in Python notes
+    ├── debug_index_error.py       # Task 1: Debug Index Error & Traceback
+    ├── atm_logger_demo.py         # Task 2: ATM Transaction Logger Demo
+    ├── safe_average_logger.py     # Task 3: Safe Average Function with Logging
+    ├── application_logger/        # Mini Project: Reusable Application Logger
+    │   ├── logger.py              # Modular Logger Factory
+    │   └── app.py                 # Application Logger Entry Point
+    ├── atm_logging_system/        # Challenge Project: ATM Banking System with Logging
+    │   └── atm.py                 # ATM Class & Audit Log System
+    └── expense_tracker_logger/    # Bonus Challenge: Expense Tracker with Logging
+        └── expense_tracker.py     # Expense Tracker File, Error & Event Logger
 ```
 
 ---
@@ -445,7 +467,9 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 | **Day 19** | Aug 07, 2026 | Virtual Environments, Package Management & Project Structure | 🟢 Completed | [Notes](Day%2019/Day19.md) • [vEnv Demo](Day%2019/venv_management_demo.py) • [Pip Checker](Day%2019/pip_dependency_checker.py) • [Env Loader](Day%2019/env_config_loader.py) • [Layout Gen](Day%2019/project_structure_creator.py) • [User Finder App](Day%2019/github_user_finder/app.py) • [Weather Dashboard](Day%2019/weather_dashboard/app.py) • [Starter Template](Day%2019/python_project_starter/main.py) |
 | **Day 20** | Aug 07, 2026 | Testing in Python (unittest) | 🟢 Completed | [Notes](Day%2020/Day20.md) • [Add Test](Day%2020/test_addition.py) • [Sub Test](Day%2020/test_subtraction.py) • [Mult Test](Day%2020/test_multiplication.py) • [Div Test](Day%2020/test_division.py) • [Fact Test](Day%2020/test_factorial.py) • [Rev Test](Day%2020/test_string_reverse.py) • [Parity Test](Day%2020/test_even_odd.py) • [Palin Test](Day%2020/test_palindrome.py) • [Sort Test](Day%2020/test_list_sorting.py) • [File Fixture](Day%2020/test_file_existence.py) • [Calc Suite](Day%2020/calculator_test_suite.py) • [Grade System](Day%2020/student_grade_system_test.py) • [Bank Account](Day%2020/bank_account_testing.py) |
 | **Day 21** | Aug 10, 2026 | Concurrency: Threading, Multiprocessing & Asyncio | 🟢 Completed | [Notes](Day%2021/Day21.md) • [Task 1 Threads](Day%2021/print_numbers_threads.py) • [Task 2 Download](Day%2021/simulate_downloads_threads.py) • [Task 3 Lock](Day%2021/safe_counter_lock.py) • [Task 4 Pool](Day%2021/squares_thread_pool.py) • [Task 5 Math](Day%2021/heavy_math_process_pool.py) • [Task 6 Async](Day%2021/async_three_tasks.py) • [File Downloader](Day%2021/concurrent_file_downloader.py) • [Image Processor](Day%2021/multiprocess_image_processor.py) • [Async Checker](Day%2021/async_api_checker.py) • [Image Benchmark](Day%2021/concurrent_image_downloader.py) |
-| **Day 22** | | *Upcoming* | ⚪ Pending | - |
+| **Day 22** | Aug 10, 2026 | Type Hints & Dataclasses | 🟢 Completed | [Notes](Day%2022/Day22.md) • [Typed Calc](Day%2022/typed_calculator.py) • [Typed Avg](Day%2022/list_average_typed.py) • [TypedDict](Day%2022/student_typed_dict.py) • [Dataclass](Day%2022/product_dataclass.py) • [Methods](Day%2022/product_methods_dataclass.py) • [Student App](Day%2022/student_management_dataclass.py) • [Inventory](Day%2022/inventory_system_dataclass.py) • [API Model](Day%2022/api_data_model_converter.py) |
+| **Day 23** | Aug 10, 2026 | Logging & Debugging in Python | 🟢 Completed | [Notes](Day%2023/Day23.md) • [Debug Index](Day%2023/debug_index_error.py) • [ATM Logger](Day%2023/atm_logger_demo.py) • [Safe Avg](Day%2023/safe_average_logger.py) • [App Logger](Day%2023/application_logger/app.py) • [ATM App](Day%2023/atm_logging_system/atm.py) • [Expense Tracker](Day%2023/expense_tracker_logger/expense_tracker.py) |
+| **Day 24** | | *Upcoming* | ⚪ Pending | - |
 
 ---
 
