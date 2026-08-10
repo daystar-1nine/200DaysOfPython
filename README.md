@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white&style=for-the-badge" alt="Python Version">
   <img src="https://img.shields.io/badge/Challenge%20Status-In%20Progress-orange?style=for-the-badge" alt="Challenge Status">
-  <img src="https://img.shields.io/badge/Progress-20%20%2F%20200%20Days-green?style=for-the-badge" alt="Progress Badge">
+  <img src="https://img.shields.io/badge/Progress-21%20%2F%20200%20Days-green?style=for-the-badge" alt="Progress Badge">
 </p>
 
 A 200-day journey to master Python from beginner to advanced by learning daily, solving coding problems, building real-world projects, and sharing my progress publicly. This repository documents my growth, projects, and consistent learning—one day at a time. 🚀
@@ -11,9 +11,9 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 ---
 
 ## 📊 Challenge Progress
-**Current Progress:** `20 / 200 Days` (10.0%)
+**Current Progress:** `21 / 200 Days` (10.5%)
 ```text
-[████░░░░░░░░░░░░░░░░] 10.0% Complete
+[████░░░░░░░░░░░░░░░░] 10.5% Complete
 ```
 
 ---
@@ -314,6 +314,28 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
     ├── calculator_test_suite.py   # Mini Project: Calculator Test Suite
     ├── student_grade_system_test.py # Challenge Project: Student Grade System Test
     └── bank_account_testing.py    # Bonus Challenge: Bank Account Class & Test Suite
+└── Day 21/
+    ├── Day21.md                   # Concurrency: Threading, Multiprocessing & Asyncio notes
+    ├── print_numbers_threads.py   # Task 1: 5 Threads Printing 1-5
+    ├── simulate_downloads_threads.py # Task 2: 5 Threads Simulating Downloads
+    ├── safe_counter_lock.py       # Task 3: Shared Counter with Lock
+    ├── squares_thread_pool.py     # Task 4: ThreadPoolExecutor Squares (1-20)
+    ├── heavy_math_process_pool.py # Task 5: ProcessPoolExecutor CPU Math
+    ├── async_three_tasks.py       # Task 6: Three Async Tasks via asyncio.gather
+    ├── single_thread_demo.py      # Single Thread Execution Demo
+    ├── multiple_threads_download.py # Multiple Threads Concurrent Downloads
+    ├── race_condition_demo.py     # Race Condition & Lock Synchronization Demo
+    ├── thread_pool_executor_demo.py # ThreadPoolExecutor Management Demo
+    ├── basic_multiprocessing.py   # Basic Multiprocessing CPU Execution
+    ├── process_pool_executor_demo.py # ProcessPoolExecutor Parallel Execution
+    ├── basic_asyncio_coroutine.py # Basic Asyncio Coroutine (async/await)
+    ├── asyncio_gather_concurrent.py # Concurrent Execution via asyncio.gather
+    ├── asyncio_task_creation.py   # Background Task Creation (asyncio.create_task)
+    ├── concurrency_benchmark_comparison.py # Concurrency Benchmark Comparison
+    ├── concurrent_file_downloader.py # Mini Project: Concurrent File Downloader
+    ├── multiprocess_image_processor.py # Challenge Project: Multiprocess Image Processor
+    ├── async_api_checker.py       # Challenge Project: Async Website Status Checker
+    └── concurrent_image_downloader.py # Bonus Challenge: Concurrent Image Downloader Benchmark
 ```
 
 ---
@@ -422,7 +444,8 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 | **Day 18** | Aug 07, 2026 | JSON, CSV & REST APIs | 🟢 Completed | [Notes](Day%2018/Day18.md) • [Dict2JSON](Day%2018/dict_to_json.py) • [JSON2Dict](Day%2018/json_to_dict.py) • [Read JSON](Day%2018/read_json_file.py) • [Write JSON](Day%2018/write_json_file.py) • [Read CSV](Day%2018/read_csv_file.py) • [Write CSV](Day%2018/write_csv_file.py) • [GitHub API](Day%2018/fetch_github_api.py) • [Status Codes](Day%2018/check_http_status.py) • [Extract JSON](Day%2018/extract_json_fields.py) • [API Errors](Day%2018/handle_api_errors.py) • [GitHub Viewer](Day%2018/github_profile_viewer.py) • [Weather App](Day%2018/weather_app_cli.py) • [Currency Conv](Day%2018/currency_converter_api.py) |
 | **Day 19** | Aug 07, 2026 | Virtual Environments, Package Management & Project Structure | 🟢 Completed | [Notes](Day%2019/Day19.md) • [vEnv Demo](Day%2019/venv_management_demo.py) • [Pip Checker](Day%2019/pip_dependency_checker.py) • [Env Loader](Day%2019/env_config_loader.py) • [Layout Gen](Day%2019/project_structure_creator.py) • [User Finder App](Day%2019/github_user_finder/app.py) • [Weather Dashboard](Day%2019/weather_dashboard/app.py) • [Starter Template](Day%2019/python_project_starter/main.py) |
 | **Day 20** | Aug 07, 2026 | Testing in Python (unittest) | 🟢 Completed | [Notes](Day%2020/Day20.md) • [Add Test](Day%2020/test_addition.py) • [Sub Test](Day%2020/test_subtraction.py) • [Mult Test](Day%2020/test_multiplication.py) • [Div Test](Day%2020/test_division.py) • [Fact Test](Day%2020/test_factorial.py) • [Rev Test](Day%2020/test_string_reverse.py) • [Parity Test](Day%2020/test_even_odd.py) • [Palin Test](Day%2020/test_palindrome.py) • [Sort Test](Day%2020/test_list_sorting.py) • [File Fixture](Day%2020/test_file_existence.py) • [Calc Suite](Day%2020/calculator_test_suite.py) • [Grade System](Day%2020/student_grade_system_test.py) • [Bank Account](Day%2020/bank_account_testing.py) |
-| **Day 21** | | *Upcoming* | ⚪ Pending | - |
+| **Day 21** | Aug 10, 2026 | Concurrency: Threading, Multiprocessing & Asyncio | 🟢 Completed | [Notes](Day%2021/Day21.md) • [Task 1 Threads](Day%2021/print_numbers_threads.py) • [Task 2 Download](Day%2021/simulate_downloads_threads.py) • [Task 3 Lock](Day%2021/safe_counter_lock.py) • [Task 4 Pool](Day%2021/squares_thread_pool.py) • [Task 5 Math](Day%2021/heavy_math_process_pool.py) • [Task 6 Async](Day%2021/async_three_tasks.py) • [File Downloader](Day%2021/concurrent_file_downloader.py) • [Image Processor](Day%2021/multiprocess_image_processor.py) • [Async Checker](Day%2021/async_api_checker.py) • [Image Benchmark](Day%2021/concurrent_image_downloader.py) |
+| **Day 22** | | *Upcoming* | ⚪ Pending | - |
 
 ---
 
