@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white&style=for-the-badge" alt="Python Version">
   <img src="https://img.shields.io/badge/Challenge%20Status-In%20Progress-orange?style=for-the-badge" alt="Challenge Status">
-  <img src="https://img.shields.io/badge/Progress-29%20%2F%20200%20Days-green?style=for-the-badge" alt="Progress Badge">
+  <img src="https://img.shields.io/badge/Progress-30%20%2F%20200%20Days-green?style=for-the-badge" alt="Progress Badge">
 </p>
 
 A 200-day journey to master Python from beginner to advanced by learning daily, solving coding problems, building real-world projects, and sharing my progress publicly. This repository documents my growth, projects, and consistent learning—one day at a time. 🚀
@@ -11,9 +11,9 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 ---
 
 ## 📊 Challenge Progress
-**Current Progress:** `29 / 200 Days` (14.5%)
+**Current Progress:** `30 / 200 Days` (15.0%) — **FOUNDATION PHASE CAPSTONE COMPLETED!** 🎉
 ```text
-[██████░░░░░░░░░░░░░░] 14.5% Complete
+[███████░░░░░░░░░░░░░] 15.0% Complete
 ```
 
 ---
@@ -442,6 +442,32 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
     ├── requirements.txt           # Test Dependencies (pytest, pytest-cov)
     ├── .gitignore                 # Git Exclusions
     └── README.md                  # Test Execution Documentation
+└── Day 30/
+    ├── Day30.md                   # Python Foundation Capstone Design Document
+    └── pyfinance/                 # CAPSTONE PROJECT: PyFinance Personal Finance Manager CLI
+        ├── pyproject.toml         # Modern Packaging & Script Entry Point
+        ├── requirements.txt       # Dependencies List (requests, python-dotenv, pytest)
+        ├── .env.example           # Environment Configuration Template
+        ├── .gitignore             # Git Exclusions
+        ├── LICENSE                # MIT License
+        ├── README.md              # Capstone Documentation & CLI Usage Guide
+        ├── src/pyfinance/         # Production-Style Layered Package
+        │   ├── __main__.py        # Package Execution Protocol
+        │   ├── main.py            # Composition Root & Dependency Injection
+        │   ├── config.py          # Centralized Config System
+        │   ├── database.py        # Data Access Layer (SQLite)
+        │   ├── exceptions.py      # Custom Exception Hierarchy
+        │   ├── logger.py          # Operational Logger
+        │   ├── models/            # Dataclass Models (Expense, Budget, CurrencyRate)
+        │   ├── repositories/      # ExpenseRepository (Data Access Abstraction)
+        │   ├── services/          # Business Services (Expense, Report, Currency, Budget Services)
+        │   ├── api/               # Resilient Currency API Client
+        │   └── cli/               # ASCII Tabular CLI Presentation Layer
+        └── tests/                 # Complete Pytest Test Suite
+            ├── unit/              # Unit Tests for Services & Validation
+            ├── integration/       # Integration Tests for Database & Repositories
+            ├── conftest.py        # Shared Pytest Fixtures
+            └── test_api_client.py # Mock API Client Pytest Suite
 ```
 
 ---
@@ -559,7 +585,8 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 | **Day 27** | Aug 28, 2026 | Working with Real-World APIs | 🟢 Completed | [Notes](Day%2027/Day27.md) • [Tasks 1-8](Day%2027/api_practice_tasks.py) • [GitHub CLI App](Day%2027/github_cli/main.py) • [API Client](Day%2027/github_cli/api_client.py) • [GitHub Service](Day%2027/github_cli/github_api.py) |
 | **Day 28** | Aug 28, 2026 | Python Project Architecture & Packaging | 🟢 Completed | [Notes](Day%2028/Day28.md) • [Task 1](Day%2028/task1_main.py) • [Task 2](Day%2028/task2_package_demo/main.py) • [Tasks 3-5](Day%2028/task3_4_5_packaging_demo/src/demo_pkg/core.py) • [Refactored Tracker](Day%2028/expense_tracker/src/expense_tracker/main.py) • [Unit Tests](Day%2028/expense_tracker/tests/test_expenses.py) |
 | **Day 29** | Aug 28, 2026 | Professional Testing with Pytest | 🟢 Completed | [Notes](Day%2029/Day29.md) • [Tasks 1-5](Day%2029/test_task1_calculator.py) • [Tracker Pytest](Day%2029/expense_tracker_pytest/conftest.py) • [API Mock Pytest](Day%2029/api_client_pytest/test_api_client.py) |
-| **Day 30** | | *Upcoming* | ⚪ Pending | - |
+| **Day 30** | Aug 28, 2026 | Python Foundation Capstone: PyFinance | 🟢 Completed | [Notes & Architecture](Day%2030/Day30.md) • [PyFinance Package](Day%2030/pyfinance/src/pyfinance/main.py) • [Pytest Suite](Day%2030/pyfinance/tests/conftest.py) |
+| **Day 31** | | *Upcoming* | ⚪ Pending | - |
 
 ---
 
