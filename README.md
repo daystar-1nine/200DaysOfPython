@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white&style=for-the-badge" alt="Python Version">
   <img src="https://img.shields.io/badge/Challenge%20Status-In%20Progress-orange?style=for-the-badge" alt="Challenge Status">
-  <img src="https://img.shields.io/badge/Progress-39%20%2F%20200%20Days-green?style=for-the-badge" alt="Progress Badge">
+  <img src="https://img.shields.io/badge/Progress-40%20%2F%20200%20Days-green?style=for-the-badge" alt="Progress Badge">
 </p>
 
 A 200-day journey to master Python from beginner to advanced by learning daily, solving coding problems, building real-world projects, and sharing my progress publicly. This repository documents my growth, projects, and consistent learning—one day at a time. 🚀
@@ -11,9 +11,9 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 ---
 
 ## 📊 Challenge Progress
-**Current Progress:** `39 / 200 Days` (19.5%) — **PHASE 2: ADVANCED PYTHON IN PROGRESS!** ⚡
+**Current Progress:** `40 / 200 Days` (20.0%) — **PHASE 2: ADVANCED PYTHON CAPSTONE COMPLETE!** 🚀
 ```text
-[███████░░░░░░░░░░░░░] 19.5% Complete
+[████████░░░░░░░░░░░░] 20.0% Complete
 ```
 
 ---
@@ -566,6 +566,22 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
     │   └── test_payment.py        # Pytest Suite (16 Test Cases)
     ├── pyproject.toml             # MyPy & Pytest Configuration
     └── README.md                  # Documentation
+└── Day 40/
+    ├── Day40.md                   # Advanced Python Capstone Masterclass Notes
+    └── Day-040-LogAnalyze/        # PHASE 2 CAPSTONE PROJECT: Log Analytics CLI
+        ├── src/loganalyze/
+        │   ├── main.py            # CLI Entry Point
+        │   ├── exceptions.py      # Custom Error Hierarchy
+        │   ├── models/            # LogEntry & LogReport (with Dunder Protocols)
+        │   ├── parser/            # Log Parser (Generators + Custom Iterator)
+        │   ├── services/          # Analyzer Engine & Exporter Protocol Service
+        │   ├── cli/               # Subcommands Handler (summary, errors, search, date, export)
+        │   └── utils/             # @timer Profiling Decorator
+        ├── tests/                 # Complete Test Suite (31 Unit & Integration Tests)
+        ├── sample_data/           # Sample Log Dataset
+        ├── pyproject.toml         # Configuration
+        ├── LICENSE                # MIT License
+        └── README.md              # Project Documentation
 ```
 
 ---
@@ -693,7 +709,8 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 | **Day 37** | Aug 28, 2026 | Advanced Exceptions & Application Error System | 🟢 Completed | [Notes](Day%2037/Day37.md) • [Exceptions Package](Day%2037/exceptions/base.py) • [App Service](Day%2037/app_service.py) • [Tests](Day%2037/tests/test_exceptions.py) |
 | **Day 38** | Aug 28, 2026 | Functional Python & Data Transformation Pipeline | 🟢 Completed | [Notes](Day%2038/Day38.md) • [Pipeline Package](Day%2038/pipeline/validator.py) • [Main Pipeline](Day%2038/main_pipeline.py) • [Tests](Day%2038/tests/test_pipeline.py) |
 | **Day 39** | Aug 28, 2026 | Dataclasses, Enums & Protocols (Payment Domain Model) | 🟢 Completed | [Notes](Day%2039/Day39.md) • [Models](Day%2039/models/payment.py) • [Processors](Day%2039/processors/protocol.py) • [Service](Day%2039/payment_service.py) • [Tests](Day%2039/tests/test_payment.py) |
-| **Day 40** | | *Upcoming* | ⚪ Pending | - |
+| **Day 40** | Aug 28, 2026 | Advanced Python Capstone: Log Analytics CLI (`LogAnalyze`) | 🟢 Completed | [Notes](Day%2040/Day40.md) • [Capstone Project](Day%2040/Day-040-LogAnalyze/src/loganalyze/main.py) • [Analyzer](Day%2040/Day-040-LogAnalyze/src/loganalyze/services/analyzer.py) • [Tests](Day%2040/Day-040-LogAnalyze/tests/unit/test_analyzer.py) • [Readme](Day%2040/Day-040-LogAnalyze/README.md) |
+| **Day 41** | | *Upcoming* | ⚪ Pending | - |
 
 ---
 

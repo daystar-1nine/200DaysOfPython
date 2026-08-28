@@ -206,5 +206,13 @@
     {
         "category": "Travel",
         "amount": 120.0
+    },
+    {
+        "category": "Food",
+        "amount": 250.0
+    },
+    {
+        "category": "Travel",
+        "amount": 120.0
     }
 ]
