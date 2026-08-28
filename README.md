@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white&style=for-the-badge" alt="Python Version">
   <img src="https://img.shields.io/badge/Challenge%20Status-In%20Progress-orange?style=for-the-badge" alt="Challenge Status">
-  <img src="https://img.shields.io/badge/Progress-37%20%2F%20200%20Days-green?style=for-the-badge" alt="Progress Badge">
+  <img src="https://img.shields.io/badge/Progress-38%20%2F%20200%20Days-green?style=for-the-badge" alt="Progress Badge">
 </p>
 
 A 200-day journey to master Python from beginner to advanced by learning daily, solving coding problems, building real-world projects, and sharing my progress publicly. This repository documents my growth, projects, and consistent learning—one day at a time. 🚀
@@ -11,9 +11,9 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 ---
 
 ## 📊 Challenge Progress
-**Current Progress:** `37 / 200 Days` (18.5%) — **PHASE 2: ADVANCED PYTHON IN PROGRESS!** ⚡
+**Current Progress:** `38 / 200 Days` (19.0%) — **PHASE 2: ADVANCED PYTHON IN PROGRESS!** ⚡
 ```text
-[███████░░░░░░░░░░░░░] 18.5% Complete
+[███████░░░░░░░░░░░░░] 19.0% Complete
 ```
 
 ---
@@ -537,6 +537,18 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
     ├── tests/
     │   └── test_exceptions.py     # Pytest Suite (16 Test Cases for Exception Taxonomy & Chaining)
     └── README.md                  # Documentation
+└── Day 38/
+    ├── Day38.md                   # Functional Python Masterclass Notes
+    ├── pipeline/                  # Functional Transformation Pipeline Package
+    │   ├── validator.py           # validate_transactions (all, filter)
+    │   ├── filters.py             # filter_high_value (filter, lambda)
+    │   ├── transformer.py         # transform_records (map, lambda)
+    │   ├── sorter.py              # sort_by_key (sorted, key=lambda)
+    │   └── aggregator.py          # aggregate_totals & report (reduce, any, all)
+    ├── main_pipeline.py           # Main Data Transformation Pipeline Script
+    ├── tests/
+    │   └── test_pipeline.py       # Pytest Suite (9 Test Cases)
+    └── README.md                  # Documentation
 ```
 
 ---
@@ -662,7 +674,8 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 | **Day 35** | Aug 28, 2026 | Generators & yield (Large File Processor) | 🟢 Completed | [Notes](Day%2035/Day35.md) • [Reader](Day%2035/processor/reader.py) • [Pipeline](Day%2035/processor/pipeline.py) • [Benchmark](Day%2035/processor/generator_demo.py) • [Tests](Day%2035/tests/test_processor.py) |
 | **Day 36** | Aug 28, 2026 | Context Managers & Resource Manager | 🟢 Completed | [Notes](Day%2036/Day36.md) • [Database Manager](Day%2036/resource_manager/database_manager.py) • [Timer Manager](Day%2036/resource_manager/timer_manager.py) • [Temp File Manager](Day%2036/resource_manager/temp_file_manager.py) • [Demo](Day%2036/resource_manager/context_demo.py) • [Tests](Day%2036/tests/test_resource_manager.py) |
 | **Day 37** | Aug 28, 2026 | Advanced Exceptions & Application Error System | 🟢 Completed | [Notes](Day%2037/Day37.md) • [Exceptions Package](Day%2037/exceptions/base.py) • [App Service](Day%2037/app_service.py) • [Tests](Day%2037/tests/test_exceptions.py) |
-| **Day 38** | | *Upcoming* | ⚪ Pending | - |
+| **Day 38** | Aug 28, 2026 | Functional Python & Data Transformation Pipeline | 🟢 Completed | [Notes](Day%2038/Day38.md) • [Pipeline Package](Day%2038/pipeline/validator.py) • [Main Pipeline](Day%2038/main_pipeline.py) • [Tests](Day%2038/tests/test_pipeline.py) |
+| **Day 39** | | *Upcoming* | ⚪ Pending | - |
 
 ---
 
