@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white&style=for-the-badge" alt="Python Version">
   <img src="https://img.shields.io/badge/Challenge%20Status-In%20Progress-orange?style=for-the-badge" alt="Challenge Status">
-  <img src="https://img.shields.io/badge/Progress-32%20%2F%20200%20Days-green?style=for-the-badge" alt="Progress Badge">
+  <img src="https://img.shields.io/badge/Progress-33%20%2F%20200%20Days-green?style=for-the-badge" alt="Progress Badge">
 </p>
 
 A 200-day journey to master Python from beginner to advanced by learning daily, solving coding problems, building real-world projects, and sharing my progress publicly. This repository documents my growth, projects, and consistent learning—one day at a time. 🚀
@@ -11,9 +11,9 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 ---
 
 ## 📊 Challenge Progress
-**Current Progress:** `32 / 200 Days` (16.0%) — **PHASE 2: ADVANCED PYTHON IN PROGRESS!** ⚡
+**Current Progress:** `33 / 200 Days` (16.5%) — **PHASE 2: ADVANCED PYTHON IN PROGRESS!** ⚡
 ```text
-[███████░░░░░░░░░░░░░] 16.0% Complete
+[███████░░░░░░░░░░░░░] 16.5% Complete
 ```
 
 ---
@@ -482,6 +482,18 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
     ├── smart_collection.py        # DAY 32 MAIN PROJECT: Custom SmartCollection Class
     ├── test_smart_collection.py   # Pytest Suite (11 Test Cases for Dunder Protocols)
     └── README.md                  # Project Documentation
+└── Day 33/
+    ├── Day33.md                   # Decorators Masterclass Notes
+    ├── decorators/                # Reusable Monitoring Decorators Package
+    │   ├── logger.py              # @logger Decorator
+    │   ├── timer.py               # @timer Decorator
+    │   ├── retry.py               # @retry(max_attempts=3) Parameterized Decorator Factory
+    │   └── auth.py                # @requires_auth(role="admin") Decorator
+    ├── examples/
+    │   └── monitor_demo.py        # Interactive Function Monitoring System Demo
+    ├── tests/
+    │   └── test_decorators.py     # Pytest Suite (12 Test Cases)
+    └── README.md                  # Documentation
 ```
 
 ---
@@ -602,7 +614,8 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 | **Day 30** | Aug 28, 2026 | Python Foundation Capstone: PyFinance | 🟢 Completed | [Notes & Architecture](Day%2030/Day30.md) • [PyFinance Package](Day%2030/pyfinance/src/pyfinance/main.py) • [Pytest Suite](Day%2030/pyfinance/tests/conftest.py) |
 | **Day 31** | Aug 28, 2026 | Advanced OOP & Banking System | 🟢 Completed | [Notes](Day%2031/Day31.md) • [Accounts Domain](Day%2031/banking_system/account.py) • [Strategy Payments](Day%2031/banking_system/payments.py) • [Bank Composition](Day%2031/banking_system/bank.py) • [Simulation](Day%2031/banking_system/main.py) • [Tests](Day%2031/banking_system/test_banking.py) |
 | **Day 32** | Aug 28, 2026 | Magic / Dunder Methods & Smart Collection | 🟢 Completed | [Notes](Day%2032/Day32.md) • [Exercises](Day%2032/exercises.py) • [Smart Collection](Day%2032/smart_collection.py) • [Tests](Day%2032/test_smart_collection.py) |
-| **Day 33** | | *Upcoming* | ⚪ Pending | - |
+| **Day 33** | Aug 28, 2026 | Decorators & Function Monitoring System | 🟢 Completed | [Notes](Day%2033/Day33.md) • [Decorators Package](Day%2033/decorators/logger.py) • [Demo](Day%2033/examples/monitor_demo.py) • [Tests](Day%2033/tests/test_decorators.py) |
+| **Day 34** | | *Upcoming* | ⚪ Pending | - |
 
 ---
 
