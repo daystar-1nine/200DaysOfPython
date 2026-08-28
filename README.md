@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white&style=for-the-badge" alt="Python Version">
   <img src="https://img.shields.io/badge/Challenge%20Status-In%20Progress-orange?style=for-the-badge" alt="Challenge Status">
-  <img src="https://img.shields.io/badge/Progress-27%20%2F%20200%20Days-green?style=for-the-badge" alt="Progress Badge">
+  <img src="https://img.shields.io/badge/Progress-28%20%2F%20200%20Days-green?style=for-the-badge" alt="Progress Badge">
 </p>
 
 A 200-day journey to master Python from beginner to advanced by learning daily, solving coding problems, building real-world projects, and sharing my progress publicly. This repository documents my growth, projects, and consistent learning—one day at a time. 🚀
@@ -11,9 +11,9 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 ---
 
 ## 📊 Challenge Progress
-**Current Progress:** `27 / 200 Days` (13.5%)
+**Current Progress:** `28 / 200 Days` (14.0%)
 ```text
-[█████░░░░░░░░░░░░░░░] 13.5% Complete
+[██████░░░░░░░░░░░░░░] 14.0% Complete
 ```
 
 ---
@@ -398,6 +398,30 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
     ├── .env.example               # Environment Variables Template
     ├── .gitignore                 # Git Exclusions File
     └── requirements.txt           # Project Dependencies
+└── Day 28/
+    ├── Day28.md                   # Python Project Architecture & Packaging notes
+    ├── task1_math_utils.py        # Task 1: Math Utilities Module
+    ├── task1_main.py              # Task 1: Module Import Execution
+    ├── task2_package_demo/        # Task 2: Package Demo Architecture
+    │   ├── main.py                # Package Import Execution
+    │   └── utils/                 # Utilities Package (__init__.py, math_utils, string_utils)
+    ├── task3_4_5_packaging_demo/  # Tasks 3-5: Editable Packaging Demo
+    │   ├── pyproject.toml         # Basic Package Metadata
+    │   └── src/demo_pkg/          # Package Source (__init__.py, core.py)
+    └── expense_tracker/           # Main Project: Refactored Layered Expense Tracker
+        ├── pyproject.toml         # Modern Packaging Config & Script Entry Point
+        ├── requirements.txt       # Dependencies List
+        ├── .env.example           # Environment Configuration Template
+        ├── README.md              # Project Documentation
+        ├── src/expense_tracker/   # Layered Application Package
+        │   ├── __main__.py        # Runnable Module Entry Point
+        │   ├── main.py            # Dependency Injection Bootstrap
+        │   ├── config.py          # Centralized Config System
+        │   ├── database.py        # Data Access Layer (SQLite)
+        │   ├── models/            # Dataclass Domain Models
+        │   ├── services/          # Business Logic Services (Expense & Report Services)
+        │   └── cli/               # CLI Presentation Layer Subcommand Handlers
+        └── tests/                 # Automated Unit Tests (test_expenses, test_reports)
 ```
 
 ---
@@ -513,7 +537,8 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 | **Day 25** | Aug 28, 2026 | Python + SQLite Database | 🟢 Completed | [Notes](Day%2025/Day25.md) • [Tasks 1-10](Day%2025/sqlite_practice_tasks.py) • [Student DB App](Day%2025/student_db_app/student.py) • [DB Expense](Day%2025/db_expense_tracker/expense.py) • [Library System](Day%2025/library_db_app/library.py) |
 | **Day 26** | Aug 28, 2026 | Advanced SQL & Database Design | 🟢 Completed | [Notes](Day%2026/Day26.md) • [Tasks 1-8](Day%2026/sqlite_advanced_practice.py) • [Multi-User App](Day%2026/multi_user_expense_tracker/expense.py) • [Monthly Report](Day%2026/monthly_report_expense_tracker/expense_report.py) |
 | **Day 27** | Aug 28, 2026 | Working with Real-World APIs | 🟢 Completed | [Notes](Day%2027/Day27.md) • [Tasks 1-8](Day%2027/api_practice_tasks.py) • [GitHub CLI App](Day%2027/github_cli/main.py) • [API Client](Day%2027/github_cli/api_client.py) • [GitHub Service](Day%2027/github_cli/github_api.py) |
-| **Day 28** | | *Upcoming* | ⚪ Pending | - |
+| **Day 28** | Aug 28, 2026 | Python Project Architecture & Packaging | 🟢 Completed | [Notes](Day%2028/Day28.md) • [Task 1](Day%2028/task1_main.py) • [Task 2](Day%2028/task2_package_demo/main.py) • [Tasks 3-5](Day%2028/task3_4_5_packaging_demo/src/demo_pkg/core.py) • [Refactored Tracker](Day%2028/expense_tracker/src/expense_tracker/main.py) • [Unit Tests](Day%2028/expense_tracker/tests/test_expenses.py) |
+| **Day 29** | | *Upcoming* | ⚪ Pending | - |
 
 ---
 
