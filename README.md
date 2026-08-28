@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white&style=for-the-badge" alt="Python Version">
   <img src="https://img.shields.io/badge/Challenge%20Status-In%20Progress-orange?style=for-the-badge" alt="Challenge Status">
-  <img src="https://img.shields.io/badge/Progress-28%20%2F%20200%20Days-green?style=for-the-badge" alt="Progress Badge">
+  <img src="https://img.shields.io/badge/Progress-29%20%2F%20200%20Days-green?style=for-the-badge" alt="Progress Badge">
 </p>
 
 A 200-day journey to master Python from beginner to advanced by learning daily, solving coding problems, building real-world projects, and sharing my progress publicly. This repository documents my growth, projects, and consistent learning—one day at a time. 🚀
@@ -11,9 +11,9 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 ---
 
 ## 📊 Challenge Progress
-**Current Progress:** `28 / 200 Days` (14.0%)
+**Current Progress:** `29 / 200 Days` (14.5%)
 ```text
-[██████░░░░░░░░░░░░░░] 14.0% Complete
+[██████░░░░░░░░░░░░░░] 14.5% Complete
 ```
 
 ---
@@ -422,6 +422,26 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
         │   ├── services/          # Business Logic Services (Expense & Report Services)
         │   └── cli/               # CLI Presentation Layer Subcommand Handlers
         └── tests/                 # Automated Unit Tests (test_expenses, test_reports)
+└── Day 29/
+    ├── Day29.md                   # Professional Testing with Pytest notes
+    ├── task1_calculator.py        # Task 1: Calculator Pure Functions
+    ├── test_task1_calculator.py   # Task 1: Pytest Assertions Suite
+    ├── test_task2_parameterization.py # Task 2: Parameterized Pytest Suite
+    ├── test_task3_exceptions.py   # Task 3: Exception Testing Suite
+    ├── task4_expense_calc.py      # Task 4: Expense Aggregation Logic
+    ├── test_task4_expense_calc.py # Task 4: Edge Case Unit Tests
+    ├── test_task5_database.py     # Task 5: Database CRUD Integration Tests
+    ├── expense_tracker_pytest/    # Main Project: Pytest Suite for Expense Tracker
+    │   ├── conftest.py            # Shared Fixtures (tmp_path test db & services)
+    │   └── tests/                 # Unit & Integration Pytest Suites
+    │       ├── unit/              # Service Layer Unit Tests
+    │       └── integration/       # Database & CLI Integration Tests
+    ├── api_client_pytest/         # Advanced Challenge: HTTP API Client Mocking
+    │   └── test_api_client.py     # Mock Pytest Suite (200, 401, 404, 429, 500, Timeout, Retries)
+    ├── pyproject.toml             # Pytest Configuration & Testpaths
+    ├── requirements.txt           # Test Dependencies (pytest, pytest-cov)
+    ├── .gitignore                 # Git Exclusions
+    └── README.md                  # Test Execution Documentation
 ```
 
 ---
@@ -538,7 +558,8 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 | **Day 26** | Aug 28, 2026 | Advanced SQL & Database Design | 🟢 Completed | [Notes](Day%2026/Day26.md) • [Tasks 1-8](Day%2026/sqlite_advanced_practice.py) • [Multi-User App](Day%2026/multi_user_expense_tracker/expense.py) • [Monthly Report](Day%2026/monthly_report_expense_tracker/expense_report.py) |
 | **Day 27** | Aug 28, 2026 | Working with Real-World APIs | 🟢 Completed | [Notes](Day%2027/Day27.md) • [Tasks 1-8](Day%2027/api_practice_tasks.py) • [GitHub CLI App](Day%2027/github_cli/main.py) • [API Client](Day%2027/github_cli/api_client.py) • [GitHub Service](Day%2027/github_cli/github_api.py) |
 | **Day 28** | Aug 28, 2026 | Python Project Architecture & Packaging | 🟢 Completed | [Notes](Day%2028/Day28.md) • [Task 1](Day%2028/task1_main.py) • [Task 2](Day%2028/task2_package_demo/main.py) • [Tasks 3-5](Day%2028/task3_4_5_packaging_demo/src/demo_pkg/core.py) • [Refactored Tracker](Day%2028/expense_tracker/src/expense_tracker/main.py) • [Unit Tests](Day%2028/expense_tracker/tests/test_expenses.py) |
-| **Day 29** | | *Upcoming* | ⚪ Pending | - |
+| **Day 29** | Aug 28, 2026 | Professional Testing with Pytest | 🟢 Completed | [Notes](Day%2029/Day29.md) • [Tasks 1-5](Day%2029/test_task1_calculator.py) • [Tracker Pytest](Day%2029/expense_tracker_pytest/conftest.py) • [API Mock Pytest](Day%2029/api_client_pytest/test_api_client.py) |
+| **Day 30** | | *Upcoming* | ⚪ Pending | - |
 
 ---
 
