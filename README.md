@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white&style=for-the-badge" alt="Python Version">
   <img src="https://img.shields.io/badge/Challenge%20Status-In%20Progress-orange?style=for-the-badge" alt="Challenge Status">
-  <img src="https://img.shields.io/badge/Progress-23%20%2F%20200%20Days-green?style=for-the-badge" alt="Progress Badge">
+  <img src="https://img.shields.io/badge/Progress-24%20%2F%20200%20Days-green?style=for-the-badge" alt="Progress Badge">
 </p>
 
 A 200-day journey to master Python from beginner to advanced by learning daily, solving coding problems, building real-world projects, and sharing my progress publicly. This repository documents my growth, projects, and consistent learning—one day at a time. 🚀
@@ -11,9 +11,9 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 ---
 
 ## 📊 Challenge Progress
-**Current Progress:** `23 / 200 Days` (11.5%)
+**Current Progress:** `24 / 200 Days` (12.0%)
 ```text
-[████░░░░░░░░░░░░░░░░] 11.5% Complete
+[████░░░░░░░░░░░░░░░░] 12.0% Complete
 ```
 
 ---
@@ -358,6 +358,17 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
     │   └── atm.py                 # ATM Class & Audit Log System
     └── expense_tracker_logger/    # Bonus Challenge: Expense Tracker with Logging
         └── expense_tracker.py     # Expense Tracker File, Error & Event Logger
+└── Day 24/
+    ├── Day24.md                   # CLI Applications & Configuration notes
+    ├── cli_calculator.py          # Task 1: CLI Calculator Tool
+    ├── cli_greet.py               # Task 2: Greeting CLI Generator
+    ├── cli_expense_tracker/       # Mini Project: CLI Expense Tracker App
+    │   └── expense.py             # Multi-command CLI Expense Tracker
+    ├── cli_github_tool/           # Challenge Project: CLI GitHub Tool
+    │   └── github.py              # CLI GitHub Profile & Repos Viewer
+    └── study_tracker_cli/         # Bonus Challenge: CLI Study Tracker Tool
+        ├── .env.example           # Environment Variables Template
+        └── study.py               # CLI Study Progress Manager
 ```
 
 ---
@@ -469,7 +480,8 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 | **Day 21** | Aug 10, 2026 | Concurrency: Threading, Multiprocessing & Asyncio | 🟢 Completed | [Notes](Day%2021/Day21.md) • [Task 1 Threads](Day%2021/print_numbers_threads.py) • [Task 2 Download](Day%2021/simulate_downloads_threads.py) • [Task 3 Lock](Day%2021/safe_counter_lock.py) • [Task 4 Pool](Day%2021/squares_thread_pool.py) • [Task 5 Math](Day%2021/heavy_math_process_pool.py) • [Task 6 Async](Day%2021/async_three_tasks.py) • [File Downloader](Day%2021/concurrent_file_downloader.py) • [Image Processor](Day%2021/multiprocess_image_processor.py) • [Async Checker](Day%2021/async_api_checker.py) • [Image Benchmark](Day%2021/concurrent_image_downloader.py) |
 | **Day 22** | Aug 10, 2026 | Type Hints & Dataclasses | 🟢 Completed | [Notes](Day%2022/Day22.md) • [Typed Calc](Day%2022/typed_calculator.py) • [Typed Avg](Day%2022/list_average_typed.py) • [TypedDict](Day%2022/student_typed_dict.py) • [Dataclass](Day%2022/product_dataclass.py) • [Methods](Day%2022/product_methods_dataclass.py) • [Student App](Day%2022/student_management_dataclass.py) • [Inventory](Day%2022/inventory_system_dataclass.py) • [API Model](Day%2022/api_data_model_converter.py) |
 | **Day 23** | Aug 10, 2026 | Logging & Debugging in Python | 🟢 Completed | [Notes](Day%2023/Day23.md) • [Debug Index](Day%2023/debug_index_error.py) • [ATM Logger](Day%2023/atm_logger_demo.py) • [Safe Avg](Day%2023/safe_average_logger.py) • [App Logger](Day%2023/application_logger/app.py) • [ATM App](Day%2023/atm_logging_system/atm.py) • [Expense Tracker](Day%2023/expense_tracker_logger/expense_tracker.py) |
-| **Day 24** | | *Upcoming* | ⚪ Pending | - |
+| **Day 24** | Aug 28, 2026 | CLI Applications & Configuration | 🟢 Completed | [Notes](Day%2024/Day24.md) • [CLI Calc](Day%2024/cli_calculator.py) • [CLI Greet](Day%2024/cli_greet.py) • [CLI Expense](Day%2024/cli_expense_tracker/expense.py) • [CLI GitHub](Day%2024/cli_github_tool/github.py) • [Study Tracker](Day%2024/study_tracker_cli/study.py) |
+| **Day 25** | | *Upcoming* | ⚪ Pending | - |
 
 ---
 

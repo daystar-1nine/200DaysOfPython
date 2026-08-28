@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "topic": "Python Concurrency",
+        "hours": 2.5,
+        "completed": true
+    },
+    {
+        "id": 2,
+        "topic": "CLI Applications",
+        "hours": 1.5,
+        "completed": false
+    },
+    {
+        "id": 3,
+        "topic": "Python Concurrency",
+        "hours": 2.5,
+        "completed": false
+    },
+    {
+        "id": 4,
+        "topic": "CLI Applications",
+        "hours": 1.5,
+        "completed": false
+    }
+]
