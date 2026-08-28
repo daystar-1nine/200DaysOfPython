@@ -22,5 +22,29 @@
         "topic": "CLI Applications",
         "hours": 1.5,
         "completed": false
+    },
+    {
+        "id": 5,
+        "topic": "Python Concurrency",
+        "hours": 2.5,
+        "completed": false
+    },
+    {
+        "id": 6,
+        "topic": "CLI Applications",
+        "hours": 1.5,
+        "completed": false
+    },
+    {
+        "id": 7,
+        "topic": "Python Concurrency",
+        "hours": 2.5,
+        "completed": false
+    },
+    {
+        "id": 8,
+        "topic": "CLI Applications",
+        "hours": 1.5,
+        "completed": false
     }
 ]
