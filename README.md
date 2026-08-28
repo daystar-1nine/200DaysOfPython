@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white&style=for-the-badge" alt="Python Version">
   <img src="https://img.shields.io/badge/Challenge%20Status-In%20Progress-orange?style=for-the-badge" alt="Challenge Status">
-  <img src="https://img.shields.io/badge/Progress-25%20%2F%20200%20Days-green?style=for-the-badge" alt="Progress Badge">
+  <img src="https://img.shields.io/badge/Progress-26%20%2F%20200%20Days-green?style=for-the-badge" alt="Progress Badge">
 </p>
 
 A 200-day journey to master Python from beginner to advanced by learning daily, solving coding problems, building real-world projects, and sharing my progress publicly. This repository documents my growth, projects, and consistent learning—one day at a time. 🚀
@@ -11,9 +11,9 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 ---
 
 ## 📊 Challenge Progress
-**Current Progress:** `25 / 200 Days` (12.5%)
+**Current Progress:** `26 / 200 Days` (13.0%)
 ```text
-[████░░░░░░░░░░░░░░░░] 12.5% Complete
+[█████░░░░░░░░░░░░░░░] 13.0% Complete
 ```
 
 ---
@@ -378,6 +378,13 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
     │   └── expense.py             # SQLite Expense App
     └── library_db_app/            # Bonus Challenge: Library Management System
         └── library.py             # Library System & Borrowing Rules
+└── Day 26/
+    ├── Day26.md                   # Advanced SQL & Database Design notes
+    ├── sqlite_advanced_practice.py # Tasks 1-8: Advanced SQL JOINs & Grouping
+    ├── multi_user_expense_tracker/ # Mini Project: Multi-User Relational Tracker
+    │   └── expense.py             # Multi-User Relational Expense CLI
+    └── monthly_report_expense_tracker/ # Challenge Project: Monthly Report Tracker
+        └── expense_report.py      # Monthly Report Analytics CLI
 ```
 
 ---
@@ -491,7 +498,8 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 | **Day 23** | Aug 10, 2026 | Logging & Debugging in Python | 🟢 Completed | [Notes](Day%2023/Day23.md) • [Debug Index](Day%2023/debug_index_error.py) • [ATM Logger](Day%2023/atm_logger_demo.py) • [Safe Avg](Day%2023/safe_average_logger.py) • [App Logger](Day%2023/application_logger/app.py) • [ATM App](Day%2023/atm_logging_system/atm.py) • [Expense Tracker](Day%2023/expense_tracker_logger/expense_tracker.py) |
 | **Day 24** | Aug 28, 2026 | CLI Applications & Configuration | 🟢 Completed | [Notes](Day%2024/Day24.md) • [CLI Calc](Day%2024/cli_calculator.py) • [CLI Greet](Day%2024/cli_greet.py) • [CLI Expense](Day%2024/cli_expense_tracker/expense.py) • [CLI GitHub](Day%2024/cli_github_tool/github.py) • [Study Tracker](Day%2024/study_tracker_cli/study.py) |
 | **Day 25** | Aug 28, 2026 | Python + SQLite Database | 🟢 Completed | [Notes](Day%2025/Day25.md) • [Tasks 1-10](Day%2025/sqlite_practice_tasks.py) • [Student DB App](Day%2025/student_db_app/student.py) • [DB Expense](Day%2025/db_expense_tracker/expense.py) • [Library System](Day%2025/library_db_app/library.py) |
-| **Day 26** | | *Upcoming* | ⚪ Pending | - |
+| **Day 26** | Aug 28, 2026 | Advanced SQL & Database Design | 🟢 Completed | [Notes](Day%2026/Day26.md) • [Tasks 1-8](Day%2026/sqlite_advanced_practice.py) • [Multi-User App](Day%2026/multi_user_expense_tracker/expense.py) • [Monthly Report](Day%2026/monthly_report_expense_tracker/expense_report.py) |
+| **Day 27** | | *Upcoming* | ⚪ Pending | - |
 
 ---
 
