@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white&style=for-the-badge" alt="Python Version">
   <img src="https://img.shields.io/badge/Challenge%20Status-In%20Progress-orange?style=for-the-badge" alt="Challenge Status">
-  <img src="https://img.shields.io/badge/Progress-34%20%2F%20200%20Days-green?style=for-the-badge" alt="Progress Badge">
+  <img src="https://img.shields.io/badge/Progress-35%20%2F%20200%20Days-green?style=for-the-badge" alt="Progress Badge">
 </p>
 
 A 200-day journey to master Python from beginner to advanced by learning daily, solving coding problems, building real-world projects, and sharing my progress publicly. This repository documents my growth, projects, and consistent learning—one day at a time. 🚀
@@ -11,9 +11,9 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 ---
 
 ## 📊 Challenge Progress
-**Current Progress:** `34 / 200 Days` (17.0%) — **PHASE 2: ADVANCED PYTHON IN PROGRESS!** ⚡
+**Current Progress:** `35 / 200 Days` (17.5%) — **PHASE 2: ADVANCED PYTHON IN PROGRESS!** ⚡
 ```text
-[███████░░░░░░░░░░░░░] 17.0% Complete
+[███████░░░░░░░░░░░░░] 17.5% Complete
 ```
 
 ---
@@ -504,6 +504,18 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
     ├── tests/
     │   └── test_iterators.py      # Pytest Suite (8 Test Cases)
     └── README.md                  # Documentation
+└── Day 35/
+    ├── Day35.md                   # Generators & Lazy Evaluation Masterclass Notes
+    ├── processor/                 # DAY 35 MAIN PROJECT: Large File Processor Package
+    │   ├── reader.py              # Generator Line & CSV Readers (yield)
+    │   ├── filters.py             # Generator Parsing & Category Filters
+    │   ├── pipeline.py            # DataPipeline Generator Orchestrator
+    │   └── generator_demo.py      # Math Generators & Memory Benchmark Demo
+    ├── data/
+    │   └── sample_large.csv       # Sample Dataset
+    ├── tests/
+    │   └── test_processor.py      # Pytest Suite (8 Test Cases)
+    └── README.md                  # Documentation
 ```
 
 ---
@@ -626,7 +638,8 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 | **Day 32** | Aug 28, 2026 | Magic / Dunder Methods & Smart Collection | 🟢 Completed | [Notes](Day%2032/Day32.md) • [Exercises](Day%2032/exercises.py) • [Smart Collection](Day%2032/smart_collection.py) • [Tests](Day%2032/test_smart_collection.py) |
 | **Day 33** | Aug 28, 2026 | Decorators & Function Monitoring System | 🟢 Completed | [Notes](Day%2033/Day33.md) • [Decorators Package](Day%2033/decorators/logger.py) • [Demo](Day%2033/examples/monitor_demo.py) • [Tests](Day%2033/tests/test_decorators.py) |
 | **Day 34** | Aug 28, 2026 | Iterators & Iterables (Custom Iterator Library) | 🟢 Completed | [Notes](Day%2034/Day34.md) • [Iterators Package](Day%2034/iterators/countdown.py) • [Tests](Day%2034/tests/test_iterators.py) |
-| **Day 35** | | *Upcoming* | ⚪ Pending | - |
+| **Day 35** | Aug 28, 2026 | Generators & yield (Large File Processor) | 🟢 Completed | [Notes](Day%2035/Day35.md) • [Reader](Day%2035/processor/reader.py) • [Pipeline](Day%2035/processor/pipeline.py) • [Benchmark](Day%2035/processor/generator_demo.py) • [Tests](Day%2035/tests/test_processor.py) |
+| **Day 36** | | *Upcoming* | ⚪ Pending | - |
 
 ---
 
