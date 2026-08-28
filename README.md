@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white&style=for-the-badge" alt="Python Version">
   <img src="https://img.shields.io/badge/Challenge%20Status-In%20Progress-orange?style=for-the-badge" alt="Challenge Status">
-  <img src="https://img.shields.io/badge/Progress-38%20%2F%20200%20Days-green?style=for-the-badge" alt="Progress Badge">
+  <img src="https://img.shields.io/badge/Progress-39%20%2F%20200%20Days-green?style=for-the-badge" alt="Progress Badge">
 </p>
 
 A 200-day journey to master Python from beginner to advanced by learning daily, solving coding problems, building real-world projects, and sharing my progress publicly. This repository documents my growth, projects, and consistent learning—one day at a time. 🚀
@@ -11,9 +11,9 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 ---
 
 ## 📊 Challenge Progress
-**Current Progress:** `38 / 200 Days` (19.0%) — **PHASE 2: ADVANCED PYTHON IN PROGRESS!** ⚡
+**Current Progress:** `39 / 200 Days` (19.5%) — **PHASE 2: ADVANCED PYTHON IN PROGRESS!** ⚡
 ```text
-[███████░░░░░░░░░░░░░] 19.0% Complete
+[███████░░░░░░░░░░░░░] 19.5% Complete
 ```
 
 ---
@@ -549,6 +549,23 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
     ├── tests/
     │   └── test_pipeline.py       # Pytest Suite (9 Test Cases)
     └── README.md                  # Documentation
+└── Day 39/
+    ├── Day39.md                   # Dataclasses, Enums & Protocols Masterclass Notes
+    ├── models/                    # Domain Dataclasses & Enums Package
+    │   ├── enums.py               # PaymentMethod & TransactionStatus Enums
+    │   ├── payment.py             # Payment Dataclass (frozen, slots)
+    │   └── transaction.py         # Transaction Dataclass (default_factory)
+    ├── processors/                # Structural Subtyping Processors Package
+    │   ├── protocol.py            # PaymentProcessor Protocol Interface
+    │   ├── upi.py                 # UPIPaymentProcessor
+    │   ├── card.py                # CardPaymentProcessor
+    │   ├── bank.py                # BankTransferPaymentProcessor
+    │   └── wallet.py              # WalletPaymentProcessor
+    ├── payment_service.py         # Payment Service Layer
+    ├── tests/
+    │   └── test_payment.py        # Pytest Suite (16 Test Cases)
+    ├── pyproject.toml             # MyPy & Pytest Configuration
+    └── README.md                  # Documentation
 ```
 
 ---
@@ -675,7 +692,8 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 | **Day 36** | Aug 28, 2026 | Context Managers & Resource Manager | 🟢 Completed | [Notes](Day%2036/Day36.md) • [Database Manager](Day%2036/resource_manager/database_manager.py) • [Timer Manager](Day%2036/resource_manager/timer_manager.py) • [Temp File Manager](Day%2036/resource_manager/temp_file_manager.py) • [Demo](Day%2036/resource_manager/context_demo.py) • [Tests](Day%2036/tests/test_resource_manager.py) |
 | **Day 37** | Aug 28, 2026 | Advanced Exceptions & Application Error System | 🟢 Completed | [Notes](Day%2037/Day37.md) • [Exceptions Package](Day%2037/exceptions/base.py) • [App Service](Day%2037/app_service.py) • [Tests](Day%2037/tests/test_exceptions.py) |
 | **Day 38** | Aug 28, 2026 | Functional Python & Data Transformation Pipeline | 🟢 Completed | [Notes](Day%2038/Day38.md) • [Pipeline Package](Day%2038/pipeline/validator.py) • [Main Pipeline](Day%2038/main_pipeline.py) • [Tests](Day%2038/tests/test_pipeline.py) |
-| **Day 39** | | *Upcoming* | ⚪ Pending | - |
+| **Day 39** | Aug 28, 2026 | Dataclasses, Enums & Protocols (Payment Domain Model) | 🟢 Completed | [Notes](Day%2039/Day39.md) • [Models](Day%2039/models/payment.py) • [Processors](Day%2039/processors/protocol.py) • [Service](Day%2039/payment_service.py) • [Tests](Day%2039/tests/test_payment.py) |
+| **Day 40** | | *Upcoming* | ⚪ Pending | - |
 
 ---
 
