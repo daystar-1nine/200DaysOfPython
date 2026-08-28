@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white&style=for-the-badge" alt="Python Version">
   <img src="https://img.shields.io/badge/Challenge%20Status-In%20Progress-orange?style=for-the-badge" alt="Challenge Status">
-  <img src="https://img.shields.io/badge/Progress-26%20%2F%20200%20Days-green?style=for-the-badge" alt="Progress Badge">
+  <img src="https://img.shields.io/badge/Progress-27%20%2F%20200%20Days-green?style=for-the-badge" alt="Progress Badge">
 </p>
 
 A 200-day journey to master Python from beginner to advanced by learning daily, solving coding problems, building real-world projects, and sharing my progress publicly. This repository documents my growth, projects, and consistent learning—one day at a time. 🚀
@@ -11,9 +11,9 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 ---
 
 ## 📊 Challenge Progress
-**Current Progress:** `26 / 200 Days` (13.0%)
+**Current Progress:** `27 / 200 Days` (13.5%)
 ```text
-[█████░░░░░░░░░░░░░░░] 13.0% Complete
+[█████░░░░░░░░░░░░░░░] 13.5% Complete
 ```
 
 ---
@@ -385,6 +385,19 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
     │   └── expense.py             # Multi-User Relational Expense CLI
     └── monthly_report_expense_tracker/ # Challenge Project: Monthly Report Tracker
         └── expense_report.py      # Monthly Report Analytics CLI
+└── Day 27/
+    ├── Day27.md                   # Working with Real-World APIs notes
+    ├── api_practice_tasks.py      # Tasks 1-8: GET/POST, Params, Timeouts & Retries
+    ├── github_cli/                # Main Project: Modular GitHub CLI App
+    │   ├── main.py                # CLI Subcommands Entry Point
+    │   ├── api_client.py          # Resilient HTTP APIClient with File Cache
+    │   ├── github_api.py          # GitHub Service Operations
+    │   ├── models.py              # UserProfile & Repository Dataclasses
+    │   ├── config.py              # Environment & Config Settings
+    │   └── logger.py              # Modular API Logger Factory
+    ├── .env.example               # Environment Variables Template
+    ├── .gitignore                 # Git Exclusions File
+    └── requirements.txt           # Project Dependencies
 ```
 
 ---
@@ -499,7 +512,8 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 | **Day 24** | Aug 28, 2026 | CLI Applications & Configuration | 🟢 Completed | [Notes](Day%2024/Day24.md) • [CLI Calc](Day%2024/cli_calculator.py) • [CLI Greet](Day%2024/cli_greet.py) • [CLI Expense](Day%2024/cli_expense_tracker/expense.py) • [CLI GitHub](Day%2024/cli_github_tool/github.py) • [Study Tracker](Day%2024/study_tracker_cli/study.py) |
 | **Day 25** | Aug 28, 2026 | Python + SQLite Database | 🟢 Completed | [Notes](Day%2025/Day25.md) • [Tasks 1-10](Day%2025/sqlite_practice_tasks.py) • [Student DB App](Day%2025/student_db_app/student.py) • [DB Expense](Day%2025/db_expense_tracker/expense.py) • [Library System](Day%2025/library_db_app/library.py) |
 | **Day 26** | Aug 28, 2026 | Advanced SQL & Database Design | 🟢 Completed | [Notes](Day%2026/Day26.md) • [Tasks 1-8](Day%2026/sqlite_advanced_practice.py) • [Multi-User App](Day%2026/multi_user_expense_tracker/expense.py) • [Monthly Report](Day%2026/monthly_report_expense_tracker/expense_report.py) |
-| **Day 27** | | *Upcoming* | ⚪ Pending | - |
+| **Day 27** | Aug 28, 2026 | Working with Real-World APIs | 🟢 Completed | [Notes](Day%2027/Day27.md) • [Tasks 1-8](Day%2027/api_practice_tasks.py) • [GitHub CLI App](Day%2027/github_cli/main.py) • [API Client](Day%2027/github_cli/api_client.py) • [GitHub Service](Day%2027/github_cli/github_api.py) |
+| **Day 28** | | *Upcoming* | ⚪ Pending | - |
 
 ---
 
