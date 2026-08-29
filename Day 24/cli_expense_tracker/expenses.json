@@ -268,5 +268,15 @@
         "id": 54,
         "category": "Travel",
         "amount": 1200.0
+    },
+    {
+        "id": 55,
+        "category": "Food",
+        "amount": 250.0
+    },
+    {
+        "id": 56,
+        "category": "Travel",
+        "amount": 1200.0
     }
 ]

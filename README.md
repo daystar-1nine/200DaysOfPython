@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white&style=for-the-badge" alt="Python Version">
   <img src="https://img.shields.io/badge/Challenge%20Status-In%20Progress-orange?style=for-the-badge" alt="Challenge Status">
-  <img src="https://img.shields.io/badge/Progress-41%20%2F%20200%20Days-green?style=for-the-badge" alt="Progress Badge">
+  <img src="https://img.shields.io/badge/Progress-42%20%2F%20200%20Days-green?style=for-the-badge" alt="Progress Badge">
 </p>
 
 A 200-day journey to master Python from beginner to advanced by learning daily, solving coding problems, building real-world projects, and sharing my progress publicly. This repository documents my growth, projects, and consistent learning—one day at a time. 🚀
@@ -11,9 +11,9 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 ---
 
 ## 📊 Challenge Progress
-**Current Progress:** `41 / 200 Days` (20.5%) — **PHASE 3: REAL-WORLD PYTHON IN PROGRESS!** ⚡
+**Current Progress:** `42 / 200 Days` (21.0%) — **PHASE 3: FASTAPI REST APIS IN PROGRESS!** ⚡
 ```text
-[████████░░░░░░░░░░░░] 20.5% Complete
+[████████4░░░░░░░░░░░] 21.0% Complete
 ```
 
 ---
@@ -604,6 +604,18 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
     ├── tests/                     # Test Suite with HTTP Mocking (25 Test Cases)
     ├── pyproject.toml             # Configuration
     └── README.md                  # Project Documentation
+└── Day 42/
+    ├── Day42.md                   # REST APIs with FastAPI Masterclass Notes
+    ├── app/
+    │   ├── main.py                # FastAPI Composition Root (/health, /about)
+    │   ├── exceptions.py          # Domain Exceptions & FastAPI Handlers
+    │   ├── models/                # Pydantic Schemas (UserCreate, UserUpdate, UserPatch, UserResponse)
+    │   ├── routes/                # APIRouter (/users CRUD, pagination, search)
+    │   └── services/              # UserService Business Layer
+    ├── tests/                     # Test Suite with FastAPI TestClient (19 Test Cases)
+    ├── requirements.txt           # Dependencies
+    ├── pyproject.toml             # Configuration
+    └── README.md                  # Project Documentation
 ```
 
 ---
@@ -733,7 +745,8 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 | **Day 39** | Aug 28, 2026 | Dataclasses, Enums & Protocols (Payment Domain Model) | 🟢 Completed | [Notes](Day%2039/Day39.md) • [Models](Day%2039/models/payment.py) • [Processors](Day%2039/processors/protocol.py) • [Service](Day%2039/payment_service.py) • [Tests](Day%2039/tests/test_payment.py) |
 | **Day 40** | Aug 28, 2026 | Advanced Python Capstone: Log Analytics CLI (`LogAnalyze`) | 🟢 Completed | [Notes](Day%2040/Day40.md) • [Capstone Project](Day%2040/Day-040-LogAnalyze/src/loganalyze/main.py) • [Analyzer](Day%2040/Day-040-LogAnalyze/src/loganalyze/services/analyzer.py) • [Tests](Day%2040/Day-040-LogAnalyze/tests/unit/test_analyzer.py) • [Readme](Day%2040/Day-040-LogAnalyze/README.md) |
 | **Day 41** | Aug 29, 2026 | HTTP & Real-World APIs (REST API Explorer) | 🟢 Completed | [Notes](Day%2041/Day41.md) • [Tasks](Day%2041/tasks/task1_first_request.py) • [APIClient & SDK](Day%2041/src/api_explorer/client.py) • [Models](Day%2041/src/api_explorer/models.py) • [Services](Day%2041/src/api_explorer/services.py) • [Tests](Day%2041/tests/test_client.py) • [Readme](Day%2041/README.md) |
-| **Day 42** | | *Upcoming* | ⚪ Pending | - |
+| **Day 42** | Aug 29, 2026 | REST APIs — Build Your First Real API (FastAPI) | 🟢 Completed | [Notes](Day%2042/Day42.md) • [App Root](Day%2042/app/main.py) • [Models](Day%2042/app/models/user.py) • [Routes](Day%2042/app/routes/users.py) • [Services](Day%2042/app/services/user_service.py) • [Tests](Day%2042/tests/test_users.py) • [Readme](Day%2042/README.md) |
+| **Day 43** | | *Upcoming* | ⚪ Pending | - |
 
 ---
 
