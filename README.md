@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white&style=for-the-badge" alt="Python Version">
   <img src="https://img.shields.io/badge/Challenge%20Status-In%20Progress-orange?style=for-the-badge" alt="Challenge Status">
-  <img src="https://img.shields.io/badge/Progress-42%20%2F%20200%20Days-green?style=for-the-badge" alt="Progress Badge">
+  <img src="https://img.shields.io/badge/Progress-43%20%2F%20200%20Days-green?style=for-the-badge" alt="Progress Badge">
 </p>
 
 A 200-day journey to master Python from beginner to advanced by learning daily, solving coding problems, building real-world projects, and sharing my progress publicly. This repository documents my growth, projects, and consistent learning—one day at a time. 🚀
@@ -11,9 +11,9 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 ---
 
 ## 📊 Challenge Progress
-**Current Progress:** `42 / 200 Days` (21.0%) — **PHASE 3: FASTAPI REST APIS IN PROGRESS!** ⚡
+**Current Progress:** `43 / 200 Days` (21.5%) — **PHASE 3: FASTAPI ARCHITECTURE & DEPENDENCY INJECTION IN PROGRESS!** ⚡
 ```text
-[████████4░░░░░░░░░░░] 21.0% Complete
+[████████4░░░░░░░░░░░] 21.5% Complete
 ```
 
 ---
@@ -616,6 +616,26 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
     ├── requirements.txt           # Dependencies
     ├── pyproject.toml             # Configuration
     └── README.md                  # Project Documentation
+└── Day 43/
+    ├── Day43.md                   # FastAPI Architecture & Dependency Injection Masterclass Notes
+    ├── exercises/                 # Independent Practice Exercises 1-4
+    │   ├── ex1_user_injection.py
+    │   ├── ex2_settings_injection.py
+    │   ├── ex3_service_repo_connection.py
+    │   └── ex4_products_router.py
+    ├── app/
+    │   ├── main.py                # FastAPI Composition Root
+    │   ├── config.py              # Settings Dependency
+    │   ├── exceptions.py          # Domain Exceptions & Handlers
+    │   ├── models/                # Pydantic Schemas (user, product)
+    │   ├── repositories/          # Data Access Layer (UserRepository, ProductRepository)
+    │   ├── services/              # Business Layer (UserService, ProductService)
+    │   ├── dependencies/          # Auth & Factory Providers
+    │   └── routers/               # APIRouter Modules (users, products)
+    ├── tests/                     # Test Suite (36 Test Cases covering repos, services, API, and overrides)
+    ├── requirements.txt           # Dependencies
+    ├── pyproject.toml             # Configuration
+    └── README.md                  # Project Documentation
 ```
 
 ---
@@ -746,7 +766,8 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 | **Day 40** | Aug 28, 2026 | Advanced Python Capstone: Log Analytics CLI (`LogAnalyze`) | 🟢 Completed | [Notes](Day%2040/Day40.md) • [Capstone Project](Day%2040/Day-040-LogAnalyze/src/loganalyze/main.py) • [Analyzer](Day%2040/Day-040-LogAnalyze/src/loganalyze/services/analyzer.py) • [Tests](Day%2040/Day-040-LogAnalyze/tests/unit/test_analyzer.py) • [Readme](Day%2040/Day-040-LogAnalyze/README.md) |
 | **Day 41** | Aug 29, 2026 | HTTP & Real-World APIs (REST API Explorer) | 🟢 Completed | [Notes](Day%2041/Day41.md) • [Tasks](Day%2041/tasks/task1_first_request.py) • [APIClient & SDK](Day%2041/src/api_explorer/client.py) • [Models](Day%2041/src/api_explorer/models.py) • [Services](Day%2041/src/api_explorer/services.py) • [Tests](Day%2041/tests/test_client.py) • [Readme](Day%2041/README.md) |
 | **Day 42** | Aug 29, 2026 | REST APIs — Build Your First Real API (FastAPI) | 🟢 Completed | [Notes](Day%2042/Day42.md) • [App Root](Day%2042/app/main.py) • [Models](Day%2042/app/models/user.py) • [Routes](Day%2042/app/routes/users.py) • [Services](Day%2042/app/services/user_service.py) • [Tests](Day%2042/tests/test_users.py) • [Readme](Day%2042/README.md) |
-| **Day 43** | | *Upcoming* | ⚪ Pending | - |
+| **Day 43** | Aug 29, 2026 | FastAPI Architecture & Dependency Injection (User API V2) | 🟢 Completed | [Notes](Day%2043/Day43.md) • [Exercises](Day%2043/exercises/ex1_user_injection.py) • [App Root](Day%2043/app/main.py) • [Repositories](Day%2043/app/repositories/user_repository.py) • [Services](Day%2043/app/services/user_service.py) • [Routers](Day%2043/app/routers/users.py) • [Dependencies](Day%2043/app/dependencies/auth.py) • [Tests](Day%2043/tests/test_overrides.py) • [Readme](Day%2043/README.md) |
+| **Day 44** | | *Upcoming* | ⚪ Pending | - |
 
 ---
 
