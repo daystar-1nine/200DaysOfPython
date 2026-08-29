@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white&style=for-the-badge" alt="Python Version">
   <img src="https://img.shields.io/badge/Challenge%20Status-In%20Progress-orange?style=for-the-badge" alt="Challenge Status">
-  <img src="https://img.shields.io/badge/Progress-44%20%2F%20200%20Days-green?style=for-the-badge" alt="Progress Badge">
+  <img src="https://img.shields.io/badge/Progress-45%20%2F%20200%20Days-green?style=for-the-badge" alt="Progress Badge">
 </p>
 
 A 200-day journey to master Python from beginner to advanced by learning daily, solving coding problems, building real-world projects, and sharing my progress publicly. This repository documents my growth, projects, and consistent learning—one day at a time. 🚀
@@ -11,9 +11,9 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 ---
 
 ## 📊 Challenge Progress
-**Current Progress:** `44 / 200 Days` (22.0%) — **PHASE 3: FASTAPI & POSTGRESQL DATABASE INTEGRATION IN PROGRESS!** ⚡
+**Current Progress:** `45 / 200 Days` (22.5%) — **PHASE 3: ADVANCED SQLALCHEMY RELATIONSHIPS IN PROGRESS!** ⚡
 ```text
-[████████4░░░░░░░░░░░] 22.0% Complete
+[████████4░░░░░░░░░░░] 22.5% Complete
 ```
 
 ---
@@ -656,6 +656,31 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
     ├── requirements.txt           # Dependencies
     ├── pyproject.toml             # Configuration
     └── README.md                  # Project Documentation
+└── Day 45/
+    ├── Day45.md                   # Advanced SQLAlchemy Relationships Masterclass Notes
+    ├── sql_practice/
+    │   └── relationships_practice.sql # Pure SQL Relationships & Joins Practice
+    ├── app/
+    │   ├── main.py                # FastAPI Composition Root
+    │   ├── database.py            # Engine, SessionLocal, Base, get_db Generator
+    │   ├── config.py              # Environment Settings (.env)
+    │   ├── exceptions.py          # ECommerce Exceptions Taxonomy
+    │   ├── models/                # ORM Models (user, product, order, order_item)
+    │   ├── schemas/               # Pydantic Schemas (user, product, order)
+    │   ├── repositories/          # Data Access Layer with selectinload
+    │   ├── services/              # Business Logic & Transactional Checkout Engine
+    │   └── routers/               # APIRouter Modules (users, products, orders)
+    ├── tests/                     # Test Suite (24 Test Cases covering transactions, stock, eager loading)
+    │   ├── conftest.py
+    │   ├── test_users.py
+    │   ├── test_products.py
+    │   ├── test_orders.py
+    │   └── test_relationships.py
+    ├── .env.example
+    ├── .env
+    ├── requirements.txt           # Dependencies
+    ├── pyproject.toml             # Configuration
+    └── README.md                  # Project Documentation
 ```
 
 ---
@@ -788,7 +813,8 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 | **Day 42** | Aug 29, 2026 | REST APIs — Build Your First Real API (FastAPI) | 🟢 Completed | [Notes](Day%2042/Day42.md) • [App Root](Day%2042/app/main.py) • [Models](Day%2042/app/models/user.py) • [Routes](Day%2042/app/routes/users.py) • [Services](Day%2042/app/services/user_service.py) • [Tests](Day%2042/tests/test_users.py) • [Readme](Day%2042/README.md) |
 | **Day 43** | Aug 29, 2026 | FastAPI Architecture & Dependency Injection (User API V2) | 🟢 Completed | [Notes](Day%2043/Day43.md) • [Exercises](Day%2043/exercises/ex1_user_injection.py) • [App Root](Day%2043/app/main.py) • [Repositories](Day%2043/app/repositories/user_repository.py) • [Services](Day%2043/app/services/user_service.py) • [Routers](Day%2043/app/routers/users.py) • [Dependencies](Day%2043/app/dependencies/auth.py) • [Tests](Day%2043/tests/test_overrides.py) • [Readme](Day%2043/README.md) |
 | **Day 44** | Aug 29, 2026 | SQL + PostgreSQL + FastAPI Database Integration (User API V3) | 🟢 Completed | [Notes](Day%2044/Day44.md) • [SQL Practice](Day%2044/sql_practice/sql_practice.sql) • [Database](Day%2044/app/database.py) • [ORM Model](Day%2044/app/models/user.py) • [Schemas](Day%2044/app/schemas/user.py) • [Repositories](Day%2044/app/repositories/user_repository.py) • [Routers](Day%2044/app/routers/users.py) • [Tests](Day%2044/tests/test_users.py) • [Readme](Day%2044/README.md) |
-| **Day 45** | | *Upcoming* | ⚪ Pending | - |
+| **Day 45** | Aug 29, 2026 | Database Relationships + Advanced SQLAlchemy (Mini E-Commerce Backend) | 🟢 Completed | [Notes](Day%2045/Day45.md) • [SQL Practice](Day%2045/sql_practice/relationships_practice.sql) • [Models](Day%2045/app/models/order.py) • [Order Service](Day%2045/app/services/order_service.py) • [Orders Router](Day%2045/app/routers/orders.py) • [Tests](Day%2045/tests/test_orders.py) • [Readme](Day%2045/README.md) |
+| **Day 46** | | *Upcoming* | ⚪ Pending | - |
 
 ---
 
