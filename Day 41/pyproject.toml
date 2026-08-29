@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "api_explorer"
+version = "1.0.0"
+description = "REST API Explorer CLI & SDK"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["requests>=2.28.0"]
+
+[tool.mypy]
+python_version = "3.10"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]

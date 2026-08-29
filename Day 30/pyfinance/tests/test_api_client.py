@@ -17,8 +17,9 @@ if pkg_root not in sys.path:
 
 from pyfinance.api.client import CurrencyAPIClient
 
+@patch("pyfinance.api.client.CurrencyAPIClient._read_cache", return_value=None)
 @patch("pyfinance.api.client.requests.Session.get")
-def test_fetch_exchange_rate_mock(mock_get):
+def test_fetch_exchange_rate_mock(mock_get, mock_cache):
     mock_resp = Mock()
     mock_resp.status_code = 200
     mock_resp.json.return_value = {
@@ -33,8 +34,9 @@ def test_fetch_exchange_rate_mock(mock_get):
     assert rate == 83.50
 
 class TestAPIClientMockRunner(unittest.TestCase):
+    @patch("pyfinance.api.client.CurrencyAPIClient._read_cache", return_value=None)
     @patch("pyfinance.api.client.requests.Session.get")
-    def test_fetch_rate_standalone(self, mock_get):
+    def test_fetch_rate_standalone(self, mock_get, mock_cache):
         mock_resp = Mock()
         mock_resp.status_code = 200
         mock_resp.json.return_value = {

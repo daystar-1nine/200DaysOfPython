@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white&style=for-the-badge" alt="Python Version">
   <img src="https://img.shields.io/badge/Challenge%20Status-In%20Progress-orange?style=for-the-badge" alt="Challenge Status">
-  <img src="https://img.shields.io/badge/Progress-40%20%2F%20200%20Days-green?style=for-the-badge" alt="Progress Badge">
+  <img src="https://img.shields.io/badge/Progress-41%20%2F%20200%20Days-green?style=for-the-badge" alt="Progress Badge">
 </p>
 
 A 200-day journey to master Python from beginner to advanced by learning daily, solving coding problems, building real-world projects, and sharing my progress publicly. This repository documents my growth, projects, and consistent learning—one day at a time. 🚀
@@ -11,9 +11,9 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 ---
 
 ## 📊 Challenge Progress
-**Current Progress:** `40 / 200 Days` (20.0%) — **PHASE 2: ADVANCED PYTHON CAPSTONE COMPLETE!** 🚀
+**Current Progress:** `41 / 200 Days` (20.5%) — **PHASE 3: REAL-WORLD PYTHON IN PROGRESS!** ⚡
 ```text
-[████████░░░░░░░░░░░░] 20.0% Complete
+[████████░░░░░░░░░░░░] 20.5% Complete
 ```
 
 ---
@@ -582,6 +582,28 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
         ├── pyproject.toml         # Configuration
         ├── LICENSE                # MIT License
         └── README.md              # Project Documentation
+└── Day 41/
+    ├── Day41.md                   # HTTP & Real-World APIs Masterclass Notes
+    ├── tasks/                     # Exercises 1-9 Scripts
+    │   ├── task1_first_request.py
+    │   ├── task2_extract_data.py
+    │   ├── task3_query_params.py
+    │   ├── task4_post_request.py
+    │   ├── task5_put_request.py
+    │   ├── task6_patch_request.py
+    │   ├── task7_delete_request.py
+    │   ├── task8_error_handling.py
+    │   └── task9_api_client_class.py
+    ├── src/api_explorer/
+    │   ├── main.py                # Interactive CLI Entry Point
+    │   ├── client.py              # APIClient & SDK Resources (client.users, client.posts)
+    │   ├── models.py              # User & Post Dataclasses (with Dunder Protocols)
+    │   ├── services.py            # UserService & PostService
+    │   ├── exceptions.py          # API Custom Exception Hierarchy
+    │   └── cli.py                 # Interactive Terminal TUI Menu
+    ├── tests/                     # Test Suite with HTTP Mocking (25 Test Cases)
+    ├── pyproject.toml             # Configuration
+    └── README.md                  # Project Documentation
 ```
 
 ---
@@ -710,7 +732,8 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 | **Day 38** | Aug 28, 2026 | Functional Python & Data Transformation Pipeline | 🟢 Completed | [Notes](Day%2038/Day38.md) • [Pipeline Package](Day%2038/pipeline/validator.py) • [Main Pipeline](Day%2038/main_pipeline.py) • [Tests](Day%2038/tests/test_pipeline.py) |
 | **Day 39** | Aug 28, 2026 | Dataclasses, Enums & Protocols (Payment Domain Model) | 🟢 Completed | [Notes](Day%2039/Day39.md) • [Models](Day%2039/models/payment.py) • [Processors](Day%2039/processors/protocol.py) • [Service](Day%2039/payment_service.py) • [Tests](Day%2039/tests/test_payment.py) |
 | **Day 40** | Aug 28, 2026 | Advanced Python Capstone: Log Analytics CLI (`LogAnalyze`) | 🟢 Completed | [Notes](Day%2040/Day40.md) • [Capstone Project](Day%2040/Day-040-LogAnalyze/src/loganalyze/main.py) • [Analyzer](Day%2040/Day-040-LogAnalyze/src/loganalyze/services/analyzer.py) • [Tests](Day%2040/Day-040-LogAnalyze/tests/unit/test_analyzer.py) • [Readme](Day%2040/Day-040-LogAnalyze/README.md) |
-| **Day 41** | | *Upcoming* | ⚪ Pending | - |
+| **Day 41** | Aug 29, 2026 | HTTP & Real-World APIs (REST API Explorer) | 🟢 Completed | [Notes](Day%2041/Day41.md) • [Tasks](Day%2041/tasks/task1_first_request.py) • [APIClient & SDK](Day%2041/src/api_explorer/client.py) • [Models](Day%2041/src/api_explorer/models.py) • [Services](Day%2041/src/api_explorer/services.py) • [Tests](Day%2041/tests/test_client.py) • [Readme](Day%2041/README.md) |
+| **Day 42** | | *Upcoming* | ⚪ Pending | - |
 
 ---
 
