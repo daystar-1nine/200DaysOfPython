@@ -1,0 +1,5 @@
+--- Start of Notes ---
+Python File Handling Notes:
+1. Always use 'with' statement.
+2. Specify utf-8 encoding.
+3. Close files properly.

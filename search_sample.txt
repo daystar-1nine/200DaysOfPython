@@ -1,0 +1,4 @@
+Python is easy to learn.
+Java is widely used.
+Python supports object oriented programming.
+C++ is fast.

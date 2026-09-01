@@ -338,5 +338,55 @@
         "id": 68,
         "category": "Travel",
         "amount": 1200.0
+    },
+    {
+        "id": 69,
+        "category": "Food",
+        "amount": 250.0
+    },
+    {
+        "id": 70,
+        "category": "Travel",
+        "amount": 1200.0
+    },
+    {
+        "id": 71,
+        "category": "Food",
+        "amount": 250.0
+    },
+    {
+        "id": 72,
+        "category": "Travel",
+        "amount": 1200.0
+    },
+    {
+        "id": 73,
+        "category": "Food",
+        "amount": 250.0
+    },
+    {
+        "id": 74,
+        "category": "Travel",
+        "amount": 1200.0
+    },
+    {
+        "id": 75,
+        "category": "Food",
+        "amount": 250.0
+    },
+    {
+        "id": 76,
+        "category": "Travel",
+        "amount": 1200.0
+    },
+    {
+        "id": 77,
+        "category": "Food",
+        "amount": 250.0
+    },
+    {
+        "id": 78,
+        "category": "Travel",
+        "amount": 1200.0
     }
 ]

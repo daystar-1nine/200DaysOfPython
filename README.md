@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white&style=for-the-badge" alt="Python Version">
   <img src="https://img.shields.io/badge/Challenge%20Status-In%20Progress-orange?style=for-the-badge" alt="Challenge Status">
-  <img src="https://img.shields.io/badge/Progress-46%20%2F%20200%20Days-green?style=for-the-badge" alt="Progress Badge">
+  <img src="https://img.shields.io/badge/Progress-47%20%2F%20200%20Days-green?style=for-the-badge" alt="Progress Badge">
 </p>
 
 A 200-day journey to master Python from beginner to advanced by learning daily, solving coding problems, building real-world projects, and sharing my progress publicly. This repository documents my growth, projects, and consistent learning—one day at a time. 🚀
@@ -11,9 +11,9 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 ---
 
 ## 📊 Challenge Progress
-**Current Progress:** `46 / 200 Days` (23.0%) — **PHASE 3: DATABASE MIGRATIONS WITH ALEMBIC IN PROGRESS!** ⚡
+**Current Progress:** `47 / 200 Days` (23.5%) — **PHASE 3: AUTHENTICATION & AUTHORIZATION WITH FASTAPI IN PROGRESS!** ⚡
 ```text
-[████████4░░░░░░░░░░░] 23.0% Complete
+[████████4░░░░░░░░░░░] 23.5% Complete
 ```
 
 ---
@@ -712,6 +712,40 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
     ├── requirements.txt           # Dependencies
     ├── pyproject.toml             # Configuration
     └── README.md                  # Project Documentation
+└── Day 47/
+    ├── Day47.md                   # FastAPI Authentication & Authorization Masterclass Notes
+    ├── sql_practice/
+    │   └── auth_practice.sql      # Pure SQL Hashes, Roles & Ownership Queries Practice
+    ├── app/
+    │   ├── main.py                # FastAPI Composition Root
+    │   ├── database.py            # Engine, SessionLocal, Base, get_db Generator
+    │   ├── config.py              # Environment Settings (.env)
+    │   ├── security.py            # Password Hashing & JWT Token Utilities
+    │   ├── exceptions.py          # Custom Exception Taxonomy (401, 403, 404)
+    │   ├── models/                # ORM Models (user with password_hash & role, product, order, order_item)
+    │   ├── schemas/               # Pydantic Schemas (auth, user excluding hash, product, order)
+    │   ├── dependencies/          # FastAPI Security Dependencies (get_current_user, require_admin)
+    │   ├── repositories/          # Data Access Layer with selectinload
+    │   ├── services/              # Business Logic (auth_service, order_service)
+    │   └── routers/               # APIRouter Modules (auth, users, products, orders)
+    ├── alembic/
+    │   ├── env.py                 # Alembic Environment Script
+    │   ├── script.py.mako        # Migration template
+    │   └── versions/              # Revision Scripts (001 through 007_add_auth_fields)
+    ├── tests/                     # Test Suite (37 Test Cases covering Auth, Roles, JWT, Ownership & Migrations)
+    │   ├── conftest.py
+    │   ├── test_auth.py
+    │   ├── test_users.py
+    │   ├── test_products.py
+    │   ├── test_orders.py
+    │   ├── test_relationships.py
+    │   └── test_migrations.py
+    ├── .env.example
+    ├── .env
+    ├── alembic.ini                # Alembic Global Configuration
+    ├── requirements.txt           # Dependencies
+    ├── pyproject.toml             # Configuration
+    └── README.md                  # Project Documentation
 ```
 
 ---
@@ -846,7 +880,8 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 | **Day 44** | Aug 29, 2026 | SQL + PostgreSQL + FastAPI Database Integration (User API V3) | 🟢 Completed | [Notes](Day%2044/Day44.md) • [SQL Practice](Day%2044/sql_practice/sql_practice.sql) • [Database](Day%2044/app/database.py) • [ORM Model](Day%2044/app/models/user.py) • [Schemas](Day%2044/app/schemas/user.py) • [Repositories](Day%2044/app/repositories/user_repository.py) • [Routers](Day%2044/app/routers/users.py) • [Tests](Day%2044/tests/test_users.py) • [Readme](Day%2044/README.md) |
 | **Day 45** | Aug 29, 2026 | Database Relationships + Advanced SQLAlchemy (Mini E-Commerce Backend) | 🟢 Completed | [Notes](Day%2045/Day45.md) • [SQL Practice](Day%2045/sql_practice/relationships_practice.sql) • [Models](Day%2045/app/models/order.py) • [Order Service](Day%2045/app/services/order_service.py) • [Orders Router](Day%2045/app/routers/orders.py) • [Tests](Day%2045/tests/test_orders.py) • [Readme](Day%2045/README.md) |
 | **Day 46** | Sep 01, 2026 | Database Migrations with Alembic (E-Commerce Backend V2) | 🟢 Completed | [Notes](Day%2046/Day46.md) • [SQL Practice](Day%2046/sql_practice/migrations_practice.sql) • [Alembic Env](Day%2046/alembic/env.py) • [Revisions](Day%2046/alembic/versions/001_initial_schema.py) • [User Model](Day%2046/app/models/user.py) • [Order Service](Day%2046/app/services/order_service.py) • [Tests](Day%2046/tests/test_migrations.py) • [Readme](Day%2046/README.md) |
-| **Day 47** | | *Upcoming* | ⚪ Pending | - |
+| **Day 47** | Sep 01, 2026 | Authentication & Authorization with FastAPI (Secure E-Commerce Backend V3) | 🟢 Completed | [Notes](Day%2047/Day47.md) • [SQL Practice](Day%2047/sql_practice/auth_practice.sql) • [Security](Day%2047/app/security.py) • [Auth Router](Day%2047/app/routers/auth.py) • [Dependencies](Day%2047/app/dependencies/auth.py) • [User Model](Day%2047/app/models/user.py) • [Order Service](Day%2047/app/services/order_service.py) • [Tests](Day%2047/tests/test_auth.py) • [Readme](Day%2047/README.md) |
+| **Day 48** | | *Upcoming* | ⚪ Pending | - |
 
 ---
 

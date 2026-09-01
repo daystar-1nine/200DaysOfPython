@@ -1,0 +1,3 @@
+Original Line 1
+Appended Line 2
+Appended Line 3

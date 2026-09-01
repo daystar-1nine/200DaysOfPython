@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "day47-secure-ecommerce-v3"
+version = "3.0.0"
+description = "Secure E-Commerce Backend V3 with FastAPI Authentication, Authorization & Alembic Migrations"
+authors = [{ name = "Suraj Sawant", email = "surajonenine@gmail.com" }]
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi>=0.100.0",
+    "uvicorn>=0.22.0",
+    "sqlalchemy>=2.0.0",
+    "alembic>=1.11.0",
+    "pydantic>=2.0.0",
+    "pyjwt>=2.8.0",
+    "pwdlib[argon2]>=0.2.0",
+    "passlib[bcrypt]>=1.7.4",
+    "python-dotenv>=1.0.0"
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
