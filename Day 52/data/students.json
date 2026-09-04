@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "name": "Rahul",
+        "age": 21,
+        "course": "Data Science",
+        "marks": 85.0
+    },
+    {
+        "id": 2,
+        "name": "Aisha",
+        "age": 20,
+        "course": "Computer Science",
+        "marks": 95.0
+    },
+    {
+        "id": 3,
+        "name": "Rohan",
+        "age": 22,
+        "course": "Data Science",
+        "marks": 67.0
+    },
+    {
+        "id": 4,
+        "name": "Sneha",
+        "age": 21,
+        "course": "Computer Science",
+        "marks": 78.0
+    },
+    {
+        "id": 5,
+        "name": "Karan",
+        "age": 23,
+        "course": "AI & Robotics",
+        "marks": 82.0
+    }
+]
