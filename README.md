@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white&style=for-the-badge" alt="Python Version">
   <img src="https://img.shields.io/badge/Challenge%20Status-In%20Progress-orange?style=for-the-badge" alt="Challenge Status">
-  <img src="https://img.shields.io/badge/Progress-56%20%2F%20200%20Days-green?style=for-the-badge" alt="Progress Badge">
+  <img src="https://img.shields.io/badge/Progress-57%20%2F%20200%20Days-green?style=for-the-badge" alt="Progress Badge">
 </p>
 
 A 200-day journey to master Python from beginner to advanced by learning daily, solving coding problems, building real-world projects, and sharing my progress publicly. This repository documents my growth, projects, and consistent learning—one day at a time. 🚀
@@ -11,9 +11,9 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 ---
 
 ## 📊 Challenge Progress
-**Current Progress:** `56 / 200 Days` (28.0%) — **PHASE 4: PROFESSIONAL DATA & PRODUCTION PYTHON DEVELOPER IN PROGRESS!** ⚡
+**Current Progress:** `57 / 200 Days` (28.5%) — **PHASE 4: PROFESSIONAL DATA & PRODUCTION PYTHON DEVELOPER IN PROGRESS!** ⚡
 ```text
-[██████████11░░░░░░░░] 28.0% Complete
+[██████████11░░░░░░░░] 28.5% Complete
 ```
 
 ---
@@ -1053,6 +1053,46 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 │   ├── pyproject.toml             # Pytest Configuration
 │   ├── requirements.txt           # Dependencies
 │   └── README.md                  # Day 56 Pandas Fundamentals Documentation
+├── Day 57/
+│   ├── Day57.md                   # Day 57 Masterclass Notes & 25 Technical Interview Answers
+│   ├── coding_challenges/
+│   │   ├── challenge1_highest_dept_salary.py
+│   │   ├── challenge2_top3_customers.py
+│   │   ├── challenge3_highest_revenue_product_per_region.py
+│   │   ├── challenge4_region_product_pivot.py
+│   │   └── challenge5_region_revenue_percentage.py
+│   ├── exercises/
+│   │   ├── task1_grouping.py
+│   │   ├── task2_multiple_grouping.py
+│   │   ├── task3_merge.py
+│   │   ├── task4_concat.py
+│   │   ├── task5_apply.py
+│   │   ├── task6_map.py
+│   │   └── task7_pivot_table.py
+│   ├── data/
+│   │   ├── raw/
+│   │   │   └── sales.csv         # Raw Sales Transaction Dataset (100+ rows)
+│   │   └── processed/
+│   │       └── cleaned_sales.csv # Cleaned & Transformed Dataset
+│   ├── app/
+│   │   ├── main.py                # Pipeline Execution & Interactive CLI Entry Point
+│   │   ├── loader.py              # CSV Ingestion & Schema Validation
+│   │   ├── cleaner.py             # Deduplication, NaN Imputation & Boundary Validation
+│   │   ├── transformer.py         # Revenue Calculation & Month Period Extraction
+│   │   ├── analyzer.py            # Business Analytics & Pivot Table Matrix Generator
+│   │   └── report.py              # Executive ASCII Report Generator & CSV Exporter
+│   ├── output/
+│   │   ├── sales_report.txt       # Generated Executive ASCII Report
+│   │   └── regional_category_summary.csv # Regional x Category Pivot Export
+│   ├── tests/                     # 19 Pytest Automation Test Cases
+│   │   ├── conftest.py            # Test Fixtures & Sample Raw Data
+│   │   ├── test_loader.py         # Loader Module Unit Tests
+│   │   ├── test_cleaner.py        # Cleaner Module Unit Tests
+│   │   ├── test_transformer.py    # Transformer Module Unit Tests
+│   │   └── test_analyzer.py       # Analytical Engine Unit Tests
+│   ├── pyproject.toml             # Pytest Configuration
+│   ├── requirements.txt           # Dependencies
+│   └── README.md                  # Day 57 Pandas Data Manipulation Documentation
 ```
 
 ---
@@ -1197,6 +1237,7 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 | **Day 54** | Sep 04, 2026 | NumPy Fundamentals & Numerical Computing (ndarray, Vectorization, Broadcasting, Reshaping, Axes & Student Performance Analyzer) | 🟢 Completed | [Notes](Day%2054/Day54.md) • [Benchmark](Day%2054/exercises/exercise1_vectorization_benchmark.py) • [Challenge 1](Day%2054/coding_challenges/challenge1_array_basics.py) • [Challenge 2](Day%2054/coding_challenges/challenge2_even_numbers.py) • [Challenge 3](Day%2054/coding_challenges/challenge3_matrix.py) • [Challenge 4](Day%2054/coding_challenges/challenge4_temperature.py) • [Challenge 5](Day%2054/coding_challenges/challenge5_student_marks.py) • [Challenge 6](Day%2054/coding_challenges/challenge6_normalization.py) • [App Root](Day%2054/app/main.py) • [Tests](Day%2054/tests/test_analyzer.py) • [Readme](Day%2054/README.md) |
 | **Day 55** | Sep 04, 2026 | Advanced NumPy (Fancy Indexing, np.where, np.select, Sorting, Views vs Copies, NaN Handling, Linear Algebra & Student Analytics Engine V2) | 🟢 Completed | [Notes](Day%2055/Day55.md) • [Challenge 1](Day%2055/coding_challenges/challenge1_fancy_indexing.py) • [Challenge 2](Day%2055/coding_challenges/challenge2_conditional_replacement.py) • [Challenge 3](Day%2055/coding_challenges/challenge3_argsort_ranking.py) • [Challenge 4](Day%2055/coding_challenges/challenge4_unique_counts.py) • [Challenge 5](Day%2055/coding_challenges/challenge5_nan_handling.py) • [Challenge 6](Day%2055/coding_challenges/challenge6_broadcasting_discount.py) • [Challenge 7](Day%2055/coding_challenges/challenge7_matrix_multiplication.py) • [Challenge 8](Day%2055/coding_challenges/challenge8_sales_dataset.py) • [App Root](Day%2055/app/main.py) • [Tests](Day%2055/tests/test_analyzer.py) • [Readme](Day%2055/README.md) |
 | **Day 56** | Sep 04, 2026 | Pandas Fundamentals: Series & DataFrames (Data I/O, Selection loc/iloc, Filtering, Sorting, Imputation & Student Performance Analyzer V2) | 🟢 Completed | [Notes](Day%2056/Day56.md) • [Task 1](Day%2056/exercises/task1_series_basics.py) • [Challenge 1](Day%2056/coding_challenges/challenge1_passing_students.py) • [Challenge 2](Day%2056/coding_challenges/challenge2_top2_students.py) • [Challenge 3](Day%2056/coding_challenges/challenge3_grade_column.py) • [Challenge 4](Day%2056/coding_challenges/challenge4_average_marks.py) • [Challenge 5](Day%2056/coding_challenges/challenge5_product_revenue.py) • [App Root](Day%2056/app/main.py) • [Tests](Day%2056/tests/test_analyzer.py) • [Readme](Day%2056/README.md) |
+| **Day 57** | Sep 04, 2026 | Pandas Data Manipulation & Aggregation (groupby, agg, merge, join, concat, apply, map, replace, query, pivot_table & Sales Engine V1) | 🟢 Completed | [Notes](Day%2057/Day57.md) • [Task 1](Day%2057/exercises/task1_grouping.py) • [Challenge 1](Day%2057/coding_challenges/challenge1_highest_dept_salary.py) • [Challenge 2](Day%2057/coding_challenges/challenge2_top3_customers.py) • [Challenge 3](Day%2057/coding_challenges/challenge3_highest_revenue_product_per_region.py) • [Challenge 4](Day%2057/coding_challenges/challenge4_region_product_pivot.py) • [Challenge 5](Day%2057/coding_challenges/challenge5_region_revenue_percentage.py) • [App Root](Day%2057/app/main.py) • [Tests](Day%2057/tests/test_analyzer.py) • [Readme](Day%2057/README.md) |
 
 ---
 
