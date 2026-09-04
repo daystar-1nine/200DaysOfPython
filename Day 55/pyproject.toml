@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "day55-advanced-numpy"
+version = "2.0.0"
+description = "Day 55 Advanced NumPy and Student Analytics Engine V2"
+authors = [{ name = "Suraj Sawant", email = "surajonenine@gmail.com" }]
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.24.0",
+    "pytest>=8.0.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-v"
