@@ -23,4 +23,4 @@ if __name__ == "__main__":
     result = reverse_string(test_str)
     print(f"Original: {test_str} -> Reversed: {result}")
     assert result == "nohtyp", "Challenge 1 Failed!"
-    print("✅ Challenge 1 Passed!")
+    print("[OK] Challenge 1 Passed!")

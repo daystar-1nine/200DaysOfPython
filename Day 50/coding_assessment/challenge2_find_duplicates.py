@@ -30,4 +30,4 @@ if __name__ == "__main__":
     result = find_duplicates(sample_input)
     print(f"Input: {sample_input} -> Duplicates: {result}")
     assert result == [2, 3], "Challenge 2 Failed!"
-    print("✅ Challenge 2 Passed!")
+    print("[OK] Challenge 2 Passed!")

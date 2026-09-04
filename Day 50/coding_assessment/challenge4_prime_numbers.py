@@ -35,4 +35,4 @@ if __name__ == "__main__":
     expected_count = 25
     assert len(primes) == expected_count, f"Expected 25 primes, got {len(primes)}"
     assert primes[0] == 2 and primes[-1] == 97, "Challenge 4 bounds invalid!"
-    print("✅ Challenge 4 Passed!")
+    print("[OK] Challenge 4 Passed!")

@@ -33,4 +33,4 @@ if __name__ == "__main__":
     }
     print(f"Text: '{sample_text}'\nFrequency: {result}")
     assert result == expected, "Challenge 3 Failed!"
-    print("✅ Challenge 3 Passed!")
+    print("[OK] Challenge 3 Passed!")

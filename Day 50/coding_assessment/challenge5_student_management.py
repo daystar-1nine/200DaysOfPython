@@ -88,4 +88,4 @@ if __name__ == "__main__":
     print(f"Average Marks: {app.calculate_average():.2f}")
     print(app.delete_student("101"))
     print(f"New Average Marks: {app.calculate_average():.2f}")
-    print("✅ Challenge 5 Passed!")
+    print("[OK] Challenge 5 Passed!")
