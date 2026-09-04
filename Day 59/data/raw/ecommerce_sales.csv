@@ -1,0 +1,361 @@
+Order_ID,Order_Date,Customer_ID,Customer_Name,Region,Category,Product,Quantity,Unit_Price,Discount,Cost_Price
+ORD1001,2026-06-13,C102,Priya Patel,North,Home & Kitchen,Air Fryer,4,7500,0.05,5000
+ORD1002,2026-01-27,C111,Aditya Bhat,North,Sports,Cycling Helmet,1,2200,0.0,1300
+ORD1003,2026-01-24,C104,Sneha Kulkarni,South,Sports,Tennis Racket,1,5500,0.2,3600
+ORD1004,2026-02-20,C112,Tanvi Saxena,West,Fashion,Cotton Hoodie,5,1800,0.0,1000
+ORD1005,2026-02-10,C112,Tanvi Saxena,West,Home & Kitchen,Non-Stick Cookware Set,3,4500,0.05,2800
+ORD1006,2026-03-28,C102,Priya Patel,North,Books,Python Masterclass,6,850,0.1,450
+ORD1007,2026-06-04,C105,Vikram Singh,North,Books,Machine Learning Design,2,1400,0.15,800
+ORD1008,2026-01-21,C109,Siddharth Rao,East,Sports,Dumbbell Set,4,3500,0.0,2200
+ORD1009,2026-01-12,C111,Aditya Bhat,South,Home & Kitchen,Espresso Machine,4,18000,0.0,12500
+ORD1010,2026-04-08,C105,Vikram Singh,West,Home & Kitchen,Air Fryer,6,7500,0.1,5000
+ORD1011,2026-02-23,C111,Aditya Bhat,East,Electronics,4K Monitor,3,28000,0.2,20000
+ORD1012,2026-03-04,C103,Aman Verma,West,Books,System Design Interview,4,950,0.1,500
+ORD1013,2026-01-15,C104,Sneha Kulkarni,North,Home & Kitchen,Robot Vacuum,5,25000,0.0,17500
+ORD1014,2026-02-24,C115,Dev Mishra,East,Fashion,Cotton Hoodie,7,1800,0.15,1000
+ORD1015,2026-02-06,C105,Vikram Singh,South,Fashion,Formal Suit,5,12000,0.2,7500
+ORD1016,2026-04-20,C115,Dev Mishra,West,Home & Kitchen,Air Fryer,3,7500,0.2,5000
+ORD1017,2026-05-07,C102,Priya Patel,North,Electronics,Smartphone X,3,45000,0.15,32000
+ORD1018,2026-06-02,C102,Priya Patel,West,Books,Machine Learning Design,8,1400,0.2,800
+ORD1019,2026-03-06,C109,Siddharth Rao,North,Electronics,4K Monitor,5,28000,0.1,20000
+ORD1020,2026-01-29,C105,Vikram Singh,West,Fashion,Cotton Hoodie,1,1800,0.1,1000
+ORD1021,2026-05-09,C113,Yash Agarwal,South,Sports,Treadmill Pro,5,45000,0.2,32000
+ORD1022,2026-06-05,C104,Sneha Kulkarni,South,Home & Kitchen,Air Fryer,1,7500,0.2,5000
+ORD1023,2026-03-24,C108,Neha Joshi,North,Electronics,Wireless Headphones,5,3500,0.05,2200
+ORD1024,2026-01-15,C104,Sneha Kulkarni,North,Electronics,Smart Watch,2,8500,0.2,5500
+ORD1025,2026-02-02,C103,Aman Verma,West,Sports,Yoga Mat,5,1200,0.2,600
+ORD1026,2026-06-05,C107,Kabir Mehta,South,Sports,Yoga Mat,5,1200,0.15,600
+ORD1027,2026-06-21,C111,Aditya Bhat,East,Books,Machine Learning Design,8,1400,0.0,800
+ORD1028,2026-03-05,C104,Sneha Kulkarni,North,Home & Kitchen,Espresso Machine,4,18000,0.2,12500
+ORD1029,2026-02-26,C101,Rahul Sharma,North,Electronics,Smartphone X,2,45000,0.0,32000
+ORD1030,2026-03-26,C102,Priya Patel,South,Home & Kitchen,Robot Vacuum,4,25000,0.2,17500
+ORD1031,2026-02-03,C112,Tanvi Saxena,West,Fashion,Cotton Hoodie,7,1800,0.05,1000
+ORD1032,2026-01-25,C102,Priya Patel,West,Home & Kitchen,Robot Vacuum,7,25000,0.15,17500
+ORD1033,2026-01-14,C111,Aditya Bhat,North,Electronics,Smart Watch,6,8500,0.0,5500
+ORD1034,2026-03-05,C104,Sneha Kulkarni,South,Sports,Cycling Helmet,3,2200,0.15,1300
+ORD1035,2026-02-16,C105,Vikram Singh,West,Fashion,Leather Jacket,8,4500,0.2,2800
+ORD1036,2026-01-26,C101,Rahul Sharma,North,Electronics,Smartphone X,3,45000,0.15,32000
+ORD1037,2026-05-05,C108,Neha Joshi,South,Books,Python Masterclass,3,850,0.15,450
+ORD1038,2026-01-01,C107,Kabir Mehta,East,Books,System Design Interview,7,950,0.2,500
+ORD1039,2026-06-19,C112,Tanvi Saxena,West,Fashion,Running Shoes,5,3200,0.05,1900
+ORD1040,2026-01-15,C110,Diya Kapoor,North,Home & Kitchen,Espresso Machine,1,18000,0.2,12500
+ORD1041,2026-05-03,C109,Siddharth Rao,South,Electronics,4K Monitor,2,28000,0.05,20000
+ORD1042,2026-01-18,C110,Diya Kapoor,North,Fashion,Cotton Hoodie,2,1800,0.2,1000
+ORD1043,2026-03-05,C110,Diya Kapoor,North,Sports,Treadmill Pro,7,45000,0.2,32000
+ORD1044,2026-05-25,C109,Siddharth Rao,East,Home & Kitchen,Air Fryer,6,7500,0.05,5000
+ORD1045,2026-03-09,C107,Kabir Mehta,South,Home & Kitchen,Robot Vacuum,6,25000,0.0,17500
+ORD1046,2026-01-03,C108,Neha Joshi,North,Electronics,4K Monitor,4,28000,0.2,20000
+ORD1047,2026-03-09,C103,Aman Verma,East,Electronics,Smartphone X,6,45000,0.1,32000
+ORD1048,2026-02-10,C108,Neha Joshi,East,Sports,Tennis Racket,1,5500,0.2,3600
+ORD1049,2026-03-18,C115,Dev Mishra,North,Fashion,Designer Denim,2,2800,0.0,1500
+ORD1050,2026-05-22,C103,Aman Verma,East,Home & Kitchen,Blender,20,250000,0.1,1800
+ORD1051,2026-02-22,C111,Aditya Bhat,East,Sports,Cycling Helmet,5,2200,0.0,1300
+ORD1052,2026-01-24,C111,Aditya Bhat,West,Home & Kitchen,Espresso Machine,1,18000,0.1,12500
+ORD1053,2026-02-03,C111,Aditya Bhat,East,Fashion,Cotton Hoodie,7,1800,0.2,1000
+ORD1054,2026-01-03,C102,Priya Patel,North,Fashion,Formal Suit,1,12000,0.1,7500
+ORD1055,2026-05-30,C109,Siddharth Rao,South,Books,Data Science Handbook,1,1200,0.1,700
+ORD1056,2026-04-04,C115,Dev Mishra,North,Home & Kitchen,Air Fryer,4,7500,0.0,5000
+ORD1057,2026-04-01,C113,Yash Agarwal,West,Sports,Yoga Mat,4,1200,0.05,600
+ORD1058,2026-02-15,C115,Dev Mishra,West,Electronics,Smartphone X,6,45000,0.15,32000
+ORD1059,2026-06-21,C114,Riya Sen,South,Home & Kitchen,Air Fryer,2,7500,0.15,5000
+ORD1060,2026-01-10,C114,Riya Sen,West,Fashion,Running Shoes,8,3200,0.1,1900
+ORD1061,2026-03-20,C114,Riya Sen,South,Fashion,Leather Jacket,4,4500,0.15,2800
+ORD1062,2026-03-26,C105,Vikram Singh,North,Home & Kitchen,Non-Stick Cookware Set,7,4500,0.2,2800
+ORD1063,2026-03-26,C101,Rahul Sharma,North,Home & Kitchen,Air Fryer,5,7500,0.0,5000
+ORD1064,2026-01-28,C110,Diya Kapoor,West,Home & Kitchen,Non-Stick Cookware Set,7,4500,0.2,2800
+ORD1065,2026-05-11,C102,Priya Patel,West,Sports,Yoga Mat,5,1200,0.0,600
+ORD1066,2026-04-22,C101,Rahul Sharma,South,Home & Kitchen,Robot Vacuum,2,25000,0.1,17500
+ORD1067,2026-06-09,C106,Ananya Roy,North,Home & Kitchen,Blender,5,2800,0.15,1800
+ORD1068,2026-03-25,C107,Kabir Mehta,East,Sports,Yoga Mat,4,1200,0.15,600
+ORD1069,2026-06-20,C107,Kabir Mehta,South,Sports,Tennis Racket,5,5500,0.15,3600
+ORD1070,2026-05-21,C114,Riya Sen,North,Home & Kitchen,Non-Stick Cookware Set,4,4500,0.15,2800
+ORD1071,2026-05-29,C110,Diya Kapoor,East,Books,Clean Code,8,1100,0.05,600
+ORD1072,2026-05-11,C108,Neha Joshi,South,Electronics,Wireless Headphones,6,3500,0.0,2200
+ORD1073,2026-03-02,C111,Aditya Bhat,East,Fashion,Running Shoes,3,3200,0.0,1900
+ORD1074,2026-01-12,C104,Sneha Kulkarni,West,Sports,Treadmill Pro,8,45000,0.15,32000
+ORD1075,2026-06-11,C110,Diya Kapoor,South,Books,Clean Code,7,1100,0.05,600
+ORD1076,2026-02-07,C111,Aditya Bhat,North,Electronics,Smart Watch,4,8500,0.05,5500
+ORD1077,2026-06-28,C109,Siddharth Rao,West,Electronics,4K Monitor,4,28000,0.0,20000
+ORD1078,2026-04-27,C103,Aman Verma,West,Sports,Tennis Racket,6,5500,0.15,3600
+ORD1079,2026-06-06,C114,Riya Sen,West,Sports,Cycling Helmet,3,2200,0.15,1300
+ORD1080,2026-04-26,C105,Vikram Singh,South,Home & Kitchen,Blender,8,2800,0.05,1800
+ORD1081,2026-03-12,C108,Neha Joshi,North,Home & Kitchen,Air Fryer,5,7500,0.1,5000
+ORD1082,2026-03-23,C115,Dev Mishra,North,Fashion,Running Shoes,4,3200,0.15,1900
+ORD1083,2026-06-27,C103,Aman Verma,South,Electronics,Smart Watch,7,8500,0.1,5500
+ORD1084,2026-05-19,C108,Neha Joshi,West,Electronics,Smartphone X,7,45000,0.15,32000
+ORD1085,2026-05-30,C112,Tanvi Saxena,North,Sports,Cycling Helmet,8,2200,0.0,1300
+ORD1086,2026-04-01,C105,Vikram Singh,West,Books,Machine Learning Design,4,1400,0.15,800
+ORD1087,2026-02-26,C105,Vikram Singh,West,Books,Python Masterclass,7,850,0.1,450
+ORD1088,2026-06-21,C111,Aditya Bhat,West,Fashion,Cotton Hoodie,3,1800,0.2,1000
+ORD1089,2026-05-17,C101,Rahul Sharma,West,Sports,Tennis Racket,1,5500,0.0,3600
+ORD1090,2026-06-14,C107,Kabir Mehta,South,Books,Data Science Handbook,1,1200,0.1,700
+ORD1091,2026-04-08,C106,Ananya Roy,South,Books,System Design Interview,6,950,0.15,500
+ORD1092,2026-03-13,C113,Yash Agarwal,West,Home & Kitchen,Espresso Machine,8,18000,0.0,12500
+ORD1093,2026-05-19,C101,Rahul Sharma,East,Fashion,Leather Jacket,1,4500,0.0,2800
+ORD1094,2026-03-05,C104,Sneha Kulkarni,North,Sports,Yoga Mat,4,1200,0.05,600
+ORD1095,2026-05-02,C111,Aditya Bhat,North,Sports,Yoga Mat,8,1200,0.1,600
+ORD1096,2026-04-05,C103,Aman Verma,North,Fashion,Designer Denim,2,2800,0.2,1500
+ORD1097,2026-01-07,C115,Dev Mishra,East,Sports,Cycling Helmet,7,2200,0.05,1300
+ORD1098,2026-01-20,C110,Diya Kapoor,South,Electronics,Wireless Headphones,2,3500,0.2,2200
+ORD1099,2026-01-11,C106,Ananya Roy,West,Home & Kitchen,Espresso Machine,6,18000,0.0,12500
+ORD1100,2026-04-18,C114,Riya Sen,West,Electronics,Smart Watch,6,8500,0.15,5500
+ORD1101,2026-02-09,C107,Kabir Mehta,South,Sports,Dumbbell Set,8,3500,0.15,2200
+ORD1102,2026-04-22,C114,Riya Sen,East,Home & Kitchen,Air Fryer,2,7500,0.1,5000
+ORD1103,2026-04-26,C104,Sneha Kulkarni,West,Sports,Tennis Racket,7,5500,0.1,3600
+ORD1104,2026-01-08,C108,Neha Joshi,East,Fashion,Cotton Hoodie,4,1800,0.1,1000
+ORD1105,2026-03-08,C106,Ananya Roy,East,Sports,Dumbbell Set,1,3500,0.2,2200
+ORD1106,2026-02-18,C102,Priya Patel,South,Books,Clean Code,4,1100,0.15,600
+ORD1107,2026-06-15,C112,Tanvi Saxena,West,Books,Python Masterclass,2,850,0.1,450
+ORD1108,2026-02-26,C107,Kabir Mehta,South,Home & Kitchen,Blender,6,2800,0.15,1800
+ORD1109,2026-05-22,C109,Siddharth Rao,East,Books,Machine Learning Design,6,1400,0.1,800
+ORD1110,2026-06-29,C108,Neha Joshi,East,Home & Kitchen,Non-Stick Cookware Set,4,4500,0.0,2800
+ORD1111,2026-02-19,C106,Ananya Roy,North,Sports,Yoga Mat,4,1200,0.05,600
+ORD1112,2026-05-04,C105,Vikram Singh,East,Electronics,Smartphone X,5,45000,0.05,32000
+ORD1113,2026-04-03,C103,Aman Verma,East,Electronics,4K Monitor,3,28000,0.1,20000
+ORD1114,2026-01-12,C101,Rahul Sharma,East,Fashion,Cotton Hoodie,2,1800,0.0,1000
+ORD1115,2026-05-27,C105,Vikram Singh,West,Books,Clean Code,6,1100,0.05,600
+ORD1116,2026-01-14,C105,Vikram Singh,West,Electronics,Laptop Pro,7,65000,0.15,48000
+ORD1117,2026-01-19,C110,Diya Kapoor,North,Fashion,Running Shoes,5,3200,0.0,1900
+ORD1118,2026-03-05,C102,Priya Patel,West,Sports,Tennis Racket,4,5500,0.2,3600
+ORD1119,2026-04-08,C108,Neha Joshi,West,Home & Kitchen,Blender,7,2800,0.1,1800
+ORD1120,2026-05-26,C110,Diya Kapoor,North,Sports,Treadmill Pro,4,45000,0.05,32000
+ORD1121,2026-03-09,C111,Aditya Bhat,North,Fashion,Running Shoes,3,3200,0.2,1900
+ORD1122,2026-01-20,C103,Aman Verma,North,Books,Clean Code,8,1100,0.1,600
+ORD1123,2026-01-09,C104,Sneha Kulkarni,East,Home & Kitchen,Robot Vacuum,2,25000,0.05,17500
+ORD1124,2026-03-09,C113,Yash Agarwal,South,Books,Python Masterclass,4,850,0.05,450
+ORD1125,2026-03-10,C114,Riya Sen,South,Electronics,Laptop Pro,3,65000,0.1,48000
+ORD1126,2026-06-02,C112,Tanvi Saxena,East,Books,Python Masterclass,8,850,0.1,450
+ORD1127,2026-06-29,C107,Kabir Mehta,East,Sports,Tennis Racket,8,5500,0.15,3600
+ORD1128,2026-01-21,C110,Diya Kapoor,North,Books,System Design Interview,5,950,0.0,500
+ORD1129,2026-01-24,C104,Sneha Kulkarni,North,Home & Kitchen,Blender,1,2800,0.05,1800
+ORD1130,2026-05-01,C109,Siddharth Rao,West,Home & Kitchen,Air Fryer,7,7500,0.15,5000
+ORD1131,2026-01-24,C108,Neha Joshi,East,Books,System Design Interview,6,950,0.0,500
+ORD1132,2026-02-11,C106,Ananya Roy,West,Books,System Design Interview,7,950,0.2,500
+ORD1133,2026-01-10,C108,Neha Joshi,North,Home & Kitchen,Non-Stick Cookware Set,6,4500,0.0,2800
+ORD1134,2026-04-14,C114,Riya Sen,North,Sports,Cycling Helmet,7,2200,0.0,1300
+ORD1135,2026-02-18,C109,Siddharth Rao,East,Sports,Cycling Helmet,8,2200,0.0,1300
+ORD1136,2026-02-22,C105,Vikram Singh,South,Home & Kitchen,Robot Vacuum,8,25000,0.0,17500
+ORD1137,2026-01-08,C111,Aditya Bhat,South,Fashion,Designer Denim,1,2800,0.2,1500
+ORD1138,2026-04-15,C102,Priya Patel,South,Electronics,Smart Watch,2,8500,0.05,5500
+ORD1139,2026-05-08,C115,Dev Mishra,East,Sports,Dumbbell Set,7,3500,0.15,2200
+ORD1140,2026-05-01,C104,Sneha Kulkarni,West,Sports,Yoga Mat,7,1200,0.05,600
+ORD1141,2026-06-03,C109,Siddharth Rao,South,Electronics,Wireless Headphones,7,3500,0.1,2200
+ORD1142,2026-05-10,C105,Vikram Singh,North,Home & Kitchen,Non-Stick Cookware Set,8,4500,0.05,2800
+ORD1143,2026-04-25,C109,Siddharth Rao,West,Home & Kitchen,Non-Stick Cookware Set,7,4500,0.15,2800
+ORD1144,2026-03-24,C114,Riya Sen,South,Fashion,Formal Suit,7,12000,0.05,7500
+ORD1145,2026-04-16,C101,Rahul Sharma,East,Books,Clean Code,7,1100,0.05,600
+ORD1146,2026-05-07,C101,Rahul Sharma,South,Sports,Tennis Racket,6,5500,0.0,3600
+ORD1147,2026-04-23,C102,Priya Patel,West,Electronics,Smartphone X,7,45000,0.05,32000
+ORD1148,2026-01-20,C108,Neha Joshi,East,Home & Kitchen,Blender,7,2800,0.0,1800
+ORD1149,2026-03-26,C114,Riya Sen,West,Home & Kitchen,Robot Vacuum,1,25000,0.2,17500
+ORD1150,2026-01-18,C104,Sneha Kulkarni,East,Fashion,Leather Jacket,50,4500,0.0,2800
+ORD1151,2026-06-12,C112,Tanvi Saxena,North,Books,Data Science Handbook,5,1200,0.0,700
+ORD1152,2026-01-12,C106,Ananya Roy,North,Home & Kitchen,Non-Stick Cookware Set,6,4500,0.15,2800
+ORD1153,2026-02-07,C104,Sneha Kulkarni,West,Sports,Yoga Mat,3,1200,0.05,600
+ORD1154,2026-01-21,C110,Diya Kapoor,West,Sports,Yoga Mat,8,1200,0.2,600
+ORD1155,2026-02-06,C104,Sneha Kulkarni,West,Home & Kitchen,Robot Vacuum,5,25000,0.0,17500
+ORD1156,2026-04-30,C115,Dev Mishra,East,Sports,Yoga Mat,2,1200,0.15,600
+ORD1157,2026-03-30,C110,Diya Kapoor,East,Books,System Design Interview,8,950,0.1,500
+ORD1158,2026-02-20,C107,Kabir Mehta,West,Electronics,Smartphone X,7,45000,0.2,32000
+ORD1159,2026-04-02,C110,Diya Kapoor,East,Home & Kitchen,Espresso Machine,7,18000,0.1,12500
+ORD1160,2026-01-03,C110,Diya Kapoor,North,Sports,Cycling Helmet,5,2200,0.05,1300
+ORD1161,2026-06-05,C113,Yash Agarwal,East,Fashion,Running Shoes,5,3200,0.05,1900
+ORD1162,2026-06-10,C102,Priya Patel,North,Home & Kitchen,Robot Vacuum,1,25000,0.2,17500
+ORD1163,2026-04-04,C112,Tanvi Saxena,South,Electronics,Wireless Headphones,6,3500,0.15,2200
+ORD1164,2026-02-14,C104,Sneha Kulkarni,South,Sports,Dumbbell Set,5,3500,0.05,2200
+ORD1165,2026-03-07,C115,Dev Mishra,West,Home & Kitchen,Non-Stick Cookware Set,2,4500,0.15,2800
+ORD1166,2026-01-20,C103,Aman Verma,South,Books,Machine Learning Design,6,1400,0.0,800
+ORD1167,2026-04-12,C101,Rahul Sharma,East,Sports,Treadmill Pro,8,45000,0.1,32000
+ORD1168,2026-06-22,C112,Tanvi Saxena,East,Sports,Cycling Helmet,6,2200,0.0,1300
+ORD1169,2026-06-22,C104,Sneha Kulkarni,West,Electronics,4K Monitor,6,28000,0.2,20000
+ORD1170,2026-02-26,C111,Aditya Bhat,North,Books,System Design Interview,7,950,0.0,500
+ORD1171,2026-02-05,C101,Rahul Sharma,North,Home & Kitchen,Robot Vacuum,2,25000,0.0,17500
+ORD1172,2026-03-02,C115,Dev Mishra,South,Books,Clean Code,6,1100,0.2,600
+ORD1173,2026-04-18,C110,Diya Kapoor,South,Books,Python Masterclass,8,850,0.2,450
+ORD1174,2026-04-15,C105,Vikram Singh,North,Home & Kitchen,Air Fryer,8,7500,0.15,5000
+ORD1175,2026-03-02,C114,Riya Sen,East,Electronics,Wireless Headphones,6,3500,0.0,2200
+ORD1176,2026-04-12,C105,Vikram Singh,South,Electronics,Smart Watch,2,8500,0.05,5500
+ORD1177,2026-06-14,C111,Aditya Bhat,North,Electronics,Wireless Headphones,4,3500,0.05,2200
+ORD1178,2026-05-25,C104,Sneha Kulkarni,North,Sports,Yoga Mat,4,1200,0.05,600
+ORD1179,2026-03-26,C113,Yash Agarwal,South,Sports,Treadmill Pro,5,45000,0.05,32000
+ORD1180,2026-02-03,C109,Siddharth Rao,East,Fashion,Leather Jacket,1,4500,0.05,2800
+ORD1181,2026-01-04,C106,Ananya Roy,South,Sports,Dumbbell Set,1,3500,0.05,2200
+ORD1182,2026-03-09,C101,Rahul Sharma,South,Books,Machine Learning Design,2,1400,0.0,800
+ORD1183,2026-05-02,C108,Neha Joshi,East,Sports,Tennis Racket,2,5500,0.15,3600
+ORD1184,2026-05-09,C104,Sneha Kulkarni,North,Sports,Dumbbell Set,8,3500,0.0,2200
+ORD1185,2026-01-16,C108,Neha Joshi,West,Books,Python Masterclass,8,850,0.15,450
+ORD1186,2026-01-19,C115,Dev Mishra,North,Home & Kitchen,Blender,3,2800,0.0,1800
+ORD1187,2026-02-02,C105,Vikram Singh,East,Books,Machine Learning Design,5,1400,0.15,800
+ORD1188,2026-05-10,C110,Diya Kapoor,West,Electronics,Laptop Pro,4,65000,0.15,48000
+ORD1189,2026-04-26,C115,Dev Mishra,South,Books,System Design Interview,8,950,0.15,500
+ORD1190,2026-04-17,C112,Tanvi Saxena,North,Home & Kitchen,Robot Vacuum,6,25000,0.1,17500
+ORD1191,2026-04-06,C103,Aman Verma,West,Electronics,Laptop Pro,2,65000,0.0,48000
+ORD1192,2026-04-21,C102,Priya Patel,East,Fashion,Formal Suit,1,12000,0.2,7500
+ORD1193,2026-05-24,C109,Siddharth Rao,East,Electronics,Smart Watch,6,8500,0.15,5500
+ORD1194,2026-01-14,C105,Vikram Singh,East,Home & Kitchen,Espresso Machine,4,18000,0.05,12500
+ORD1195,2026-06-18,C108,Neha Joshi,South,Electronics,Wireless Headphones,6,3500,0.0,2200
+ORD1196,2026-03-13,C110,Diya Kapoor,South,Books,Machine Learning Design,1,1400,0.2,800
+ORD1197,2026-06-18,C114,Riya Sen,East,Electronics,Smartphone X,5,45000,0.1,32000
+ORD1198,2026-03-28,C106,Ananya Roy,North,Fashion,Running Shoes,7,3200,0.0,1900
+ORD1199,2026-02-06,C112,Tanvi Saxena,North,Electronics,4K Monitor,4,28000,0.15,20000
+ORD1200,2026-04-18,C108,Neha Joshi,East,Fashion,Designer Denim,5,2800,0.1,1500
+ORD1201,2026-05-26,C110,Diya Kapoor,North,Electronics,Smartphone X,3,45000,0.2,32000
+ORD1202,2026-01-13,C111,Aditya Bhat,North,Home & Kitchen,Robot Vacuum,7,25000,0.15,17500
+ORD1203,2026-06-05,C108,Neha Joshi,West,Home & Kitchen,Air Fryer,2,7500,0.1,5000
+ORD1204,2026-04-21,C102,Priya Patel,East,Sports,Cycling Helmet,5,2200,0.0,1300
+ORD1205,2026-02-26,C107,Kabir Mehta,North,Electronics,Smartphone X,5,45000,0.05,32000
+ORD1206,2026-02-05,C113,Yash Agarwal,East,Home & Kitchen,Non-Stick Cookware Set,2,4500,0.0,2800
+ORD1207,2026-05-08,C112,Tanvi Saxena,West,Fashion,Running Shoes,7,3200,0.2,1900
+ORD1208,2026-06-30,C104,Sneha Kulkarni,East,Electronics,Smart Watch,1,8500,0.15,5500
+ORD1209,2026-01-05,C108,Neha Joshi,North,Home & Kitchen,Blender,7,2800,0.2,1800
+ORD1210,2026-04-14,C112,Tanvi Saxena,West,Home & Kitchen,Espresso Machine,7,18000,0.0,12500
+ORD1211,2026-03-25,C103,Aman Verma,West,Home & Kitchen,Espresso Machine,7,18000,0.0,12500
+ORD1212,2026-03-04,C107,Kabir Mehta,West,Sports,Treadmill Pro,7,45000,0.1,32000
+ORD1213,2026-03-28,C104,Sneha Kulkarni,East,Fashion,Leather Jacket,2,4500,0.2,2800
+ORD1214,2026-05-11,C104,Sneha Kulkarni,East,Home & Kitchen,Air Fryer,4,7500,0.0,5000
+ORD1215,2026-02-07,C105,Vikram Singh,South,Fashion,Formal Suit,3,12000,0.0,7500
+ORD1216,2026-02-15,C113,Yash Agarwal,West,Books,Machine Learning Design,8,1400,0.2,800
+ORD1217,2026-06-14,C111,Aditya Bhat,East,Home & Kitchen,Air Fryer,8,7500,0.0,5000
+ORD1218,2026-05-01,C108,Neha Joshi,East,Home & Kitchen,Blender,1,2800,0.1,1800
+ORD1219,2026-05-10,C102,Priya Patel,East,Books,Clean Code,1,1100,0.0,600
+ORD1220,2026-04-05,C114,Riya Sen,East,Electronics,Laptop Pro,7,65000,0.15,48000
+ORD1221,2026-05-29,C109,Siddharth Rao,North,Books,Machine Learning Design,4,1400,0.1,800
+ORD1222,2026-06-04,C108,Neha Joshi,South,Electronics,Smart Watch,2,8500,0.1,5500
+ORD1223,2026-01-22,C109,Siddharth Rao,South,Electronics,Smartphone X,8,45000,0.15,32000
+ORD1224,2026-05-15,C109,Siddharth Rao,South,Home & Kitchen,Non-Stick Cookware Set,5,4500,0.15,2800
+ORD1225,2026-04-15,C113,Yash Agarwal,East,Sports,Treadmill Pro,6,45000,0.0,32000
+ORD1226,2026-03-26,C102,Priya Patel,West,Home & Kitchen,Non-Stick Cookware Set,3,4500,0.1,2800
+ORD1227,2026-01-21,C110,Diya Kapoor,South,Home & Kitchen,Non-Stick Cookware Set,7,4500,0.05,2800
+ORD1228,2026-06-02,C112,Tanvi Saxena,North,Home & Kitchen,Blender,7,2800,0.1,1800
+ORD1229,2026-02-02,C111,Aditya Bhat,North,Books,Machine Learning Design,6,1400,0.0,800
+ORD1230,2026-04-03,C105,Vikram Singh,South,Fashion,Designer Denim,8,2800,0.05,1500
+ORD1231,2026-02-27,C103,Aman Verma,South,Electronics,Wireless Headphones,2,3500,0.2,2200
+ORD1232,2026-05-19,C114,Riya Sen,North,Home & Kitchen,Blender,3,2800,0.2,1800
+ORD1233,2026-04-07,C103,Aman Verma,South,Fashion,Formal Suit,3,12000,0.15,7500
+ORD1234,2026-01-12,C107,Kabir Mehta,East,Fashion,Cotton Hoodie,5,1800,0.15,1000
+ORD1235,2026-03-01,C109,Siddharth Rao,South,Home & Kitchen,Robot Vacuum,4,25000,0.1,17500
+ORD1236,2026-06-23,C110,Diya Kapoor,West,Books,System Design Interview,7,950,0.2,500
+ORD1237,2026-05-16,C107,Kabir Mehta,South,Fashion,Formal Suit,3,12000,0.1,7500
+ORD1238,2026-01-14,C111,Aditya Bhat,West,Home & Kitchen,Blender,2,2800,0.2,1800
+ORD1239,2026-02-01,C105,Vikram Singh,North,Fashion,Designer Denim,8,2800,0.2,1500
+ORD1240,2026-02-07,C114,Riya Sen,West,Electronics,Smartphone X,8,45000,0.1,32000
+ORD1241,2026-01-07,C107,Kabir Mehta,North,Books,Machine Learning Design,6,1400,0.05,800
+ORD1242,2026-04-09,C102,Priya Patel,East,Fashion,Leather Jacket,6,4500,0.0,2800
+ORD1243,2026-06-16,C106,Ananya Roy,South,Fashion,Leather Jacket,5,4500,0.15,2800
+ORD1244,2026-06-28,C114,Riya Sen,South,Books,Clean Code,1,1100,0.0,600
+ORD1245,2026-01-05,C105,Vikram Singh,South,Fashion,Formal Suit,7,12000,0.0,7500
+ORD1246,2026-03-15,C104,Sneha Kulkarni,East,Electronics,Laptop Pro,4,65000,0.15,48000
+ORD1247,2026-06-13,C113,Yash Agarwal,West,Electronics,Laptop Pro,8,65000,0.2,48000
+ORD1248,2026-05-18,C101,Rahul Sharma,South,Fashion,Designer Denim,7,2800,0.0,1500
+ORD1249,2026-06-07,C106,Ananya Roy,South,Sports,Cycling Helmet,3,2200,0.0,1300
+ORD1250,2026-05-15,C106,Ananya Roy,North,Sports,Tennis Racket,1,5500,0.15,3600
+ORD1251,2026-05-01,C101,Rahul Sharma,West,Home & Kitchen,Non-Stick Cookware Set,1,4500,0.1,2800
+ORD1252,2026-01-18,C106,Ananya Roy,South,Electronics,4K Monitor,6,28000,0.05,20000
+ORD1253,2026-01-12,C106,Ananya Roy,East,Fashion,Cotton Hoodie,8,1800,0.05,1000
+ORD1254,2026-02-04,C102,Priya Patel,West,Electronics,Wireless Headphones,4,3500,0.0,2200
+ORD1255,2026-02-21,C115,Dev Mishra,North,Home & Kitchen,Non-Stick Cookware Set,7,4500,0.2,2800
+ORD1256,2026-05-02,C105,Vikram Singh,North,Fashion,Designer Denim,6,2800,0.0,1500
+ORD1257,2026-06-17,C106,Ananya Roy,East,Electronics,Wireless Headphones,7,3500,0.15,2200
+ORD1258,2026-04-23,C115,Dev Mishra,West,Home & Kitchen,Air Fryer,8,7500,0.15,5000
+ORD1259,2026-04-05,C115,Dev Mishra,East,Electronics,Smart Watch,2,8500,0.15,5500
+ORD1260,2026-06-04,C114,Riya Sen,South,Sports,Dumbbell Set,6,3500,0.0,2200
+ORD1261,2026-01-21,C106,Ananya Roy,East,Home & Kitchen,Robot Vacuum,7,25000,0.05,17500
+ORD1262,2026-06-26,C108,Neha Joshi,East,Books,Python Masterclass,6,850,0.2,450
+ORD1263,2026-04-22,C105,Vikram Singh,North,Electronics,Smart Watch,6,8500,0.2,5500
+ORD1264,2026-06-23,C103,Aman Verma,North,Fashion,Formal Suit,8,12000,0.0,7500
+ORD1265,2026-02-02,C102,Priya Patel,South,Home & Kitchen,Non-Stick Cookware Set,7,4500,0.2,2800
+ORD1266,2026-01-09,C110,Diya Kapoor,South,Books,System Design Interview,6,950,0.15,500
+ORD1267,2026-01-20,C110,Diya Kapoor,South,Sports,Dumbbell Set,7,3500,0.1,2200
+ORD1268,2026-06-16,C105,Vikram Singh,South,Electronics,Laptop Pro,3,65000,0.15,48000
+ORD1269,2026-05-13,C107,Kabir Mehta,North,Home & Kitchen,Non-Stick Cookware Set,8,4500,0.05,2800
+ORD1270,2026-06-06,C105,Vikram Singh,West,Fashion,Leather Jacket,3,4500,0.0,2800
+ORD1271,2026-04-26,C103,Aman Verma,West,Electronics,Wireless Headphones,6,3500,0.0,2200
+ORD1272,2026-05-21,C109,Siddharth Rao,East,Home & Kitchen,Air Fryer,3,7500,0.1,5000
+ORD1273,2026-05-11,C104,Sneha Kulkarni,North,Fashion,Running Shoes,4,3200,0.15,1900
+ORD1274,2026-01-07,C106,Ananya Roy,East,Books,Machine Learning Design,3,1400,0.2,800
+ORD1275,2026-01-23,C102,Priya Patel,East,Books,Clean Code,7,1100,0.15,600
+ORD1276,2026-05-28,C102,Priya Patel,South,Home & Kitchen,Espresso Machine,8,18000,0.15,12500
+ORD1277,2026-06-24,C109,Siddharth Rao,East,Fashion,Formal Suit,3,12000,0.05,7500
+ORD1278,2026-04-21,C109,Siddharth Rao,North,Electronics,4K Monitor,3,28000,0.1,20000
+ORD1279,2026-02-12,C103,Aman Verma,East,Fashion,Designer Denim,5,2800,0.0,1500
+ORD1280,2026-03-06,C104,Sneha Kulkarni,East,Fashion,Designer Denim,2,2800,0.2,1500
+ORD1281,2026-06-14,C103,Aman Verma,South,Fashion,Formal Suit,6,12000,0.2,7500
+ORD1282,2026-01-11,C114,Riya Sen,North,Electronics,Laptop Pro,5,65000,0.05,48000
+ORD1283,2026-05-27,C107,Kabir Mehta,North,Books,Machine Learning Design,5,1400,0.1,800
+ORD1284,2026-05-04,C104,Sneha Kulkarni,West,Home & Kitchen,Robot Vacuum,2,25000,0.0,17500
+ORD1285,2026-02-10,C108,Neha Joshi,West,Books,Clean Code,4,1100,0.1,600
+ORD1286,2026-06-05,C103,Aman Verma,East,Home & Kitchen,Non-Stick Cookware Set,7,4500,0.05,2800
+ORD1287,2026-04-05,C109,Siddharth Rao,North,Home & Kitchen,Air Fryer,8,7500,0.0,5000
+ORD1288,2026-03-10,C108,Neha Joshi,South,Fashion,Leather Jacket,1,4500,0.1,2800
+ORD1289,2026-04-09,C114,Riya Sen,West,Fashion,Running Shoes,6,3200,0.2,1900
+ORD1290,2026-03-22,C104,Sneha Kulkarni,South,Books,Machine Learning Design,8,1400,0.15,800
+ORD1291,2026-03-20,C108,Neha Joshi,North,Electronics,Smart Watch,8,8500,0.05,5500
+ORD1292,2026-02-25,C110,Diya Kapoor,East,Electronics,Laptop Pro,5,65000,0.15,48000
+ORD1293,2026-06-02,C115,Dev Mishra,West,Home & Kitchen,Blender,1,2800,0.0,1800
+ORD1294,2026-04-21,C103,Aman Verma,East,Home & Kitchen,Robot Vacuum,6,25000,0.0,17500
+ORD1295,2026-04-13,C101,Rahul Sharma,South,Home & Kitchen,Blender,5,2800,0.0,1800
+ORD1296,2026-04-09,C109,Siddharth Rao,West,Sports,Dumbbell Set,2,3500,0.05,2200
+ORD1297,2026-01-25,C107,Kabir Mehta,East,Home & Kitchen,Blender,6,2800,0.05,1800
+ORD1298,2026-02-20,C110,Diya Kapoor,West,Sports,Treadmill Pro,1,45000,0.0,32000
+ORD1299,2026-02-05,C112,Tanvi Saxena,East,Books,Machine Learning Design,8,1400,0.05,800
+ORD1300,2026-06-05,C115,Dev Mishra,South,Home & Kitchen,Blender,6,2800,0.05,1800
+ORD1301,2026-04-11,C110,Diya Kapoor,East,Sports,Dumbbell Set,8,3500,0.2,2200
+ORD1302,2026-03-18,C108,Neha Joshi,North,Home & Kitchen,Non-Stick Cookware Set,2,4500,0.15,2800
+ORD1303,2026-05-30,C105,Vikram Singh,North,Sports,Cycling Helmet,5,2200,0.2,1300
+ORD1304,2026-05-28,C104,Sneha Kulkarni,North,Sports,Cycling Helmet,3,2200,0.2,1300
+ORD1305,2026-06-11,C112,Tanvi Saxena,West,Fashion,Running Shoes,1,3200,0.2,1900
+ORD1306,2026-06-29,C102,Priya Patel,South,Electronics,Smart Watch,6,8500,0.15,5500
+ORD1307,2026-02-08,C107,Kabir Mehta,South,Books,Machine Learning Design,8,1400,0.0,800
+ORD1308,2026-06-30,C103,Aman Verma,South,Sports,Dumbbell Set,8,3500,0.2,2200
+ORD1309,2026-04-07,C106,Ananya Roy,South,Books,Machine Learning Design,6,1400,0.2,800
+ORD1310,2026-04-01,C111,Aditya Bhat,East,Sports,Cycling Helmet,4,2200,0.05,1300
+ORD1311,2026-03-13,C109,Siddharth Rao,East,Fashion,Designer Denim,5,2800,0.05,1500
+ORD1312,2026-06-26,C112,Tanvi Saxena,West,Home & Kitchen,Robot Vacuum,6,25000,0.2,17500
+ORD1313,2026-03-12,C105,Vikram Singh,North,Sports,Tennis Racket,7,5500,0.15,3600
+ORD1314,2026-03-30,C113,Yash Agarwal,South,Home & Kitchen,Espresso Machine,5,18000,0.0,12500
+ORD1315,2026-03-30,C115,Dev Mishra,West,Home & Kitchen,Robot Vacuum,4,25000,0.05,17500
+ORD1316,2026-05-18,C105,Vikram Singh,East,Fashion,Leather Jacket,4,4500,0.05,2800
+ORD1317,2026-01-13,C111,Aditya Bhat,South,Fashion,Leather Jacket,2,4500,0.15,2800
+ORD1318,2026-03-26,C112,Tanvi Saxena,West,Electronics,Smartphone X,1,45000,0.2,32000
+ORD1319,2026-02-10,C107,Kabir Mehta,West,Books,Data Science Handbook,5,1200,0.1,700
+ORD1320,2026-03-15,C111,Aditya Bhat,North,Electronics,4K Monitor,4,28000,0.2,20000
+ORD1321,2026-01-10,C115,Dev Mishra,South,Books,Data Science Handbook,1,1200,0.15,700
+ORD1322,2026-05-07,C103,Aman Verma,East,Electronics,Laptop Pro,5,65000,0.2,48000
+ORD1323,2026-06-04,C102,Priya Patel,East,Home & Kitchen,Robot Vacuum,8,25000,0.05,17500
+ORD1324,2026-05-10,C108,Neha Joshi,East,Fashion,Leather Jacket,6,4500,0.05,2800
+ORD1325,2026-04-28,C111,Aditya Bhat,East,Fashion,Leather Jacket,6,4500,0.1,2800
+ORD1326,2026-05-26,C111,Aditya Bhat,South,Fashion,Formal Suit,7,12000,0.15,7500
+ORD1327,2026-05-12,C106,Ananya Roy,North,Books,Python Masterclass,3,850,0.05,450
+ORD1328,2026-05-03,C106,Ananya Roy,South,Electronics,Wireless Headphones,7,3500,0.05,2200
+ORD1329,2026-04-25,C113,Yash Agarwal,East,Home & Kitchen,Non-Stick Cookware Set,1,4500,0.1,2800
+ORD1330,2026-06-17,C106,Ananya Roy,South,Electronics,Laptop Pro,8,65000,0.1,48000
+ORD1331,2026-02-10,C107,Kabir Mehta,East,Electronics,Wireless Headphones,6,3500,0.2,2200
+ORD1332,2026-02-26,C104,Sneha Kulkarni,South,Books,Data Science Handbook,8,1200,0.2,700
+ORD1333,2026-04-06,C107,Kabir Mehta,West,Sports,Yoga Mat,4,1200,0.2,600
+ORD1334,2026-01-21,C109,Siddharth Rao,West,Sports,Dumbbell Set,2,3500,0.2,2200
+ORD1335,2026-01-29,C101,Rahul Sharma,South,Sports,Tennis Racket,3,5500,0.05,3600
+ORD1336,2026-03-25,C114,Riya Sen,West,Electronics,Smartphone X,8,45000,0.0,32000
+ORD1337,2026-05-11,C108,Neha Joshi,North,Books,Data Science Handbook,7,1200,0.15,700
+ORD1338,2026-05-25,C101,Rahul Sharma,West,Home & Kitchen,Espresso Machine,7,18000,0.1,12500
+ORD1339,2026-01-01,C112,Tanvi Saxena,South,Sports,Treadmill Pro,1,45000,0.15,32000
+ORD1340,2026-03-30,C112,Tanvi Saxena,North,Sports,Treadmill Pro,2,45000,0.15,32000
+ORD1341,2026-01-09,C105,Vikram Singh,West,Fashion,Running Shoes,7,3200,0.1,1900
+ORD1342,2026-04-08,C108,Neha Joshi,West,Books,Python Masterclass,3,850,0.1,450
+ORD1343,2026-01-31,C103,Aman Verma,West,Sports,Yoga Mat,4,1200,0.0,600
+ORD1344,2026-01-06,C105,Vikram Singh,West,Sports,Cycling Helmet,7,2200,0.05,1300
+ORD1345,2026-03-05,C108,Neha Joshi,East,Fashion,Designer Denim,4,2800,0.0,1500
+ORD1346,2026-01-09,C113,Yash Agarwal,West,Sports,Treadmill Pro,4,45000,0.05,32000
+ORD1347,2026-01-18,C102,Priya Patel,North,Books,Machine Learning Design,1,1400,0.05,800
+ORD1348,2026-01-12,C107,Kabir Mehta,West,Fashion,Formal Suit,4,12000,0.0,7500
+ORD1349,2026-02-05,C109,Siddharth Rao,East,Fashion,Formal Suit,6,12000,0.2,7500
+ORD1350,2026-06-03,C113,Yash Agarwal,East,Fashion,Designer Denim,3,2800,0.2,1500
+ORD1351,2026-02-26,C107,Kabir Mehta,East,Home & Kitchen,Espresso Machine,3,18000,0.15,12500
+ORD1352,2026-05-23,C108,Neha Joshi,North,Home & Kitchen,Robot Vacuum,6,25000,0.15,17500
+ORD1353,2026-04-15,C103,Aman Verma,East,Books,Data Science Handbook,8,1200,0.05,700
+ORD1354,2026-02-27,C105,Vikram Singh,South,Books,Python Masterclass,7,850,0.15,450
+ORD1355,2026-05-23,C109,Siddharth Rao,South,Books,Data Science Handbook,5,1200,0.05,700
+ORD1356,2026-03-26,C111,Aditya Bhat,North,Books,System Design Interview,2,950,0.2,500
+ORD1357,2026-02-18,C101,Rahul Sharma,East,Books,Machine Learning Design,1,1400,0.0,800
+ORD1358,2026-02-18,C113,Yash Agarwal,South,Books,Data Science Handbook,6,1200,0.1,700
+ORD1359,2026-01-04,C104,Sneha Kulkarni,South,Electronics,Smart Watch,4,8500,0.2,5500
+ORD1360,2026-06-30,C104,Sneha Kulkarni,West,Fashion,Formal Suit,6,12000,0.1,7500
