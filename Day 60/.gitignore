@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+output/*.csv
+output/*.txt
+data/processed/*.csv
+students.json

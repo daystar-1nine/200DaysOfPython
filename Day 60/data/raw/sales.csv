@@ -1,0 +1,751 @@
+Order_ID,Order_Date,Customer_ID,Customer_Name,Region,Category,Product,Quantity,Unit_Price,Cost_Price,Discount
+ORD-3001,2026-03-20,C110,Diya Kapoor,South,Apparel,Nike Running Shoes,4,4200,2400,0.15
+ORD-3002,2026-03-27,C102,Priya Patel,North,Furniture,Standing Desk,4,28000,18000,0.0
+ORD-3003,2026-03-03,C101,Rahul Sharma,West,Furniture,Standing Desk,3,28000,18000,0.2
+ORD-3004,2026-06-10,C105,Vikram Singh,North,Fitness,Yoga Mat Pro,1,1800,900,0.1
+ORD-3005,2026-02-08,C101,Rahul Sharma,South,Apparel,Nike Running Shoes,5,4200,2400,0.1
+ORD-3006,2026-01-17,C108,Neha Joshi,South,Apparel,Nike Running Shoes,6,4200,2400,0.05
+ORD-3007,2026-05-29,C104,Sneha Kulkarni,East,Kitchenware,Air Fryer Deluxe,4,8500,5500,0.0
+ORD-3008,2026-05-15,C104,Sneha Kulkarni,North,Electronics,iPad Air,6,54000,41000,0.0
+ORD-3009,2026-01-21,C106,Ananya Roy,West,Apparel,Cotton Chinos,5,1800,950,0.15
+ORD-3010,2026-04-10,C118, Sneha Deshmukh ,South,Apparel,Formal Blazer,4,7500,4500,0.0
+ORD-3011,2026-05-11,C119,Rahul Deshmukh,West,Electronics,Dell XPS 15,3,95000,72000,0.2
+ORD-3012,2026-02-04,C104,Sneha Kulkarni,South,Kitchenware,Blender Pro,1,3500,2000,0.2
+ORD-3013,2026-04-21,C102,Priya Patel,West,Electronics,Dell XPS 15,1,95000,72000,0.0
+ORD-3014,2026-05-29,C107,Kabir Mehta,North,Furniture,Recliner Sofa,6,35000,24000,0.15
+ORD-3015,2026-05-07,C105,Vikram Singh,South,Fitness,NordicTrack Treadmill,4,55000,38000,0.1
+ORD-3016,2026-06-10,C108,Neha Joshi,North,Apparel,Formal Blazer,4,7500,4500,0.1
+ORD-3017,2026-01-22,C108,Neha Joshi,East,Apparel,Nike Running Shoes,6,4200,2400,0.2
+ORD-3018,2026-05-19,C106,Ananya Roy,East,Apparel,Leather Bomber Jacket,2,5500,3200,0.15
+ORD-3019,2026-05-05,C107,Kabir Mehta,East,Furniture,Coffee Table,1,6500,3800,0.0
+ORD-3020,2026-06-24,C105, Vikram Singh ,South,Electronics,MacBook Pro,5,120000,95000,0.15
+ORD-3021,2026-06-26,C104,Sneha Kulkarni,South,Fitness,Yoga Mat Pro,2,1800,900,0.15
+ORD-3022,2026-02-18,C119,Rahul Deshmukh,West,Fitness,Spin Bike,5,24000,16000,0.2
+ORD-3023,2026-03-20,C101,Rahul Sharma,East,Furniture,Coffee Table,3,6500,3800,0.1
+ORD-3024,2026-04-25,C114,Riya Sen,West,Furniture,Coffee Table,5,6500,3800,0.0
+ORD-3025,2026-04-12,C120,Meera Iyer,West,Furniture,Recliner Sofa,4,35000,24000,0.2
+ORD-3026,2026-01-30,C102,Priya Patel,North,Fitness,Yoga Mat Pro,5,1800,900,0.05
+ORD-3027,2026-02-14,C116,Kavya Reddy,North,Furniture,Coffee Table,3,6500,3800,0.0
+ORD-3028,2026-01-03,C106,Ananya Roy,South,Furniture,Standing Desk,4,28000,18000,0.1
+ORD-3029,2026-06-12,C104,Sneha Kulkarni,South,Fitness,Yoga Mat Pro,6,1800,900,0.0
+ORD-3030,2026-05-19,C114, Riya Sen ,West,Furniture,Ergonomic Chair,3,14000,9000,0.2
+ORD-3031,2026-01-25,C119,Rahul Deshmukh,North,Furniture,Bookshelf Unit,2,9000,5500,0.05
+ORD-3032,2026-05-21,C119,Rahul Deshmukh,South,Fitness,Yoga Mat Pro,2,1800,900,0.2
+ORD-3033,2026-03-14,C118,Sneha Deshmukh,North,Electronics,Dell XPS 15,5,95000,72000,0.05
+ORD-3034,2026-03-09,C107,Kabir Mehta,South,Kitchenware,Kitchen Knife Set,1,4500,2600,0.0
+ORD-3035,2026-01-31,C119,Rahul Deshmukh,South,Apparel,Cotton Chinos,2,1800,950,0.15
+ORD-3036,2026-03-03,C113,Yash Agarwal,North,Furniture,Standing Desk,3,28000,18000,0.05
+ORD-3037,2026-01-26,C120,Meera Iyer,West,Fitness,Spin Bike,4,24000,16000,0.2
+ORD-3038,2026-04-01,C112,Tanvi Saxena,South,Fitness,NordicTrack Treadmill,2,55000,38000,0.15
+ORD-3039,2026-04-10,C101,Rahul Sharma,West,Apparel,Leather Bomber Jacket,5,5500,3200,0.2
+ORD-3040,2026-04-09,C103, Aman Verma ,West,Fitness,Yoga Mat Pro,2,1800,900,0.15
+ORD-3041,2026-02-22,C117,Arjun Chaudhury,South,Fitness,NordicTrack Treadmill,3,55000,38000,0.1
+ORD-3042,2026-01-11,C103,Aman Verma,South,Apparel,Formal Blazer,6,7500,4500,0.2
+ORD-3043,2026-05-31,C105,Vikram Singh,East,Electronics,iPad Air,5,54000,41000,0.15
+ORD-3044,2026-01-28,C107,Kabir Mehta,South,Electronics,Dell XPS 15,1,95000,72000,0.05
+ORD-3045,2026-06-24,C116,Kavya Reddy,South,Furniture,Standing Desk,3,28000,18000,0.2
+ORD-3046,2026-03-11,C102,Priya Patel,North,Electronics,iPhone 15,4,75000,58000,0.1
+ORD-3047,2026-05-27,C117,Arjun Chaudhury,North,Fitness,Rowing Machine,6,32000,22000,0.2
+ORD-3048,2026-05-19,C117,Arjun Chaudhury,East,Electronics,MacBook Pro,5,120000,95000,0.15
+ORD-3049,2026-04-27,C115,Dev Mishra,East,Electronics,Sony WH-1000XM5,1,26000,18000,0.0
+ORD-3050,2026-01-31,C117, Arjun Chaudhury ,East,Apparel,Leather Bomber Jacket,4,5500,3200,0.05
+ORD-3051,2026-06-11,C119,Rahul Deshmukh,North,Electronics,iPad Air,6,54000,41000,0.0
+ORD-3052,2026-01-23,C111,Aditya Bhat,East,Fitness,Spin Bike,6,24000,16000,0.2
+ORD-3053,2026-06-17,C116,Kavya Reddy,South,Apparel,Cotton Chinos,2,1800,950,0.0
+ORD-3054,2026-05-20,C105,Vikram Singh,West,Fitness,Adjustable Dumbbell Pair,1,9500,6000,0.0
+ORD-3055,2026-02-03,C117,Arjun Chaudhury,North,Fitness,Yoga Mat Pro,3,1800,900,0.0
+ORD-3056,2026-04-06,C109,Siddharth Rao,West,Kitchenware,Blender Pro,2,3500,2000,0.15
+ORD-3057,2026-04-25,C106,Ananya Roy,South,Furniture,Recliner Sofa,6,35000,24000,0.1
+ORD-3058,2026-01-01,C113,Yash Agarwal,East,Fitness,Rowing Machine,3,32000,22000,0.1
+ORD-3059,2026-05-08,C111,Aditya Bhat,North,Fitness,Spin Bike,1,24000,16000,0.0
+ORD-3060,2026-01-31,C117, Arjun Chaudhury ,South,Fitness,NordicTrack Treadmill,2,55000,38000,0.05
+ORD-3061,2026-05-20,C107,Kabir Mehta,South,Electronics,Sony WH-1000XM5,3,26000,18000,0.1
+ORD-3062,2026-04-08,C108,Neha Joshi,East,Furniture,Bookshelf Unit,2,9000,5500,0.1
+ORD-3063,2026-02-12,C112,Tanvi Saxena,East,Apparel,Nike Running Shoes,3,4200,2400,0.1
+ORD-3064,2026-04-01,C104,Sneha Kulkarni,West,Fitness,Spin Bike,3,24000,16000,0.1
+ORD-3065,2026-05-14,C109,Siddharth Rao,East,Apparel,Cotton Chinos,4,1800,950,0.15
+ORD-3066,2026-03-08,C107,Kabir Mehta,West,Electronics,iPad Air,4,54000,41000,0.1
+ORD-3067,2026-06-05,C106,Ananya Roy,South,Electronics,Dell XPS 15,4,95000,72000,0.05
+ORD-3068,2026-02-17,C109,Siddharth Rao,North,Apparel,Leather Bomber Jacket,3,5500,3200,0.0
+ORD-3069,2026-03-30,C112,Tanvi Saxena,West,Fitness,Adjustable Dumbbell Pair,6,9500,6000,0.1
+ORD-3070,2026-03-22,C110, Diya Kapoor ,South,Apparel,Formal Blazer,3,7500,4500,0.05
+ORD-3071,2026-04-28,C106,Ananya Roy,East,Apparel,Cotton Chinos,5,1800,950,0.0
+ORD-3072,2026-04-20,C102,Priya Patel,North,Fitness,Yoga Mat Pro,3,1800,900,0.1
+ORD-3073,2026-03-17,C118,Sneha Deshmukh,West,Furniture,Bookshelf Unit,2,9000,5500,0.15
+ORD-3074,2026-03-04,C104,Sneha Kulkarni,North,Electronics,Dell XPS 15,1,95000,72000,0.05
+ORD-3075,2026-02-11,C118,Sneha Deshmukh,North,Electronics,Dell XPS 15,2,95000,72000,0.0
+ORD-3076,2026-05-04,C104,Sneha Kulkarni,East,Kitchenware,Cast Iron Dutch Oven,2,6500,4000,0.05
+ORD-3077,2026-04-10,C110,Diya Kapoor,East,Kitchenware,Cast Iron Dutch Oven,4,6500,4000,0.05
+ORD-3078,2026-01-25,C114,Riya Sen,West,Apparel,Cotton Chinos,6,1800,950,0.15
+ORD-3079,2026-06-19,C101,Rahul Sharma,South,Electronics,iPad Air,3,54000,41000,0.15
+ORD-3080,2026-04-18,C105, Vikram Singh ,East,Fitness,NordicTrack Treadmill,4,55000,38000,0.2
+ORD-3081,2026-05-29,C116,Kavya Reddy,North,Fitness,Yoga Mat Pro,6,1800,900,0.0
+ORD-3082,2026-06-22,C117,Arjun Chaudhury,West,Kitchenware,Cast Iron Dutch Oven,5,6500,4000,0.1
+ORD-3083,2026-06-06,C106,Ananya Roy,West,Apparel,Merino Wool Sweater,2,3200,1800,0.0
+ORD-3084,2026-05-03,C114,Riya Sen,East,Apparel,Cotton Chinos,4,1800,950,0.05
+ORD-3085,2026-05-09,C113,Yash Agarwal,South,Fitness,NordicTrack Treadmill,6,55000,38000,0.2
+ORD-3086,2026-03-11,C109,Siddharth Rao,East,Furniture,Ergonomic Chair,3,14000,9000,0.0
+ORD-3087,2026-02-22,C118,Sneha Deshmukh,West,Apparel,Leather Bomber Jacket,6,5500,3200,0.1
+ORD-3088,2026-04-16,C101,Rahul Sharma,West,Apparel,Nike Running Shoes,1,4200,2400,0.0
+ORD-3089,2026-05-13,C113,Yash Agarwal,East,Apparel,Nike Running Shoes,1,4200,2400,0.2
+ORD-3090,2026-05-25,C108, Neha Joshi ,West,Fitness,Spin Bike,6,24000,16000,0.15
+ORD-3091,2026-04-04,C115,Dev Mishra,West,Fitness,Yoga Mat Pro,4,1800,900,0.15
+ORD-3092,2026-03-09,C111,Aditya Bhat,North,Fitness,NordicTrack Treadmill,3,55000,38000,0.05
+ORD-3093,2026-04-04,C113,Yash Agarwal,South,Furniture,Bookshelf Unit,2,9000,5500,0.1
+ORD-3094,2026-03-16,C118,Sneha Deshmukh,West,Electronics,Sony WH-1000XM5,3,26000,18000,0.15
+ORD-3095,2026-01-22,C108,Neha Joshi,East,Furniture,Standing Desk,5,28000,18000,0.2
+ORD-3096,2026-06-26,C110,Diya Kapoor,South,Fitness,Rowing Machine,3,32000,22000,0.0
+ORD-3097,2026-03-02,C113,Yash Agarwal,South,Kitchenware,Blender Pro,1,3500,2000,0.0
+ORD-3098,2026-04-14,C115,Dev Mishra,North,Electronics,iPad Air,6,54000,41000,0.05
+ORD-3099,2026-03-04,C120,Meera Iyer,South,Kitchenware,Air Fryer Deluxe,3,8500,5500,0.1
+ORD-3100,2026-04-11,C108, Neha Joshi ,South,Kitchenware,Blender Pro,25,3500,2000,0.05
+ORD-3101,2026-06-27,C106,Ananya Roy,South,Fitness,Spin Bike,6,24000,16000,0.05
+ORD-3102,2026-01-02,C114,Riya Sen,West,Kitchenware,Kitchen Knife Set,1,4500,2600,0.05
+ORD-3103,2026-01-02,C107,Kabir Mehta,West,Electronics,Sony WH-1000XM5,2,26000,18000,0.2
+ORD-3104,2026-01-07,C107,Kabir Mehta,West,Apparel,Nike Running Shoes,4,4200,2400,0.05
+ORD-3105,2026-03-30,C106,Ananya Roy,North,Furniture,Bookshelf Unit,2,9000,5500,0.15
+ORD-3106,2026-01-28,C101,Rahul Sharma,North,Furniture,Recliner Sofa,5,35000,24000,0.05
+ORD-3107,2026-03-11,C113,Yash Agarwal,North,Furniture,Coffee Table,5,6500,3800,0.1
+ORD-3108,2026-06-19,C102,Priya Patel,East,Kitchenware,Blender Pro,5,3500,2000,0.1
+ORD-3109,2026-04-22,C107,Kabir Mehta,West,Furniture,Bookshelf Unit,4,9000,5500,0.2
+ORD-3110,2026-04-04,C118, Sneha Deshmukh ,West,Furniture,Recliner Sofa,5,35000,24000,0.15
+ORD-3111,2026-01-13,C106,Ananya Roy,West,Furniture,Coffee Table,2,6500,3800,0.15
+ORD-3112,2026-01-05,C105,Vikram Singh,South,Fitness,Rowing Machine,2,32000,22000,0.0
+ORD-3113,2026-06-26,C110,Diya Kapoor,North,Electronics,iPad Air,4,54000,41000,0.15
+ORD-3114,2026-04-13,C115,Dev Mishra,South,Kitchenware,Blender Pro,1,3500,2000,0.15
+ORD-3115,2026-01-06,C111,Aditya Bhat,South,Electronics,iPhone 15,2,75000,58000,0.1
+ORD-3116,2026-06-30,C109,Siddharth Rao,North,Apparel,Merino Wool Sweater,3,3200,1800,0.0
+ORD-3117,2026-03-31,C117,Arjun Chaudhury,East,Fitness,Rowing Machine,5,32000,22000,0.2
+ORD-3118,2026-02-17,C118,Sneha Deshmukh,North,Kitchenware,Air Fryer Deluxe,4,8500,5500,0.15
+ORD-3119,2026-01-29,C103,Aman Verma,West,Apparel,Leather Bomber Jacket,1,5500,3200,0.2
+ORD-3120,2026-03-08,C117, Arjun Chaudhury ,South,Kitchenware,Blender Pro,2,3500,2000,0.0
+ORD-3121,2026-01-02,C106,Ananya Roy,East,Furniture,Standing Desk,6,28000,18000,0.1
+ORD-3122,2026-04-11,C103,Aman Verma,West,Kitchenware,Cast Iron Dutch Oven,3,6500,4000,0.05
+ORD-3123,2026-02-22,C102,Priya Patel,West,Kitchenware,Air Fryer Deluxe,3,8500,5500,0.15
+ORD-3124,2026-06-23,C119,Rahul Deshmukh,South,Furniture,Coffee Table,5,6500,3800,0.1
+ORD-3125,2026-06-23,C107,Kabir Mehta,South,Fitness,Spin Bike,5,24000,16000,0.2
+ORD-3126,2026-06-10,C103,Aman Verma,South,Electronics,iPad Air,4,54000,41000,0.15
+ORD-3127,2026-06-17,C107,Kabir Mehta,East,Electronics,iPad Air,6,54000,41000,0.05
+ORD-3128,2026-03-05,C120,Meera Iyer,North,Furniture,Recliner Sofa,5,35000,24000,0.05
+ORD-3129,2026-03-19,C104,Sneha Kulkarni,North,Fitness,Spin Bike,4,24000,16000,0.2
+ORD-3130,2026-05-18,C120, Meera Iyer ,North,Fitness,Yoga Mat Pro,5,1800,900,0.2
+ORD-3131,2026-03-27,C117,Arjun Chaudhury,South,Kitchenware,Blender Pro,4,3500,2000,0.05
+ORD-3132,2026-03-02,C116,Kavya Reddy,East,Electronics,iPhone 15,3,75000,58000,0.15
+ORD-3133,2026-05-13,C105,Vikram Singh,North,Furniture,Coffee Table,6,6500,3800,0.1
+ORD-3134,2026-06-27,C114,Riya Sen,North,Furniture,Recliner Sofa,1,35000,24000,0.2
+ORD-3135,2026-01-20,C109,Siddharth Rao,South,Furniture,Recliner Sofa,6,35000,24000,0.0
+ORD-3136,2026-06-16,C120,Meera Iyer,South,Electronics,MacBook Pro,5,120000,95000,0.1
+ORD-3137,2026-03-05,C101,Rahul Sharma,West,Apparel,Merino Wool Sweater,4,3200,1800,0.05
+ORD-3138,2026-02-05,C111,Aditya Bhat,East,Apparel,Leather Bomber Jacket,4,5500,3200,0.15
+ORD-3139,2026-03-30,C111,Aditya Bhat,South,Furniture,Standing Desk,3,28000,18000,0.2
+ORD-3140,2026-03-17,C111, Aditya Bhat ,East,Fitness,Yoga Mat Pro,2,1800,900,0.0
+ORD-3141,2026-02-15,C112,Tanvi Saxena,East,Furniture,Recliner Sofa,4,35000,24000,0.15
+ORD-3142,2026-05-09,C108,Neha Joshi,West,Apparel,Formal Blazer,6,7500,4500,0.15
+ORD-3143,2026-06-10,C113,Yash Agarwal,South,Kitchenware,Blender Pro,5,3500,2000,0.2
+ORD-3144,2026-06-28,C113,Yash Agarwal,North,Apparel,Cotton Chinos,5,1800,950,0.15
+ORD-3145,2026-05-22,C112,Tanvi Saxena,South,Fitness,Yoga Mat Pro,4,1800,900,0.1
+ORD-3146,2026-06-19,C102,Priya Patel,West,Furniture,Bookshelf Unit,3,9000,5500,0.05
+ORD-3147,2026-04-17,C120,Meera Iyer,West,Electronics,Sony WH-1000XM5,5,26000,18000,0.0
+ORD-3148,2026-01-17,C113,Yash Agarwal,North,Fitness,NordicTrack Treadmill,5,55000,38000,0.05
+ORD-3149,2026-05-18,C108,Neha Joshi,East,Fitness,Spin Bike,4,24000,16000,0.15
+ORD-3150,2026-02-28,C120, Meera Iyer ,South,Apparel,Merino Wool Sweater,4,3200,1800,0.05
+ORD-3151,2026-05-13,C103,Aman Verma,East,Furniture,Coffee Table,3,6500,3800,0.2
+ORD-3152,2026-03-10,C113,Yash Agarwal,South,Fitness,Yoga Mat Pro,1,1800,900,0.1
+ORD-3153,2026-04-14,C113,Yash Agarwal,East,Furniture,Standing Desk,4,28000,18000,0.15
+ORD-3154,2026-06-26,C111,Aditya Bhat,West,Electronics,MacBook Pro,4,120000,95000,0.1
+ORD-3155,2026-02-18,C114,Riya Sen,North,Kitchenware,Blender Pro,3,3500,2000,0.1
+ORD-3156,2026-02-17,C113,Yash Agarwal,West,Electronics,iPad Air,5,54000,41000,0.15
+ORD-3157,2026-06-27,C114,Riya Sen,North,Furniture,Standing Desk,2,28000,18000,0.05
+ORD-3158,2026-02-15,C117,Arjun Chaudhury,East,Kitchenware,Kitchen Knife Set,6,4500,2600,0.1
+ORD-3159,2026-06-19,C105,Vikram Singh,South,Furniture,Coffee Table,4,6500,3800,0.05
+ORD-3160,2026-01-12,C102, Priya Patel ,North,Furniture,Standing Desk,1,28000,18000,0.1
+ORD-3161,2026-04-01,C107,Kabir Mehta,North,Apparel,Formal Blazer,1,7500,4500,0.2
+ORD-3162,2026-06-25,C119,Rahul Deshmukh,West,Electronics,iPhone 15,1,75000,58000,0.0
+ORD-3163,2026-06-19,C103,Aman Verma,West,Furniture,Standing Desk,2,28000,18000,0.15
+ORD-3164,2026-05-04,C116,Kavya Reddy,South,Electronics,iPad Air,5,54000,41000,0.2
+ORD-3165,2026-06-26,C118,Sneha Deshmukh,South,Kitchenware,Air Fryer Deluxe,6,8500,5500,0.0
+ORD-3166,2026-05-28,C116,Kavya Reddy,South,Electronics,iPad Air,6,54000,41000,0.15
+ORD-3167,2026-03-06,C118,Sneha Deshmukh,West,Electronics,iPad Air,2,54000,41000,0.0
+ORD-3168,2026-06-15,C105,Vikram Singh,South,Apparel,Merino Wool Sweater,1,3200,1800,0.1
+ORD-3169,2026-01-31,C107,Kabir Mehta,East,Furniture,Ergonomic Chair,5,14000,9000,0.0
+ORD-3170,2026-06-28,C103, Aman Verma ,West,Furniture,Recliner Sofa,4,35000,24000,0.1
+ORD-3171,2026-05-19,C109,Siddharth Rao,North,Fitness,Yoga Mat Pro,2,1800,900,0.1
+ORD-3172,2026-05-26,C116,Kavya Reddy,West,Furniture,Recliner Sofa,1,35000,24000,0.1
+ORD-3173,2026-01-29,C105,Vikram Singh,East,Furniture,Ergonomic Chair,1,14000,9000,0.2
+ORD-3174,2026-06-29,C116,Kavya Reddy,West,Electronics,MacBook Pro,1,120000,95000,0.15
+ORD-3175,2026-06-24,C114,Riya Sen,North,Furniture,Standing Desk,5,28000,18000,0.0
+ORD-3176,2026-05-13,C104,Sneha Kulkarni,West,Kitchenware,Air Fryer Deluxe,5,8500,5500,0.2
+ORD-3177,2026-05-10,C102,Priya Patel,North,Electronics,Dell XPS 15,3,95000,72000,0.15
+ORD-3178,2026-05-20,C118,Sneha Deshmukh,North,Fitness,Spin Bike,4,24000,16000,0.1
+ORD-3179,2026-01-04,C119,Rahul Deshmukh,North,Kitchenware,Kitchen Knife Set,6,4500,2600,0.15
+ORD-3180,2026-06-07,C108, Neha Joshi ,North,Apparel,Cotton Chinos,6,1800,950,0.0
+ORD-3181,2026-02-10,C104,Sneha Kulkarni,North,Furniture,Recliner Sofa,5,35000,24000,0.05
+ORD-3182,2026-05-21,C117,Arjun Chaudhury,North,Fitness,Yoga Mat Pro,2,1800,900,0.1
+ORD-3183,2026-04-28,C109,Siddharth Rao,South,Furniture,Recliner Sofa,4,35000,24000,0.2
+ORD-3184,2026-06-08,C117,Arjun Chaudhury,North,Apparel,Cotton Chinos,2,1800,950,0.05
+ORD-3185,2026-06-24,C117,Arjun Chaudhury,West,Apparel,Formal Blazer,3,7500,4500,0.0
+ORD-3186,2026-05-28,C120,Meera Iyer,East,Electronics,iPad Air,3,54000,41000,0.15
+ORD-3187,2026-01-30,C111,Aditya Bhat,North,Electronics,Sony WH-1000XM5,4,26000,18000,0.15
+ORD-3188,2026-02-03,C118,Sneha Deshmukh,North,Electronics,iPad Air,4,54000,41000,0.2
+ORD-3189,2026-04-02,C111,Aditya Bhat,North,Electronics,iPhone 15,5,75000,58000,0.05
+ORD-3190,2026-03-13,C109, Siddharth Rao ,South,Furniture,Standing Desk,1,28000,18000,0.05
+ORD-3191,2026-05-22,C115,Dev Mishra,South,Electronics,MacBook Pro,5,120000,95000,0.1
+ORD-3192,2026-01-10,C101,Rahul Sharma,South,Electronics,iPad Air,3,54000,41000,0.15
+ORD-3193,2026-02-13,C108,Neha Joshi,East,Kitchenware,Espresso Machine,6,22000,15000,0.1
+ORD-3194,2026-05-11,C106,Ananya Roy,West,Electronics,Sony WH-1000XM5,3,26000,18000,0.1
+ORD-3195,2026-03-05,C102,Priya Patel,North,Furniture,Standing Desk,2,28000,18000,0.15
+ORD-3196,2026-04-29,C118,Sneha Deshmukh,North,Electronics,iPad Air,3,54000,41000,0.1
+ORD-3197,2026-01-16,C119,Rahul Deshmukh,South,Electronics,iPad Air,2,54000,41000,0.0
+ORD-3198,2026-04-09,C101,Rahul Sharma,North,Kitchenware,Air Fryer Deluxe,6,8500,5500,0.05
+ORD-3199,2026-02-18,C116,Kavya Reddy,East,Kitchenware,Kitchen Knife Set,4,4500,2600,0.2
+ORD-3200,2026-01-14,C104, Sneha Kulkarni ,North,Apparel,Merino Wool Sweater,1,3200,1800,0.15
+ORD-3201,2026-05-06,C115,Dev Mishra,North,Furniture,Recliner Sofa,3,35000,24000,0.15
+ORD-3202,2026-02-03,C118,Sneha Deshmukh,East,Furniture,Ergonomic Chair,2,14000,9000,0.2
+ORD-3203,2026-06-20,C116,Kavya Reddy,West,Apparel,Nike Running Shoes,5,4200,2400,0.1
+ORD-3204,2026-05-18,C107,Kabir Mehta,West,Electronics,MacBook Pro,5,120000,95000,0.0
+ORD-3205,2026-01-17,C107,Kabir Mehta,South,Electronics,Sony WH-1000XM5,2,26000,18000,0.05
+ORD-3206,2026-05-09,C107,Kabir Mehta,West,Apparel,Merino Wool Sweater,1,3200,1800,0.2
+ORD-3207,2026-01-18,C108,Neha Joshi,West,Kitchenware,Blender Pro,2,3500,2000,0.2
+ORD-3208,2026-06-26,C114,Riya Sen,South,Furniture,Coffee Table,4,6500,3800,0.15
+ORD-3209,2026-02-05,C113,Yash Agarwal,West,Furniture,Coffee Table,5,6500,3800,0.1
+ORD-3210,2026-02-28,C112, Tanvi Saxena ,South,Apparel,Leather Bomber Jacket,6,5500,3200,0.2
+ORD-3211,2026-06-04,C112,Tanvi Saxena,West,Electronics,iPhone 15,4,75000,58000,0.05
+ORD-3212,2026-06-27,C107,Kabir Mehta,North,Electronics,Dell XPS 15,6,95000,72000,0.0
+ORD-3213,2026-04-28,C109,Siddharth Rao,South,Electronics,MacBook Pro,4,120000,95000,0.05
+ORD-3214,2026-02-21,C101,Rahul Sharma,East,Electronics,MacBook Pro,4,120000,95000,0.1
+ORD-3215,2026-02-12,C113,Yash Agarwal,North,Fitness,Rowing Machine,4,32000,22000,0.2
+ORD-3216,2026-01-02,C112,Tanvi Saxena,West,Furniture,Ergonomic Chair,6,14000,9000,0.2
+ORD-3217,2026-06-27,C103,Aman Verma,South,Furniture,Coffee Table,3,6500,3800,0.15
+ORD-3218,2026-01-08,C105,Vikram Singh,West,Kitchenware,Air Fryer Deluxe,3,8500,5500,0.15
+ORD-3219,2026-01-20,C105,Vikram Singh,West,Furniture,Standing Desk,1,28000,18000,0.15
+ORD-3220,2026-03-22,C110, Diya Kapoor ,West,Kitchenware,Kitchen Knife Set,3,4500,2600,0.15
+ORD-3221,2026-03-12,C115,Dev Mishra,South,Fitness,Adjustable Dumbbell Pair,5,9500,6000,0.2
+ORD-3222,2026-01-07,C105,Vikram Singh,East,Electronics,Dell XPS 15,6,95000,72000,0.05
+ORD-3223,2026-05-22,C118,Sneha Deshmukh,North,Fitness,NordicTrack Treadmill,3,55000,38000,0.2
+ORD-3224,2026-05-15,C109,Siddharth Rao,South,Furniture,Ergonomic Chair,4,14000,9000,0.2
+ORD-3225,2026-05-14,C115,Dev Mishra,North,Kitchenware,Cast Iron Dutch Oven,1,6500,4000,0.2
+ORD-3226,2026-02-12,C102,Priya Patel,South,Apparel,Leather Bomber Jacket,1,5500,3200,0.2
+ORD-3227,2026-05-06,C108,Neha Joshi,East,Apparel,Leather Bomber Jacket,1,5500,3200,0.15
+ORD-3228,2026-04-15,C104,Sneha Kulkarni,West,Kitchenware,Air Fryer Deluxe,2,8500,5500,0.0
+ORD-3229,2026-03-05,C107,Kabir Mehta,West,Fitness,NordicTrack Treadmill,3,55000,38000,0.2
+ORD-3230,2026-05-18,C109, Siddharth Rao ,North,Furniture,Coffee Table,5,6500,3800,0.15
+ORD-3231,2026-04-14,C105,Vikram Singh,North,Furniture,Standing Desk,5,28000,18000,0.15
+ORD-3232,2026-04-09,C118,Sneha Deshmukh,East,Furniture,Bookshelf Unit,6,9000,5500,0.1
+ORD-3233,2026-03-06,C101,Rahul Sharma,North,Kitchenware,Air Fryer Deluxe,4,8500,5500,0.15
+ORD-3234,2026-06-04,C118,Sneha Deshmukh,South,Fitness,Yoga Mat Pro,5,1800,900,0.15
+ORD-3235,2026-03-06,C110,Diya Kapoor,South,Apparel,Merino Wool Sweater,4,3200,1800,0.2
+ORD-3236,2026-02-13,C108,Neha Joshi,West,Apparel,Merino Wool Sweater,3,3200,1800,0.2
+ORD-3237,2026-05-23,C103,Aman Verma,West,Furniture,Coffee Table,4,6500,3800,0.0
+ORD-3238,2026-04-28,C114,Riya Sen,West,Furniture,Coffee Table,1,6500,3800,0.05
+ORD-3239,2026-02-18,C105,Vikram Singh,East,Furniture,Coffee Table,5,6500,3800,0.2
+ORD-3240,2026-01-15,C107, Kabir Mehta ,South,Furniture,Recliner Sofa,6,35000,24000,0.15
+ORD-3241,2026-01-25,C115,Dev Mishra,East,Kitchenware,Air Fryer Deluxe,6,8500,5500,0.2
+ORD-3242,2026-03-24,C105,Vikram Singh,West,Fitness,Rowing Machine,1,32000,22000,0.2
+ORD-3243,2026-04-13,C106,Ananya Roy,West,Kitchenware,Cast Iron Dutch Oven,5,6500,4000,0.05
+ORD-3244,2026-05-27,C119,Rahul Deshmukh,North,Apparel,Merino Wool Sweater,6,3200,1800,0.15
+ORD-3245,2026-02-05,C111,Aditya Bhat,East,Kitchenware,Kitchen Knife Set,2,4500,2600,0.15
+ORD-3246,2026-02-20,C116,Kavya Reddy,West,Furniture,Bookshelf Unit,4,9000,5500,0.15
+ORD-3247,2026-06-28,C113,Yash Agarwal,West,Furniture,Bookshelf Unit,1,9000,5500,0.2
+ORD-3248,2026-04-10,C107,Kabir Mehta,North,Electronics,Sony WH-1000XM5,3,26000,18000,0.1
+ORD-3249,2026-04-08,C117,Arjun Chaudhury,West,Electronics,iPad Air,1,54000,41000,0.0
+ORD-3250,2026-04-25,C110, Diya Kapoor ,East,Fitness,NordicTrack Treadmill,6,55000,38000,0.05
+ORD-3251,2026-02-19,C103,Aman Verma,West,Furniture,Recliner Sofa,2,35000,24000,0.1
+ORD-3252,2026-02-25,C110,Diya Kapoor,North,Electronics,Sony WH-1000XM5,4,26000,18000,0.05
+ORD-3253,2026-01-07,C110,Diya Kapoor,East,Electronics,Dell XPS 15,1,95000,72000,0.15
+ORD-3254,2026-01-19,C102,Priya Patel,North,Furniture,Recliner Sofa,1,35000,24000,0.1
+ORD-3255,2026-03-29,C107,Kabir Mehta,East,Electronics,iPad Air,6,54000,41000,0.0
+ORD-3256,2026-06-23,C117,Arjun Chaudhury,West,Fitness,Spin Bike,2,24000,16000,0.2
+ORD-3257,2026-06-01,C114,Riya Sen,North,Kitchenware,Blender Pro,6,3500,2000,0.05
+ORD-3258,2026-04-18,C106,Ananya Roy,North,Furniture,Bookshelf Unit,1,9000,5500,0.1
+ORD-3259,2026-03-22,C119,Rahul Deshmukh,West,Kitchenware,Blender Pro,1,3500,2000,0.0
+ORD-3260,2026-03-29,C103, Aman Verma ,South,Electronics,Sony WH-1000XM5,2,26000,18000,0.05
+ORD-3261,2026-04-23,C103,Aman Verma,South,Apparel,Formal Blazer,3,7500,4500,0.1
+ORD-3262,2026-06-30,C104,Sneha Kulkarni,North,Apparel,Merino Wool Sweater,1,3200,1800,0.1
+ORD-3263,2026-02-22,C101,Rahul Sharma,South,Kitchenware,Espresso Machine,3,22000,15000,0.15
+ORD-3264,2026-05-24,C106,Ananya Roy,East,Fitness,Adjustable Dumbbell Pair,4,9500,6000,0.15
+ORD-3265,2026-06-09,C107,Kabir Mehta,West,Fitness,NordicTrack Treadmill,2,55000,38000,0.05
+ORD-3266,2026-02-12,C101,Rahul Sharma,South,Furniture,Ergonomic Chair,3,14000,9000,0.1
+ORD-3267,2026-06-23,C117,Arjun Chaudhury,South,Furniture,Bookshelf Unit,5,9000,5500,0.2
+ORD-3268,2026-05-14,C120,Meera Iyer,East,Electronics,MacBook Pro,1,120000,95000,0.0
+ORD-3269,2026-06-18,C111,Aditya Bhat,East,Kitchenware,Blender Pro,3,3500,2000,0.15
+ORD-3270,2026-03-29,C106, Ananya Roy ,West,Kitchenware,Espresso Machine,2,22000,15000,0.0
+ORD-3271,2026-06-28,C115,Dev Mishra,North,Furniture,Coffee Table,2,6500,3800,0.1
+ORD-3272,2026-01-04,C115,Dev Mishra,North,Fitness,Adjustable Dumbbell Pair,2,9500,6000,0.1
+ORD-3273,2026-04-13,C107,Kabir Mehta,North,Apparel,Leather Bomber Jacket,1,5500,3200,0.05
+ORD-3274,2026-05-17,C109,Siddharth Rao,South,Apparel,Formal Blazer,3,7500,4500,0.15
+ORD-3275,2026-05-23,C104,Sneha Kulkarni,East,Apparel,Cotton Chinos,6,1800,950,0.2
+ORD-3276,2026-03-17,C120,Meera Iyer,North,Electronics,MacBook Pro,1,120000,95000,0.2
+ORD-3277,2026-01-18,C117,Arjun Chaudhury,North,Apparel,Nike Running Shoes,4,4200,2400,0.05
+ORD-3278,2026-05-02,C108,Neha Joshi,South,Electronics,iPhone 15,4,75000,58000,0.15
+ORD-3279,2026-05-22,C101,Rahul Sharma,West,Apparel,Merino Wool Sweater,1,3200,1800,0.2
+ORD-3280,2026-05-31,C103, Aman Verma ,South,Kitchenware,Blender Pro,2,3500,2000,0.1
+ORD-3281,2026-05-04,C110,Diya Kapoor,West,Kitchenware,Blender Pro,1,3500,2000,0.05
+ORD-3282,2026-06-04,C104,Sneha Kulkarni,South,Furniture,Ergonomic Chair,4,14000,9000,0.0
+ORD-3283,2026-06-20,C103,Aman Verma,West,Furniture,Standing Desk,6,28000,18000,0.15
+ORD-3284,2026-03-21,C109,Siddharth Rao,West,Apparel,Leather Bomber Jacket,2,5500,3200,0.1
+ORD-3285,2026-05-15,C116,Kavya Reddy,East,Kitchenware,Kitchen Knife Set,5,4500,2600,0.1
+ORD-3286,2026-02-17,C111,Aditya Bhat,South,Apparel,Formal Blazer,2,7500,4500,0.2
+ORD-3287,2026-01-03,C114,Riya Sen,South,Kitchenware,Cast Iron Dutch Oven,2,6500,4000,0.15
+ORD-3288,2026-05-13,C114,Riya Sen,West,Apparel,Formal Blazer,1,7500,4500,0.2
+ORD-3289,2026-04-02,C116,Kavya Reddy,West,Fitness,Spin Bike,2,24000,16000,0.2
+ORD-3290,2026-03-16,C110, Diya Kapoor ,West,Apparel,Nike Running Shoes,1,4200,2400,0.2
+ORD-3291,2026-05-24,C115,Dev Mishra,East,Kitchenware,Blender Pro,4,3500,2000,0.1
+ORD-3292,2026-04-18,C113,Yash Agarwal,South,Electronics,Sony WH-1000XM5,1,26000,18000,0.1
+ORD-3293,2026-04-27,C113,Yash Agarwal,West,Apparel,Nike Running Shoes,3,4200,2400,0.15
+ORD-3294,2026-03-07,C118,Sneha Deshmukh,West,Fitness,Spin Bike,2,24000,16000,0.15
+ORD-3295,2026-01-01,C106,Ananya Roy,East,Apparel,Cotton Chinos,3,1800,950,0.15
+ORD-3296,2026-05-30,C109,Siddharth Rao,West,Kitchenware,Kitchen Knife Set,5,4500,2600,0.15
+ORD-3297,2026-04-27,C117,Arjun Chaudhury,East,Apparel,Nike Running Shoes,1,4200,2400,0.05
+ORD-3298,2026-06-22,C113,Yash Agarwal,West,Apparel,Nike Running Shoes,1,4200,2400,0.05
+ORD-3299,2026-06-15,C119,Rahul Deshmukh,West,Furniture,Bookshelf Unit,1,9000,5500,0.1
+ORD-3300,2026-06-22,C108, Neha Joshi ,South,Fitness,NordicTrack Treadmill,3,55000,38000,0.2
+ORD-3301,2026-05-27,C110,Diya Kapoor,West,Fitness,Rowing Machine,1,32000,22000,0.15
+ORD-3302,2026-04-08,C107,Kabir Mehta,South,Kitchenware,Kitchen Knife Set,4,4500,2600,0.1
+ORD-3303,2026-05-26,C115,Dev Mishra,South,Furniture,Bookshelf Unit,4,9000,5500,0.0
+ORD-3304,2026-06-26,C111,Aditya Bhat,East,Furniture,Ergonomic Chair,1,14000,9000,0.2
+ORD-3305,2026-02-12,C110,Diya Kapoor,West,Kitchenware,Cast Iron Dutch Oven,1,6500,4000,0.2
+ORD-3306,2026-06-26,C105,Vikram Singh,West,Kitchenware,Espresso Machine,6,22000,15000,0.0
+ORD-3307,2026-04-22,C106,Ananya Roy,East,Electronics,iPad Air,3,54000,41000,0.15
+ORD-3308,2026-02-23,C120,Meera Iyer,South,Kitchenware,Cast Iron Dutch Oven,6,6500,4000,0.1
+ORD-3309,2026-05-10,C120,Meera Iyer,South,Apparel,Leather Bomber Jacket,3,5500,3200,0.2
+ORD-3310,2026-05-26,C106, Ananya Roy ,West,Electronics,iPad Air,2,54000,41000,0.0
+ORD-3311,2026-04-17,C103,Aman Verma,East,Electronics,iPad Air,5,54000,41000,0.1
+ORD-3312,2026-04-21,C104,Sneha Kulkarni,North,Furniture,Coffee Table,1,6500,3800,0.05
+ORD-3313,2026-04-26,C101,Rahul Sharma,East,Kitchenware,Cast Iron Dutch Oven,6,6500,4000,0.2
+ORD-3314,2026-06-23,C106,Ananya Roy,North,Kitchenware,Kitchen Knife Set,3,4500,2600,0.2
+ORD-3315,2026-01-27,C116,Kavya Reddy,East,Apparel,Merino Wool Sweater,4,3200,1800,0.1
+ORD-3316,2026-06-17,C112,Tanvi Saxena,East,Fitness,Rowing Machine,6,32000,22000,0.1
+ORD-3317,2026-03-08,C118,Sneha Deshmukh,West,Electronics,Sony WH-1000XM5,6,26000,18000,0.05
+ORD-3318,2026-06-27,C120,Meera Iyer,West,Apparel,Formal Blazer,5,7500,4500,0.0
+ORD-3319,2026-03-16,C108,Neha Joshi,East,Kitchenware,Cast Iron Dutch Oven,6,6500,4000,0.0
+ORD-3320,2026-01-08,C115, Dev Mishra ,North,Kitchenware,Air Fryer Deluxe,5,8500,5500,0.15
+ORD-3321,2026-01-31,C108,Neha Joshi,East,Apparel,Formal Blazer,6,7500,4500,0.1
+ORD-3322,2026-02-20,C112,Tanvi Saxena,East,Kitchenware,Cast Iron Dutch Oven,5,6500,4000,0.2
+ORD-3323,2026-04-09,C114,Riya Sen,West,Furniture,Recliner Sofa,1,35000,24000,0.0
+ORD-3324,2026-06-15,C111,Aditya Bhat,East,Fitness,NordicTrack Treadmill,2,55000,38000,0.0
+ORD-3325,2026-02-16,C103,Aman Verma,East,Furniture,Ergonomic Chair,2,14000,9000,0.05
+ORD-3326,2026-04-03,C105,Vikram Singh,South,Apparel,Cotton Chinos,2,1800,950,0.2
+ORD-3327,2026-04-05,C120,Meera Iyer,West,Fitness,Adjustable Dumbbell Pair,3,9500,6000,0.2
+ORD-3328,2026-03-26,C108,Neha Joshi,East,Kitchenware,Air Fryer Deluxe,5,8500,5500,0.1
+ORD-3329,2026-01-05,C115,Dev Mishra,South,Furniture,Standing Desk,6,28000,18000,0.2
+ORD-3330,2026-04-17,C112, Tanvi Saxena ,West,Fitness,NordicTrack Treadmill,6,55000,38000,0.0
+ORD-3331,2026-03-15,C120,Meera Iyer,North,Fitness,Spin Bike,6,24000,16000,0.0
+ORD-3332,2026-05-06,C112,Tanvi Saxena,South,Fitness,Rowing Machine,2,32000,22000,0.15
+ORD-3333,2026-04-22,C114,Riya Sen,East,Electronics,iPhone 15,2,75000,58000,0.1
+ORD-3334,2026-05-12,C109,Siddharth Rao,West,Fitness,Adjustable Dumbbell Pair,2,9500,6000,0.1
+ORD-3335,2026-06-04,C109,Siddharth Rao,South,Apparel,Cotton Chinos,6,1800,950,0.05
+ORD-3336,2026-06-07,C114,Riya Sen,North,Fitness,Adjustable Dumbbell Pair,1,9500,6000,0.2
+ORD-3337,2026-02-02,C116,Kavya Reddy,East,Furniture,Ergonomic Chair,5,14000,9000,0.0
+ORD-3338,2026-04-19,C120,Meera Iyer,East,Fitness,NordicTrack Treadmill,2,55000,38000,0.05
+ORD-3339,2026-01-24,C104,Sneha Kulkarni,South,Furniture,Coffee Table,6,6500,3800,0.05
+ORD-3340,2026-03-20,C101, Rahul Sharma ,East,Fitness,Spin Bike,3,24000,16000,0.0
+ORD-3341,2026-02-28,C114,Riya Sen,West,Kitchenware,Blender Pro,1,3500,2000,0.2
+ORD-3342,2026-06-09,C111,Aditya Bhat,South,Furniture,Coffee Table,3,6500,3800,0.05
+ORD-3343,2026-05-17,C116,Kavya Reddy,South,Fitness,NordicTrack Treadmill,6,55000,38000,0.05
+ORD-3344,2026-05-10,C110,Diya Kapoor,North,Apparel,Cotton Chinos,6,1800,950,0.0
+ORD-3345,2026-04-10,C114,Riya Sen,West,Electronics,iPhone 15,4,75000,58000,0.05
+ORD-3346,2026-01-09,C118,Sneha Deshmukh,East,Electronics,MacBook Pro,6,120000,95000,0.15
+ORD-3347,2026-01-06,C110,Diya Kapoor,West,Apparel,Nike Running Shoes,6,4200,2400,0.0
+ORD-3348,2026-04-24,C111,Aditya Bhat,North,Electronics,iPhone 15,5,75000,58000,0.15
+ORD-3349,2026-04-08,C120,Meera Iyer,North,Electronics,iPhone 15,3,75000,58000,0.1
+ORD-3350,2026-03-01,C102, Priya Patel ,South,Fitness,Spin Bike,1,24000,16000,0.15
+ORD-3351,2026-03-23,C113,Yash Agarwal,North,Furniture,Bookshelf Unit,2,9000,5500,0.0
+ORD-3352,2026-03-29,C111,Aditya Bhat,East,Furniture,Bookshelf Unit,4,9000,5500,0.15
+ORD-3353,2026-04-18,C112,Tanvi Saxena,East,Apparel,Merino Wool Sweater,4,3200,1800,0.1
+ORD-3354,2026-01-17,C107,Kabir Mehta,South,Electronics,MacBook Pro,2,120000,95000,0.2
+ORD-3355,2026-04-04,C106,Ananya Roy,East,Electronics,Sony WH-1000XM5,4,26000,18000,0.15
+ORD-3356,2026-02-09,C108,Neha Joshi,South,Apparel,Merino Wool Sweater,1,3200,1800,0.2
+ORD-3357,2026-05-21,C108,Neha Joshi,West,Furniture,Coffee Table,4,6500,3800,0.15
+ORD-3358,2026-05-03,C101,Rahul Sharma,West,Electronics,MacBook Pro,3,120000,95000,0.0
+ORD-3359,2026-05-12,C102,Priya Patel,East,Electronics,Dell XPS 15,6,95000,72000,0.05
+ORD-3360,2026-06-04,C113, Yash Agarwal ,East,Electronics,iPhone 15,2,75000,58000,0.1
+ORD-3361,2026-05-17,C108,Neha Joshi,East,Fitness,NordicTrack Treadmill,4,55000,38000,0.0
+ORD-3362,2026-03-03,C107,Kabir Mehta,North,Electronics,iPhone 15,1,75000,58000,0.2
+ORD-3363,2026-05-13,C107,Kabir Mehta,North,Furniture,Recliner Sofa,2,35000,24000,0.05
+ORD-3364,2026-03-18,C111,Aditya Bhat,East,Furniture,Bookshelf Unit,6,9000,5500,0.05
+ORD-3365,2026-06-19,C108,Neha Joshi,East,Fitness,Adjustable Dumbbell Pair,4,9500,6000,0.1
+ORD-3366,2026-05-08,C114,Riya Sen,North,Furniture,Ergonomic Chair,2,14000,9000,0.1
+ORD-3367,2026-01-04,C118,Sneha Deshmukh,South,Apparel,Formal Blazer,2,7500,4500,0.05
+ORD-3368,2026-04-23,C107,Kabir Mehta,West,Furniture,Standing Desk,4,28000,18000,0.05
+ORD-3369,2026-03-31,C119,Rahul Deshmukh,North,Furniture,Ergonomic Chair,4,14000,9000,0.15
+ORD-3370,2026-05-05,C114, Riya Sen ,South,Kitchenware,Kitchen Knife Set,1,4500,2600,0.15
+ORD-3371,2026-06-14,C115,Dev Mishra,West,Kitchenware,Blender Pro,3,3500,2000,0.1
+ORD-3372,2026-02-15,C111,Aditya Bhat,North,Fitness,Spin Bike,2,24000,16000,0.2
+ORD-3373,2026-03-14,C102,Priya Patel,South,Apparel,Leather Bomber Jacket,4,5500,3200,0.0
+ORD-3374,2026-03-31,C119,Rahul Deshmukh,West,Kitchenware,Air Fryer Deluxe,4,8500,5500,0.1
+ORD-3375,2026-03-18,C104,Sneha Kulkarni,East,Furniture,Ergonomic Chair,5,14000,9000,0.0
+ORD-3376,2026-04-29,C102,Priya Patel,West,Fitness,NordicTrack Treadmill,1,55000,38000,0.05
+ORD-3377,2026-06-25,C103,Aman Verma,North,Electronics,Sony WH-1000XM5,1,26000,18000,0.1
+ORD-3378,2026-04-20,C107,Kabir Mehta,East,Kitchenware,Espresso Machine,4,22000,15000,0.0
+ORD-3379,2026-01-20,C110,Diya Kapoor,North,Fitness,Adjustable Dumbbell Pair,5,9500,6000,0.1
+ORD-3380,2026-01-30,C113, Yash Agarwal ,North,Apparel,Formal Blazer,3,7500,4500,0.15
+ORD-3381,2026-01-20,C112,Tanvi Saxena,West,Kitchenware,Kitchen Knife Set,4,4500,2600,0.05
+ORD-3382,2026-02-11,C119,Rahul Deshmukh,East,Electronics,iPhone 15,3,75000,58000,0.15
+ORD-3383,2026-01-18,C113,Yash Agarwal,East,Apparel,Cotton Chinos,4,1800,950,0.15
+ORD-3384,2026-05-07,C107,Kabir Mehta,West,Electronics,MacBook Pro,2,120000,95000,0.1
+ORD-3385,2026-03-01,C115,Dev Mishra,North,Fitness,Rowing Machine,4,32000,22000,0.1
+ORD-3386,2026-05-18,C110,Diya Kapoor,South,Fitness,Yoga Mat Pro,2,1800,900,0.2
+ORD-3387,2026-02-10,C103,Aman Verma,South,Kitchenware,Air Fryer Deluxe,5,8500,5500,0.0
+ORD-3388,2026-02-28,C108,Neha Joshi,North,Apparel,Cotton Chinos,2,1800,950,0.0
+ORD-3389,2026-01-18,C116,Kavya Reddy,North,Furniture,Ergonomic Chair,1,14000,9000,0.2
+ORD-3390,2026-06-16,C116, Kavya Reddy ,East,Kitchenware,Kitchen Knife Set,1,4500,2600,0.15
+ORD-3391,2026-05-16,C112,Tanvi Saxena,East,Kitchenware,Air Fryer Deluxe,6,8500,5500,0.0
+ORD-3392,2026-01-02,C104,Sneha Kulkarni,South,Electronics,iPad Air,6,54000,41000,0.2
+ORD-3393,2026-06-25,C112,Tanvi Saxena,South,Electronics,Dell XPS 15,1,95000,72000,0.05
+ORD-3394,2026-01-11,C106,Ananya Roy,West,Electronics,Dell XPS 15,1,95000,72000,0.0
+ORD-3395,2026-04-28,C114,Riya Sen,South,Furniture,Ergonomic Chair,5,14000,9000,0.05
+ORD-3396,2026-02-28,C112,Tanvi Saxena,South,Furniture,Bookshelf Unit,3,9000,5500,0.15
+ORD-3397,2026-01-16,C108,Neha Joshi,North,Furniture,Bookshelf Unit,6,9000,5500,0.15
+ORD-3398,2026-01-06,C117,Arjun Chaudhury,South,Electronics,Sony WH-1000XM5,3,26000,18000,0.05
+ORD-3399,2026-06-21,C107,Kabir Mehta,East,Electronics,Dell XPS 15,2,95000,72000,0.1
+ORD-3400,2026-06-03,C103, Aman Verma ,East,Kitchenware,Espresso Machine,1,22000,15000,0.05
+ORD-3401,2026-04-15,C111,Aditya Bhat,East,Furniture,Bookshelf Unit,6,9000,5500,0.15
+ORD-3402,2026-01-24,C104,Sneha Kulkarni,East,Apparel,Cotton Chinos,4,1800,950,0.05
+ORD-3403,2026-04-19,C108,Neha Joshi,East,Fitness,Rowing Machine,1,32000,22000,0.2
+ORD-3404,2026-03-13,C108,Neha Joshi,West,Furniture,Recliner Sofa,6,35000,24000,0.05
+ORD-3405,2026-01-22,C113,Yash Agarwal,West,Furniture,Bookshelf Unit,1,9000,5500,0.05
+ORD-3406,2026-01-13,C120,Meera Iyer,North,Kitchenware,Kitchen Knife Set,1,4500,2600,0.15
+ORD-3407,2026-02-11,C104,Sneha Kulkarni,West,Fitness,Adjustable Dumbbell Pair,2,9500,6000,0.1
+ORD-3408,2026-01-28,C113,Yash Agarwal,North,Electronics,MacBook Pro,3,120000,95000,0.2
+ORD-3409,2026-01-23,C108,Neha Joshi,East,Apparel,Nike Running Shoes,5,4200,2400,0.15
+ORD-3410,2026-01-14,C105, Vikram Singh ,North,Kitchenware,Espresso Machine,1,22000,15000,0.2
+ORD-3411,2026-01-18,C106,Ananya Roy,North,Kitchenware,Cast Iron Dutch Oven,3,6500,4000,0.2
+ORD-3412,2026-02-09,C110,Diya Kapoor,South,Kitchenware,Espresso Machine,4,22000,15000,0.05
+ORD-3413,2026-05-05,C107,Kabir Mehta,South,Fitness,Adjustable Dumbbell Pair,1,9500,6000,0.1
+ORD-3414,2026-06-17,C116,Kavya Reddy,North,Electronics,iPhone 15,3,75000,58000,0.1
+ORD-3415,2026-04-25,C116,Kavya Reddy,South,Electronics,iPad Air,2,54000,41000,0.05
+ORD-3416,2026-05-06,C117,Arjun Chaudhury,East,Furniture,Ergonomic Chair,6,14000,9000,0.0
+ORD-3417,2026-04-29,C114,Riya Sen,North,Fitness,Spin Bike,4,24000,16000,0.15
+ORD-3418,2026-05-09,C102,Priya Patel,North,Kitchenware,Air Fryer Deluxe,5,8500,5500,0.2
+ORD-3419,2026-05-13,C115,Dev Mishra,West,Apparel,Leather Bomber Jacket,1,5500,3200,0.1
+ORD-3420,2026-01-03,C103, Aman Verma ,East,Kitchenware,Kitchen Knife Set,1,4500,2600,0.1
+ORD-3421,2026-04-03,C113,Yash Agarwal,South,Kitchenware,Espresso Machine,6,22000,15000,0.2
+ORD-3422,2026-05-05,C103,Aman Verma,West,Apparel,Formal Blazer,1,7500,4500,0.15
+ORD-3423,2026-04-24,C110,Diya Kapoor,East,Furniture,Bookshelf Unit,5,9000,5500,0.15
+ORD-3424,2026-04-07,C117,Arjun Chaudhury,East,Apparel,Merino Wool Sweater,2,3200,1800,0.05
+ORD-3425,2026-05-04,C114,Riya Sen,East,Fitness,Rowing Machine,2,32000,22000,0.1
+ORD-3426,2026-02-08,C103,Aman Verma,West,Electronics,Sony WH-1000XM5,6,26000,18000,0.05
+ORD-3427,2026-03-28,C109,Siddharth Rao,West,Fitness,Spin Bike,2,24000,16000,0.05
+ORD-3428,2026-01-18,C116,Kavya Reddy,East,Kitchenware,Kitchen Knife Set,5,4500,2600,0.05
+ORD-3429,2026-04-12,C109,Siddharth Rao,North,Furniture,Recliner Sofa,4,35000,24000,0.0
+ORD-3430,2026-03-04,C109, Siddharth Rao ,West,Apparel,Nike Running Shoes,5,4200,2400,0.1
+ORD-3431,2026-02-20,C101,Rahul Sharma,West,Electronics,Dell XPS 15,6,95000,72000,0.05
+ORD-3432,2026-04-11,C118,Sneha Deshmukh,East,Apparel,Nike Running Shoes,3,4200,2400,0.0
+ORD-3433,2026-04-03,C115,Dev Mishra,East,Kitchenware,Espresso Machine,3,22000,15000,0.1
+ORD-3434,2026-03-23,C111,Aditya Bhat,North,Fitness,NordicTrack Treadmill,2,55000,38000,0.1
+ORD-3435,2026-01-16,C110,Diya Kapoor,South,Kitchenware,Air Fryer Deluxe,3,8500,5500,0.05
+ORD-3436,2026-01-01,C103,Aman Verma,South,Fitness,Spin Bike,2,24000,16000,0.15
+ORD-3437,2026-03-15,C103,Aman Verma,North,Electronics,iPhone 15,4,75000,58000,0.2
+ORD-3438,2026-01-01,C114,Riya Sen,East,Kitchenware,Espresso Machine,1,22000,15000,0.0
+ORD-3439,2026-01-26,C111,Aditya Bhat,South,Apparel,Merino Wool Sweater,5,3200,1800,0.15
+ORD-3440,2026-05-30,C106, Ananya Roy ,South,Furniture,Ergonomic Chair,2,14000,9000,0.2
+ORD-3441,2026-04-28,C112,Tanvi Saxena,West,Electronics,MacBook Pro,4,120000,95000,0.1
+ORD-3442,2026-01-28,C103,Aman Verma,East,Kitchenware,Cast Iron Dutch Oven,6,6500,4000,0.2
+ORD-3443,2026-03-21,C111,Aditya Bhat,East,Kitchenware,Espresso Machine,5,22000,15000,0.0
+ORD-3444,2026-02-03,C116,Kavya Reddy,North,Furniture,Recliner Sofa,6,35000,24000,0.2
+ORD-3445,2026-05-08,C107,Kabir Mehta,South,Furniture,Ergonomic Chair,2,14000,9000,0.0
+ORD-3446,2026-05-10,C107,Kabir Mehta,North,Electronics,iPhone 15,6,75000,58000,0.05
+ORD-3447,2026-05-12,C113,Yash Agarwal,West,Electronics,MacBook Pro,1,120000,95000,0.1
+ORD-3448,2026-06-28,C102,Priya Patel,West,Fitness,Spin Bike,1,24000,16000,0.1
+ORD-3449,2026-05-03,C101,Rahul Sharma,North,Apparel,Merino Wool Sweater,6,3200,1800,0.1
+ORD-3450,2026-03-31,C112, Tanvi Saxena ,West,Furniture,Recliner Sofa,30,35000,24000,0.05
+ORD-3451,2026-01-05,C113,Yash Agarwal,South,Electronics,Sony WH-1000XM5,3,26000,18000,0.15
+ORD-3452,2026-03-12,C103,Aman Verma,South,Kitchenware,Kitchen Knife Set,2,4500,2600,0.2
+ORD-3453,2026-02-04,C107,Kabir Mehta,North,Apparel,Cotton Chinos,2,1800,950,0.1
+ORD-3454,2026-02-12,C111,Aditya Bhat,North,Kitchenware,Cast Iron Dutch Oven,3,6500,4000,0.05
+ORD-3455,2026-04-13,C116,Kavya Reddy,East,Electronics,Sony WH-1000XM5,3,26000,18000,0.2
+ORD-3456,2026-06-25,C114,Riya Sen,West,Apparel,Leather Bomber Jacket,2,5500,3200,0.15
+ORD-3457,2026-01-23,C116,Kavya Reddy,South,Kitchenware,Cast Iron Dutch Oven,1,6500,4000,0.15
+ORD-3458,2026-04-26,C119,Rahul Deshmukh,South,Kitchenware,Espresso Machine,3,22000,15000,0.05
+ORD-3459,2026-03-24,C113,Yash Agarwal,West,Furniture,Bookshelf Unit,3,9000,5500,0.0
+ORD-3460,2026-05-23,C101, Rahul Sharma ,North,Apparel,Cotton Chinos,1,1800,950,0.1
+ORD-3461,2026-06-20,C102,Priya Patel,South,Electronics,Dell XPS 15,1,95000,72000,0.05
+ORD-3462,2026-05-08,C110,Diya Kapoor,West,Furniture,Standing Desk,5,28000,18000,0.0
+ORD-3463,2026-03-31,C110,Diya Kapoor,South,Fitness,Rowing Machine,5,32000,22000,0.0
+ORD-3464,2026-05-26,C104,Sneha Kulkarni,North,Fitness,Rowing Machine,1,32000,22000,0.0
+ORD-3465,2026-05-06,C115,Dev Mishra,East,Electronics,Sony WH-1000XM5,6,26000,18000,0.2
+ORD-3466,2026-06-07,C108,Neha Joshi,North,Fitness,Spin Bike,6,24000,16000,0.05
+ORD-3467,2026-06-15,C102,Priya Patel,South,Kitchenware,Blender Pro,2,3500,2000,0.2
+ORD-3468,2026-02-24,C113,Yash Agarwal,North,Apparel,Leather Bomber Jacket,5,5500,3200,0.0
+ORD-3469,2026-03-07,C110,Diya Kapoor,West,Kitchenware,Air Fryer Deluxe,6,8500,5500,0.2
+ORD-3470,2026-06-27,C103, Aman Verma ,East,Kitchenware,Air Fryer Deluxe,4,8500,5500,0.15
+ORD-3471,2026-05-23,C111,Aditya Bhat,South,Apparel,Nike Running Shoes,4,4200,2400,0.2
+ORD-3472,2026-04-18,C111,Aditya Bhat,North,Kitchenware,Cast Iron Dutch Oven,2,6500,4000,0.0
+ORD-3473,2026-02-22,C105,Vikram Singh,South,Furniture,Bookshelf Unit,4,9000,5500,0.15
+ORD-3474,2026-04-19,C102,Priya Patel,West,Furniture,Coffee Table,5,6500,3800,0.05
+ORD-3475,2026-05-31,C105,Vikram Singh,East,Electronics,Dell XPS 15,3,95000,72000,0.2
+ORD-3476,2026-04-24,C111,Aditya Bhat,West,Fitness,Adjustable Dumbbell Pair,5,9500,6000,0.0
+ORD-3477,2026-02-22,C120,Meera Iyer,South,Kitchenware,Kitchen Knife Set,2,4500,2600,0.1
+ORD-3478,2026-03-29,C116,Kavya Reddy,North,Furniture,Bookshelf Unit,1,9000,5500,0.0
+ORD-3479,2026-02-09,C108,Neha Joshi,East,Electronics,iPad Air,5,54000,41000,0.2
+ORD-3480,2026-03-12,C115, Dev Mishra ,West,Electronics,iPad Air,1,54000,41000,0.0
+ORD-3481,2026-02-09,C114,Riya Sen,North,Furniture,Bookshelf Unit,3,9000,5500,0.05
+ORD-3482,2026-06-18,C118,Sneha Deshmukh,South,Fitness,Yoga Mat Pro,2,1800,900,0.1
+ORD-3483,2026-02-06,C109,Siddharth Rao,North,Furniture,Coffee Table,2,6500,3800,0.1
+ORD-3484,2026-01-02,C116,Kavya Reddy,West,Apparel,Leather Bomber Jacket,6,5500,3200,0.1
+ORD-3485,2026-03-09,C120,Meera Iyer,West,Apparel,Merino Wool Sweater,5,3200,1800,0.0
+ORD-3486,2026-01-15,C114,Riya Sen,South,Furniture,Coffee Table,3,6500,3800,0.0
+ORD-3487,2026-02-21,C119,Rahul Deshmukh,West,Apparel,Formal Blazer,6,7500,4500,0.05
+ORD-3488,2026-06-08,C101,Rahul Sharma,North,Apparel,Nike Running Shoes,3,4200,2400,0.05
+ORD-3489,2026-06-16,C108,Neha Joshi,North,Electronics,iPhone 15,6,75000,58000,0.0
+ORD-3490,2026-06-28,C120, Meera Iyer ,North,Electronics,iPhone 15,2,75000,58000,0.0
+ORD-3491,2026-03-09,C110,Diya Kapoor,West,Kitchenware,Air Fryer Deluxe,3,8500,5500,0.1
+ORD-3492,2026-04-01,C105,Vikram Singh,South,Apparel,Nike Running Shoes,6,4200,2400,0.1
+ORD-3493,2026-04-22,C104,Sneha Kulkarni,West,Furniture,Bookshelf Unit,6,9000,5500,0.2
+ORD-3494,2026-05-13,C101,Rahul Sharma,South,Electronics,Dell XPS 15,3,95000,72000,0.2
+ORD-3495,2026-06-12,C102,Priya Patel,North,Apparel,Formal Blazer,6,7500,4500,0.15
+ORD-3496,2026-06-24,C112,Tanvi Saxena,West,Furniture,Recliner Sofa,1,35000,24000,0.15
+ORD-3497,2026-01-09,C108,Neha Joshi,East,Apparel,Merino Wool Sweater,6,3200,1800,0.2
+ORD-3498,2026-05-18,C101,Rahul Sharma,North,Apparel,Nike Running Shoes,6,4200,2400,0.05
+ORD-3499,2026-04-27,C102,Priya Patel,East,Electronics,iPhone 15,5,75000,58000,0.05
+ORD-3500,2026-06-27,C106, Ananya Roy ,North,Apparel,Merino Wool Sweater,6,3200,1800,0.0
+ORD-3501,2026-01-16,C107,Kabir Mehta,North,Kitchenware,Kitchen Knife Set,2,4500,2600,0.05
+ORD-3502,2026-01-01,C118,Sneha Deshmukh,West,Furniture,Ergonomic Chair,5,14000,9000,0.15
+ORD-3503,2026-04-07,C118,Sneha Deshmukh,North,Apparel,Leather Bomber Jacket,3,5500,3200,0.0
+ORD-3504,2026-05-06,C109,Siddharth Rao,South,Kitchenware,Cast Iron Dutch Oven,5,6500,4000,0.0
+ORD-3505,2026-03-03,C120,Meera Iyer,East,Furniture,Ergonomic Chair,6,14000,9000,0.1
+ORD-3506,2026-01-07,C110,Diya Kapoor,North,Kitchenware,Kitchen Knife Set,6,4500,2600,0.15
+ORD-3507,2026-02-19,C108,Neha Joshi,East,Electronics,Dell XPS 15,2,95000,72000,0.05
+ORD-3508,2026-03-10,C112,Tanvi Saxena,North,Fitness,Spin Bike,6,24000,16000,0.05
+ORD-3509,2026-03-15,C108,Neha Joshi,East,Apparel,Merino Wool Sweater,1,3200,1800,0.1
+ORD-3510,2026-01-07,C106, Ananya Roy ,South,Electronics,iPhone 15,2,75000,58000,0.15
+ORD-3511,2026-02-23,C117,Arjun Chaudhury,West,Kitchenware,Cast Iron Dutch Oven,3,6500,4000,0.0
+ORD-3512,2026-04-29,C102,Priya Patel,West,Kitchenware,Kitchen Knife Set,1,4500,2600,0.1
+ORD-3513,2026-04-21,C116,Kavya Reddy,South,Fitness,Adjustable Dumbbell Pair,3,9500,6000,0.0
+ORD-3514,2026-03-04,C116,Kavya Reddy,East,Furniture,Standing Desk,3,28000,18000,0.2
+ORD-3515,2026-03-20,C115,Dev Mishra,South,Apparel,Formal Blazer,5,7500,4500,0.05
+ORD-3516,2026-01-19,C111,Aditya Bhat,West,Kitchenware,Cast Iron Dutch Oven,2,6500,4000,0.05
+ORD-3517,2026-05-09,C112,Tanvi Saxena,South,Furniture,Standing Desk,5,28000,18000,0.15
+ORD-3518,2026-06-23,C110,Diya Kapoor,North,Apparel,Nike Running Shoes,1,4200,2400,0.1
+ORD-3519,2026-05-07,C110,Diya Kapoor,South,Fitness,Spin Bike,5,24000,16000,0.1
+ORD-3520,2026-05-10,C110, Diya Kapoor ,South,Fitness,Spin Bike,6,24000,16000,0.1
+ORD-3521,2026-04-11,C118,Sneha Deshmukh,North,Furniture,Coffee Table,4,6500,3800,0.1
+ORD-3522,2026-02-07,C106,Ananya Roy,South,Furniture,Recliner Sofa,4,35000,24000,0.15
+ORD-3523,2026-06-08,C113,Yash Agarwal,South,Kitchenware,Cast Iron Dutch Oven,5,6500,4000,0.05
+ORD-3524,2026-04-24,C107,Kabir Mehta,East,Apparel,Nike Running Shoes,3,4200,2400,0.15
+ORD-3525,2026-04-26,C105,Vikram Singh,South,Apparel,Formal Blazer,1,7500,4500,0.2
+ORD-3526,2026-01-01,C107,Kabir Mehta,South,Furniture,Recliner Sofa,3,35000,24000,0.15
+ORD-3527,2026-05-25,C117,Arjun Chaudhury,West,Kitchenware,Air Fryer Deluxe,4,8500,5500,0.05
+ORD-3528,2026-01-23,C104,Sneha Kulkarni,North,Furniture,Ergonomic Chair,1,14000,9000,0.05
+ORD-3529,2026-01-28,C108,Neha Joshi,North,Furniture,Ergonomic Chair,6,14000,9000,0.1
+ORD-3530,2026-04-04,C119, Rahul Deshmukh ,North,Electronics,MacBook Pro,5,120000,95000,0.0
+ORD-3531,2026-04-26,C119,Rahul Deshmukh,West,Electronics,Dell XPS 15,5,95000,72000,0.15
+ORD-3532,2026-03-06,C118,Sneha Deshmukh,North,Kitchenware,Espresso Machine,1,22000,15000,0.15
+ORD-3533,2026-06-01,C111,Aditya Bhat,West,Apparel,Nike Running Shoes,5,4200,2400,0.2
+ORD-3534,2026-06-20,C107,Kabir Mehta,East,Furniture,Bookshelf Unit,4,9000,5500,0.05
+ORD-3535,2026-01-06,C105,Vikram Singh,East,Electronics,Sony WH-1000XM5,2,26000,18000,0.05
+ORD-3536,2026-03-27,C120,Meera Iyer,West,Furniture,Standing Desk,4,28000,18000,0.1
+ORD-3537,2026-01-08,C102,Priya Patel,West,Furniture,Bookshelf Unit,4,9000,5500,0.0
+ORD-3538,2026-01-06,C114,Riya Sen,North,Apparel,Leather Bomber Jacket,5,5500,3200,0.0
+ORD-3539,2026-05-31,C116,Kavya Reddy,North,Apparel,Cotton Chinos,6,1800,950,0.05
+ORD-3540,2026-04-26,C112, Tanvi Saxena ,East,Apparel,Nike Running Shoes,2,4200,2400,0.15
+ORD-3541,2026-05-15,C104,Sneha Kulkarni,East,Apparel,Cotton Chinos,4,1800,950,0.05
+ORD-3542,2026-02-12,C103,Aman Verma,East,Apparel,Merino Wool Sweater,5,3200,1800,0.0
+ORD-3543,2026-01-02,C117,Arjun Chaudhury,South,Electronics,Sony WH-1000XM5,3,26000,18000,0.05
+ORD-3544,2026-01-30,C106,Ananya Roy,North,Furniture,Ergonomic Chair,6,14000,9000,0.15
+ORD-3545,2026-05-04,C102,Priya Patel,North,Fitness,Rowing Machine,4,32000,22000,0.2
+ORD-3546,2026-05-30,C109,Siddharth Rao,West,Furniture,Standing Desk,1,28000,18000,0.1
+ORD-3547,2026-05-03,C104,Sneha Kulkarni,West,Kitchenware,Kitchen Knife Set,5,4500,2600,0.2
+ORD-3548,2026-01-12,C102,Priya Patel,North,Fitness,Adjustable Dumbbell Pair,6,9500,6000,0.05
+ORD-3549,2026-05-30,C112,Tanvi Saxena,West,Kitchenware,Blender Pro,4,3500,2000,0.1
+ORD-3550,2026-04-03,C120, Meera Iyer ,South,Kitchenware,Blender Pro,1,3500,2000,0.05
+ORD-3551,2026-01-29,C112,Tanvi Saxena,West,Kitchenware,Kitchen Knife Set,3,4500,2600,0.1
+ORD-3552,2026-06-15,C119,Rahul Deshmukh,West,Electronics,Dell XPS 15,3,95000,72000,0.2
+ORD-3553,2026-05-18,C113,Yash Agarwal,North,Fitness,NordicTrack Treadmill,5,55000,38000,0.2
+ORD-3554,2026-03-06,C102,Priya Patel,South,Electronics,MacBook Pro,1,120000,95000,0.05
+ORD-3555,2026-04-19,C115,Dev Mishra,South,Electronics,iPhone 15,4,75000,58000,0.15
+ORD-3556,2026-01-30,C118,Sneha Deshmukh,North,Kitchenware,Kitchen Knife Set,2,4500,2600,0.15
+ORD-3557,2026-03-03,C117,Arjun Chaudhury,North,Apparel,Leather Bomber Jacket,1,5500,3200,0.05
+ORD-3558,2026-05-11,C112,Tanvi Saxena,South,Fitness,Rowing Machine,3,32000,22000,0.0
+ORD-3559,2026-06-06,C116,Kavya Reddy,South,Fitness,Adjustable Dumbbell Pair,1,9500,6000,0.0
+ORD-3560,2026-01-22,C120, Meera Iyer ,South,Kitchenware,Cast Iron Dutch Oven,4,6500,4000,0.1
+ORD-3561,2026-02-19,C106,Ananya Roy,East,Apparel,Formal Blazer,1,7500,4500,0.05
+ORD-3562,2026-03-20,C104,Sneha Kulkarni,East,Kitchenware,Kitchen Knife Set,6,4500,2600,0.1
+ORD-3563,2026-01-18,C108,Neha Joshi,North,Fitness,Yoga Mat Pro,5,1800,900,0.2
+ORD-3564,2026-04-25,C103,Aman Verma,East,Fitness,Yoga Mat Pro,6,1800,900,0.2
+ORD-3565,2026-06-20,C104,Sneha Kulkarni,North,Kitchenware,Kitchen Knife Set,3,4500,2600,0.15
+ORD-3566,2026-01-05,C107,Kabir Mehta,East,Apparel,Formal Blazer,6,7500,4500,0.15
+ORD-3567,2026-04-23,C106,Ananya Roy,East,Kitchenware,Cast Iron Dutch Oven,3,6500,4000,0.2
+ORD-3568,2026-03-05,C113,Yash Agarwal,North,Furniture,Standing Desk,6,28000,18000,0.15
+ORD-3569,2026-02-04,C105,Vikram Singh,West,Kitchenware,Kitchen Knife Set,2,4500,2600,0.2
+ORD-3570,2026-01-27,C106, Ananya Roy ,West,Kitchenware,Air Fryer Deluxe,3,8500,5500,0.0
+ORD-3571,2026-04-12,C106,Ananya Roy,North,Kitchenware,Air Fryer Deluxe,4,8500,5500,0.2
+ORD-3572,2026-04-07,C105,Vikram Singh,East,Kitchenware,Cast Iron Dutch Oven,5,6500,4000,0.0
+ORD-3573,2026-03-23,C109,Siddharth Rao,South,Furniture,Bookshelf Unit,4,9000,5500,0.0
+ORD-3574,2026-06-07,C107,Kabir Mehta,North,Apparel,Leather Bomber Jacket,6,5500,3200,0.05
+ORD-3575,2026-04-08,C102,Priya Patel,South,Apparel,Leather Bomber Jacket,4,5500,3200,0.0
+ORD-3576,2026-02-23,C115,Dev Mishra,South,Furniture,Standing Desk,5,28000,18000,0.05
+ORD-3577,2026-04-29,C103,Aman Verma,West,Fitness,Spin Bike,1,24000,16000,0.05
+ORD-3578,2026-04-20,C105,Vikram Singh,North,Fitness,NordicTrack Treadmill,6,55000,38000,0.15
+ORD-3579,2026-06-23,C113,Yash Agarwal,South,Kitchenware,Blender Pro,4,3500,2000,0.2
+ORD-3580,2026-06-16,C116, Kavya Reddy ,North,Furniture,Recliner Sofa,5,35000,24000,0.1
+ORD-3581,2026-01-16,C103,Aman Verma,West,Kitchenware,Espresso Machine,5,22000,15000,0.05
+ORD-3582,2026-06-28,C110,Diya Kapoor,North,Furniture,Ergonomic Chair,6,14000,9000,0.05
+ORD-3583,2026-05-27,C107,Kabir Mehta,West,Kitchenware,Blender Pro,4,3500,2000,0.1
+ORD-3584,2026-06-23,C112,Tanvi Saxena,North,Apparel,Cotton Chinos,4,1800,950,0.15
+ORD-3585,2026-02-24,C109,Siddharth Rao,South,Apparel,Leather Bomber Jacket,2,5500,3200,0.05
+ORD-3586,2026-01-02,C113,Yash Agarwal,East,Apparel,Nike Running Shoes,5,4200,2400,0.0
+ORD-3587,2026-05-27,C104,Sneha Kulkarni,South,Furniture,Bookshelf Unit,4,9000,5500,0.15
+ORD-3588,2026-04-26,C119,Rahul Deshmukh,West,Kitchenware,Espresso Machine,6,22000,15000,0.05
+ORD-3589,2026-06-28,C106,Ananya Roy,South,Fitness,Rowing Machine,4,32000,22000,0.05
+ORD-3590,2026-04-20,C108, Neha Joshi ,North,Furniture,Recliner Sofa,3,35000,24000,0.1
+ORD-3591,2026-02-22,C113,Yash Agarwal,West,Apparel,Formal Blazer,1,7500,4500,0.05
+ORD-3592,2026-02-10,C116,Kavya Reddy,North,Furniture,Standing Desk,2,28000,18000,0.2
+ORD-3593,2026-01-17,C117,Arjun Chaudhury,East,Kitchenware,Espresso Machine,4,22000,15000,0.1
+ORD-3594,2026-03-12,C106,Ananya Roy,South,Fitness,Spin Bike,5,24000,16000,0.15
+ORD-3595,2026-02-04,C110,Diya Kapoor,East,Fitness,Spin Bike,3,24000,16000,0.0
+ORD-3596,2026-06-10,C108,Neha Joshi,South,Electronics,Sony WH-1000XM5,5,26000,18000,0.05
+ORD-3597,2026-01-28,C115,Dev Mishra,West,Apparel,Nike Running Shoes,2,4200,2400,0.0
+ORD-3598,2026-03-31,C106,Ananya Roy,East,Kitchenware,Blender Pro,5,3500,2000,0.15
+ORD-3599,2026-04-26,C106,Ananya Roy,North,Electronics,iPad Air,2,54000,41000,0.0
+ORD-3600,2026-01-10,C101, Rahul Sharma ,South,Electronics,Dell XPS 15,4,95000,72000,0.2
+ORD-3601,2026-06-19,C117,Arjun Chaudhury,East,Apparel,Cotton Chinos,5,1800,950,0.2
+ORD-3602,2026-05-01,C102,Priya Patel,South,Fitness,Adjustable Dumbbell Pair,1,9500,6000,0.15
+ORD-3603,2026-06-09,C119,Rahul Deshmukh,West,Kitchenware,Cast Iron Dutch Oven,3,6500,4000,0.05
+ORD-3604,2026-02-08,C115,Dev Mishra,South,Apparel,Merino Wool Sweater,6,3200,1800,0.2
+ORD-3605,2026-03-28,C111,Aditya Bhat,North,Apparel,Leather Bomber Jacket,6,5500,3200,0.1
+ORD-3606,2026-01-21,C115,Dev Mishra,North,Furniture,Ergonomic Chair,2,14000,9000,0.2
+ORD-3607,2026-03-13,C114,Riya Sen,North,Kitchenware,Espresso Machine,3,22000,15000,0.2
+ORD-3608,2026-03-12,C111,Aditya Bhat,West,Electronics,Sony WH-1000XM5,6,26000,18000,0.0
+ORD-3609,2026-02-28,C111,Aditya Bhat,West,Electronics,MacBook Pro,4,120000,95000,0.2
+ORD-3610,2026-02-08,C105, Vikram Singh ,East,Apparel,Merino Wool Sweater,1,3200,1800,0.2
+ORD-3611,2026-03-14,C119,Rahul Deshmukh,South,Apparel,Formal Blazer,3,7500,4500,0.1
+ORD-3612,2026-06-02,C112,Tanvi Saxena,South,Kitchenware,Air Fryer Deluxe,6,8500,5500,0.15
+ORD-3613,2026-06-21,C110,Diya Kapoor,West,Fitness,Adjustable Dumbbell Pair,2,9500,6000,0.15
+ORD-3614,2026-05-26,C116,Kavya Reddy,West,Apparel,Nike Running Shoes,3,4200,2400,0.15
+ORD-3615,2026-04-20,C114,Riya Sen,South,Fitness,Yoga Mat Pro,4,1800,900,0.0
+ORD-3616,2026-06-20,C106,Ananya Roy,North,Fitness,Adjustable Dumbbell Pair,1,9500,6000,0.15
+ORD-3617,2026-06-21,C103,Aman Verma,West,Apparel,Formal Blazer,2,7500,4500,0.15
+ORD-3618,2026-03-23,C107,Kabir Mehta,West,Electronics,MacBook Pro,5,120000,95000,0.05
+ORD-3619,2026-06-29,C114,Riya Sen,West,Apparel,Cotton Chinos,2,1800,950,0.15
+ORD-3620,2026-06-05,C111, Aditya Bhat ,North,Kitchenware,Cast Iron Dutch Oven,4,6500,4000,0.0
+ORD-3621,2026-03-30,C106,Ananya Roy,East,Furniture,Bookshelf Unit,3,9000,5500,0.1
+ORD-3622,2026-04-20,C104,Sneha Kulkarni,East,Kitchenware,Blender Pro,4,3500,2000,0.1
+ORD-3623,2026-02-02,C120,Meera Iyer,South,Electronics,MacBook Pro,3,120000,95000,0.0
+ORD-3624,2026-04-25,C112,Tanvi Saxena,South,Fitness,Yoga Mat Pro,3,1800,900,0.15
+ORD-3625,2026-05-26,C101,Rahul Sharma,East,Furniture,Recliner Sofa,5,35000,24000,0.1
+ORD-3626,2026-02-01,C101,Rahul Sharma,East,Fitness,Yoga Mat Pro,3,1800,900,0.0
+ORD-3627,2026-03-14,C111,Aditya Bhat,West,Furniture,Recliner Sofa,2,35000,24000,0.15
+ORD-3628,2026-04-15,C118,Sneha Deshmukh,North,Apparel,Merino Wool Sweater,1,3200,1800,0.05
+ORD-3629,2026-05-16,C119,Rahul Deshmukh,East,Fitness,Spin Bike,5,24000,16000,0.05
+ORD-3630,2026-04-14,C115, Dev Mishra ,North,Kitchenware,Air Fryer Deluxe,1,8500,5500,0.05
+ORD-3631,2026-06-08,C107,Kabir Mehta,East,Furniture,Coffee Table,2,6500,3800,0.05
+ORD-3632,2026-02-24,C110,Diya Kapoor,North,Fitness,Yoga Mat Pro,4,1800,900,0.1
+ORD-3633,2026-02-05,C109,Siddharth Rao,North,Apparel,Merino Wool Sweater,3,3200,1800,0.2
+ORD-3634,2026-04-26,C110,Diya Kapoor,North,Electronics,MacBook Pro,3,120000,95000,0.15
+ORD-3635,2026-02-24,C110,Diya Kapoor,North,Electronics,iPhone 15,4,75000,58000,0.05
+ORD-3636,2026-06-20,C104,Sneha Kulkarni,South,Kitchenware,Blender Pro,1,3500,2000,0.15
+ORD-3637,2026-06-07,C112,Tanvi Saxena,West,Fitness,Rowing Machine,6,32000,22000,0.2
+ORD-3638,2026-01-09,C110,Diya Kapoor,East,Apparel,Formal Blazer,4,7500,4500,0.0
+ORD-3639,2026-05-03,C107,Kabir Mehta,South,Electronics,MacBook Pro,1,120000,95000,0.0
+ORD-3640,2026-03-21,C104, Sneha Kulkarni ,East,Apparel,Formal Blazer,3,7500,4500,0.0
+ORD-3641,2026-01-15,C113,Yash Agarwal,South,Apparel,Cotton Chinos,5,1800,950,0.1
+ORD-3642,2026-04-06,C120,Meera Iyer,East,Apparel,Leather Bomber Jacket,2,5500,3200,0.15
+ORD-3643,2026-03-20,C112,Tanvi Saxena,West,Furniture,Standing Desk,4,28000,18000,0.15
+ORD-3644,2026-06-12,C112,Tanvi Saxena,East,Electronics,iPhone 15,5,75000,58000,0.0
+ORD-3645,2026-06-14,C117,Arjun Chaudhury,North,Electronics,iPad Air,6,54000,41000,0.15
+ORD-3646,2026-05-01,C115,Dev Mishra,East,Furniture,Standing Desk,3,28000,18000,0.0
+ORD-3647,2026-04-26,C101,Rahul Sharma,South,Kitchenware,Air Fryer Deluxe,5,8500,5500,0.0
+ORD-3648,2026-02-21,C112,Tanvi Saxena,West,Furniture,Standing Desk,3,28000,18000,0.1
+ORD-3649,2026-01-15,C101,Rahul Sharma,East,Furniture,Coffee Table,1,6500,3800,0.15
+ORD-3650,2026-02-09,C105, Vikram Singh ,West,Kitchenware,Blender Pro,2,3500,2000,0.1
+ORD-3651,2026-04-08,C101,Rahul Sharma,North,Furniture,Coffee Table,4,6500,3800,0.1
+ORD-3652,2026-04-20,C107,Kabir Mehta,North,Electronics,iPad Air,2,54000,41000,0.1
+ORD-3653,2026-02-22,C114,Riya Sen,North,Apparel,Nike Running Shoes,4,4200,2400,0.2
+ORD-3654,2026-03-24,C110,Diya Kapoor,North,Kitchenware,Blender Pro,6,3500,2000,0.0
+ORD-3655,2026-03-23,C113,Yash Agarwal,East,Furniture,Standing Desk,1,28000,18000,0.05
+ORD-3656,2026-02-09,C118,Sneha Deshmukh,East,Furniture,Recliner Sofa,3,35000,24000,0.05
+ORD-3657,2026-03-17,C116,Kavya Reddy,South,Fitness,Adjustable Dumbbell Pair,2,9500,6000,0.05
+ORD-3658,2026-03-12,C107,Kabir Mehta,North,Fitness,NordicTrack Treadmill,4,55000,38000,0.05
+ORD-3659,2026-02-15,C112,Tanvi Saxena,West,Fitness,NordicTrack Treadmill,1,55000,38000,0.15
+ORD-3660,2026-03-27,C117, Arjun Chaudhury ,West,Kitchenware,Kitchen Knife Set,1,4500,2600,0.05
+ORD-3661,2026-02-17,C105,Vikram Singh,South,Kitchenware,Espresso Machine,3,22000,15000,0.15
+ORD-3662,2026-02-07,C119,Rahul Deshmukh,South,Electronics,Sony WH-1000XM5,5,26000,18000,0.0
+ORD-3663,2026-05-13,C114,Riya Sen,West,Furniture,Ergonomic Chair,1,14000,9000,0.1
+ORD-3664,2026-01-09,C116,Kavya Reddy,South,Fitness,Spin Bike,2,24000,16000,0.1
+ORD-3665,2026-03-11,C113,Yash Agarwal,South,Fitness,Adjustable Dumbbell Pair,4,9500,6000,0.05
+ORD-3666,2026-01-26,C116,Kavya Reddy,North,Electronics,Sony WH-1000XM5,4,26000,18000,0.0
+ORD-3667,2026-05-26,C117,Arjun Chaudhury,North,Fitness,NordicTrack Treadmill,6,55000,38000,0.0
+ORD-3668,2026-03-01,C106,Ananya Roy,East,Furniture,Coffee Table,1,6500,3800,0.0
+ORD-3669,2026-01-03,C113,Yash Agarwal,North,Apparel,Formal Blazer,3,7500,4500,0.05
+ORD-3670,2026-01-10,C102, Priya Patel ,South,Electronics,Dell XPS 15,1,95000,72000,0.15
+ORD-3671,2026-01-26,C105,Vikram Singh,South,Fitness,Adjustable Dumbbell Pair,5,9500,6000,0.2
+ORD-3672,2026-02-26,C107,Kabir Mehta,North,Furniture,Ergonomic Chair,1,14000,9000,0.05
+ORD-3673,2026-01-08,C106,Ananya Roy,East,Fitness,Adjustable Dumbbell Pair,1,9500,6000,0.1
+ORD-3674,2026-03-10,C118,Sneha Deshmukh,South,Electronics,Dell XPS 15,6,95000,72000,0.15
+ORD-3675,2026-01-23,C110,Diya Kapoor,West,Electronics,Sony WH-1000XM5,3,26000,18000,0.15
+ORD-3676,2026-06-25,C120,Meera Iyer,North,Apparel,Cotton Chinos,1,1800,950,0.0
+ORD-3677,2026-04-07,C108,Neha Joshi,South,Kitchenware,Espresso Machine,3,22000,15000,0.2
+ORD-3678,2026-01-24,C107,Kabir Mehta,South,Kitchenware,Espresso Machine,1,22000,15000,0.2
+ORD-3679,2026-01-01,C109,Siddharth Rao,West,Kitchenware,Espresso Machine,2,22000,15000,0.1
+ORD-3680,2026-04-09,C120, Meera Iyer ,North,Kitchenware,Blender Pro,1,3500,2000,0.05
+ORD-3681,2026-05-14,C106,Ananya Roy,North,Kitchenware,Blender Pro,2,3500,2000,0.0
+ORD-3682,2026-04-27,C105,Vikram Singh,East,Kitchenware,Espresso Machine,1,22000,15000,0.15
+ORD-3683,2026-06-13,C104,Sneha Kulkarni,South,Fitness,Spin Bike,5,24000,16000,0.05
+ORD-3684,2026-06-11,C110,Diya Kapoor,North,Kitchenware,Cast Iron Dutch Oven,6,6500,4000,0.15
+ORD-3685,2026-03-23,C116,Kavya Reddy,South,Furniture,Ergonomic Chair,1,14000,9000,0.15
+ORD-3686,2026-05-28,C110,Diya Kapoor,East,Furniture,Coffee Table,2,6500,3800,0.1
+ORD-3687,2026-06-15,C114,Riya Sen,West,Furniture,Coffee Table,6,6500,3800,0.0
+ORD-3688,2026-06-17,C119,Rahul Deshmukh,West,Electronics,iPhone 15,5,75000,58000,0.0
+ORD-3689,2026-06-15,C120,Meera Iyer,East,Apparel,Merino Wool Sweater,1,3200,1800,0.2
+ORD-3690,2026-03-03,C110, Diya Kapoor ,West,Fitness,NordicTrack Treadmill,5,55000,38000,0.05
+ORD-3691,2026-05-10,C119,Rahul Deshmukh,South,Furniture,Recliner Sofa,6,35000,24000,0.05
+ORD-3692,2026-02-19,C105,Vikram Singh,West,Fitness,Yoga Mat Pro,1,1800,900,0.1
+ORD-3693,2026-05-09,C104,Sneha Kulkarni,East,Furniture,Coffee Table,6,6500,3800,0.0
+ORD-3694,2026-01-12,C108,Neha Joshi,South,Apparel,Nike Running Shoes,6,4200,2400,0.1
+ORD-3695,2026-05-05,C101,Rahul Sharma,East,Furniture,Standing Desk,2,28000,18000,0.1
+ORD-3696,2026-05-17,C116,Kavya Reddy,South,Furniture,Ergonomic Chair,1,14000,9000,0.05
+ORD-3697,2026-06-23,C119,Rahul Deshmukh,East,Furniture,Recliner Sofa,3,35000,24000,0.05
+ORD-3698,2026-03-24,C119,Rahul Deshmukh,East,Kitchenware,Blender Pro,4,3500,2000,0.1
+ORD-3699,2026-02-10,C113,Yash Agarwal,North,Electronics,iPad Air,2,54000,41000,0.15
+ORD-3700,2026-04-09,C101, Rahul Sharma ,West,Fitness,Spin Bike,4,24000,16000,0.2
+ORD-3701,2026-01-06,C104,Sneha Kulkarni,East,Apparel,Merino Wool Sweater,4,3200,1800,0.2
+ORD-3702,2026-06-24,C111,Aditya Bhat,West,Apparel,Formal Blazer,1,7500,4500,0.15
+ORD-3703,2026-02-17,C115,Dev Mishra,South,Kitchenware,Air Fryer Deluxe,4,8500,5500,0.1
+ORD-3704,2026-05-31,C115,Dev Mishra,West,Kitchenware,Air Fryer Deluxe,5,8500,5500,0.0
+ORD-3705,2026-06-28,C105,Vikram Singh,East,Electronics,Sony WH-1000XM5,5,26000,18000,0.0
+ORD-3706,2026-01-25,C108,Neha Joshi,South,Electronics,Dell XPS 15,3,95000,72000,0.05
+ORD-3707,2026-03-09,C118,Sneha Deshmukh,East,Fitness,Spin Bike,3,24000,16000,0.1
+ORD-3708,2026-01-26,C110,Diya Kapoor,West,Kitchenware,Cast Iron Dutch Oven,1,6500,4000,0.2
+ORD-3709,2026-04-18,C111,Aditya Bhat,West,Fitness,Yoga Mat Pro,2,1800,900,0.05
+ORD-3710,2026-01-21,C106, Ananya Roy ,West,Fitness,Adjustable Dumbbell Pair,1,9500,6000,0.0
+ORD-3711,2026-06-24,C110,Diya Kapoor,South,Electronics,Dell XPS 15,6,95000,72000,0.05
+ORD-3712,2026-06-12,C120,Meera Iyer,West,Electronics,MacBook Pro,1,120000,95000,0.15
+ORD-3713,2026-03-03,C112,Tanvi Saxena,South,Electronics,Dell XPS 15,5,95000,72000,0.2
+ORD-3714,2026-06-29,C104,Sneha Kulkarni,West,Fitness,Yoga Mat Pro,5,1800,900,0.1
+ORD-3715,2026-06-03,C106,Ananya Roy,South,Kitchenware,Air Fryer Deluxe,3,8500,5500,0.0
+ORD-3716,2026-04-04,C107,Kabir Mehta,West,Electronics,Dell XPS 15,5,95000,72000,0.05
+ORD-3717,2026-05-09,C114,Riya Sen,South,Kitchenware,Cast Iron Dutch Oven,1,6500,4000,0.0
+ORD-3718,2026-06-08,C111,Aditya Bhat,South,Electronics,iPhone 15,4,75000,58000,0.15
+ORD-3719,2026-02-04,C106,Ananya Roy,North,Fitness,Yoga Mat Pro,6,1800,900,0.2
+ORD-3720,2026-01-26,C104, Sneha Kulkarni ,North,Kitchenware,Air Fryer Deluxe,3,8500,5500,0.1
+ORD-3721,2026-06-06,C111,Aditya Bhat,North,Kitchenware,Air Fryer Deluxe,1,8500,5500,0.15
+ORD-3722,2026-02-11,C112,Tanvi Saxena,East,Kitchenware,Air Fryer Deluxe,1,8500,5500,0.1
+ORD-3723,2026-05-15,C107,Kabir Mehta,South,Furniture,Recliner Sofa,1,35000,24000,0.1
+ORD-3724,2026-05-29,C114,Riya Sen,North,Fitness,Yoga Mat Pro,5,1800,900,0.2
+ORD-3725,2026-06-02,C120,Meera Iyer,West,Fitness,Spin Bike,4,24000,16000,0.0
+ORD-3726,2026-04-01,C107,Kabir Mehta,East,Kitchenware,Cast Iron Dutch Oven,3,6500,4000,0.2
+ORD-3727,2026-06-20,C111,Aditya Bhat,East,Kitchenware,Cast Iron Dutch Oven,4,6500,4000,0.05
+ORD-3728,2026-06-19,C110,Diya Kapoor,South,Electronics,iPhone 15,5,75000,58000,0.1
+ORD-3729,2026-05-08,C102,Priya Patel,West,Furniture,Ergonomic Chair,1,14000,9000,0.05
+ORD-3730,2026-03-11,C102, Priya Patel ,North,Fitness,Adjustable Dumbbell Pair,3,9500,6000,0.15
+ORD-3731,2026-01-21,C120,Meera Iyer,East,Furniture,Coffee Table,4,6500,3800,0.0
+ORD-3732,2026-04-11,C110,Diya Kapoor,West,Kitchenware,Kitchen Knife Set,1,4500,2600,0.15
+ORD-3733,2026-01-23,C116,Kavya Reddy,East,Electronics,iPhone 15,1,75000,58000,0.05
+ORD-3734,2026-01-29,C113,Yash Agarwal,West,Kitchenware,Cast Iron Dutch Oven,5,6500,4000,0.05
+ORD-3735,2026-06-27,C105,Vikram Singh,West,Kitchenware,Kitchen Knife Set,2,4500,2600,0.15
+ORD-3736,2026-03-06,C118,Sneha Deshmukh,South,Electronics,MacBook Pro,3,120000,95000,0.1
+ORD-3737,2026-02-18,C112,Tanvi Saxena,South,Electronics,Sony WH-1000XM5,2,26000,18000,0.0
+ORD-3738,2026-03-19,C112,Tanvi Saxena,West,Furniture,Ergonomic Chair,1,14000,9000,0.15
+ORD-3739,2026-05-23,C106,Ananya Roy,South,Furniture,Bookshelf Unit,1,9000,5500,0.0
+ORD-3740,2026-02-23,C115, Dev Mishra ,East,Furniture,Ergonomic Chair,3,14000,9000,0.15
+ORD-3741,2026-04-23,C115,Dev Mishra,South,Apparel,Leather Bomber Jacket,3,5500,3200,0.0
+ORD-3742,2026-05-23,C104,Sneha Kulkarni,North,Electronics,Sony WH-1000XM5,2,26000,18000,0.0
+ORD-3743,2026-06-22,C117,Arjun Chaudhury,East,Kitchenware,Cast Iron Dutch Oven,2,6500,4000,0.0
+ORD-3744,2026-01-01,C104,Sneha Kulkarni,South,Kitchenware,Kitchen Knife Set,3,4500,2600,0.15
+ORD-3745,2026-06-24,C103,Aman Verma,West,Kitchenware,Blender Pro,6,3500,2000,0.2
+ORD-3746,2026-03-13,C102,Priya Patel,North,Electronics,Sony WH-1000XM5,1,26000,18000,0.15
+ORD-3747,2026-01-14,C112,Tanvi Saxena,West,Kitchenware,Blender Pro,5,3500,2000,0.15
+ORD-3748,2026-04-26,C103,Aman Verma,South,Apparel,Nike Running Shoes,4,4200,2400,0.05
+ORD-3749,2026-06-17,C105,Vikram Singh,North,Furniture,Bookshelf Unit,1,9000,5500,0.05
+ORD-3750,2026-02-15,C119, Rahul Deshmukh ,North,Kitchenware,Air Fryer Deluxe,4,8500,5500,0.2
