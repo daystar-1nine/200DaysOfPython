@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white&style=for-the-badge" alt="Python Version">
   <img src="https://img.shields.io/badge/Challenge%20Status-In%20Progress-orange?style=for-the-badge" alt="Challenge Status">
-  <img src="https://img.shields.io/badge/Progress-57%20%2F%20200%20Days-green?style=for-the-badge" alt="Progress Badge">
+  <img src="https://img.shields.io/badge/Progress-58%20%2F%20200%20Days-green?style=for-the-badge" alt="Progress Badge">
 </p>
 
 A 200-day journey to master Python from beginner to advanced by learning daily, solving coding problems, building real-world projects, and sharing my progress publicly. This repository documents my growth, projects, and consistent learning—one day at a time. 🚀
@@ -11,9 +11,9 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 ---
 
 ## 📊 Challenge Progress
-**Current Progress:** `57 / 200 Days` (28.5%) — **PHASE 4: PROFESSIONAL DATA & PRODUCTION PYTHON DEVELOPER IN PROGRESS!** ⚡
+**Current Progress:** `58 / 200 Days` (29.0%) — **PHASE 4: PROFESSIONAL DATA & PRODUCTION PYTHON DEVELOPER IN PROGRESS!** ⚡
 ```text
-[██████████11░░░░░░░░] 28.5% Complete
+[██████████12░░░░░░░░] 29.0% Complete
 ```
 
 ---
@@ -1093,6 +1093,44 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 │   ├── pyproject.toml             # Pytest Configuration
 │   ├── requirements.txt           # Dependencies
 │   └── README.md                  # Day 57 Pandas Data Manipulation Documentation
+├── Day 58/
+│   ├── Day58.md                   # Day 58 Masterclass Notes & 30 Technical Interview Answers
+│   ├── coding_challenges/
+│   │   ├── challenge1_missing_value_statistics.py
+│   │   ├── challenge2_duplicate_customer_detection.py
+│   │   ├── challenge3_monetary_conversion.py
+│   │   ├── challenge4_category_standardization.py
+│   │   └── challenge5_reusable_cleaner_pipeline.py
+│   ├── exercises/
+│   │   ├── task1_missing_values.py
+│   │   ├── task2_duplicates.py
+│   │   ├── task3_string_cleaning.py
+│   │   ├── task4_numeric_cleaning.py
+│   │   ├── task5_date_cleaning.py
+│   │   └── task6_validation.py
+│   ├── data/
+│   │   ├── raw/
+│   │   │   └── messy_customers.csv # Raw Messy Customer Dataset (120+ records)
+│   │   └── processed/
+│   │       └── clean_customers.csv # Cleaned Exported Dataset
+│   ├── app/
+│   │   ├── main.py                # Pipeline Execution & CLI Entry Point
+│   │   ├── loader.py              # CSV Ingestion & Schema Validation
+│   │   ├── cleaner.py             # Column Normalization, Deduplication, Imputation & Type Parsing
+│   │   ├── validator.py           # Domain Boundary & Quality Rule Validation Audit
+│   │   ├── analyzer.py            # Quality Metrics & Before/After Data Quality Analysis
+│   │   └── report.py              # Executive ASCII Quality Report Generator & File Exporter
+│   ├── output/
+│   │   └── data_quality_report.txt # Generated Executive ASCII Quality Report
+│   ├── tests/                     # 20 Pytest Automation Test Cases
+│   │   ├── conftest.py            # Test Fixtures & Sample Messy Customer Data
+│   │   ├── test_loader.py         # CSV Loader Unit Tests
+│   │   ├── test_cleaner.py        # Cleaning Pipeline Unit Tests
+│   │   ├── test_validator.py      # Business Rule Validation Unit Tests
+│   │   └── test_analyzer.py       # Quality Analysis Unit Tests
+│   ├── pyproject.toml             # Pytest Configuration
+│   ├── requirements.txt           # Dependencies
+│   └── README.md                  # Day 58 Data Cleaning & Preprocessing Documentation
 ```
 
 ---
@@ -1238,6 +1276,7 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 | **Day 55** | Sep 04, 2026 | Advanced NumPy (Fancy Indexing, np.where, np.select, Sorting, Views vs Copies, NaN Handling, Linear Algebra & Student Analytics Engine V2) | 🟢 Completed | [Notes](Day%2055/Day55.md) • [Challenge 1](Day%2055/coding_challenges/challenge1_fancy_indexing.py) • [Challenge 2](Day%2055/coding_challenges/challenge2_conditional_replacement.py) • [Challenge 3](Day%2055/coding_challenges/challenge3_argsort_ranking.py) • [Challenge 4](Day%2055/coding_challenges/challenge4_unique_counts.py) • [Challenge 5](Day%2055/coding_challenges/challenge5_nan_handling.py) • [Challenge 6](Day%2055/coding_challenges/challenge6_broadcasting_discount.py) • [Challenge 7](Day%2055/coding_challenges/challenge7_matrix_multiplication.py) • [Challenge 8](Day%2055/coding_challenges/challenge8_sales_dataset.py) • [App Root](Day%2055/app/main.py) • [Tests](Day%2055/tests/test_analyzer.py) • [Readme](Day%2055/README.md) |
 | **Day 56** | Sep 04, 2026 | Pandas Fundamentals: Series & DataFrames (Data I/O, Selection loc/iloc, Filtering, Sorting, Imputation & Student Performance Analyzer V2) | 🟢 Completed | [Notes](Day%2056/Day56.md) • [Task 1](Day%2056/exercises/task1_series_basics.py) • [Challenge 1](Day%2056/coding_challenges/challenge1_passing_students.py) • [Challenge 2](Day%2056/coding_challenges/challenge2_top2_students.py) • [Challenge 3](Day%2056/coding_challenges/challenge3_grade_column.py) • [Challenge 4](Day%2056/coding_challenges/challenge4_average_marks.py) • [Challenge 5](Day%2056/coding_challenges/challenge5_product_revenue.py) • [App Root](Day%2056/app/main.py) • [Tests](Day%2056/tests/test_analyzer.py) • [Readme](Day%2056/README.md) |
 | **Day 57** | Sep 04, 2026 | Pandas Data Manipulation & Aggregation (groupby, agg, merge, join, concat, apply, map, replace, query, pivot_table & Sales Engine V1) | 🟢 Completed | [Notes](Day%2057/Day57.md) • [Task 1](Day%2057/exercises/task1_grouping.py) • [Challenge 1](Day%2057/coding_challenges/challenge1_highest_dept_salary.py) • [Challenge 2](Day%2057/coding_challenges/challenge2_top3_customers.py) • [Challenge 3](Day%2057/coding_challenges/challenge3_highest_revenue_product_per_region.py) • [Challenge 4](Day%2057/coding_challenges/challenge4_region_product_pivot.py) • [Challenge 5](Day%2057/coding_challenges/challenge5_region_revenue_percentage.py) • [App Root](Day%2057/app/main.py) • [Tests](Day%2057/tests/test_analyzer.py) • [Readme](Day%2057/README.md) |
+| **Day 58** | Sep 04, 2026 | Pandas Data Cleaning & Preprocessing (Missing Values, Duplicates, String Trimming, Domain Validation, Imputation Pipeline & Audit Report) | 🟢 Completed | [Notes](Day%2058/Day58.md) • [Task 1](Day%2058/exercises/task1_missing_values.py) • [Challenge 1](Day%2058/coding_challenges/challenge1_missing_value_statistics.py) • [Challenge 2](Day%2058/coding_challenges/challenge2_duplicate_customer_detection.py) • [Challenge 3](Day%2058/coding_challenges/challenge3_monetary_conversion.py) • [Challenge 4](Day%2058/coding_challenges/challenge4_category_standardization.py) • [Challenge 5](Day%2058/coding_challenges/challenge5_reusable_cleaner_pipeline.py) • [App Root](Day%2058/app/main.py) • [Tests](Day%2058/tests/test_cleaner.py) • [Readme](Day%2058/README.md) |
 
 ---
 
