@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "taskflow-api"
+version = "1.0.0"
+description = "Production-style Task Management REST API for Day 50 Milestone"
+authors = [{ name = "Suraj Sawant", email = "surajonenine@gmail.com" }]
+dependencies = [
+    "fastapi",
+    "sqlalchemy",
+    "pydantic",
+    "alembic",
+    "passlib",
+    "pyjwt",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+pythonpath = ["."]
+asyncio_mode = "strict"
+filterwarnings = [
+    "ignore::DeprecationWarning",
+]
