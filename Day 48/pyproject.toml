@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "day48-professional-testing-v4"
+version = "4.0.0"
+description = "E-Commerce Backend V4 with Comprehensive Pytest Test Suite, Payment Mocking & Coverage"
+authors = [{ name = "Suraj Sawant", email = "surajonenine@gmail.com" }]
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi>=0.100.0",
+    "uvicorn>=0.22.0",
+    "sqlalchemy>=2.0.0",
+    "alembic>=1.11.0",
+    "pydantic>=2.0.0",
+    "pyjwt>=2.8.0",
+    "pwdlib[argon2]>=0.2.0",
+    "passlib[bcrypt]>=1.7.4",
+    "python-dotenv>=1.0.0"
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
