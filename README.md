@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white&style=for-the-badge" alt="Python Version">
   <img src="https://img.shields.io/badge/Challenge%20Status-In%20Progress-orange?style=for-the-badge" alt="Challenge Status">
-  <img src="https://img.shields.io/badge/Progress-62%20%2F%20200%20Days-green?style=for-the-badge" alt="Progress Badge">
+  <img src="https://img.shields.io/badge/Progress-63%20%2F%20200%20Days-green?style=for-the-badge" alt="Progress Badge">
 </p>
 
 A 200-day journey to master Python from beginner to advanced by learning daily, solving coding problems, building real-world projects, and sharing my progress publicly. This repository documents my growth, projects, and consistent learning—one day at a time. 🚀
@@ -11,9 +11,9 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 ---
 
 ## 📊 Challenge Progress
-**Current Progress:** `62 / 200 Days` (31.0%) — **PHASE 5: DATA VISUALIZATION WITH MATPLOTLIB & SEABORN IN PROGRESS!** ⚡
+**Current Progress:** `63 / 200 Days` (31.5%) — **PHASE 5: DATA VISUALIZATION WITH MATPLOTLIB & SEABORN IN PROGRESS!** ⚡
 ```text
-[████████████░░░░░░░░] 31.0% Complete
+[████████████░░░░░░░░] 31.5% Complete
 ```
 
 ---
@@ -1332,6 +1332,53 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 │   ├── pyproject.toml             # Pytest Configuration
 │   ├── requirements.txt           # Dashboard Dependencies
 │   └── README.md                  # Day 62 Documentation & Architecture Guide
+├── Day 63/
+│   ├── Day63.md                   # Seaborn Statistical Visualization Masterclass & 20 Technical Q&As
+│   ├── exercises/
+│   │   ├── task1_histplot_kde.py       # Revenue Distribution with KDE & Skewness Benchmark
+│   │   ├── task2_boxplot.py            # Category Order Values & IQR Outlier Visualization
+│   │   ├── task3_violinplot.py         # Regional Revenue Density & Inner Quartile Distributions
+│   │   ├── task4_countplot.py          # Category Order Counts Partitioned by Region
+│   │   ├── task5_scatterplot_hue.py     # Multivariate Revenue vs Profit with Category Hue & Quantity Size
+│   │   ├── task6_correlation_heatmap.py# Masked Lower-Triangle Pearson Correlation Heatmap
+│   │   ├── task7_pairplot.py           # Exploratory Pairwise Matrix by Product Category
+│   │   └── task8_sales_quick_eda.py    # 4-Panel Integrated Quick EDA Multi-Panel Dashboard
+│   ├── coding_challenges/
+│   │   ├── challenge1_marks_hist_kde.py    # Examination Marks Normality & KDE Diagnostics
+│   │   ├── challenge2_dept_box_violin.py   # Departmental Salary Structure (Box vs Violin Plot)
+│   │   ├── challenge3_revenue_profit_hue.py# 5D Multivariate Profitability & Regression Fit
+│   │   ├── challenge4_correlation_extremes.py# Dynamic Extraction & Heatmap of Extreme Pairs
+│   │   └── challenge5_combined_eda_figure.py # 6-Panel Publication-Grade Statistical EDA Master Figure
+│   ├── data/
+│   │   └── ecommerce_sales.csv         # Enterprise Sales Transaction Dataset (750 rows)
+│   ├── app/
+│   │   ├── config.py              # Central Paths, Theme Settings, Palettes & Schemas
+│   │   ├── loader.py              # Resilient CSV Ingestion & Schema Validation
+│   │   ├── cleaner.py             # Preprocessing, Type Casting & Segment Derivation
+│   │   ├── analyzer.py            # Parametric/Non-Parametric Metrics & Correlation Math
+│   │   ├── distributions.py       # Histograms, Gaussian KDEs, Box & Violin Plots
+│   │   ├── categorical.py         # Countplots & Bootstrapped CI Barplots
+│   │   ├── relationships.py       # Multivariate Scatter, OLS Regressions & Line Trends
+│   │   ├── correlation.py         # Masked Correlation Heatmaps & Pairwise Grids
+│   │   ├── charts.py              # Master Orchestrator for 12 High-Res Charts & Dashboard
+│   │   ├── report.py              # 10-Question Statistical Executive Report Author
+│   │   └── main.py                # Production CLI Pipeline Orchestrator
+│   ├── output/
+│   │   ├── charts/                # 12 Publication-Quality Statistical Figures (300 DPI)
+│   │   └── eda_visualization_report.txt # 10-Question Statistical Executive Report
+│   ├── tests/                     # 26 Pytest Unit & Integration Tests (100% Passing)
+│   │   ├── conftest.py
+│   │   ├── test_loader.py
+│   │   ├── test_cleaner.py
+│   │   ├── test_analyzer.py
+│   │   ├── test_distributions.py
+│   │   ├── test_categorical.py
+│   │   ├── test_relationships.py
+│   │   ├── test_correlation.py
+│   │   └── test_executive_pipeline.py
+│   ├── pyproject.toml             # Pytest Configuration
+│   ├── requirements.txt           # Statistical Visualization Dependencies
+│   └── README.md                  # Day 63 Documentation & Architecture Guide
 ```
 
 ---
@@ -1482,6 +1529,8 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 | **Day 60** | Sep 05, 2026 | Second Major Milestone: Python + Backend + NumPy + Pandas + EDA Assessment & Capstone (40 Theory Q&As, 5 Coding, 4 Practicals, Business Intelligence Engine & 40 Tests) | 🟢 Completed | [Notes](Day%2060/Day60.md) • [Python Challenge 1](Day%2060/coding_assessment/challenge1_student_stats.py) • [NumPy Test](Day%2060/numpy_practical/numpy_test.py) • [Pandas Test](Day%2060/pandas_practical/pandas_test.py) • [Cleaning Test](Day%2060/data_cleaning_practical/cleaning_test.py) • [EDA Test](Day%2060/eda_practical/eda_test.py) • [App Root](Day%2060/app/main.py) • [Tests](Day%2060/tests/test_cleaner.py) • [Readme](Day%2060/README.md) |
 | **Day 61** | Sep 05, 2026 | Matplotlib Fundamentals: Line, Bar, Scatter, Histogram, Pie & Sales Visualization Report (Figure vs Axes, 25 Q&As, 7 Tasks, 5 Challenges & 24 Tests) | 🟢 Completed | [Notes](Day%2061/Day61.md) • [Task 1](Day%2061/exercises/task1_line_chart.py) • [Challenge 1](Day%2061/coding_challenges/challenge1_sales_profit_line.py) • [Challenge 2](Day%2061/coding_challenges/challenge2_top5_products_bar.py) • [Challenge 3](Day%2061/coding_challenges/challenge3_customer_spending_hist.py) • [Challenge 4](Day%2061/coding_challenges/challenge4_discount_profit_scatter.py) • [Challenge 5](Day%2061/coding_challenges/challenge5_revenue_rolling_avg.py) • [App Root](Day%2061/app/main.py) • [Tests](Day%2061/tests/test_charts.py) • [Readme](Day%2061/README.md) |
 | **Day 62** | Sep 05, 2026 | Professional Matplotlib & Dashboard Visualization: GridSpec, Reference Lines, Twinx, Annotations & Executive E-Commerce Dashboard (20 Q&As, 6 Tasks, 5 Challenges & 26 Tests) | 🟢 Completed | [Notes](Day%2062/Day62.md) • [Task 1](Day%2062/exercises/task1_multiple_subplots.py) • [Challenge 1](Day%2062/coding_challenges/challenge1_target_comparison.py) • [Challenge 2](Day%2062/coding_challenges/challenge2_dynamic_peak_annot.py) • [Challenge 3](Day%2062/coding_challenges/challenge3_kpi_dashboard.py) • [Challenge 4](Day%2062/coding_challenges/challenge4_dual_axis_margin.py) • [Challenge 5](Day%2062/coding_challenges/challenge5_reusable_engine.py) • [App Root](Day%2062/app/main.py) • [Tests](Day%2062/tests/test_dashboard.py) • [Readme](Day%2062/README.md) |
+| **Day 63** | Sep 05, 2026 | Seaborn Statistical Data Visualization: Distributions, Box/Violin Plots, Multivariate Encodings, Masked Heatmaps & Executive EDA Report (20 Q&As, 8 Tasks, 5 Challenges & 26 Tests) | 🟢 Completed | [Notes](Day%2063/Day63.md) • [Task 1](Day%2063/exercises/task1_histplot_kde.py) • [Challenge 1](Day%2063/coding_challenges/challenge1_marks_hist_kde.py) • [Challenge 2](Day%2063/coding_challenges/challenge2_dept_box_violin.py) • [Challenge 3](Day%2063/coding_challenges/challenge3_revenue_profit_hue.py) • [Challenge 4](Day%2063/coding_challenges/challenge4_correlation_extremes.py) • [Challenge 5](Day%2063/coding_challenges/challenge5_combined_eda_figure.py) • [App Root](Day%2063/app/main.py) • [Tests](Day%2063/tests/test_analyzer.py) • [Readme](Day%2063/README.md) |
+
 
 ---
 
