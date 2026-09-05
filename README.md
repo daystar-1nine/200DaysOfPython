@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white&style=for-the-badge" alt="Python Version">
   <img src="https://img.shields.io/badge/Challenge%20Status-In%20Progress-orange?style=for-the-badge" alt="Challenge Status">
-  <img src="https://img.shields.io/badge/Progress-61%20%2F%20200%20Days-green?style=for-the-badge" alt="Progress Badge">
+  <img src="https://img.shields.io/badge/Progress-62%20%2F%20200%20Days-green?style=for-the-badge" alt="Progress Badge">
 </p>
 
 A 200-day journey to master Python from beginner to advanced by learning daily, solving coding problems, building real-world projects, and sharing my progress publicly. This repository documents my growth, projects, and consistent learning—one day at a time. 🚀
@@ -11,9 +11,9 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 ---
 
 ## 📊 Challenge Progress
-**Current Progress:** `61 / 200 Days` (30.5%) — **PHASE 5: DATA VISUALIZATION WITH MATPLOTLIB & SEABORN IN PROGRESS!** ⚡
+**Current Progress:** `62 / 200 Days` (31.0%) — **PHASE 5: DATA VISUALIZATION WITH MATPLOTLIB & SEABORN IN PROGRESS!** ⚡
 ```text
-[████████████░░░░░░░░] 30.5% Complete
+[████████████░░░░░░░░] 31.0% Complete
 ```
 
 ---
@@ -1289,6 +1289,49 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 │   ├── pyproject.toml             # Pytest Configuration
 │   ├── requirements.txt           # Matplotlib Dependencies
 │   └── README.md                  # Day 61 Documentation & Run Guide
+├── Day 62/
+│   ├── Day62.md                   # Professional Matplotlib, GridSpec & 20 Technical Q&As
+│   ├── exercises/
+│   │   ├── task1_multiple_subplots.py  # 2x2 Multi-Panel Subplots (Line, Bar, Scatter, Hist)
+│   │   ├── task2_reference_line.py     # Average Sales Benchmark Line (axhline)
+│   │   ├── task3_auto_annotation.py    # Automated Peak Discovery & Dynamic Arrow Callout
+│   │   ├── task4_currency_format.py    # Custom Currency Formatting with FuncFormatter (₹)
+│   │   ├── task5_date_formatting.py    # Datetime Axes Formatting with mdates
+│   │   └── task6_gridspec_layout.py    # Asymmetric 1-Large + 3-Small GridSpec Layout
+│   ├── coding_challenges/
+│   │   ├── challenge1_target_comparison.py # Actual vs Target Performance with Benchmark
+│   │   ├── challenge2_dynamic_peak_annot.py# Automated Peak Month Detection & Annotation
+│   │   ├── challenge3_kpi_dashboard.py     # 4-Card KPI Tile Dashboard with Trend
+│   │   ├── challenge4_dual_axis_margin.py  # Revenue vs Profit Margin Dual-Axis (twinx)
+│   │   └── challenge5_reusable_engine.py   # Reusable create_sales_dashboard() Generator
+│   ├── data/
+│   │   └── ecommerce_sales.csv         # Enterprise Sales Transaction Dataset (750 rows)
+│   ├── app/
+│   │   ├── config.py              # Central Dimensions, Palettes, DPI & Schemas
+│   │   ├── formatters.py          # Indian Rupee Currency, Number & Percent Formatters
+│   │   ├── loader.py              # Resilient CSV Ingestion & Validation
+│   │   ├── analyzer.py            # Decoupled Business Intelligence KPI & Aggregations
+│   │   ├── charts.py              # Modular OO Plot Functions Accepting Explicit Axes
+│   │   ├── dashboard.py           # 4-Tier Asymmetric GridSpec Master Dashboard
+│   │   └── main.py                # Pipeline Orchestrator (6 Standalone Charts + Dashboard)
+│   ├── output/
+│   │   ├── charts/
+│   │   │   ├── monthly_revenue.png
+│   │   │   ├── regional_revenue.png
+│   │   │   ├── category_revenue.png
+│   │   │   ├── top_products.png
+│   │   │   ├── revenue_profit.png
+│   │   │   └── quantity_distribution.png
+│   │   └── ecommerce_dashboard.png # Master Publication-Quality Analytics Dashboard
+│   ├── tests/                     # 26 Pytest Unit & Integration Tests (100% Passing)
+│   │   ├── conftest.py
+│   │   ├── test_loader.py
+│   │   ├── test_analyzer.py
+│   │   ├── test_formatters.py
+│   │   └── test_dashboard.py
+│   ├── pyproject.toml             # Pytest Configuration
+│   ├── requirements.txt           # Dashboard Dependencies
+│   └── README.md                  # Day 62 Documentation & Architecture Guide
 ```
 
 ---
@@ -1438,6 +1481,7 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 | **Day 59** | Sep 05, 2026 | Advanced Pandas: Transform, Rank, Rolling & EDA Foundations (transform, rank, shift, diff, pct_change, rolling, IQR Outliers, Correlation & EDA Engine) | 🟢 Completed | [Notes](Day%2059/Day59.md) • [Task 1](Day%2059/exercises/task1_transform.py) • [Challenge 1](Day%2059/coding_challenges/challenge1_category_transform.py) • [Challenge 2](Day%2059/coding_challenges/challenge2_department_rankings.py) • [Challenge 3](Day%2059/coding_challenges/challenge3_time_series_growth.py) • [Challenge 4](Day%2059/coding_challenges/challenge4_iqr_outliers.py) • [Challenge 5](Day%2059/coding_challenges/challenge5_eda_summary_function.py) • [App Root](Day%2059/app/main.py) • [Tests](Day%2059/tests/test_cleaner.py) • [Readme](Day%2059/README.md) |
 | **Day 60** | Sep 05, 2026 | Second Major Milestone: Python + Backend + NumPy + Pandas + EDA Assessment & Capstone (40 Theory Q&As, 5 Coding, 4 Practicals, Business Intelligence Engine & 40 Tests) | 🟢 Completed | [Notes](Day%2060/Day60.md) • [Python Challenge 1](Day%2060/coding_assessment/challenge1_student_stats.py) • [NumPy Test](Day%2060/numpy_practical/numpy_test.py) • [Pandas Test](Day%2060/pandas_practical/pandas_test.py) • [Cleaning Test](Day%2060/data_cleaning_practical/cleaning_test.py) • [EDA Test](Day%2060/eda_practical/eda_test.py) • [App Root](Day%2060/app/main.py) • [Tests](Day%2060/tests/test_cleaner.py) • [Readme](Day%2060/README.md) |
 | **Day 61** | Sep 05, 2026 | Matplotlib Fundamentals: Line, Bar, Scatter, Histogram, Pie & Sales Visualization Report (Figure vs Axes, 25 Q&As, 7 Tasks, 5 Challenges & 24 Tests) | 🟢 Completed | [Notes](Day%2061/Day61.md) • [Task 1](Day%2061/exercises/task1_line_chart.py) • [Challenge 1](Day%2061/coding_challenges/challenge1_sales_profit_line.py) • [Challenge 2](Day%2061/coding_challenges/challenge2_top5_products_bar.py) • [Challenge 3](Day%2061/coding_challenges/challenge3_customer_spending_hist.py) • [Challenge 4](Day%2061/coding_challenges/challenge4_discount_profit_scatter.py) • [Challenge 5](Day%2061/coding_challenges/challenge5_revenue_rolling_avg.py) • [App Root](Day%2061/app/main.py) • [Tests](Day%2061/tests/test_charts.py) • [Readme](Day%2061/README.md) |
+| **Day 62** | Sep 05, 2026 | Professional Matplotlib & Dashboard Visualization: GridSpec, Reference Lines, Twinx, Annotations & Executive E-Commerce Dashboard (20 Q&As, 6 Tasks, 5 Challenges & 26 Tests) | 🟢 Completed | [Notes](Day%2062/Day62.md) • [Task 1](Day%2062/exercises/task1_multiple_subplots.py) • [Challenge 1](Day%2062/coding_challenges/challenge1_target_comparison.py) • [Challenge 2](Day%2062/coding_challenges/challenge2_dynamic_peak_annot.py) • [Challenge 3](Day%2062/coding_challenges/challenge3_kpi_dashboard.py) • [Challenge 4](Day%2062/coding_challenges/challenge4_dual_axis_margin.py) • [Challenge 5](Day%2062/coding_challenges/challenge5_reusable_engine.py) • [App Root](Day%2062/app/main.py) • [Tests](Day%2062/tests/test_dashboard.py) • [Readme](Day%2062/README.md) |
 
 ---
 
