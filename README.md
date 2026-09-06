@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white&style=for-the-badge" alt="Python Version">
   <img src="https://img.shields.io/badge/Challenge%20Status-In%20Progress-orange?style=for-the-badge" alt="Challenge Status">
-  <img src="https://img.shields.io/badge/Progress-64%20%2F%20200%20Days-green?style=for-the-badge" alt="Progress Badge">
+  <img src="https://img.shields.io/badge/Progress-65%20%2F%20200%20Days-green?style=for-the-badge" alt="Progress Badge">
 </p>
 
 A 200-day journey to master Python from beginner to advanced by learning daily, solving coding problems, building real-world projects, and sharing my progress publicly. This repository documents my growth, projects, and consistent learning—one day at a time. 🚀
@@ -11,9 +11,9 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 ---
 
 ## 📊 Challenge Progress
-**Current Progress:** `64 / 200 Days` (32.0%) — **PHASE 5: DATA VISUALIZATION WITH MATPLOTLIB & SEABORN IN PROGRESS!** ⚡
+**Current Progress:** `65 / 200 Days` (32.5%) — **PHASE 5: DATA VISUALIZATION & STATISTICS IN PROGRESS!** ⚡
 ```text
-[████████████░░░░░░░░] 32.0% Complete
+[█████████████░░░░░░░] 32.5% Complete
 ```
 
 ---
@@ -1431,6 +1431,64 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 │   ├── pyproject.toml             # Pytest Configuration
 │   ├── requirements.txt           # Statistical EDA Dependencies
 │   └── README.md                  # Day 64 Documentation & Architecture Guide
+├── Day 65/
+│   ├── Day65.md                   # Statistics for Data Science: Descriptive Statistics, 25 Q&As & Assessment
+│   ├── exercises/
+│   │   ├── task1_central_tendency.py   # Mean, Median, Mode (Manual vs NumPy & Pandas)
+│   │   ├── task2_range.py              # Range, Min, Max without describe()
+│   │   ├── task3_variance.py           # Population vs Sample Variance (ddof=0 vs ddof=1)
+│   │   ├── task4_standard_deviation.py # Population vs Sample Standard Deviation & Pandas Conventions
+│   │   ├── task5_percentiles.py        # P25, P50, P75, P90 Quantile Mapping
+│   │   ├── task6_iqr_outliers.py       # Interquartile Range & Tukey Outlier Fences
+│   │   ├── task7_zscore.py             # Z-Score Standardization & Anomaly Screening
+│   │   ├── task8_skewness.py           # Distribution Asymmetry (Symmetric vs Right-Skewed)
+│   │   ├── task9_mean_vs_median.py     # Outlier Sensitivity Breakdown (Mean vs Median)
+│   │   └── task10_real_sales_data.py   # 12-Metric Statistical Summary Table on Sales Data
+│   ├── coding_challenges/
+│   │   ├── challenge1_statistical_summary.py # 13-Metric Comprehensive Statistical Summary Function
+│   │   ├── challenge2_iqr_outlier_detector.py# Production IQR Outlier Detector Function
+│   │   ├── challenge3_compare_distributions.py# Comparative Distribution Analyzer Across 5 Moments
+│   │   ├── challenge4_top1_percent_revenue.py # Top 1% VIP Revenue Transaction Dissection
+│   │   └── challenge5_auto_column_analyzer.py # Automated Data Scientist Column Analyzer
+│   ├── data/
+│   │   └── ecommerce_sales.csv         # Enterprise Sales Transaction Dataset (750 rows)
+│   ├── app/
+│   │   ├── config.py              # Central Dimensions, Palettes, Thresholds & Column Schemas
+│   │   ├── loader.py              # Resilient CSV Ingestion & Schema Verification
+│   │   ├── validator.py           # Domain Integrity, Missing & Infinite Value Sanitizer
+│   │   ├── statistics/            # Modular Statistical Computation Engines
+│   │   │   ├── central_tendency.py# Mean, Median, Mode
+│   │   │   ├── dispersion.py      # Range, Variance, Std, IQR (sample & pop)
+│   │   │   ├── percentiles.py     # Arbitrary Percentiles, Quartiles & Deciles
+│   │   │   ├── outliers.py        # Tukey's IQR Fences & Outlier Percentage
+│   │   │   ├── zscore.py          # Standardized Z-Scores & Extreme Flags
+│   │   │   └── distribution.py    # Skewness, Kurtosis & Shape Classifier
+│   │   ├── visualizations.py      # Publication-Grade Diagnostic Figures (Hist, Box, KDE)
+│   │   ├── insights.py            # Automated Business Intelligence Rule Engine
+│   │   ├── report.py              # Multi-Report ASCII & CSV Exporter (Reports 1 to 8)
+│   │   └── main.py                # Production CLI Pipeline Orchestrator
+│   ├── output/
+│   │   ├── charts/                # 7 Publication-Quality Statistical Figures (300 DPI)
+│   │   ├── statistical_summary.csv# Section 1 & 2 Tabular CSV Export
+│   │   ├── percentile_report.csv  # Multi-Tier Percentile Matrix CSV Export
+│   │   ├── outlier_report.csv     # Tukey Outlier Envelope CSV Export
+│   │   ├── zscore_report.csv      # Z-Score Extreme Observation CSV Export
+│   │   └── statistical_report.txt # 8-Section Comprehensive Executive Analytical Report
+│   ├── tests/                     # 33 Pytest Unit & Integration Tests (100% Passing)
+│   │   ├── conftest.py
+│   │   ├── test_loader.py
+│   │   ├── test_validator.py
+│   │   ├── test_central_tendency.py
+│   │   ├── test_dispersion.py
+│   │   ├── test_percentiles.py
+│   │   ├── test_outliers.py
+│   │   ├── test_zscore.py
+│   │   ├── test_distribution.py
+│   │   ├── test_insights.py
+│   │   └── test_pipeline.py
+│   ├── pyproject.toml             # Pytest Configuration
+│   ├── requirements.txt           # Statistical Analysis Dependencies
+│   └── README.md                  # Day 65 Documentation & Architecture Guide
 ```
 
 ---
@@ -1583,6 +1641,7 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 | **Day 62** | Sep 05, 2026 | Professional Matplotlib & Dashboard Visualization: GridSpec, Reference Lines, Twinx, Annotations & Executive E-Commerce Dashboard (20 Q&As, 6 Tasks, 5 Challenges & 26 Tests) | 🟢 Completed | [Notes](Day%2062/Day62.md) • [Task 1](Day%2062/exercises/task1_multiple_subplots.py) • [Challenge 1](Day%2062/coding_challenges/challenge1_target_comparison.py) • [Challenge 2](Day%2062/coding_challenges/challenge2_dynamic_peak_annot.py) • [Challenge 3](Day%2062/coding_challenges/challenge3_kpi_dashboard.py) • [Challenge 4](Day%2062/coding_challenges/challenge4_dual_axis_margin.py) • [Challenge 5](Day%2062/coding_challenges/challenge5_reusable_engine.py) • [App Root](Day%2062/app/main.py) • [Tests](Day%2062/tests/test_dashboard.py) • [Readme](Day%2062/README.md) |
 | **Day 63** | Sep 05, 2026 | Seaborn Statistical Data Visualization: Distributions, Box/Violin Plots, Multivariate Encodings, Masked Heatmaps & Executive EDA Report (20 Q&As, 8 Tasks, 5 Challenges & 26 Tests) | 🟢 Completed | [Notes](Day%2063/Day63.md) • [Task 1](Day%2063/exercises/task1_histplot_kde.py) • [Challenge 1](Day%2063/coding_challenges/challenge1_marks_hist_kde.py) • [Challenge 2](Day%2063/coding_challenges/challenge2_dept_box_violin.py) • [Challenge 3](Day%2063/coding_challenges/challenge3_revenue_profit_hue.py) • [Challenge 4](Day%2063/coding_challenges/challenge4_correlation_extremes.py) • [Challenge 5](Day%2063/coding_challenges/challenge5_combined_eda_figure.py) • [App Root](Day%2063/app/main.py) • [Tests](Day%2063/tests/test_analyzer.py) • [Readme](Day%2063/README.md) |
 | **Day 64** | Sep 06, 2026 | Advanced Seaborn + Statistical EDA: FacetGrid, catplot, relplot, lmplot, Clustermap & Executive Customer Analytics Report Engine (20 Q&As, 9 Tasks, 5 Challenges & 36 Tests) | 🟢 Completed | [Notes](Day%2064/Day64.md) • [Task 1](Day%2064/exercises/task1_grouped_barplot.py) • [Challenge 1](Day%2064/coding_challenges/challenge1_faceted_analysis.py) • [Challenge 2](Day%2064/coding_challenges/challenge2_group_ci_comparison.py) • [Challenge 3](Day%2064/coding_challenges/challenge3_multivariate_catplot.py) • [Challenge 4](Day%2064/coding_challenges/challenge4_complex_clustermap.py) • [Challenge 5](Day%2064/coding_challenges/challenge5_auto_insights_generator.py) • [App Root](Day%2064/app/main.py) • [Tests](Day%2064/tests/test_analyzer.py) • [Readme](Day%2064/README.md) |
+| **Day 65** | Sep 06, 2026 | Statistics for Data Science: Descriptive Statistics, Central Tendency, Dispersion, IQR/Z-Score Outliers & Statistical Analysis Engine (25 Q&As, 10 Tasks, 5 Challenges & 33 Tests) | 🟢 Completed | [Notes](Day%2065/Day65.md) • [Task 1](Day%2065/exercises/task1_central_tendency.py) • [Challenge 1](Day%2065/coding_challenges/challenge1_statistical_summary.py) • [Challenge 2](Day%2065/coding_challenges/challenge2_iqr_outlier_detector.py) • [Challenge 3](Day%2065/coding_challenges/challenge3_compare_distributions.py) • [Challenge 4](Day%2065/coding_challenges/challenge4_top1_percent_revenue.py) • [Challenge 5](Day%2065/coding_challenges/challenge5_auto_column_analyzer.py) • [App Root](Day%2065/app/main.py) • [Tests](Day%2065/tests/test_central_tendency.py) • [Readme](Day%2065/README.md) |
 
 
 ---

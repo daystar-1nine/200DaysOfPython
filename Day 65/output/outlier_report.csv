@@ -1,0 +1,8 @@
+Column,Lower_Bound,Upper_Bound,Outlier_Count,Outlier_Percentage
+Quantity,-2.5,9.5,2,0.27
+Unit_Price,-34250.0,71750.0,84,11.2
+Cost_Price,-25000.0,50200.0,84,11.2
+Discount,-0.1,0.3,0,0.0
+Revenue,-122150.0,236010.0,66,8.8
+Cost,-94000.0,178000.0,77,10.27
+Profit,-18725.0,41875.0,67,8.93

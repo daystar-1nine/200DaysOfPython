@@ -1,0 +1,95 @@
+================================================================================
+      EXECUTIVE DESCRIPTIVE STATISTICS & STATISTICAL AUDIT REPORT
+================================================================================
+
+SECTION 1: BASIC CENTRAL TENDENCY & RANGE
+--------------------------------------------------------------------------------
+    Column  Count     Mean  Median     Mode    Min      Max    Range
+  Quantity    750     3.49     3.0     1.00    1.0     30.0     29.0
+Unit_Price    750 25034.40  9250.0  6500.00 1800.0 120000.0 118200.0
+Cost_Price    750 17957.27  5750.0  5500.00  900.0  95000.0  94100.0
+  Discount    750     0.10     0.1     0.15    0.0      0.2      0.2
+   Revenue    750 79274.54 30600.0  7200.00 1620.0 997500.0 995880.0
+      Cost    750 62866.67 22000.0 72000.00  900.0 720000.0 719100.0
+    Profit    750 16407.87  8700.0  6900.00  670.0 277500.0 276830.0
+
+SECTION 2: DISPERSION, VARIANCE & INTERQUARTILE RANGE
+--------------------------------------------------------------------------------
+    Column     Variance   Std_Dev       Q1        Q3     IQR
+  Quantity 4.510000e+00      2.12     2.00      5.00     3.0
+Unit_Price 8.915571e+08  29858.95  5500.00  32000.00 26500.0
+Cost_Price 5.446387e+08  23337.50  3200.00  22000.00 18800.0
+  Discount 0.000000e+00      0.07     0.05      0.15     0.1
+   Revenue 1.320873e+10 114929.26 12160.00 101700.00 89540.0
+      Cost 9.221941e+09  96030.94  8000.00  76000.00 68000.0
+    Profit 4.942657e+08  22232.09  4000.00  19150.00 15150.0
+
+SECTION 3: DISTRIBUTION SHAPE (SKEWNESS & KURTOSIS MOMENTS)
+--------------------------------------------------------------------------------
+    Column  Skewness  Kurtosis                            Skew_Type                                    Tail_Type
+  Quantity     3.956    44.524 Positively Skewed (Right-Tail Heavy) Leptokurtic (Heavy Tails, High Outlier Risk)
+Unit_Price     1.755     2.359 Positively Skewed (Right-Tail Heavy) Leptokurtic (Heavy Tails, High Outlier Risk)
+Cost_Price     1.896     2.902 Positively Skewed (Right-Tail Heavy) Leptokurtic (Heavy Tails, High Outlier Risk)
+  Discount    -0.014    -1.268              Approximately Symmetric  Platykurtic (Light Tails, Low Outlier Risk)
+   Revenue     2.799    10.277 Positively Skewed (Right-Tail Heavy) Leptokurtic (Heavy Tails, High Outlier Risk)
+      Cost     2.699     8.484 Positively Skewed (Right-Tail Heavy) Leptokurtic (Heavy Tails, High Outlier Risk)
+    Profit     4.097    30.154 Positively Skewed (Right-Tail Heavy) Leptokurtic (Heavy Tails, High Outlier Risk)
+
+SECTION 4: IQR OUTLIER ENVELOPE (TUKEY'S RULE, 1.5x IQR)
+--------------------------------------------------------------------------------
+    Column  Lower_Bound  Upper_Bound  Outlier_Count  Outlier_Percentage
+  Quantity         -2.5          9.5              2                0.27
+Unit_Price     -34250.0      71750.0             84               11.20
+Cost_Price     -25000.0      50200.0             84               11.20
+  Discount         -0.1          0.3              0                0.00
+   Revenue    -122150.0     236010.0             66                8.80
+      Cost     -94000.0     178000.0             77               10.27
+    Profit     -18725.0      41875.0             67                8.93
+
+SECTION 5: Z-SCORE EXTREME ANOMALY AUDIT (|z| > 3.0)
+--------------------------------------------------------------------------------
+    Column  Threshold  Extreme_Count  Extreme_Percentage
+  Quantity        3.0              2                0.27
+Unit_Price        3.0             27                3.60
+Cost_Price        3.0             27                3.60
+  Discount        3.0              0                0.00
+   Revenue        3.0             23                3.07
+      Cost        3.0             24                3.20
+    Profit        3.0             18                2.40
+
+SECTION 6: MULTI-TIER PERCENTILE MATRIX (P10 THROUGH P99)
+--------------------------------------------------------------------------------
+    Column    P10      P25     P50       P75      P90      P95      P99
+  Quantity    1.0     2.00     3.0      5.00      6.0      6.0      6.0
+Unit_Price 3200.0  5500.00  9250.0  32000.00  75000.0  95000.0 120000.0
+Cost_Price 1800.0  3200.00  5750.0  22000.00  58000.0  72000.0  95000.0
+  Discount    0.0     0.05     0.1      0.15      0.2      0.2      0.2
+   Revenue 6000.0 12160.00 30600.0 101700.00 216000.0 324000.0 541500.0
+      Cost 3800.0  8000.00 22000.0  76000.00 190000.0 285000.0 475000.0
+    Profit 1888.5  4000.00  8700.0  19150.00  40000.0  55500.0 105825.0
+
+SECTION 7: AUTOMATED STATISTICAL INSIGHTS & INTERPRETATIONS
+--------------------------------------------------------------------------------
+[1] Revenue Skewness Alert: The arithmetic mean (Rs. 79,274.54) exceeds the median (Rs. 30,600.00) by a factor of 2.59x. This reveals strong positive skewness, indicating that average transaction metrics are pulled upward by high-value enterprise orders.
+
+[2] Profit Margin Dispersion: Exactly 67 transactions (8.93% of total) exceed the upper Tukey IQR fence. These high-profit orders drive outsized platform profitability and represent prime VIP accounts.
+
+[3] Order Volume Concentration: Order quantities exhibit heavy lower-bound clustering (Mode = 1, P75 = 5 units). Supply chain operations and warehouse sorting should prioritize single- and dual-unit packaging.
+
+[4] Elite Customer Spending Threshold (P99): The 99th percentile revenue cutoff stands at Rs. 541,500.00. Orders beyond this value represent high-velocity corporate accounts requiring dedicated support workflows.
+
+[5] Discount Policy Discipline: Promotional discounts average 10.0% with standard deviation 7.0%, indicating adherence to structured promotional bands across retail tiers.
+
+SECTION 8: VISUAL VALIDATION ASSETS
+--------------------------------------------------------------------------------
+All statistical distributions verified against publication-grade figures in output/charts/:
+  - revenue_distribution.png (Histogram, KDE, Mean/Median divergence)
+  - profit_distribution.png (Profit spread, extreme tail risk)
+  - quantity_distribution.png (Discrete order counts)
+  - revenue_boxplot.png (Tukey IQR boundaries & outliers)
+  - profit_boxplot.png (Profit dispersion & outlier points)
+  - discount_boxplot.png (Promotional tier distribution)
+
+================================================================================
+END OF STATISTICAL REPORT
+================================================================================
