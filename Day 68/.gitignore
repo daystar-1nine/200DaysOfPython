@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.png
+*.csv
+*.txt
+!data/sample_data.csv
+!output/sampling_results.csv
+!output/bootstrap_results.csv
+!output/statistics_report.txt
+!output/charts/*.png

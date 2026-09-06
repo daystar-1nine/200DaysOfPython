@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white&style=for-the-badge" alt="Python Version">
   <img src="https://img.shields.io/badge/Challenge%20Status-In%20Progress-orange?style=for-the-badge" alt="Challenge Status">
-  <img src="https://img.shields.io/badge/Progress-67%20%2F%20200%20Days-green?style=for-the-badge" alt="Progress Badge">
+  <img src="https://img.shields.io/badge/Progress-68%20%2F%20200%20Days-green?style=for-the-badge" alt="Progress Badge">
 </p>
 
 A 200-day journey to master Python from beginner to advanced by learning daily, solving coding problems, building real-world projects, and sharing my progress publicly. This repository documents my growth, projects, and consistent learning—one day at a time. 🚀
@@ -11,9 +11,9 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 ---
 
 ## 📊 Challenge Progress
-**Current Progress:** `67 / 200 Days` (33.5%) — **PHASE 5: DATA VISUALIZATION & STATISTICS IN PROGRESS!** ⚡
+**Current Progress:** `68 / 200 Days` (34.0%) — **PHASE 5: DATA VISUALIZATION & STATISTICS IN PROGRESS!** ⚡
 ```text
-[█████████████░░░░░░░] 33.5% Complete
+[█████████████░░░░░░░] 34.0% Complete
 ```
 
 ---
@@ -1594,6 +1594,53 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 │   ├── pyproject.toml                        # Pytest Configuration
 │   ├── requirements.txt                      # Dependencies
 │   └── README.md                             # Day 67 Documentation & Architecture Guide
+├── Day 68/
+│   ├── Day68.md                              # Inferential Statistics: Sampling, Sampling Distributions & CLT (30 Q&As & 10 Insights)
+│   ├── practice/
+│   │   ├── task1_generate_population.py      # Population Synthesis with Known Parameters
+│   │   ├── task2_simple_random_sample.py     # Simple Random Sampling & Estimation Error
+│   │   ├── task3_sampling_bias_demo.py       # Systematic Sampling Bias Demonstration
+│   │   ├── task4_sampling_distribution_mean.py# Distribution of Sample Means (5,000 Draws)
+│   │   ├── task5_standard_error.py           # Standard Error Decay: sigma / sqrt(n)
+│   │   ├── task6_clt_exponential.py          # Central Limit Theorem on Exponential Population
+│   │   ├── task7_clt_uniform.py              # Central Limit Theorem on Uniform Population
+│   │   └── task8_bootstrap_mean.py           # Non-Parametric Bootstrap Resampling & 95% Percentile CI
+│   ├── coding_challenges/
+│   │   ├── challenge1_sampling_simulator.py  # Modular Sampling Simulator Function
+│   │   ├── challenge2_standard_error.py      # Standard Error with Finite Population Correction (FPC)
+│   │   ├── challenge3_clt_experiment.py      # Multi-Scale CLT Convergence & Normality Testing
+│   │   ├── challenge4_bootstrap.py           # Universal Non-Parametric Bootstrap Resampling Engine
+│   │   └── challenge5_real_world_case.py     # E-Commerce AOV Sampling Budget & Margin of Error Trade-Off
+│   ├── data/
+│   │   └── sample_data.csv                   # E-Commerce Transactions Dataset (10,000 orders)
+│   ├── app/
+│   │   ├── config.py                         # Paths, Parameters & Simulation Settings
+│   │   ├── stats_engine.py                   # Mathematical Statistical Primitives & FPC
+│   │   ├── population.py                     # Parametric Population Synthesizer
+│   │   ├── sampler.py                        # Random Sampling Engine
+│   │   ├── sampling_distribution.py          # Sample Means Sampling Distribution Engine
+│   │   ├── clt.py                            # Central Limit Theorem Convergence Analyzer
+│   │   ├── bootstrap.py                      # Non-Parametric Bootstrap Estimator
+│   │   ├── analyzer.py                       # High-Level Inference & Sampling Coordinator
+│   │   ├── visualizations.py                 # 7 Publication-Grade Statistical Visualizations (Agg Backend)
+│   │   ├── report.py                         # ASCII Report Generator & CSV Exporter
+│   │   └── main.py                           # Production Pipeline Orchestrator
+│   ├── output/
+│   │   ├── charts/                           # 7 Publication-Quality Figures (300 DPI)
+│   │   ├── sampling_results.csv              # Empirical vs Theoretical Convergence CSV
+│   │   ├── bootstrap_results.csv             # Bootstrap Resampled Means CSV
+│   │   └── statistics_report.txt             # Executive Statistical Inference Report
+│   ├── tests/                                # 34 Pytest Unit & Integration Tests (100% Passing)
+│   │   ├── conftest.py
+│   │   ├── test_population.py
+│   │   ├── test_sampler.py
+│   │   ├── test_statistics.py
+│   │   ├── test_sampling_distribution.py
+│   │   ├── test_clt.py
+│   │   └── test_bootstrap.py
+│   ├── pyproject.toml                        # Pytest Configuration
+│   ├── requirements.txt                      # Dependencies
+│   └── README.md                             # Day 68 Documentation & Architecture Guide
 ```
 
 ---
@@ -1749,6 +1796,8 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 | **Day 65** | Sep 06, 2026 | Statistics for Data Science: Descriptive Statistics, Central Tendency, Dispersion, IQR/Z-Score Outliers & Statistical Analysis Engine (25 Q&As, 10 Tasks, 5 Challenges & 33 Tests) | 🟢 Completed | [Notes](Day%2065/Day65.md) • [Task 1](Day%2065/exercises/task1_central_tendency.py) • [Challenge 1](Day%2065/coding_challenges/challenge1_statistical_summary.py) • [Challenge 2](Day%2065/coding_challenges/challenge2_iqr_outlier_detector.py) • [Challenge 3](Day%2065/coding_challenges/challenge3_compare_distributions.py) • [Challenge 4](Day%2065/coding_challenges/challenge4_top1_percent_revenue.py) • [Challenge 5](Day%2065/coding_challenges/challenge5_auto_column_analyzer.py) • [App Root](Day%2065/app/main.py) • [Tests](Day%2065/tests/test_central_tendency.py) • [Readme](Day%2065/README.md) |
 | **Day 66** | Sep 06, 2026 | Probability Fundamentals for Data Science: Classical, Empirical, Conditional, Bayes' Theorem, Random Variables & Real-World Simulation Engine (25 Q&As, 9 Tasks, 5 Challenges & 35 Tests) | 🟢 Completed | [Notes](Day%2066/Day66.md) • [Task 1](Day%2066/exercises/task1_coin_toss_convergence.py) • [Challenge 1](Day%2066/coding_challenges/challenge1_probability_convergence.py) • [Challenge 2](Day%2066/coding_challenges/challenge2_dice_fairness.py) • [Challenge 3](Day%2066/coding_challenges/challenge3_conditional_sales_probability.py) • [Challenge 4](Day%2066/coding_challenges/challenge4_bayes_customer_churn.py) • [Challenge 5](Day%2066/coding_challenges/challenge5_monte_carlo_pi.py) • [App Root](Day%2066/app/main.py) • [Tests](Day%2066/tests/test_basic.py) • [Readme](Day%2066/README.md) |
 | **Day 67** | Sep 06, 2026 | Probability Distributions: PMF, PDF, CDF, PPF, Bernoulli, Binomial, Uniform, Normal, Poisson & Distribution Analyzer (30 Q&As, 8 Tasks, 5 Challenges & 38 Tests) | 🟢 Completed | [Notes](Day%2067/Day67.md) • [Task 1](Day%2067/exercises/task1_bernoulli.py) • [Challenge 1](Day%2067/coding_challenges/challenge1_cdf_plot.py) • [Challenge 2](Day%2067/coding_challenges/challenge2_ppf_quantiles.py) • [Challenge 3](Day%2067/coding_challenges/challenge3_binomial_poisson_approximation.py) • [Challenge 4](Day%2067/coding_challenges/challenge4_normal_approximation.py) • [Challenge 5](Day%2067/coding_challenges/challenge5_monte_carlo_analyzer.py) • [App Root](Day%2067/app/main.py) • [Tests](Day%2067/tests/test_bernoulli.py) • [Readme](Day%2067/README.md) |
+| **Day 68** | Sep 06, 2026 | Inferential Statistics: Sampling, Sampling Distributions & Central Limit Theorem (CLT) (30 Q&As, 8 Tasks, 5 Challenges & 34 Tests) | 🟢 Completed | [Notes](Day%2068/Day68.md) • [Task 1](Day%2068/practice/task1_generate_population.py) • [Challenge 1](Day%2068/coding_challenges/challenge1_sampling_simulator.py) • [Challenge 2](Day%2068/coding_challenges/challenge2_standard_error.py) • [Challenge 3](Day%2068/coding_challenges/challenge3_clt_experiment.py) • [Challenge 4](Day%2068/coding_challenges/challenge4_bootstrap.py) • [Challenge 5](Day%2068/coding_challenges/challenge5_real_world_case.py) • [App Root](Day%2068/app/main.py) • [Tests](Day%2068/tests/test_population.py) • [Readme](Day%2068/README.md) |
+
 
 
 ---
