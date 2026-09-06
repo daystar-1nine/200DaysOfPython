@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white&style=for-the-badge" alt="Python Version">
   <img src="https://img.shields.io/badge/Challenge%20Status-In%20Progress-orange?style=for-the-badge" alt="Challenge Status">
-  <img src="https://img.shields.io/badge/Progress-63%20%2F%20200%20Days-green?style=for-the-badge" alt="Progress Badge">
+  <img src="https://img.shields.io/badge/Progress-64%20%2F%20200%20Days-green?style=for-the-badge" alt="Progress Badge">
 </p>
 
 A 200-day journey to master Python from beginner to advanced by learning daily, solving coding problems, building real-world projects, and sharing my progress publicly. This repository documents my growth, projects, and consistent learning—one day at a time. 🚀
@@ -11,9 +11,9 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 ---
 
 ## 📊 Challenge Progress
-**Current Progress:** `63 / 200 Days` (31.5%) — **PHASE 5: DATA VISUALIZATION WITH MATPLOTLIB & SEABORN IN PROGRESS!** ⚡
+**Current Progress:** `64 / 200 Days` (32.0%) — **PHASE 5: DATA VISUALIZATION WITH MATPLOTLIB & SEABORN IN PROGRESS!** ⚡
 ```text
-[████████████░░░░░░░░] 31.5% Complete
+[████████████░░░░░░░░] 32.0% Complete
 ```
 
 ---
@@ -1379,6 +1379,58 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 │   ├── pyproject.toml             # Pytest Configuration
 │   ├── requirements.txt           # Statistical Visualization Dependencies
 │   └── README.md                  # Day 63 Documentation & Architecture Guide
+├── Day 64/
+│   ├── Day64.md                   # Advanced Seaborn, Statistical EDA Masterclass, 20 Q&As & 10 Assessment Solutions
+│   ├── exercises/
+│   │   ├── task1_grouped_barplot.py    # Grouped Bar Plot: Category Revenue by Region with 95% CIs
+│   │   ├── task2_facetgrid_histogram.py# FacetGrid: Revenue Distribution Across Customer Segments
+│   │   ├── task3_catplot_subgroups.py  # catplot: Multi-panel Discount by Region & Category
+│   │   ├── task4_relplot_multivariate.py# relplot: Multi-dimension Sales vs Profit with Hue, Style, Size
+│   │   ├── task5_regression_order.py   # lmplot: Linear vs Polynomial (Order 2) Regression Diagnostics
+│   │   ├── task6_faceted_boxplot.py    # Faceted Boxplot: Spending by Payment Method & Category
+│   │   ├── task7_time_series_ci.py     # lineplot: Monthly Revenue Trends with Aggregation & Confidence Bands
+│   │   ├── task8_clustermap.py         # clustermap: Hierarchical Dendrogram Clustering & Heatmap
+│   │   └── task9_correlation_heatmap.py# Masked Upper-Triangle Diverging Correlation Heatmap
+│   ├── coding_challenges/
+│   │   ├── challenge1_faceted_analysis.py # Faceted Revenue vs Profit Across Regions & Segments
+│   │   ├── challenge2_group_ci_comparison.py # Category Margin Barplot with Custom 90% Confidence Interval
+│   │   ├── challenge3_multivariate_catplot.py # 4D Matrix: Spending by Segment, Category, Region & Payment
+│   │   ├── challenge4_complex_clustermap.py # Standardized (z-score) Hierarchical Clustering Clustermap
+│   │   └── challenge5_auto_insights_generator.py # Automated Statistical EDA Engine & Rule-Based Discoveries
+│   ├── data/
+│   │   └── ecommerce_sales.csv         # Enterprise Sales Transaction Dataset (750 rows)
+│   ├── app/
+│   │   ├── config.py              # Central Dimensions, Palettes, DPI, Paths & Column Schemas
+│   │   ├── loader.py              # Resilient CSV Ingestion & Schema Type Validation
+│   │   ├── cleaner.py             # Preprocessing, Type Parsing & Feature Engineering
+│   │   ├── analyzer.py            # Pure Decoupled Business Intelligence & Statistical Aggregations
+│   │   ├── distributions.py       # Faceted Histograms, KDEs & Grouped Outlier Boxplots
+│   │   ├── categorical.py         # Multi-Panel Grouped CIs & Segment Spending Catplots
+│   │   ├── relationships.py       # 5D Multivariate Relplots & OLS/Polynomial Regressions
+│   │   ├── time_analysis.py       # Time-Series Trends with Bootstrapped Confidence Bands
+│   │   ├── correlation.py         # Masked Correlation Heatmaps & Hierarchical Clustermaps
+│   │   ├── customer_analysis.py   # Customer Segmentation Matrix & Value Profiling
+│   │   ├── visualizations.py      # Master Orchestrator for 17 High-Resolution Figures
+│   │   ├── report.py              # 9-Section Executive EDA Report Generator (15+ Insights)
+│   │   └── main.py                # Production CLI Pipeline Orchestrator
+│   ├── output/
+│   │   ├── charts/                # 17 Publication-Grade Statistical Visualizations (300 DPI)
+│   │   └── advanced_eda_report.txt# 9-Section Comprehensive Executive Analytical Report
+│   ├── tests/                     # 36 Pytest Unit & Integration Tests (100% Passing)
+│   │   ├── conftest.py
+│   │   ├── test_loader.py
+│   │   ├── test_cleaner.py
+│   │   ├── test_analyzer.py
+│   │   ├── test_distributions.py
+│   │   ├── test_categorical.py
+│   │   ├── test_relationships.py
+│   │   ├── test_time_analysis.py
+│   │   ├── test_correlation.py
+│   │   ├── test_customer_analysis.py
+│   │   └── test_pipeline_integration.py
+│   ├── pyproject.toml             # Pytest Configuration
+│   ├── requirements.txt           # Statistical EDA Dependencies
+│   └── README.md                  # Day 64 Documentation & Architecture Guide
 ```
 
 ---
@@ -1530,6 +1582,7 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 | **Day 61** | Sep 05, 2026 | Matplotlib Fundamentals: Line, Bar, Scatter, Histogram, Pie & Sales Visualization Report (Figure vs Axes, 25 Q&As, 7 Tasks, 5 Challenges & 24 Tests) | 🟢 Completed | [Notes](Day%2061/Day61.md) • [Task 1](Day%2061/exercises/task1_line_chart.py) • [Challenge 1](Day%2061/coding_challenges/challenge1_sales_profit_line.py) • [Challenge 2](Day%2061/coding_challenges/challenge2_top5_products_bar.py) • [Challenge 3](Day%2061/coding_challenges/challenge3_customer_spending_hist.py) • [Challenge 4](Day%2061/coding_challenges/challenge4_discount_profit_scatter.py) • [Challenge 5](Day%2061/coding_challenges/challenge5_revenue_rolling_avg.py) • [App Root](Day%2061/app/main.py) • [Tests](Day%2061/tests/test_charts.py) • [Readme](Day%2061/README.md) |
 | **Day 62** | Sep 05, 2026 | Professional Matplotlib & Dashboard Visualization: GridSpec, Reference Lines, Twinx, Annotations & Executive E-Commerce Dashboard (20 Q&As, 6 Tasks, 5 Challenges & 26 Tests) | 🟢 Completed | [Notes](Day%2062/Day62.md) • [Task 1](Day%2062/exercises/task1_multiple_subplots.py) • [Challenge 1](Day%2062/coding_challenges/challenge1_target_comparison.py) • [Challenge 2](Day%2062/coding_challenges/challenge2_dynamic_peak_annot.py) • [Challenge 3](Day%2062/coding_challenges/challenge3_kpi_dashboard.py) • [Challenge 4](Day%2062/coding_challenges/challenge4_dual_axis_margin.py) • [Challenge 5](Day%2062/coding_challenges/challenge5_reusable_engine.py) • [App Root](Day%2062/app/main.py) • [Tests](Day%2062/tests/test_dashboard.py) • [Readme](Day%2062/README.md) |
 | **Day 63** | Sep 05, 2026 | Seaborn Statistical Data Visualization: Distributions, Box/Violin Plots, Multivariate Encodings, Masked Heatmaps & Executive EDA Report (20 Q&As, 8 Tasks, 5 Challenges & 26 Tests) | 🟢 Completed | [Notes](Day%2063/Day63.md) • [Task 1](Day%2063/exercises/task1_histplot_kde.py) • [Challenge 1](Day%2063/coding_challenges/challenge1_marks_hist_kde.py) • [Challenge 2](Day%2063/coding_challenges/challenge2_dept_box_violin.py) • [Challenge 3](Day%2063/coding_challenges/challenge3_revenue_profit_hue.py) • [Challenge 4](Day%2063/coding_challenges/challenge4_correlation_extremes.py) • [Challenge 5](Day%2063/coding_challenges/challenge5_combined_eda_figure.py) • [App Root](Day%2063/app/main.py) • [Tests](Day%2063/tests/test_analyzer.py) • [Readme](Day%2063/README.md) |
+| **Day 64** | Sep 06, 2026 | Advanced Seaborn + Statistical EDA: FacetGrid, catplot, relplot, lmplot, Clustermap & Executive Customer Analytics Report Engine (20 Q&As, 9 Tasks, 5 Challenges & 36 Tests) | 🟢 Completed | [Notes](Day%2064/Day64.md) • [Task 1](Day%2064/exercises/task1_grouped_barplot.py) • [Challenge 1](Day%2064/coding_challenges/challenge1_faceted_analysis.py) • [Challenge 2](Day%2064/coding_challenges/challenge2_group_ci_comparison.py) • [Challenge 3](Day%2064/coding_challenges/challenge3_multivariate_catplot.py) • [Challenge 4](Day%2064/coding_challenges/challenge4_complex_clustermap.py) • [Challenge 5](Day%2064/coding_challenges/challenge5_auto_insights_generator.py) • [App Root](Day%2064/app/main.py) • [Tests](Day%2064/tests/test_analyzer.py) • [Readme](Day%2064/README.md) |
 
 
 ---
