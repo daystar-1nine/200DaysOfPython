@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white&style=for-the-badge" alt="Python Version">
   <img src="https://img.shields.io/badge/Challenge%20Status-In%20Progress-orange?style=for-the-badge" alt="Challenge Status">
-  <img src="https://img.shields.io/badge/Progress-65%20%2F%20200%20Days-green?style=for-the-badge" alt="Progress Badge">
+  <img src="https://img.shields.io/badge/Progress-66%20%2F%20200%20Days-green?style=for-the-badge" alt="Progress Badge">
 </p>
 
 A 200-day journey to master Python from beginner to advanced by learning daily, solving coding problems, building real-world projects, and sharing my progress publicly. This repository documents my growth, projects, and consistent learning—one day at a time. 🚀
@@ -11,9 +11,9 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 ---
 
 ## 📊 Challenge Progress
-**Current Progress:** `65 / 200 Days` (32.5%) — **PHASE 5: DATA VISUALIZATION & STATISTICS IN PROGRESS!** ⚡
+**Current Progress:** `66 / 200 Days` (33.0%) — **PHASE 5: DATA VISUALIZATION & STATISTICS IN PROGRESS!** ⚡
 ```text
-[█████████████░░░░░░░] 32.5% Complete
+[█████████████░░░░░░░] 33.0% Complete
 ```
 
 ---
@@ -1489,6 +1489,61 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 │   ├── pyproject.toml             # Pytest Configuration
 │   ├── requirements.txt           # Statistical Analysis Dependencies
 │   └── README.md                  # Day 65 Documentation & Architecture Guide
+├── Day 66/
+│   ├── Day66.md                   # Probability Fundamentals: Theory, 25 Q&As, Assessments & 10 Insights
+│   ├── exercises/
+│   │   ├── task1_coin_toss_convergence.py   # Law of Large Numbers Simulation (10 to 100,000 Flips)
+│   │   ├── task2_dice_probabilities.py      # Uniform Probability Distribution of 6-Sided Die
+│   │   ├── task3_two_dice_sum.py            # Triangular Probability Distribution (Sum of Two Dice)
+│   │   ├── task4_card_probabilities.py      # Classical Probability with Standard 52-Card Deck
+│   │   ├── task5_union_probability.py       # Addition Rule P(A or B) = P(A) + P(B) - P(A and B)
+│   │   ├── task6_conditional_probability.py # Product Rule & Conditional Probability P(A|B)
+│   │   ├── task7_independent_events.py      # Multiplicative Independence Verification Test
+│   │   ├── task8_bayes_theorem.py           # Medical / Spam Bayesian Diagnostic Updating
+│   │   └── task9_expected_value_game.py     # Discrete Random Variable Expected Value & Variance
+│   ├── coding_challenges/
+│   │   ├── challenge1_probability_convergence.py # Multi-Scale LLN Convergence & Standard Error Bounds
+│   │   ├── challenge2_dice_fairness.py           # Chi-Square Goodness-of-Fit Dice Fairness Test
+│   │   ├── challenge3_conditional_sales_probability.py # Real-World E-Commerce Conditional & Joint Probabilities
+│   │   ├── challenge4_bayes_customer_churn.py    # Bayesian Customer Churn & Sensitivity Matrix
+│   │   └── challenge5_monte_carlo_pi.py          # Geometric Probability Monte Carlo Pi Estimation
+│   ├── data/
+│   │   └── ecommerce_sales.csv                   # Enterprise Sales Transaction Dataset (750 rows)
+│   ├── app/
+│   │   ├── config.py                             # Paths, Seeds & Simulation Parameters
+│   │   ├── probability/                          # Decoupled Mathematical Probability Engine
+│   │   │   ├── basic.py                          # Theoretical, Empirical, Complement, Union
+│   │   │   ├── conditional.py                    # Conditional, Joint, Independence Tests
+│   │   │   ├── bayes.py                          # Bayes' Rule & Belief Updating
+│   │   │   └── expected_value.py                 # E[X], Var(X) & SD(X) for Discrete Variables
+│   │   ├── simulations/                          # Empirical Stochastic Generators
+│   │   │   ├── coin.py                           # Bernoulli Coin Toss Convergence
+│   │   │   ├── dice.py                           # Single & Double Dice Roll Simulators
+│   │   │   ├── cards.py                          # 52-Card Deck Random Draw Simulator
+│   │   │   ├── conversion.py                     # Marketing A/B Conversion & Z-Score Tests
+│   │   │   └── risk.py                           # Gambling / Investment Expected Return Engine
+│   │   ├── analysis.py                           # Master Simulation Orchestrator
+│   │   ├── visualizations.py                     # Publication-Grade Figures (Agg Backend)
+│   │   ├── report.py                             # Multi-Dataset CSV Exporter & ASCII Report
+│   │   └── main.py                               # Production Pipeline Entry Point
+│   ├── output/
+│   │   ├── charts/                               # 5 Publication-Quality Figures (300 DPI) + Pi Chart
+│   │   ├── coin_results.csv                      # LLN Coin Flips Time-Series CSV
+│   │   ├── dice_results.csv                      # Single Die Empirical Distribution CSV
+│   │   ├── card_results.csv                      # Card Draw Outcomes & Empirical Frequencies CSV
+│   │   ├── conversion_results.csv                # A/B Test Variants & Confidence Intervals CSV
+│   │   └── probability_report.txt                # Executive ASCII Probability Summary Report
+│   ├── tests/                                    # 35 Pytest Unit & Integration Tests (100% Passing)
+│   │   ├── conftest.py
+│   │   ├── test_basic.py
+│   │   ├── test_conditional.py
+│   │   ├── test_bayes.py
+│   │   ├── test_expected_value.py
+│   │   ├── test_simulations.py
+│   │   └── test_pipeline.py
+│   ├── pyproject.toml                            # Pytest Configuration
+│   ├── requirements.txt                          # Probability & Simulation Dependencies
+│   └── README.md                                 # Day 66 Documentation & Architecture Guide
 ```
 
 ---
@@ -1642,6 +1697,7 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 | **Day 63** | Sep 05, 2026 | Seaborn Statistical Data Visualization: Distributions, Box/Violin Plots, Multivariate Encodings, Masked Heatmaps & Executive EDA Report (20 Q&As, 8 Tasks, 5 Challenges & 26 Tests) | 🟢 Completed | [Notes](Day%2063/Day63.md) • [Task 1](Day%2063/exercises/task1_histplot_kde.py) • [Challenge 1](Day%2063/coding_challenges/challenge1_marks_hist_kde.py) • [Challenge 2](Day%2063/coding_challenges/challenge2_dept_box_violin.py) • [Challenge 3](Day%2063/coding_challenges/challenge3_revenue_profit_hue.py) • [Challenge 4](Day%2063/coding_challenges/challenge4_correlation_extremes.py) • [Challenge 5](Day%2063/coding_challenges/challenge5_combined_eda_figure.py) • [App Root](Day%2063/app/main.py) • [Tests](Day%2063/tests/test_analyzer.py) • [Readme](Day%2063/README.md) |
 | **Day 64** | Sep 06, 2026 | Advanced Seaborn + Statistical EDA: FacetGrid, catplot, relplot, lmplot, Clustermap & Executive Customer Analytics Report Engine (20 Q&As, 9 Tasks, 5 Challenges & 36 Tests) | 🟢 Completed | [Notes](Day%2064/Day64.md) • [Task 1](Day%2064/exercises/task1_grouped_barplot.py) • [Challenge 1](Day%2064/coding_challenges/challenge1_faceted_analysis.py) • [Challenge 2](Day%2064/coding_challenges/challenge2_group_ci_comparison.py) • [Challenge 3](Day%2064/coding_challenges/challenge3_multivariate_catplot.py) • [Challenge 4](Day%2064/coding_challenges/challenge4_complex_clustermap.py) • [Challenge 5](Day%2064/coding_challenges/challenge5_auto_insights_generator.py) • [App Root](Day%2064/app/main.py) • [Tests](Day%2064/tests/test_analyzer.py) • [Readme](Day%2064/README.md) |
 | **Day 65** | Sep 06, 2026 | Statistics for Data Science: Descriptive Statistics, Central Tendency, Dispersion, IQR/Z-Score Outliers & Statistical Analysis Engine (25 Q&As, 10 Tasks, 5 Challenges & 33 Tests) | 🟢 Completed | [Notes](Day%2065/Day65.md) • [Task 1](Day%2065/exercises/task1_central_tendency.py) • [Challenge 1](Day%2065/coding_challenges/challenge1_statistical_summary.py) • [Challenge 2](Day%2065/coding_challenges/challenge2_iqr_outlier_detector.py) • [Challenge 3](Day%2065/coding_challenges/challenge3_compare_distributions.py) • [Challenge 4](Day%2065/coding_challenges/challenge4_top1_percent_revenue.py) • [Challenge 5](Day%2065/coding_challenges/challenge5_auto_column_analyzer.py) • [App Root](Day%2065/app/main.py) • [Tests](Day%2065/tests/test_central_tendency.py) • [Readme](Day%2065/README.md) |
+| **Day 66** | Sep 06, 2026 | Probability Fundamentals for Data Science: Classical, Empirical, Conditional, Bayes' Theorem, Random Variables & Real-World Simulation Engine (25 Q&As, 9 Tasks, 5 Challenges & 35 Tests) | 🟢 Completed | [Notes](Day%2066/Day66.md) • [Task 1](Day%2066/exercises/task1_coin_toss_convergence.py) • [Challenge 1](Day%2066/coding_challenges/challenge1_probability_convergence.py) • [Challenge 2](Day%2066/coding_challenges/challenge2_dice_fairness.py) • [Challenge 3](Day%2066/coding_challenges/challenge3_conditional_sales_probability.py) • [Challenge 4](Day%2066/coding_challenges/challenge4_bayes_customer_churn.py) • [Challenge 5](Day%2066/coding_challenges/challenge5_monte_carlo_pi.py) • [App Root](Day%2066/app/main.py) • [Tests](Day%2066/tests/test_basic.py) • [Readme](Day%2066/README.md) |
 
 
 ---
