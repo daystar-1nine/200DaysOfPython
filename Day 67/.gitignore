@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.png
+*.csv
+*.txt
+!output/distribution_summary.csv
+!output/probability_results.csv
+!output/simulation_results.csv
+!output/distribution_report.txt
+!output/charts/*.png

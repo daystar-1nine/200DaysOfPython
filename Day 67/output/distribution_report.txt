@@ -1,0 +1,81 @@
+==============================================================================
+         DAY 67: PROBABILITY DISTRIBUTION ANALYZER EXECUTIVE REPORT
+==============================================================================
+
+1. THEORETICAL DISTRIBUTION PARAMETERS & MOMENTS
+------------------------------------------------------------------------------
+  Distribution: Bernoulli    | Mean: 0.7      | Var: 0.21     | Std: 0.4583   | Parameters: {'p': 0.7}
+  Distribution: Binomial     | Mean: 8.0      | Var: 4.8      | Std: 2.1909   | Parameters: {'n': 20, 'p': 0.4}
+  Distribution: Uniform      | Mean: 5.0      | Var: 8.3333   | Std: 2.8868   | Parameters: {'a': 0.0, 'b': 10.0}
+  Distribution: Normal       | Mean: 70.0     | Var: 100.0    | Std: 10.0     | Parameters: {'mu': 70.0, 'sigma': 10.0}
+  Distribution: Poisson      | Mean: 5.0      | Var: 5.0      | Std: 2.2361   | Parameters: {'lambda': 5.0}
+
+2. KEY PROBABILITY CALCULATIONS (PMF / PDF / CDF / PPF)
+------------------------------------------------------------------------------
+  Bernoulli    | P(X = 0)                             = 0.3
+  Bernoulli    | P(X = 1)                             = 0.7
+  Binomial     | P(X = 5)                             = 0.074647
+  Binomial     | P(X <= 5)                            = 0.125599
+  Binomial     | P(X >= 5)                            = 0.949048
+  Binomial     | P(X = 10)                            = 0.117142
+  Binomial     | P(X <= 10)                           = 0.872479
+  Binomial     | P(X >= 10)                           = 0.244663
+  Binomial     | P(X = 15)                            = 0.001294
+  Binomial     | P(X <= 15)                           = 0.999683
+  Binomial     | P(X >= 15)                           = 0.001612
+  Uniform      | PDF at Midpoint (5.0)                = 0.1
+  Uniform      | P(X <= 5.0)                          = 0.5
+  Uniform      | P(2.5 <= X <= 7.5)                   = 0.5
+  Normal       | P(X <= 60.0) [Below 1s]              = 0.158655
+  Normal       | P(60.0 <= X <= 80.0) [Within 1s]     = 0.682689
+  Normal       | P(50.0 <= X <= 90.0) [Within 2s]     = 0.9545
+  Normal       | 95th Percentile (PPF 0.95)           = 86.4485
+  Normal       | 99th Percentile (PPF 0.99)           = 93.2635
+  Poisson      | P(X = 5) [Peak]                      = 0.175467
+  Poisson      | P(X <= 5)                            = 0.615961
+  Poisson      | P(X > 5)                             = 0.384039
+
+3. MONTE CARLO SIMULATION VALIDATION (THEORY VS SIMULATION)
+------------------------------------------------------------------------------
+  Bernoulli  | Mean       | Theo: 0.7       | Sim: 0.7031    | Abs Err: 0.0031
+  Bernoulli  | Variance   | Theo: 0.21      | Sim: 0.20875   | Abs Err: 0.00125
+  Bernoulli  | Std Dev    | Theo: 0.45826   | Sim: 0.4569    | Abs Err: 0.00136
+  Bernoulli  | Median     | Theo: 1.0       | Sim: 1.0       | Abs Err: 0.0
+  Bernoulli  | P10        | Theo: 0.0       | Sim: 0.0       | Abs Err: 0.0
+  Bernoulli  | P90        | Theo: 1.0       | Sim: 1.0       | Abs Err: 0.0
+  Binomial   | Mean       | Theo: 8.0       | Sim: 7.99272   | Abs Err: 0.00728
+  Binomial   | Variance   | Theo: 4.8       | Sim: 4.78644   | Abs Err: 0.01356
+  Binomial   | Std Dev    | Theo: 2.19089   | Sim: 2.18779   | Abs Err: 0.0031
+  Binomial   | Median     | Theo: 8.0       | Sim: 8.0       | Abs Err: 0.0
+  Binomial   | P10        | Theo: 5.0       | Sim: 5.0       | Abs Err: 0.0
+  Binomial   | P90        | Theo: 11.0      | Sim: 11.0      | Abs Err: 0.0
+  Uniform    | Mean       | Theo: 5.0       | Sim: 4.98863   | Abs Err: 0.01137
+  Uniform    | Variance   | Theo: 8.33333   | Sim: 8.31782   | Abs Err: 0.01551
+  Uniform    | Std Dev    | Theo: 2.88675   | Sim: 2.88406   | Abs Err: 0.00269
+  Uniform    | Median     | Theo: 5.0       | Sim: 4.98892   | Abs Err: 0.01108
+  Uniform    | P10        | Theo: 1.0       | Sim: 0.99664   | Abs Err: 0.00336
+  Uniform    | P90        | Theo: 9.0       | Sim: 8.99335   | Abs Err: 0.00665
+  Normal     | Mean       | Theo: 70.0      | Sim: 69.99579  | Abs Err: 0.00421
+  Normal     | Variance   | Theo: 100.0     | Sim: 100.03398 | Abs Err: 0.03398
+  Normal     | Std Dev    | Theo: 10.0      | Sim: 10.0017   | Abs Err: 0.0017
+  Normal     | Median     | Theo: 70.0      | Sim: 70.01739  | Abs Err: 0.01739
+  Normal     | P10        | Theo: 57.18448  | Sim: 57.16998  | Abs Err: 0.0145
+  Normal     | P90        | Theo: 82.81552  | Sim: 82.81344  | Abs Err: 0.00207
+  Poisson    | Mean       | Theo: 5.0       | Sim: 5.00594   | Abs Err: 0.00594
+  Poisson    | Variance   | Theo: 5.0       | Sim: 4.98824   | Abs Err: 0.01176
+  Poisson    | Std Dev    | Theo: 2.23607   | Sim: 2.23344   | Abs Err: 0.00263
+  Poisson    | Median     | Theo: 5.0       | Sim: 5.0       | Abs Err: 0.0
+  Poisson    | P10        | Theo: 2.0       | Sim: 2.0       | Abs Err: 0.0
+  Poisson    | P90        | Theo: 8.0       | Sim: 8.0       | Abs Err: 0.0
+
+4. MATHEMATICAL INSIGHT: LAW OF LARGE NUMBERS & SIMULATION CONVERGENCE
+------------------------------------------------------------------------------
+  - The minor discrepancies between theoretical values and simulated samples
+    are governed by random sampling variation.
+  - By the Central Limit Theorem, error shrinks proportionally to 1 / sqrt(N).
+  - Across N = 50,000 samples, all empirical means remain strictly within
+    their respective 95% confidence intervals (+/- 2 * SE).
+
+==============================================================================
+                           END OF REPORT
+==============================================================================

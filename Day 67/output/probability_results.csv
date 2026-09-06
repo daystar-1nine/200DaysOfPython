@@ -1,0 +1,23 @@
+Distribution,Query,Value
+Bernoulli,P(X = 0),0.3
+Bernoulli,P(X = 1),0.7
+Binomial,P(X = 5),0.074647
+Binomial,P(X <= 5),0.125599
+Binomial,P(X >= 5),0.949048
+Binomial,P(X = 10),0.117142
+Binomial,P(X <= 10),0.872479
+Binomial,P(X >= 10),0.244663
+Binomial,P(X = 15),0.001294
+Binomial,P(X <= 15),0.999683
+Binomial,P(X >= 15),0.001612
+Uniform,PDF at Midpoint (5.0),0.1
+Uniform,P(X <= 5.0),0.5
+Uniform,P(2.5 <= X <= 7.5),0.5
+Normal,P(X <= 60.0) [Below 1s],0.158655
+Normal,P(60.0 <= X <= 80.0) [Within 1s],0.682689
+Normal,P(50.0 <= X <= 90.0) [Within 2s],0.9545
+Normal,95th Percentile (PPF 0.95),86.4485
+Normal,99th Percentile (PPF 0.99),93.2635
+Poisson,P(X = 5) [Peak],0.175467
+Poisson,P(X <= 5),0.615961
+Poisson,P(X > 5),0.384039

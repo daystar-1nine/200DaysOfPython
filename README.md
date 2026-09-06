@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white&style=for-the-badge" alt="Python Version">
   <img src="https://img.shields.io/badge/Challenge%20Status-In%20Progress-orange?style=for-the-badge" alt="Challenge Status">
-  <img src="https://img.shields.io/badge/Progress-66%20%2F%20200%20Days-green?style=for-the-badge" alt="Progress Badge">
+  <img src="https://img.shields.io/badge/Progress-67%20%2F%20200%20Days-green?style=for-the-badge" alt="Progress Badge">
 </p>
 
 A 200-day journey to master Python from beginner to advanced by learning daily, solving coding problems, building real-world projects, and sharing my progress publicly. This repository documents my growth, projects, and consistent learning—one day at a time. 🚀
@@ -11,9 +11,9 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 ---
 
 ## 📊 Challenge Progress
-**Current Progress:** `66 / 200 Days` (33.0%) — **PHASE 5: DATA VISUALIZATION & STATISTICS IN PROGRESS!** ⚡
+**Current Progress:** `67 / 200 Days` (33.5%) — **PHASE 5: DATA VISUALIZATION & STATISTICS IN PROGRESS!** ⚡
 ```text
-[█████████████░░░░░░░] 33.0% Complete
+[█████████████░░░░░░░] 33.5% Complete
 ```
 
 ---
@@ -1544,6 +1544,56 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 │   ├── pyproject.toml                            # Pytest Configuration
 │   ├── requirements.txt                          # Probability & Simulation Dependencies
 │   └── README.md                                 # Day 66 Documentation & Architecture Guide
+├── Day 67/
+│   ├── Day67.md                   # Probability Distributions: Theory, 30 Q&As, Assessments & 10 Insights
+│   ├── exercises/
+│   │   ├── task1_bernoulli.py                # Bernoulli Distribution Calculations
+│   │   ├── task2_binomial.py                 # Binomial Customer Conversion Probabilities
+│   │   ├── task3_normal.py                   # Normal Exam Score Probabilities
+│   │   ├── task4_normal_percentile.py        # Quantiles via norm.ppf()
+│   │   ├── task5_poisson.py                  # Poisson Web Server Request Probabilities
+│   │   ├── task6_simulation.py               # Normal Monte Carlo Sampling & Comparison
+│   │   ├── task7_distribution_comparison.py  # Normal Distribution Variance Scaling (sigma = 5, 10, 20)
+│   │   └── task8_binomial_simulation.py      # Binomial Simulation vs Theoretical PMF
+│   ├── coding_challenges/
+│   │   ├── challenge1_cdf_plot.py            # Multi-Distribution CDF Comparative Visualization
+│   │   ├── challenge2_ppf_quantiles.py       # Normal Percent Point Function (PPF) Quantile Mapping
+│   │   ├── challenge3_binomial_poisson_approximation.py # Poisson Approximation of the Binomial
+│   │   ├── challenge4_normal_approximation.py# De Moivre-Laplace Normal Approximation to Binomial
+│   │   └── challenge5_monte_carlo_analyzer.py# Universal Monte Carlo Distribution Analyzer
+│   ├── distributions/                        # Decoupled Mathematical Distribution Classes
+│   │   ├── base.py                           # BaseDistribution Abstract Interface
+│   │   ├── bernoulli.py                      # Bernoulli Distribution Class
+│   │   ├── binomial.py                       # Binomial Distribution Class
+│   │   ├── uniform.py                        # Continuous Uniform Distribution Class
+│   │   ├── normal.py                         # Normal (Gaussian) Distribution Class
+│   │   └── poisson.py                        # Poisson Distribution Class
+│   ├── app/
+│   │   ├── config.py                         # Paths, Parameters & Default Profiles
+│   │   ├── validator.py                      # Distribution Parameter Boundary Validation
+│   │   ├── analyzer.py                       # Factory & Probability Evaluation Engine
+│   │   ├── simulator.py                      # Stochastic Simulation & Empirical Moments
+│   │   ├── visualizations.py                 # 8 Publication-Grade Charts (Agg Backend)
+│   │   ├── report.py                         # CSV Data Exporter & ASCII Report Generator
+│   │   └── main.py                           # Production Pipeline Orchestrator
+│   ├── output/
+│   │   ├── charts/                           # 8 Publication-Quality Figures (300 DPI)
+│   │   ├── distribution_summary.csv          # Theoretical Parameters & Moments CSV
+│   │   ├── probability_results.csv           # Evaluated Probabilities & Quantiles CSV
+│   │   ├── simulation_results.csv            # Monte Carlo Empirical vs Theoretical CSV
+│   │   └── distribution_report.txt           # Executive ASCII Summary Report
+│   ├── tests/                                # 38 Pytest Unit & Integration Tests (100% Passing)
+│   │   ├── conftest.py
+│   │   ├── test_bernoulli.py
+│   │   ├── test_binomial.py
+│   │   ├── test_uniform.py
+│   │   ├── test_normal.py
+│   │   ├── test_poisson.py
+│   │   ├── test_simulator.py
+│   │   └── test_validator.py
+│   ├── pyproject.toml                        # Pytest Configuration
+│   ├── requirements.txt                      # Dependencies
+│   └── README.md                             # Day 67 Documentation & Architecture Guide
 ```
 
 ---
@@ -1698,6 +1748,7 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 | **Day 64** | Sep 06, 2026 | Advanced Seaborn + Statistical EDA: FacetGrid, catplot, relplot, lmplot, Clustermap & Executive Customer Analytics Report Engine (20 Q&As, 9 Tasks, 5 Challenges & 36 Tests) | 🟢 Completed | [Notes](Day%2064/Day64.md) • [Task 1](Day%2064/exercises/task1_grouped_barplot.py) • [Challenge 1](Day%2064/coding_challenges/challenge1_faceted_analysis.py) • [Challenge 2](Day%2064/coding_challenges/challenge2_group_ci_comparison.py) • [Challenge 3](Day%2064/coding_challenges/challenge3_multivariate_catplot.py) • [Challenge 4](Day%2064/coding_challenges/challenge4_complex_clustermap.py) • [Challenge 5](Day%2064/coding_challenges/challenge5_auto_insights_generator.py) • [App Root](Day%2064/app/main.py) • [Tests](Day%2064/tests/test_analyzer.py) • [Readme](Day%2064/README.md) |
 | **Day 65** | Sep 06, 2026 | Statistics for Data Science: Descriptive Statistics, Central Tendency, Dispersion, IQR/Z-Score Outliers & Statistical Analysis Engine (25 Q&As, 10 Tasks, 5 Challenges & 33 Tests) | 🟢 Completed | [Notes](Day%2065/Day65.md) • [Task 1](Day%2065/exercises/task1_central_tendency.py) • [Challenge 1](Day%2065/coding_challenges/challenge1_statistical_summary.py) • [Challenge 2](Day%2065/coding_challenges/challenge2_iqr_outlier_detector.py) • [Challenge 3](Day%2065/coding_challenges/challenge3_compare_distributions.py) • [Challenge 4](Day%2065/coding_challenges/challenge4_top1_percent_revenue.py) • [Challenge 5](Day%2065/coding_challenges/challenge5_auto_column_analyzer.py) • [App Root](Day%2065/app/main.py) • [Tests](Day%2065/tests/test_central_tendency.py) • [Readme](Day%2065/README.md) |
 | **Day 66** | Sep 06, 2026 | Probability Fundamentals for Data Science: Classical, Empirical, Conditional, Bayes' Theorem, Random Variables & Real-World Simulation Engine (25 Q&As, 9 Tasks, 5 Challenges & 35 Tests) | 🟢 Completed | [Notes](Day%2066/Day66.md) • [Task 1](Day%2066/exercises/task1_coin_toss_convergence.py) • [Challenge 1](Day%2066/coding_challenges/challenge1_probability_convergence.py) • [Challenge 2](Day%2066/coding_challenges/challenge2_dice_fairness.py) • [Challenge 3](Day%2066/coding_challenges/challenge3_conditional_sales_probability.py) • [Challenge 4](Day%2066/coding_challenges/challenge4_bayes_customer_churn.py) • [Challenge 5](Day%2066/coding_challenges/challenge5_monte_carlo_pi.py) • [App Root](Day%2066/app/main.py) • [Tests](Day%2066/tests/test_basic.py) • [Readme](Day%2066/README.md) |
+| **Day 67** | Sep 06, 2026 | Probability Distributions: PMF, PDF, CDF, PPF, Bernoulli, Binomial, Uniform, Normal, Poisson & Distribution Analyzer (30 Q&As, 8 Tasks, 5 Challenges & 38 Tests) | 🟢 Completed | [Notes](Day%2067/Day67.md) • [Task 1](Day%2067/exercises/task1_bernoulli.py) • [Challenge 1](Day%2067/coding_challenges/challenge1_cdf_plot.py) • [Challenge 2](Day%2067/coding_challenges/challenge2_ppf_quantiles.py) • [Challenge 3](Day%2067/coding_challenges/challenge3_binomial_poisson_approximation.py) • [Challenge 4](Day%2067/coding_challenges/challenge4_normal_approximation.py) • [Challenge 5](Day%2067/coding_challenges/challenge5_monte_carlo_analyzer.py) • [App Root](Day%2067/app/main.py) • [Tests](Day%2067/tests/test_bernoulli.py) • [Readme](Day%2067/README.md) |
 
 
 ---

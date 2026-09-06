@@ -1,0 +1,6 @@
+Distribution,Parameters,Mean,Variance,Std_Dev,Is_Discrete
+Bernoulli,{'p': 0.7},0.7,0.21,0.4583,True
+Binomial,"{'n': 20, 'p': 0.4}",8.0,4.8,2.1909,True
+Uniform,"{'a': 0.0, 'b': 10.0}",5.0,8.3333,2.8868,False
+Normal,"{'mu': 70.0, 'sigma': 10.0}",70.0,100.0,10.0,False
+Poisson,{'lambda': 5.0},5.0,5.0,2.2361,True

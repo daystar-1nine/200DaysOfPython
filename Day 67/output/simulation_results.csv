@@ -1,0 +1,31 @@
+Metric,Theoretical,Simulated,Abs_Error,Distribution
+Mean,0.7,0.7031,0.0031,Bernoulli
+Variance,0.21,0.20875,0.00125,Bernoulli
+Std Dev,0.45826,0.4569,0.00136,Bernoulli
+Median,1.0,1.0,0.0,Bernoulli
+P10,0.0,0.0,0.0,Bernoulli
+P90,1.0,1.0,0.0,Bernoulli
+Mean,8.0,7.99272,0.00728,Binomial
+Variance,4.8,4.78644,0.01356,Binomial
+Std Dev,2.19089,2.18779,0.0031,Binomial
+Median,8.0,8.0,0.0,Binomial
+P10,5.0,5.0,0.0,Binomial
+P90,11.0,11.0,0.0,Binomial
+Mean,5.0,4.98863,0.01137,Uniform
+Variance,8.33333,8.31782,0.01551,Uniform
+Std Dev,2.88675,2.88406,0.00269,Uniform
+Median,5.0,4.98892,0.01108,Uniform
+P10,1.0,0.99664,0.00336,Uniform
+P90,9.0,8.99335,0.00665,Uniform
+Mean,70.0,69.99579,0.00421,Normal
+Variance,100.0,100.03398,0.03398,Normal
+Std Dev,10.0,10.0017,0.0017,Normal
+Median,70.0,70.01739,0.01739,Normal
+P10,57.18448,57.16998,0.0145,Normal
+P90,82.81552,82.81344,0.00207,Normal
+Mean,5.0,5.00594,0.00594,Poisson
+Variance,5.0,4.98824,0.01176,Poisson
+Std Dev,2.23607,2.23344,0.00263,Poisson
+Median,5.0,5.0,0.0,Poisson
+P10,2.0,2.0,0.0,Poisson
+P90,8.0,8.0,0.0,Poisson
