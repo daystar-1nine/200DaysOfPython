@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white&style=for-the-badge" alt="Python Version">
   <img src="https://img.shields.io/badge/Challenge%20Status-In%20Progress-orange?style=for-the-badge" alt="Challenge Status">
-  <img src="https://img.shields.io/badge/Progress-68%20%2F%20200%20Days-green?style=for-the-badge" alt="Progress Badge">
+  <img src="https://img.shields.io/badge/Progress-69%20%2F%20200%20Days-green?style=for-the-badge" alt="Progress Badge">
 </p>
 
 A 200-day journey to master Python from beginner to advanced by learning daily, solving coding problems, building real-world projects, and sharing my progress publicly. This repository documents my growth, projects, and consistent learning—one day at a time. 🚀
@@ -11,9 +11,9 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 ---
 
 ## 📊 Challenge Progress
-**Current Progress:** `68 / 200 Days` (34.0%) — **PHASE 5: DATA VISUALIZATION & STATISTICS IN PROGRESS!** ⚡
+**Current Progress:** `69 / 200 Days` (34.5%) — **PHASE 5: DATA VISUALIZATION & STATISTICS IN PROGRESS!** ⚡
 ```text
-[█████████████░░░░░░░] 34.0% Complete
+[█████████████░░░░░░░] 34.5% Complete
 ```
 
 ---
@@ -1641,6 +1641,53 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 │   ├── pyproject.toml                        # Pytest Configuration
 │   ├── requirements.txt                      # Dependencies
 │   └── README.md                             # Day 68 Documentation & Architecture Guide
+├── Day 69/
+│   ├── Day69.md                              # Confidence Intervals & Statistical Estimation (30 Q&As & 10 Insights)
+│   ├── practice/
+│   │   ├── task1_point_estimates.py          # Point Estimates & Standard Error Calculation
+│   │   ├── task2_z_interval.py               # Z-Distribution Confidence Interval (Known Sigma)
+│   │   ├── task3_t_interval.py               # T-Distribution Confidence Interval (Unknown Sigma)
+│   │   ├── task4_proportion_interval.py      # Proportion Confidence Interval (Wald & Wilson Score)
+│   │   ├── task5_sample_size.py              # Sample Size Determination for Targeted Margin of Error
+│   │   ├── task6_compare_confidence_levels.py# Multi-Level Confidence Comparison (90% vs 95% vs 99%)
+│   │   └── task7_sample_size_impact.py       # Sample Size Impact on Confidence Interval Width
+│   ├── coding_challenges/
+│   │   ├── challenge1_adaptive_mean_ci.py    # Adaptive Mean CI with Auto Z/T Distribution Selection
+│   │   ├── challenge2_compare_levels.py      # Multi-Level Confidence Interval Comparison Function
+│   │   ├── challenge3_plot_ci_comparison.py  # Visual Horizontal Error Bar CI Comparison Plot
+│   │   ├── challenge4_bootstrap_ci.py        # Universal Non-Parametric Bootstrap CI Resampler
+│   │   └── challenge5_full_estimation.py     # Comprehensive Population Parameter Estimation Function
+│   ├── data/
+│   │   └── customer_orders.csv               # E-Commerce Customer Orders Dataset (1,000 orders)
+│   ├── app/
+│   │   ├── config.py                         # Paths, Parameters & Simulation Settings
+│   │   ├── validator.py                      # Input Validation & Boundary Checks
+│   │   ├── loader.py                         # CSV, JSON, and List Ingestion Engine
+│   │   ├── stats_calc.py                     # Descriptive Statistics & Standard Error Primitives
+│   │   ├── estimators.py                     # Point and Parameter Estimation Abstractions
+│   │   ├── confidence_intervals.py           # Z-Interval, T-Interval, Wald & Wilson Proportions Engine
+│   │   ├── sample_size.py                    # Sample Size Planning for Mean & Proportions
+│   │   ├── bootstrap.py                      # Non-Parametric Bootstrap Resampling Engine
+│   │   ├── insights.py                       # Automated Business Intelligence & Interpretation Engine
+│   │   ├── visualizations.py                 # 7 Publication-Grade Statistical Figures (Agg Backend)
+│   │   ├── report.py                         # ASCII Report Generator & CSV Exporter
+│   │   └── main.py                           # Production Pipeline Orchestrator
+│   ├── output/
+│   │   ├── charts/                           # 7 Publication-Quality Figures (300 DPI)
+│   │   ├── confidence_intervals.csv          # Multi-Level Confidence Summary Matrix CSV
+│   │   ├── bootstrap_results.csv             # 10,000 Bootstrap Resampled Means CSV
+│   │   └── estimation_report.txt             # Executive Statistical Estimation Report
+│   ├── tests/                                # 35 Pytest Unit & Integration Tests (100% Passing)
+│   │   ├── conftest.py
+│   │   ├── test_validator.py
+│   │   ├── test_statistics.py
+│   │   ├── test_estimators.py
+│   │   ├── test_confidence_intervals.py
+│   │   ├── test_sample_size.py
+│   │   └── test_bootstrap.py
+│   ├── pyproject.toml                        # Pytest Configuration
+│   ├── requirements.txt                      # Dependencies
+│   └── README.md                             # Day 69 Documentation & Architecture Guide
 ```
 
 ---
@@ -1797,6 +1844,8 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 | **Day 66** | Sep 06, 2026 | Probability Fundamentals for Data Science: Classical, Empirical, Conditional, Bayes' Theorem, Random Variables & Real-World Simulation Engine (25 Q&As, 9 Tasks, 5 Challenges & 35 Tests) | 🟢 Completed | [Notes](Day%2066/Day66.md) • [Task 1](Day%2066/exercises/task1_coin_toss_convergence.py) • [Challenge 1](Day%2066/coding_challenges/challenge1_probability_convergence.py) • [Challenge 2](Day%2066/coding_challenges/challenge2_dice_fairness.py) • [Challenge 3](Day%2066/coding_challenges/challenge3_conditional_sales_probability.py) • [Challenge 4](Day%2066/coding_challenges/challenge4_bayes_customer_churn.py) • [Challenge 5](Day%2066/coding_challenges/challenge5_monte_carlo_pi.py) • [App Root](Day%2066/app/main.py) • [Tests](Day%2066/tests/test_basic.py) • [Readme](Day%2066/README.md) |
 | **Day 67** | Sep 06, 2026 | Probability Distributions: PMF, PDF, CDF, PPF, Bernoulli, Binomial, Uniform, Normal, Poisson & Distribution Analyzer (30 Q&As, 8 Tasks, 5 Challenges & 38 Tests) | 🟢 Completed | [Notes](Day%2067/Day67.md) • [Task 1](Day%2067/exercises/task1_bernoulli.py) • [Challenge 1](Day%2067/coding_challenges/challenge1_cdf_plot.py) • [Challenge 2](Day%2067/coding_challenges/challenge2_ppf_quantiles.py) • [Challenge 3](Day%2067/coding_challenges/challenge3_binomial_poisson_approximation.py) • [Challenge 4](Day%2067/coding_challenges/challenge4_normal_approximation.py) • [Challenge 5](Day%2067/coding_challenges/challenge5_monte_carlo_analyzer.py) • [App Root](Day%2067/app/main.py) • [Tests](Day%2067/tests/test_bernoulli.py) • [Readme](Day%2067/README.md) |
 | **Day 68** | Sep 06, 2026 | Inferential Statistics: Sampling, Sampling Distributions & Central Limit Theorem (CLT) (30 Q&As, 8 Tasks, 5 Challenges & 34 Tests) | 🟢 Completed | [Notes](Day%2068/Day68.md) • [Task 1](Day%2068/practice/task1_generate_population.py) • [Challenge 1](Day%2068/coding_challenges/challenge1_sampling_simulator.py) • [Challenge 2](Day%2068/coding_challenges/challenge2_standard_error.py) • [Challenge 3](Day%2068/coding_challenges/challenge3_clt_experiment.py) • [Challenge 4](Day%2068/coding_challenges/challenge4_bootstrap.py) • [Challenge 5](Day%2068/coding_challenges/challenge5_real_world_case.py) • [App Root](Day%2068/app/main.py) • [Tests](Day%2068/tests/test_population.py) • [Readme](Day%2068/README.md) |
+| **Day 69** | Sep 07, 2026 | Confidence Intervals & Statistical Estimation (Z/T Intervals, Proportions, Sample Size, Bootstrap) (30 Q&As, 7 Tasks, 5 Challenges & 35 Tests) | 🟢 Completed | [Notes](Day%2069/Day69.md) • [Task 1](Day%2069/practice/task1_point_estimates.py) • [Challenge 1](Day%2069/coding_challenges/challenge1_adaptive_mean_ci.py) • [Challenge 2](Day%2069/coding_challenges/challenge2_compare_levels.py) • [Challenge 3](Day%2069/coding_challenges/challenge3_plot_ci_comparison.py) • [Challenge 4](Day%2069/coding_challenges/challenge4_bootstrap_ci.py) • [Challenge 5](Day%2069/coding_challenges/challenge5_full_estimation.py) • [App Root](Day%2069/app/main.py) • [Tests](Day%2069/tests/test_confidence_intervals.py) • [Readme](Day%2069/README.md) |
+
 
 
 
