@@ -1,0 +1,74 @@
+================================================================================
+STATISTICAL HYPOTHESIS TESTING ENGINE — EXECUTIVE SUMMARY REPORT
+================================================================================
+
+Scenario 1: E-Commerce Delivery SLA Verification
+---------------------------------------------------------------------------
+  * Test ID           : SCENARIO_1_DELIVERY_SLA
+  * Test Kind         : one_sample_t
+  * Null Claim (H0)   : mean_delivery_time = 30.0
+  * Alternative (H1)  : mean_delivery_time (greater) 30.0
+  * Sample Size (n)   : 250
+  * Point Estimate    : 31.7868
+  * Standard Error    : 0.3360
+  * Test Statistic    : 5.3171
+  * Critical Value    : 1.6510
+  * P-Value           : 1.172811e-07
+  * 95% Conf Interval : [31.1249, 32.4486]
+  * Cohen's d (Effect): 0.3363 (Small)
+  * Rejection Decision: REJECT NULL HYPOTHESIS
+  * Business Finding  : Statistically significant SLA breach. Delivery times significantly exceed 30.0 minutes.
+
+Scenario 2: Website Landing Page Conversion Optimization
+---------------------------------------------------------------------------
+  * Test ID           : SCENARIO_2_WEBSITE_CONVERSION
+  * Test Kind         : proportion_z
+  * Null Claim (H0)   : conversion_proportion = 0.1
+  * Alternative (H1)  : conversion_proportion (greater) 0.1
+  * Sample Size (n)   : 1000
+  * Point Estimate    : 0.1160
+  * Standard Error    : 0.0095
+  * Test Statistic    : 1.6865
+  * Critical Value    : 1.6449
+  * P-Value           : 4.584514e-02
+  * 95% Conf Interval : [0.0962, 0.1358]
+  * Rejection Decision: REJECT NULL HYPOTHESIS
+  * Business Finding  : Conversion rate significantly exceeds 10% baseline. Recommendation: rollout variant.
+
+Scenario 3: Manufacturing High-Precision QC Calibration
+---------------------------------------------------------------------------
+  * Test ID           : SCENARIO_3_MANUFACTURING_QC
+  * Test Kind         : one_sample_t
+  * Null Claim (H0)   : mean_product_weight = 500.0
+  * Alternative (H1)  : mean_product_weight (two-sided) 500.0
+  * Sample Size (n)   : 300
+  * Point Estimate    : 500.5684
+  * Standard Error    : 0.1844
+  * Test Statistic    : 3.0818
+  * Critical Value    : 1.9679
+  * P-Value           : 2.249015e-03
+  * 95% Conf Interval : [500.2054, 500.9314]
+  * Cohen's d (Effect): 0.1779 (Negligible)
+  * Rejection Decision: REJECT NULL HYPOTHESIS
+  * Business Finding  : Significant calibration drift detected away from 500.0g. Machine recalibration required.
+
+Scenario 4: Customer Order Basket Value Optimization
+---------------------------------------------------------------------------
+  * Test ID           : SCENARIO_4_CUSTOMER_ORDER_VALUE
+  * Test Kind         : one_sample_t
+  * Null Claim (H0)   : mean_order_total_usd = 120.0
+  * Alternative (H1)  : mean_order_total_usd (greater) 120.0
+  * Sample Size (n)   : 500
+  * Point Estimate    : 125.6199
+  * Standard Error    : 1.2557
+  * Test Statistic    : 4.4754
+  * Critical Value    : 1.6479
+  * P-Value           : 4.728922e-06
+  * 95% Conf Interval : [123.1527, 128.0871]
+  * Cohen's d (Effect): 0.2001 (Small)
+  * Rejection Decision: REJECT NULL HYPOTHESIS
+  * Business Finding  : Average basket value significantly exceeds $120.00 threshold.
+
+================================================================================
+END OF REPORT
+================================================================================

@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white&style=for-the-badge" alt="Python Version">
   <img src="https://img.shields.io/badge/Challenge%20Status-In%20Progress-orange?style=for-the-badge" alt="Challenge Status">
-  <img src="https://img.shields.io/badge/Progress-69%20%2F%20200%20Days-green?style=for-the-badge" alt="Progress Badge">
+  <img src="https://img.shields.io/badge/Progress-70%20%2F%20200%20Days-green?style=for-the-badge" alt="Progress Badge">
 </p>
 
 A 200-day journey to master Python from beginner to advanced by learning daily, solving coding problems, building real-world projects, and sharing my progress publicly. This repository documents my growth, projects, and consistent learning—one day at a time. 🚀
@@ -11,9 +11,9 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 ---
 
 ## 📊 Challenge Progress
-**Current Progress:** `69 / 200 Days` (34.5%) — **PHASE 5: DATA VISUALIZATION & STATISTICS IN PROGRESS!** ⚡
+**Current Progress:** `70 / 200 Days` (35.0%) — **PHASE 5: DATA VISUALIZATION & STATISTICS IN PROGRESS!** ⚡
 ```text
-[█████████████░░░░░░░] 34.5% Complete
+[██████████████░░░░░░] 35.0% Complete
 ```
 
 ---
@@ -1688,6 +1688,60 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 │   ├── pyproject.toml                        # Pytest Configuration
 │   ├── requirements.txt                      # Dependencies
 │   └── README.md                             # Day 69 Documentation & Architecture Guide
+├── Day 70/
+│   ├── Day70.md                              # Hypothesis Testing Fundamentals (Theory, 4 Business Scenarios, 30 Q&As & 10 Insights)
+│   ├── practice/
+│   │   ├── task1_manual_hypothesis_test.py   # Manual Step-by-Step 1-Sample t-Test from First Principles
+│   │   ├── task2_one_sample_z_test.py        # One-Sample Z-Test (Known Population Sigma)
+│   │   ├── task3_one_sample_t_test.py        # One-Sample t-Test SciPy Comparison & Verification
+│   │   ├── task4_one_tailed_vs_two_tailed.py # Directionality, Critical Values & Rejection Regions
+│   │   ├── task5_proportion_test.py          # One-Sample Proportion Z-Test & Normality Checks
+│   │   ├── task6_cohen_d.py                  # Cohen's d Standardized Effect Size & Interpretation
+│   │   └── task7_type1_error_simulation.py   # Type I Error Monte Carlo Simulation under True H0
+│   ├── coding_challenges/
+│   │   ├── challenge1_one_sample_ttest.py    # Modular One-Sample t-Test Diagnostic Engine
+│   │   ├── challenge2_one_sample_ztest.py    # Robust Known-Variance Gaussian Z-Test Engine
+│   │   ├── challenge3_proportion_test.py     # Proportion Hypothesis Testing with Rule-of-Thumb Checks
+│   │   ├── challenge4_plot_hypothesis_test.py# Null Distribution, Critical Cutoffs & Rejection Shading
+│   │   └── challenge5_type1_error_simulation.py# Multi-Alpha Empirical False Positive Rate Simulation
+│   ├── data/
+│   │   ├── delivery_times.csv                # E-Commerce Delivery Durations (250 orders)
+│   │   ├── conversion_data.csv               # Landing Page Conversion Sessions (1,000 sessions)
+│   │   ├── manufacturing.csv                 # High-Precision Item Weights (300 items)
+│   │   └── customer_orders.csv               # Customer Transaction Basket Values (500 orders)
+│   ├── app/
+│   │   ├── config.py                         # Paths, Tail Types & Significance Settings
+│   │   ├── validator.py                      # Input Integrity, Range & Normality Validation
+│   │   ├── loader.py                         # Multi-Scenario CSV Data Ingestion Engine
+│   │   ├── stats_calc.py                     # Summary Statistics & Standard Error Primitives
+│   │   ├── hypotheses.py                     # Hypothesis Specifications & Results Data Models
+│   │   ├── tests_mean.py                     # Parametric 1-Sample Z-Test & Student's t-Test
+│   │   ├── tests_proportion.py               # 1-Sample Proportion Z-Test Engine
+│   │   ├── confidence_intervals.py           # Hypothesis Test Duality & Interval Checking
+│   │   ├── effect_size.py                    # Cohen's d Calculation & Practical Magnitude Tiers
+│   │   ├── decision.py                       # Triple-Decision Engine (P-Value, Critical, CI)
+│   │   ├── scenarios.py                      # 4 Real-World Business Scenario Orchestrator
+│   │   ├── visualizations.py                 # 7 Publication-Grade Statistical Figures (Agg Backend)
+│   │   ├── report.py                         # Multi-Scenario CSV Exporter & Executive Report
+│   │   └── main.py                           # Production CLI Pipeline Orchestrator
+│   ├── output/
+│   │   ├── charts/                           # 7 Publication-Quality Figures (300 DPI)
+│   │   ├── hypothesis_test_results.csv       # Multi-Scenario Statistical Outcomes CSV
+│   │   └── statistical_report.txt            # Executive Statistical Hypothesis Testing Report
+│   ├── tests/                                # 42 Pytest Unit & Integration Tests (100% Passing)
+│   │   ├── conftest.py
+│   │   ├── test_validator.py
+│   │   ├── test_statistics.py
+│   │   ├── test_hypotheses.py
+│   │   ├── test_mean_tests.py
+│   │   ├── test_proportion_tests.py
+│   │   ├── test_confidence_intervals.py
+│   │   ├── test_effect_size.py
+│   │   ├── test_decision.py
+│   │   └── test_integration.py
+│   ├── pyproject.toml                        # Pytest Configuration
+│   ├── requirements.txt                      # Dependencies
+│   └── README.md                             # Day 70 Documentation & Architecture Guide
 ```
 
 ---
@@ -1845,6 +1899,7 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 | **Day 67** | Sep 06, 2026 | Probability Distributions: PMF, PDF, CDF, PPF, Bernoulli, Binomial, Uniform, Normal, Poisson & Distribution Analyzer (30 Q&As, 8 Tasks, 5 Challenges & 38 Tests) | 🟢 Completed | [Notes](Day%2067/Day67.md) • [Task 1](Day%2067/exercises/task1_bernoulli.py) • [Challenge 1](Day%2067/coding_challenges/challenge1_cdf_plot.py) • [Challenge 2](Day%2067/coding_challenges/challenge2_ppf_quantiles.py) • [Challenge 3](Day%2067/coding_challenges/challenge3_binomial_poisson_approximation.py) • [Challenge 4](Day%2067/coding_challenges/challenge4_normal_approximation.py) • [Challenge 5](Day%2067/coding_challenges/challenge5_monte_carlo_analyzer.py) • [App Root](Day%2067/app/main.py) • [Tests](Day%2067/tests/test_bernoulli.py) • [Readme](Day%2067/README.md) |
 | **Day 68** | Sep 06, 2026 | Inferential Statistics: Sampling, Sampling Distributions & Central Limit Theorem (CLT) (30 Q&As, 8 Tasks, 5 Challenges & 34 Tests) | 🟢 Completed | [Notes](Day%2068/Day68.md) • [Task 1](Day%2068/practice/task1_generate_population.py) • [Challenge 1](Day%2068/coding_challenges/challenge1_sampling_simulator.py) • [Challenge 2](Day%2068/coding_challenges/challenge2_standard_error.py) • [Challenge 3](Day%2068/coding_challenges/challenge3_clt_experiment.py) • [Challenge 4](Day%2068/coding_challenges/challenge4_bootstrap.py) • [Challenge 5](Day%2068/coding_challenges/challenge5_real_world_case.py) • [App Root](Day%2068/app/main.py) • [Tests](Day%2068/tests/test_population.py) • [Readme](Day%2068/README.md) |
 | **Day 69** | Sep 07, 2026 | Confidence Intervals & Statistical Estimation (Z/T Intervals, Proportions, Sample Size, Bootstrap) (30 Q&As, 7 Tasks, 5 Challenges & 35 Tests) | 🟢 Completed | [Notes](Day%2069/Day69.md) • [Task 1](Day%2069/practice/task1_point_estimates.py) • [Challenge 1](Day%2069/coding_challenges/challenge1_adaptive_mean_ci.py) • [Challenge 2](Day%2069/coding_challenges/challenge2_compare_levels.py) • [Challenge 3](Day%2069/coding_challenges/challenge3_plot_ci_comparison.py) • [Challenge 4](Day%2069/coding_challenges/challenge4_bootstrap_ci.py) • [Challenge 5](Day%2069/coding_challenges/challenge5_full_estimation.py) • [App Root](Day%2069/app/main.py) • [Tests](Day%2069/tests/test_confidence_intervals.py) • [Readme](Day%2069/README.md) |
+| **Day 70** | Sep 07, 2026 | Hypothesis Testing Fundamentals (Z/T Tests, Proportions, P-Values, Effect Size, Decision Engine) | 🟢 Completed | [Notes](Day%2070/Day70.md) • [Task 1](Day%2070/practice/task1_manual_hypothesis_test.py) • [Challenge 1](Day%2070/coding_challenges/challenge1_one_sample_ttest.py) • [Challenge 4](Day%2070/coding_challenges/challenge4_plot_hypothesis_test.py) • [Challenge 5](Day%2070/coding_challenges/challenge5_type1_error_simulation.py) • [App Root](Day%2070/app/main.py) • [Tests](Day%2070/tests/test_mean_tests.py) • [Readme](Day%2070/README.md) |
 
 
 
