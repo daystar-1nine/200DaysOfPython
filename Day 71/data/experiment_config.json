@@ -1,0 +1,18 @@
+{
+    "experiment_name": "Checkout Flow Redesign A/B Test",
+    "total_users": 10000,
+    "allocation_ratio": {
+        "Control": 0.5,
+        "Treatment": 0.5
+    },
+    "baseline_conversion_rate": 0.052,
+    "treatment_conversion_rate": 0.058,
+    "significance_level_alpha": 0.05,
+    "minimum_detectable_effect_rel": 0.08,
+    "random_seed": 42,
+    "guardrails": {
+        "max_acceptable_bounce_rate": 0.45,
+        "max_acceptable_refund_rate": 0.04,
+        "min_acceptable_session_duration": 90.0
+    }
+}

@@ -1,0 +1,2 @@
+test_type,statistic_name,statistic_value,critical_value,p_value,alpha,ci_lower,ci_upper,reject_null
+Two-Proportion Pooled Z-test,z,1.6227,1.96,0.10465371081611119,0.05,-0.0016,0.0167,False

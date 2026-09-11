@@ -1,0 +1,12 @@
+category,metric,value
+Sample,Control Users,5076
+Sample,Treatment Users,4924
+Conversion,Control Rate,5.36%
+Conversion,Treatment Rate,6.11%
+Conversion,Absolute Lift,+0.75 pp
+Conversion,Relative Lift,+14.08%
+Financial,Control ARPU,$3.60
+Financial,Treatment ARPU,$4.27
+Financial,ARPU Lift,$+0.67
+Guardrail,Bounce Delta,-3.85%
+Guardrail,Refund Delta,-0.05%

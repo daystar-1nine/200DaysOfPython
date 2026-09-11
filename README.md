@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white&style=for-the-badge" alt="Python Version">
   <img src="https://img.shields.io/badge/Challenge%20Status-In%20Progress-orange?style=for-the-badge" alt="Challenge Status">
-  <img src="https://img.shields.io/badge/Progress-70%20%2F%20200%20Days-green?style=for-the-badge" alt="Progress Badge">
+  <img src="https://img.shields.io/badge/Progress-71%20%2F%20200%20Days-green?style=for-the-badge" alt="Progress Badge">
 </p>
 
 A 200-day journey to master Python from beginner to advanced by learning daily, solving coding problems, building real-world projects, and sharing my progress publicly. This repository documents my growth, projects, and consistent learning—one day at a time. 🚀
@@ -11,9 +11,9 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 ---
 
 ## 📊 Challenge Progress
-**Current Progress:** `70 / 200 Days` (35.0%) — **PHASE 5: DATA VISUALIZATION & STATISTICS IN PROGRESS!** ⚡
+**Current Progress:** `71 / 200 Days` (35.5%) — **PHASE 5: DATA VISUALIZATION & STATISTICS IN PROGRESS!** ⚡
 ```text
-[██████████████░░░░░░] 35.0% Complete
+[██████████████░░░░░░] 35.5% Complete
 ```
 
 ---
@@ -1742,6 +1742,60 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 │   ├── pyproject.toml                        # Pytest Configuration
 │   ├── requirements.txt                      # Dependencies
 │   └── README.md                             # Day 70 Documentation & Architecture Guide
+├── Day 71/
+│   ├── Day71.md                              # Two-Sample Tests & A/B Testing (Theory, 30 Q&As & 10 Statistical Insights)
+│   ├── practice/
+│   │   ├── task1_independent_ttest.py        # Independent Two-Sample Welch's t-Test
+│   │   ├── task2_paired_ttest.py             # Paired Two-Sample t-Test on Employee Differences
+│   │   ├── task3_compare_test_types.py       # Independent vs Paired Test Design Contrast
+│   │   ├── task4_difference_ci.py            # 95% Confidence Interval for Mean Differences
+│   │   ├── task5_ab_conversion.py            # Two-Proportion Pooled Z-Test & Lift Analysis
+│   │   ├── task6_sample_size_impact.py       # Sample Size Scaling on Precision & Significance
+│   │   └── task7_simulate_ab_test.py         # End-to-End A/B Experiment Monte Carlo Simulation
+│   ├── coding_challenges/
+│   │   ├── challenge1_compare_means.py       # Universal Two-Sample Mean Comparison Engine
+│   │   ├── challenge2_compare_proportions.py # Two-Proportion A/B Testing Function with CI
+│   │   ├── challenge3_ab_test_report.py      # Comprehensive Multi-Metric A/B Experiment Reporter
+│   │   └── challenge4_simulate_false_positives.py # 5,000-Iteration Empirical False Positive Simulation
+│   ├── data/
+│   │   ├── experiment_config.json            # Experiment Hyperparameters & Guardrail Limits
+│   │   └── experiment_users.csv              # Synthetic A/B Testing User Dataset (10,000 users)
+│   ├── app/
+│   │   ├── config.py                         # File Paths, Alternative Types & Application Settings
+│   │   ├── generator.py                      # Realistic Synthetic User Activity Generator
+│   │   ├── validator.py                      # Data Integrity, Allocation & Range Validator
+│   │   ├── metrics.py                        # Conversion, ARPU, AOV & Sample Ratio Mismatch (SRM)
+│   │   ├── mean_tests.py                     # Welch's, Student's & Paired Two-Sample t-Tests
+│   │   ├── proportion_tests.py               # Two-Proportion Pooled Z-Test Engine
+│   │   ├── confidence_intervals.py           # Mean Difference & Proportion Difference CIs
+│   │   ├── effect_size.py                    # Cohen's d for Independent & Paired Designs
+│   │   ├── business_impact.py                # Annual Incremental Conversions & Revenue Modeling
+│   │   ├── decision.py                       # Multi-Criteria Experiment Decision Engine
+│   │   ├── visualizations.py                 # 8 Publication-Grade Visualizations (Agg Backend)
+│   │   ├── report.py                         # Executive ASCII Report & Multi-File CSV Exporter
+│   │   └── main.py                           # Production CLI Pipeline Orchestrator
+│   ├── output/
+│   │   ├── charts/                           # 8 Publication-Quality Figures (300 DPI)
+│   │   ├── experiment_summary.csv            # Experiment Metric Summary CSV
+│   │   ├── statistical_results.csv           # Hypothesis Test Statistics & P-Values CSV
+│   │   ├── business_impact.txt               # Financial Projections & ROI Text Report
+│   │   └── ab_test_report.txt                # Comprehensive Executive Experimentation Report
+│   ├── tests/                                # 43 Pytest Unit & Integration Tests (100% Passing)
+│   │   ├── conftest.py
+│   │   ├── test_generator.py
+│   │   ├── test_validator.py
+│   │   ├── test_metrics.py
+│   │   ├── test_mean_tests.py
+│   │   ├── test_proportion_tests.py
+│   │   ├── test_confidence_intervals.py
+│   │   ├── test_effect_size.py
+│   │   ├── test_business_impact.py
+│   │   ├── test_decision.py
+│   │   └── test_integration.py
+│   ├── pyproject.toml                        # Pytest Configuration
+│   ├── pytest.ini                            # Pytest Path Settings
+│   ├── requirements.txt                      # Dependencies
+│   └── README.md                             # Day 71 Documentation & Architecture Guide
 ```
 
 ---
@@ -1900,6 +1954,7 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 | **Day 68** | Sep 06, 2026 | Inferential Statistics: Sampling, Sampling Distributions & Central Limit Theorem (CLT) (30 Q&As, 8 Tasks, 5 Challenges & 34 Tests) | 🟢 Completed | [Notes](Day%2068/Day68.md) • [Task 1](Day%2068/practice/task1_generate_population.py) • [Challenge 1](Day%2068/coding_challenges/challenge1_sampling_simulator.py) • [Challenge 2](Day%2068/coding_challenges/challenge2_standard_error.py) • [Challenge 3](Day%2068/coding_challenges/challenge3_clt_experiment.py) • [Challenge 4](Day%2068/coding_challenges/challenge4_bootstrap.py) • [Challenge 5](Day%2068/coding_challenges/challenge5_real_world_case.py) • [App Root](Day%2068/app/main.py) • [Tests](Day%2068/tests/test_population.py) • [Readme](Day%2068/README.md) |
 | **Day 69** | Sep 07, 2026 | Confidence Intervals & Statistical Estimation (Z/T Intervals, Proportions, Sample Size, Bootstrap) (30 Q&As, 7 Tasks, 5 Challenges & 35 Tests) | 🟢 Completed | [Notes](Day%2069/Day69.md) • [Task 1](Day%2069/practice/task1_point_estimates.py) • [Challenge 1](Day%2069/coding_challenges/challenge1_adaptive_mean_ci.py) • [Challenge 2](Day%2069/coding_challenges/challenge2_compare_levels.py) • [Challenge 3](Day%2069/coding_challenges/challenge3_plot_ci_comparison.py) • [Challenge 4](Day%2069/coding_challenges/challenge4_bootstrap_ci.py) • [Challenge 5](Day%2069/coding_challenges/challenge5_full_estimation.py) • [App Root](Day%2069/app/main.py) • [Tests](Day%2069/tests/test_confidence_intervals.py) • [Readme](Day%2069/README.md) |
 | **Day 70** | Sep 07, 2026 | Hypothesis Testing Fundamentals (Z/T Tests, Proportions, P-Values, Effect Size, Decision Engine) | 🟢 Completed | [Notes](Day%2070/Day70.md) • [Task 1](Day%2070/practice/task1_manual_hypothesis_test.py) • [Challenge 1](Day%2070/coding_challenges/challenge1_one_sample_ttest.py) • [Challenge 4](Day%2070/coding_challenges/challenge4_plot_hypothesis_test.py) • [Challenge 5](Day%2070/coding_challenges/challenge5_type1_error_simulation.py) • [App Root](Day%2070/app/main.py) • [Tests](Day%2070/tests/test_mean_tests.py) • [Readme](Day%2070/README.md) |
+| **Day 71** | Sep 11, 2026 | Two-Sample Tests & A/B Testing (Independent/Paired t-Tests, Two-Proportion Z-Test, Lift, ARPU, Guardrails, Decision Engine) | 🟢 Completed | [Notes](Day%2071/Day71.md) • [Task 1](Day%2071/practice/task1_independent_ttest.py) • [Task 5](Day%2071/practice/task5_ab_conversion.py) • [Challenge 3](Day%2071/coding_challenges/challenge3_ab_test_report.py) • [Challenge 4](Day%2071/coding_challenges/challenge4_simulate_false_positives.py) • [App Root](Day%2071/app/main.py) • [Tests](Day%2071/tests/test_proportion_tests.py) • [Readme](Day%2071/README.md) |
 
 
 

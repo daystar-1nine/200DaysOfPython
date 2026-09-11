@@ -1,0 +1,14 @@
+=================================================================
+A/B TEST BUSINESS IMPACT PROJECTIONS
+=================================================================
+Monthly Unique Visitors            : 500,000
+Annual Unique Visitors             : 6,000,000
+Absolute Conversion Lift           : +0.75 percentage points
+Average Order Value (AOV)          : $69.82
+-----------------------------------------------------------------
+Annual Incremental Conversions     : 45,262 orders
+Projected Annual Gross Revenue     : $3,160,192.84
+Deployment & Engineering Cost      : $25,000.00
+Projected Annual Net Profit        : $3,135,192.84
+Projected ROI                      : 12,540.8%
+=================================================================
