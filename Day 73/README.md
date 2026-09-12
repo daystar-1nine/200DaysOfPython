@@ -7,9 +7,9 @@ A production-grade statistical and predictive machine learning system for single
 
 ## 🎯 Core Concepts Mastered
 - **Linear Regression Foundations:** Supervised learning paradigm, feature ($X$) vs. target ($y$), relationship modeling vs. mere association.
-- **Ordinary Least Squares (OLS):** Mathematical derivation minimizing the sum of squared errors ($SS_{\text{res}}$), closed-form parameter solutions for slope ($b_1 = \frac{\operatorname{Cov}(X, Y)}{\operatorname{Var}(X)}$) and intercept ($b_0 = \bar{y} - b_1 \bar{x}$).
+- **Ordinary Least Squares (OLS):** Mathematical derivation minimizing the sum of squared errors ($SS_{\text{res}}$), closed-form parameter solutions for slope ($b_1 = \frac{\text{Cov}(X, Y)}{\text{Var}(X)}$) and intercept ($b_0 = \bar{y} - b_1 \bar{x}$).
 - **Gradient Descent Preview:** Iterative cost function optimization ($MSE$), partial derivatives $\frac{\partial J}{\partial b_0}$ and $\frac{\partial J}{\partial b_1}$, learning rate tuning, and parameter convergence.
-- **Residual Diagnostics:** Verification of Gauss-Markov assumptions: zero mean ($\bar{e} = 0, \mathbb{E}[e] = 0$), homoscedasticity ($\operatorname{Var}(e \mid \hat{y}) = \sigma^2$), normality of residuals, and absence of systematic patterns.
+- **Residual Diagnostics:** Verification of Gauss-Markov assumptions: zero mean ($\bar{e} = 0, \mathbb{E}[e] = 0$), homoscedasticity ($\text{Var}(e \mid \hat{y}) = \sigma^2$), normality of residuals, and absence of systematic patterns.
 - **Model Evaluation Metrics:** Mean Absolute Error ($\text{MAE}$), Mean Squared Error ($\text{MSE}$), Root Mean Squared Error ($\text{RMSE}$), and Coefficient of Determination ($R^2 = 1 - \frac{SS_{\text{res}}}{SS_{\text{tot}}}$).
 - **Generalization & Validation:** 80/20 train/test splitting, out-of-sample performance verification, underfitting vs. overfitting detection.
 - **Extrapolation Governance:** Identification and explicit flagging of out-of-domain budget scenarios to prevent false confidence beyond observed support $[x_{\min}, x_{\max}]$.

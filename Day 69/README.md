@@ -2,9 +2,9 @@
 
 ## Overview
 A production-grade statistical inference and estimation application for computing point and interval estimates:
-- Point Estimation ($\\bar{x}, \\hat{p}$)
-- Margin of Error ($ME = z_{\\alpha/2} \\cdot SE$ or $t_{\\alpha/2, df} \\cdot SE$)
-- Z-Distribution (known $\\sigma$) vs T-Distribution (unknown $\\sigma$, heavy tails)
+- Point Estimation ($\bar{x}, \hat{p}$)
+- Margin of Error ($ME = z_{\alpha/2} \cdot SE$ or $t_{\alpha/2, df} \cdot SE$)
+- Z-Distribution (known $\sigma$) vs T-Distribution (unknown $\sigma$, heavy tails)
 - Single-Sample Confidence Intervals for Population Mean
 - Confidence Intervals for Population Proportion (Wald & Wilson Score)
 - Sample Size Determination for targeted precision

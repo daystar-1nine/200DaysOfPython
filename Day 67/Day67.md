@@ -208,7 +208,7 @@ ight)$$
 - **Symmetry:** $\text{Mean} = \text{Median} = \text{Mode} = \mu$. Skewness $= 0$, Excess Kurtosis $= 0$.
 
 ### Standard Normal Distribution
-A special case where $\\mu = 0$ and $\sigma = 1$, denoted by $Z \sim \mathcal{N}(0, 1)$.
+A special case where $\mu = 0$ and $\sigma = 1$, denoted by $Z \sim \mathcal{N}(0, 1)$.
 Any normal variable can be standardized via the Z-score transformation:
 $$Z = \frac{X - \mu}{\sigma} \iff X = \mu + Z\sigma$$
 
@@ -258,7 +258,7 @@ $$\binom{n}{k} p^k (1 - p)^{n - k} \approx \frac{e^{-\lambda}\lambda^k}{k!}$$
 
 ### B. Normal Approximation to the Binomial (De Moivre–Laplace Theorem)
 When $np \ge 10$ and $n(1 - p) \ge 10$, the Binomial distribution $\text{Binom}(n, p)$ converges to a continuous Normal distribution:
-$$$\text{Binom}(n, p) \approx \mathcal{N}\big(\\mu = np, \, \sigma^2 = np(1 - p)\big)$$$
+$$$\text{Binom}(n, p) \approx \mathcal{N}\big(\mu = np, \, \sigma^2 = np(1 - p)\big)$$$
 *Continuity Correction:* Since discrete integers are approximated by continuous intervals, evaluate $P(X \le k)$ as $P(X_{\text{norm}} \le k + 0.5)$.
 
 ---
@@ -369,7 +369,7 @@ A Normal (or Gaussian) distribution is a continuous, symmetric, bell-shaped prob
 - Standard Deviation ($\sigma$): The scale parameter ($\sigma > 0$), determining the spread or dispersion.
 
 #### 17. What is a Standard Normal distribution?
-A Standard Normal distribution is a Normal distribution with $\\mu = 0$ and $\sigma = 1$, denoted $Z \sim \mathcal{N}(0, 1)$. Any normal variable can be transformed into standard normal via $Z = (X - \mu) / \sigma$.
+A Standard Normal distribution is a Normal distribution with $\mu = 0$ and $\sigma = 1$, denoted $Z \sim \mathcal{N}(0, 1)$. Any normal variable can be transformed into standard normal via $Z = (X - \mu) / \sigma$.
 
 #### 18. What is the 68–95–99.7 Empirical Rule?
 In a normal distribution:
@@ -446,7 +446,7 @@ $n = 100$ customers, purchase probability $p = 0.05$.
 ---
 
 ### PART 3 — Normal
-Exam scores: $X \sim \mathcal{N}(\\mu = 70, \sigma = 10)$.
+Exam scores: $X \sim \mathcal{N}(\mu = 70, \sigma = 10)$.
 - **$P(X < 60)$:**
   $$Z = \frac{60 - 70}{10} = -1.0 \implies P(Z < -1.0) = \Phi(-1.0) \approx 0.158655 \approx 15.87\%$$
 - **$P(X > 80)$:**
@@ -479,7 +479,7 @@ However, probability is defined on sets (intervals) as a **measure** (area under
 ---
 
 ### PART 6 — Practical Simulation
-Generate $N = 100,000$ samples from $\mathcal{N}(\\mu = 70, \sigma = 10)$ with seed 42.
+Generate $N = 100,000$ samples from $\mathcal{N}(\mu = 70, \sigma = 10)$ with seed 42.
 - **Theoretical Values:**
   - Mean: $70.0$
   - Median: $70.0$

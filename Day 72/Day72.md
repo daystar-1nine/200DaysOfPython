@@ -36,26 +36,26 @@ When investigating two random variables $X$ and $Y$, univariate measures like th
 
 ### 2.2 Mathematical Formulas
 
-#### Population Covariance ($\sigma_{XY}$ or $\operatorname{Cov}(X, Y)$):
-$$\operatorname{Cov}(X, Y) = \sigma_{XY} = \frac{1}{N} \sum_{i=1}^{N} (x_i - \mu_X)(y_i - \mu_Y) = \mathbb{E}[(X - \mu_X)(Y - \mu_Y)] = \mathbb{E}[XY] - \mathbb{E}[X]\mathbb{E}[Y]$$
+#### Population Covariance ($\sigma_{XY}$ or $\text{Cov}(X, Y)$):
+$$\text{Cov}(X, Y) = \sigma_{XY} = \frac{1}{N} \sum_{i=1}^{N} (x_i - \mu_X)(y_i - \mu_Y) = \mathbb{E}[(X - \mu_X)(Y - \mu_Y)] = \mathbb{E}[XY] - \mathbb{E}[X]\mathbb{E}[Y]$$
 
-#### Sample Covariance ($s_{XY}$ or $\operatorname{cov}(X, Y)$):
+#### Sample Covariance ($s_{XY}$ or $\text{cov}(X, Y)$):
 $$s_{XY} = \frac{1}{n - 1} \sum_{i=1}^{n} (x_i - \bar{x})(y_i - \bar{y})$$
 *Note: Division by $n-1$ (Bessel's correction) ensures that $s_{XY}$ is an unbiased estimator of $\sigma_{XY}$ ($\mathbb{E}[s_{XY}] = \sigma_{XY}$).*
 
 ### 2.3 Key Properties of Covariance
-1. **Symmetry:** $\operatorname{Cov}(X, Y) = \operatorname{Cov}(Y, X)$
-2. **Self-Covariance is Variance:** $\operatorname{Cov}(X, X) = \operatorname{Var}(X) = \sigma_X^2$
+1. **Symmetry:** $\text{Cov}(X, Y) = \text{Cov}(Y, X)$
+2. **Self-Covariance is Variance:** $\text{Cov}(X, X) = \text{Var}(X) = \sigma_X^2$
 3. **Linear Transformations:** For constants $a, b, c, d$:
-   $$\operatorname{Cov}(aX + b, cY + d) = ac \cdot \operatorname{Cov}(X, Y)$$
-4. **Independent Variables:** If $X$ and $Y$ are statistically independent, then $\operatorname{Cov}(X, Y) = 0$. *(The converse is not necessarily true: zero covariance only guarantees absence of linear association, not statistical independence).*
+   $$\text{Cov}(aX + b, cY + d) = ac \cdot \text{Cov}(X, Y)$$
+4. **Independent Variables:** If $X$ and $Y$ are statistically independent, then $\text{Cov}(X, Y) = 0$. *(The converse is not necessarily true: zero covariance only guarantees absence of linear association, not statistical independence).*
 
 ### 2.4 The Critical Flaw of Covariance: Unit Dependency
 Covariance retains the dimensional units of the product $X \times Y$.
 - If $X$ is Measured in Rupees (₹) and $Y$ in Units Sold:
-  $$\operatorname{Cov}(X, Y) \approx 450,000 \text{ ₹}\cdot\text{units}$$
+  $$\text{Cov}(X, Y) \approx 450,000 \text{ ₹}\cdot\text{units}$$
 - If we convert $X$ to Crores of Rupees ($1 \text{ Crore} = 10^7 \text{ ₹}$):
-  $$\operatorname{Cov}(X, Y) \approx 0.045 \text{ Cr}\cdot\text{units}$$
+  $$\text{Cov}(X, Y) \approx 0.045 \text{ Cr}\cdot\text{units}$$
 The strength of association is identical, yet the numerical magnitude changed by a factor of $10^7$. Hence, raw covariance cannot be compared across disparate feature pairs.
 
 ---
@@ -65,7 +65,7 @@ The strength of association is identical, yet the numerical magnitude changed by
 ### 3.1 Definition and Standardization
 Karl Pearson solved the unit-dependency problem by normalizing covariance by the product of the individual standard deviations:
 
-$$\rho_{XY} = \frac{\operatorname{Cov}(X, Y)}{\sigma_X \sigma_Y}$$
+$$\rho_{XY} = \frac{\text{Cov}(X, Y)}{\sigma_X \sigma_Y}$$
 
 For a sample of paired observations $(x_1, y_1), (x_2, y_2), \dots, (x_n, y_n)$:
 
@@ -112,13 +112,13 @@ Where $F_{t, n-2}$ is the cumulative distribution function (CDF) of the $t$-dist
 
 ### 4.3 Fisher's $z$-Transformation for Confidence Intervals
 When $\rho \neq 0$, the sampling distribution of $r$ is skewed (bounded at $\pm 1$). Ronald Fisher developed the variance-stabilizing transformation:
-$$z = \frac{1}{2} \ln\left(\frac{1 + r}{1 - r}\right) = \operatorname{arctanh}(r)$$
+$$z = \frac{1}{2} \ln\left(\frac{1 + r}{1 - r}\right) = \text{arctanh}(r)$$
 
 The transformed variable $z$ is approximately normally distributed with:
-$$\mathbb{E}[z] \approx \frac{1}{2}\ln\left(\frac{1+\rho}{1-\rho}\right), \quad \operatorname{SE}(z) = \frac{1}{\sqrt{n - 3}}$$
+$$\mathbb{E}[z] \approx \frac{1}{2}\ln\left(\frac{1+\rho}{1-\rho}\right), \quad \text{SE}(z) = \frac{1}{\sqrt{n - 3}}$$
 
 To construct a $(1 - \alpha)$ confidence interval for $\rho$:
-1. Calculate $z = \operatorname{arctanh}(r)$.
+1. Calculate $z = \text{arctanh}(r)$.
 2. Determine critical margin: $z_{\text{crit}} = \Phi^{-1}(1 - \alpha/2)$.
 3. Compute bounds in $z$-space:
    $$z_{\text{lower}} = z - z_{\text{crit}} \cdot \frac{1}{\sqrt{n - 3}}, \quad z_{\text{upper}} = z + z_{\text{crit}} \cdot \frac{1}{\sqrt{n - 3}}$$
@@ -133,7 +133,7 @@ To construct a $(1 - \alpha)$ confidence interval for $\rho$:
 Pearson's $r$ evaluates **linear** relationships. However, in many real-world systems, relationships are **monotonic** but non-linear (e.g., exponential growth, diminishing returns, log-linear utility curves).
 
 **Spearman's rank correlation** is the Pearson correlation calculated between the **ranks** of variables $X$ and $Y$:
-$$\rho = r_s = \operatorname{Pearson}(\operatorname{rank}(X), \operatorname{rank}(Y))$$
+$$\rho = r_s = \text{Pearson}(\text{rank}(X), \text{rank}(Y))$$
 
 A monotonic relationship occurs when:
 - As $X$ increases, $Y$ consistently increases (never decreases): Monotonically increasing ($\rho = +1$).
@@ -142,7 +142,7 @@ A monotonic relationship occurs when:
 ### 5.2 Formula for Distinct Observations (No Ties)
 When all observations are distinct (no repeated values):
 $$\rho = 1 - \frac{6 \sum_{i=1}^{n} d_i^2}{n(n^2 - 1)}$$
-Where $d_i = \operatorname{rank}(x_i) - \operatorname{rank}(y_i)$ is the difference between ranks for observation $i$.
+Where $d_i = \text{rank}(x_i) - \text{rank}(y_i)$ is the difference between ranks for observation $i$.
 
 When tied values exist, fractional ranks (average ranks) are assigned, and the standard Pearson formula must be applied directly to the ranked vectors.
 
@@ -189,7 +189,7 @@ Consider the symmetric parabola:
 $$Y = X^2, \quad X \in [-10, 10]$$
 Here, $Y$ is 100% deterministically determined by $X$. There is perfect dependence.
 Yet, because the positive slope for $X > 0$ exactly cancels the negative slope for $X < 0$:
-$$\operatorname{Cov}(X, Y) = 0 \implies r = 0$$
+$$\text{Cov}(X, Y) = 0 \implies r = 0$$
 *Key Insight: $r = 0$ implies the absence of a linear relationship; it does NOT imply independence!*
 
 ### 7.2 Outlier Leverage & Masking
@@ -230,9 +230,9 @@ Simpson's Paradox occurs when a trend appears in several different groups of dat
 
 ### 9.1 Mathematical Mechanism
 Let $C_1, C_2$ be two sub-cohorts (e.g., High-Value vs. Low-Value customers).
-Within Cohort 1: $\operatorname{Cov}(X, Y | C_1) > 0$  
-Within Cohort 2: $\operatorname{Cov}(X, Y | C_2) > 0$  
-Yet in the aggregated population: $\operatorname{Cov}(X, Y) < 0$!
+Within Cohort 1: $\text{Cov}(X, Y | C_1) > 0$  
+Within Cohort 2: $\text{Cov}(X, Y | C_2) > 0$  
+Yet in the aggregated population: $\text{Cov}(X, Y) < 0$!
 
 This occurs when the confounding variable $C$ is strongly associated with both the predictor $X$ and the outcome $Y$, creating a dominant between-group shift that overwhelms the within-group trends.
 
@@ -245,12 +245,12 @@ In multivariate analysis and machine learning (e.g., Ordinary Least Squares, Log
 ### 10.1 Consequences of Multicollinearity
 1. **Matrix Singularity:** The normal equations require computing $(X^T X)^{-1}$. When two columns are near-linear combinations, $\det(X^T X) \approx 0$, making matrix inversion numerically unstable.
 2. **Inflated Standard Errors:** Confidence intervals for regression coefficients explode:
-   $$\operatorname{Var}(\hat{\beta}_j) = \frac{\sigma^2}{(n - 1) s_j^2} \cdot \frac{1}{1 - R_j^2} = \frac{\sigma^2}{(n - 1) s_j^2} \cdot \operatorname{VIF}_j$$
+   $$\text{Var}(\hat{\beta}_j) = \frac{\sigma^2}{(n - 1) s_j^2} \cdot \frac{1}{1 - R_j^2} = \frac{\sigma^2}{(n - 1) s_j^2} \cdot \text{VIF}_j$$
 3. **Erratic Feature Importance:** Individual $p$-values become large even when the overall model $F$-test is highly significant. Coefficients can change signs wildly upon adding or removing a single feature.
 
 ### 10.2 Detection Thresholds
 - **Pairwise Correlation:** $|r| \ge 0.70$ (warning) or $|r| \ge 0.85$ (severe).
-- **Variance Inflation Factor (VIF):** $\operatorname{VIF}_j > 5$ (moderate multicollinearity) or $\operatorname{VIF}_j > 10$ (critical multicollinearity).
+- **Variance Inflation Factor (VIF):** $\text{VIF}_j > 5$ (moderate multicollinearity) or $\text{VIF}_j > 10$ (critical multicollinearity).
 
 ---
 
@@ -304,7 +304,7 @@ spearman_df = df.corr(method='spearman')
 5. Independence of observations.
 
 ### Q6: How do you construct a confidence interval for Pearson's $r$?
-**Answer:** Because the sampling distribution of $r$ is non-normal and truncated at $\pm 1$, we apply Fisher's $z$-transformation: $z = \operatorname{arctanh}(r) = \frac{1}{2}\ln\left(\frac{1+r}{1-r}\right)$. The transformed variable has standard error $\operatorname{SE}(z) = \frac{1}{\sqrt{n - 3}}$. We construct the normal CI in $z$-space ($z \pm z_{\alpha/2} \operatorname{SE}(z)$), and then map the bounds back to correlation space using the inverse transformation $\tanh(z)$.
+**Answer:** Because the sampling distribution of $r$ is non-normal and truncated at $\pm 1$, we apply Fisher's $z$-transformation: $z = \text{arctanh}(r) = \frac{1}{2}\ln\left(\frac{1+r}{1-r}\right)$. The transformed variable has standard error $\text{SE}(z) = \frac{1}{\sqrt{n - 3}}$. We construct the normal CI in $z$-space ($z \pm z_{\alpha/2} \text{SE}(z)$), and then map the bounds back to correlation space using the inverse transformation $\tanh(z)$.
 
 ### Q7: When should you choose Spearman's rank correlation over Pearson's $r$?
 **Answer:**
@@ -336,7 +336,7 @@ $$\rho_{XY \cdot Z} = \frac{\rho_{XY} - \rho_{XZ}\rho_{YZ}}{\sqrt{1 - \rho_{XZ}^
 **Answer:** Multicollinearity occurs when two or more feature variables are highly linearly correlated. In linear models, it makes $(X^T X)$ nearly singular, causing unstable matrix inversion, huge standard errors for regression coefficients, uninterpretable feature importances, and overfitting to training noise.
 
 ### Q15: How is Variance Inflation Factor (VIF) calculated and interpreted?
-**Answer:** For feature $X_j$, $\operatorname{VIF}_j = \frac{1}{1 - R_j^2}$, where $R_j^2$ is the coefficient of determination from regressing $X_j$ on all other independent variables. $\operatorname{VIF} = 1$ indicates no correlation; $\operatorname{VIF} > 5$ suggests moderate collinearity; $\operatorname{VIF} > 10$ indicates severe multicollinearity requiring feature removal or dimensionality reduction.
+**Answer:** For feature $X_j$, $\text{VIF}_j = \frac{1}{1 - R_j^2}$, where $R_j^2$ is the coefficient of determination from regressing $X_j$ on all other independent variables. $\text{VIF} = 1$ indicates no correlation; $\text{VIF} > 5$ suggests moderate collinearity; $\text{VIF} > 10$ indicates severe multicollinearity requiring feature removal or dimensionality reduction.
 
 ### Q16: Does a high correlation ($r = 0.90$) guarantee a high $R^2$ in bivariate regression?
 **Answer:** Yes. In simple univariate linear regression ($Y = \beta_0 + \beta_1 X$), the coefficient of determination $R^2$ is strictly the square of the Pearson correlation coefficient ($R^2 = r^2$). Thus, $r = 0.90 \implies R^2 = 0.81$, meaning 81% of the variance in $Y$ is explained by $X$.
@@ -385,7 +385,7 @@ Masking removes redundant duplicate pairwise comparisons across the symmetric di
 **Answer:** Restricting the range of $X$ (e.g., studying the correlation between SAT scores and college GPA, but only looking at accepted students with SAT > 1400) artificially reduces the sample variance $s_X^2$, attenuating (underestimating) the true population correlation coefficient $\rho$.
 
 ### Q29: What is distance correlation?
-**Answer:** Distance correlation ($\operatorname{dCor}(X, Y)$) is an advanced measure of statistical dependence developed by Gábor Székely. Unlike Pearson's $r$, $\operatorname{dCor}(X, Y) = 0$ if and only if $X$ and $Y$ are strictly statistically independent. It ranges from 0 to 1 and captures both linear and non-linear associations.
+**Answer:** Distance correlation ($\text{dCor}(X, Y)$) is an advanced measure of statistical dependence developed by Gábor Székely. Unlike Pearson's $r$, $\text{dCor}(X, Y) = 0$ if and only if $X$ and $Y$ are strictly statistically independent. It ranges from 0 to 1 and captures both linear and non-linear associations.
 
 ### Q30: Why should you avoid causal language when presenting correlation findings to business stakeholders?
 **Answer:** Asserting that "discounts reduce customer retention" when only correlation is known leads executives to eliminate discounts, which might destroy retention if discounts were simply disproportionately utilized by price-sensitive customers. Rigorous analysts state: "Higher discounts are associated with lower customer retention; A/B testing is required to determine whether discounts cause attrition."

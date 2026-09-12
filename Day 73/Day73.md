@@ -15,10 +15,10 @@ By the end of Day 73, you will master:
 4. **The Simple Linear Regression Equation:** $\hat{y} = b_0 + b_1 x$, with formal calculus derivation of $\text{OLS}$ slope ($b_1$) and intercept ($b_0$).
 5. **Ordinary Least Squares ($\text{OLS}$):** Minimizing the Residual Sum of Squares ($SS_{\text{res}}$), deriving normal equations, and proving Gauss-Markov optimality ($\text{BLUE}$).
 6. **Residuals & Diagnostic Analysis:** Calculating error terms ($e_i = y_i - \hat{y}_i$), verifying zero-mean properties ($\bar{e} = 0$), and identifying heteroscedasticity.
-7. **Regression Assumptions:** Linearity, random sampling, exogeneity ($\mathbb{E}[\epsilon \mid X] = 0$), homoscedasticity ($\operatorname{Var}(\epsilon \mid X) = \sigma^2$), and residual normality ($\epsilon \mid X \sim \mathcal{N}(0, \sigma^2)$).
+7. **Regression Assumptions:** Linearity, random sampling, exogeneity ($\mathbb{E}[\epsilon \mid X] = 0$), homoscedasticity ($\text{Var}(\epsilon \mid X) = \sigma^2$), and residual normality ($\epsilon \mid X \sim \mathcal{N}(0, \sigma^2)$).
 8. **Evaluation Metrics:** Mathematical formulation and practical interpretation of $\text{MAE}$, $\text{MSE}$, $\text{RMSE}$, and the Coefficient of Determination ($R^2$).
 9. **Train/Test Split Methodology:** Preventing data leakage, evaluating out-of-sample generalization, and avoiding the student-memorization trap.
-10. **Overfitting & Underfitting:** Introductory bias-variance intuition in linear models ($\text{Expected MSE} = \operatorname{Bias}^2 + \operatorname{Var} + \sigma^2$).
+10. **Overfitting & Underfitting:** Introductory bias-variance intuition in linear models ($\text{Expected MSE} = \text{Bias}^2 + \text{Var} + \sigma^2$).
 11. **The Peril of Extrapolation:** Why predicting outside the empirical support domain $[x_{\min}, x_{\max}]$ violates scientific validity.
 12. **Optimization Foundations:** Introduction to Batch Gradient Descent ($\text{BGD}$) for parameter estimation via iterative loss minimization.
 
@@ -31,7 +31,7 @@ In Day 72, you investigated bivariate correlation:
 $$\text{Advertising Spend} \longleftrightarrow \text{Sales}$$
 
 Correlation quantifies that the two variables co-vary positively ($r = +0.82$). However, correlation is **strictly symmetric**:
-$$\operatorname{corr}(X, Y) = \operatorname{corr}(Y, X)$$
+$$\text{corr}(X, Y) = \text{corr}(Y, X)$$
 
 It cannot provide a functional mechanism to answer the core operational business question:
 > *"If our quarterly advertising budget is set to ₹35,000, what is our expected sales revenue?"*
@@ -56,7 +56,7 @@ Where:
 | Dimension | Correlation ($r$) | Simple Linear Regression ($\hat{y} = b_0 + b_1 x$) |
 | :--- | :--- | :--- |
 | **Primary Objective** | Quantify strength and direction of linear association | Predict $Y$ from $X$ and estimate marginal rate of change $\frac{\Delta Y}{\Delta X}$ |
-| **Directional Symmetry** | Symmetric: $\operatorname{corr}(X, Y) = \operatorname{corr}(Y, X)$ | Asymmetric: Regressing $Y$ on $X$ produces a different line than $X$ on $Y$ |
+| **Directional Symmetry** | Symmetric: $\text{corr}(X, Y) = \text{corr}(Y, X)$ | Asymmetric: Regressing $Y$ on $X$ produces a different line than $X$ on $Y$ |
 | **Physical Units** | Dimensionless scalar index ($-1 \le r \le +1$) | Preserves physical units: $b_1$ is in $\frac{\text{units of } Y}{\text{units of } X}$ |
 | **Functional Equation** | Single summary statistic | Explicit mathematical mapping: $\hat{y} = b_0 + b_1 x$ |
 | **Mathematical Link** | $r = \frac{s_{XY}}{s_X s_Y}$ | $b_1 = r \cdot \left(\frac{s_Y}{s_X}\right) = \frac{s_{XY}}{s_X^2}, \quad b_0 = \bar{y} - b_1 \bar{x}$ |
@@ -115,7 +115,7 @@ Substituting these centered expressions back into the equation:
 $$\sum_{i=1}^{n} (x_i - \bar{x})(y_i - \bar{y}) - b_1 \sum_{i=1}^{n} (x_i - \bar{x})^2 = 0$$
 
 Solving for $b_1$:
-$$\boxed{b_1 = \frac{\sum_{i=1}^{n} (x_i - \bar{x})(y_i - \bar{y})}{\sum_{i=1}^{n} (x_i - \bar{x})^2} = \frac{\operatorname{Cov}(X, Y)}{\operatorname{Var}(X)} = \frac{s_{XY}}{s_X^2} = r \cdot \left(\frac{s_Y}{s_X}\right)}$$
+$$\boxed{b_1 = \frac{\sum_{i=1}^{n} (x_i - \bar{x})(y_i - \bar{y})}{\sum_{i=1}^{n} (x_i - \bar{x})^2} = \frac{\text{Cov}(X, Y)}{\text{Var}(X)} = \frac{s_{XY}}{s_X^2} = r \cdot \left(\frac{s_Y}{s_X}\right)}$$
 
 ---
 
@@ -144,11 +144,11 @@ When the regression model incorporates an intercept term $b_0$, the $\text{OLS}$
 $$\sum_{i=1}^{n} e_i = \sum_{i=1}^{n} \big(y_i - b_0 - b_1 x_i\big) = -\frac{1}{2} \frac{\partial S}{\partial b_0} = 0 \implies \bar{e} = \frac{1}{n} \sum_{i=1}^{n} e_i = 0$$
 
 ### 2. Orthogonality to the Predictor ($X \perp e$)
-$$\sum_{i=1}^{n} x_i e_i = \sum_{i=1}^{n} x_i \big(y_i - b_0 - b_1 x_i\big) = -\frac{1}{2} \frac{\partial S}{\partial b_1} = 0 \implies \operatorname{Cov}(X, e) = 0$$
+$$\sum_{i=1}^{n} x_i e_i = \sum_{i=1}^{n} x_i \big(y_i - b_0 - b_1 x_i\big) = -\frac{1}{2} \frac{\partial S}{\partial b_1} = 0 \implies \text{Cov}(X, e) = 0$$
 *The residuals contain zero linear information related to the feature variable.*
 
 ### 3. Orthogonality to the Fitted Values ($\hat{Y} \perp e$)
-$$\sum_{i=1}^{n} \hat{y}_i e_i = \sum_{i=1}^{n} (b_0 + b_1 x_i) e_i = b_0 \underbrace{\sum_{i=1}^{n} e_i}_{= 0} + b_1 \underbrace{\sum_{i=1}^{n} x_i e_i}_{= 0} = 0 \implies \operatorname{Cov}(\hat{Y}, e) = 0$$
+$$\sum_{i=1}^{n} \hat{y}_i e_i = \sum_{i=1}^{n} (b_0 + b_1 x_i) e_i = b_0 \underbrace{\sum_{i=1}^{n} e_i}_{= 0} + b_1 \underbrace{\sum_{i=1}^{n} x_i e_i}_{= 0} = 0 \implies \text{Cov}(\hat{Y}, e) = 0$$
 
 ### 4. Exact Mean Equivalence
 $$\bar{\hat{y}} = \frac{1}{n} \sum_{i=1}^{n} \hat{y}_i = \frac{1}{n} \sum_{i=1}^{n} (y_i - e_i) = \frac{1}{n}\sum_{i=1}^n y_i - \frac{1}{n}\sum_{i=1}^n e_i = \bar{y} - 0 = \bar{y}$$
@@ -171,16 +171,16 @@ The **Gauss-Markov Theorem** proves that under assumptions A1 through A5, the $\
    Data points are drawn independently from a common joint population distribution.
 
 3. **A3: Strict Exogeneity (Zero Conditional Mean):**
-   $$\mathbb{E}[\epsilon_i \mid X_1, X_2, \dots, X_n] = 0 \implies \operatorname{Cov}(X_i, \epsilon_i) = 0$$
+   $$\mathbb{E}[\epsilon_i \mid X_1, X_2, \dots, X_n] = 0 \implies \text{Cov}(X_i, \epsilon_i) = 0$$
    The expected disturbance value given any feature value is zero. Violation produces **omitted variable bias** or endogeneity.
 
 4. **A4: Homoscedasticity (Constant Error Variance):**
-   $$\operatorname{Var}(\epsilon_i \mid X) = \sigma^2 < \infty \quad \forall i \in \{1, \dots, n\}$$
+   $$\text{Var}(\epsilon_i \mid X) = \sigma^2 < \infty \quad \forall i \in \{1, \dots, n\}$$
    The dispersion of disturbances remains invariant across all values of the regressor $X$.
 
 5. **A5: No Autocorrelation (Spherical Disturbances):**
-   $$\operatorname{Cov}(\epsilon_i, \epsilon_j \mid X) = 0 \quad \forall i \neq j$$
-   Errors between different observations are mutually uncorrelated. In matrix terms: $\operatorname{Var}(\boldsymbol{\epsilon} \mid \mathbf{X}) = \sigma^2 \mathbf{I}_n$.
+   $$\text{Cov}(\epsilon_i, \epsilon_j \mid X) = 0 \quad \forall i \neq j$$
+   Errors between different observations are mutually uncorrelated. In matrix terms: $\text{Var}(\boldsymbol{\epsilon} \mid \mathbf{X}) = \sigma^2 \mathbf{I}_n$.
 
 6. **A6: Normality of Residuals ($\text{CNLR}$ Assumption):**
    $$\epsilon \mid X \sim \mathcal{N}(0, \sigma^2)$$
@@ -191,8 +191,8 @@ The **Gauss-Markov Theorem** proves that under assumptions A1 through A5, the $\
 ### 6.1 Homoscedasticity vs. Heteroscedasticity
 
 $$\begin{aligned}
-\text{\textbf{Homoscedastic:}} \quad &\operatorname{Var}(e \mid \hat{y}) = \sigma^2 \quad (\text{uniform horizontal band of points}) \\
-\text{\textbf{Heteroscedastic:}} \quad &\operatorname{Var}(e \mid \hat{y}) = \sigma_i^2 = g(\hat{y}_i) \quad (\text{funnel, cone, or trumpet expansion})
+\text{Homoscedastic:} \quad &\text{Var}(e \mid \hat{y}) = \sigma^2 \quad (\text{uniform horizontal band of points}) \\
+\text{Heteroscedastic:} \quad &\text{Var}(e \mid \hat{y}) = \sigma_i^2 = g(\hat{y}_i) \quad (\text{funnel, cone, or trumpet expansion})
 \end{aligned}$$
 
 - **Consequences of Heteroscedasticity:**
@@ -288,7 +288,7 @@ Evaluating a machine learning model on the exact data used for parameter optimiz
 ### 8.2 The Bias-Variance Decomposition
 For an unseen test point $x_0$ with target $Y_0 = f(x_0) + \epsilon$, the expected prediction error decomposes analytically:
 
-$$\mathbb{E}\Big[\big(Y_0 - \hat{f}(x_0)\big)^2\Big] = \underbrace{\Big(\mathbb{E}\big[\hat{f}(x_0)\big] - f(x_0)\Big)^2}_{\operatorname{Bias}^2\big(\hat{f}(x_0)\big)} + \underbrace{\mathbb{E}\bigg[\Big(\hat{f}(x_0) - \mathbb{E}\big[\hat{f}(x_0)\big]\Big)^2\bigg]}_{\operatorname{Var}\big(\hat{f}(x_0)\big)} + \underbrace{\vphantom{\Big(}\sigma^2}_{\text{Irreducible Error}}$$
+$$\mathbb{E}\Big[\big(Y_0 - \hat{f}(x_0)\big)^2\Big] = \underbrace{\Big(\mathbb{E}\big[\hat{f}(x_0)\big] - f(x_0)\Big)^2}_{\text{Bias}^2\big(\hat{f}(x_0)\big)} + \underbrace{\mathbb{E}\bigg[\Big(\hat{f}(x_0) - \mathbb{E}\big[\hat{f}(x_0)\big]\Big)^2\bigg]}_{\text{Var}\big(\hat{f}(x_0)\big)} + \underbrace{\sigma^2}_{\text{Irreducible Error}}$$
 
 - **Underfitting (High Bias):** Model assumption is overly restrictive (e.g., fitting a line to an exponential trend). Both train and test error remain high.
 - **Overfitting (High Variance):** Model captures idiosyncrasies and random noise of the training partition. Training error is very low, but test error explodes.
@@ -310,10 +310,10 @@ Observed Sample Support: [₹10,000, ₹100,000]
 
 ### Mathematical Proof of Quadratic Variance Inflation
 Under classical regression assumptions, the variance of the predicted mean response at $x^*$ is:
-$$\operatorname{Var}\big(\hat{\mu}_{Y \mid x^*}\big) = \sigma^2 \left[\frac{1}{n} + \frac{(x^* - \bar{x})^2}{\sum_{i=1}^n (x_i - \bar{x})^2}\right]$$
+$$\text{Var}\big(\hat{\mu}_{Y \mid x^*}\big) = \sigma^2 \left[\frac{1}{n} + \frac{(x^* - \bar{x})^2}{\sum_{i=1}^n (x_i - \bar{x})^2}\right]$$
 
 And the variance of an individual new observation prediction error $(y^* - \hat{y}^*)$ is:
-$$\operatorname{Var}\big(y^* - \hat{y}^*\big) = \sigma^2 \left[1 + \frac{1}{n} + \frac{(x^* - \bar{x})^2}{\sum_{i=1}^n (x_i - \bar{x})^2}\right]$$
+$$\text{Var}\big(y^* - \hat{y}^*\big) = \sigma^2 \left[1 + \frac{1}{n} + \frac{(x^* - \bar{x})^2}{\sum_{i=1}^n (x_i - \bar{x})^2}\right]$$
 
 Notice the quadratic term $(x^* - \bar{x})^2$ in the numerator. As $x^*$ moves outside the training domain away from $\bar{x}$, uncertainty explodes **quadratically**, leading to wide, unstable confidence intervals.
 
@@ -431,7 +431,7 @@ It quantifies the proportion of total variance in the target variable explained 
 **Answer:** A residual plot graphs fitted values $\hat{y}_i$ on the horizontal axis against residuals $e_i$ on the vertical axis. An ideal plot displays a uniform, structureless random scatter centered around $e = 0$ with constant vertical spread (homoscedasticity) and no curves, trends, or clusters.
 
 #### Q17: What is heteroscedasticity, and how is it diagnosed?
-**Answer:** Heteroscedasticity is non-constant error variance ($\operatorname{Var}(\epsilon_i \mid X) \neq \sigma^2$). It is diagnosed visually by funnel or cone shapes in residual plots and formally via statistical tests like the Breusch-Pagan Lagrange Multiplier test ($LM = n R^2_{\text{aux}} \sim \chi^2_p$) or White's General Test.
+**Answer:** Heteroscedasticity is non-constant error variance ($\text{Var}(\epsilon_i \mid X) \neq \sigma^2$). It is diagnosed visually by funnel or cone shapes in residual plots and formally via statistical tests like the Breusch-Pagan Lagrange Multiplier test ($LM = n R^2_{\text{aux}} \sim \chi^2_p$) or White's General Test.
 
 #### Q18: Prove that in simple linear regression, $R^2 = r^2$.
 **Answer:**
@@ -456,8 +456,8 @@ $$R^2 = \left(r \frac{s_Y}{s_X}\right)^2 \cdot \frac{(n-1)s_X^2}{(n-1)s_Y^2} = r
 **Answer:** The Gauss-Markov Theorem states that under the assumptions of linearity in parameters, random sampling, strict exogeneity, homoscedasticity, and no autocorrelation, the $\text{OLS}$ estimator $\mathbf{b} = (\mathbf{X}^T \mathbf{X})^{-1} \mathbf{X}^T \mathbf{y}$ is $\text{BLUE}$ (**B**est **L**inear **U**nbiased **E**stimator)—it possesses the minimum variance matrix among all linear unbiased estimators.
 
 #### Q22: What happens to $\text{OLS}$ estimators when homoscedasticity is violated?
-**Answer:** The estimators $b_0$ and $b_1$ remain **unbiased and consistent**. However, they lose statistical efficiency (they are no longer $\text{BLUE}$), and standard analytical formulas for $\operatorname{Var}(b_1)$ become biased, rendering conventional $t$-statistics, $F$-tests, and confidence intervals unreliable unless robust (Huber-White sandwich) standard errors are applied:
-$$\widehat{\operatorname{Var}}_{\text{robust}}(\mathbf{b}) = (\mathbf{X}^T \mathbf{X})^{-1} \left(\sum_{i=1}^n e_i^2 \mathbf{x}_i \mathbf{x}_i^T\right) (\mathbf{X}^T \mathbf{X})^{-1}$$
+**Answer:** The estimators $b_0$ and $b_1$ remain **unbiased and consistent**. However, they lose statistical efficiency (they are no longer $\text{BLUE}$), and standard analytical formulas for $\text{Var}(b_1)$ become biased, rendering conventional $t$-statistics, $F$-tests, and confidence intervals unreliable unless robust (Huber-White sandwich) standard errors are applied:
+$$\widehat{\text{Var}}_{\text{robust}}(\mathbf{b}) = (\mathbf{X}^T \mathbf{X})^{-1} \left(\sum_{i=1}^n e_i^2 \mathbf{x}_i \mathbf{x}_i^T\right) (\mathbf{X}^T \mathbf{X})^{-1}$$
 
 #### Q23: Why does regression analysis not imply causal direction?
 **Answer:** $\text{OLS}$ fits geometric projections onto observational data. It cannot distinguish between:
@@ -541,7 +541,7 @@ This avoids directly computing $(\mathbf{X}^T \mathbf{X})^{-1}$, ensuring numeri
 5. **Linearity Blindness:** When the true relationship is quadratic ($Y = X^2$), linear regression will draw a horizontal line through the parabola ($r \approx 0, R^2 \approx 0$), concealing a deterministic relationship. **Always plot residuals!**
 6. **The Scale Confusion in Loss Metrics:** An $\text{MSE}$ value of $5,000,000\text{ ₹}^2$ may trigger executive alarm until translated to $\text{RMSE} = ₹2,236$, which demonstrates an average error of only 2.2% against a mean revenue of ₹100,000.
 7. **Data Leakage in Normalization:** Computing mean $\bar{x}$ or standard deviation $s_X$ on the complete dataset prior to `train_test_split` leaks future test information into the training phase. Always split data first, and apply the training parameters to the test partition.
-8. **Autocorrelation in Sequential Data:** When observations represent time series, disturbances are frequently autocorrelated ($\operatorname{Cov}(\epsilon_t, \epsilon_{t-1}) \neq 0$). Standard $\text{OLS}$ underestimates standard errors, generating false statistical significance.
+8. **Autocorrelation in Sequential Data:** When observations represent time series, disturbances are frequently autocorrelated ($\text{Cov}(\epsilon_t, \epsilon_{t-1}) \neq 0$). Standard $\text{OLS}$ underestimates standard errors, generating false statistical significance.
 9. **Heteroscedastic Confidence Distortion:** In the presence of heteroscedasticity, point estimates remain unbiased, but confidence and prediction intervals will be inappropriately wide for low fitted values and dangerously narrow for high values.
 10. **The Correlation-Causation Fallacy:** A near-perfect linear fit ($R^2 = 0.98$) between marketing expenditure and sales does not establish that marketing caused sales; seasonal holiday spikes could simultaneously elevate both variables.
 

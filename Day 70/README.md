@@ -2,11 +2,11 @@
 
 ## Overview
 A production-grade statistical hypothesis testing and inference engine implementing:
-- Parametric Tests: 1-Sample Z-Test (known $\\sigma$), 1-Sample Student's t-Test (unknown $\\sigma$)
+- Parametric Tests: 1-Sample Z-Test (known $\sigma$), 1-Sample Student's t-Test (unknown $\sigma$)
 - Proportion Tests: 1-Sample Z-Test for Proportions (Wald & Wilson Continuity)
 - Dual Decision Logic: Critical Value Rejection Regions vs P-Value thresholds
-- Confidence Interval Duality: Linkage between $(1 - \\alpha)$ CIs and two-sided tests
-- Practical Significance: Cohen's d Effect Size benchmarks ($d = \\frac{\\bar{x} - \\mu_0}{s}$)
+- Confidence Interval Duality: Linkage between $(1 - \alpha)$ CIs and two-sided tests
+- Practical Significance: Cohen's d Effect Size benchmarks ($d = \frac{\bar{x} - \\mu_0}{s}$)
 - Type I Error Monte Carlo Simulation
 - 4 Real-World Business Scenarios: Delivery Times, Website Conversion, Manufacturing QC, Customer Order Values
 - 7 Publication-Grade Visualizations
