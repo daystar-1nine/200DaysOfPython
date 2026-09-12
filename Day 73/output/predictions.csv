@@ -1,0 +1,8 @@
+Advertising_Spend,Predicted_Sales,Is_Extrapolation
+15000.0,52695.75,False
+25000.0,70600.13,False
+35000.0,88504.51,False
+50000.0,115361.08,False
+75000.0,160122.04,False
+100000.0,204882.99,True
+120000.0,240691.76,True

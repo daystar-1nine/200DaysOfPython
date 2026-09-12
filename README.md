@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white&style=for-the-badge" alt="Python Version">
   <img src="https://img.shields.io/badge/Challenge%20Status-In%20Progress-orange?style=for-the-badge" alt="Challenge Status">
-  <img src="https://img.shields.io/badge/Progress-72%20%2F%20200%20Days-green?style=for-the-badge" alt="Progress Badge">
+  <img src="https://img.shields.io/badge/Progress-73%20%2F%20200%20Days-green?style=for-the-badge" alt="Progress Badge">
 </p>
 
 A 200-day journey to master Python from beginner to advanced by learning daily, solving coding problems, building real-world projects, and sharing my progress publicly. This repository documents my growth, projects, and consistent learning—one day at a time. 🚀
@@ -11,9 +11,9 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 ---
 
 ## 📊 Challenge Progress
-**Current Progress:** `72 / 200 Days` (36.0%) — **PHASE 5: DATA VISUALIZATION & STATISTICS IN PROGRESS!** ⚡
+**Current Progress:** `73 / 200 Days` (36.5%) — **PHASE 5: DATA VISUALIZATION & STATISTICS IN PROGRESS!** ⚡
 ```text
-[██████████████░░░░░░] 36.0% Complete
+[██████████████░░░░░░] 36.5% Complete
 ```
 
 ---
@@ -1853,6 +1853,59 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 │   ├── pytest.ini                            # Pytest Path Settings
 │   ├── requirements.txt                      # Dependencies
 │   └── README.md                             # Day 72 Documentation & Architecture Guide
+├── Day 73/
+│   ├── Day73.md                              # Simple Linear Regression Masterclass (Theory, 35 Q&As & 10 Insights)
+│   ├── practice/
+│   │   ├── task1_manual_regression_line.py   # Closed-Form OLS Slope & Intercept Calculation
+│   │   ├── task2_scikit_learn_regression.py  # Scikit-learn LinearRegression Fit & Comparison
+│   │   ├── task3_prediction_engine.py        # Business Prediction Engine & Extrapolation Detector
+│   │   ├── task4_residual_analysis.py        # Residual Computation & Zero-Mean Verification
+│   │   ├── task5_r_squared_calculation.py    # Manual R-Squared Calculation vs Scikit-Learn
+│   │   ├── task6_regression_metrics.py       # Comprehensive MAE, MSE, RMSE & R2 Evaluator
+│   │   └── task7_outlier_experiment.py       # High-Leverage Outlier Impact Experiment
+│   ├── coding_challenges/
+│   │   ├── challenge1_manual_linear_regression.py # OOP SimpleLinearRegression Class from Scratch
+│   │   └── challenge2_gradient_descent_preview.py # Batch Gradient Descent Optimization Engine
+│   ├── data/
+│   │   ├── raw/
+│   │   │   └── advertising_sales.csv         # 600 Advertising Spend vs Sales Records
+│   │   └── processed/
+│   │       └── cleaned_sales.csv             # 598 Sanitized & Validated Records
+│   ├── app/
+│   │   ├── config.py                         # App Configuration & Path Constants
+│   │   ├── loader.py                         # Resilient CSV Ingestion Engine
+│   │   ├── cleaner.py                        # Null, Duplicate & Negative Value Sanitizer
+│   │   ├── validator.py                      # Data Variance, Range & Column Validator
+│   │   ├── eda.py                            # Exploratory Data Analysis & Pearson Correlation
+│   │   ├── regression.py                     # SimpleLinearRegressor Engine
+│   │   ├── predictions.py                    # Scenario Projections & Extrapolation Alerts
+│   │   ├── metrics.py                        # MAE, MSE, RMSE & R2 Evaluation Engine
+│   │   ├── residuals.py                      # Residual Diagnostics & Homoscedasticity Analysis
+│   │   ├── visualizations.py                 # 8 Publication-Grade Visualizations (Agg Backend)
+│   │   ├── insights.py                       # Automated Statistical Insight Synthesizer
+│   │   ├── report.py                         # Executive ASCII Report & Artifact Exporters
+│   │   └── main.py                           # CLI Pipeline Orchestrator
+│   ├── output/
+│   │   ├── charts/                           # 8 Publication-Quality Figures (300 DPI)
+│   │   ├── predictions.csv                   # Scenario Projections & Extrapolation Alerts CSV
+│   │   ├── regression_results.csv            # Train vs Test Performance Metrics CSV
+│   │   └── regression_report.txt             # Executive ASCII Summary Report
+│   ├── tests/                                # 45 Pytest Unit & Integration Tests (100% Passing)
+│   │   ├── conftest.py
+│   │   ├── test_loader.py
+│   │   ├── test_cleaner.py
+│   │   ├── test_validator.py
+│   │   ├── test_eda.py
+│   │   ├── test_regression.py
+│   │   ├── test_predictions.py
+│   │   ├── test_metrics.py
+│   │   ├── test_residuals.py
+│   │   ├── test_insights.py
+│   │   └── test_integration.py
+│   ├── pyproject.toml                        # Pytest Configuration
+│   ├── pytest.ini                            # Pytest Path Settings
+│   ├── requirements.txt                      # Dependencies
+│   └── README.md                             # Day 73 Documentation & Architecture Guide
 ```
 
 ---
@@ -2013,6 +2066,7 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 | **Day 70** | Sep 07, 2026 | Hypothesis Testing Fundamentals (Z/T Tests, Proportions, P-Values, Effect Size, Decision Engine) | 🟢 Completed | [Notes](Day%2070/Day70.md) • [Task 1](Day%2070/practice/task1_manual_hypothesis_test.py) • [Challenge 1](Day%2070/coding_challenges/challenge1_one_sample_ttest.py) • [Challenge 4](Day%2070/coding_challenges/challenge4_plot_hypothesis_test.py) • [Challenge 5](Day%2070/coding_challenges/challenge5_type1_error_simulation.py) • [App Root](Day%2070/app/main.py) • [Tests](Day%2070/tests/test_mean_tests.py) • [Readme](Day%2070/README.md) |
 | **Day 71** | Sep 11, 2026 | Two-Sample Tests & A/B Testing (Independent/Paired t-Tests, Two-Proportion Z-Test, Lift, ARPU, Guardrails, Decision Engine) | 🟢 Completed | [Notes](Day%2071/Day71.md) • [Task 1](Day%2071/practice/task1_independent_ttest.py) • [Task 5](Day%2071/practice/task5_ab_conversion.py) • [Challenge 3](Day%2071/coding_challenges/challenge3_ab_test_report.py) • [Challenge 4](Day%2071/coding_challenges/challenge4_simulate_false_positives.py) • [App Root](Day%2071/app/main.py) • [Tests](Day%2071/tests/test_proportion_tests.py) • [Readme](Day%2071/README.md) |
 | **Day 72** | Sep 12, 2026 | Correlation, Covariance & Relationships (Pearson r, Spearman rho, Fisher CI, Anscombe's Quartet, Simpson's Paradox, Confounding, Multicollinearity) | 🟢 Completed | [Notes](Day%2072/Day72.md) • [Task 1](Day%2072/practice/task1_manual_covariance.py) • [Task 2](Day%2072/practice/task2_pearson_correlation.py) • [Challenge 1](Day%2072/coding_challenges/challenge1_correlation_vs_causation.py) • [Challenge 3](Day%2072/coding_challenges/challenge3_anscombes_quartet.py) • [App Root](Day%2072/app/main.py) • [Tests](Day%2072/tests/test_pearson.py) • [Readme](Day%2072/README.md) |
+| **Day 73** | Sep 12, 2026 | Simple Linear Regression (OLS Derivation, Gradient Descent, Residual Diagnostics, Train/Test Split, R², MAE, MSE, RMSE) | 🟢 Completed | [Notes](Day%2073/Day73.md) • [Task 1](Day%2073/practice/task1_manual_regression_line.py) • [Task 2](Day%2073/practice/task2_scikit_learn_regression.py) • [Challenge 1](Day%2073/coding_challenges/challenge1_manual_linear_regression.py) • [Challenge 2](Day%2073/coding_challenges/challenge2_gradient_descent_preview.py) • [App Root](Day%2073/app/main.py) • [Tests](Day%2073/tests/test_regression.py) • [Readme](Day%2073/README.md) |
 
 
 

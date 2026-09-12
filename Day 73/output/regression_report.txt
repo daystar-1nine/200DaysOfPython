@@ -1,0 +1,67 @@
+======================================================================
+         SALES PREDICTION REGRESSION ENGINE REPORT          
+======================================================================
+Total Observations:           598
+Predictor Feature (X):        Advertising_Spend (Rs.)
+Target Variable (Y):          Sales (Rs.)
+Pearson Correlation (r):      0.9382 (p = 7.2312e-277)
+----------------------------------------------------------------------
+
+======================================================================
+1. FITTED REGRESSION MODEL
+======================================================================
+Algorithm:                    Simple Linear Regression (OLS)
+Slope (b1):                   1.7904
+Intercept (b0):               Rs. 25,839.17
+Regression Equation:          Sales = 25,839.17 + 1.7904 * Advertising_Spend
+
+======================================================================
+2. TRAIN VS. TEST GENERALIZATION EVALUATION
+======================================================================
+Metric       | Training Set (80%)     | Test Set (20%)        
+----------------------------------------------------------------------
+MAE          | Rs. 14,118.60          | Rs. 13,886.07         
+MSE          | 305,417,278.38         | 322,101,582.87        
+RMSE         | Rs. 17,476.19          | Rs. 17,947.19         
+R2 Score     | 0.8822                 | 0.8695                
+
+======================================================================
+3. RESIDUAL DIAGNOSTICS
+======================================================================
+Mean Residual:                Rs. 3.4187e+03 (Aligned to 0)
+Residual Std Dev:             Rs. 17,692.44
+Residual Skewness:            -0.0007 (Near 0)
+Variance Ratio (High/Low):    1.2364
+Homoscedasticity Valid:       True
+
+======================================================================
+4. SCENARIO PLANNING PREDICTIONS
+======================================================================
+Advertising Spend      | Predicted Sales        | Extrapolation Risk
+----------------------------------------------------------------------
+Rs. 15,000.00          | Rs. 52,695.75          | No (Supported)    
+Rs. 25,000.00          | Rs. 70,600.13          | No (Supported)    
+Rs. 35,000.00          | Rs. 88,504.51          | No (Supported)    
+Rs. 50,000.00          | Rs. 115,361.08         | No (Supported)    
+Rs. 75,000.00          | Rs. 160,122.04         | No (Supported)    
+Rs. 100,000.00         | Rs. 204,882.99         | YES [!] Warning   
+Rs. 120,000.00         | Rs. 240,691.76         | YES [!] Warning   
+
+======================================================================
+5. AUTOMATED STRATEGIC INSIGHTS & CAUSAL GOVERNANCE
+======================================================================
+1. Positive Linear Association: The model identifies a positive linear relationship (slope b1 = 1.79). For every additional Rs. 1,000 invested in advertising, expected sales revenue increases by approximately Rs. 1,790.44 on average.
+
+2. Baseline Organic Revenue: The estimated intercept is Rs. 25,839.17, representing the baseline level of sales when advertising expenditure is zero. Management should view this as the organic customer base run-rate.
+
+3. Target Budget Projection: For a planned advertising expenditure of Rs. 50,000, the model forecasts expected sales of Rs. 115,361.08.
+
+4. Prediction Uncertainty: The model achieves an out-of-sample test R2 of 0.869 and RMSE of Rs. 17,947.19. Typical prediction errors hover around Rs. 17,947.19.
+
+5. Residual Diagnostic: Error variance satisfies homoscedasticity (variance ratio = 1.24), confirming stable error bands across budget ranges.
+
+6. METHODOLOGICAL MANDATE & EXTRAPOLATION ADVISORY: This regression model captures empirical association, NOT direct physical causation. Budget allocations beyond Rs. 100,000 represent unsupported extrapolation. Controlled randomized marketing experiments (A/B tests) are strongly advised before committing massive capital allocations.
+
+======================================================================
+                       END OF REPORT                        
+======================================================================
