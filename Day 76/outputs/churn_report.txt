@@ -1,0 +1,33 @@
+=== CUSTOMER CHURN PREDICTION REPORT ===
+
+--- METRICS ---
+Accuracy: 0.6568
+Precision: 0.4651
+Recall: 0.8333
+F1: 0.5970
+ROC_AUC: 0.7788
+
+--- CONFUSION MATRIX ---
+True Positives: 60
+True Negatives: 95
+False Positives: 69
+False Negatives: 12
+
+--- THRESHOLD ---
+Optimal Threshold (F1): 0.20
+
+--- BUSINESS INSIGHTS ---
+1. The model achieves an overall accuracy of 65.68%.
+2. Precision is 0.47 and Recall is 0.83.
+3. The F1 score is 0.60.
+4. The model's ability to distinguish classes is strong, with an ROC AUC of 0.78.
+5. Out of 236 cases, the model correctly identified 60 true churners.
+6. The model missed 12 actual churners (False Negatives).
+7. The model incorrectly predicted churn for 69 retained customers (False Positives).
+8. The features most strongly associated with an increased likelihood of churn are num__Monthly_Charges, num__Support_Calls, num__Late_Payments.
+9. Features strongly associated with retention include cat__Internet_Service_No, cat__Contract_Type_One year, cat__Contract_Type_Two year.
+10. The mathematically optimal threshold based on F1 score is 0.20.
+11. When optimizing for business cost, the ideal threshold is 0.10.
+12. At this cost-optimal threshold, the estimated business cost is $39,500.00.
+13. Consider targeting retention offers to customers identified by the model to balance cost and benefit.
+14. Focus on improving services related to the highest risk features identified.

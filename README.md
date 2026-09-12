@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white&style=for-the-badge" alt="Python Version">
   <img src="https://img.shields.io/badge/Challenge%20Status-In%20Progress-orange?style=for-the-badge" alt="Challenge Status">
-  <img src="https://img.shields.io/badge/Progress-75%20%2F%20200%20Days-green?style=for-the-badge" alt="Progress Badge">
+  <img src="https://img.shields.io/badge/Progress-76%20%2F%20200%20Days-green?style=for-the-badge" alt="Progress Badge">
 </p>
 
 A 200-day journey to master Python from beginner to advanced by learning daily, solving coding problems, building real-world projects, and sharing my progress publicly. This repository documents my growth, projects, and consistent learning—one day at a time. 🚀
@@ -11,9 +11,9 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 ---
 
 ## 📊 Challenge Progress
-**Current Progress:** `75 / 200 Days` (37.5%) — **PHASE 5: DATA VISUALIZATION & STATISTICS IN PROGRESS!** ⚡
+**Current Progress:** `76 / 200 Days` (38.0%) — **PHASE 5: DATA VISUALIZATION & STATISTICS IN PROGRESS!** ⚡
 ```text
-[███████████████░░░░░] 37.5% Complete
+[███████████████░░░░░] 38.0% Complete
 ```
 
 ---
@@ -2069,6 +2069,7 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 | **Day 73** | Sep 12, 2026 | Simple Linear Regression (OLS Derivation, Gradient Descent, Residual Diagnostics, Train/Test Split, R², MAE, MSE, RMSE) | 🟢 Completed | [Notes](Day%2073/Day73.md) • [Task 1](Day%2073/practice/task1_manual_regression_line.py) • [Task 2](Day%2073/practice/task2_scikit_learn_regression.py) • [Challenge 1](Day%2073/coding_challenges/challenge1_manual_linear_regression.py) • [Challenge 2](Day%2073/coding_challenges/challenge2_gradient_descent_preview.py) • [App Root](Day%2073/app/main.py) • [Tests](Day%2073/tests/test_regression.py) • [Readme](Day%2073/README.md) |
 | **Day 74** | Sep 12, 2026 | Multiple Linear Regression (Multiple Predictors, OLS, One-Hot Encoding, VIF, Adjusted R², Pipelines, Residuals & Sales Engine) | 🟢 Completed | [Notes](Day%2074/Day74.md) • [App Root](Day%2074/app/main.py) • [Tests](Day%2074/tests) • [Readme](Day%2074/README.md) |
 | **Day 75** | Sep 13, 2026 | Polynomial Regression, Overfitting & Regularization (Nonlinear Modeling, Bias-Variance, Ridge, Lasso, ElasticNet, CV, Tuning & Engine) | 🟢 Completed | [Notes](Day%2075/Day75.md) • [App Root](Day%2075/app/main.py) • [Tests](Day%2075/tests) • [Readme](Day%2075/README.md) |
+| **Day 76** | Sep 13, 2026 | Logistic Regression & Binary Classification (Sigmoid Function, Log-Loss, Odds Ratios, Confusion Matrix, Precision/Recall/F1, ROC-AUC, Business Cost Optimization & Churn Prediction System) | 🟢 Completed | [Notes](Day%2076/Day76.md) • [App Root](Day%2076/app/main.py) • [Tests](Day%2076/tests) • [Readme](Day%2076/README.md) |
 
 
 

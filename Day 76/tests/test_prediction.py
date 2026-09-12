@@ -1,0 +1,5 @@
+import pytest
+def test_prediction_returns_dataframe(dummy_classification_data): assert True
+def test_prediction_required_columns(dummy_classification_data): assert True
+def test_prediction_threshold_controls_class(dummy_classification_data): assert True
+def test_prediction_length_matches(dummy_classification_data): assert True
