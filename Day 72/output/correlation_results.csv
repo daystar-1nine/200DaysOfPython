@@ -1,0 +1,67 @@
+Variable_1,Variable_2,Pearson_r,Pearson_p,CI_Lower,CI_Upper,Spearman_rho,Spearman_p,Abs_Diff,Strength,Direction,Is_Significant,Is_Strong,Is_Multicollinear,Is_Divergent
+Quantity,Unit_Price,-0.0149,0.6052564622724762,-0.0715,0.0417,-0.006,0.8348992861860418,0.0089,Very Weak (0.00 - 0.19),Negative,False,False,False,False
+Quantity,Cost_Price,-0.0167,0.5638999029141664,-0.0732,0.04,-0.0074,0.7976275575380135,0.0093,Very Weak (0.00 - 0.19),Negative,False,False,False,False
+Quantity,Discount,0.0508,0.07854254287538968,-0.0058,0.1071,0.003,0.9165706398344434,0.0478,Very Weak (0.00 - 0.19),Positive,False,False,False,False
+Quantity,Revenue,0.6541,1.922359802977509e-147,0.6205,0.6853,0.7129,7.896722087230493e-187,0.0588,Strong (0.60 - 0.79),Positive,True,False,False,False
+Quantity,Cost,0.5388,2.757124037764047e-91,0.4973,0.5777,0.7142,7.279266533521743e-188,0.1755,Moderate (0.40 - 0.59),Positive,True,False,False,False
+Quantity,Profit,0.4737,3.9154057460390165e-68,0.4286,0.5164,0.6942,2.621026004244649e-173,0.2206,Moderate (0.40 - 0.59),Positive,True,False,False,True
+Quantity,Profit_Margin,-0.0229,0.4271922956579398,-0.0794,0.0337,0.0138,0.633349933639669,0.0367,Very Weak (0.00 - 0.19),Negative,False,False,False,False
+Quantity,Customer_Rating,-0.0381,0.18729492549958107,-0.0945,0.0185,-0.0719,0.012784115683356368,0.0338,Very Weak (0.00 - 0.19),Negative,False,False,False,False
+Quantity,Delivery_Time_Days,0.1328,3.914243381094487e-06,0.0768,0.188,0.1775,5.926422967542484e-10,0.0447,Very Weak (0.00 - 0.19),Positive,True,False,False,False
+Quantity,Marketing_Spend,0.1605,2.2483710863617503e-08,0.1049,0.2152,0.6872,1.876276517725453e-168,0.5266,Very Weak (0.00 - 0.19),Positive,True,False,False,True
+Quantity,Page_Views,0.6754,1.2383027979360034e-160,0.6434,0.705,0.8856,0.0,0.2103,Strong (0.60 - 0.79),Positive,True,False,False,True
+Unit_Price,Cost_Price,0.9957,0.0,0.9952,0.9962,0.9957,0.0,0.0,Very Strong (0.80 - 1.00),Positive,True,True,True,False
+Unit_Price,Discount,-0.0109,0.7056307528754174,-0.0675,0.0457,-0.0234,0.41803596261122783,0.0125,Very Weak (0.00 - 0.19),Negative,False,False,False,False
+Unit_Price,Revenue,0.5116,5.275988881646961e-81,0.4685,0.5522,0.6083,2.380581606473085e-122,0.0967,Moderate (0.40 - 0.59),Positive,True,False,False,False
+Unit_Price,Cost,0.6243,1.154276575981657e-130,0.5885,0.6577,0.6085,1.8762837621022537e-122,0.0158,Strong (0.60 - 0.79),Positive,True,False,False,False
+Unit_Price,Profit,0.5112,6.98009262783632e-81,0.4682,0.5519,0.5938,2.9102382480561485e-115,0.0826,Moderate (0.40 - 0.59),Positive,True,False,False,False
+Unit_Price,Profit_Margin,0.046,0.11092933900110667,-0.0106,0.1024,0.0087,0.762983034648191,0.0373,Very Weak (0.00 - 0.19),Positive,False,False,False,False
+Unit_Price,Customer_Rating,-0.0066,0.8200265433524164,-0.0631,0.05,-0.0117,0.6854394620980003,0.0051,Very Weak (0.00 - 0.19),Negative,False,False,False,False
+Unit_Price,Delivery_Time_Days,-0.0123,0.6699297207414031,-0.0689,0.0443,-0.0014,0.9624856914962056,0.011,Very Weak (0.00 - 0.19),Negative,False,False,False,False
+Unit_Price,Marketing_Spend,0.1819,2.194580833531264e-10,0.1266,0.236,0.5985,1.710834214242852e-117,0.4166,Very Weak (0.00 - 0.19),Positive,True,False,False,True
+Unit_Price,Page_Views,0.3603,4.338955500487578e-38,0.31,0.4085,0.326,4.14758163327375e-31,0.0343,Weak (0.20 - 0.39),Positive,True,False,False,False
+Cost_Price,Discount,-0.0076,0.7915289335504111,-0.0642,0.049,-0.0196,0.4983314300337683,0.0119,Very Weak (0.00 - 0.19),Negative,False,False,False,False
+Cost_Price,Revenue,0.5079,1.062755731906627e-79,0.4647,0.5488,0.6048,1.375685832938538e-120,0.0968,Moderate (0.40 - 0.59),Positive,True,False,False,False
+Cost_Price,Cost,0.626,1.4820583797109643e-131,0.5903,0.6592,0.6106,1.650005471476228e-123,0.0154,Strong (0.60 - 0.79),Positive,True,False,False,False
+Cost_Price,Profit,0.5006,4.2076905197339445e-77,0.4569,0.5418,0.5818,1.2483678735773135e-109,0.0812,Moderate (0.40 - 0.59),Positive,True,False,False,False
+Cost_Price,Profit_Margin,-0.0108,0.708501774149647,-0.0674,0.0458,-0.0507,0.07923173722962458,0.0399,Very Weak (0.00 - 0.19),Negative,False,False,False,False
+Cost_Price,Customer_Rating,-0.0082,0.7755748196723252,-0.0648,0.0484,-0.0125,0.6661110325088345,0.0042,Very Weak (0.00 - 0.19),Negative,False,False,False,False
+Cost_Price,Delivery_Time_Days,-0.014,0.628064124943219,-0.0705,0.0426,-0.0038,0.8953918317379133,0.0102,Very Weak (0.00 - 0.19),Negative,False,False,False,False
+Cost_Price,Marketing_Spend,0.1845,1.1991368603437212e-10,0.1292,0.2386,0.5957,3.786463073163052e-116,0.4112,Very Weak (0.00 - 0.19),Positive,True,False,False,True
+Cost_Price,Page_Views,0.3579,1.424288156870093e-37,0.3075,0.4062,0.3239,1.0593268255540486e-30,0.034,Weak (0.20 - 0.39),Positive,True,False,False,False
+Discount,Revenue,-0.028,0.3321225028260787,-0.0845,0.0286,-0.0605,0.03624577611852186,0.0324,Very Weak (0.00 - 0.19),Negative,False,False,False,False
+Discount,Cost,-0.0122,0.6735156627532777,-0.0687,0.0444,-0.0059,0.8382696099376108,0.0063,Very Weak (0.00 - 0.19),Negative,False,False,False,False
+Discount,Profit,-0.2661,6.7220281912494285e-21,-0.3179,-0.2127,-0.1598,2.6254496281748484e-08,0.1063,Weak (0.20 - 0.39),Negative,True,False,False,False
+Discount,Profit_Margin,-0.4775,2.3625296088041824e-69,-0.52,-0.4326,-0.631,2.9498252509832797e-134,0.1535,Moderate (0.40 - 0.59),Negative,True,False,False,False
+Discount,Customer_Rating,-0.0691,0.016617978064300074,-0.1252,-0.0126,-0.0684,0.017862493061679686,0.0008,Very Weak (0.00 - 0.19),Negative,True,False,False,False
+Discount,Delivery_Time_Days,-0.0144,0.6192205847029156,-0.0709,0.0423,-0.0091,0.7531914888472807,0.0053,Very Weak (0.00 - 0.19),Negative,False,False,False,False
+Discount,Marketing_Spend,-0.0254,0.3795282699438113,-0.0819,0.0312,-0.0722,0.01241443150143188,0.0468,Very Weak (0.00 - 0.19),Negative,False,False,False,False
+Discount,Page_Views,-0.0576,0.04604896029268696,-0.1138,-0.001,-0.046,0.11139831576033946,0.0116,Very Weak (0.00 - 0.19),Negative,True,False,False,False
+Revenue,Cost,0.7821,2.5207680028554683e-248,0.7591,0.8031,0.9911,0.0,0.209,Strong (0.60 - 0.79),Positive,True,True,True,True
+Revenue,Profit,0.5228,3.7766752609806295e-85,0.4805,0.5628,0.9789,0.0,0.456,Moderate (0.40 - 0.59),Positive,True,False,False,True
+Revenue,Profit_Margin,0.0322,0.2647831526705515,-0.0244,0.0886,0.0475,0.10014140492643654,0.0153,Very Weak (0.00 - 0.19),Positive,False,False,False,False
+Revenue,Customer_Rating,-0.0358,0.21468134334609565,-0.0922,0.0208,-0.0557,0.05360832814075757,0.0199,Very Weak (0.00 - 0.19),Negative,False,False,False,False
+Revenue,Delivery_Time_Days,0.0679,0.0185710940879381,0.0114,0.1241,0.1294,6.936623146754923e-06,0.0614,Very Weak (0.00 - 0.19),Positive,True,False,False,False
+Revenue,Marketing_Spend,0.2334,2.637645502209219e-16,0.1791,0.2862,0.9677,0.0,0.7343,Weak (0.20 - 0.39),Positive,True,False,False,True
+Revenue,Page_Views,0.7013,2.829526657743986e-178,0.6713,0.7289,0.8896,0.0,0.1883,Strong (0.60 - 0.79),Positive,True,True,False,False
+Cost,Profit,0.8598,0.0,0.8443,0.8739,0.9644,0.0,0.1045,Very Strong (0.80 - 1.00),Positive,True,True,True,False
+Cost,Profit_Margin,-0.0077,0.7889814015277724,-0.0643,0.0489,-0.0391,0.17576857609057744,0.0314,Very Weak (0.00 - 0.19),Negative,False,False,False,False
+Cost,Customer_Rating,-0.0627,0.029745779537885323,-0.1189,-0.0062,-0.0606,0.035759333322916066,0.0021,Very Weak (0.00 - 0.19),Negative,True,False,False,False
+Cost,Delivery_Time_Days,0.11,0.00013451966251971538,0.0537,0.1656,0.1311,5.161589642428199e-06,0.0212,Very Weak (0.00 - 0.19),Positive,True,False,False,False
+Cost,Marketing_Spend,0.299,3.370592911540759e-26,0.2465,0.3496,0.9668,0.0,0.6678,Weak (0.20 - 0.39),Positive,True,False,False,True
+Cost,Page_Views,0.903,0.0,0.8919,0.9129,0.8919,0.0,0.011,Very Strong (0.80 - 1.00),Positive,True,True,True,False
+Profit,Profit_Margin,0.1567,4.825078358831876e-08,0.101,0.2115,0.192,2.0152971816193087e-11,0.0352,Very Weak (0.00 - 0.19),Positive,True,False,False,False
+Profit,Customer_Rating,-0.0369,0.20184430835452935,-0.0933,0.0198,-0.0491,0.08936370676011747,0.0122,Very Weak (0.00 - 0.19),Negative,False,False,False,False
+Profit,Delivery_Time_Days,0.1081,0.00017443630320983586,0.0519,0.1637,0.1343,3.0197486623434475e-06,0.0262,Very Weak (0.00 - 0.19),Positive,True,False,False,False
+Profit,Marketing_Spend,0.2621,2.7049557443588688e-20,0.2086,0.314,0.9596,0.0,0.6976,Weak (0.20 - 0.39),Positive,True,False,False,True
+Profit,Page_Views,0.8093,4.218847789407657e-279,0.7888,0.828,0.8789,0.0,0.0696,Very Strong (0.80 - 1.00),Positive,True,True,True,False
+Profit_Margin,Customer_Rating,0.0359,0.21392081367636104,-0.0207,0.0923,0.0297,0.30402040444455813,0.0062,Very Weak (0.00 - 0.19),Positive,False,False,False,False
+Profit_Margin,Delivery_Time_Days,0.0252,0.3837271340351244,-0.0315,0.0816,0.0189,0.5133283807360782,0.0063,Very Weak (0.00 - 0.19),Positive,False,False,False,False
+Profit_Margin,Marketing_Spend,0.0053,0.8538476231910893,-0.0513,0.0619,0.0545,0.05908276990212151,0.0492,Very Weak (0.00 - 0.19),Positive,False,False,False,False
+Profit_Margin,Page_Views,0.0379,0.18986895036284665,-0.0188,0.0943,0.0355,0.21953489349362368,0.0024,Very Weak (0.00 - 0.19),Positive,False,False,False,False
+Customer_Rating,Delivery_Time_Days,-0.2965,8.752300265854169e-26,-0.3473,-0.244,-0.3027,7.685181388876797e-27,0.0061,Weak (0.20 - 0.39),Negative,True,False,False,False
+Customer_Rating,Marketing_Spend,-0.0228,0.42937134367218405,-0.0793,0.0338,-0.0597,0.0387894183916087,0.0368,Very Weak (0.00 - 0.19),Negative,False,False,False,False
+Customer_Rating,Page_Views,-0.0658,0.02261067298372737,-0.1219,-0.0093,-0.0701,0.01520280642532211,0.0042,Very Weak (0.00 - 0.19),Negative,True,False,False,False
+Delivery_Time_Days,Marketing_Spend,0.006,0.8358168097745678,-0.0506,0.0626,0.1284,8.171178270882367e-06,0.1224,Very Weak (0.00 - 0.19),Positive,False,False,False,False
+Delivery_Time_Days,Page_Views,0.1443,5.131024180301539e-07,0.0885,0.1993,0.1565,5.102112808241611e-08,0.0121,Very Weak (0.00 - 0.19),Positive,True,False,False,False
+Marketing_Spend,Page_Views,0.276,1.987934931464678e-22,0.2229,0.3275,0.8898,0.0,0.6138,Weak (0.20 - 0.39),Positive,True,False,False,True

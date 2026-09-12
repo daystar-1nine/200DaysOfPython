@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white&style=for-the-badge" alt="Python Version">
   <img src="https://img.shields.io/badge/Challenge%20Status-In%20Progress-orange?style=for-the-badge" alt="Challenge Status">
-  <img src="https://img.shields.io/badge/Progress-71%20%2F%20200%20Days-green?style=for-the-badge" alt="Progress Badge">
+  <img src="https://img.shields.io/badge/Progress-72%20%2F%20200%20Days-green?style=for-the-badge" alt="Progress Badge">
 </p>
 
 A 200-day journey to master Python from beginner to advanced by learning daily, solving coding problems, building real-world projects, and sharing my progress publicly. This repository documents my growth, projects, and consistent learning—one day at a time. 🚀
@@ -11,9 +11,9 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 ---
 
 ## 📊 Challenge Progress
-**Current Progress:** `71 / 200 Days` (35.5%) — **PHASE 5: DATA VISUALIZATION & STATISTICS IN PROGRESS!** ⚡
+**Current Progress:** `72 / 200 Days` (36.0%) — **PHASE 5: DATA VISUALIZATION & STATISTICS IN PROGRESS!** ⚡
 ```text
-[██████████████░░░░░░] 35.5% Complete
+[██████████████░░░░░░] 36.0% Complete
 ```
 
 ---
@@ -1796,6 +1796,63 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 │   ├── pytest.ini                            # Pytest Path Settings
 │   ├── requirements.txt                      # Dependencies
 │   └── README.md                             # Day 71 Documentation & Architecture Guide
+├── Day 72/
+│   ├── Day72.md                              # Correlation, Covariance & Relationships (Theory, 30 Q&As & Insights)
+│   ├── practice/
+│   │   ├── task1_manual_covariance.py        # Manual Sample Covariance vs NumPy
+│   │   ├── task2_pearson_correlation.py      # Pearson r, t-Statistic & P-Value
+│   │   ├── task3_spearman_correlation.py     # Spearman Rank Correlation vs SciPy
+│   │   ├── task4_positive_correlation.py     # Positive Linear Simulation & Fisher CI
+│   │   ├── task5_negative_correlation.py     # Negative Linear Simulation & Significance
+│   │   ├── task6_nonlinear_relationship.py   # Symmetric Parabolic Non-Linearity (y = x^2)
+│   │   ├── task7_outlier_experiment.py       # Single-Outlier Leverage & Spearman Resistance
+│   │   └── task8_correlation_matrix.py       # E-Commerce 8-Variable Correlation Matrix
+│   ├── coding_challenges/
+│   │   ├── challenge1_correlation_vs_causation.py # Confounder Simulation & Partial Correlation
+│   │   ├── challenge2_simpsons_paradox.py         # Subgroup vs Aggregate Conversion Reversal
+│   │   ├── challenge3_anscombes_quartet.py        # 4 Disparate Datasets with Identical Stats
+│   │   └── challenge4_robust_correlation.py       # Pearson, Spearman, Kendall & Winsorized Benchmark
+│   ├── data/
+│   │   ├── ecommerce_sales.csv               # 1,200 Orders across 12 Numerical Features
+│   │   └── ecommerce_sales.json              # Multi-Format JSON Dataset
+│   ├── app/
+│   │   ├── config.py                         # Application Config, Enums & Hyperparameters
+│   │   ├── loader.py                         # Multi-Format CSV/JSON Ingestion Engine
+│   │   ├── cleaner.py                        # Numerical Filtering, Inf & Null Sanitization
+│   │   ├── validator.py                      # Dimensional & Constant Column Validator
+│   │   ├── covariance.py                     # Unbiased Sample Covariance Matrix Engine
+│   │   ├── pearson.py                        # Pearson r, t-Test & Fisher z-Transform CI
+│   │   ├── spearman.py                       # Spearman rho & Rank Transformation Engine
+│   │   ├── correlation_matrix.py             # Pairwise Matrix & Divergence Calculations
+│   │   ├── outliers.py                       # Univariate IQR & Bivariate Leverage Analysis
+│   │   ├── analyzer.py                       # High-Level Synthesis & 10 Business Q&A Engine
+│   │   ├── insights.py                       # Automated Non-Causal Plain-English Insights
+│   │   ├── visualizations.py                 # 9 Publication-Grade Figures (Agg Backend)
+│   │   ├── report.py                         # Formatted ASCII Report & CSV Matrix Exporter
+│   │   └── main.py                           # CLI Pipeline Orchestrator
+│   ├── output/
+│   │   ├── charts/                           # 10 Publication-Quality Charts (300 DPI)
+│   │   ├── covariance_matrix.csv             # Unbiased Sample Covariance Matrix CSV
+│   │   ├── correlation_matrix.csv            # Pairwise Pearson Correlation Matrix CSV
+│   │   ├── correlation_results.csv           # Detailed Table of All 66 Variable Pairs CSV
+│   │   └── relationship_report.txt           # Executive ASCII Relationship Analysis Report
+│   ├── tests/                                # 44 Pytest Unit & Integration Tests (100% Passing)
+│   │   ├── conftest.py
+│   │   ├── test_loader.py
+│   │   ├── test_cleaner.py
+│   │   ├── test_validator.py
+│   │   ├── test_covariance.py
+│   │   ├── test_pearson.py
+│   │   ├── test_spearman.py
+│   │   ├── test_correlation_matrix.py
+│   │   ├── test_outliers.py
+│   │   ├── test_analyzer.py
+│   │   ├── test_insights.py
+│   │   └── test_integration.py
+│   ├── pyproject.toml                        # Pytest Configuration
+│   ├── pytest.ini                            # Pytest Path Settings
+│   ├── requirements.txt                      # Dependencies
+│   └── README.md                             # Day 72 Documentation & Architecture Guide
 ```
 
 ---
@@ -1955,6 +2012,7 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 | **Day 69** | Sep 07, 2026 | Confidence Intervals & Statistical Estimation (Z/T Intervals, Proportions, Sample Size, Bootstrap) (30 Q&As, 7 Tasks, 5 Challenges & 35 Tests) | 🟢 Completed | [Notes](Day%2069/Day69.md) • [Task 1](Day%2069/practice/task1_point_estimates.py) • [Challenge 1](Day%2069/coding_challenges/challenge1_adaptive_mean_ci.py) • [Challenge 2](Day%2069/coding_challenges/challenge2_compare_levels.py) • [Challenge 3](Day%2069/coding_challenges/challenge3_plot_ci_comparison.py) • [Challenge 4](Day%2069/coding_challenges/challenge4_bootstrap_ci.py) • [Challenge 5](Day%2069/coding_challenges/challenge5_full_estimation.py) • [App Root](Day%2069/app/main.py) • [Tests](Day%2069/tests/test_confidence_intervals.py) • [Readme](Day%2069/README.md) |
 | **Day 70** | Sep 07, 2026 | Hypothesis Testing Fundamentals (Z/T Tests, Proportions, P-Values, Effect Size, Decision Engine) | 🟢 Completed | [Notes](Day%2070/Day70.md) • [Task 1](Day%2070/practice/task1_manual_hypothesis_test.py) • [Challenge 1](Day%2070/coding_challenges/challenge1_one_sample_ttest.py) • [Challenge 4](Day%2070/coding_challenges/challenge4_plot_hypothesis_test.py) • [Challenge 5](Day%2070/coding_challenges/challenge5_type1_error_simulation.py) • [App Root](Day%2070/app/main.py) • [Tests](Day%2070/tests/test_mean_tests.py) • [Readme](Day%2070/README.md) |
 | **Day 71** | Sep 11, 2026 | Two-Sample Tests & A/B Testing (Independent/Paired t-Tests, Two-Proportion Z-Test, Lift, ARPU, Guardrails, Decision Engine) | 🟢 Completed | [Notes](Day%2071/Day71.md) • [Task 1](Day%2071/practice/task1_independent_ttest.py) • [Task 5](Day%2071/practice/task5_ab_conversion.py) • [Challenge 3](Day%2071/coding_challenges/challenge3_ab_test_report.py) • [Challenge 4](Day%2071/coding_challenges/challenge4_simulate_false_positives.py) • [App Root](Day%2071/app/main.py) • [Tests](Day%2071/tests/test_proportion_tests.py) • [Readme](Day%2071/README.md) |
+| **Day 72** | Sep 12, 2026 | Correlation, Covariance & Relationships (Pearson r, Spearman rho, Fisher CI, Anscombe's Quartet, Simpson's Paradox, Confounding, Multicollinearity) | 🟢 Completed | [Notes](Day%2072/Day72.md) • [Task 1](Day%2072/practice/task1_manual_covariance.py) • [Task 2](Day%2072/practice/task2_pearson_correlation.py) • [Challenge 1](Day%2072/coding_challenges/challenge1_correlation_vs_causation.py) • [Challenge 3](Day%2072/coding_challenges/challenge3_anscombes_quartet.py) • [App Root](Day%2072/app/main.py) • [Tests](Day%2072/tests/test_pearson.py) • [Readme](Day%2072/README.md) |
 
 
 

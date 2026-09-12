@@ -1,0 +1,120 @@
+======================================================================
+        BUSINESS RELATIONSHIP & CORRELATION ANALYSIS REPORT        
+======================================================================
+Analyzed Rows:                1,200
+Analyzed Numerical Features:  12
+Total Pairwise Combinations:  66
+----------------------------------------------------------------------
+
+======================================================================
+1. TOP POSITIVE RELATIONSHIPS
+======================================================================
+Variable Pair                  | Pearson r  | Spearman rho | 95% CI         
+----------------------------------------------------------------------
+Unit_Price - Cost_Price        | 0.996      | 0.996        | [1.00, 1.00]   
+Cost - Page_Views              | 0.903      | 0.892        | [0.89, 0.91]   
+Cost - Profit                  | 0.860      | 0.964        | [0.84, 0.87]   
+Profit - Page_Views            | 0.809      | 0.879        | [0.79, 0.83]   
+Revenue - Cost                 | 0.782      | 0.991        | [0.76, 0.80]   
+
+======================================================================
+2. TOP INVERSE (NEGATIVE) RELATIONSHIPS
+======================================================================
+Variable Pair                  | Pearson r  | Spearman rho | 95% CI         
+----------------------------------------------------------------------
+Discount - Profit_Margin       | -0.477     | -0.631       | [-0.52, -0.43] 
+Customer_Rating - Delivery_Time_Days | -0.296     | -0.303       | [-0.35, -0.24] 
+Discount - Profit              | -0.266     | -0.160       | [-0.32, -0.21] 
+Discount - Customer_Rating     | -0.069     | -0.068       | [-0.13, -0.01] 
+Customer_Rating - Page_Views   | -0.066     | -0.070       | [-0.12, -0.01] 
+
+======================================================================
+3. POTENTIAL MULTICOLLINEARITY (Threshold |r| >= 0.75)
+======================================================================
+  [!] Unit_Price <--> Cost_Price : Pearson r = 0.996
+      Advisory: Highly redundant predictors; consider dropping one or dimensionality reduction.
+  [!] Cost <--> Page_Views : Pearson r = 0.903
+      Advisory: Highly redundant predictors; consider dropping one or dimensionality reduction.
+  [!] Cost <--> Profit : Pearson r = 0.860
+      Advisory: Highly redundant predictors; consider dropping one or dimensionality reduction.
+  [!] Profit <--> Page_Views : Pearson r = 0.809
+      Advisory: Highly redundant predictors; consider dropping one or dimensionality reduction.
+  [!] Revenue <--> Cost : Pearson r = 0.782
+      Advisory: Highly redundant predictors; consider dropping one or dimensionality reduction.
+
+======================================================================
+4. NON-LINEAR / MONOTONIC DIVERGENCE (|r - rho| >= 0.20)
+======================================================================
+  [*] Revenue <--> Marketing_Spend : Pearson r = 0.233, Spearman rho = 0.968 (Diff = 0.734)
+      Diagnostic: Likely non-linear curvature or presence of influential leverage points.
+  [*] Profit <--> Marketing_Spend : Pearson r = 0.262, Spearman rho = 0.960 (Diff = 0.698)
+      Diagnostic: Likely non-linear curvature or presence of influential leverage points.
+  [*] Cost <--> Marketing_Spend : Pearson r = 0.299, Spearman rho = 0.967 (Diff = 0.668)
+      Diagnostic: Likely non-linear curvature or presence of influential leverage points.
+  [*] Marketing_Spend <--> Page_Views : Pearson r = 0.276, Spearman rho = 0.890 (Diff = 0.614)
+      Diagnostic: Likely non-linear curvature or presence of influential leverage points.
+  [*] Quantity <--> Marketing_Spend : Pearson r = 0.161, Spearman rho = 0.687 (Diff = 0.527)
+      Diagnostic: Likely non-linear curvature or presence of influential leverage points.
+  [*] Revenue <--> Profit : Pearson r = 0.523, Spearman rho = 0.979 (Diff = 0.456)
+      Diagnostic: Likely non-linear curvature or presence of influential leverage points.
+  [*] Unit_Price <--> Marketing_Spend : Pearson r = 0.182, Spearman rho = 0.599 (Diff = 0.417)
+      Diagnostic: Likely non-linear curvature or presence of influential leverage points.
+  [*] Cost_Price <--> Marketing_Spend : Pearson r = 0.184, Spearman rho = 0.596 (Diff = 0.411)
+      Diagnostic: Likely non-linear curvature or presence of influential leverage points.
+  [*] Quantity <--> Profit : Pearson r = 0.474, Spearman rho = 0.694 (Diff = 0.221)
+      Diagnostic: Likely non-linear curvature or presence of influential leverage points.
+  [*] Quantity <--> Page_Views : Pearson r = 0.675, Spearman rho = 0.886 (Diff = 0.210)
+      Diagnostic: Likely non-linear curvature or presence of influential leverage points.
+  [*] Revenue <--> Cost : Pearson r = 0.782, Spearman rho = 0.991 (Diff = 0.209)
+      Diagnostic: Likely non-linear curvature or presence of influential leverage points.
+
+======================================================================
+5. 10 CORE BUSINESS QUESTIONS ANSWERED
+======================================================================
+
+Q1: Does higher order quantity relate to higher revenue?
+  Answer: Yes. Quantity and Revenue exhibit a strong positive linear association (r = 0.654, p < 0.001).
+
+Q2: How does discount relate to business profit?
+  Answer: Discount and Profit exhibit a negative association (r = -0.266). Higher discounts correspond with lower profit margins.
+
+Q3: Does operational cost relate to gross revenue?
+  Answer: Yes, strong positive co-movement (r = 0.782), reflecting that higher volumes drive both revenue and inventory cost.
+
+Q4: Which variable has the strongest association with Profit?
+  Answer: Cost shows the strongest association with Profit (r = 0.860, rho = 0.964).
+
+Q5: Which variable pair has the weakest linear relationship?
+  Answer: Profit_Margin and Marketing_Spend exhibit near-zero correlation (r = 0.0053).
+
+Q6: Are there potential multicollinearity risks among predictors?
+  Answer: Identified 5 variable pairs with |r| >= 0.75.
+
+Q7: How many pairs exhibit positive vs negative linear associations?
+  Answer: 40 pairs exhibit positive association, while 26 pairs exhibit negative or zero association.
+
+Q8: Which notable metric pairs exhibit inverse (negative) relationships?
+  Answer: Discount and Profit_Margin exhibit inverse correlation (r = -0.477).
+
+Q9: Where do Pearson and Spearman differ substantially (|r - rho| >= 0.20)?
+  Answer: Found 11 divergent pairs. Such divergence indicates non-linear rank behavior or extreme outlier leverage.
+
+Q10: Are key financial correlations sensitive to outliers?
+  Answer: For Revenue-Profit, r shifts from 0.523 to 0.982 (delta = 0.459) after removing 23 extreme points.
+
+======================================================================
+6. AUTOMATED STRATEGIC INSIGHTS & CAUSAL GOVERNANCE
+======================================================================
+1. Strong Positive Association: Unit_Price and Cost_Price exhibit a high positive correlation (r = 0.996, rho = 0.996). Higher values of Unit_Price consistently co-occur with higher Cost_Price.
+
+2. Inverse Relationship: Discount and Profit_Margin demonstrate an inverse correlation (r = -0.477). Elevating Discount tends to coincide with a reduction in Profit_Margin.
+
+3. Multicollinearity Advisory: Unit_Price and Cost_Price exhibit extreme collinearity (r = 0.996). Including both features in linear regression models risks variance inflation and unstable coefficient estimates.
+
+4. Diminishing Returns Profile: Marketing Spend displays non-linear co-movement with Revenue, suggesting advertising efficiency may taper at elevated budget tiers.
+
+5. METHODOLOGICAL MANDATE: All findings represent statistical associations and do NOT establish causation. Controlled A/B testing and instrumental variable designs are required before attributing causal impact.
+
+======================================================================
+                      END OF ANALYSIS REPORT                       
+======================================================================
