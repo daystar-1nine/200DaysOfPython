@@ -1,0 +1,30 @@
+Regression Analysis Report
+==========================
+
+Best Model: Lasso
+
+Model Comparison:
+     Model     CV_RMSE   Test_RMSE  Train_RMSE         MAE        R2  Adjusted_R2
+  Baseline 4896.346718 4989.299698 4896.346718 4180.329339 -0.000007    -0.045168
+    Linear 1627.525590 1459.697309 1574.728947 1179.803757  0.914405     0.910539
+    Poly 2 1717.143799 1639.263521 1477.279520 1294.537740  0.892050     0.887175
+    Poly 3 3203.825455 2069.404502 1130.941463 1680.027432  0.827966     0.820197
+     Ridge 1627.114879 1458.957051 1574.764206 1178.676068  0.914492     0.910630
+     Lasso 1626.437402 1459.570065 1574.742651 1179.230282  0.914420     0.910555
+ElasticNet 2275.712917 2211.144638 2257.178806 1766.801113  0.803592     0.794722
+
+Hyperparameter Tuning:
+Poly best degree: 1
+Ridge best alpha: 1.0
+Lasso best alpha: 10.0
+
+Key Insights:
+1. The best performing model is Lasso.
+2. Some models exhibit signs of overfitting, where test error is significantly higher than training error.
+3. The feature most strongly associated with the target is Feature_0.
+4. Regularization (Ridge/Lasso) helps in reducing model variance for complex polynomial models.
+5. Linear models provide a good baseline, but polynomial terms capture non-linear relationships.
+6. Residual analysis shows a mean error of 175.8502.
+7. Hyperparameter tuning selected degree 1 for polynomial regression.
+8. L1 regularization (Lasso) can be used for feature selection by driving some coefficients to zero.
+9. L2 regularization (Ridge) prevents large coefficient values, improving generalization.
