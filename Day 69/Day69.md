@@ -258,8 +258,8 @@ ci_upper = np.percentile(resamples, 97.5)
 # 💼 11. Real-World Case Study: E-Commerce Average Order Value (AOV)
 
 ### Scenario:
-An online retail platform processed 100,000 transactions over the holiday shopping festival. Auditing every transaction incurs a third-party accounting cost of **$2.00 per record**.
-Management requires estimating the platform-wide AOV with a **Margin of Error no greater than $\\pm \\$3.00** at **95% Confidence**. Historical standard deviation is $\\sigma \\approx \\$45.00$.
+An online retail platform processed 100,000 transactions over the holiday shopping festival. Auditing every transaction incurs a third-party accounting cost of **\$2.00 per record**.
+Management requires estimating the platform-wide AOV with a **Margin of Error no greater than $\pm \$3.00$** at **95% Confidence**. Historical standard deviation is $\sigma \approx \$45.00$.
 
 ### Sample Size Calculation:
 $$n = \\left( \\frac{z_{\\alpha/2} \\cdot \\sigma}{E} \\right)^2 = \\left( \\frac{1.960 \\times 45.00}{3.00} \\right)^2 = \\left( \\frac{88.20}{3.00} \\right)^2 = (29.4)^2 = 864.36 \\implies n = 865$$

@@ -85,12 +85,12 @@ plt.close(fig)  # Mandatory: Reclaims memory allocated for figure
 ### 4. Scatter Plots (`ax.scatter`)
 - **Primary Use**: Inspecting bivariate relationships, clustering, non-linear patterns, and potential correlations between two continuous variables.
 - **Key Parameters**: `x`, `y`, `s` (size), `c` (color), `alpha` (transparency to diagnose point overplotting), `marker`, `edgecolors`.
-- **Critical Caution**: Correlation \(\neq\) Causation. A strong linear pattern suggests co-movement, not causal dependency.
+- **Critical Caution**: Correlation $\neq$ Causation. A strong linear pattern suggests co-movement, not causal dependency.
 
 ### 5. Histograms (`ax.hist`)
 - **Primary Use**: Visualizing the distribution, spread, modality, and skewness of a single continuous variable.
 - **Key Parameters**: `x`, `bins` (integer count or sequence of bin edges), `density` (normalize to probability density), `color`, `edgecolor`.
-- **Binning Trade-off**: Too few bins over-smooth the data and conceal bi-modal behavior; too many bins create a noisy comb effect. Experiment with \(k = \sqrt{N}\) or Sturges' formula.
+- **Binning Trade-off**: Too few bins over-smooth the data and conceal bi-modal behavior; too many bins create a noisy comb effect. Experiment with $k = \sqrt{N}$ or Sturges' formula.
 
 ### 6. Pie Charts (`ax.pie`)
 - **Primary Use**: Displaying part-to-whole proportions when the total sums strictly to 100%.
@@ -224,7 +224,7 @@ fig.savefig("output/chart.png", dpi=300, bbox_inches="tight", transparent=False)
 **Answer**: `figsize=(width, height)` controls the physical canvas dimensions in **inches**. When multiplied by `dpi` (dots per inch), it determines the exact pixel resolution of the exported bitmap:
 $$\text{Pixel Width} = \text{figsize}[0] \times \text{dpi}$$
 $$\text{Pixel Height} = \text{figsize}[1] \times \text{dpi}$$
-For example, `figsize=(10, 6)` at `dpi=300` generates a \(3000 \times 1800\) pixel image.
+For example, `figsize=(10, 6)` at `dpi=300` generates a $3000 \times 1800$ pixel image.
 
 #### Q20: What does `dpi` mean, and why is it important for reporting?
 **Answer**: `dpi` stands for **Dots Per Inch** (pixels per inch). Screens typically display at 72–96 DPI, whereas print media and high-DPI displays require 300+ DPI. Setting an appropriate DPI prevents blurriness, pixelation, and artifacts when embedding figures in PDF reports, slides, or web dashboards.

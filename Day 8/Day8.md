@@ -134,8 +134,8 @@ print(joined_text)  # "Python | Java | C++ | JavaScript"
 
 | Method | Returns `True` If... |
 |---|---|
-| `isalpha()` | All characters are alphabetic letters ($a-z, A-Z$) |
-| `isdigit()` | All characters are digits ($0-9$) |
+| `isalpha()` | All characters are alphabetic letters (a–z, A–Z) |
+| `isdigit()` | All characters are digits (0–9) |
 | `isalnum()` | All characters are alphanumeric (letters or digits) |
 | `isspace()` | All characters are whitespace (` `, `\t`, `\n`) |
 | `islower()` | All cased characters are lowercase |

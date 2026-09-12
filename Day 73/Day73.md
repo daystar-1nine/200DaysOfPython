@@ -204,7 +204,7 @@ $$\begin{aligned}
 
 ## 📏 7. Regression Evaluation Metrics
 
-```
+```text
                     Total Variation in Target (SS_tot)
          ┌──────────────────────────┴──────────────────────────┐
          ▼                                                     ▼

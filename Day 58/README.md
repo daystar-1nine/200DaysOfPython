@@ -17,7 +17,7 @@ Welcome to **Day 58** of the 200 Days of Python Challenge.
 
 ## 📁 Directory Structure
 
-```
+```text
 Day 58/
 ├── Day58.md                  # Masterclass notes & 30 Interview Q&As
 ├── README.md                 # Day 58 documentation & overview

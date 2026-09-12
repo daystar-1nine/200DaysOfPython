@@ -15,7 +15,7 @@ They ask decisive questions:
 - *"Did the new routing algorithm reduce delivery times below our 30-minute SLA guarantee?"*
 - *"Is the new landing page converting significantly better than our 10% baseline, or was the uptick pure random noise?"*
 - *"Is our manufacturing line calibration drifting away from the required 500g specification?"*
-- *"Does the new loyalty program increase average basket size above $120?"*
+- *"Does the new loyalty program increase average basket size above \$120?"*
 
 **Hypothesis testing** is the formalized mathematical engine for making decisions under uncertainty. It provides an objective decision rule to separate **genuine signal** from **stochastic sampling variation**.
 
@@ -31,7 +31,7 @@ This mirrors the modern criminal legal system:
 - **Alternative Hypothesis ($H_1$):** The defendant is guilty (an effect exists, difference is real).
 - **Burden of Proof:** Innocent until proven guilty beyond a reasonable doubt. We never "accept" $H_0$ as proven fact; we either **reject $H_0$** or **fail to reject $H_0$**.
 
-```
+```text
                            REALITY (TRUTH)
                     $H_0$ is TRUE        $H_0$ is FALSE
               ┌──────────────────────┬──────────────────────┐
@@ -59,8 +59,7 @@ Reject $H_0$  │   Confidence Level   │  (False Negative)    │
 
 2. **The Alternative Hypothesis ($H_1$ or $H_a$):**
    - The research hypothesis or claim we suspect is true and seek evidence to support.
-   - Always represents a strict inequality ($
-e$, $>$, or $<$).
+   - Always represents a strict inequality ($\ne$, $>$, or $<$).
    - Examples:
      - $H_1: \mu \ne 500$g (machine calibration has shifted).
      - $H_1: \mu > 30$ min (delivery violates SLA).
@@ -76,7 +75,7 @@ e$, $>$, or $<$).
 | **Hypotheses** | $H_0: \mu = \mu_0$ vs $H_1: \mu \ne \mu_0$ | $H_0: \mu \le \mu_0$ vs $H_1: \mu > \mu_0$ | $H_0: \mu \ge \mu_0$ vs $H_1: \mu < \mu_0$ |
 | **Rejection Region** | Split across both tails: $\alpha/2$ in each tail | Entire $\alpha$ in upper tail | Entire $\alpha$ in lower tail |
 | **Critical Values** | $\pm z_{\alpha/2}$ or $\pm t_{\alpha/2, df}$ | $+z_{\alpha}$ or $+t_{\alpha, df}$ | $-z_{\alpha}$ or $-t_{\alpha, df}$ |
-| **P-Value Calculation** | $2 \times P(Z \ge |z_{obs}|)$ | $P(Z \ge z_{obs})$ | $P(Z \le z_{obs})$ |
+| **P-Value Calculation** | $2 \times P(Z \ge \lvert z_{obs} \rvert)$ | $P(Z \ge z_{obs})$ | $P(Z \le z_{obs})$ |
 | **Statistical Power** | Lower power in a specific direction | Higher power for positive effects | Higher power for negative effects |
 
 ---
@@ -154,10 +153,10 @@ $$d = \frac{\bar{x} - \mu_0}{s}$$
 
 | Absolute Cohen's $d$ | Effect Size Magnitude | Practical Interpretation |
 | :--- | :--- | :--- |
-| $|d| < 0.20$ | Negligible | Negligible practical difference; barely perceptible |
-| $0.20 \le |d| < 0.50$ | Small | Noticeable only through careful statistical measurement |
-| $0.50 \le |d| < 0.80$ | Medium | Substantial effect observable in standard operations |
-| $|d| \ge 0.80$ | Large | Massive effect obvious to everyday observers |
+| $\lvert d \rvert < 0.20$ | Negligible | Negligible practical difference; barely perceptible |
+| $0.20 \le \lvert d \rvert < 0.50$ | Small | Noticeable only through careful statistical measurement |
+| $0.50 \le \lvert d \rvert < 0.80$ | Medium | Substantial effect observable in standard operations |
+| $\lvert d \rvert \ge 0.80$ | Large | Massive effect obvious to everyday observers |
 
 ---
 
@@ -205,8 +204,7 @@ $$d = \frac{\bar{x} - \mu_0}{s}$$
 ## 🎯 4. Technical Interview Questions & Answers (30 Total)
 
 #### Q1: What is the fundamental difference between the null hypothesis and alternative hypothesis?
-**Answer:** The null hypothesis ($H_0$) represents the baseline claim of no effect, equality, or status quo. It always includes an equality sign ($=, \le, \ge$). The alternative hypothesis ($H_1$) is the research hypothesis claiming an active effect, difference, or directional change, characterized by strict inequalities ($
-e, >, <$).
+**Answer:** The null hypothesis ($H_0$) represents the baseline claim of no effect, equality, or status quo. It always includes an equality sign ($=, \le, \ge$). The alternative hypothesis ($H_1$) is the research hypothesis claiming an active effect, difference, or directional change, characterized by strict inequalities ($\ne, >, <$).
 
 #### Q2: Why do statisticians say "fail to reject $H_0$" rather than "accept $H_0$"?
 **Answer:** Because an experiment can only provide evidence *against* a hypothesis or fail to find sufficient evidence against it. Lack of sufficient evidence to disprove innocence does not mathematically prove innocence; it merely means sampling variation could plausible account for the observed data under $H_0$.

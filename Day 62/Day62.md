@@ -108,7 +108,7 @@ ax2.plot(months, profit_margin, color="#2ca02c", linestyle="--", label="Margin (
 
 ## 🧩 3. Advanced Grid Layouts with `GridSpec`
 
-When creating a multi-panel dashboard, standard \(N \times M\) uniform grids are often inadequate. `GridSpec` enables asymmetric partitioning:
+When creating a multi-panel dashboard, standard $N \times M$ uniform grids are often inadequate. `GridSpec` enables asymmetric partitioning:
 
 ```python
 from matplotlib.gridspec import GridSpec

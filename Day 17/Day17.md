@@ -32,7 +32,7 @@
 | `?` | Zero or one occurrence (Optional) | `colou?r` | "color", "colour" |
 | `{n,m}` | Between `n` and `m` repetitions | `\d{3,5}` | 3 to 5 digits |
 | `[]` | Character class / set | `[aeiou]` | Any single vowel |
-| `|` | OR operator | `cat|dog` | "cat" or "dog" |
+| `\|` | OR operator | `cat\|dog` | "cat" or "dog" |
 | `()` | Grouping & extraction | `(\d{3})-(\d{4})` | Captured groups |
 
 ### 1.2 Special Sequences (Escaped Character Classes)

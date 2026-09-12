@@ -155,10 +155,10 @@ $$d = \frac{\bar{d}}{s_d}$$
 
 | Absolute Cohen's $d$ | Effect Magnitude | Real-World Meaning |
 | :--- | :--- | :--- |
-| $|d| < 0.20$ | Negligible | Trivial effect; rarely economically viable on its own |
-| $0.20 \le |d| < 0.50$ | Small | Noticeable only through rigorous instrumentation |
-| $0.50 \le |d| < 0.80$ | Medium | Substantial effect noticeable in standard operations |
-| $|d| \ge 0.80$ | Large | Massive effect obvious to casual observation |
+| $\lvert d \rvert < 0.20$ | Negligible | Trivial effect; rarely economically viable on its own |
+| $0.20 \le \lvert d \rvert < 0.50$ | Small | Noticeable only through rigorous instrumentation |
+| $0.50 \le \lvert d \rvert < 0.80$ | Medium | Substantial effect noticeable in standard operations |
+| $\lvert d \rvert \ge 0.80$ | Large | Massive effect obvious to casual observation |
 
 ---
 

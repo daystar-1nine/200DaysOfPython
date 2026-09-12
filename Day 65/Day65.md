@@ -109,7 +109,7 @@ $$z_i = \frac{x_i - \bar{x}}{s}$$
 
 ### 3. Outlier Philosophy: Outlier $\neq$ Error
 An outlier is simply an observation that deviates substantially from the rest. In business contexts:
-- A $250,000 order may be a VIP enterprise customer.
+- A \$250,000 order may be a VIP enterprise customer.
 - A sudden server spike may indicate a flash sale or cyberattack.
 - Outliers should be audited and understood, never deleted blindly.
 

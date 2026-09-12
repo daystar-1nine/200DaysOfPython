@@ -4,7 +4,7 @@ Welcome to **Day 56** of the 200 Days of Python Challenge.
 
 ## 📁 Directory Structure
 
-```
+```text
 Day 56/
 ├── Day56.md                  # Masterclass notes & 25 Interview Q&As
 ├── README.md                 # Day 56 documentation & overview
