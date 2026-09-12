@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white&style=for-the-badge" alt="Python Version">
   <img src="https://img.shields.io/badge/Challenge%20Status-In%20Progress-orange?style=for-the-badge" alt="Challenge Status">
-  <img src="https://img.shields.io/badge/Progress-73%20%2F%20200%20Days-green?style=for-the-badge" alt="Progress Badge">
+  <img src="https://img.shields.io/badge/Progress-74%20%2F%20200%20Days-green?style=for-the-badge" alt="Progress Badge">
 </p>
 
 A 200-day journey to master Python from beginner to advanced by learning daily, solving coding problems, building real-world projects, and sharing my progress publicly. This repository documents my growth, projects, and consistent learning—one day at a time. 🚀
@@ -11,9 +11,9 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 ---
 
 ## 📊 Challenge Progress
-**Current Progress:** `73 / 200 Days` (36.5%) — **PHASE 5: DATA VISUALIZATION & STATISTICS IN PROGRESS!** ⚡
+**Current Progress:** `74 / 200 Days` (37.0%) — **PHASE 5: DATA VISUALIZATION & STATISTICS IN PROGRESS!** ⚡
 ```text
-[██████████████░░░░░░] 36.5% Complete
+[██████████████░░░░░░] 37.0% Complete
 ```
 
 ---
@@ -2067,6 +2067,7 @@ A 200-day journey to master Python from beginner to advanced by learning daily, 
 | **Day 71** | Sep 11, 2026 | Two-Sample Tests & A/B Testing (Independent/Paired t-Tests, Two-Proportion Z-Test, Lift, ARPU, Guardrails, Decision Engine) | 🟢 Completed | [Notes](Day%2071/Day71.md) • [Task 1](Day%2071/practice/task1_independent_ttest.py) • [Task 5](Day%2071/practice/task5_ab_conversion.py) • [Challenge 3](Day%2071/coding_challenges/challenge3_ab_test_report.py) • [Challenge 4](Day%2071/coding_challenges/challenge4_simulate_false_positives.py) • [App Root](Day%2071/app/main.py) • [Tests](Day%2071/tests/test_proportion_tests.py) • [Readme](Day%2071/README.md) |
 | **Day 72** | Sep 12, 2026 | Correlation, Covariance & Relationships (Pearson r, Spearman rho, Fisher CI, Anscombe's Quartet, Simpson's Paradox, Confounding, Multicollinearity) | 🟢 Completed | [Notes](Day%2072/Day72.md) • [Task 1](Day%2072/practice/task1_manual_covariance.py) • [Task 2](Day%2072/practice/task2_pearson_correlation.py) • [Challenge 1](Day%2072/coding_challenges/challenge1_correlation_vs_causation.py) • [Challenge 3](Day%2072/coding_challenges/challenge3_anscombes_quartet.py) • [App Root](Day%2072/app/main.py) • [Tests](Day%2072/tests/test_pearson.py) • [Readme](Day%2072/README.md) |
 | **Day 73** | Sep 12, 2026 | Simple Linear Regression (OLS Derivation, Gradient Descent, Residual Diagnostics, Train/Test Split, R², MAE, MSE, RMSE) | 🟢 Completed | [Notes](Day%2073/Day73.md) • [Task 1](Day%2073/practice/task1_manual_regression_line.py) • [Task 2](Day%2073/practice/task2_scikit_learn_regression.py) • [Challenge 1](Day%2073/coding_challenges/challenge1_manual_linear_regression.py) • [Challenge 2](Day%2073/coding_challenges/challenge2_gradient_descent_preview.py) • [App Root](Day%2073/app/main.py) • [Tests](Day%2073/tests/test_regression.py) • [Readme](Day%2073/README.md) |
+| **Day 74** | Sep 12, 2026 | Multiple Linear Regression (Multiple Predictors, OLS, One-Hot Encoding, VIF, Adjusted R², Pipelines, Residuals & Sales Engine) | 🟢 Completed | [Notes](Day%2074/Day74.md) • [App Root](Day%2074/app/main.py) • [Tests](Day%2074/tests) • [Readme](Day%2074/README.md) |
 
 
 

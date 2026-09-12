@@ -1,0 +1,35 @@
+==================================================
+MULTIPLE LINEAR REGRESSION REPORT
+==================================================
+
+METRICS
+--------------------
+MAE: 1179.8038
+MSE: 2130716.2334
+RMSE: 1459.6973
+R2: 0.9144
+Adjusted_R2: 0.9076
+n_samples: 163
+n_features: 12
+
+INSIGHTS
+--------------------
+1. Feature 'Digital_Spend' exhibits the strongest positive association with target values (coefficient = 3724.858), holding other predictors constant.
+2. Feature 'Discount' exhibits an inverse estimated relationship with target values (coefficient = -958.304), holding other predictors constant.
+3. Estimated regression weights reflect correlational associations under the specified model structure, not direct causal mechanisms.
+4. A total of 12 predictive variables were evaluated across the linear specification.
+5. Model Explanatory Power: The model accounts for roughly 91.4% of the variance in Sales.
+6. Multicollinearity: VIF values are within acceptable bounds, suggesting independent features.
+7. Residuals: Mean of residuals deviates from zero, indicating potential bias.
+8. Average Error: On average, the predictions deviate from actual Sales by roughly 1179.80.
+9. Actionable Takeaway: Focus resource allocation on features with the highest positive coefficient weights.
+10. Actionable Takeaway: Review features with negative coefficients to evaluate operational trade-offs.
+
+RESIDUALS
+--------------------
+mean: 175.8303
+std: 1449.0687
+median: 169.5617
+skewness: 0.0238
+is_zero_mean: False
+homoscedasticity_ratio: 1.0286
