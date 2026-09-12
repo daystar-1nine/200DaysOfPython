@@ -2,7 +2,7 @@
 
 ## Overview
 A comprehensive Python application demonstrating the principles of inferential statistics:
-- Population vs Sample ($\mu, \sigma$ vs $ar{x}, s$)
+- Population vs Sample ($\mu, \sigma$ vs $\bar{x}, s$)
 - Parameter vs Statistic
 - Sampling methodologies (Simple Random, Systematic, Stratified, Cluster)
 - Sampling Bias and its consequences

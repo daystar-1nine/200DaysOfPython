@@ -226,8 +226,8 @@ reversed_s = s_clean[::-1]      # "gnimmargorP nohtyP"
    - ✅ `", ".join([str(x) for x in [1, 2, 3]])`
 
 3. **String Concatenation in Loops:**
-   - ❌ Avoid `s += char` inside large loops ($O(n^2)$ time complexity due to creating $n$ new strings).
-   - ✅ Append to a list `lst.append(char)` and use `"".join(lst)` ($O(n)$ time complexity).
+   - ❌ Avoid `s += char` inside large loops ($\mathcal{O}(n^2)$ time complexity due to creating $n$ new strings).
+   - ✅ Append to a list `lst.append(char)` and use `"".join(lst)` ($\mathcal{O}(n)$ time complexity).
 
 ---
 

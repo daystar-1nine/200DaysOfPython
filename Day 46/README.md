@@ -18,7 +18,7 @@ Migration 001 ──> Migration 002 ──> Migration 003 ──> Migration 004 
 ## Features
 
 - 🔄 **Alembic Version Control:** Tracks database schema changes with revision scripts (`upgrade()` and `downgrade()`).
-- ⚡ **Database Indexing:** Creates B-tree indexes (`idx_users_email`, `idx_products_name`) for fast $O(\log N)$ lookups.
+- ⚡ **Database Indexing:** Creates B-tree indexes (`idx_users_email`, `idx_products_name`) for fast $\mathcal{O}(\log N)$ lookups.
 - 📦 **Data Migration (Bonus Challenge):** Safely populates existing rows with default timestamps (`users.created_at`) before applying default constraints for new records.
 - 💳 **Atomic Order Placement:** 8-step checkout transaction with stock verification, inventory deduction, and `ROLLBACK` on `InsufficientStockError`.
 - 🔗 **Eager Loading & N+1 Prevention:** Uses `selectinload(User.orders)` and `selectinload(Order.items)` for efficient batch querying.

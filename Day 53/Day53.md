@@ -149,7 +149,7 @@ Efficient analytical operations leverage standard library structures:
 ---
 
 ### 8. Python In-Memory JOINs (Data Engineering Basics)
-When working with multiple relational datasets without a SQL database, Python dictionaries act as hash maps for $O(1)$ key lookups to perform inner/left joins:
+When working with multiple relational datasets without a SQL database, Python dictionaries act as hash maps for $\mathcal{O}(1)$ key lookups to perform inner/left joins:
 
 ```python
 # Join sales.csv with customers.csv on customer_name or customer_id
@@ -199,7 +199,7 @@ joined_sales = [
 **Answer:** `Counter` is a subclass of `dict` designed for counting hashable objects. Passing an iterable auto-populates element frequencies, and `.most_common(n)` retrieves the top $N$ frequent elements efficiently.
 
 ### Q11: What is the computational complexity of `max()` with a key function versus sorting a list to find the top item?
-**Answer:** `max()` runs in $O(N)$ linear time by maintaining a single top variable in a single pass. Sorting the list using `sorted()` takes $O(N \log N)$ time, making `max()` significantly more efficient when only the single extremal element is needed.
+**Answer:** `max()` runs in $\mathcal{O}(N)$ linear time by maintaining a single top variable in a single pass. Sorting the list using `sorted()` takes $\mathcal{O}(N \log N)$ time, making `max()` significantly more efficient when only the single extremal element is needed.
 
 ### Q12: Why should dataclasses be preferred over plain dictionaries for raw data transformation?
 **Answer:** Dataclasses provide static type hints, auto-generated constructors, clear attribute documentation, IDE autocompletion, immutability options (`frozen=True`), and encapsulation of computed `@property` methods.
@@ -208,7 +208,7 @@ joined_sales = [
 **Answer:** In-place modification destroys original raw data history, preventing auditability, re-processing with updated business logic, or recovering from buggy cleaning rules. Raw data should be treated as immutable read-only inputs, writing outputs to separate processed files.
 
 ### Q14: How can you perform an inner join between two CSV datasets in pure Python?
-**Answer:** Load the right dataset into a dictionary indexed by join key (e.g., `{customer_id: customer_dict}`). Iterate over the left dataset (sales), looking up matching keys in $O(1)$ time and merging dictionary values.
+**Answer:** Load the right dataset into a dictionary indexed by join key (e.g., `{customer_id: customer_dict}`). Iterate over the left dataset (sales), looking up matching keys in $\mathcal{O}(1)$ time and merging dictionary values.
 
 ### Q15: What is the difference between data cleaning and data transformation?
 **Answer:** Data cleaning fixes errors, removes noise, standardizes formats, handles missing values, and deletes duplicates. Data transformation restructures clean data into new representations, computes derived metrics, rescales numbers, or aggregates records for analysis.
@@ -217,7 +217,7 @@ joined_sales = [
 **Answer:** Iterate through a list of acceptable `datetime.strptime` format patterns (e.g., `"%Y-%m-%d"`, `"%d-%m-%Y"`, `"%Y/%m/%d"`) inside a `try...except` block, returning a valid `datetime.date` object on the first matching pattern or raising a validation error if all fail.
 
 ### Q17: What is memory-bounded stream processing and when is it required over loading full datasets into memory?
-**Answer:** Stream processing reads and processes data line-by-line using file generators or iterators (`for line in file:`), keeping memory overhead minimal ($O(1)$) regardless of file size. It is required when processing datasets larger than available RAM (e.g., 10 GB+ CSVs).
+**Answer:** Stream processing reads and processes data line-by-line using file generators or iterators (`for line in file:`), keeping memory overhead minimal ($\mathcal{O}(1)$) regardless of file size. It is required when processing datasets larger than available RAM (e.g., 10 GB+ CSVs).
 
 ### Q18: What is data normalization in string processing?
 **Answer:** Data normalization transforms variable representations of equivalent values into a single uniform format. Examples include converting phone numbers to E.164 standard, lowercasing emails, or mapping categories (`"elect."` -> `"Electronics"`).

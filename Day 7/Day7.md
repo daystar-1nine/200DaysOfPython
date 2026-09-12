@@ -15,7 +15,7 @@
 | **Mutable** | ✅ Yes | ❌ No (Immutable) | ✅ Yes | ✅ Yes (Keys Immutable) |
 | **Duplicates** | ✅ Allowed | ✅ Allowed | ❌ Not Allowed | Keys: ❌ / Values: ✅ |
 | **Indexing** | Positive & Negative | Positive & Negative | ❌ Not Supported | By Key `dict["key"]` |
-| **Lookup Time** | $O(n)$ Linear | $O(n)$ Linear | $O(1)$ Average Hash | $O(1)$ Average Hash |
+| **Lookup Time** | $\mathcal{O}(n)$ Linear | $\mathcal{O}(n)$ Linear | $\mathcal{O}(1)$ Average Hash | $\mathcal{O}(1)$ Average Hash |
 | **Memory Overhead** | Higher (Over-allocates) | Lowest (Fixed size) | High (Hash Table) | High (Hash Table) |
 
 ---
@@ -201,7 +201,7 @@ s.discard(99) # Safe! No error raised.
 
 ### 2.4 Time Complexity & Hash Tables
 Sets are implemented using **Hash Tables**.
-- Checking membership (`item in my_set`) takes **$O(1)$ average time complexity**, compared to $O(n)$ in a list!
+- Checking membership (`item in my_set`) takes **$\mathcal{O}(1)$ average time complexity**, compared to $\mathcal{O}(n)$ in a list!
 
 ```python
 import time
@@ -411,4 +411,4 @@ merged = dict1 | dict2
 - [x] Know when to pick `tuple`, `set`, or `dict`.
 - [x] Understand set operations (`union`, `intersection`, `difference`).
 - [x] Master dictionary `.get()`, `.items()`, and comprehension syntax.
-- [x] Remember that sets provide $O(1)$ membership lookups.
+- [x] Remember that sets provide $\mathcal{O}(1)$ membership lookups.

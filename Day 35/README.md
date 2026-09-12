@@ -4,7 +4,7 @@ A memory-efficient Python large file processor and streaming pipeline built with
 
 ## Features & Generators
 
-- **`read_lines(filename)` & `read_csv_records(filename)`:** Stream file records lazily with $O(1)$ RAM footprint.
+- **`read_lines(filename)` & `read_csv_records(filename)`:** Stream file records lazily with $\mathcal{O}(1)$ RAM footprint.
 - **`parse_records(records)` & `filter_positive_amounts(records)`:** Clean and transform stream data lazily.
 - **`DataPipeline(filename)`:** Chains reader, parser, and filters into a low-memory pipeline.
 - **`benchmark_memory_and_speed(count)`:** Demonstrates ~40,000x RAM reduction comparing eager lists vs. lazy generators.

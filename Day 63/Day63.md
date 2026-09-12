@@ -80,13 +80,13 @@ sns.histplot(
 
 ### 2.2 Kernel Density Estimation (`sns.kdeplot`)
 KDE computes a smooth, continuous probability density estimate using Gaussian kernels:
-$$\hat{f}_h(x) = rac{1}{n h} \sum_{i=1}^{n} K\left(rac{x - x_i}{h}ight)$$
+$$\hat{f}_h(x) = \frac{1}{n h} \sum_{i=1}^{n} K\left(\frac{x - x_i}{h}ight)$$
 - **Bandwidth ($h$)**: Controls the smoothness of the curve. A small bandwidth produces an under-smoothed curve with excessive noise; a large bandwidth oversmooths, masking bimodal peaks.
 - **`fill=True`**: Colors the area beneath the density curve.
 
 ### 2.3 Empirical Cumulative Distribution Function (`sns.ecdfplot`)
 While histograms depend heavily on bin choices, the ECDF directly plots the proportion of observations less than or equal to $x$:
-$$F_n(x) = rac{1}{n} \sum_{i=1}^n \mathbb{I}(x_i \le x)$$
+$$F_n(x) = \frac{1}{n} \sum_{i=1}^n \mathbb{I}(x_i \le x)$$
 - Eliminates binning bias completely.
 - Allows immediate reading of percentiles (e.g., "What percentage of orders are under ₹20,000?").
 
@@ -214,8 +214,8 @@ Seaborn provides high-level control over the graphical atmosphere:
 
 #### Q4: What does Kernel Density Estimation (KDE) represent mathematically and intuitively?
 **Answer**: Intuitively, KDE centers a small "bump" (a kernel, usually Gaussian) at every single observed data point, and then sums all the bumps across the domain to create a single smooth curve. Mathematically:
-$$\hat{f}_h(x) = rac{1}{nh}\sum_{i=1}^n K\left(rac{x - x_i}{h}ight)$$
-where $n$ is sample size, $h$ is bandwidth (smoothing parameter), and $K(u) = rac{1}{\sqrt{2\pi}}e^{-u^2/2}$. The area under the entire KDE curve equals 1.0.
+$$\hat{f}_h(x) = \frac{1}{nh}\sum_{i=1}^n K\left(\frac{x - x_i}{h}ight)$$
+where $n$ is sample size, $h$ is bandwidth (smoothing parameter), and $K(u) = \frac{1}{\sqrt{2\pi}}e^{-u^2/2}$. The area under the entire KDE curve equals 1.0.
 
 #### Q5: How do you interpret a Boxplot (median, IQR, whiskers, outliers)?
 **Answer**:
@@ -376,12 +376,12 @@ plt.close(fig)
 ### 5 Concrete Statistical Insights
 
 1. **Severe Positive Skewness in Revenue**:
-   The revenue distribution exhibits strong right-skewness ($Skewness > 1.8$). The mean revenue ($pprox ₹60,000$) significantly exceeds the median revenue ($pprox ₹28,000$), demonstrating that a small cohort of high-value bulk transactions pulls the arithmetic average upwards. Operational pricing models must rely on median rather than mean values.
+   The revenue distribution exhibits strong right-skewness ($Skewness > 1.8$). The mean revenue ($\approx ₹60,000$) significantly exceeds the median revenue ($\approx ₹28,000$), demonstrating that a small cohort of high-value bulk transactions pulls the arithmetic average upwards. Operational pricing models must rely on median rather than mean values.
 
 2. **Electronics Dominates High-End Outliers**:
    The boxplot reveals that `Electronics` possesses both the highest upper quartile ($Q_3$) and the greatest density of upper-bound flier outliers ($Revenue > ₹150,000$). Categories like `Kitchenware` and `Apparel` exhibit narrow IQRs with tight clustering below ₹50,000.
 
-3. **Strong Linear Profit Scalability ($r pprox 0.88$)**:
+3. **Strong Linear Profit Scalability ($r \approx 0.88$)**:
    The bivariate regression confirms a strong positive linear relationship between gross revenue and net profit with minimal heteroskedasticity. Transaction profitability scales predictably without severe margin compression at higher transaction tiers.
 
 4. **Interquartile Concentration in Mainstream Goods**:

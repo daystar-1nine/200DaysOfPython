@@ -139,7 +139,7 @@ def stream_lines(filepath):
 ## ❓ Practice & Interview Questions (With Solutions)
 
 ### Q1: What is Lazy Evaluation and why is it beneficial in Data Engineering / ML pipelines?
-**Answer:** Lazy evaluation means delaying the computation of values until they are explicitly needed by the consumer. In Data Engineering and Machine Learning, loading gigabytes of raw data into memory at once causes `MemoryError` crashes. Generators stream data line-by-line or batch-by-batch, keeping memory footprint minimal ($O(1)$ RAM).
+**Answer:** Lazy evaluation means delaying the computation of values until they are explicitly needed by the consumer. In Data Engineering and Machine Learning, loading gigabytes of raw data into memory at once causes `MemoryError` crashes. Generators stream data line-by-line or batch-by-batch, keeping memory footprint minimal ($\mathcal{O}(1)$ RAM).
 
 ### Q2: How does `yield from` work in nested generators?
 **Answer:** `yield from subgenerator` delegates the generator operation to a sub-generator, allowing seamless composition of nested generator pipelines without writing explicit nested loops.
@@ -150,5 +150,5 @@ def stream_lines(filepath):
 - [x] Distinguished between Iterables and Iterators using `iter()` and `next()`.
 - [x] Handled `StopIteration` exceptions manually and cleanly.
 - [x] Wrote Generator Functions using `yield` and understood execution state pausing.
-- [x] Used Generator Expressions for $O(1)$ memory-efficient calculations.
+- [x] Used Generator Expressions for $\mathcal{O}(1)$ memory-efficient calculations.
 - [x] Built real-world streaming pipelines (file reader, step generator, Fibonacci stream).

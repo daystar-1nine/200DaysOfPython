@@ -95,10 +95,10 @@ A standardized metric quantifying how far the observed sample statistic deviates
 $$\text{Test Statistic} = \frac{\text{Sample Statistic} - \text{Null Parameter Value}}{\text{Standard Error of the Statistic}}$$
 
 - **1-Sample Z-Test for Mean (known population $\sigma$):**
-  $$z = \frac{\bar{x} - \mu_0}{\sigma / \sqrt{n}}$$
+  $$z = \frac{\bar{x} - \mu_0}{\frac{\sigma}{\sqrt{n}}} = \frac{(\bar{x} - \mu_0)\sqrt{n}}{\sigma}$$
 
 - **1-Sample Student's t-Test for Mean (unknown population $\sigma$, estimated by sample $s$):**
-  $$t = \frac{\bar{x} - \mu_0}{s / \sqrt{n}}, \quad \text{with } df = n - 1$$
+  $$t = \frac{\bar{x} - \mu_0}{\frac{s}{\sqrt{n}}} = \frac{(\bar{x} - \mu_0)\sqrt{n}}{s}, \quad \text{with } df = n - 1$$
 
 - **1-Sample Z-Test for Proportion ($p_0$ under $H_0$):**
   $$z = \frac{\hat{p} - p_0}{\sqrt{\frac{p_0(1 - p_0)}{n}}}$$
@@ -106,12 +106,12 @@ $$\text{Test Statistic} = \frac{\text{Sample Statistic} - \text{Null Parameter V
 #### 3. P-Value (Probability Value)
 - **Precise Definition:** The probability, under the assumption that the null hypothesis $H_0$ is true, of observing a test statistic as extreme as, or more extreme than, the statistic actually observed from the sample.
 - **The ASA Statement on Statistical Significance:**
-  1. P-values can indicate how incompatible the data are with a specified statistical model.
-  2. P-values do not measure the probability that the studied hypothesis is true ($P(H_0 | \text{data}) \ne p\text{-value}$).
-  3. Scientific conclusions and business decisions should not be based solely on whether a p-value passes a specific threshold ($p < 0.05$).
+  1. $P$-values can indicate how incompatible the data are with a specified statistical model.
+  2. $P$-values do not measure the probability that the studied hypothesis is true ($P(H_0 | \text{data}) \ne p\text{-value}$).
+  3. Scientific conclusions and business decisions should not be based solely on whether a $p$-value passes a specific threshold ($p < 0.05$).
   4. Proper inference requires full reporting and transparency.
-  5. A p-value does not measure the size of an effect or the importance of a result.
-  6. By itself, a p-value does not provide a good measure of evidence regarding a model or hypothesis.
+  5. A $p$-value does not measure the size of an effect or the importance of a result.
+  6. By itself, a $p$-value does not provide a good measure of evidence regarding a model or hypothesis.
 
 ---
 
@@ -217,11 +217,11 @@ e, >, <$).
 #### Q4: What is a Type II error, and what is its relationship with statistical power?
 **Answer:** A Type II error is a false negative: failing to reject the null hypothesis when it is actually false. Its probability is denoted by $\beta$ (beta). Statistical power is the complement, defined as $1 - \beta$, representing the probability of correctly rejecting a false null hypothesis.
 
-#### Q5: Define a p-value precisely without using colloquialisms.
-**Answer:** A p-value is the probability, conditioned on the null hypothesis being strictly true, of observing a test statistic at least as extreme as the test statistic calculated from the observed sample data: $P(T \ge t_{obs} \mid H_0)$.
+#### Q5: Define a $p$-value precisely without using colloquialisms.
+**Answer:** A $p$-value is the probability, conditioned on the null hypothesis being strictly true, of observing a test statistic at least as extreme as the test statistic calculated from the observed sample data: $P(T \ge t_{obs} \mid H_0)$.
 
-#### Q6: Explain the common misconception: "A p-value of 0.03 means there is a 97% chance the alternative hypothesis is true."
-**Answer:** This is the *fallacy of the transposed conditional*. The p-value calculates $P(\text{Data} \mid H_0)$, not $P(H_1 \mid \text{Data})$. Determining $P(H_1 \mid \text{Data})$ requires Bayesian inference incorporating prior probabilities ($P(H_0)$ and $P(H_1)$).
+#### Q6: Explain the common misconception: "A $p$-value of 0.03 means there is a 97% chance the alternative hypothesis is true."
+**Answer:** This is the *fallacy of the transposed conditional*. The $p$-value calculates $P(\text{Data} \mid H_0)$, not $P(H_1 \mid \text{Data})$. Determining $P(H_1 \mid \text{Data})$ requires Bayesian inference incorporating prior probabilities ($P(H_0)$ and $P(H_1)$).
 
 #### Q7: When should you use a 1-sample Z-test versus a 1-sample t-test?
 **Answer:** Use a Z-test when the population standard deviation $\sigma$ is known and the sample size is large or data is normally distributed. Use a Student's t-test when the population standard deviation is unknown and estimated using the sample standard deviation $s$.
@@ -236,9 +236,9 @@ e, >, <$).
 3. Normality of the underlying population or a sufficiently large sample size ($n \ge 30$) satisfying the Central Limit Theorem.
 4. Absence of extreme outliers that distort the sample mean and variance.
 
-#### Q10: How does a one-tailed test differ from a two-tailed test in terms of critical values and p-values?
+#### Q10: How does a one-tailed test differ from a two-tailed test in terms of critical values and $p$-values?
 **Answer:** For a significance level $\alpha = 0.05$:
-- A two-tailed test splits $\alpha$ into two tails ($\alpha/2 = 0.025$ each), requiring critical values $\pm 1.96$ and doubling the one-tail p-value.
+- A two-tailed test splits $\alpha$ into two tails ($\alpha/2 = 0.025$ each), requiring critical values $\pm 1.96$ and doubling the one-tail $p$-value.
 - A one-tailed test places the entire $\alpha = 0.05$ into one tail, requiring a critical value of $+1.645$ (or $-1.645$), resulting in higher power to detect effects in that specified direction.
 
 #### Q11: What is the risk of using a one-tailed test?
@@ -247,11 +247,11 @@ e, >, <$).
 #### Q12: Explain the duality between confidence intervals and two-tailed hypothesis tests.
 **Answer:** A two-tailed hypothesis test at significance level $\alpha$ rejects $H_0: \mu = \mu_0$ if and only if $\mu_0$ lies outside the $(1 - \alpha)$ confidence interval. If $\mu_0$ falls within the CI, the test fails to reject $H_0$ at significance level $\alpha$.
 
-#### Q13: What is Cohen's d, and why is it necessary alongside a p-value?
-**Answer:** Cohen's $d = \frac{\bar{x} - \mu_0}{s}$ measures the standardized difference between the observed mean and null baseline in units of standard deviations. It measures practical effect size independent of sample size, whereas p-values depend heavily on sample size.
+#### Q13: What is Cohen's d, and why is it necessary alongside a $p$-value?
+**Answer:** Cohen's $d = \frac{\bar{x} - \mu_0}{s}$ measures the standardized difference between the observed mean and null baseline in units of standard deviations. It measures practical effect size independent of sample size, whereas $p$-values depend heavily on sample size.
 
 #### Q14: How can an experiment produce $p = 0.00001$ while being completely useless in practice?
-**Answer:** When sample size $n$ is massive (e.g., $n = 500,000$), standard error becomes microscopic. A miniscule difference (e.g., page load time decreasing by 0.5 milliseconds) will yield a tiny p-value, but has zero business or experiential impact.
+**Answer:** When sample size $n$ is massive (e.g., $n = 500,000$), standard error becomes microscopic. A miniscule difference (e.g., page load time decreasing by 0.5 milliseconds) will yield a tiny $p$-value, but has zero business or experiential impact.
 
 #### Q15: What four factors determine the statistical power ($1 - \beta$) of a hypothesis test?
 **Answer:**
@@ -272,9 +272,9 @@ e, >, <$).
 #### Q19: What is the Bonferroni correction for multiple hypothesis testing?
 **Answer:** If $m$ independent hypotheses are tested simultaneously, the family-wise error rate escalates ($1 - (1 - \alpha)^m$). The Bonferroni correction adjusts the significance threshold for each individual test to $\alpha^* = \alpha / m$.
 
-#### Q20: Explain the difference between Fisher's view of p-values and Neyman-Pearson decision theory.
+#### Q20: Explain the difference between Fisher's view of $p$-values and Neyman-Pearson decision theory.
 **Answer:**
-- **Fisher:** Viewed the p-value as a continuous index of evidence against the null hypothesis in a single experiment, without formalizing an alternative hypothesis or Type II error.
+- **Fisher:** Viewed the $p$-value as a continuous index of evidence against the null hypothesis in a single experiment, without formalizing an alternative hypothesis or Type II error.
 - **Neyman-Pearson:** Formulated a rigorous operational decision framework with pre-specified $\alpha$ and $\beta$, choosing between two competing actions ($H_0$ vs $H_1$) to control long-run error rates.
 
 #### Q21: What happens to the Type II error rate $\beta$ if you decrease the significance level $\alpha$ from 0.05 to 0.01?
@@ -289,7 +289,7 @@ e, >, <$).
 #### Q24: What is the relation between a two-sample t-test and a one-sample t-test on paired differences?
 **Answer:** A paired samples t-test computes differences $d_i = x_{1, i} - x_{2, i}$ for each matched pair and conducts a standard 1-sample t-test on the difference series against $\mu_d = 0$.
 
-#### Q25: If an A/B test has an observed p-value of 0.06 with $\alpha = 0.05$, should you gather 50 more samples until it drops below 0.05?
+#### Q25: If an A/B test has an observed $p$-value of 0.06 with $\alpha = 0.05$, should you gather 50 more samples until it drops below 0.05?
 **Answer:** No. This is "optional stopping", which inflates the Type I error rate well beyond the nominal 5%. Sample sizes must be fixed a priori via power analysis, or evaluated using sequential testing frameworks (e.g. Wald's SPRT).
 
 #### Q26: What is the relationship between the test statistic $z$ and $t$ when $n = 10,000$?
@@ -312,9 +312,9 @@ e, >, <$).
 ## 💡 5. 10 Deep Statistical Insights and Common Pitfalls
 
 1. **Failure to Reject $\ne$ Proof of Null:** "Absence of evidence is not evidence of absence." A test with small sample size may have only 20% power; failing to reject $H_0$ simply means the test was underpowered to detect the effect.
-2. **P-Value Threshold Fallacy:** There is no qualitative change in physical reality between $p = 0.049$ and $p = 0.051$. Treat p-values as continuous gradations of evidence rather than absolute cliffs.
+2. **P-Value Threshold Fallacy:** There is no qualitative change in physical reality between $p = 0.049$ and $p = 0.051$. Treat $p$-values as continuous gradations of evidence rather than absolute cliffs.
 3. **The Multiple Testing Trap:** Running 20 independent hypothesis tests at $\alpha = 0.05$ yields a $1 - (0.95)^{20} \approx 64.2\%$ probability of observing at least one spurious false positive by pure chance. Always adjust with Bonferroni or FDR corrections.
-4. **Sample Size Asymmetry:** Huge sample sizes turn noise into statistical significance; tiny sample sizes bury huge effects in statistical noise. Always pair p-values with Cohen's d and confidence intervals.
+4. **Sample Size Asymmetry:** Huge sample sizes turn noise into statistical significance; tiny sample sizes bury huge effects in statistical noise. Always pair $p$-values with Cohen's d and confidence intervals.
 5. **Post-Hoc Hypothesis Formulation:** Looking at data, noticing an unexpected bump, and formulating a directional one-tailed test on that bump invalidates standard probability theory.
 6. **Normality Test Reliance:** Running Shapiro-Wilk or Kolmogorov-Smirnov before every t-test is often counterproductive: in small samples, normality tests lack power; in large samples, they flag harmless departures from normality that CLT renders irrelevant.
 7. **Independence Violations:** If observations within a sample are correlated (e.g. repeated sessions from the same user, time-series autocorrelation), the true standard error is underestimated, resulting in wildly inflated Type I error rates.

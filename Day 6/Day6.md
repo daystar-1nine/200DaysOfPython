@@ -7,7 +7,7 @@
 ## 📌 Executive Summary & Key Takeaways
 
 - **List (`list`):** An ordered, mutable, indexed collection that allows duplicate elements and mixed data types.
-- **Indexing & Slicing:** Elements are accessed in $O(1)$ time via 0-based positive indexing or negative indexing (`-1` for last item). Slicing follows `[start:stop:step]`.
+- **Indexing & Slicing:** Elements are accessed in $\mathcal{O}(1)$ time via 0-based positive indexing or negative indexing (`-1` for last item). Slicing follows `[start:stop:step]`.
 - **In-place vs Returning Methods:** Methods like `.sort()` and `.reverse()` mutate the list in-place and return `None`. Functions like `sorted()` and `reversed()` return new iterables.
 - **List Comprehension:** Concise syntax for building lists: `[expr for item in iterable if condition]`.
 
@@ -24,7 +24,7 @@ mixed = [42, "Hello", 3.14, True, [1, 2]]
 ```
 
 ### 1.2 Memory Allocation & Over-allocation Strategy
-Python lists over-allocate extra slots when growing (via `.append()`) to achieve **$O(1)$ amortized time complexity** for insertions!
+Python lists over-allocate extra slots when growing (via `.append()`) to achieve **$\mathcal{O}(1)$ amortized time complexity** for insertions!
 
 ---
 
@@ -63,9 +63,9 @@ print(numbers[::-1])   # [9, 8, 7, 6, 5, 4, 3, 2, 1, 0] (Reversed list)
 
 | Method | Description | Time Complexity | Example |
 |---|---|:---:|---|
-| `append(x)` | Adds `x` to the end | $O(1)$ Amortized | `lst.append(5)` |
-| `insert(i, x)` | Inserts `x` at index `i` | $O(n)$ | `lst.insert(0, "First")` |
-| `extend(iterable)` | Appends all items from iterable | $O(k)$ | `lst.extend([10, 20])` |
+| `append(x)` | Adds `x` to the end | $\mathcal{O}(1)$ Amortized | `lst.append(5)` |
+| `insert(i, x)` | Inserts `x` at index `i` | $\mathcal{O}(n)$ | `lst.insert(0, "First")` |
+| `extend(iterable)` | Appends all items from iterable | $\mathcal{O}(k)$ | `lst.extend([10, 20])` |
 
 ### 3.2 Removing Elements
 
@@ -121,13 +121,13 @@ print(labels)  # ['Even', 'Odd', 'Even', 'Odd', 'Even']
 
 | Operation | Method / Syntax | Time Complexity |
 |---|---|:---:|
-| Access Element | `lst[i]` | $O(1)$ |
-| Append Element | `lst.append(x)` | $O(1)$ Amortized |
-| Insert Element | `lst.insert(0, x)` | $O(n)$ |
-| Delete Element | `del lst[i]` / `lst.pop(0)` | $O(n)$ |
-| Search Element | `x in lst` | $O(n)$ |
-| Slicing | `lst[a:b]` | $O(k)$ where $k=b-a$ |
-| Sort List | `lst.sort()` | $O(n \log n)$ (Timsort) |
+| Access Element | `lst[i]` | $\mathcal{O}(1)$ |
+| Append Element | `lst.append(x)` | $\mathcal{O}(1)$ Amortized |
+| Insert Element | `lst.insert(0, x)` | $\mathcal{O}(n)$ |
+| Delete Element | `del lst[i]` / `lst.pop(0)` | $\mathcal{O}(n)$ |
+| Search Element | `x in lst` | $\mathcal{O}(n)$ |
+| Slicing | `lst[a:b]` | $\mathcal{O}(k)$ where $k=b-a$ |
+| Sort List | `lst.sort()` | $\mathcal{O}(n \log n)$ (Timsort) |
 
 ---
 
@@ -145,7 +145,7 @@ print(labels)  # ['Even', 'Odd', 'Even', 'Odd', 'Even']
 ## ❓ Practice & Interview Questions (With Solutions)
 
 ### Q1: What is the time complexity of searching for an item in a list vs a set?
-**Answer:** Searching in a list (`x in my_list`) takes $O(n)$ linear time. Searching in a set (`x in my_set`) takes $O(1)$ average hash lookup time.
+**Answer:** Searching in a list (`x in my_list`) takes $\mathcal{O}(n)$ linear time. Searching in a set (`x in my_set`) takes $\mathcal{O}(1)$ average hash lookup time.
 
 ### Q2: How do you reverse a list in Python using slicing?
 **Answer:** `reversed_list = original_list[::-1]`

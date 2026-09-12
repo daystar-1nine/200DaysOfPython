@@ -1,6 +1,6 @@
 # LogAnalyze
 
-A production-style, high-performance **Log Analytics CLI Application** built with Python 3.10+. Designed to stream, parse, filter, analyze, and export server log files containing millions of log entries with a constant **$O(1)$ memory footprint**.
+A production-style, high-performance **Log Analytics CLI Application** built with Python 3.10+. Designed to stream, parse, filter, analyze, and export server log files containing millions of log entries with a constant **$\mathcal{O}(1)$ memory footprint**.
 
 ---
 
@@ -12,7 +12,7 @@ A production-style, high-performance **Log Analytics CLI Application** built wit
 
 ## Features
 
-- ⚡ **Low-Memory Streaming Parser:** Processes 1,000,000+ line log files in constant RAM space ($O(1)$) using Python **generators** (`yield`).
+- ⚡ **Low-Memory Streaming Parser:** Processes 1,000,000+ line log files in constant RAM space ($\mathcal{O}(1)$) using Python **generators** (`yield`).
 - 📊 **CLI Analytics Engine:** Generates level summaries, extracts ERROR records, performs case-insensitive keyword searches, and filters by date.
 - 🔐 **RAII Resource Management:** Context manager file streaming guarantees clean file handle cleanup.
 - 📦 **Modern Python Architecture:** Built with `@dataclass`, `Enum`, `typing.Protocol` structural subtyping, and `@timer` profiling decorators.

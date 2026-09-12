@@ -145,9 +145,16 @@ marks[mask] = np.nanmean(marks)  # [80.0, 90.0, 80.0, 70.0]
 
 ### 8. Basic Linear Algebra & Matrix Operations
 
-- **Dot Product**: `np.dot(a, b)` calculates inner product $\sum a_i b_i$.
-- **Matrix Multiplication**: `A @ B` or `np.matmul(A, B)` computes matrix product $(M \times K) \cdot (K \times N) \rightarrow (M \times N)$.
-- **Transpose**: `A.T` swaps matrix rows and columns.
+#### Vector Dot Product (Inner Product):
+$$\mathbf{u} \cdot \mathbf{v} = \sum_{i=1}^n u_i v_i = u_1 v_1 + u_2 v_2 + \dots + u_n v_n$$
+
+#### Matrix Multiplication:
+$$\mathbf{C} = \mathbf{A}\mathbf{B} \implies c_{ij} = \sum_{k=1}^K a_{ik} b_{kj}$$
+
+$$\begin{bmatrix} a_{11} & a_{12} \\ a_{21} & a_{22} \end{bmatrix} \begin{bmatrix} b_{11} & b_{12} \\ b_{21} & b_{22} \end{bmatrix} = \begin{bmatrix} a_{11}b_{11} + a_{12}b_{21} & a_{11}b_{12} + a_{12}b_{22} \\ a_{21}b_{11} + a_{22}b_{21} & a_{21}b_{12} + a_{22}b_{22} \end{bmatrix}$$
+
+#### Matrix Transpose:
+$$\mathbf{A} = [a_{ij}] \in \mathbb{R}^{M \times N} \implies \mathbf{A}^T = [a_{ji}] \in \mathbb{R}^{N \times M}$$
 
 ```python
 A = np.array([[1, 2], [3, 4]])

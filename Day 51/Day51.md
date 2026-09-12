@@ -82,7 +82,7 @@ class PerformanceLevel(str, Enum):
 ### 6. High-Performance Collections (`collections`)
 - **`Counter`**: Tallies frequency of hashable elements (`Counter(words)`).
 - **`defaultdict`**: Automatically initializes missing dictionary keys with a default factory function (`defaultdict(list)`).
-- **`deque`**: Doubly-ended queue providing $O(1)$ append and pop operations from both ends (`queue.popleft()`).
+- **`deque`**: Doubly-ended queue providing $\mathcal{O}(1)$ append and pop operations from both ends (`queue.popleft()`).
 
 ---
 
@@ -113,7 +113,7 @@ class PerformanceLevel(str, Enum):
 **Answer**: `defaultdict` automatically initializes a new value using a default factory function (e.g. `list`) whenever a missing key is accessed, eliminating boilerplate key existence checks (`if key not in d: d[key] = []`).
 
 ### Q9: Why is `collections.deque` faster than a Python `list` for queue operations?
-**Answer**: Python `list` structures are dynamic arrays where removing elements from the front (`list.pop(0)`) requires shifting all remaining elements in memory ($O(n)$ time). `deque` is implemented as a doubly-linked list providing $O(1)$ time complexity for appends and pops at both ends.
+**Answer**: Python `list` structures are dynamic arrays where removing elements from the front (`list.pop(0)`) requires shifting all remaining elements in memory ($\mathcal{O}(n)$ time). `deque` is implemented as a doubly-linked list providing $\mathcal{O}(1)$ time complexity for appends and pops at both ends.
 
 ### Q10: What is the difference between naive and timezone-aware datetime objects?
 **Answer**: Naive `datetime` objects do not contain information about timezones or daylight saving time, making them ambiguous across global systems. Timezone-aware `datetime` objects contain explicit `tzinfo` objects (e.g., `timezone.utc`).

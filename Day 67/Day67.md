@@ -44,7 +44,7 @@ All outcomes               Numerical Mapping              Assigned Weights
 ### Core Axiomatic Requirements:
 1. **Non-negativity:** Every probability or density must be non-negative: $P(X = x) \ge 0$ or $f(x) \ge 0$.
 2. **Total Probability:** The sum (for discrete) or integral (for continuous) over the entire support must equal 1:
-   $$\sum_{x \in S} P(X = x) = 1 \quad 	ext{or} \quad \int_{-\infty}^{\infty} f(x)\,dx = 1$$
+   $$\sum_{x \in S} P(X = x) = 1 \quad \text{or} \quad \int_{-\infty}^{\infty} f(x)\,dx = 1$$
 
 ---
 
@@ -75,7 +75,7 @@ For discrete $X$, $p(x) = P(X = x)$.
 ### B. PDF — Probability Density Function (Continuous)
 For continuous $X$, $f(x)$ represents the relative likelihood of $X$ taking values near $x$.
 - **Crucial:** $f(x)$ is **NOT** a probability! It is a **density** (probability per unit of $x$).
-- $f(x)$ can be greater than 1! For example, if $X \sim 	ext{Uniform}(0, 0.2)$, then $f(x) = rac{1}{0.2} = 5.0$.
+- $f(x)$ can be greater than 1! For example, if $X \sim \text{Uniform}(0, 0.2)$, then $f(x) = \frac{1}{0.2} = 5.0$.
 - Single point probability is zero: $P(X = c) = \int_c^c f(x)\,dx = 0$.
 - Probability over an interval $[a, b]$ is the area under $f(x)$:
   $$P(a \le X \le b) = \int_a^b f(x)\,dx$$
@@ -111,7 +111,7 @@ A Bernoulli trial is an experiment with exactly two mutually exclusive outcomes:
   $$P(X = x) = p^x (1 - p)^{1 - x}, \quad x \in \{0, 1\}$$
 - **Expected Value:** $E[X] = 1 \cdot p + 0 \cdot (1 - p) = p$
 - **Variance:**
-  $$	ext{Var}(X) = E[X^2] - (E[X])^2 = (1^2 \cdot p + 0^2 \cdot (1-p)) - p^2 = p - p^2 = p(1 - p)$$
+  $$\text{Var}(X) = E[X^2] - (E[X])^2 = (1^2 \cdot p + 0^2 \cdot (1-p)) - p^2 = p - p^2 = p(1 - p)$$
 - **Standard Deviation:** $\sigma = \sqrt{p(1 - p)}$
 
 ### Python Example
@@ -142,13 +142,13 @@ The Binomial distribution models the number of successes $k$ in $n$ independent 
 ### Mathematical Formulation
 - **Parameters:** $n \in \mathbb{N}$ (number of trials), $p \in [0, 1]$ (success probability).
 - **PMF:**
-  $$P(X = k) = inom{n}{k} p^k (1 - p)^{n - k} = rac{n!}{k!(n - k)!} p^k (1 - p)^{n - k}, \quad k \in \{0, 1, \dots, n\}$$
+  $$P(X = k) = \binom{n}{k} p^k (1 - p)^{n - k} = \frac{n!}{k!(n - k)!} p^k (1 - p)^{n - k}, \quad k \in \{0, 1, \dots, n\}$$
 - **Expected Value:** $E[X] = np$
-- **Variance:** $	ext{Var}(X) = np(1 - p)$
+- **Variance:** $\text{Var}(X) = np(1 - p)$
 - **Standard Deviation:** $\sigma = \sqrt{np(1 - p)}$
 
 ### Complement Trick for "At Least $k$ Successes":
-$$P(X \ge k) = 1 - P(X \le k - 1) = 1 - 	ext{CDF}(k - 1)$$
+$$P(X \ge k) = 1 - P(X \le k - 1) = 1 - \text{CDF}(k - 1)$$
 
 ### Python Example
 ```python
@@ -173,11 +173,11 @@ A continuous random variable $X$ has a Uniform distribution over $[a, b]$ if all
 ### Mathematical Formulation
 - **Parameters:** $a, b \in \mathbb{R}$ with $a < b$.
 - **PDF:**
-  $$f(x) = egin{cases} rac{1}{b - a}, & a \le x \le b \ 0, & 	ext{otherwise} \end{cases}$$
+  $$f(x) = \begin{cases} \frac{1}{b - a}, & a \le x \le b \ 0, & \text{otherwise} \end{cases}$$
 - **CDF:**
-  $$F(x) = egin{cases} 0, & x < a \ rac{x - a}{b - a}, & a \le x \le b \ 1, & x > b \end{cases}$$
-- **Expected Value:** $E[X] = rac{a + b}{2}$
-- **Variance:** $	ext{Var}(X) = rac{(b - a)^2}{12}$
+  $$F(x) = \begin{cases} 0, & x < a \ \frac{x - a}{b - a}, & a \le x \le b \ 1, & x > b \end{cases}$$
+- **Expected Value:** $E[X] = \frac{a + b}{2}$
+- **Variance:** $\text{Var}(X) = \frac{(b - a)^2}{12}$
 
 ### Python Example
 ```python
@@ -201,20 +201,21 @@ The **Normal distribution** is the cornerstone of probability and statistics due
 - **Parameters:** $\mu \in \mathbb{R}$ (mean / center), $\sigma > 0$ (standard deviation / spread).
 - **Notation:** $X \sim \mathcal{N}(\mu, \sigma^2)$
 - **PDF:**
-  $$f(x) = rac{1}{\sigma \sqrt{2\pi}} \exp\left(-rac{(x - \mu)^2}{2\sigma^2}ight)$$
+  $$f(x) = \frac{1}{\sigma \sqrt{2\pi}} \exp\left(-\frac{(x - \mu)^2}{2\sigma^2}
+ight)$$
 - **Expected Value:** $E[X] = \mu$
-- **Variance:** $	ext{Var}(X) = \sigma^2$
-- **Symmetry:** $	ext{Mean} = 	ext{Median} = 	ext{Mode} = \mu$. Skewness $= 0$, Excess Kurtosis $= 0$.
+- **Variance:** $\text{Var}(X) = \sigma^2$
+- **Symmetry:** $\text{Mean} = \text{Median} = \text{Mode} = \mu$. Skewness $= 0$, Excess Kurtosis $= 0$.
 
 ### Standard Normal Distribution
-A special case where $\mu = 0$ and $\sigma = 1$, denoted by $Z \sim \mathcal{N}(0, 1)$.
+A special case where $\\mu = 0$ and $\sigma = 1$, denoted by $Z \sim \mathcal{N}(0, 1)$.
 Any normal variable can be standardized via the Z-score transformation:
-$$Z = rac{X - \mu}{\sigma} \iff X = \mu + Z\sigma$$
+$$Z = \frac{X - \mu}{\sigma} \iff X = \mu + Z\sigma$$
 
 ### The Empirical Rule (68–95–99.7% Rule):
-- $P(\mu - 1\sigma \le X \le \mu + 1\sigma) pprox 68.27\%$
-- $P(\mu - 2\sigma \le X \le \mu + 2\sigma) pprox 95.45\%$
-- $P(\mu - 3\sigma \le X \le \mu + 3\sigma) pprox 99.73\%$
+- $P(\mu - 1\sigma \le X \le \mu + 1\sigma) \approx 68.27\%$
+- $P(\mu - 2\sigma \le X \le \mu + 2\sigma) \approx 95.45\%$
+- $P(\mu - 3\sigma \le X \le \mu + 3\sigma) \approx 99.73\%$
 
 ### Effects of Parameter Shifts:
 - **Changing $\mu$:** Translates the distribution along the horizontal axis without altering its width or peak height.
@@ -235,10 +236,10 @@ The Poisson distribution models the number of events occurring in a fixed interv
 ### Mathematical Formulation
 - **Parameter:** $\lambda > 0$ (expected arrival rate per interval).
 - **PMF:**
-  $$P(X = k) = rac{e^{-\lambda} \lambda^k}{k!}, \quad k \in \{0, 1, 2, \dots\}$$
+  $$P(X = k) = \frac{e^{-\lambda} \lambda^k}{k!}, \quad k \in \{0, 1, 2, \dots\}$$
 - **Expected Value:** $E[X] = \lambda$
-- **Variance:** $	ext{Var}(X) = \lambda$
-- **Equidispersion:** A distinctive property of Poisson is that $	ext{Mean} = 	ext{Variance} = \lambda$.
+- **Variance:** $\text{Var}(X) = \lambda$
+- **Equidispersion:** A distinctive property of Poisson is that $\text{Mean} = \text{Variance} = \lambda$.
 
 ### Real-World Applications:
 - Server requests per second.
@@ -252,13 +253,13 @@ The Poisson distribution models the number of events occurring in a fixed interv
 
 ### A. Poisson Approximation to the Binomial (Law of Rare Events)
 When $n$ is very large and $p$ is very small such that $\lambda = np$ remains moderate ($n \ge 20, p \le 0.05$):
-$$inom{n}{k} p^k (1 - p)^{n - k} pprox rac{e^{-\lambda}\lambda^k}{k!}$$
-*Why use it?* Evaluating $inom{1000}{3} (0.002)^3 (0.998)^{997}$ directly is computationally heavy; $rac{e^{-2} 2^3}{3!}$ is immediate and practically identical.
+$$\binom{n}{k} p^k (1 - p)^{n - k} \approx \frac{e^{-\lambda}\lambda^k}{k!}$$
+*Why use it?* Evaluating $\binom{1000}{3} (0.002)^3 (0.998)^{997}$ directly is computationally heavy; $\frac{e^{-2} 2^3}{3!}$ is immediate and practically identical.
 
 ### B. Normal Approximation to the Binomial (De Moivre–Laplace Theorem)
-When $np \ge 10$ and $n(1 - p) \ge 10$, the Binomial distribution $	ext{Binom}(n, p)$ converges to a continuous Normal distribution:
-$$	ext{Binom}(n, p) pprox \mathcal{N}(\mu = np, \sigma^2 = np(1 - p))$$
-*Continuity Correction:* Since discrete integers are approximated by continuous intervals, evaluate $P(X \le k)$ as $P(X_{	ext{norm}} \le k + 0.5)$.
+When $np \ge 10$ and $n(1 - p) \ge 10$, the Binomial distribution $\text{Binom}(n, p)$ converges to a continuous Normal distribution:
+$$$\text{Binom}(n, p) \approx \mathcal{N}\big(\\mu = np, \, \sigma^2 = np(1 - p)\big)$$$
+*Continuity Correction:* Since discrete integers are approximated by continuous intervals, evaluate $P(X \le k)$ as $P(X_{\text{norm}} \le k + 0.5)$.
 
 ---
 
@@ -283,7 +284,7 @@ SciPy provides unified distribution objects in `scipy.stats`.
 | `pmf(k, ...)` | Discrete probability mass $P(X = k)$ | `binom.pmf(k=3, n=10, p=0.5)` |
 | `pdf(x, ...)` | Continuous probability density $f(x)$ | `norm.pdf(x=75, loc=70, scale=10)` |
 | `cdf(x, ...)` | Cumulative probability $P(X \le x)$ | `poisson.cdf(k=4, mu=5.0)` |
-| `sf(x, ...)` | Survival function $P(X > x) = 1 - 	ext{CDF}(x)$ | `norm.sf(x=80, loc=70, scale=10)` |
+| `sf(x, ...)` | Survival function $P(X > x) = 1 - \text{CDF}(x)$ | `norm.sf(x=80, loc=70, scale=10)` |
 | `ppf(q, ...)` | Percent point function (quantile) $F^{-1}(q)$ | `norm.ppf(q=0.95, loc=70, scale=10)` |
 | `rvs(size, ...)` | Generate random variates / samples | `norm.rvs(loc=70, scale=10, size=1000)` |
 | `mean(...)` | Theoretical distribution mean | `binom.mean(n=20, p=0.4)` |
@@ -297,9 +298,9 @@ SciPy provides unified distribution objects in `scipy.stats`.
 Why doesn't a simulated sample of 10,000 rolls exactly match theoretical predictions?
 
 1. **Stochastic Variation:** Random sampling is subject to finite-sample noise. Every simulated draw is an independent realization.
-2. **Law of Large Numbers (LLN):** As sample size $N 	o \infty$, the sample mean $ar{X}_N$ converges almost surely to the theoretical expected value $E[X]$.
+2. **Law of Large Numbers (LLN):** As sample size $N 	o \infty$, the sample mean $\bar{X}_N$ converges almost surely to the theoretical expected value $E[X]$.
 3. **Standard Error of the Mean:** The expected magnitude of simulation error shrinks as:
-   $$	ext{SE} = rac{\sigma}{\sqrt{N}}$$
+   $$\text{SE} = \frac{\sigma}{\sqrt{N}}$$
    To reduce simulation error by a factor of 10, one must generate $10^2 = 100	imes$ more samples!
 
 ---
@@ -329,7 +330,7 @@ The Percent Point Function (PPF), also known as the Quantile Function or Inverse
 PMF values represent true probabilities ($0 \le P(X=x) \le 1$). PDF values represent density (probability per unit length) and can exceed 1. A PDF value must be integrated over an interval to yield a probability.
 
 #### 8. Can a PDF value be greater than 1?
-Yes! For continuous distributions with a narrow support, $f(x)$ can exceed 1. For instance, for $X \sim 	ext{Uniform}(0, 0.5)$, $f(x) = rac{1}{0.5 - 0} = 2.0$ for all $x \in [0, 0.5]$. The only requirement is that the total integral $\int f(x)\,dx = 1$.
+Yes! For continuous distributions with a narrow support, $f(x)$ can exceed 1. For instance, for $X \sim \text{Uniform}(0, 0.5)$, $f(x) = \frac{1}{0.5 - 0} = 2.0$ for all $x \in [0, 0.5]$. The only requirement is that the total integral $\int f(x)\,dx = 1$.
 
 #### 9. What does the area under a PDF curve represent?
 The area under a PDF curve between two points $a$ and $b$ represents the probability that the random variable falls within that interval: $P(a \le X \le b)$. The total area under the entire curve across $(-\infty, \infty)$ is strictly 1.0.
@@ -350,11 +351,11 @@ A Binomial distribution models the total number of successes observed across $n$
 4. Independent trials (the result of one does not affect another).
 
 #### 13. How are the Bernoulli and Binomial distributions related?
-The Bernoulli distribution is a special case of the Binomial distribution where $n = 1$. Conversely, a Binomial random variable is the sum of $n$ independent Bernoulli random variables: $X = \sum_{i=1}^n Y_i$, where $Y_i \sim 	ext{Bernoulli}(p)$.
+The Bernoulli distribution is a special case of the Binomial distribution where $n = 1$. Conversely, a Binomial random variable is the sum of $n$ independent Bernoulli random variables: $X = \sum_{i=1}^n Y_i$, where $Y_i \sim \text{Bernoulli}(p)$.
 
 #### 14. What are the formulas for the mean and variance of a Binomial distribution?
 - Mean: $E[X] = np$
-- Variance: $	ext{Var}(X) = np(1 - p)$
+- Variance: $\text{Var}(X) = np(1 - p)$
 - Standard Deviation: $\sigma = \sqrt{np(1 - p)}$
 
 ---
@@ -368,7 +369,7 @@ A Normal (or Gaussian) distribution is a continuous, symmetric, bell-shaped prob
 - Standard Deviation ($\sigma$): The scale parameter ($\sigma > 0$), determining the spread or dispersion.
 
 #### 17. What is a Standard Normal distribution?
-A Standard Normal distribution is a Normal distribution with $\mu = 0$ and $\sigma = 1$, denoted $Z \sim \mathcal{N}(0, 1)$. Any normal variable can be transformed into standard normal via $Z = (X - \mu) / \sigma$.
+A Standard Normal distribution is a Normal distribution with $\\mu = 0$ and $\sigma = 1$, denoted $Z \sim \mathcal{N}(0, 1)$. Any normal variable can be transformed into standard normal via $Z = (X - \mu) / \sigma$.
 
 #### 18. What is the 68–95–99.7 Empirical Rule?
 In a normal distribution:
@@ -392,13 +393,13 @@ A Poisson distribution is a discrete probability distribution that expresses the
 $\lambda$ (lambda) represents the expected (average) number of event occurrences within the specified interval.
 
 #### 23. Why are the mean and variance equal in a Poisson distribution?
-In a Poisson process with rate $\lambda$, mathematically $E[X] = \sum k rac{e^{-\lambda}\lambda^k}{k!} = \lambda$ and $E[X(X-1)] = \lambda^2$, yielding $	ext{Var}(X) = E[X^2] - (E[X])^2 = (\lambda^2 + \lambda) - \lambda^2 = \lambda$. This property is called **equidispersion**.
+In a Poisson process with rate $\lambda$, mathematically $E[X] = \sum k \frac{e^{-\lambda}\lambda^k}{k!} = \lambda$ and $E[X(X-1)] = \lambda^2$, yielding $\text{Var}(X) = E[X^2] - (E[X])^2 = (\lambda^2 + \lambda) - \lambda^2 = \lambda$. This property is called **equidispersion**.
 
 #### 24. What is the key distinction between Binomial and Poisson distributions?
 Binomial has a fixed number of trials $n$ and counts successes out of $n$ ($0 \le k \le n$). Poisson has no fixed number of trials; it counts events over a continuous interval of time/space ($k \in \{0, 1, 2, \dots, \infty\}$).
 
 #### 25. When can a Poisson distribution approximate a Binomial distribution?
-When $n$ is large ($n \ge 20$) and $p$ is small ($p \le 0.05$) such that $np$ is moderate, a $	ext{Binomial}(n, p)$ distribution is closely approximated by a $	ext{Poisson}(\lambda = np)$.
+When $n$ is large ($n \ge 20$) and $p$ is small ($p \le 0.05$) such that $np$ is moderate, a $\text{Binomial}(n, p)$ distribution is closely approximated by a $\text{Poisson}(\lambda = np)$.
 
 ---
 
@@ -424,45 +425,45 @@ Pseudo-random number generators produce deterministic sequences from a seed. Set
 
 ### PART 1 — Bernoulli
 A customer has a 30% probability of purchasing ($p = 0.3$).
-- **$P(	ext{Purchase}) = P(X = 1) = p = 0.30$**
-- **$P(	ext{No Purchase}) = P(X = 0) = 1 - p = 0.70$**
-- **$	ext{Mean } E[X] = p = 0.30$**
-- **$	ext{Variance } 	ext{Var}(X) = p(1 - p) = 0.30 	imes 0.70 = 0.21$**
+- **$P(\text{Purchase}) = P(X = 1) = p = 0.30$**
+- **$P(\text{No Purchase}) = P(X = 0) = 1 - p = 0.70$**
+- **$\text{Mean } E[X] = p = 0.30$**
+- **$\text{Variance } \text{Var}(X) = p(1 - p) = 0.30 	imes 0.70 = 0.21$**
 
 ---
 
 ### PART 2 — Binomial
 $n = 100$ customers, purchase probability $p = 0.05$.
 - **$P(X = 5)$:**
-  $$P(X = 5) = inom{100}{5} (0.05)^5 (0.95)^{95} pprox 0.1800178 pprox 18.00\%$$
+  $$P(X = 5) = \binom{100}{5} (0.05)^5 (0.95)^{95} \approx 0.1800178 \approx 18.00\%$$
 - **$P(X \le 5)$:**
-  $$P(X \le 5) = \sum_{k=0}^5 inom{100}{k} (0.05)^k (0.95)^{100-k} pprox 0.615999 pprox 61.60\%$$
+  $$P(X \le 5) = \sum_{k=0}^5 \binom{100}{k} (0.05)^k (0.95)^{100-k} \approx 0.615999 \approx 61.60\%$$
 - **$P(X \ge 5)$:**
-  $$P(X \ge 5) = 1 - P(X \le 4) pprox 1 - 0.435981 = 0.564019 pprox 56.40\%$$
-- **$	ext{Expected Purchases } E[X] = np = 100 	imes 0.05 = 5.0$**
-- **$	ext{Standard Deviation } \sigma = \sqrt{np(1 - p)} = \sqrt{100 	imes 0.05 	imes 0.95} = \sqrt{4.75} pprox 2.17945$**
+  $$P(X \ge 5) = 1 - P(X \le 4) \approx 1 - 0.435981 = 0.564019 \approx 56.40\%$$
+- **$\text{Expected Purchases } E[X] = np = 100 	imes 0.05 = 5.0$**
+- **$\text{Standard Deviation } \sigma = \sqrt{np(1 - p)} = \sqrt{100 	imes 0.05 	imes 0.95} = \sqrt{4.75} \approx 2.17945$**
 
 ---
 
 ### PART 3 — Normal
-Exam scores: $X \sim \mathcal{N}(\mu = 70, \sigma = 10)$.
+Exam scores: $X \sim \mathcal{N}(\\mu = 70, \sigma = 10)$.
 - **$P(X < 60)$:**
-  $$Z = rac{60 - 70}{10} = -1.0 \implies P(Z < -1.0) = \Phi(-1.0) pprox 0.158655 pprox 15.87\%$$
+  $$Z = \frac{60 - 70}{10} = -1.0 \implies P(Z < -1.0) = \Phi(-1.0) \approx 0.158655 \approx 15.87\%$$
 - **$P(X > 80)$:**
-  $$Z = rac{80 - 70}{10} = +1.0 \implies P(Z > +1.0) = 1 - \Phi(1.0) pprox 0.158655 pprox 15.87\%$$
+  $$Z = \frac{80 - 70}{10} = +1.0 \implies P(Z > +1.0) = 1 - \Phi(1.0) \approx 0.158655 \approx 15.87\%$$
 - **$P(60 < X < 80)$:**
-  $$P(-1.0 < Z < 1.0) = \Phi(1.0) - \Phi(-1.0) pprox 0.841345 - 0.158655 = 0.682689 pprox 68.27\%$$
+  $$P(-1.0 < Z < 1.0) = \Phi(1.0) - \Phi(-1.0) \approx 0.841345 - 0.158655 = 0.682689 \approx 68.27\%$$
 
 ---
 
 ### PART 4 — Poisson
 Average arrival rate: $\lambda = 8$ support calls/hour.
 - **$P(X = 5)$:**
-  $$P(X = 5) = rac{e^{-8} 8^5}{5!} = rac{0.00033546 	imes 32768}{120} pprox 0.091604 pprox 9.16\%$$
+  $$P(X = 5) = \frac{e^{-8} 8^5}{5!} = \frac{0.00033546 	imes 32768}{120} \approx 0.091604 \approx 9.16\%$$
 - **$P(X \le 5)$:**
-  $$P(X \le 5) = \sum_{k=0}^5 rac{e^{-8} 8^k}{k!} pprox 0.191236 pprox 19.12\%$$
+  $$P(X \le 5) = \sum_{k=0}^5 \frac{e^{-8} 8^k}{k!} \approx 0.191236 \approx 19.12\%$$
 - **$P(X > 8)$:**
-  $$P(X > 8) = 1 - P(X \le 8) pprox 1 - 0.592547 = 0.407453 pprox 40.75\%$$
+  $$P(X > 8) = 1 - P(X \le 8) \approx 1 - 0.592547 = 0.407453 \approx 40.75\%$$
 
 ---
 
@@ -478,23 +479,23 @@ However, probability is defined on sets (intervals) as a **measure** (area under
 ---
 
 ### PART 6 — Practical Simulation
-Generate $N = 100,000$ samples from $\mathcal{N}(\mu = 70, \sigma = 10)$ with seed 42.
+Generate $N = 100,000$ samples from $\mathcal{N}(\\mu = 70, \sigma = 10)$ with seed 42.
 - **Theoretical Values:**
   - Mean: $70.0$
   - Median: $70.0$
   - Std: $10.0$
-  - P10: $70 + 10 	imes \Phi^{-1}(0.10) pprox 70 - 1.28155 	imes 10 = 57.1845$
-  - P90: $70 + 10 	imes \Phi^{-1}(0.90) pprox 70 + 1.28155 	imes 10 = 82.8155$
+  - P10: $70 + 10 	imes \Phi^{-1}(0.10) \approx 70 - 1.28155 	imes 10 = 57.1845$
+  - P90: $70 + 10 	imes \Phi^{-1}(0.90) \approx 70 + 1.28155 	imes 10 = 82.8155$
 - **Simulated Metrics ($N = 100,000$):**
-  - Simulated Mean: $pprox 70.005$
-  - Simulated Median: $pprox 70.002$
-  - Simulated Std: $pprox 9.992$
-  - Simulated P10: $pprox 57.181$
-  - Simulated P90: $pprox 82.823$
+  - Simulated Mean: $\approx 70.005$
+  - Simulated Median: $\approx 70.002$
+  - Simulated Std: $\approx 9.992$
+  - Simulated P10: $\approx 57.181$
+  - Simulated P90: $\approx 82.823$
 - **Why doesn't the simulation match theory exactly?**
   Finite random sampling introduces random sampling error. By the Central Limit Theorem and Law of Large Numbers, the error between the sample mean and true mean is bounded by the standard error:
-  $$	ext{SE} = rac{\sigma}{\sqrt{N}} = rac{10}{\sqrt{100,000}} pprox 0.0316$$
-  The observed deviation ($|70.005 - 70.0| = 0.005$) is well within the expected $\pm 2	ext{SE} pprox \pm 0.0632$ error envelope.
+  $$\text{SE} = \frac{\sigma}{\sqrt{N}} = \frac{10}{\sqrt{100,000}} \approx 0.0316$$
+  The observed deviation ($|70.005 - 70.0| = 0.005$) is well within the expected $\pm 2\text{SE} \approx \pm 0.0632$ error envelope.
 
 ---
 
@@ -502,11 +503,11 @@ Generate $N = 100,000$ samples from $\mathcal{N}(\mu = 70, \sigma = 10)$ with se
 
 1. **Check Distribution Assumptions First:** A model assuming normally distributed residuals will fail if data is heavy-tailed, zero-inflated, or strictly positive.
 2. **Never Treat a PDF as a Probability:** A PDF value can exceed 1.0; always integrate over an interval or use `cdf()` differences.
-3. **Use the Complement Trick:** For discrete inequalities ($P(X \ge k)$), always compute $1 - 	ext{CDF}(k - 1)$ to avoid slow, error-prone manual loops.
+3. **Use the Complement Trick:** For discrete inequalities ($P(X \ge k)$), always compute $1 - \text{CDF}(k - 1)$ to avoid slow, error-prone manual loops.
 4. **Beware of Equidispersion in Poisson:** If real-world count data has variance significantly higher than its mean (overdispersion), replace Poisson with a **Negative Binomial** distribution.
 5. **The Power of Standardizing:** Any normal problem becomes trivial when transformed to $Z = (X - \mu) / \sigma$.
 6. **Quantiles are the Inverse of Probabilities:** Use `ppf()` to set SLA cutoffs, threshold limits, and Value-at-Risk targets.
 7. **Small Probabilities in Large Systems (Poisson Limit):** High-traffic systems with rare individual events (clicks, crashes, fraudulent logins) are naturally Poisson distributed.
 8. **Simulate to Validate Analytical Derivations:** When unsure of a complex probability derivation, run $10^5$ Monte Carlo trials to empirically check your math.
-9. **Continuous Uniform is the Parent of All Distributions:** Using the **Inverse Transform Sampling** theorem, generating $U \sim 	ext{Uniform}(0, 1)$ allows sampling from any distribution via $X = F^{-1}(U)$.
+9. **Continuous Uniform is the Parent of All Distributions:** Using the **Inverse Transform Sampling** theorem, generating $U \sim \text{Uniform}(0, 1)$ allows sampling from any distribution via $X = F^{-1}(U)$.
 10. **Error Shrinks with $1/\sqrt{N}$:** Increasing Monte Carlo accuracy tenfold requires 100 times more compute. Always plan simulation budgets accordingly.

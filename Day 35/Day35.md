@@ -1,14 +1,14 @@
 # 🐍 Day 35/200 – Masterclass Notes: Generators, `yield` & Large File Processing
 
-🎯 **Goal:** Master **Generators** and **Lazy Evaluation** in Python—understanding `yield`, generator functions, generator objects, generator expressions `(x for x in data)`, generator protocol methods (`send()`, `throw()`, `close()`), streaming data pipelines, and processing massive files (10,000+ to 1,000,000+ lines) with $O(1)$ constant memory usage instead of $O(N)$ memory crashes.
+🎯 **Goal:** Master **Generators** and **Lazy Evaluation** in Python—understanding `yield`, generator functions, generator objects, generator expressions `(x for x in data)`, generator protocol methods (`send()`, `throw()`, `close()`), streaming data pipelines, and processing massive files (10,000+ to 1,000,000+ lines) with $\mathcal{O}(1)$ constant memory usage instead of $\mathcal{O}(N)$ memory crashes.
 
 ---
 
 ## 📌 Executive Summary & Key Takeaways
 
 - **Lazy Evaluation vs. Eager Loading:**
-  - **Eager Loading (`list`):** Computes and stores all items in RAM simultaneously. Memory usage scales linearly $O(N)$.
-  - **Lazy Evaluation (`generator`):** Produces items one at a time on demand. Memory usage remains constant $O(1)$ regardless of dataset size (e.g. 100 lines vs. 1,000,000 lines).
+  - **Eager Loading (`list`):** Computes and stores all items in RAM simultaneously. Memory usage scales linearly $\mathcal{O}(N)$.
+  - **Lazy Evaluation (`generator`):** Produces items one at a time on demand. Memory usage remains constant $\mathcal{O}(1)$ regardless of dataset size (e.g. 100 lines vs. 1,000,000 lines).
 - **The `yield` Keyword:** When a function contains `yield`, calling it returns a **Generator Object** without executing code immediately. Code executes up to `yield`, suspends state, returns the value, and resumes execution on the next call to `next()`.
 - **Streaming Data Pipelines:** Generators can be chained together (`Reader` $\rightarrow$ `Filter` $\rightarrow$ `Transform` $\rightarrow$ `Output`) to build scalable, low-memory data processing pipelines.
 
@@ -83,7 +83,7 @@ print(sys.getsizeof(lazy_gen))   # ~200 bytes (Constant RAM)
 **Answer:** `return` terminates the function execution and returns a single value to the caller, discarding the function's stack frame. `yield` returns a value while preserving the function's local state and execution pointer, suspending the function until `next()` is called again.
 
 ### Q2: Why are generator pipelines preferred for big data processing?
-**Answer:** Because each pipeline stage processes items lazily one-by-one. No intermediate datasets need to be written to disk or held in RAM, keeping overall memory footprint at $O(1)$.
+**Answer:** Because each pipeline stage processes items lazily one-by-one. No intermediate datasets need to be written to disk or held in RAM, keeping overall memory footprint at $\mathcal{O}(1)$.
 
 ---
 

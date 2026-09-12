@@ -59,7 +59,7 @@ Choosing the right visualization is a direct function of the statistical inquiry
 | **Box Plot (`kind="box"`)** | Comparing the Tukey 5-number summary and isolating flier outliers. | Compact; reveals skewness, median, and data spread ($IQR$); robust to extremes. | Cannot reveal multimodality (e.g., bimodal clusters look identical to uniform spreads). |
 | **Violin Plot (`kind="violin"`)** | Comparing probability density shapes and multimodality. | Mirrors Gaussian KDE over inner quartiles; exposes clusters, peaks, and dips. | Can be harder for non-technical stakeholders to interpret; sensitive to bandwidth. |
 | **Strip Plot (`kind="strip"`)** | Inspecting raw individual observations. | Zero aggregation; displays actual raw data points with horizontal jitter. | Severe point overlap (overplotting) when sample size exceeds a few hundred rows. |
-| **Swarm Plot (`kind="swarm"`)** | Examining observation density without overlap. | Adjusts points along the categorical axis algorithmically to eliminate overlap. | Computationally expensive ($O(N^2)$); fails to converge on datasets with $N > 1000$. |
+| **Swarm Plot (`kind="swarm"`)** | Examining observation density without overlap. | Adjusts points along the categorical axis algorithmically to eliminate overlap. | Computationally expensive ($\mathcal{O}(N^2)$); fails to converge on datasets with $N > 1000$. |
 
 ---
 

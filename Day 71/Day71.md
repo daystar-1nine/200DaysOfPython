@@ -76,7 +76,7 @@ $$t = \frac{\bar{x}_1 - \bar{x}_2}{\sqrt{\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2}}}
 
 The degrees of freedom are calculated using the **Welch-Satterthwaite equation**:
 
-$$df \approx \frac{\left(\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2}\right)^2}{\frac{(s_1^2/n_1)^2}{n_1 - 1} + \frac{(s_2^2/n_2)^2}{n_2 - 1}}$$
+$$df \approx \frac{\left(\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2}\right)^2}{\frac{(s_1^2 / n_1)^2}{n_1 - 1} + \frac{(s_2^2 / n_2)^2}{n_2 - 1}}$$
 
 > [!TIP]
 > **Modern Best Practice:** Always default to **Welch's t-test** (`equal_var=False` in SciPy). If the variances happen to be equal, Welch's test loses virtually zero power compared to Student's test; but if the variances differ and sample sizes are unequal, Student's test severely inflates Type I error rates.
@@ -91,15 +91,15 @@ When observations are paired (e.g. $n$ subjects with Before and After measuremen
 2. Compute the sample mean difference and standard deviation of differences:
    $$\bar{d} = \frac{1}{n}\sum_{i=1}^n d_i, \quad s_d = \sqrt{\frac{1}{n-1}\sum_{i=1}^n (d_i - \bar{d})^2}$$
 3. Conduct a one-sample t-test testing $H_0: \mu_d = 0$ against $H_1: \mu_d \ne 0$:
-   $$t = \frac{\bar{d} - 0}{s_d / \sqrt{n}}, \quad df = n - 1$$
+   $$t = \frac{\bar{d} - 0}{\frac{s_d}{\sqrt{n}}} = \frac{\bar{d}\sqrt{n}}{s_d}, \quad df = n - 1$$
 
 ---
 
 ### 2.4 Comparing Two Proportions in A/B Testing
 
 In product experimentation, the most common metric is a **conversion rate** (binomial proportion):
-- Control: $n_A$ visitors, $x_A$ conversions $\implies \hat{p}_A = x_A / n_A$
-- Treatment: $n_B$ visitors, $x_B$ conversions $\implies \hat{p}_B = x_B / n_B$
+- Control: $n_A$ visitors, $x_A$ conversions $\implies \hat{p}_A = \frac{x_A}{n_A}$
+- Treatment: $n_B$ visitors, $x_B$ conversions $\implies \hat{p}_B = \frac{x_B}{n_B}$
 
 #### Hypotheses
 $$H_0: p_A = p_B \quad \iff \quad H_0: p_B - p_A = 0$$
@@ -110,9 +110,9 @@ Under the null hypothesis $H_0$, both groups share the exact same underlying con
 
 $$\hat{p} = \frac{x_A + x_B}{n_A + n_B}$$
 
-$$SE_{pooled} = \sqrt{\hat{p}(1 - \hat{p})\left(\frac{1}{n_A} + \frac{1}{n_B}\right)}$$
+$$\text{SE}_{\text{pool}} = \sqrt{\hat{p}(1 - \hat{p})\left(\frac{1}{n_A} + \frac{1}{n_B}\right)}$$
 
-$$z = \frac{\hat{p}_B - \hat{p}_A}{SE_{pooled}}$$
+$$z = \frac{\hat{p}_B - \hat{p}_A}{\text{SE}_{\text{pool}}}$$
 
 ---
 
@@ -126,9 +126,9 @@ $$(\bar{x}_B - \bar{x}_A) \pm t_{\alpha/2, df} \cdot \sqrt{\frac{s_A^2}{n_A} + \
 #### Difference in Proportions (Unpooled for Estimation)
 For confidence intervals, we do **not** assume $p_A = p_B$, so we use unpooled standard error:
 
-$$SE_{unpooled} = \sqrt{\frac{\hat{p}_A(1 - \hat{p}_A)}{n_A} + \frac{\hat{p}_B(1 - \hat{p}_B)}{n_B}}$$
+$$\text{SE}_{\text{unpool}} = \sqrt{\frac{\hat{p}_A(1 - \hat{p}_A)}{n_A} + \frac{\hat{p}_B(1 - \hat{p}_B)}{n_B}}$$
 
-$$(\hat{p}_B - \hat{p}_A) \pm z_{\alpha/2} \cdot SE_{unpooled}$$
+$$(\hat{p}_B - \hat{p}_A) \pm z_{\alpha/2} \cdot \text{SE}_{\text{unpool}}$$
 
 ---
 
@@ -145,7 +145,7 @@ In business communication, mixing up absolute and relative lift is one of the mo
 
 ### 2.7 Standardized Effect Size: Cohen's d
 
-When sample sizes are massive ($n = 100,000$), microscopic differences yield tiny p-values ($p < 0.0001$). Standardized effect size allows us to evaluate **practical significance** independent of sample size:
+When sample sizes are massive ($n = 100,000$), microscopic differences yield tiny $p$-values ($p < 0.0001$). Standardized effect size allows us to evaluate **practical significance** independent of sample size:
 
 #### Independent Samples:
 $$d = \frac{\bar{x}_B - \bar{x}_A}{s_{pooled}}, \quad \text{where } s_{pooled} = \sqrt{\frac{(n_A - 1)s_A^2 + (n_B - 1)s_B^2}{n_A + n_B - 2}}$$
@@ -203,8 +203,8 @@ $$\text{Launch Recommendation} = (p \le \alpha) \land (\text{RelLift} \ge \text{
 ## 🚨 4. Common A/B Testing Pitfalls & How to Prevent Them
 
 1. **The "Peeking" Problem (Optional Stopping):**
-   - Continuously monitoring p-values daily and stopping the test the instant $p < 0.05$ inflates the actual false positive rate from $5\%$ to over $30\%$!
-   - *Remedy:* Pre-determine sample size via power analysis and evaluate only once $N$ is reached, or use sequential testing procedures (e.g. Always Valid P-values).
+   - Continuously monitoring $p$-values daily and stopping the test the instant $p < 0.05$ inflates the actual false positive rate from $5\%$ to over $30\%$!
+   - *Remedy:* Pre-determine sample size via power analysis and evaluate only once $N$ is reached, or use sequential testing procedures (e.g. Always Valid $P$-values).
 2. **Sample Ratio Mismatch (SRM):**
    - Intended split is 50/50, but observed traffic is 48/52. This signals broken redirects, bot traffic, or tracking drop-off.
    - *Remedy:* Run a Chi-square goodness-of-fit test on group counts before analyzing metrics.
@@ -237,7 +237,7 @@ $$\text{Launch Recommendation} = (p \le \alpha) \land (\text{RelLift} \ge \text{
 - Relative lift is $\frac{6.0\% - 5.0\%}{5.0\%} \times 100\% = +20.0\%$ increase relative to baseline.
 
 #### Q5: What is the "peeking problem" in A/B testing?
-**Answer:** Checking p-values repeatedly throughout an active experiment and stopping as soon as $p < 0.05$. Because sampling error fluctuates randomly, the test is guaranteed to cross the $0.05$ threshold by chance at some point during the run, severely inflating the Type I error rate (often up to $20\%-40\%$).
+**Answer:** Checking $p$-values repeatedly throughout an active experiment and stopping as soon as $p < 0.05$. Because sampling error fluctuates randomly, the test is guaranteed to cross the $0.05$ threshold by chance at some point during the run, severely inflating the Type I error rate (often up to $20\%-40\%$).
 
 #### Q6: What is a Sample Ratio Mismatch (SRM) and why is it dangerous?
 **Answer:** SRM occurs when the observed ratio of users assigned to Control vs Treatment deviates significantly from the planned randomization design (e.g., 50/50 intended, but 48/52 observed). It indicates an underlying bias or technical defect (e.g., variant crashes on certain browsers, bot filtering discrepancies), rendering all subsequent statistical conclusions invalid.
@@ -245,7 +245,7 @@ $$\text{Launch Recommendation} = (p \le \alpha) \land (\text{RelLift} \ge \text{
 #### Q7: How do you mathematically test for Sample Ratio Mismatch (SRM)?
 **Answer:** Using a Chi-Square Goodness-of-Fit test:
 $$\chi^2 = \sum \frac{(O_i - E_i)^2}{E_i}$$
-For a 50/50 split of $N$ users, $E_A = E_B = N/2$. If the resulting p-value is $< 0.001$, an SRM is detected.
+For a 50/50 split of $N$ users, $E_A = E_B = N/2$. If the resulting $p$-value is $< 0.001$, an SRM is detected.
 
 #### Q8: What is Cohen's d for independent samples, and what are the standard benchmark thresholds?
 **Answer:** Cohen's $d = \frac{\bar{x}_1 - \bar{x}_2}{s_{pooled}}$ measures the distance between two group means in units of pooled standard deviation. Standard benchmarks: $|d| < 0.20$ (Negligible), $0.20 \le |d| < 0.50$ (Small), $0.50 \le |d| < 0.80$ (Medium), $|d| \ge 0.80$ (Large).
@@ -321,11 +321,11 @@ $$(\hat{p}_B - \hat{p}_A) \pm 1.96 \times \sqrt{\frac{\hat{p}_A(1 - \hat{p}_A)}{
 
 ## 💡 6. 10 Deep Statistical Insights and Common Pitfalls
 
-1. **The P-Value Asymmetry:** A small p-value tells you the data is unlikely under $H_0$; it does **not** prove the treatment caused a massive business win. Always evaluate Cohen's d, relative lift, and confidence intervals.
+1. **The P-Value Asymmetry:** A small $p$-value tells you the data is unlikely under $H_0$; it does **not** prove the treatment caused a massive business win. Always evaluate Cohen's d, relative lift, and confidence intervals.
 2. **Never Ignore the Guardrails:** A feature that doubles signups by hiding pricing details will inevitably destroy retention and inflate churn. Experimentation requires holistic guardrail governance.
 3. **The Danger of Aggregated AOV:** Calculating Average Order Value (AOV) only among converted users introduces selection bias, because the composition of converting users may have changed between variants. Focus on ARPU across all randomized users.
 4. **Early Stopping is a Silent Killer:** Even when a test looks "massively significant" on Day 2, weekday vs weekend composition shifts and novelty effects often erase the lead by Day 14.
-5. **Sample Ratio Mismatch is a Hard Blocker:** Never proceed with analysis if SRM test p-value $< 0.001$. Fix the assignment bug and rerun the experiment.
+5. **Sample Ratio Mismatch is a Hard Blocker:** Never proceed with analysis if SRM test $p$-value $< 0.001$. Fix the assignment bug and rerun the experiment.
 6. **The Power Law of Sample Size:** Halving the Minimum Detectable Effect (MDE) requires a $4\times$ increase in sample size ($N \propto 1 / MDE^2$).
 7. **Pairing Cancels Noise:** Whenever intra-subject repeated measurements are feasible, choose a paired design. The elimination of between-subject variability yields massive statistical power.
 8. **Welch's t-Test Should Be Your Default:** In modern empirical data science, assuming equal variances is an unnecessary gamble. Welch's test protects against variance heterogeneity with virtually no penalty.

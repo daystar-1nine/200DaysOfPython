@@ -9,7 +9,7 @@
 - **Persistence:** File handling enables Python programs to store data permanently on secondary storage (hard drives/SSDs) beyond program execution memory.
 - **Context Manager (`with`):** The modern, industry-standard way to handle files. Automatically manages resource disposal and guarantees file closure even if exceptions occur.
 - **File Modes:** `"r"` (Read), `"w"` (Write/Overwrite), `"a"` (Append), `"x"` (Exclusive creation), `"b"` (Binary mode for images/audio), `"+"` (Read/Write update).
-- **Buffer Management:** Methods like `read()` load the entire file into memory; `readline()` or iterating over the file object reads line-by-line in a memory-efficient $O(1)$ stream.
+- **Buffer Management:** Methods like `read()` load the entire file into memory; `readline()` or iterating over the file object reads line-by-line in a memory-efficient $\mathcal{O}(1)$ stream.
 
 ---
 

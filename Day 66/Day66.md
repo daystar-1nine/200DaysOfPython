@@ -139,7 +139,7 @@ A **random variable** $X$ is a measurable mathematical function that maps elemen
 ## Law of Large Numbers & Monte Carlo Simulation
 - **Weak Law of Large Numbers (WLLN):** As the number of independent, identically distributed trials $n \to \infty$, the sample average $\bar{X}_n = \frac{1}{n} \sum_{i=1}^n X_i$ converges in probability to the theoretical expected value $\mu$:
   $$\lim_{n \to \infty} P(|\bar{X}_n - \mu| \ge \epsilon) = 0, \quad \forall \epsilon > 0$$
-- **Variance of the Sample Mean:** $\text{Var}(\bar{X}_n) = \frac{\sigma^2}{n}$. The standard error decays as $O(1/\sqrt{n})$, explaining why 1,000,000 trials produce near-perfect convergence.
+- **Variance of the Sample Mean:** $\text{Var}(\bar{X}_n) = \frac{\sigma^2}{n}$. The standard error decays as $\mathcal{O}(1/\sqrt{n})$, explaining why 1,000,000 trials produce near-perfect convergence.
 - **Monte Carlo Method:** A broad class of computational algorithms that rely on repeated random sampling to compute numerical results (e.g., estimating $\pi$, evaluating intractable high-dimensional integrals, simulated financial portfolio Value-at-Risk).
 
 ---

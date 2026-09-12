@@ -73,6 +73,9 @@ print(matrix[:, 1])    # Entire 2nd column [20, 50, 80]
 
 ### 4. Vectorization & Scalar Arithmetic
 
+$$\mathbf{y} = \mathbf{x} + c \implies y_i = x_i + c, \quad \mathbf{z} = \mathbf{x} \odot \mathbf{y} \implies z_i = x_i \cdot y_i$$
+
+
 Vectorization performs element-wise operations across entire arrays in C speed without explicit Python `for` loops:
 
 ```python

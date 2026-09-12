@@ -175,7 +175,7 @@ If you repeat this process thousands of times, the collection of sample means $\
 
 ### Properties of the Sampling Distribution:
 1. **Center (Unbiasedness):** The mean of the sample means equals the true population mean:
-   $$\mu_{\bar{x}} = E[\bar{X}] = \mu$$
+   $$\mu_{\bar{X}} = \mathbb{E}[\bar{X}] = \mu$$
 2. **Spread (Standard Error):** The standard deviation of the sample means is inversely proportional to $\sqrt{n}$:
    $$\sigma_{\bar{x}} = \frac{\sigma}{\sqrt{n}}$$
 
@@ -190,13 +190,13 @@ Confusing Standard Deviation ($\sigma$) with Standard Error ($SE$) is one of the
 | **What it measures** | Dispersion of **individual observations** around their mean. | Dispersion of **sample statistics** around the true population parameter. |
 | **Application** | Descriptive statistics (how diverse is the population?). | Inferential statistics (how precise is our sample estimate?). |
 | **Formula** | $\sigma = \sqrt{\frac{\sum (x_i - \mu)^2}{N}}$ | $SE = \frac{\sigma}{\sqrt{n}} \approx \frac{s}{\sqrt{n}}$ |
-| **Effect of Sample Size ($n$)** | Stays roughly **constant** as $n$ increases (properties of the underlying population don't change). | **Shrinks** proportionally to $1 / \sqrt{n}$ as $n$ increases (estimates become more precise). |
+| **Effect of Sample Size ($n$)** | Stays roughly **constant** as $n$ increases (properties of the underlying population don't change). | **Shrinks** proportionally to $\frac{1}{\sqrt{n}}$ as $n$ increases (estimates become more precise). |
 
 ### The "Square Root of $n$" Law:
 To cut your estimation error in half, you must quadruple your sample size:
-- $n = 100 \implies \sqrt{100} = 10 \implies SE = \sigma / 10$
-- $n = 400 \implies \sqrt{400} = 20 \implies SE = \sigma / 20$ (Half the error!)
-- $n = 10,000 \implies \sqrt{10,000} = 100 \implies SE = \sigma / 100$
+- $n = 100 \implies \sqrt{100} = 10 \implies \text{SE} = \frac{\sigma}{10}$
+- $n = 400 \implies \sqrt{400} = 20 \implies \text{SE} = \frac{\sigma}{20}$ (Half the error!)
+- $n = 10,000 \implies \sqrt{10,000} = 100 \implies \text{SE} = \frac{\sigma}{100}$
 
 ---
 
@@ -206,7 +206,7 @@ The **Central Limit Theorem** is often called the *Crown Jewel of Probability*.
 
 ### Formal Theorem (Lindeberg–Lévy):
 Let $X_1, X_2, \dots, X_n$ be a sequence of independent and identically distributed (i.i.d.) random variables with expected value $\mu$ and finite variance $\sigma^2 > 0$. Then, as $n \to \infty$:
-$$\frac{\bar{X}_n - \mu}{\sigma / \sqrt{n}} \xrightarrow{d} \mathcal{N}(0, 1)$$
+$$\frac{\bar{X}_n - \mu}{\frac{\sigma}{\sqrt{n}}} = \frac{\sqrt{n}(\bar{X}_n - \mu)}{\sigma} \xrightarrow{d} \mathcal{N}(0, 1)$$
 
 Equivalently:
 $$\bar{X}_n \sim \mathcal{N}\left(\mu, \frac{\sigma^2}{n}\right)$$
@@ -214,7 +214,7 @@ $$\bar{X}_n \sim \mathcal{N}\left(\mu, \frac{\sigma^2}{n}\right)$$
 ### What CLT Tells Us:
 1. **Shape:** Regardless of the underlying population's distribution (whether uniform, heavily skewed exponential, bimodal, or discrete Poisson), the distribution of the sample mean approaches a **Normal Gaussian bell curve** as sample size $n$ increases!
 2. **Center:** The bell curve is centered exactly at the population mean $\mu$.
-3. **Spread:** The width of the bell curve narrows at rate $\sigma / \sqrt{n}$.
+3. **Spread:** The width of the bell curve narrows at rate $\frac{\sigma}{\sqrt{n}}$.
 
 ### The Golden Rule of $n \ge 30$:
 - If the population is already Normal, $\bar{X}$ is perfectly normal for any $n \ge 1$.
@@ -338,7 +338,7 @@ Cluster Sampling divides the population into naturally occurring, heterogeneous 
 A sampling distribution is the theoretical probability distribution of a sample statistic (such as the sample mean, proportion, or variance) obtained across an infinite number of repeated random samples of a specified size $n$ drawn from the same population.
 
 #### 11. What is the sampling distribution of the sample mean?
-It is the probability distribution of sample means ($\bar{x}$) calculated from repeated random samples of size $n$. Its mean is $\mu$ and its standard deviation is $\sigma / \sqrt{n}$.
+It is the probability distribution of sample means ($\bar{x}$) calculated from repeated random samples of size $n$. Its mean is $\mu$ and its standard deviation is $\frac{\sigma}{\sqrt{n}}$.
 
 #### 12. What is Standard Error?
 Standard Error ($SE$) is the standard deviation of a sampling distribution. It quantifies the precision or dispersion of a sample statistic across repeated samples. For the sample mean, $SE = \sigma / \sqrt{n}$.
@@ -401,7 +401,7 @@ If the sampling experiment is repeated a large number of times and a 95% confide
 Higher skewness demands larger sample sizes for the sampling distribution to achieve approximate normality. A symmetric Uniform distribution achieves normality at $n \approx 10$, while an extreme exponential or financial lognormal distribution may require $n \ge 50$ to $100$.
 
 #### 30. Why is statistical inference invalid when sampling is systematically biased?
-Statistical inference relies mathematically on probability laws where every element has a known non-zero probability of selection. When systematic bias exists, the probability structure is violated, variance estimators are mathematically invalid, and calculated confidence intervals and p-values are completely untrustworthy.
+Statistical inference relies mathematically on probability laws where every element has a known non-zero probability of selection. When systematic bias exists, the probability structure is violated, variance estimators are mathematically invalid, and calculated confidence intervals and $p$-values are completely untrustworthy.
 
 ---
 
@@ -414,6 +414,6 @@ Statistical inference relies mathematically on probability laws where every elem
 5. **Skewness Postpones Normality:** When analyzing right-skewed metric data (revenue, latency, visits), ensure $n \ge 50$ before applying standard Z-score inference.
 6. **Bootstrap When Math Fails:** If estimating medians, quantiles, or ratios without closed-form variance formulas, use 10,000 bootstrap resamples.
 7. **Stratification Beats Simple Random Sampling:** If key demographic or customer segments differ widely, stratified sampling dramatically reduces variance.
-8. **Confidence Intervals Expose Effect Sizes:** A p-value tells you if an effect exists; a confidence interval tells you whether the effect is practically meaningful.
+8. **Confidence Intervals Expose Effect Sizes:** A $p$-value tells you if an effect exists; a confidence interval tells you whether the effect is practically meaningful.
 9. **Never Test Without Replacement When Bootstrapping:** Sampling without replacement produces identical copies and collapses your variance estimate to zero.
 10. **The Unbiased Estimator Superpower:** Knowing that $E[\bar{X}] = \mu$ gives data scientists the mathematical confidence to guide multi-million dollar corporate strategies based on sample data.

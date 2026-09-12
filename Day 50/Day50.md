@@ -50,10 +50,10 @@ Conditional execution uses `if`, `elif`, and `else`. Short-circuit logic evaluat
 Functions encapsulate reusable logic. Python scopes follow the **LEGB rule** (Local, Enclosing, Global, Built-in). Functions support positional, keyword, default arguments, variadic positional (`*args`), and variadic keyword (`**kwargs`).
 
 ### 5. Data Collections & Memory Trade-offs
-- **List**: Ordered, mutable sequence with indexing $O(1)$ and lookup $O(n)$.
+- **List**: Ordered, mutable sequence with indexing $\mathcal{O}(1)$ and lookup $\mathcal{O}(n)$.
 - **Tuple**: Ordered, immutable sequence with lower memory overhead and hashability.
-- **Set**: Unordered collection of unique hashable elements with $O(1)$ lookup via hashtable.
-- **Dictionary**: Key-value mapping preserving insertion order (Python 3.7+), with $O(1)$ key lookup.
+- **Set**: Unordered collection of unique hashable elements with $\mathcal{O}(1)$ lookup via hashtable.
+- **Dictionary**: Key-value mapping preserving insertion order (Python 3.7+), with $\mathcal{O}(1)$ key lookup.
 
 ### 6. Comprehensions
 List, Dict, Set, and Generator comprehensions provide declarative, single-line data transformations:
@@ -221,7 +221,7 @@ Automated tests (using Pytest) prove that software works correctly, prevent regr
 ### Beginner Level
 - **What is Python?**: Python is an interpreted, high-level, dynamically-typed, general-purpose programming language known for readability.
 - **Why is Python dynamically typed?**: Variable types are bound at runtime during evaluation rather than compile time.
-- **Set vs Dictionary?**: Sets store unique elements; dictionaries store key-value pairs. Both use hashtables for $O(1)$ operations.
+- **Set vs Dictionary?**: Sets store unique elements; dictionaries store key-value pairs. Both use hashtables for $\mathcal{O}(1)$ operations.
 
 ### Intermediate Level
 - **What is a Generator?**: A lazy evaluation function using `yield` to stream values on demand, saving memory.

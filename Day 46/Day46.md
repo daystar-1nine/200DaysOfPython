@@ -93,7 +93,7 @@ Alembic `--autogenerate` **may miss or misinterpret**:
 
 ### 6. Database Indexes & Performance Optimization
 
-An **index** is a B-tree data structure created on database table columns to enable rapid lookups ($O(\log N)$ instead of full table scans $O(N)$).
+An **index** is a B-tree data structure created on database table columns to enable rapid lookups ($\mathcal{O}(\log N)$ instead of full table scans $\mathcal{O}(N)$).
 
 - **When to Index:** Columns frequently used in `WHERE`, `JOIN`, `ORDER BY`, or `GROUP BY` clauses (e.g., `users.email`, `products.name`).
 - **Trade-off:** Indexes speed up `SELECT` queries but introduce slight overhead on `INSERT`, `UPDATE`, and `DELETE` operations due to index tree maintenance.

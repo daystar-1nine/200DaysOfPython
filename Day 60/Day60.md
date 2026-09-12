@@ -28,7 +28,7 @@ This milestone marks the completion of your comprehensive **Data Science Foundat
 - **Dataclasses**: Decorator `@dataclass` generates boilerplate methods (`__init__`, `__repr__`, `__eq__`). Using `field(default_factory=list)` prevents shared mutable state across instances.
 - **Enums**: `Enum` classes enforce fixed sets of categorical values, eliminating hardcoded string typos.
 - **Pathlib**: `Path` objects provide cross-platform path manipulation, preventing OS-dependent string concatenation issues.
-- **Collections**: `Counter` tallies elements; `defaultdict` provides missing key defaults without `KeyError`; `deque` supports $O(1)$ appends and pops from both ends.
+- **Collections**: `Counter` tallies elements; `defaultdict` provides missing key defaults without `KeyError`; `deque` supports $\mathcal{O}(1)$ appends and pops from both ends.
 - **Serialization (JSON & CSV)**:
   - `json.dumps()` / `json.loads()` for in-memory string serialization/deserialization.
   - `json.dump()` / `json.load()` for file-based serialization/deserialization.

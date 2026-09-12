@@ -1,6 +1,6 @@
 # 🐍 Day 40/200 – Advanced Python Capstone: Log Analytics CLI (`LogAnalyze`)
 
-🎯 **Capstone Goal:** Combine all concepts learned across Phase 2 (**Days 31–39**) into a production-grade, high-performance command-line application: **LogAnalyze**. The application streams, parses, filters, analyzes, and exports server log files containing hundreds of thousands to millions of log entries with constant $O(1)$ RAM usage.
+🎯 **Capstone Goal:** Combine all concepts learned across Phase 2 (**Days 31–39**) into a production-grade, high-performance command-line application: **LogAnalyze**. The application streams, parses, filters, analyzes, and exports server log files containing hundreds of thousands to millions of log entries with constant $\mathcal{O}(1)$ RAM usage.
 
 ---
 
@@ -9,7 +9,7 @@
 1. **Dunder Methods (Day 32):** `LogReport` implements `__len__()` (returns line count), `__str__()` (ASCII summary table), `__repr__()`, and `__getitem__()` (subscripting errors).
 2. **Decorators (Day 33):** `@timer` measures analysis and parsing execution duration.
 3. **Iterators (Day 34):** `LogEntryIterator` class implements `__iter__()` and `__next__()` protocols.
-4. **Generators & `yield` (Day 35):** `parse_log_stream()` streams log lines lazily with $O(1)$ memory usage instead of $O(N)$ memory spikes.
+4. **Generators & `yield` (Day 35):** `parse_log_stream()` streams log lines lazily with $\mathcal{O}(1)$ memory usage instead of $\mathcal{O}(N)$ memory spikes.
 5. **Context Managers (Day 36):** `open_log_stream()` manages file handles safely with guaranteed cleanup.
 6. **Advanced Exceptions (Day 37):** `LogAnalyzeError` base class with `InvalidLogError`, `FileProcessingError`, and `ReportGenerationError` with exception chaining.
 7. **Functional Python (Day 38):** Uses `map()`, `filter()`, `sorted(key=...)`, `any()`, and `all()` for log filtering and aggregation.
