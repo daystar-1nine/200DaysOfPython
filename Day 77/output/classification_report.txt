@@ -1,0 +1,37 @@
+================================================================================
+DAY 77: INTELLIGENT CUSTOMER RISK CLASSIFICATION ENGINE — EXECUTIVE REPORT
+================================================================================
+
+1. BINARY CLASSIFICATION (CHURN PREDICTION) MODEL COMPARISON
+--------------------------------------------------------------------------------
+            Model  Accuracy  Precision   Recall       F1  ROC-AUC  PR-AUC (AP)
+         Logistic  0.914807   0.880682 0.880682 0.880682 0.979639     0.964802
+Balanced_Logistic  0.914807   0.845361 0.931818 0.886486 0.979298     0.964129
+    Random_Forest  0.884381   0.894040 0.767045 0.825688 0.952879     0.932253
+
+2. MULTI-CLASS CLASSIFICATION (CUSTOMER RISK LEVEL) MODEL COMPARISON
+--------------------------------------------------------------------------------
+                Model  Accuracy  Macro F1  Weighted F1  ROC-AUC (OvR Macro)  Low Recall  Medium Recall  High Recall
+         Logistic_OvR  0.803245  0.767258     0.790322             0.935744    0.978541       0.507143     0.808333
+Balanced_Logistic_OvR  0.851927  0.827618     0.848928             0.936816    0.965665       0.692857     0.816667
+        Random_Forest  0.784990  0.746573     0.776752             0.909483    0.974249       0.578571     0.658333
+
+3. DECISION THRESHOLD & BUSINESS COST OPTIMIZATION
+--------------------------------------------------------------------------------
+Optimal Threshold for F1-Score:           0.70
+Optimal Threshold for Minimal Cost:       0.15
+Default Business Cost (at tau=0.50):       INR 69,000.00
+Optimized Business Cost (at tau=0.15):   INR 21,300.00
+Net Projected Savings:                    INR 47,700.00
+
+4. AUTOMATED BUSINESS INSIGHTS
+--------------------------------------------------------------------------------
+1. The balanced logistic classifier significantly improves recall on the positive (churn) class compared to standard unweighted logistic regression, ensuring fewer at-risk customers are missed.
+2. Optimizing the classification threshold to 0.15 (from default 0.50) reduces projected business loss by INR 47,700.00 (69.1% cost reduction) by actively preventing costly false negatives.
+3. Customers on Month-to-month contracts exhibit an observed churn rate of 53.9%, compared to only 12.6% for long-term annual contracts. Contract commitment is strongly associated with customer retention.
+4. Churned customers had an average of 2.10 support interactions versus 1.61 for retained accounts, indicating high customer support frequency is a strong early indicator of account friction.
+5. While both models achieve solid discrimination (ROC-AUC > 0.80), threshold tuning aligns the operational decision rule with the asymmetric 16.7:1 financial cost ratio between False Negatives (INR 5,000) and False Positives (INR 300).
+
+================================================================================
+END OF REPORT
+================================================================================

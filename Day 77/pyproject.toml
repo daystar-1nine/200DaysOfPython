@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "day77_risk_classification"
+version = "1.0.0"
+description = "Day 77: Intelligent Customer Risk Classification Engine"
+readme = "README.md"
+authors = [{ name = "Suraj Sawant", email = "surajonenine@gmail.com" }]
+dependencies = [
+    "numpy",
+    "pandas",
+    "scipy",
+    "scikit-learn",
+    "statsmodels",
+    "matplotlib",
+    "seaborn",
+    "pytest"
+]

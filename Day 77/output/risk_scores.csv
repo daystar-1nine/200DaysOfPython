@@ -1,0 +1,494 @@
+Customer_ID,Churn_Probability,Risk_Score,Risk_Level,Recommended_Action
+CUST_11757,0.984,98.4,High,Priority retention outreach and contract renewal incentive
+CUST_12388,0.6439,64.4,High,Priority retention outreach and contract renewal incentive
+CUST_12073,0.0062,0.6,Low,Standard loyalty engagement and service maintenance
+CUST_11598,0.0194,1.9,Low,Standard loyalty engagement and service maintenance
+CUST_10288,0.4901,49.0,Low,Monitor usage patterns and deploy targeted value engagement
+CUST_12334,0.1238,12.4,High,Priority retention outreach and contract renewal incentive
+CUST_10307,0.3078,30.8,Low,Monitor usage patterns and deploy targeted value engagement
+CUST_11889,0.004,0.4,Low,Standard loyalty engagement and service maintenance
+CUST_11357,0.9612,96.1,Low,Priority retention outreach and contract renewal incentive
+CUST_10345,0.9998,100.0,Low,Priority retention outreach and contract renewal incentive
+CUST_11969,0.3257,32.6,Low,Monitor usage patterns and deploy targeted value engagement
+CUST_10306,0.2586,25.9,Medium,Monitor usage patterns and deploy targeted value engagement
+CUST_11134,0.9804,98.0,High,Priority retention outreach and contract renewal incentive
+CUST_11958,0.1121,11.2,Low,Standard loyalty engagement and service maintenance
+CUST_10458,0.8851,88.5,Medium,Priority retention outreach and contract renewal incentive
+CUST_11259,0.0,0.0,High,Priority retention outreach and contract renewal incentive
+CUST_11225,0.0135,1.4,Medium,Monitor usage patterns and deploy targeted value engagement
+CUST_10545,0.9999,100.0,Medium,Priority retention outreach and contract renewal incentive
+CUST_11631,0.0012,0.1,Low,Standard loyalty engagement and service maintenance
+CUST_10421,0.0195,2.0,Medium,Monitor usage patterns and deploy targeted value engagement
+CUST_10842,0.0021,0.2,High,Priority retention outreach and contract renewal incentive
+CUST_10969,0.064,6.4,High,Priority retention outreach and contract renewal incentive
+CUST_10334,0.0,0.0,High,Priority retention outreach and contract renewal incentive
+CUST_10599,0.0,0.0,Low,Standard loyalty engagement and service maintenance
+CUST_11019,0.9992,99.9,Low,Priority retention outreach and contract renewal incentive
+CUST_11369,0.9962,99.6,Low,Priority retention outreach and contract renewal incentive
+CUST_10097,0.8115,81.2,High,Priority retention outreach and contract renewal incentive
+CUST_11444,0.0138,1.4,Low,Standard loyalty engagement and service maintenance
+CUST_11352,0.9982,99.8,High,Priority retention outreach and contract renewal incentive
+CUST_12413,0.9921,99.2,Low,Priority retention outreach and contract renewal incentive
+CUST_10252,0.5632,56.3,High,Priority retention outreach and contract renewal incentive
+CUST_12404,0.0234,2.3,High,Priority retention outreach and contract renewal incentive
+CUST_12370,0.0193,1.9,High,Priority retention outreach and contract renewal incentive
+CUST_11992,0.0927,9.3,Medium,Monitor usage patterns and deploy targeted value engagement
+CUST_11265,0.9725,97.2,Low,Priority retention outreach and contract renewal incentive
+CUST_10596,0.9333,93.3,Low,Priority retention outreach and contract renewal incentive
+CUST_12323,0.093,9.3,Low,Standard loyalty engagement and service maintenance
+CUST_12358,0.0,0.0,Low,Standard loyalty engagement and service maintenance
+CUST_10660,0.5829,58.3,High,Priority retention outreach and contract renewal incentive
+CUST_12139,0.0117,1.2,Low,Standard loyalty engagement and service maintenance
+CUST_11706,0.0029,0.3,Low,Standard loyalty engagement and service maintenance
+CUST_10731,0.0,0.0,Medium,Monitor usage patterns and deploy targeted value engagement
+CUST_12360,0.2102,21.0,Low,Standard loyalty engagement and service maintenance
+CUST_11186,0.0005,0.0,Low,Standard loyalty engagement and service maintenance
+CUST_10694,0.0001,0.0,High,Priority retention outreach and contract renewal incentive
+CUST_10305,0.0353,3.5,Low,Standard loyalty engagement and service maintenance
+CUST_12125,0.855,85.5,Low,Priority retention outreach and contract renewal incentive
+CUST_12493,0.6477,64.8,Low,Monitor usage patterns and deploy targeted value engagement
+CUST_10136,0.0701,7.0,Low,Standard loyalty engagement and service maintenance
+CUST_10327,0.1111,11.1,Low,Standard loyalty engagement and service maintenance
+CUST_10739,0.8722,87.2,Low,Priority retention outreach and contract renewal incentive
+CUST_11390,0.0624,6.2,Medium,Monitor usage patterns and deploy targeted value engagement
+CUST_10612,0.0053,0.5,High,Priority retention outreach and contract renewal incentive
+CUST_10791,0.0,0.0,Medium,Monitor usage patterns and deploy targeted value engagement
+CUST_10452,0.0009,0.1,Low,Standard loyalty engagement and service maintenance
+CUST_11717,0.9962,99.6,Low,Priority retention outreach and contract renewal incentive
+CUST_11602,0.9964,99.6,Low,Priority retention outreach and contract renewal incentive
+CUST_11939,0.982,98.2,Medium,Priority retention outreach and contract renewal incentive
+CUST_10943,0.5395,54.0,High,Priority retention outreach and contract renewal incentive
+CUST_11253,0.0001,0.0,Low,Standard loyalty engagement and service maintenance
+CUST_10074,0.9896,99.0,Medium,Priority retention outreach and contract renewal incentive
+CUST_10987,0.0007,0.1,Low,Standard loyalty engagement and service maintenance
+CUST_12430,0.5771,57.7,High,Priority retention outreach and contract renewal incentive
+CUST_10298,0.8667,86.7,High,Priority retention outreach and contract renewal incentive
+CUST_11097,0.2414,24.1,Low,Standard loyalty engagement and service maintenance
+CUST_11340,0.9958,99.6,High,Priority retention outreach and contract renewal incentive
+CUST_11979,0.0049,0.5,Low,Standard loyalty engagement and service maintenance
+CUST_12250,0.8322,83.2,Low,Priority retention outreach and contract renewal incentive
+CUST_10058,0.1705,17.0,High,Priority retention outreach and contract renewal incentive
+CUST_12349,0.0625,6.3,High,Priority retention outreach and contract renewal incentive
+CUST_10313,0.0031,0.3,Low,Standard loyalty engagement and service maintenance
+CUST_10342,0.0031,0.3,High,Priority retention outreach and contract renewal incentive
+CUST_12251,0.0091,0.9,Medium,Monitor usage patterns and deploy targeted value engagement
+CUST_12263,0.001,0.1,Low,Standard loyalty engagement and service maintenance
+CUST_12101,0.2508,25.1,High,Priority retention outreach and contract renewal incentive
+CUST_11638,0.0599,6.0,Low,Standard loyalty engagement and service maintenance
+CUST_10813,0.0005,0.0,Medium,Monitor usage patterns and deploy targeted value engagement
+CUST_11337,0.4479,44.8,Low,Monitor usage patterns and deploy targeted value engagement
+CUST_10978,0.9538,95.4,Low,Priority retention outreach and contract renewal incentive
+CUST_11203,0.0318,3.2,Low,Standard loyalty engagement and service maintenance
+CUST_10617,0.1054,10.5,Low,Standard loyalty engagement and service maintenance
+CUST_12081,0.0105,1.1,Low,Standard loyalty engagement and service maintenance
+CUST_11715,0.0005,0.1,High,Priority retention outreach and contract renewal incentive
+CUST_12153,0.8781,87.8,Medium,Priority retention outreach and contract renewal incentive
+CUST_10139,0.9695,96.9,High,Priority retention outreach and contract renewal incentive
+CUST_12099,0.3574,35.7,Low,Monitor usage patterns and deploy targeted value engagement
+CUST_11842,0.0001,0.0,High,Priority retention outreach and contract renewal incentive
+CUST_12432,0.0007,0.1,Medium,Monitor usage patterns and deploy targeted value engagement
+CUST_10354,0.9591,95.9,Low,Priority retention outreach and contract renewal incentive
+CUST_10856,0.6903,69.0,High,Priority retention outreach and contract renewal incentive
+CUST_11653,0.9984,99.8,High,Priority retention outreach and contract renewal incentive
+CUST_10105,0.0219,2.2,Low,Standard loyalty engagement and service maintenance
+CUST_10265,0.8425,84.3,High,Priority retention outreach and contract renewal incentive
+CUST_11612,0.2051,20.5,Low,Standard loyalty engagement and service maintenance
+CUST_10834,0.9989,99.9,Low,Priority retention outreach and contract renewal incentive
+CUST_10286,0.1309,13.1,Medium,Monitor usage patterns and deploy targeted value engagement
+CUST_10459,0.9443,94.4,Medium,Priority retention outreach and contract renewal incentive
+CUST_11785,0.1518,15.2,Medium,Monitor usage patterns and deploy targeted value engagement
+CUST_11720,0.7949,79.5,High,Priority retention outreach and contract renewal incentive
+CUST_11737,0.0124,1.2,High,Priority retention outreach and contract renewal incentive
+CUST_12017,0.9977,99.8,Low,Priority retention outreach and contract renewal incentive
+CUST_11062,0.6279,62.8,Low,Monitor usage patterns and deploy targeted value engagement
+CUST_10020,0.6741,67.4,Low,Priority retention outreach and contract renewal incentive
+CUST_11223,0.0008,0.1,Low,Standard loyalty engagement and service maintenance
+CUST_11154,0.35,35.0,High,Priority retention outreach and contract renewal incentive
+CUST_10215,0.9101,91.0,Low,Priority retention outreach and contract renewal incentive
+CUST_10376,0.9946,99.5,High,Priority retention outreach and contract renewal incentive
+CUST_11980,0.9515,95.1,Low,Priority retention outreach and contract renewal incentive
+CUST_10351,0.9919,99.2,Medium,Priority retention outreach and contract renewal incentive
+CUST_11780,0.0048,0.5,Medium,Monitor usage patterns and deploy targeted value engagement
+CUST_10522,0.0008,0.1,Low,Standard loyalty engagement and service maintenance
+CUST_10629,0.8088,80.9,Medium,Priority retention outreach and contract renewal incentive
+CUST_11018,0.015,1.5,Low,Standard loyalty engagement and service maintenance
+CUST_12261,0.0011,0.1,Low,Standard loyalty engagement and service maintenance
+CUST_11962,0.9998,100.0,Low,Priority retention outreach and contract renewal incentive
+CUST_10976,0.1155,11.5,High,Priority retention outreach and contract renewal incentive
+CUST_10223,0.7931,79.3,Medium,Priority retention outreach and contract renewal incentive
+CUST_12191,0.9999,100.0,Low,Priority retention outreach and contract renewal incentive
+CUST_12280,0.0496,5.0,High,Priority retention outreach and contract renewal incentive
+CUST_10062,0.7183,71.8,Low,Priority retention outreach and contract renewal incentive
+CUST_10639,0.8068,80.7,High,Priority retention outreach and contract renewal incentive
+CUST_11109,0.9606,96.1,Medium,Priority retention outreach and contract renewal incentive
+CUST_10912,0.9833,98.3,High,Priority retention outreach and contract renewal incentive
+CUST_10605,0.0,0.0,Low,Standard loyalty engagement and service maintenance
+CUST_11172,0.962,96.2,High,Priority retention outreach and contract renewal incentive
+CUST_11351,0.9966,99.7,High,Priority retention outreach and contract renewal incentive
+CUST_11803,0.0295,3.0,Low,Standard loyalty engagement and service maintenance
+CUST_11942,0.0071,0.7,Low,Standard loyalty engagement and service maintenance
+CUST_11422,0.0,0.0,Low,Standard loyalty engagement and service maintenance
+CUST_10492,0.0133,1.3,High,Priority retention outreach and contract renewal incentive
+CUST_10226,0.0302,3.0,Low,Standard loyalty engagement and service maintenance
+CUST_10544,0.0007,0.1,Low,Standard loyalty engagement and service maintenance
+CUST_10792,0.9325,93.2,Medium,Priority retention outreach and contract renewal incentive
+CUST_10191,0.0908,9.1,Low,Standard loyalty engagement and service maintenance
+CUST_10938,0.0011,0.1,Low,Standard loyalty engagement and service maintenance
+CUST_12166,0.076,7.6,Low,Standard loyalty engagement and service maintenance
+CUST_11237,0.007,0.7,Low,Standard loyalty engagement and service maintenance
+CUST_12328,0.7958,79.6,Medium,Priority retention outreach and contract renewal incentive
+CUST_11740,0.3706,37.1,High,Priority retention outreach and contract renewal incentive
+CUST_11135,0.7971,79.7,Medium,Priority retention outreach and contract renewal incentive
+CUST_10869,0.0075,0.7,Medium,Monitor usage patterns and deploy targeted value engagement
+CUST_10793,0.0864,8.6,High,Priority retention outreach and contract renewal incentive
+CUST_12033,0.0052,0.5,Low,Standard loyalty engagement and service maintenance
+CUST_10989,0.0003,0.0,Low,Standard loyalty engagement and service maintenance
+CUST_12123,0.0269,2.7,High,Priority retention outreach and contract renewal incentive
+CUST_12242,0.9926,99.3,Low,Priority retention outreach and contract renewal incentive
+CUST_10886,0.7816,78.2,Low,Priority retention outreach and contract renewal incentive
+CUST_10714,0.0012,0.1,Low,Standard loyalty engagement and service maintenance
+CUST_11575,0.0001,0.0,Medium,Monitor usage patterns and deploy targeted value engagement
+CUST_12438,0.8988,89.9,Medium,Priority retention outreach and contract renewal incentive
+CUST_11315,0.8746,87.5,High,Priority retention outreach and contract renewal incentive
+CUST_10963,0.389,38.9,Low,Monitor usage patterns and deploy targeted value engagement
+CUST_10352,0.0005,0.1,High,Priority retention outreach and contract renewal incentive
+CUST_10891,0.8535,85.4,High,Priority retention outreach and contract renewal incentive
+CUST_11917,0.0436,4.4,Low,Standard loyalty engagement and service maintenance
+CUST_11484,0.0074,0.7,Low,Standard loyalty engagement and service maintenance
+CUST_10003,0.7345,73.5,Low,Priority retention outreach and contract renewal incentive
+CUST_12214,0.0007,0.1,High,Priority retention outreach and contract renewal incentive
+CUST_11063,0.2144,21.4,High,Priority retention outreach and contract renewal incentive
+CUST_10808,0.9883,98.8,Medium,Priority retention outreach and contract renewal incentive
+CUST_12042,0.204,20.4,Medium,Monitor usage patterns and deploy targeted value engagement
+CUST_10012,0.0066,0.7,Low,Standard loyalty engagement and service maintenance
+CUST_11637,0.0385,3.8,Medium,Monitor usage patterns and deploy targeted value engagement
+CUST_11921,0.3057,30.6,High,Priority retention outreach and contract renewal incentive
+CUST_11487,0.1054,10.5,Low,Standard loyalty engagement and service maintenance
+CUST_11856,0.0073,0.7,High,Priority retention outreach and contract renewal incentive
+CUST_10349,0.0015,0.2,Low,Standard loyalty engagement and service maintenance
+CUST_12492,0.9997,100.0,Low,Priority retention outreach and contract renewal incentive
+CUST_10764,0.1302,13.0,Low,Standard loyalty engagement and service maintenance
+CUST_11570,0.232,23.2,Medium,Monitor usage patterns and deploy targeted value engagement
+CUST_10297,1.0,100.0,Medium,Priority retention outreach and contract renewal incentive
+CUST_12419,0.0034,0.3,Low,Standard loyalty engagement and service maintenance
+CUST_10688,0.9334,93.3,High,Priority retention outreach and contract renewal incentive
+CUST_11356,0.0,0.0,Low,Standard loyalty engagement and service maintenance
+CUST_10314,0.0832,8.3,Low,Standard loyalty engagement and service maintenance
+CUST_11506,0.2498,25.0,Low,Standard loyalty engagement and service maintenance
+CUST_12188,0.0001,0.0,Low,Standard loyalty engagement and service maintenance
+CUST_10865,0.1471,14.7,Low,Standard loyalty engagement and service maintenance
+CUST_12359,0.0019,0.2,Low,Standard loyalty engagement and service maintenance
+CUST_11730,0.984,98.4,Low,Priority retention outreach and contract renewal incentive
+CUST_11721,0.9969,99.7,High,Priority retention outreach and contract renewal incentive
+CUST_10285,0.0018,0.2,Medium,Monitor usage patterns and deploy targeted value engagement
+CUST_11731,0.5171,51.7,Medium,Monitor usage patterns and deploy targeted value engagement
+CUST_11578,0.0022,0.2,Low,Standard loyalty engagement and service maintenance
+CUST_11847,0.0,0.0,High,Priority retention outreach and contract renewal incentive
+CUST_11339,0.0066,0.7,Medium,Monitor usage patterns and deploy targeted value engagement
+CUST_10951,0.9844,98.4,High,Priority retention outreach and contract renewal incentive
+CUST_12292,0.0,0.0,Low,Standard loyalty engagement and service maintenance
+CUST_11309,0.997,99.7,Low,Priority retention outreach and contract renewal incentive
+CUST_10902,0.9991,99.9,Medium,Priority retention outreach and contract renewal incentive
+CUST_11405,0.9998,100.0,Low,Priority retention outreach and contract renewal incentive
+CUST_10983,0.9828,98.3,High,Priority retention outreach and contract renewal incentive
+CUST_12091,0.1513,15.1,Low,Standard loyalty engagement and service maintenance
+CUST_10405,0.0,0.0,Low,Standard loyalty engagement and service maintenance
+CUST_12386,0.998,99.8,Low,Priority retention outreach and contract renewal incentive
+CUST_12325,0.4824,48.2,Medium,Monitor usage patterns and deploy targeted value engagement
+CUST_10541,0.5838,58.4,Low,Monitor usage patterns and deploy targeted value engagement
+CUST_10311,0.0086,0.9,High,Priority retention outreach and contract renewal incentive
+CUST_10723,0.0315,3.2,Medium,Monitor usage patterns and deploy targeted value engagement
+CUST_10598,0.001,0.1,Low,Standard loyalty engagement and service maintenance
+CUST_11433,0.9951,99.5,Low,Priority retention outreach and contract renewal incentive
+CUST_10631,0.0,0.0,Medium,Monitor usage patterns and deploy targeted value engagement
+CUST_10780,0.028,2.8,Low,Standard loyalty engagement and service maintenance
+CUST_10147,0.0206,2.1,Medium,Monitor usage patterns and deploy targeted value engagement
+CUST_10750,0.2152,21.5,Low,Standard loyalty engagement and service maintenance
+CUST_10179,0.0486,4.9,Low,Standard loyalty engagement and service maintenance
+CUST_11588,0.0719,7.2,Medium,Monitor usage patterns and deploy targeted value engagement
+CUST_10164,0.4995,49.9,Medium,Monitor usage patterns and deploy targeted value engagement
+CUST_11527,0.9989,99.9,Low,Priority retention outreach and contract renewal incentive
+CUST_10644,0.9938,99.4,Low,Priority retention outreach and contract renewal incentive
+CUST_11064,0.9351,93.5,Medium,Priority retention outreach and contract renewal incentive
+CUST_10389,0.0,0.0,Medium,Monitor usage patterns and deploy targeted value engagement
+CUST_12350,0.3023,30.2,High,Priority retention outreach and contract renewal incentive
+CUST_11156,0.0413,4.1,Medium,Monitor usage patterns and deploy targeted value engagement
+CUST_10579,0.9722,97.2,Low,Priority retention outreach and contract renewal incentive
+CUST_11157,0.5504,55.0,High,Priority retention outreach and contract renewal incentive
+CUST_10936,0.9297,93.0,Low,Priority retention outreach and contract renewal incentive
+CUST_12076,0.9762,97.6,Low,Priority retention outreach and contract renewal incentive
+CUST_11052,0.7322,73.2,Medium,Priority retention outreach and contract renewal incentive
+CUST_10370,0.0001,0.0,Low,Standard loyalty engagement and service maintenance
+CUST_11675,0.0644,6.4,Low,Standard loyalty engagement and service maintenance
+CUST_11355,0.0,0.0,Low,Standard loyalty engagement and service maintenance
+CUST_10002,0.0181,1.8,High,Priority retention outreach and contract renewal incentive
+CUST_12425,0.0013,0.1,High,Priority retention outreach and contract renewal incentive
+CUST_10045,0.9969,99.7,Low,Priority retention outreach and contract renewal incentive
+CUST_12383,0.2004,20.0,Medium,Monitor usage patterns and deploy targeted value engagement
+CUST_11364,0.0448,4.5,Low,Standard loyalty engagement and service maintenance
+CUST_10032,0.0001,0.0,Low,Standard loyalty engagement and service maintenance
+CUST_11616,0.7931,79.3,High,Priority retention outreach and contract renewal incentive
+CUST_12177,0.0001,0.0,Medium,Monitor usage patterns and deploy targeted value engagement
+CUST_10034,0.0022,0.2,Medium,Monitor usage patterns and deploy targeted value engagement
+CUST_11813,0.0001,0.0,Low,Standard loyalty engagement and service maintenance
+CUST_11311,0.0429,4.3,High,Priority retention outreach and contract renewal incentive
+CUST_11851,0.0035,0.3,Low,Standard loyalty engagement and service maintenance
+CUST_10211,0.0003,0.0,High,Priority retention outreach and contract renewal incentive
+CUST_11483,0.0,0.0,Low,Standard loyalty engagement and service maintenance
+CUST_11446,0.1562,15.6,Low,Standard loyalty engagement and service maintenance
+CUST_10152,0.0016,0.2,Low,Standard loyalty engagement and service maintenance
+CUST_11965,0.0901,9.0,Low,Standard loyalty engagement and service maintenance
+CUST_12010,0.9931,99.3,High,Priority retention outreach and contract renewal incentive
+CUST_12067,0.0755,7.5,Low,Standard loyalty engagement and service maintenance
+CUST_10925,0.0063,0.6,Medium,Monitor usage patterns and deploy targeted value engagement
+CUST_12277,0.2734,27.3,Low,Standard loyalty engagement and service maintenance
+CUST_12275,0.5344,53.4,Medium,Monitor usage patterns and deploy targeted value engagement
+CUST_11759,0.9976,99.8,Low,Priority retention outreach and contract renewal incentive
+CUST_12337,0.5261,52.6,Low,Monitor usage patterns and deploy targeted value engagement
+CUST_10848,0.3706,37.1,Medium,Monitor usage patterns and deploy targeted value engagement
+CUST_12333,0.0037,0.4,Low,Standard loyalty engagement and service maintenance
+CUST_10606,0.1122,11.2,Low,Standard loyalty engagement and service maintenance
+CUST_10430,0.0,0.0,Low,Standard loyalty engagement and service maintenance
+CUST_11540,0.7584,75.8,High,Priority retention outreach and contract renewal incentive
+CUST_10755,0.2506,25.1,High,Priority retention outreach and contract renewal incentive
+CUST_10250,0.9873,98.7,High,Priority retention outreach and contract renewal incentive
+CUST_10190,0.9968,99.7,Low,Priority retention outreach and contract renewal incentive
+CUST_11868,0.0153,1.5,High,Priority retention outreach and contract renewal incentive
+CUST_10867,0.1157,11.6,High,Priority retention outreach and contract renewal incentive
+CUST_10553,0.9707,97.1,Low,Priority retention outreach and contract renewal incentive
+CUST_11651,0.0004,0.0,Low,Standard loyalty engagement and service maintenance
+CUST_11567,0.0052,0.5,High,Priority retention outreach and contract renewal incentive
+CUST_11217,0.001,0.1,Medium,Monitor usage patterns and deploy targeted value engagement
+CUST_11945,0.0256,2.6,High,Priority retention outreach and contract renewal incentive
+CUST_11906,0.5198,52.0,Low,Monitor usage patterns and deploy targeted value engagement
+CUST_12266,0.9974,99.7,Low,Priority retention outreach and contract renewal incentive
+CUST_12080,0.2283,22.8,High,Priority retention outreach and contract renewal incentive
+CUST_11826,0.0,0.0,Low,Standard loyalty engagement and service maintenance
+CUST_10866,0.3586,35.9,Low,Monitor usage patterns and deploy targeted value engagement
+CUST_11162,0.8704,87.0,Low,Priority retention outreach and contract renewal incentive
+CUST_10221,0.0,0.0,Medium,Monitor usage patterns and deploy targeted value engagement
+CUST_12285,0.7968,79.7,High,Priority retention outreach and contract renewal incentive
+CUST_11359,0.0907,9.1,Medium,Monitor usage patterns and deploy targeted value engagement
+CUST_11146,0.0,0.0,High,Priority retention outreach and contract renewal incentive
+CUST_11199,0.0005,0.0,Low,Standard loyalty engagement and service maintenance
+CUST_11683,0.4938,49.4,Medium,Monitor usage patterns and deploy targeted value engagement
+CUST_10142,0.6058,60.6,Medium,Monitor usage patterns and deploy targeted value engagement
+CUST_11189,0.2591,25.9,Low,Standard loyalty engagement and service maintenance
+CUST_12380,0.0011,0.1,Medium,Monitor usage patterns and deploy targeted value engagement
+CUST_12344,0.005,0.5,Medium,Monitor usage patterns and deploy targeted value engagement
+CUST_11510,0.0002,0.0,Low,Standard loyalty engagement and service maintenance
+CUST_11539,0.9941,99.4,Medium,Priority retention outreach and contract renewal incentive
+CUST_11308,0.0852,8.5,Low,Standard loyalty engagement and service maintenance
+CUST_10456,0.4732,47.3,Low,Monitor usage patterns and deploy targeted value engagement
+CUST_10347,0.9964,99.6,Low,Priority retention outreach and contract renewal incentive
+CUST_11001,0.0462,4.6,Medium,Monitor usage patterns and deploy targeted value engagement
+CUST_11387,0.0239,2.4,Low,Standard loyalty engagement and service maintenance
+CUST_12090,0.0004,0.0,Medium,Monitor usage patterns and deploy targeted value engagement
+CUST_11322,0.0001,0.0,Medium,Monitor usage patterns and deploy targeted value engagement
+CUST_10783,0.9945,99.4,Medium,Priority retention outreach and contract renewal incentive
+CUST_10571,0.9485,94.9,Medium,Priority retention outreach and contract renewal incentive
+CUST_12257,0.9816,98.2,Low,Priority retention outreach and contract renewal incentive
+CUST_11105,0.9773,97.7,Medium,Priority retention outreach and contract renewal incentive
+CUST_11514,0.9237,92.4,Low,Priority retention outreach and contract renewal incentive
+CUST_11080,0.3352,33.5,Low,Monitor usage patterns and deploy targeted value engagement
+CUST_10992,0.2498,25.0,Low,Standard loyalty engagement and service maintenance
+CUST_11017,0.0011,0.1,High,Priority retention outreach and contract renewal incentive
+CUST_11657,0.0003,0.0,Medium,Monitor usage patterns and deploy targeted value engagement
+CUST_10633,0.0227,2.3,High,Priority retention outreach and contract renewal incentive
+CUST_11426,0.9982,99.8,High,Priority retention outreach and contract renewal incentive
+CUST_11344,0.9086,90.9,Medium,Priority retention outreach and contract renewal incentive
+CUST_12107,0.9557,95.6,High,Priority retention outreach and contract renewal incentive
+CUST_10461,0.0779,7.8,Low,Standard loyalty engagement and service maintenance
+CUST_10301,0.0564,5.6,Medium,Monitor usage patterns and deploy targeted value engagement
+CUST_11750,0.0166,1.7,Medium,Monitor usage patterns and deploy targeted value engagement
+CUST_10030,0.9487,94.9,Low,Priority retention outreach and contract renewal incentive
+CUST_11005,0.9717,97.2,High,Priority retention outreach and contract renewal incentive
+CUST_10379,0.0427,4.3,Low,Standard loyalty engagement and service maintenance
+CUST_10440,0.0,0.0,Low,Standard loyalty engagement and service maintenance
+CUST_11158,0.0666,6.7,Medium,Monitor usage patterns and deploy targeted value engagement
+CUST_12173,0.118,11.8,Low,Standard loyalty engagement and service maintenance
+CUST_10998,0.0002,0.0,High,Priority retention outreach and contract renewal incentive
+CUST_12276,0.9848,98.5,Medium,Priority retention outreach and contract renewal incentive
+CUST_10620,0.0319,3.2,Low,Standard loyalty engagement and service maintenance
+CUST_12435,0.9227,92.3,Medium,Priority retention outreach and contract renewal incentive
+CUST_11400,0.9953,99.5,High,Priority retention outreach and contract renewal incentive
+CUST_10669,0.8019,80.2,Low,Priority retention outreach and contract renewal incentive
+CUST_12342,0.0047,0.5,Low,Standard loyalty engagement and service maintenance
+CUST_10289,0.0177,1.8,Medium,Monitor usage patterns and deploy targeted value engagement
+CUST_11181,0.089,8.9,Low,Standard loyalty engagement and service maintenance
+CUST_11516,0.9962,99.6,Low,Priority retention outreach and contract renewal incentive
+CUST_11284,0.006,0.6,Low,Standard loyalty engagement and service maintenance
+CUST_11161,0.744,74.4,High,Priority retention outreach and contract renewal incentive
+CUST_10785,0.813,81.3,Low,Priority retention outreach and contract renewal incentive
+CUST_10879,0.978,97.8,Medium,Priority retention outreach and contract renewal incentive
+CUST_11888,0.906,90.6,Medium,Priority retention outreach and contract renewal incentive
+CUST_10901,0.6459,64.6,Medium,Monitor usage patterns and deploy targeted value engagement
+CUST_10200,0.0752,7.5,High,Priority retention outreach and contract renewal incentive
+CUST_11642,0.0005,0.1,Medium,Monitor usage patterns and deploy targeted value engagement
+CUST_10023,0.0043,0.4,Medium,Monitor usage patterns and deploy targeted value engagement
+CUST_11150,0.9999,100.0,Low,Priority retention outreach and contract renewal incentive
+CUST_11499,0.705,70.5,Low,Priority retention outreach and contract renewal incentive
+CUST_10409,0.975,97.5,Low,Priority retention outreach and contract renewal incentive
+CUST_12417,0.8683,86.8,Low,Priority retention outreach and contract renewal incentive
+CUST_12457,0.0006,0.1,High,Priority retention outreach and contract renewal incentive
+CUST_12375,0.9554,95.5,High,Priority retention outreach and contract renewal incentive
+CUST_10533,0.7371,73.7,High,Priority retention outreach and contract renewal incentive
+CUST_10016,0.5658,56.6,Medium,Monitor usage patterns and deploy targeted value engagement
+CUST_12219,0.8447,84.5,Low,Priority retention outreach and contract renewal incentive
+CUST_12121,0.3203,32.0,High,Priority retention outreach and contract renewal incentive
+CUST_11025,0.0,0.0,Low,Standard loyalty engagement and service maintenance
+CUST_12294,0.4506,45.1,Medium,Monitor usage patterns and deploy targeted value engagement
+CUST_11451,0.6248,62.5,High,Priority retention outreach and contract renewal incentive
+CUST_12144,0.044,4.4,High,Priority retention outreach and contract renewal incentive
+CUST_12082,0.9984,99.8,Low,Priority retention outreach and contract renewal incentive
+CUST_11083,0.0,0.0,Medium,Monitor usage patterns and deploy targeted value engagement
+CUST_10435,0.1081,10.8,Low,Standard loyalty engagement and service maintenance
+CUST_11794,0.1468,14.7,High,Priority retention outreach and contract renewal incentive
+CUST_11222,0.997,99.7,Medium,Priority retention outreach and contract renewal incentive
+CUST_12032,0.5008,50.1,Low,Monitor usage patterns and deploy targeted value engagement
+CUST_10391,0.1197,12.0,Low,Standard loyalty engagement and service maintenance
+CUST_12013,0.0004,0.0,Low,Standard loyalty engagement and service maintenance
+CUST_11963,0.9312,93.1,Low,Priority retention outreach and contract renewal incentive
+CUST_10710,0.0027,0.3,Medium,Monitor usage patterns and deploy targeted value engagement
+CUST_11765,0.0,0.0,High,Priority retention outreach and contract renewal incentive
+CUST_11282,0.9062,90.6,Low,Priority retention outreach and contract renewal incentive
+CUST_12379,0.9994,99.9,Medium,Priority retention outreach and contract renewal incentive
+CUST_11058,0.1401,14.0,Low,Standard loyalty engagement and service maintenance
+CUST_12036,0.0,0.0,Low,Standard loyalty engagement and service maintenance
+CUST_11883,0.9634,96.3,Medium,Priority retention outreach and contract renewal incentive
+CUST_10539,0.9208,92.1,Low,Priority retention outreach and contract renewal incentive
+CUST_12059,0.9975,99.7,High,Priority retention outreach and contract renewal incentive
+CUST_11213,0.9995,100.0,Low,Priority retention outreach and contract renewal incentive
+CUST_11968,0.0004,0.0,High,Priority retention outreach and contract renewal incentive
+CUST_11114,0.0001,0.0,Low,Standard loyalty engagement and service maintenance
+CUST_12451,0.0012,0.1,Low,Standard loyalty engagement and service maintenance
+CUST_12127,0.9786,97.9,Low,Priority retention outreach and contract renewal incentive
+CUST_12193,0.0,0.0,Medium,Monitor usage patterns and deploy targeted value engagement
+CUST_11890,0.758,75.8,Low,Priority retention outreach and contract renewal incentive
+CUST_12133,0.9744,97.4,Medium,Priority retention outreach and contract renewal incentive
+CUST_11480,0.1583,15.8,Low,Standard loyalty engagement and service maintenance
+CUST_10627,0.002,0.2,High,Priority retention outreach and contract renewal incentive
+CUST_10634,0.0001,0.0,High,Priority retention outreach and contract renewal incentive
+CUST_11752,0.0015,0.2,Low,Standard loyalty engagement and service maintenance
+CUST_12416,0.0037,0.4,Low,Standard loyalty engagement and service maintenance
+CUST_10532,0.0,0.0,Low,Standard loyalty engagement and service maintenance
+CUST_10256,0.8708,87.1,Medium,Priority retention outreach and contract renewal incentive
+CUST_11481,0.0178,1.8,Low,Standard loyalty engagement and service maintenance
+CUST_10799,0.9681,96.8,Low,Priority retention outreach and contract renewal incentive
+CUST_10637,0.0,0.0,Medium,Monitor usage patterns and deploy targeted value engagement
+CUST_12035,0.9988,99.9,High,Priority retention outreach and contract renewal incentive
+CUST_10999,0.0021,0.2,Low,Standard loyalty engagement and service maintenance
+CUST_11486,0.6275,62.8,Low,Monitor usage patterns and deploy targeted value engagement
+CUST_12283,0.0241,2.4,Low,Standard loyalty engagement and service maintenance
+CUST_12054,0.83,83.0,Medium,Priority retention outreach and contract renewal incentive
+CUST_12003,0.011,1.1,Low,Standard loyalty engagement and service maintenance
+CUST_10063,0.0001,0.0,High,Priority retention outreach and contract renewal incentive
+CUST_11674,0.9904,99.0,Low,Priority retention outreach and contract renewal incentive
+CUST_11569,0.8884,88.8,Low,Priority retention outreach and contract renewal incentive
+CUST_10997,0.4385,43.8,Medium,Monitor usage patterns and deploy targeted value engagement
+CUST_10241,0.0585,5.8,Medium,Monitor usage patterns and deploy targeted value engagement
+CUST_12227,0.013,1.3,Low,Standard loyalty engagement and service maintenance
+CUST_10239,0.0331,3.3,Medium,Monitor usage patterns and deploy targeted value engagement
+CUST_11121,0.0844,8.4,Medium,Monitor usage patterns and deploy targeted value engagement
+CUST_12433,0.0619,6.2,Low,Standard loyalty engagement and service maintenance
+CUST_10076,1.0,100.0,Low,Priority retention outreach and contract renewal incentive
+CUST_11271,0.0,0.0,High,Priority retention outreach and contract renewal incentive
+CUST_10685,0.9941,99.4,High,Priority retention outreach and contract renewal incentive
+CUST_11920,0.9997,100.0,Low,Priority retention outreach and contract renewal incentive
+CUST_10621,0.7915,79.2,Low,Priority retention outreach and contract renewal incentive
+CUST_10657,0.0005,0.0,Medium,Monitor usage patterns and deploy targeted value engagement
+CUST_11126,0.0055,0.6,Low,Standard loyalty engagement and service maintenance
+CUST_10949,0.9951,99.5,High,Priority retention outreach and contract renewal incentive
+CUST_10198,0.9886,98.9,Medium,Priority retention outreach and contract renewal incentive
+CUST_10913,1.0,100.0,High,Priority retention outreach and contract renewal incentive
+CUST_12116,0.0318,3.2,High,Priority retention outreach and contract renewal incentive
+CUST_10087,0.8804,88.0,Low,Priority retention outreach and contract renewal incentive
+CUST_10261,0.9822,98.2,Low,Priority retention outreach and contract renewal incentive
+CUST_11686,0.0002,0.0,Low,Standard loyalty engagement and service maintenance
+CUST_12247,0.0029,0.3,Low,Standard loyalty engagement and service maintenance
+CUST_12475,0.8741,87.4,High,Priority retention outreach and contract renewal incentive
+CUST_10835,0.0455,4.6,Low,Standard loyalty engagement and service maintenance
+CUST_10178,0.3298,33.0,Low,Monitor usage patterns and deploy targeted value engagement
+CUST_11756,0.8401,84.0,High,Priority retention outreach and contract renewal incentive
+CUST_12290,0.0268,2.7,Low,Standard loyalty engagement and service maintenance
+CUST_10434,0.6114,61.1,Low,Monitor usage patterns and deploy targeted value engagement
+CUST_10583,0.2394,23.9,Low,Standard loyalty engagement and service maintenance
+CUST_11477,0.0028,0.3,High,Priority retention outreach and contract renewal incentive
+CUST_11230,0.0913,9.1,Medium,Monitor usage patterns and deploy targeted value engagement
+CUST_10806,0.0078,0.8,Low,Standard loyalty engagement and service maintenance
+CUST_12300,0.9965,99.6,High,Priority retention outreach and contract renewal incentive
+CUST_12137,0.0,0.0,Low,Standard loyalty engagement and service maintenance
+CUST_12175,0.25,25.0,Medium,Monitor usage patterns and deploy targeted value engagement
+CUST_11910,0.0,0.0,Low,Standard loyalty engagement and service maintenance
+CUST_11221,0.0001,0.0,Low,Standard loyalty engagement and service maintenance
+CUST_10099,0.9865,98.6,High,Priority retention outreach and contract renewal incentive
+CUST_12159,0.4961,49.6,High,Priority retention outreach and contract renewal incentive
+CUST_11584,0.0063,0.6,Low,Standard loyalty engagement and service maintenance
+CUST_11623,0.5753,57.5,Low,Monitor usage patterns and deploy targeted value engagement
+CUST_10728,0.7342,73.4,Low,Priority retention outreach and contract renewal incentive
+CUST_11276,0.045,4.5,Low,Standard loyalty engagement and service maintenance
+CUST_11852,0.3803,38.0,Medium,Monitor usage patterns and deploy targeted value engagement
+CUST_12038,0.0015,0.2,Low,Standard loyalty engagement and service maintenance
+CUST_12335,0.0068,0.7,Low,Standard loyalty engagement and service maintenance
+CUST_10131,0.0299,3.0,Low,Standard loyalty engagement and service maintenance
+CUST_11412,0.7462,74.6,High,Priority retention outreach and contract renewal incentive
+CUST_11902,0.9983,99.8,Low,Priority retention outreach and contract renewal incentive
+CUST_11798,0.0271,2.7,Low,Standard loyalty engagement and service maintenance
+CUST_10736,0.8234,82.3,Medium,Priority retention outreach and contract renewal incentive
+CUST_11615,0.0015,0.1,High,Priority retention outreach and contract renewal incentive
+CUST_11668,0.0849,8.5,Low,Standard loyalty engagement and service maintenance
+CUST_10258,0.9923,99.2,High,Priority retention outreach and contract renewal incentive
+CUST_10494,0.0499,5.0,Low,Standard loyalty engagement and service maintenance
+CUST_11239,0.0907,9.1,Low,Standard loyalty engagement and service maintenance
+CUST_11934,0.9999,100.0,Medium,Priority retention outreach and contract renewal incentive
+CUST_11745,0.0886,8.9,Low,Standard loyalty engagement and service maintenance
+CUST_12230,0.9988,99.9,Medium,Priority retention outreach and contract renewal incentive
+CUST_10052,0.1685,16.9,Medium,Monitor usage patterns and deploy targeted value engagement
+CUST_10230,0.9948,99.5,Medium,Priority retention outreach and contract renewal incentive
+CUST_10225,0.4013,40.1,Low,Monitor usage patterns and deploy targeted value engagement
+CUST_11791,0.0,0.0,Low,Standard loyalty engagement and service maintenance
+CUST_12216,0.0002,0.0,High,Priority retention outreach and contract renewal incentive
+CUST_12289,0.8121,81.2,Medium,Priority retention outreach and contract renewal incentive
+CUST_11521,0.0046,0.5,Medium,Monitor usage patterns and deploy targeted value engagement
+CUST_12331,0.9965,99.6,Low,Priority retention outreach and contract renewal incentive
+CUST_11982,0.599,59.9,Low,Monitor usage patterns and deploy targeted value engagement
+CUST_12453,0.996,99.6,Medium,Priority retention outreach and contract renewal incentive
+CUST_12146,0.1809,18.1,High,Priority retention outreach and contract renewal incentive
+CUST_10471,0.8078,80.8,Low,Priority retention outreach and contract renewal incentive
+CUST_10445,0.9721,97.2,Medium,Priority retention outreach and contract renewal incentive
+CUST_11468,0.7032,70.3,Medium,Priority retention outreach and contract renewal incentive
+CUST_10240,0.9592,95.9,Medium,Priority retention outreach and contract renewal incentive
+CUST_11388,0.9757,97.6,High,Priority retention outreach and contract renewal incentive
+CUST_11119,0.8984,89.8,Low,Priority retention outreach and contract renewal incentive
+CUST_12456,0.8686,86.9,Medium,Priority retention outreach and contract renewal incentive
+CUST_11573,0.0876,8.8,Medium,Monitor usage patterns and deploy targeted value engagement
+CUST_12112,0.0002,0.0,High,Priority retention outreach and contract renewal incentive
+CUST_11572,0.9552,95.5,Low,Priority retention outreach and contract renewal incentive
+CUST_10718,0.0001,0.0,Low,Standard loyalty engagement and service maintenance
+CUST_12376,0.0115,1.2,Low,Standard loyalty engagement and service maintenance
+CUST_12194,0.0103,1.0,High,Priority retention outreach and contract renewal incentive
+CUST_12040,0.9566,95.7,High,Priority retention outreach and contract renewal incentive
+CUST_10988,0.0051,0.5,Low,Standard loyalty engagement and service maintenance
+CUST_11989,0.0004,0.0,Low,Standard loyalty engagement and service maintenance
+CUST_10748,0.5405,54.0,Low,Monitor usage patterns and deploy targeted value engagement
+CUST_11635,0.2178,21.8,Medium,Monitor usage patterns and deploy targeted value engagement
+CUST_11711,0.9714,97.1,Medium,Priority retention outreach and contract renewal incentive
+CUST_12172,0.0166,1.7,Low,Standard loyalty engagement and service maintenance
+CUST_11565,0.0588,5.9,Low,Standard loyalty engagement and service maintenance
+CUST_12200,0.0163,1.6,Medium,Monitor usage patterns and deploy targeted value engagement
+CUST_11198,0.0022,0.2,Medium,Monitor usage patterns and deploy targeted value engagement
+CUST_10086,0.0025,0.2,Medium,Monitor usage patterns and deploy targeted value engagement
+CUST_10790,0.0657,6.6,Low,Standard loyalty engagement and service maintenance
+CUST_11378,0.0954,9.5,Low,Standard loyalty engagement and service maintenance
+CUST_12142,0.1615,16.1,Low,Standard loyalty engagement and service maintenance
+CUST_10043,0.073,7.3,Medium,Monitor usage patterns and deploy targeted value engagement
+CUST_12262,0.3964,39.6,Low,Monitor usage patterns and deploy targeted value engagement
+CUST_10632,0.1347,13.5,Low,Standard loyalty engagement and service maintenance
+CUST_10910,0.0,0.0,Low,Standard loyalty engagement and service maintenance
+CUST_11576,0.0124,1.2,High,Priority retention outreach and contract renewal incentive
+CUST_10061,0.655,65.5,High,Priority retention outreach and contract renewal incentive
+CUST_11079,0.0502,5.0,High,Priority retention outreach and contract renewal incentive
+CUST_11956,0.8973,89.7,Medium,Priority retention outreach and contract renewal incentive
+CUST_11766,0.0,0.0,Medium,Monitor usage patterns and deploy targeted value engagement
+CUST_12008,0.9998,100.0,Medium,Priority retention outreach and contract renewal incentive
+CUST_11577,0.432,43.2,Medium,Monitor usage patterns and deploy targeted value engagement
