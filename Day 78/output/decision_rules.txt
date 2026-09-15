@@ -1,0 +1,64 @@
+|--- Tenure_Months <= 11.50
+|   |--- Contract_Type_One year <= 0.50
+|   |   |--- Contract_Type_Two year <= 0.50
+|   |   |   |--- Monthly_Charges <= 79.15
+|   |   |   |   |--- Net_Monthly_Charges <= 77.61
+|   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |--- Net_Monthly_Charges >  77.61
+|   |   |   |   |   |--- class: Stay (0)
+|   |   |   |--- Monthly_Charges >  79.15
+|   |   |   |   |--- Monthly_Charges <= 103.33
+|   |   |   |   |   |--- class: Churn (1)
+|   |   |   |   |--- Monthly_Charges >  103.33
+|   |   |   |   |   |--- truncated branch of depth 2
+|   |   |--- Contract_Type_Two year >  0.50
+|   |   |   |--- class: Stay (0)
+|   |--- Contract_Type_One year >  0.50
+|   |   |--- Complaint_Risk_Index <= 9.25
+|   |   |   |--- Net_Monthly_Charges <= 95.44
+|   |   |   |   |--- class: Stay (0)
+|   |   |   |--- Net_Monthly_Charges >  95.44
+|   |   |   |   |--- Total_Charges <= 693.60
+|   |   |   |   |   |--- class: Stay (0)
+|   |   |   |   |--- Total_Charges >  693.60
+|   |   |   |   |   |--- class: Stay (0)
+|   |   |--- Complaint_Risk_Index >  9.25
+|   |   |   |--- Monthly_Charges <= 76.81
+|   |   |   |   |--- class: Stay (0)
+|   |   |   |--- Monthly_Charges >  76.81
+|   |   |   |   |--- class: Churn (1)
+|--- Tenure_Months >  11.50
+|   |--- Support_Calls <= 3.50
+|   |   |--- Complaints <= 1.50
+|   |   |   |--- Monthly_Charges <= 83.98
+|   |   |   |   |--- Age <= 27.50
+|   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |--- Age >  27.50
+|   |   |   |   |   |--- class: Stay (0)
+|   |   |   |--- Monthly_Charges >  83.98
+|   |   |   |   |--- Tenure_Months <= 14.50
+|   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |--- Tenure_Months >  14.50
+|   |   |   |   |   |--- truncated branch of depth 2
+|   |   |--- Complaints >  1.50
+|   |   |   |--- Late_Payments <= 0.50
+|   |   |   |   |--- Charges_Per_Month_Ratio <= 0.96
+|   |   |   |   |   |--- class: Stay (0)
+|   |   |   |   |--- Charges_Per_Month_Ratio >  0.96
+|   |   |   |   |   |--- class: Stay (0)
+|   |   |   |--- Late_Payments >  0.50
+|   |   |   |   |--- Contract_Type_One year <= 0.50
+|   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |--- Contract_Type_One year >  0.50
+|   |   |   |   |   |--- truncated branch of depth 2
+|   |--- Support_Calls >  3.50
+|   |   |--- Contract_Type_One year <= 0.50
+|   |   |   |--- Contract_Type_Two year <= 0.50
+|   |   |   |   |--- class: Churn (1)
+|   |   |   |--- Contract_Type_Two year >  0.50
+|   |   |   |   |--- class: Stay (0)
+|   |   |--- Contract_Type_One year >  0.50
+|   |   |   |--- Tenure_Months <= 13.50
+|   |   |   |   |--- class: Stay (0)
+|   |   |   |--- Tenure_Months >  13.50
+|   |   |   |   |--- class: Stay (0)

@@ -1,0 +1,51 @@
+================================================================================
+DAY 78: CUSTOMER CHURN DECISION TREE ENGINE - EXECUTIVE REPORT
+================================================================================
+
+1. MODEL COMPARISON (DECISION TREE VARIANTS VS LOGISTIC BASELINE)
+--------------------------------------------------------------------------------
+                              Model  Accuracy  Precision   Recall       F1  ROC-AUC  PR-AUC (AP)
+                Logistic_Regression  0.892929   0.792000 0.785714 0.788845 0.944853     0.848358
+   Decision_Tree_Gini_Unconstrained  0.939394   0.887097 0.873016 0.880000 0.917538     0.806773
+Decision_Tree_Entropy_Unconstrained  0.949495   0.904000 0.896825 0.900398 0.932153     0.836993
+                Tuned_Decision_Tree  0.959596   0.907692 0.936508 0.921875 0.973190     0.932532
+
+2. HYPERPARAMETER TUNING & REGULARIZATION (5-FOLD STRATIFIED CV)
+--------------------------------------------------------------------------------
+Best CV F1-Score:     0.9330
+Optimal Hyperparameters:
+  * classifier__criterion: gini
+  * classifier__max_depth: 6
+  * classifier__min_samples_leaf: 5
+  * classifier__min_samples_split: 2
+
+3. DECISION THRESHOLD & FINANCIAL COST OPTIMIZATION
+--------------------------------------------------------------------------------
+Optimal Threshold for F1-Score:           0.25
+Optimal Threshold for Minimal Cost:       0.25
+Default Business Cost (at tau=0.50):       INR 43,600.00
+Optimized Business Cost (at tau=0.25):   INR 28,600.00
+Net Projected Financial Savings:          INR 15,000.00
+
+4. CUSTOMER-LEVEL DECISION PATH EXPLANATION
+--------------------------------------------------------------------------------
+Customer ID:       CUST_11401
+Predicted Class:   Stay
+Churn Probability: 0.0000
+Inference Decision Path:
+  -> Tenure_Months > 11.50
+  -> Support_Calls > 3.50
+  -> Contract_Type_One year <= 0.50
+  -> Contract_Type_Two year > 0.50
+
+5. AUTOMATED BUSINESS INSIGHTS
+--------------------------------------------------------------------------------
+1. The primary decision boundaries are governed by: Contract_Type_Two year, Contract_Type_One year, Tenure_Months. These features provide the largest reduction in Gini/Entropy impurity.
+2. Hyperparameter tuning restricted tree depth to 6 and min samples leaf to 5, effectively preventing the severe overfitting observed in unconstrained trees.
+3. Customers on Month-to-month contracts with 4+ support calls exhibit an alarming churn rate of 100.0%, compared to the overall baseline of 25.5%. This interaction represents the tree's most decisive branch.
+4. Cost-sensitive thresholding at tau=0.25 reduces business risk costs from INR 43,600.00 to INR 28,600.00 (34.4% reduction), mitigating expensive False Negatives.
+5. The Tuned Decision Tree outperforms baseline Logistic Regression by capturing complex non-linear feature interactions without requiring manual polynomial interaction terms.
+
+================================================================================
+END OF REPORT
+================================================================================

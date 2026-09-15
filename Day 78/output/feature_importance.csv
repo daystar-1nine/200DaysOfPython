@@ -1,0 +1,23 @@
+Feature,Importance
+Contract_Type_Two year,0.3742227329894465
+Contract_Type_One year,0.2400905576258467
+Tenure_Months,0.2172548827755005
+Support_Calls,0.0925319976698867
+Complaints,0.027003738198788596
+Late_Payments,0.020039223435760246
+Monthly_Charges,0.011767231372484014
+Net_Monthly_Charges,0.006221641979308064
+Payment_Method_Electronic check,0.005471118864004168
+Complaint_Risk_Index,0.004029397154254301
+Charges_Per_Month_Ratio,0.0005306985616329923
+Age,0.0004853708660597661
+Total_Charges,0.000351408507027253
+Usage_Hours,0.0
+Tenure_Age_Ratio,0.0
+Support_Per_Tenure,0.0
+Discount,0.0
+Gender_Male,0.0
+Internet_Service_Fiber optic,0.0
+Internet_Service_No,0.0
+Payment_Method_Credit card (automatic),0.0
+Payment_Method_Mailed check,0.0

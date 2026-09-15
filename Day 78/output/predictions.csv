@@ -1,0 +1,496 @@
+Customer_ID,Predicted_Churn,Churn_Probability,Risk_Score,Risk_Level,Recommended_Action
+CUST_11401,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10344,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11324,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11193,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10418,1,0.9514,95.1,High,Immediate proactive retention call with annual renewal discount
+CUST_10200,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11747,0,0.0986,9.9,Low,Standard loyalty rewards and product recommendations
+CUST_11415,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10291,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11274,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11168,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10264,1,0.9514,95.1,High,Immediate proactive retention call with annual renewal discount
+CUST_12037,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11703,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11053,1,0.9514,95.1,High,Immediate proactive retention call with annual renewal discount
+CUST_11192,0,0.0986,9.9,Low,Standard loyalty rewards and product recommendations
+CUST_10681,1,1.0,100.0,High,Immediate proactive retention call with annual renewal discount
+CUST_11667,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10649,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11294,1,1.0,100.0,High,Immediate proactive retention call with annual renewal discount
+CUST_11945,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10333,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11388,1,1.0,100.0,High,Immediate proactive retention call with annual renewal discount
+CUST_10493,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_12009,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11372,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11687,1,0.8425,84.3,High,Immediate proactive retention call with annual renewal discount
+CUST_10016,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11819,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_12072,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11067,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10948,1,0.8425,84.3,High,Immediate proactive retention call with annual renewal discount
+CUST_12295,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11433,1,0.8425,84.3,High,Immediate proactive retention call with annual renewal discount
+CUST_12036,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_12058,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10477,1,1.0,100.0,High,Immediate proactive retention call with annual renewal discount
+CUST_11604,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10612,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11143,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_12322,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11277,1,0.8425,84.3,High,Immediate proactive retention call with annual renewal discount
+CUST_12345,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_12073,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11167,0,0.0986,9.9,Low,Standard loyalty rewards and product recommendations
+CUST_10914,1,1.0,100.0,High,Immediate proactive retention call with annual renewal discount
+CUST_11549,1,1.0,100.0,High,Immediate proactive retention call with annual renewal discount
+CUST_10739,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10278,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_12281,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11181,1,0.9514,95.1,High,Immediate proactive retention call with annual renewal discount
+CUST_10068,1,1.0,100.0,High,Immediate proactive retention call with annual renewal discount
+CUST_10911,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11074,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11052,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11008,1,1.0,100.0,High,Immediate proactive retention call with annual renewal discount
+CUST_10906,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11941,1,0.8425,84.3,High,Immediate proactive retention call with annual renewal discount
+CUST_11646,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11931,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11140,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_12279,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10299,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_12214,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10294,0,0.3333,33.3,Medium,Engagement email sequence and service satisfaction survey
+CUST_10033,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10506,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_12436,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10208,0,0.0986,9.9,Low,Standard loyalty rewards and product recommendations
+CUST_10267,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11843,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10512,1,0.9514,95.1,High,Immediate proactive retention call with annual renewal discount
+CUST_10520,1,0.9514,95.1,High,Immediate proactive retention call with annual renewal discount
+CUST_11847,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_12287,0,0.0833,8.3,Low,Standard loyalty rewards and product recommendations
+CUST_12353,0,0.0986,9.9,Low,Standard loyalty rewards and product recommendations
+CUST_11986,1,0.8425,84.3,High,Immediate proactive retention call with annual renewal discount
+CUST_10674,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_12194,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11235,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11561,0,0.0986,9.9,Low,Standard loyalty rewards and product recommendations
+CUST_10605,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_12272,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11731,1,0.9514,95.1,High,Immediate proactive retention call with annual renewal discount
+CUST_11305,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10169,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_12079,0,0.0986,9.9,Low,Standard loyalty rewards and product recommendations
+CUST_11793,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11209,1,0.8425,84.3,High,Immediate proactive retention call with annual renewal discount
+CUST_10687,1,0.8425,84.3,High,Immediate proactive retention call with annual renewal discount
+CUST_11570,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10439,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11536,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10258,1,0.8425,84.3,High,Immediate proactive retention call with annual renewal discount
+CUST_12306,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11385,1,0.9514,95.1,High,Immediate proactive retention call with annual renewal discount
+CUST_10444,1,1.0,100.0,High,Immediate proactive retention call with annual renewal discount
+CUST_10115,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10624,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_12054,1,1.0,100.0,High,Immediate proactive retention call with annual renewal discount
+CUST_10001,1,0.9375,93.8,High,Immediate proactive retention call with annual renewal discount
+CUST_11588,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10120,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_12003,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10731,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11907,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10765,1,0.9375,93.8,High,Immediate proactive retention call with annual renewal discount
+CUST_10002,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11560,1,0.9514,95.1,High,Immediate proactive retention call with annual renewal discount
+CUST_11572,1,0.8425,84.3,High,Immediate proactive retention call with annual renewal discount
+CUST_10492,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10654,1,0.9514,95.1,High,Immediate proactive retention call with annual renewal discount
+CUST_11449,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11295,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10689,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_12178,1,0.8425,84.3,High,Immediate proactive retention call with annual renewal discount
+CUST_10088,1,1.0,100.0,High,Immediate proactive retention call with annual renewal discount
+CUST_12361,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_12145,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11839,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11594,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11434,1,0.9375,93.8,High,Immediate proactive retention call with annual renewal discount
+CUST_10806,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11531,0,0.3333,33.3,Medium,Engagement email sequence and service satisfaction survey
+CUST_11093,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10595,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10511,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10853,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11026,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_12135,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10147,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_12186,1,0.9514,95.1,High,Immediate proactive retention call with annual renewal discount
+CUST_10553,1,0.9375,93.8,High,Immediate proactive retention call with annual renewal discount
+CUST_11960,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11683,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11423,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_12286,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11946,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10523,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_12196,1,1.0,100.0,High,Immediate proactive retention call with annual renewal discount
+CUST_11853,1,0.8425,84.3,High,Immediate proactive retention call with annual renewal discount
+CUST_11273,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10024,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11194,1,1.0,100.0,High,Immediate proactive retention call with annual renewal discount
+CUST_11428,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_12310,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10192,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11849,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10355,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_12307,1,0.8425,84.3,High,Immediate proactive retention call with annual renewal discount
+CUST_12117,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_12006,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_12338,1,0.8425,84.3,High,Immediate proactive retention call with annual renewal discount
+CUST_10199,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10939,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10546,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10986,0,0.0986,9.9,Low,Standard loyalty rewards and product recommendations
+CUST_12271,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11873,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10525,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11375,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11019,0,0.0986,9.9,Low,Standard loyalty rewards and product recommendations
+CUST_11951,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10573,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10519,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10778,1,0.8425,84.3,High,Immediate proactive retention call with annual renewal discount
+CUST_12376,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_12002,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10389,0,0.0986,9.9,Low,Standard loyalty rewards and product recommendations
+CUST_12017,1,1.0,100.0,High,Immediate proactive retention call with annual renewal discount
+CUST_11981,1,1.0,100.0,High,Immediate proactive retention call with annual renewal discount
+CUST_12062,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_12260,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11359,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11033,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11937,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10903,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11591,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_12011,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10670,1,0.8425,84.3,High,Immediate proactive retention call with annual renewal discount
+CUST_11384,1,0.8425,84.3,High,Immediate proactive retention call with annual renewal discount
+CUST_11520,1,0.9514,95.1,High,Immediate proactive retention call with annual renewal discount
+CUST_12223,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10209,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11787,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11145,1,1.0,100.0,High,Immediate proactive retention call with annual renewal discount
+CUST_12347,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11482,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11461,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11299,1,0.9514,95.1,High,Immediate proactive retention call with annual renewal discount
+CUST_10447,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10239,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11427,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11708,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10838,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11544,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11355,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11624,1,0.9514,95.1,High,Immediate proactive retention call with annual renewal discount
+CUST_12184,1,0.9514,95.1,High,Immediate proactive retention call with annual renewal discount
+CUST_11456,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_12140,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11030,1,1.0,100.0,High,Immediate proactive retention call with annual renewal discount
+CUST_11103,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11072,1,0.9514,95.1,High,Immediate proactive retention call with annual renewal discount
+CUST_11290,0,0.0986,9.9,Low,Standard loyalty rewards and product recommendations
+CUST_12293,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_12035,1,1.0,100.0,High,Immediate proactive retention call with annual renewal discount
+CUST_11694,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10316,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11391,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11269,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10160,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_12425,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_12466,1,1.0,100.0,High,Immediate proactive retention call with annual renewal discount
+CUST_11526,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10875,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10957,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10530,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10368,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10795,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_12136,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10259,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_12396,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11750,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10993,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_12484,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_12255,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11507,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11637,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10432,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_12102,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_12203,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_12052,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11442,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_12132,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11876,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11365,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11514,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10173,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11780,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10745,0,0.0833,8.3,Low,Standard loyalty rewards and product recommendations
+CUST_11292,1,1.0,100.0,High,Immediate proactive retention call with annual renewal discount
+CUST_11727,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11242,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10718,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_12495,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10527,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_12126,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_12385,1,0.8425,84.3,High,Immediate proactive retention call with annual renewal discount
+CUST_10858,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11910,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11685,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10872,1,1.0,100.0,High,Immediate proactive retention call with annual renewal discount
+CUST_11592,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_12346,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10198,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11901,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10330,0,0.0986,9.9,Low,Standard loyalty rewards and product recommendations
+CUST_12174,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11297,1,0.9514,95.1,High,Immediate proactive retention call with annual renewal discount
+CUST_11357,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_12431,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11011,0,0.0986,9.9,Low,Standard loyalty rewards and product recommendations
+CUST_11048,1,1.0,100.0,High,Immediate proactive retention call with annual renewal discount
+CUST_11757,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11258,1,0.9375,93.8,High,Immediate proactive retention call with annual renewal discount
+CUST_12148,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10449,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10747,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10387,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_12468,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10615,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10851,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_12195,1,0.7143,71.4,High,Immediate proactive retention call with annual renewal discount
+CUST_10046,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11691,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11213,1,1.0,100.0,High,Immediate proactive retention call with annual renewal discount
+CUST_11974,0,0.0833,8.3,Low,Standard loyalty rewards and product recommendations
+CUST_11027,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_12105,1,0.9514,95.1,High,Immediate proactive retention call with annual renewal discount
+CUST_11400,1,1.0,100.0,High,Immediate proactive retention call with annual renewal discount
+CUST_10932,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_12290,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11363,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10964,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10850,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_12033,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11495,1,1.0,100.0,High,Immediate proactive retention call with annual renewal discount
+CUST_11510,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_12170,0,0.0986,9.9,Low,Standard loyalty rewards and product recommendations
+CUST_11309,1,1.0,100.0,High,Immediate proactive retention call with annual renewal discount
+CUST_10380,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10501,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10056,1,0.8425,84.3,High,Immediate proactive retention call with annual renewal discount
+CUST_10997,1,0.9514,95.1,High,Immediate proactive retention call with annual renewal discount
+CUST_12038,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10049,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10067,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11718,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11473,1,0.9514,95.1,High,Immediate proactive retention call with annual renewal discount
+CUST_11824,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11136,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_12010,1,0.8425,84.3,High,Immediate proactive retention call with annual renewal discount
+CUST_11515,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_12243,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10968,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10811,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_12076,1,0.8425,84.3,High,Immediate proactive retention call with annual renewal discount
+CUST_12337,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10526,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11234,1,1.0,100.0,High,Immediate proactive retention call with annual renewal discount
+CUST_11633,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10087,1,0.9514,95.1,High,Immediate proactive retention call with annual renewal discount
+CUST_10673,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10637,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11672,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10876,1,1.0,100.0,High,Immediate proactive retention call with annual renewal discount
+CUST_11967,1,0.8425,84.3,High,Immediate proactive retention call with annual renewal discount
+CUST_11272,1,0.9375,93.8,High,Immediate proactive retention call with annual renewal discount
+CUST_12156,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10354,1,0.8425,84.3,High,Immediate proactive retention call with annual renewal discount
+CUST_10083,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_12248,1,0.9514,95.1,High,Immediate proactive retention call with annual renewal discount
+CUST_12259,1,0.9375,93.8,High,Immediate proactive retention call with annual renewal discount
+CUST_10650,1,0.8425,84.3,High,Immediate proactive retention call with annual renewal discount
+CUST_12330,1,1.0,100.0,High,Immediate proactive retention call with annual renewal discount
+CUST_11717,1,1.0,100.0,High,Immediate proactive retention call with annual renewal discount
+CUST_10500,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10832,0,0.0833,8.3,Low,Standard loyalty rewards and product recommendations
+CUST_11743,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10240,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11267,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11377,1,0.7143,71.4,High,Immediate proactive retention call with annual renewal discount
+CUST_11851,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10254,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_12063,1,0.9375,93.8,High,Immediate proactive retention call with annual renewal discount
+CUST_12147,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11506,0,0.2,20.0,Low,Standard loyalty rewards and product recommendations
+CUST_10926,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_12122,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_12356,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11214,0,0.0986,9.9,Low,Standard loyalty rewards and product recommendations
+CUST_10619,1,1.0,100.0,High,Immediate proactive retention call with annual renewal discount
+CUST_10975,1,0.9514,95.1,High,Immediate proactive retention call with annual renewal discount
+CUST_11487,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_12083,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10174,1,1.0,100.0,High,Immediate proactive retention call with annual renewal discount
+CUST_10242,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11157,1,0.8425,84.3,High,Immediate proactive retention call with annual renewal discount
+CUST_11697,1,0.8425,84.3,High,Immediate proactive retention call with annual renewal discount
+CUST_11927,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11073,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10621,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_12162,1,0.8425,84.3,High,Immediate proactive retention call with annual renewal discount
+CUST_11525,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10992,1,0.8425,84.3,High,Immediate proactive retention call with annual renewal discount
+CUST_11270,0,0.0986,9.9,Low,Standard loyalty rewards and product recommendations
+CUST_12475,1,0.8425,84.3,High,Immediate proactive retention call with annual renewal discount
+CUST_12229,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11954,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_12045,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11978,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10128,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10025,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10671,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10158,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10696,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10119,1,0.9514,95.1,High,Immediate proactive retention call with annual renewal discount
+CUST_10266,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10372,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_12455,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11904,0,0.0986,9.9,Low,Standard loyalty rewards and product recommendations
+CUST_10662,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11364,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10692,1,1.0,100.0,High,Immediate proactive retention call with annual renewal discount
+CUST_11886,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10052,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_12416,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_12074,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10764,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11740,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11085,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10798,1,0.9514,95.1,High,Immediate proactive retention call with annual renewal discount
+CUST_10365,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_12040,1,1.0,100.0,High,Immediate proactive retention call with annual renewal discount
+CUST_12171,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11361,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11643,1,0.9375,93.8,High,Immediate proactive retention call with annual renewal discount
+CUST_11472,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11803,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10641,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10564,1,1.0,100.0,High,Immediate proactive retention call with annual renewal discount
+CUST_10910,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10859,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_12363,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10828,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11864,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11117,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11505,1,1.0,100.0,High,Immediate proactive retention call with annual renewal discount
+CUST_11693,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11730,1,0.8425,84.3,High,Immediate proactive retention call with annual renewal discount
+CUST_10575,1,0.9514,95.1,High,Immediate proactive retention call with annual renewal discount
+CUST_11111,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11912,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11155,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10917,1,0.8425,84.3,High,Immediate proactive retention call with annual renewal discount
+CUST_11432,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10017,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10848,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_12392,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10039,1,0.8425,84.3,High,Immediate proactive retention call with annual renewal discount
+CUST_10011,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10787,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10125,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10215,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10187,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_12131,1,1.0,100.0,High,Immediate proactive retention call with annual renewal discount
+CUST_11552,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11064,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10414,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10099,1,1.0,100.0,High,Immediate proactive retention call with annual renewal discount
+CUST_10928,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10600,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11170,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10995,0,0.0986,9.9,Low,Standard loyalty rewards and product recommendations
+CUST_10749,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11944,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10284,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_12458,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_12111,1,0.8425,84.3,High,Immediate proactive retention call with annual renewal discount
+CUST_11709,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_12429,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_12027,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11105,1,0.8425,84.3,High,Immediate proactive retention call with annual renewal discount
+CUST_10134,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10514,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_12297,1,0.9514,95.1,High,Immediate proactive retention call with annual renewal discount
+CUST_11806,1,0.9514,95.1,High,Immediate proactive retention call with annual renewal discount
+CUST_11266,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11311,1,0.9514,95.1,High,Immediate proactive retention call with annual renewal discount
+CUST_10783,1,0.8425,84.3,High,Immediate proactive retention call with annual renewal discount
+CUST_11246,1,0.9514,95.1,High,Immediate proactive retention call with annual renewal discount
+CUST_10581,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11885,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10958,1,1.0,100.0,High,Immediate proactive retention call with annual renewal discount
+CUST_10704,1,0.8425,84.3,High,Immediate proactive retention call with annual renewal discount
+CUST_11920,1,1.0,100.0,High,Immediate proactive retention call with annual renewal discount
+CUST_11150,1,1.0,100.0,High,Immediate proactive retention call with annual renewal discount
+CUST_10626,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10746,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11887,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11331,1,1.0,100.0,High,Immediate proactive retention call with annual renewal discount
+CUST_11796,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11061,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11903,1,0.9514,95.1,High,Immediate proactive retention call with annual renewal discount
+CUST_12336,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_12351,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10861,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11289,1,1.0,100.0,High,Immediate proactive retention call with annual renewal discount
+CUST_10782,1,0.9514,95.1,High,Immediate proactive retention call with annual renewal discount
+CUST_10845,1,1.0,100.0,High,Immediate proactive retention call with annual renewal discount
+CUST_10322,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10880,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_12155,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10148,1,0.9514,95.1,High,Immediate proactive retention call with annual renewal discount
+CUST_12084,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11550,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_12028,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11060,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_12216,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11556,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10300,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11187,0,0.0986,9.9,Low,Standard loyalty rewards and product recommendations
+CUST_11890,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11162,1,0.9514,95.1,High,Immediate proactive retention call with annual renewal discount
+CUST_10260,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_12078,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11551,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11039,1,0.9375,93.8,High,Immediate proactive retention call with annual renewal discount
+CUST_11606,1,0.8425,84.3,High,Immediate proactive retention call with annual renewal discount
+CUST_10533,0,0.0986,9.9,Low,Standard loyalty rewards and product recommendations
+CUST_12050,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11133,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11015,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10862,0,0.3333,33.3,Medium,Engagement email sequence and service satisfaction survey
+CUST_10265,1,0.6,60.0,Medium,Engagement email sequence and service satisfaction survey
+CUST_10860,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_12220,0,0.0986,9.9,Low,Standard loyalty rewards and product recommendations
+CUST_12342,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11403,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11176,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_11262,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
+CUST_10395,1,0.9514,95.1,High,Immediate proactive retention call with annual renewal discount
+CUST_10003,1,1.0,100.0,High,Immediate proactive retention call with annual renewal discount
+CUST_11232,0,0.0,0.0,Low,Standard loyalty rewards and product recommendations
