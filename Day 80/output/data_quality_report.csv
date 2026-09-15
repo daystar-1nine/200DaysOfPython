@@ -1,0 +1,16 @@
+Column,Data_Type,Missing_Count,Missing_Percentage,Unique_Values,Sample_Value
+Customer_ID,str,0,0.0,2500,CUST_10000
+Age,float64,15,0.6,58,56.0
+Gender,str,0,0.0,2,Male
+Tenure_Months,int64,0,0.0,72,68
+Monthly_Charges,float64,12,0.48,2120,77.86
+Total_Charges,float64,10,0.4,2482,5121.42
+Contract_Type,str,0,0.0,4,One year
+Internet_Service,str,0,0.0,3,Fiber optic
+Payment_Method,str,0,0.0,4,Bank transfer (automatic)
+Support_Calls,int64,0,0.0,9,1
+Late_Payments,int64,0,0.0,7,2
+Usage_Hours,float64,0,0.0,1326,165.1
+Discount,float64,0,0.0,5,0.0
+Complaints,int64,0,0.0,6,0
+Churn,int64,0,0.0,2,0
