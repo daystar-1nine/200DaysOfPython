@@ -1,0 +1,2 @@
+cost_fp,cost_fn,unmanaged_cost,default_cost,optimal_threshold,optimal_cost,savings,pct_savings
+300.0,2000.0,252000.0,16700.0,0.3,12000.0,4700.0,28.143712574850298

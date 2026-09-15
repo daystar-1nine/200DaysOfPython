@@ -1,0 +1,501 @@
+Churn_Probability,Risk_Tier,Action,Urgency,Customer_ID,Actual_Churn
+0.9095493907491998,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_10782,1
+0.12330505931965748,Low Risk,Standard engagement & loyalty perks,None,CUST_12042,0
+0.008188212864444714,Low Risk,Standard engagement & loyalty perks,None,CUST_10429,0
+0.16391348175906054,Low Risk,Standard engagement & loyalty perks,None,CUST_10592,0
+0.03734006211180124,Low Risk,Standard engagement & loyalty perks,None,CUST_10515,0
+0.6696142614695247,High Risk,Proactive outreach & discounted renewal offer,Medium,CUST_12492,1
+0.4698076904948683,Medium Risk,Automated satisfaction check-in & feature updates,Low,CUST_11278,0
+0.1257177501575479,Low Risk,Standard engagement & loyalty perks,None,CUST_11284,0
+0.16702665671531772,Low Risk,Standard engagement & loyalty perks,None,CUST_10237,0
+0.06735827211623194,Low Risk,Standard engagement & loyalty perks,None,CUST_10299,0
+0.8453666536406041,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_10294,1
+0.8725986706149652,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_11730,1
+0.03658831743579178,Low Risk,Standard engagement & loyalty perks,None,CUST_11880,0
+0.13982078663902064,Low Risk,Standard engagement & loyalty perks,None,CUST_11753,0
+0.891866590483299,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_10119,1
+0.9344085393814503,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_11687,1
+0.3035214402714403,Medium Risk,Automated satisfaction check-in & feature updates,Low,CUST_11978,0
+0.21165613030637767,Low Risk,Standard engagement & loyalty perks,None,CUST_11703,0
+0.04519005764562253,Low Risk,Standard engagement & loyalty perks,None,CUST_11427,0
+0.13384398666319844,Low Risk,Standard engagement & loyalty perks,None,CUST_12292,0
+0.19927878593349896,Low Risk,Standard engagement & loyalty perks,None,CUST_10499,0
+0.18249253887351027,Low Risk,Standard engagement & loyalty perks,None,CUST_10033,0
+0.11718922952930243,Low Risk,Standard engagement & loyalty perks,None,CUST_12286,0
+0.09287944059236432,Low Risk,Standard engagement & loyalty perks,None,CUST_10197,0
+0.051310484151863456,Low Risk,Standard engagement & loyalty perks,None,CUST_10352,0
+0.8417048266463594,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_11072,1
+0.03857978477573092,Low Risk,Standard engagement & loyalty perks,None,CUST_12241,0
+0.03811595053649409,Low Risk,Standard engagement & loyalty perks,None,CUST_11681,0
+0.9075926951732529,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_12010,1
+0.26742527357050233,Medium Risk,Automated satisfaction check-in & feature updates,Low,CUST_10207,0
+0.01470692990069339,Low Risk,Standard engagement & loyalty perks,None,CUST_11342,0
+0.11072629460935712,Low Risk,Standard engagement & loyalty perks,None,CUST_10186,0
+0.6980267172860956,High Risk,Proactive outreach & discounted renewal offer,Medium,CUST_11941,1
+0.012399359594923562,Low Risk,Standard engagement & loyalty perks,None,CUST_10241,0
+0.1875739933375803,Low Risk,Standard engagement & loyalty perks,None,CUST_10518,0
+0.029410839754473027,Low Risk,Standard engagement & loyalty perks,None,CUST_12335,0
+0.21857716212492787,Low Risk,Standard engagement & loyalty perks,None,CUST_12185,0
+0.2656881313131313,Medium Risk,Automated satisfaction check-in & feature updates,Low,CUST_11121,0
+0.2133963077984817,Low Risk,Standard engagement & loyalty perks,None,CUST_11969,0
+0.23994473173884937,Low Risk,Standard engagement & loyalty perks,None,CUST_12122,1
+0.8708589358113095,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_12182,1
+0.1252986929210854,Low Risk,Standard engagement & loyalty perks,None,CUST_11005,0
+0.20790459249836238,Low Risk,Standard engagement & loyalty perks,None,CUST_12201,0
+0.0626885888652282,Low Risk,Standard engagement & loyalty perks,None,CUST_10835,0
+0.833885778226245,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_11560,1
+0.07235092266007317,Low Risk,Standard engagement & loyalty perks,None,CUST_11858,0
+0.2031449985505913,Low Risk,Standard engagement & loyalty perks,None,CUST_10539,0
+0.13037456924472457,Low Risk,Standard engagement & loyalty perks,None,CUST_10412,0
+0.014820613013907342,Low Risk,Standard engagement & loyalty perks,None,CUST_11774,0
+0.12843045956667296,Low Risk,Standard engagement & loyalty perks,None,CUST_10146,0
+0.18330514506274984,Low Risk,Standard engagement & loyalty perks,None,CUST_11694,0
+0.8993472050634321,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_10395,1
+0.03482533706050642,Low Risk,Standard engagement & loyalty perks,None,CUST_10979,0
+0.02126000024962558,Low Risk,Standard engagement & loyalty perks,None,CUST_11875,0
+0.20563789190581766,Low Risk,Standard engagement & loyalty perks,None,CUST_11128,0
+0.11539074983140014,Low Risk,Standard engagement & loyalty perks,None,CUST_10793,0
+0.8624126045922312,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_10917,1
+0.06925397187715349,Low Risk,Standard engagement & loyalty perks,None,CUST_11198,0
+0.014581673883488203,Low Risk,Standard engagement & loyalty perks,None,CUST_11490,0
+0.167166648565471,Low Risk,Standard engagement & loyalty perks,None,CUST_11762,0
+0.053212948382913815,Low Risk,Standard engagement & loyalty perks,None,CUST_10771,0
+0.013036994675296064,Low Risk,Standard engagement & loyalty perks,None,CUST_11791,0
+0.1598377326646711,Low Risk,Standard engagement & loyalty perks,None,CUST_12284,0
+0.03797027844729399,Low Risk,Standard engagement & loyalty perks,None,CUST_12000,0
+0.05224646805605491,Low Risk,Standard engagement & loyalty perks,None,CUST_11125,0
+0.060080679718507134,Low Risk,Standard engagement & loyalty perks,None,CUST_12294,0
+0.10664461045640136,Low Risk,Standard engagement & loyalty perks,None,CUST_10253,0
+0.020682315170850774,Low Risk,Standard engagement & loyalty perks,None,CUST_12171,0
+0.025266133819554913,Low Risk,Standard engagement & loyalty perks,None,CUST_10998,0
+0.03070205471336508,Low Risk,Standard engagement & loyalty perks,None,CUST_10957,0
+0.2190121212121212,Low Risk,Standard engagement & loyalty perks,None,CUST_12041,0
+0.09314570232530184,Low Risk,Standard engagement & loyalty perks,None,CUST_10048,0
+0.009038263117173852,Low Risk,Standard engagement & loyalty perks,None,CUST_11510,0
+0.044860649757913616,Low Risk,Standard engagement & loyalty perks,None,CUST_11822,0
+0.03748332502964227,Low Risk,Standard engagement & loyalty perks,None,CUST_12214,0
+0.17780666836383754,Low Risk,Standard engagement & loyalty perks,None,CUST_10256,0
+0.8401202021475815,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_10872,1
+0.02967041562968114,Low Risk,Standard engagement & loyalty perks,None,CUST_11253,0
+0.6878016813845039,High Risk,Proactive outreach & discounted renewal offer,Medium,CUST_12357,0
+0.189976899094582,Low Risk,Standard engagement & loyalty perks,None,CUST_11683,0
+0.9037206296105995,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_10088,1
+0.6546478627127961,High Risk,Proactive outreach & discounted renewal offer,Medium,CUST_11643,1
+0.8587521791721057,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_11473,1
+0.012844306121230551,Low Risk,Standard engagement & loyalty perks,None,CUST_11526,0
+0.03727458048688292,Low Risk,Standard engagement & loyalty perks,None,CUST_12221,0
+0.157555454380349,Low Risk,Standard engagement & loyalty perks,None,CUST_12393,0
+0.8790608465411377,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_11162,1
+0.24688313809108245,Low Risk,Standard engagement & loyalty perks,None,CUST_11566,0
+0.7520415835339709,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_11048,1
+0.8201379136125605,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_10068,1
+0.05613539973988788,Low Risk,Standard engagement & loyalty perks,None,CUST_10157,0
+0.6981995515419777,High Risk,Proactive outreach & discounted renewal offer,Medium,CUST_10001,1
+0.1393529795531344,Low Risk,Standard engagement & loyalty perks,None,CUST_12021,0
+0.8930014942357178,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_10783,1
+0.9360845586809095,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_10876,1
+0.8680246442438997,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_12120,1
+0.9167681484916909,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_10035,1
+0.011562934648160147,Low Risk,Standard engagement & loyalty perks,None,CUST_10436,0
+0.021750651011093382,Low Risk,Standard engagement & loyalty perks,None,CUST_11930,0
+0.8918162902120135,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_12035,1
+0.10743553494373083,Low Risk,Standard engagement & loyalty perks,None,CUST_10191,0
+0.2381174924924925,Low Risk,Standard engagement & loyalty perks,None,CUST_11138,0
+0.07591377445613053,Low Risk,Standard engagement & loyalty perks,None,CUST_10066,0
+0.17362304719923619,Low Risk,Standard engagement & loyalty perks,None,CUST_10843,0
+0.24955438947486588,Low Risk,Standard engagement & loyalty perks,None,CUST_11356,0
+0.13988097527378962,Low Risk,Standard engagement & loyalty perks,None,CUST_11035,0
+0.048498090643969496,Low Risk,Standard engagement & loyalty perks,None,CUST_11217,0
+0.23741883728324406,Low Risk,Standard engagement & loyalty perks,None,CUST_11451,0
+0.05830503182152534,Low Risk,Standard engagement & loyalty perks,None,CUST_10836,0
+0.9330430664193159,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_11277,1
+0.003634109180368461,Low Risk,Standard engagement & loyalty perks,None,CUST_11913,0
+0.11566826923076923,Low Risk,Standard engagement & loyalty perks,None,CUST_12114,0
+0.2230759333909062,Low Risk,Standard engagement & loyalty perks,None,CUST_12080,0
+0.8496289788727907,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_12034,1
+0.1760284281832942,Low Risk,Standard engagement & loyalty perks,None,CUST_11654,0
+0.17350151065542818,Low Risk,Standard engagement & loyalty perks,None,CUST_11216,0
+0.14644639877742577,Low Risk,Standard engagement & loyalty perks,None,CUST_11968,0
+0.9187828742998276,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_11292,1
+0.9095382513928414,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_11246,1
+0.03644878706199461,Low Risk,Standard engagement & loyalty perks,None,CUST_12118,0
+0.227606579370139,Low Risk,Standard engagement & loyalty perks,None,CUST_11613,0
+0.14509948035994838,Low Risk,Standard engagement & loyalty perks,None,CUST_10082,0
+0.7151938672438672,High Risk,Proactive outreach & discounted renewal offer,Medium,CUST_11495,1
+0.9700888137752643,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_10914,1
+0.21240642470630372,Low Risk,Standard engagement & loyalty perks,None,CUST_10919,0
+0.8890259539563169,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_12107,1
+0.13352925059881066,Low Risk,Standard engagement & loyalty perks,None,CUST_10366,0
+0.8723850778654723,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_11385,1
+0.6480519965216069,High Risk,Proactive outreach & discounted renewal offer,Medium,CUST_11434,1
+0.04873385088012564,Low Risk,Standard engagement & loyalty perks,None,CUST_11616,0
+0.14562730417930989,Low Risk,Standard engagement & loyalty perks,None,CUST_11078,0
+0.141776867361609,Low Risk,Standard engagement & loyalty perks,None,CUST_12190,0
+0.11865437287047373,Low Risk,Standard engagement & loyalty perks,None,CUST_12099,0
+0.03543057659750366,Low Risk,Standard engagement & loyalty perks,None,CUST_10329,0
+0.3769853300208135,Medium Risk,Automated satisfaction check-in & feature updates,Low,CUST_11394,0
+0.8058613585797292,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_10738,0
+0.027418538816606004,Low Risk,Standard engagement & loyalty perks,None,CUST_12396,0
+0.12804610009873169,Low Risk,Standard engagement & loyalty perks,None,CUST_10912,0
+0.14718538594379316,Low Risk,Standard engagement & loyalty perks,None,CUST_10487,0
+0.9202025961978557,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_10687,1
+0.13083007886783998,Low Risk,Standard engagement & loyalty perks,None,CUST_11014,0
+0.8914382829212868,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_11384,1
+0.13047144107474407,Low Risk,Standard engagement & loyalty perks,None,CUST_10506,0
+0.952661808434573,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_10520,1
+0.02800332566310969,Low Risk,Standard engagement & loyalty perks,None,CUST_12364,0
+0.11224043914423171,Low Risk,Standard engagement & loyalty perks,None,CUST_10158,0
+0.14376169832379318,Low Risk,Standard engagement & loyalty perks,None,CUST_11502,0
+0.11400375277536529,Low Risk,Standard engagement & loyalty perks,None,CUST_12491,1
+0.024746956689897757,Low Risk,Standard engagement & loyalty perks,None,CUST_12495,0
+0.04074280498961423,Low Risk,Standard engagement & loyalty perks,None,CUST_10239,0
+0.13039463927634534,Low Risk,Standard engagement & loyalty perks,None,CUST_12345,0
+0.05131018179360233,Low Risk,Standard engagement & loyalty perks,None,CUST_12429,0
+0.04711251757735292,Low Risk,Standard engagement & loyalty perks,None,CUST_11492,0
+0.06934503113586661,Low Risk,Standard engagement & loyalty perks,None,CUST_10588,0
+0.6934015816979204,High Risk,Proactive outreach & discounted renewal offer,Medium,CUST_10056,1
+0.012176389644282857,Low Risk,Standard engagement & loyalty perks,None,CUST_12217,0
+0.14544135154061624,Low Risk,Standard engagement & loyalty perks,None,CUST_12234,0
+0.18786557065263898,Low Risk,Standard engagement & loyalty perks,None,CUST_10728,0
+0.9032963428283363,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_11388,1
+0.4859599950744154,Medium Risk,Automated satisfaction check-in & feature updates,Low,CUST_12288,0
+0.16283833351049357,Low Risk,Standard engagement & loyalty perks,None,CUST_12455,0
+0.905663570033605,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_11194,1
+0.3347380952380952,Medium Risk,Automated satisfaction check-in & feature updates,Low,CUST_11718,0
+0.05871786458598703,Low Risk,Standard engagement & loyalty perks,None,CUST_10522,0
+0.053330970544555864,Low Risk,Standard engagement & loyalty perks,None,CUST_10928,0
+0.11542348378930622,Low Risk,Standard engagement & loyalty perks,None,CUST_11562,0
+0.024852801929259583,Low Risk,Standard engagement & loyalty perks,None,CUST_11040,0
+0.10468040170613703,Low Risk,Standard engagement & loyalty perks,None,CUST_11050,0
+0.14858178925943022,Low Risk,Standard engagement & loyalty perks,None,CUST_10296,0
+0.1652983558370197,Low Risk,Standard engagement & loyalty perks,None,CUST_10708,0
+0.5650633598831483,High Risk,Proactive outreach & discounted renewal offer,Medium,CUST_12354,0
+0.011427296542231022,Low Risk,Standard engagement & loyalty perks,None,CUST_10442,0
+0.043675220900891286,Low Risk,Standard engagement & loyalty perks,None,CUST_11419,0
+0.08913405314464003,Low Risk,Standard engagement & loyalty perks,None,CUST_11768,0
+0.04473228425076493,Low Risk,Standard engagement & loyalty perks,None,CUST_10763,0
+0.006454101890118989,Low Risk,Standard engagement & loyalty perks,None,CUST_12425,0
+0.05493375379217169,Low Risk,Standard engagement & loyalty perks,None,CUST_11059,0
+0.053225111218448536,Low Risk,Standard engagement & loyalty perks,None,CUST_12212,0
+0.08070868868683975,Low Risk,Standard engagement & loyalty perks,None,CUST_11245,0
+0.10779024221774736,Low Risk,Standard engagement & loyalty perks,None,CUST_10314,0
+0.09575212815791173,Low Risk,Standard engagement & loyalty perks,None,CUST_11071,0
+0.807859052365547,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_11531,1
+0.5723844681082505,High Risk,Proactive outreach & discounted renewal offer,Medium,CUST_10553,1
+0.06537278889102172,Low Risk,Standard engagement & loyalty perks,None,CUST_11645,0
+0.017675720427463574,Low Risk,Standard engagement & loyalty perks,None,CUST_11552,0
+0.020747742050665197,Low Risk,Standard engagement & loyalty perks,None,CUST_12093,0
+0.20631747948446238,Low Risk,Standard engagement & loyalty perks,None,CUST_12031,0
+0.022777777777777775,Low Risk,Standard engagement & loyalty perks,None,CUST_11910,0
+0.05967231431008099,Low Risk,Standard engagement & loyalty perks,None,CUST_12411,0
+0.042722788367470746,Low Risk,Standard engagement & loyalty perks,None,CUST_11343,0
+0.2947824398478658,Medium Risk,Automated satisfaction check-in & feature updates,Low,CUST_10045,0
+0.828326053006424,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_12040,1
+0.8366379212930162,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_11145,1
+0.9198742414221214,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_12230,1
+0.17230739602506215,Low Risk,Standard engagement & loyalty perks,None,CUST_11254,0
+0.8726875026378412,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_11309,1
+0.18554352857997358,Low Risk,Standard engagement & loyalty perks,None,CUST_11176,0
+0.9148646368643937,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_12368,1
+0.019666667705135137,Low Risk,Standard engagement & loyalty perks,None,CUST_10720,0
+0.07357812701744139,Low Risk,Standard engagement & loyalty perks,None,CUST_10118,0
+0.15366979923128316,Low Risk,Standard engagement & loyalty perks,None,CUST_10844,0
+0.024678720449036427,Low Risk,Standard engagement & loyalty perks,None,CUST_10634,0
+0.1268542643632445,Low Risk,Standard engagement & loyalty perks,None,CUST_10737,0
+0.826470595925553,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_11505,1
+0.18916364586599552,Low Risk,Standard engagement & loyalty perks,None,CUST_11515,0
+0.013056296826239504,Low Risk,Standard engagement & loyalty perks,None,CUST_10683,0
+0.057625382650553496,Low Risk,Standard engagement & loyalty perks,None,CUST_12103,0
+0.02758433597909692,Low Risk,Standard engagement & loyalty perks,None,CUST_11469,0
+0.000968572178513556,Low Risk,Standard engagement & loyalty perks,None,CUST_10827,0
+0.09038106218514765,Low Risk,Standard engagement & loyalty perks,None,CUST_11623,0
+0.020124466953389934,Low Risk,Standard engagement & loyalty perks,None,CUST_10842,0
+0.1803404474625139,Low Risk,Standard engagement & loyalty perks,None,CUST_10259,0
+0.7047661505161504,High Risk,Proactive outreach & discounted renewal offer,Medium,CUST_12302,1
+0.11078408813600667,Low Risk,Standard engagement & loyalty perks,None,CUST_11484,0
+0.03507450019043261,Low Risk,Standard engagement & loyalty perks,None,CUST_10598,0
+0.05069232965017267,Low Risk,Standard engagement & loyalty perks,None,CUST_11344,0
+0.7721082306950765,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_10845,1
+0.05349333411021518,Low Risk,Standard engagement & loyalty perks,None,CUST_10653,0
+0.12074062620022125,Low Risk,Standard engagement & loyalty perks,None,CUST_10978,0
+0.14324819624819626,Low Risk,Standard engagement & loyalty perks,None,CUST_11273,0
+0.0074480997005068016,Low Risk,Standard engagement & loyalty perks,None,CUST_12299,0
+0.11055922099020472,Low Risk,Standard engagement & loyalty perks,None,CUST_11525,0
+0.15781047257612724,Low Risk,Standard engagement & loyalty perks,None,CUST_11669,0
+0.10472143674158345,Low Risk,Standard engagement & loyalty perks,None,CUST_10277,0
+0.12689803515431036,Low Risk,Standard engagement & loyalty perks,None,CUST_11168,0
+0.035116524206417296,Low Risk,Standard engagement & loyalty perks,None,CUST_11568,0
+0.10052242822966505,Low Risk,Standard engagement & loyalty perks,None,CUST_11598,0
+0.142039283123093,Low Risk,Standard engagement & loyalty perks,None,CUST_11845,0
+0.8658034152966114,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_11986,1
+0.07419120937807278,Low Risk,Standard engagement & loyalty perks,None,CUST_11667,0
+0.0016837731273145603,Low Risk,Standard engagement & loyalty perks,None,CUST_11823,0
+0.016786907686946094,Low Risk,Standard engagement & loyalty perks,None,CUST_12303,0
+0.11499604446808624,Low Risk,Standard engagement & loyalty perks,None,CUST_11876,0
+0.01856739173911998,Low Risk,Standard engagement & loyalty perks,None,CUST_10384,0
+0.8903155246843468,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_10798,1
+0.17896106223525574,Low Risk,Standard engagement & loyalty perks,None,CUST_11977,0
+0.29392724867724873,Medium Risk,Automated satisfaction check-in & feature updates,Low,CUST_10739,0
+0.0922799834574028,Low Risk,Standard engagement & loyalty perks,None,CUST_10025,0
+0.03064747017203056,Low Risk,Standard engagement & loyalty perks,None,CUST_10521,0
+0.2796269841269841,Medium Risk,Automated satisfaction check-in & feature updates,Low,CUST_12270,0
+0.04119280856433826,Low Risk,Standard engagement & loyalty perks,None,CUST_11578,0
+0.18333333313269354,Low Risk,Standard engagement & loyalty perks,None,CUST_10662,0
+0.1137051349266582,Low Risk,Standard engagement & loyalty perks,None,CUST_10573,0
+0.04541342028160258,Low Risk,Standard engagement & loyalty perks,None,CUST_11375,0
+0.016040901383959465,Low Risk,Standard engagement & loyalty perks,None,CUST_11533,0
+0.009349722955828284,Low Risk,Standard engagement & loyalty perks,None,CUST_11146,0
+0.023911069350728,Low Risk,Standard engagement & loyalty perks,None,CUST_11144,0
+0.21433568950272608,Low Risk,Standard engagement & loyalty perks,None,CUST_11118,0
+0.03971458710066305,Low Risk,Standard engagement & loyalty perks,None,CUST_11856,0
+0.07682099743212396,Low Risk,Standard engagement & loyalty perks,None,CUST_10526,0
+0.11133530253446101,Low Risk,Standard engagement & loyalty perks,None,CUST_10342,0
+0.9341411458192637,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_12183,1
+0.15724588177062418,Low Risk,Standard engagement & loyalty perks,None,CUST_10661,0
+0.2505011754624358,Medium Risk,Automated satisfaction check-in & feature updates,Low,CUST_10263,0
+0.12447955383583613,Low Risk,Standard engagement & loyalty perks,None,CUST_11018,0
+0.007326971422707916,Low Risk,Standard engagement & loyalty perks,None,CUST_11914,0
+0.09389558856160253,Low Risk,Standard engagement & loyalty perks,None,CUST_10016,0
+0.27810632048224304,Medium Risk,Automated satisfaction check-in & feature updates,Low,CUST_11411,0
+0.6979016879837276,High Risk,Proactive outreach & discounted renewal offer,Medium,CUST_10174,1
+0.006754431664996551,Low Risk,Standard engagement & loyalty perks,None,CUST_11397,0
+0.2054914675547904,Low Risk,Standard engagement & loyalty perks,None,CUST_12416,0
+0.11358381571401992,Low Risk,Standard engagement & loyalty perks,None,CUST_10797,0
+0.33341008866008864,Medium Risk,Automated satisfaction check-in & feature updates,Low,CUST_11041,0
+0.13789790494058787,Low Risk,Standard engagement & loyalty perks,None,CUST_12272,0
+0.9079428136825524,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_11181,1
+0.007427975250555895,Low Risk,Standard engagement & loyalty perks,None,CUST_10370,0
+0.023695214621776546,Low Risk,Standard engagement & loyalty perks,None,CUST_10615,0
+0.1283803742914194,Low Risk,Standard engagement & loyalty perks,None,CUST_11871,0
+0.2635343915343915,Medium Risk,Automated satisfaction check-in & feature updates,Low,CUST_11060,0
+0.009787710131618664,Low Risk,Standard engagement & loyalty perks,None,CUST_11149,0
+0.8018609178879522,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_10003,1
+0.07241278410761319,Low Risk,Standard engagement & loyalty perks,None,CUST_12246,0
+0.14734970838415115,Low Risk,Standard engagement & loyalty perks,None,CUST_12431,0
+0.14632944052336533,Low Risk,Standard engagement & loyalty perks,None,CUST_10488,0
+0.8398014703618627,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_10099,1
+0.21960267174878098,Low Risk,Standard engagement & loyalty perks,None,CUST_11735,0
+0.06638595672946974,Low Risk,Standard engagement & loyalty perks,None,CUST_11812,0
+0.04159932469640322,Low Risk,Standard engagement & loyalty perks,None,CUST_12458,0
+0.14826274742570864,Low Risk,Standard engagement & loyalty perks,None,CUST_12127,0
+0.9050507648094803,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_10258,0
+0.8762178031181503,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_11988,1
+0.18060005290182476,Low Risk,Standard engagement & loyalty perks,None,CUST_12271,0
+0.8808734764628403,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_10564,1
+0.11914328476553177,Low Risk,Standard engagement & loyalty perks,None,CUST_11944,0
+0.018104779235585587,Low Risk,Standard engagement & loyalty perks,None,CUST_10002,0
+0.1045345751966101,Low Risk,Standard engagement & loyalty perks,None,CUST_10011,0
+0.2275610933090178,Low Risk,Standard engagement & loyalty perks,None,CUST_11177,0
+0.029984452193260243,Low Risk,Standard engagement & loyalty perks,None,CUST_11665,0
+0.8323313249053288,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_11008,1
+0.9171324818332452,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_10512,1
+0.0208250769513422,Low Risk,Standard engagement & loyalty perks,None,CUST_10024,0
+0.8944058343977599,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_12167,1
+0.9561115942721667,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_10948,1
+0.14045073261853605,Low Risk,Standard engagement & loyalty perks,None,CUST_10208,0
+0.13140516772303232,Low Risk,Standard engagement & loyalty perks,None,CUST_11329,0
+0.2570378030592969,Medium Risk,Automated satisfaction check-in & feature updates,Low,CUST_12079,0
+0.07218295609399035,Low Risk,Standard engagement & loyalty perks,None,CUST_11257,0
+0.8886429758187192,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_12475,0
+0.11268042692672657,Low Risk,Standard engagement & loyalty perks,None,CUST_11975,0
+0.11463810961351945,Low Risk,Standard engagement & loyalty perks,None,CUST_11848,0
+0.776399235825715,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_10148,1
+0.7444522661533952,High Risk,Proactive outreach & discounted renewal offer,Medium,CUST_11572,1
+0.02350553682940168,Low Risk,Standard engagement & loyalty perks,None,CUST_10127,0
+0.04607678155635289,Low Risk,Standard engagement & loyalty perks,None,CUST_10863,0
+0.03456925887813728,Low Risk,Standard engagement & loyalty perks,None,CUST_12016,0
+0.19170091306040546,Low Risk,Standard engagement & loyalty perks,None,CUST_12251,0
+0.905335415165581,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_11717,1
+0.1671676518883415,Low Risk,Standard engagement & loyalty perks,None,CUST_12047,0
+0.009417366214723551,Low Risk,Standard engagement & loyalty perks,None,CUST_10290,0
+0.41684052911000563,Medium Risk,Automated satisfaction check-in & feature updates,Low,CUST_10980,0
+0.14500587618323632,Low Risk,Standard engagement & loyalty perks,None,CUST_10198,0
+0.13564023766581562,Low Risk,Standard engagement & loyalty perks,None,CUST_10387,0
+0.9069138820893841,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_11806,1
+0.14051495186577082,Low Risk,Standard engagement & loyalty perks,None,CUST_12224,0
+0.8701018700951907,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_11251,0
+0.8407752071837474,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_12017,1
+0.9163879334846906,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_10985,1
+0.16627297583969242,Low Risk,Standard engagement & loyalty perks,None,CUST_11399,0
+0.03400966928737951,Low Risk,Standard engagement & loyalty perks,None,CUST_11305,0
+0.049876122830043154,Low Risk,Standard engagement & loyalty perks,None,CUST_10838,0
+0.9308904992856658,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_12340,1
+0.16885147745660656,Low Risk,Standard engagement & loyalty perks,None,CUST_10939,0
+0.08146239601061588,Low Risk,Standard engagement & loyalty perks,None,CUST_11250,0
+0.9276621082248725,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_11105,1
+0.031051238624521506,Low Risk,Standard engagement & loyalty perks,None,CUST_10168,0
+0.8713623155856919,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_10704,1
+0.04771038218468159,Low Risk,Standard engagement & loyalty perks,None,CUST_11501,0
+0.1984923039759003,Low Risk,Standard engagement & loyalty perks,None,CUST_12309,0
+0.10495601877743319,Low Risk,Standard engagement & loyalty perks,None,CUST_11001,0
+0.20544904585681445,Low Risk,Standard engagement & loyalty perks,None,CUST_11137,0
+0.028053842492053,Low Risk,Standard engagement & loyalty perks,None,CUST_11435,0
+0.6507467112881937,High Risk,Proactive outreach & discounted renewal offer,Medium,CUST_11039,1
+0.3207511463735828,Medium Risk,Automated satisfaction check-in & feature updates,Low,CUST_11528,0
+0.8473321517719927,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_11209,1
+0.11532595489713714,Low Risk,Standard engagement & loyalty perks,None,CUST_11818,0
+0.482979519423519,Medium Risk,Automated satisfaction check-in & feature updates,Low,CUST_11377,1
+0.9029314982740482,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_11731,1
+0.7595278471151563,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_11981,1
+0.8535454740334386,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_10862,1
+0.9226921665901752,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_10354,1
+0.21888138927354212,Low Risk,Standard engagement & loyalty perks,None,CUST_12228,0
+0.021946797253645203,Low Risk,Standard engagement & loyalty perks,None,CUST_10817,0
+0.01768701879889597,Low Risk,Standard engagement & loyalty perks,None,CUST_11487,0
+0.01801069474209062,Low Risk,Standard engagement & loyalty perks,None,CUST_10638,0
+0.4735896928384556,Medium Risk,Automated satisfaction check-in & feature updates,Low,CUST_11258,1
+0.01915017046295367,Low Risk,Standard engagement & loyalty perks,None,CUST_11339,0
+0.01968556197573462,Low Risk,Standard engagement & loyalty perks,None,CUST_10495,0
+0.07263510811093084,Low Risk,Standard engagement & loyalty perks,None,CUST_10602,0
+0.07893071874673122,Low Risk,Standard engagement & loyalty perks,None,CUST_11155,0
+0.8846312271926051,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_10264,1
+0.14147023752977017,Low Risk,Standard engagement & loyalty perks,None,CUST_11999,0
+0.11804505078176877,Low Risk,Standard engagement & loyalty perks,None,CUST_12191,0
+0.165568864140602,Low Risk,Standard engagement & loyalty perks,None,CUST_12377,0
+0.9098744762404952,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_10575,1
+0.012545523485075396,Low Risk,Standard engagement & loyalty perks,None,CUST_11483,0
+0.12560141941391942,Low Risk,Standard engagement & loyalty perks,None,CUST_10199,0
+0.5423681446605856,High Risk,Proactive outreach & discounted renewal offer,Medium,CUST_12071,1
+0.9205563393213521,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_11967,1
+0.09101975170074342,Low Risk,Standard engagement & loyalty perks,None,CUST_10752,0
+0.08749967402751518,Low Risk,Standard engagement & loyalty perks,None,CUST_11256,0
+0.9232829006654408,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_12208,1
+0.7833957490364973,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_10736,0
+0.139399455433093,Low Risk,Standard engagement & loyalty perks,None,CUST_12194,0
+0.8876676602089016,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_10681,1
+0.10235935296042699,Low Risk,Standard engagement & loyalty perks,None,CUST_10494,0
+0.24959090909090909,Low Risk,Standard engagement & loyalty perks,None,CUST_10894,0
+0.020001751958515775,Low Risk,Standard engagement & loyalty perks,None,CUST_12376,0
+0.9107319510226355,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_11543,1
+0.2759067769358923,Medium Risk,Automated satisfaction check-in & feature updates,Low,CUST_11656,0
+0.16113494644557502,Low Risk,Standard engagement & loyalty perks,None,CUST_10663,0
+0.017104357333815844,Low Risk,Standard engagement & loyalty perks,None,CUST_12119,0
+0.14812002541848615,Low Risk,Standard engagement & loyalty perks,None,CUST_12346,0
+0.15365870786369207,Low Risk,Standard engagement & loyalty perks,None,CUST_12363,0
+0.04814496957827113,Low Risk,Standard engagement & loyalty perks,None,CUST_11921,0
+0.13566219096334187,Low Risk,Standard engagement & loyalty perks,None,CUST_10214,0
+0.19436617106450232,Low Risk,Standard engagement & loyalty perks,None,CUST_11095,0
+0.015106134235352097,Low Risk,Standard engagement & loyalty perks,None,CUST_10947,0
+0.05217247759107775,Low Risk,Standard engagement & loyalty perks,None,CUST_10618,0
+0.10875526585284671,Low Risk,Standard engagement & loyalty perks,None,CUST_11462,0
+0.012920859974082224,Low Risk,Standard engagement & loyalty perks,None,CUST_10114,0
+0.08741103256606725,Low Risk,Standard engagement & loyalty perks,None,CUST_11565,0
+0.8874722409544052,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_11331,1
+0.07809545106194456,Low Risk,Standard engagement & loyalty perks,None,CUST_12101,0
+0.128549973835414,Low Risk,Standard engagement & loyalty perks,None,CUST_11045,0
+0.4905444586256356,Medium Risk,Automated satisfaction check-in & feature updates,Low,CUST_10898,0
+0.13984805621354235,Low Risk,Standard engagement & loyalty perks,None,CUST_11873,0
+0.2036665011591841,Low Risk,Standard engagement & loyalty perks,None,CUST_12130,0
+0.09906121024471407,Low Risk,Standard engagement & loyalty perks,None,CUST_10630,0
+0.8053344147365885,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_11549,1
+0.9045129130644347,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_10650,1
+0.10431260737462214,Low Risk,Standard engagement & loyalty perks,None,CUST_11857,0
+0.07428893777387359,Low Risk,Standard engagement & loyalty perks,None,CUST_10172,0
+0.1253993716693203,Low Risk,Standard engagement & loyalty perks,None,CUST_10266,0
+0.047326224811867296,Low Risk,Standard engagement & loyalty perks,None,CUST_11726,0
+0.0416403595323619,Low Risk,Standard engagement & loyalty perks,None,CUST_10892,0
+0.2605786435786436,Medium Risk,Automated satisfaction check-in & feature updates,Low,CUST_12254,0
+0.8595979984220609,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_10477,1
+0.23684566567271945,Low Risk,Standard engagement & loyalty perks,None,CUST_12337,0
+0.7415913331832943,High Risk,Proactive outreach & discounted renewal offer,Medium,CUST_12423,1
+0.22330193959136618,Low Risk,Standard engagement & loyalty perks,None,CUST_10328,0
+0.9117359713080159,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_12061,1
+0.06149288547423547,Low Risk,Standard engagement & loyalty perks,None,CUST_10971,0
+0.017362388465964326,Low Risk,Standard engagement & loyalty perks,None,CUST_11386,0
+0.9181566595956493,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_11697,1
+0.08610318115974519,Low Risk,Standard engagement & loyalty perks,None,CUST_10606,0
+0.008589716966840358,Low Risk,Standard engagement & loyalty perks,None,CUST_12112,0
+0.012654843957667765,Low Risk,Standard engagement & loyalty perks,None,CUST_12258,0
+0.8236889973118234,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_11234,1
+0.19573418405846826,Low Risk,Standard engagement & loyalty perks,None,CUST_11684,0
+0.13210769788028764,Low Risk,Standard engagement & loyalty perks,None,CUST_11723,0
+0.15887979608858882,Low Risk,Standard engagement & loyalty perks,None,CUST_12344,0
+0.028637816592589575,Low Risk,Standard engagement & loyalty perks,None,CUST_10446,0
+0.04279154979240551,Low Risk,Standard engagement & loyalty perks,None,CUST_11838,0
+0.09063101306108987,Low Risk,Standard engagement & loyalty perks,None,CUST_10785,0
+0.9484714183719204,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_12168,1
+0.018592216455836377,Low Risk,Standard engagement & loyalty perks,None,CUST_12321,0
+0.8766707603029861,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_11759,1
+0.8552561892141628,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_11853,1
+0.8931292612743167,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_11053,1
+0.10393811050061048,Low Risk,Standard engagement & loyalty perks,None,CUST_10320,0
+0.23358525733525734,Low Risk,Standard engagement & loyalty perks,None,CUST_12069,0
+0.11232349884907684,Low Risk,Standard engagement & loyalty perks,None,CUST_10507,0
+0.6341965431897149,High Risk,Proactive outreach & discounted renewal offer,Medium,CUST_10765,1
+0.07605435121993413,Low Risk,Standard engagement & loyalty perks,None,CUST_10017,0
+0.34961017430140245,Medium Risk,Automated satisfaction check-in & feature updates,Low,CUST_10678,0
+0.037653459976490354,Low Risk,Standard engagement & loyalty perks,None,CUST_12141,0
+0.02824695349260406,Low Risk,Standard engagement & loyalty perks,None,CUST_11800,0
+0.8252974882591165,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_10958,1
+0.10382261441815345,Low Risk,Standard engagement & loyalty perks,None,CUST_11332,0
+0.08658748241006306,Low Risk,Standard engagement & loyalty perks,None,CUST_12264,0
+0.8248083786075228,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_11903,0
+0.05650573284178605,Low Risk,Standard engagement & loyalty perks,None,CUST_10410,0
+0.13946275468093888,Low Risk,Standard engagement & loyalty perks,None,CUST_10984,0
+0.5163448528011022,High Risk,Proactive outreach & discounted renewal offer,Medium,CUST_11272,1
+0.02411273509261265,Low Risk,Standard engagement & loyalty perks,None,CUST_11100,0
+0.013741553125030656,Low Risk,Standard engagement & loyalty perks,None,CUST_12033,0
+0.13576279154415785,Low Risk,Standard engagement & loyalty perks,None,CUST_11820,0
+0.6271023976023977,High Risk,Proactive outreach & discounted renewal offer,Medium,CUST_10692,1
+0.0555972710959557,Low Risk,Standard engagement & loyalty perks,None,CUST_10897,0
+0.12845123034454342,Low Risk,Standard engagement & loyalty perks,None,CUST_11337,0
+0.06666273652344958,Low Risk,Standard engagement & loyalty perks,None,CUST_12351,0
+0.12327627794116942,Low Risk,Standard engagement & loyalty perks,None,CUST_11376,0
+0.13306668262360946,Low Risk,Standard engagement & loyalty perks,None,CUST_10519,0
+0.012007044910263599,Low Risk,Standard engagement & loyalty perks,None,CUST_10363,0
+0.019192337912831366,Low Risk,Standard engagement & loyalty perks,None,CUST_10837,0
+0.03156007189676832,Low Risk,Standard engagement & loyalty perks,None,CUST_11013,0
+0.8509508761149247,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_10444,1
+0.01143318095884594,Low Risk,Standard engagement & loyalty perks,None,CUST_12009,0
+0.06466849819205506,Low Risk,Standard engagement & loyalty perks,None,CUST_11091,0
+0.16024591076463865,Low Risk,Standard engagement & loyalty perks,None,CUST_11538,0
+0.8738752511072589,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_10039,1
+0.1677298129814438,Low Risk,Standard engagement & loyalty perks,None,CUST_11924,0
+0.12672829131652663,Low Risk,Standard engagement & loyalty perks,None,CUST_11367,0
+0.036111181252586465,Low Risk,Standard engagement & loyalty perks,None,CUST_10377,0
+0.9320584785188002,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_11150,1
+0.011022688302269858,Low Risk,Standard engagement & loyalty perks,None,CUST_12341,0
+0.8980532629448789,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_10670,1
+0.3598815939619242,Medium Risk,Automated satisfaction check-in & feature updates,Low,CUST_11242,1
+0.9223440498052541,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_10654,1
+0.026923413096545685,Low Risk,Standard engagement & loyalty perks,None,CUST_12028,0
+0.08776916221033869,Low Risk,Standard engagement & loyalty perks,None,CUST_12249,0
+0.9243222581646288,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_11606,1
+0.8130669862074851,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_12338,1
+0.9081429270810524,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_10975,1
+0.8731772109469956,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_11520,1
+0.3060285622137791,Medium Risk,Automated satisfaction check-in & feature updates,Low,CUST_10533,1
+0.18369613692965345,Low Risk,Standard engagement & loyalty perks,None,CUST_10915,0
+0.03792424694538614,Low Risk,Standard engagement & loyalty perks,None,CUST_10124,0
+0.00612162233972819,Low Risk,Standard engagement & loyalty perks,None,CUST_10612,0
+0.675141280591382,High Risk,Proactive outreach & discounted renewal offer,Medium,CUST_10619,1
+0.08914472219841522,Low Risk,Standard engagement & loyalty perks,None,CUST_11349,0
+0.03166000744687259,Low Risk,Standard engagement & loyalty perks,None,CUST_12305,0
+0.22317211165617437,Low Risk,Standard engagement & loyalty perks,None,CUST_12046,0
+0.09813980769066706,Low Risk,Standard engagement & loyalty perks,None,CUST_11639,0
+0.1653112583776611,Low Risk,Standard engagement & loyalty perks,None,CUST_10812,0
+0.011861926394210518,Low Risk,Standard engagement & loyalty perks,None,CUST_10846,0
+0.8489695628065118,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_10087,1
+0.7654981189406429,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_11297,1
+0.8774754507142917,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_11030,1
+0.839307038098227,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_11915,0
+0.18455228349885686,Low Risk,Standard engagement & loyalty perks,None,CUST_10868,0
+0.2406001594728415,Low Risk,Standard engagement & loyalty perks,None,CUST_10281,0
+0.2759444540839278,Medium Risk,Automated satisfaction check-in & feature updates,Low,CUST_11440,0
+0.021829544171453674,Low Risk,Standard engagement & loyalty perks,None,CUST_10132,0
+0.13617831020713927,Low Risk,Standard engagement & loyalty perks,None,CUST_11994,0
+0.03197581978241648,Low Risk,Standard engagement & loyalty perks,None,CUST_11995,0
+0.3459247262950257,Medium Risk,Automated satisfaction check-in & feature updates,Low,CUST_10265,0
+0.20134115884115886,Low Risk,Standard engagement & loyalty perks,None,CUST_10569,0
+0.09459414095910063,Low Risk,Standard engagement & loyalty perks,None,CUST_11883,0
+0.02897301723256124,Low Risk,Standard engagement & loyalty perks,None,CUST_10051,0
+0.07115932084725678,Low Risk,Standard engagement & loyalty perks,None,CUST_12132,0
+0.06158650273636817,Low Risk,Standard engagement & loyalty perks,None,CUST_11862,0
+0.9286441878313575,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_11289,1
+0.25569011544011544,Medium Risk,Automated satisfaction check-in & feature updates,Low,CUST_11947,0
+0.06348267226398885,Low Risk,Standard engagement & loyalty perks,None,CUST_11796,1
+0.01598083030921266,Low Risk,Standard engagement & loyalty perks,None,CUST_11714,0
+0.047833130675851224,Low Risk,Standard engagement & loyalty perks,None,CUST_11897,0
+0.8100021579793056,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_11920,1
+0.8662471592706651,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_11433,1
+0.8869799906189269,Critical Risk,Immediate senior retention agent escalation,Urgent,CUST_11311,1
