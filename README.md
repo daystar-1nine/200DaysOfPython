@@ -17,7 +17,7 @@
 
 ### 📈 Current Challenge Status
 
-**Day 92 / 200** | **46.0% Complete** | **108 Days Remaining**
+**Day 93 / 200** | **46.5% Complete** | **107 Days Remaining**
 
 *Currently exploring Deep Learning & Computer Vision (CNNs).*
 
@@ -305,7 +305,8 @@ An enterprise-grade Computer Vision experimentation pipeline tracking 7 distinct
 | 90 | Advanced CNN & CV Pipelines | ✅ |
 | 91 | Transfer Learning Image Classification | ✅ |
 | 92 | ResNet & Advanced Transfer Learning | ✅ |
-| 93–200 | *Planned...* | ⬜ |
+| 93 | MobileNet & Efficient Edge CNNs | ✅ |
+| 94–200 | *Planned...* | ⬜ |
 
 ---
 *Created and maintained as a public ledger of engineering grit and curiosity.*

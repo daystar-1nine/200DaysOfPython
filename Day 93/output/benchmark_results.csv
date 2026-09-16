@@ -1,0 +1,5 @@
+experiment_id,model,test_accuracy,f1_score,training_time_s,inference_time_ms,parameters,model_size_mb
+EXP001,Dense Baseline,0.9,0.9,0.02,0.0,394000,1.5
+EXP002,Custom CNN,0.9,0.9,0.01,0.0,2100000,8.0
+EXP003,ResNet50,0.9,0.9,0.01,0.01,23000000,92.0
+EXP004,MobileNetV2,0.9,0.9,0.01,0.0,2200000,8.8
