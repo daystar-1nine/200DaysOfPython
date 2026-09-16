@@ -1,0 +1,7 @@
+experiment_id,model,train_accuracy,test_accuracy,f1_score,training_time,learning_rate,trainable_params,total_params
+EXP001,Dense Baseline,0.9,0.9,0.9,0.02,0.001,20000,23000000
+EXP002,Custom CNN,0.9,0.9,0.9,0.01,0.001,20000,23000000
+EXP003,Frozen ResNet,0.9,0.9,0.9,0.01,0.001,20000,23000000
+EXP004,ResNet FT-10,0.9,0.9,0.9,0.01,1e-05,20000,23000000
+EXP005,ResNet FT-20,0.9,0.9,0.9,0.01,1e-05,20000,23000000
+EXP006,ResNet FT-30,0.9,0.9,0.9,0.01,1e-05,20000,23000000
