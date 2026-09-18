@@ -17,7 +17,7 @@
 
 ### 📈 Current Challenge Status
 
-**Day 94 / 200** | **47.0% Complete** | **106 Days Remaining**
+**Day 95 / 200** | **47.5% Complete** | **105 Days Remaining**
 
 *Currently exploring Deep Learning & Computer Vision (CNNs).*
 
@@ -307,7 +307,8 @@ An enterprise-grade Computer Vision experimentation pipeline tracking 7 distinct
 | 92 | ResNet & Advanced Transfer Learning | ✅ |
 | 93 | MobileNet & Efficient Edge CNNs | ✅ |
 | 94 | Object Detection & YOLO Fundamentals | ✅ |
-| 95–200 | *Planned...* | ⬜ |
+| 95 | Advanced YOLO Training & Evaluation | ✅ |
+| 96–200 | *Planned...* | ⬜ |
 
 ---
 *Created and maintained as a public ledger of engineering grit and curiosity.*
