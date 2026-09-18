@@ -1,0 +1,5 @@
+experiment_id,model,image_size,frame_skip,processed_frames,in_count,out_count,avg_fps
+EXP001,YOLO Baseline,640,1,100,0,5,644.38
+EXP002,YOLO Fast,320,1,100,0,5,634.82
+EXP003,YOLO Skip 2,640,2,50,0,2,625.09
+EXP004,YOLO Skip 3,640,3,33,0,2,536.18
