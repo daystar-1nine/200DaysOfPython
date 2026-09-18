@@ -17,7 +17,7 @@
 
 ### 📈 Current Challenge Status
 
-**Day 98 / 200** | **49.0% Complete** | **102 Days Remaining**
+**Day 99 / 200** | **49.5% Complete** | **101 Days Remaining**
 
 *Currently exploring Deep Learning & Computer Vision (CNNs).*
 
@@ -311,7 +311,8 @@ An enterprise-grade Computer Vision experimentation pipeline tracking 7 distinct
 | 96 | Real-Time Video Analytics & Tracking | ✅ |
 | 97 | Multi-Object Tracking (MOT) | ✅ |
 | 98 | Image Segmentation & Mask Analytics | ✅ |
-| 99–200 | *Planned...* | ⬜ |
+| 99 | Instance Segmentation & Object Shape Analytics | ✅ |
+| 100–200 | *Planned...* | ⬜ |
 
 ---
 *Created and maintained as a public ledger of engineering grit and curiosity.*
