@@ -1,0 +1,5 @@
+tracker,unique_identities,avg_distance_px,id_switches,tracking_latency_ms
+Centroid Tracker Baseline,1,40.0,0,0.02
+SORT (Simulated),1,40.0,0,0.01
+Deep SORT (Simulated),1,40.0,0,0.01
+ByteTrack (Simulated),1,40.0,0,0.0
