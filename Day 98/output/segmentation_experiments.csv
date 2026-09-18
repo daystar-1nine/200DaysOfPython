@@ -1,0 +1,6 @@
+experiment_id,model,description,iou,dice
+EXP001,Simple CNN Baseline,Encoder Only,1.249,1.112
+EXP002,U-Net,Encoder + Decoder,1.152,1.064
+EXP003,U-Net + Augmentation,Transforms applied,1.206,1.123
+EXP004,U-Net + Dice Loss,Optimizing for boundaries,1.112,1.076
+EXP005,YOLO Segmentation,Instance Extractor,1.268,1.068

@@ -17,7 +17,7 @@
 
 ### 📈 Current Challenge Status
 
-**Day 97 / 200** | **48.5% Complete** | **103 Days Remaining**
+**Day 98 / 200** | **49.0% Complete** | **102 Days Remaining**
 
 *Currently exploring Deep Learning & Computer Vision (CNNs).*
 
@@ -310,7 +310,8 @@ An enterprise-grade Computer Vision experimentation pipeline tracking 7 distinct
 | 95 | Advanced YOLO Training & Evaluation | ✅ |
 | 96 | Real-Time Video Analytics & Tracking | ✅ |
 | 97 | Multi-Object Tracking (MOT) | ✅ |
-| 98–200 | *Planned...* | ⬜ |
+| 98 | Image Segmentation & Mask Analytics | ✅ |
+| 99–200 | *Planned...* | ⬜ |
 
 ---
 *Created and maintained as a public ledger of engineering grit and curiosity.*
