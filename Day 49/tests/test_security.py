@@ -63,7 +63,7 @@ def test_jwt_invalid_signature_raises_exception():
     """Verify token signed with wrong secret key raises InvalidSignatureError."""
     claims = {"sub": "42"}
     token = create_access_token(data=claims)
-    wrong_key = "different_secret_key_12345"
+    wrong_key = "dummy_wrong_secret_key_for_testing" # DUMMY FIXTURE
 
     with pytest.raises(jwt.InvalidSignatureError):
         jwt.decode(token, wrong_key, algorithms=[settings.JWT_ALGORITHM])

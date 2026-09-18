@@ -54,11 +54,11 @@ def test_login_success(client):
     client.post("/auth/register", json={
         "name": "Suraj Login",
         "email": "login@example.com",
-        "password": "SecretPassword123!"
+        "password": "dummy_test_password_123!"
     })
     response = client.post("/auth/login", json={
         "email": "login@example.com",
-        "password": "SecretPassword123!"
+        "password": "dummy_test_password_123!"
     })
     assert response.status_code == 200
     data = response.json()
@@ -69,7 +69,7 @@ def test_login_invalid_password_fails(client):
     client.post("/auth/register", json={
         "name": "Suraj Login",
         "email": "wrongpass@example.com",
-        "password": "SecretPassword123!"
+        "password": "dummy_test_password_123!"
     })
     response = client.post("/auth/login", json={
         "email": "wrongpass@example.com",

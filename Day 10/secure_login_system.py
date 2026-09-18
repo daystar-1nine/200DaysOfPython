@@ -14,8 +14,9 @@ class EmptyInputError(Exception):
 class InvalidCredentialsError(Exception):
     pass
 
+# DUMMY FIXTURES FOR TESTING PURPOSES ONLY
 CORRECT_USERNAME = "admin"
-CORRECT_PASSWORD = "Password123"
+CORRECT_PASSWORD = "dummy_test_password_123!"
 
 def login():
     max_attempts = 3

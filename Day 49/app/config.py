@@ -12,7 +12,7 @@ load_dotenv()
 
 class Settings:
     DATABASE_URL: str = os.getenv("DATABASE_URL", "sqlite:///./ecommerce_v5.db")
-    JWT_SECRET_KEY: str = os.getenv("JWT_SECRET_KEY", "prod_secret_key_day49_python200days_super_secret_string_32_bytes")
+    JWT_SECRET_KEY: str = os.getenv("JWT_SECRET_KEY", "dummy_dev_secret_key_for_testing")
     JWT_ALGORITHM: str = os.getenv("JWT_ALGORITHM", "HS256")
     ACCESS_TOKEN_EXPIRE_MINUTES: int = int(os.getenv("ACCESS_TOKEN_EXPIRE_MINUTES", "30"))
     PAYMENT_GATEWAY_URL: str = os.getenv("PAYMENT_GATEWAY_URL", "https://api.paymentgateway.com/v1/charge")
