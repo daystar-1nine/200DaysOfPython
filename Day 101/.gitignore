@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+*$py.class
+output/predictions.csv
+output/metrics.csv
+output/report.md
+output/charts/*.png
+.pytest_cache/
