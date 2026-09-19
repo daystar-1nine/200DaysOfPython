@@ -1,0 +1,801 @@
+label,text,clean_text,char_length,word_count
+ham,Can you send me the link to that recipe you made last week? It was delicious.,can you send me the link to that recipe you made last week it was delicious,75,16
+ham,Could you review my pull request on GitHub when you have a moment? :),could you review my pull request on github when you have a moment,65,13
+spam,WIN a £500 shopping spree at Tesco! To enter simply answer our quick 2-question survey: http://tesco-win.me Ref: #1793,win a £500 shopping spree at tesco to enter simply answer our quick 2 question survey ref 1793,94,18
+ham,"Great job on the presentation today, the client was really impressed with our slides! :)",great job on the presentation today the client was really impressed with our slides,83,14
+spam,"Dear customer, your bank account has been suspended due to suspicious activity. Verify at http://secure-bank-login.xyz",dear customer your bank account has been suspended due to suspicious activity verify at,87,14
+ham,Did you finish the Python assignment? Let's compare our answers tonight. :),did you finish the python assignment let s compare our answers tonight,70,12
+ham,Did you finish the Python assignment? Let's compare our answers tonight. :),did you finish the python assignment let s compare our answers tonight,70,12
+ham,"Sorry I missed your call earlier, I was in an important team meeting. What's up? :)",sorry i missed your call earlier i was in an important team meeting what s up,77,16
+ham,"Running a bit late, start eating without me. Be there around 7:30! :)",running a bit late start eating without me be there around 7 30,63,13
+ham,"The weather is supposed to be really nice this Sunday, want to go for a hike? :)",the weather is supposed to be really nice this sunday want to go for a hike,75,16
+spam,Your mobile contract is up for renewal! Get a brand new iPhone 15 Pro for £0 upfront. Call 0800-111-222.,your mobile contract is up for renewal get a brand new iphone 15 pro for £0 upfront call 0800 111 222,101,21
+ham,"Just reached the airport, flight is on time. See you soon! :)",just reached the airport flight is on time see you soon,55,11
+ham,Where did you leave the spare car keys? I can't find them on the counter. Thanks!,where did you leave the spare car keys i can t find them on the counter thanks,78,17
+spam,Final notice! You have unpaid toll fees of £4.50. Pay immediately at http://highway-toll-uk.com to avoid legal action. Ref: #7166,final notice you have unpaid toll fees of £4 50 pay immediately at to avoid legal action ref 7166,97,19
+ham,"I'm feeling much better today, thanks for checking in on me! :)",i m feeling much better today thanks for checking in on me,58,12
+ham,Did you finish the Python assignment? Let's compare our answers tonight. :),did you finish the python assignment let s compare our answers tonight,70,12
+ham,Thanks for the lecture notes! They were super helpful for the exam prep. :),thanks for the lecture notes they were super helpful for the exam prep,70,13
+ham,Thanks for the lecture notes! They were super helpful for the exam prep.,thanks for the lecture notes they were super helpful for the exam prep,70,13
+ham,Let me know when you're free for a quick phone call to discuss the travel plans.,let me know when you re free for a quick phone call to discuss the travel plans,79,17
+ham,Where did you leave the spare car keys? I can't find them on the counter. :),where did you leave the spare car keys i can t find them on the counter,71,16
+ham,Can you send me the link to that recipe you made last week? It was delicious. Thanks!,can you send me the link to that recipe you made last week it was delicious thanks,82,17
+ham,Happy birthday! Wishing you a fantastic year ahead filled with joy and success! :),happy birthday wishing you a fantastic year ahead filled with joy and success,77,13
+ham,Happy birthday! Wishing you a fantastic year ahead filled with joy and success!,happy birthday wishing you a fantastic year ahead filled with joy and success,77,13
+ham,Could you review my pull request on GitHub when you have a moment? Thanks!,could you review my pull request on github when you have a moment thanks,72,14
+ham,I just sent over the revised budget spreadsheet. Please check if the numbers look right.,i just sent over the revised budget spreadsheet please check if the numbers look right,86,15
+spam,Claim your complimentary 2-week gym pass at FitnessFirst today! Text FIT to 88088. Ref: #7413,claim your complimentary 2 week gym pass at fitnessfirst today text fit to 88088 ref 7413,89,16
+ham,"Running a bit late, start eating without me. Be there around 7:30!",running a bit late start eating without me be there around 7 30,63,13
+ham,"I'll be there in about 15 minutes, traffic is a bit slow today. :)",i ll be there in about 15 minutes traffic is a bit slow today,61,14
+ham,Where did you leave the spare car keys? I can't find them on the counter. Thanks!,where did you leave the spare car keys i can t find them on the counter thanks,78,17
+ham,"I'm feeling much better today, thanks for checking in on me! :)",i m feeling much better today thanks for checking in on me,58,12
+ham,Thanks for the lecture notes! They were super helpful for the exam prep. :),thanks for the lecture notes they were super helpful for the exam prep,70,13
+spam,"URGENT! Your mobile number was awarded a £2,000 bonus prize! Call 09061701461 immediately to claim.",urgent your mobile number was awarded a £2 000 bonus prize call 09061701461 immediately to claim,96,16
+ham,Let's catch up this weekend. Are you free on Saturday afternoon? Thanks!,let s catch up this weekend are you free on saturday afternoon thanks,69,13
+ham,Did you finish the Python assignment? Let's compare our answers tonight. :),did you finish the python assignment let s compare our answers tonight,70,12
+spam,Your parcel delivery has failed because no one was home. Reschedule fee required: http://dpd-redelivery.org Ref: #3190,your parcel delivery has failed because no one was home reschedule fee required ref 3190,88,15
+spam,WIN a £500 shopping spree at Tesco! To enter simply answer our quick 2-question survey: http://tesco-win.me Ref: #1235,win a £500 shopping spree at tesco to enter simply answer our quick 2 question survey ref 1235,94,18
+ham,Can you send me the link to that recipe you made last week? It was delicious.,can you send me the link to that recipe you made last week it was delicious,75,16
+ham,"I'll be there in about 15 minutes, traffic is a bit slow today. :)",i ll be there in about 15 minutes traffic is a bit slow today,61,14
+ham,Did you finish the Python assignment? Let's compare our answers tonight.,did you finish the python assignment let s compare our answers tonight,70,12
+ham,Thanks for the lecture notes! They were super helpful for the exam prep. :),thanks for the lecture notes they were super helpful for the exam prep,70,13
+spam,Your parcel delivery has failed because no one was home. Reschedule fee required: http://dpd-redelivery.org,your parcel delivery has failed because no one was home reschedule fee required,79,13
+ham,Can you please pick up some milk and eggs on your way home from work?,can you please pick up some milk and eggs on your way home from work,68,15
+ham,Did you finish the Python assignment? Let's compare our answers tonight. :),did you finish the python assignment let s compare our answers tonight,70,12
+ham,"Running a bit late, start eating without me. Be there around 7:30! Thanks!",running a bit late start eating without me be there around 7 30 thanks,70,14
+ham,"The weather is supposed to be really nice this Sunday, want to go for a hike? :)",the weather is supposed to be really nice this sunday want to go for a hike,75,16
+ham,"Sorry I missed your call earlier, I was in an important team meeting. What's up?",sorry i missed your call earlier i was in an important team meeting what s up,77,16
+ham,"Hey, are we still meeting for lunch at 1pm tomorrow?",hey are we still meeting for lunch at 1pm tomorrow,50,10
+ham,I just sent over the revised budget spreadsheet. Please check if the numbers look right.,i just sent over the revised budget spreadsheet please check if the numbers look right,86,15
+ham,"Hey, are we still meeting for lunch at 1pm tomorrow? :)",hey are we still meeting for lunch at 1pm tomorrow,50,10
+ham,I just sent over the revised budget spreadsheet. Please check if the numbers look right. Thanks!,i just sent over the revised budget spreadsheet please check if the numbers look right thanks,93,16
+ham,"Hey, are we still meeting for lunch at 1pm tomorrow?",hey are we still meeting for lunch at 1pm tomorrow,50,10
+spam,Congratulations! You won a FREE cruise to the Bahamas! Call now at 1-800-555-0199. T&Cs apply. Ref: #7704,congratulations you won a free cruise to the bahamas call now at 1 800 555 0199 t cs apply ref 7704,99,21
+ham,"The weather is supposed to be really nice this Sunday, want to go for a hike? :)",the weather is supposed to be really nice this sunday want to go for a hike,75,16
+ham,Thanks for the lecture notes! They were super helpful for the exam prep. :),thanks for the lecture notes they were super helpful for the exam prep,70,13
+ham,"Running a bit late, start eating without me. Be there around 7:30!",running a bit late start eating without me be there around 7 30,63,13
+ham,Could you review my pull request on GitHub when you have a moment?,could you review my pull request on github when you have a moment,65,13
+ham,"I'll be there in about 15 minutes, traffic is a bit slow today. :)",i ll be there in about 15 minutes traffic is a bit slow today,61,14
+ham,Can you please pick up some milk and eggs on your way home from work?,can you please pick up some milk and eggs on your way home from work,68,15
+ham,"I'll be there in about 15 minutes, traffic is a bit slow today. :)",i ll be there in about 15 minutes traffic is a bit slow today,61,14
+ham,Did you finish the Python assignment? Let's compare our answers tonight.,did you finish the python assignment let s compare our answers tonight,70,12
+ham,I just sent over the revised budget spreadsheet. Please check if the numbers look right. :),i just sent over the revised budget spreadsheet please check if the numbers look right,86,15
+ham,Can you send me the link to that recipe you made last week? It was delicious.,can you send me the link to that recipe you made last week it was delicious,75,16
+ham,Did you finish the Python assignment? Let's compare our answers tonight.,did you finish the python assignment let s compare our answers tonight,70,12
+ham,Can you please pick up some milk and eggs on your way home from work? :),can you please pick up some milk and eggs on your way home from work,68,15
+ham,"I'm feeling much better today, thanks for checking in on me! Thanks!",i m feeling much better today thanks for checking in on me thanks,65,13
+ham,"Hey, are we still meeting for lunch at 1pm tomorrow? :)",hey are we still meeting for lunch at 1pm tomorrow,50,10
+spam,Special promotion! Buy 1 get 2 free on all health supplements. Order at http://vitamins-direct.com.,special promotion buy 1 get 2 free on all health supplements order at,69,13
+ham,Happy birthday! Wishing you a fantastic year ahead filled with joy and success!,happy birthday wishing you a fantastic year ahead filled with joy and success,77,13
+ham,Where did you leave the spare car keys? I can't find them on the counter. :),where did you leave the spare car keys i can t find them on the counter,71,16
+spam,Congratulations! You won a FREE cruise to the Bahamas! Call now at 1-800-555-0199. T&Cs apply.,congratulations you won a free cruise to the bahamas call now at 1 800 555 0199 t cs apply,90,19
+ham,Thanks for the lecture notes! They were super helpful for the exam prep.,thanks for the lecture notes they were super helpful for the exam prep,70,13
+ham,"Hey, are we still meeting for lunch at 1pm tomorrow? :)",hey are we still meeting for lunch at 1pm tomorrow,50,10
+ham,Let's catch up this weekend. Are you free on Saturday afternoon? :),let s catch up this weekend are you free on saturday afternoon,62,12
+spam,Special promotion! Buy 1 get 2 free on all health supplements. Order at http://vitamins-direct.com.,special promotion buy 1 get 2 free on all health supplements order at,69,13
+spam,Exclusive offer! 50% discount on luxury watches. Visit our website http://swiss-replica.co today only! Ref: #5820,exclusive offer 50 discount on luxury watches visit our website today only ref 5820,83,14
+ham,I just sent over the revised budget spreadsheet. Please check if the numbers look right. :),i just sent over the revised budget spreadsheet please check if the numbers look right,86,15
+ham,"Just reached the airport, flight is on time. See you soon! :)",just reached the airport flight is on time see you soon,55,11
+ham,"Just reached the airport, flight is on time. See you soon! :)",just reached the airport flight is on time see you soon,55,11
+ham,Happy birthday! Wishing you a fantastic year ahead filled with joy and success! :),happy birthday wishing you a fantastic year ahead filled with joy and success,77,13
+ham,"Hey, are we still meeting for lunch at 1pm tomorrow?",hey are we still meeting for lunch at 1pm tomorrow,50,10
+ham,Where did you leave the spare car keys? I can't find them on the counter.,where did you leave the spare car keys i can t find them on the counter,71,16
+spam,Loan approved! Up to £5000 deposited within 1 hour. No credit checks required! Call 08000930705. Ref: #4675,loan approved up to £5000 deposited within 1 hour no credit checks required call 08000930705 ref 4675,101,17
+spam,Exclusive offer! 50% discount on luxury watches. Visit our website http://swiss-replica.co today only!,exclusive offer 50 discount on luxury watches visit our website today only,74,12
+spam,Exclusive offer! 50% discount on luxury watches. Visit our website http://swiss-replica.co today only! Ref: #7024,exclusive offer 50 discount on luxury watches visit our website today only ref 7024,83,14
+ham,Don't forget we have the project standup meeting at 10am tomorrow morning.,don t forget we have the project standup meeting at 10am tomorrow morning,73,13
+ham,Where did you leave the spare car keys? I can't find them on the counter.,where did you leave the spare car keys i can t find them on the counter,71,16
+ham,"Hey, are we still meeting for lunch at 1pm tomorrow? Thanks!",hey are we still meeting for lunch at 1pm tomorrow thanks,57,11
+ham,Can you please pick up some milk and eggs on your way home from work? :),can you please pick up some milk and eggs on your way home from work,68,15
+ham,Let me know when you're free for a quick phone call to discuss the travel plans. :),let me know when you re free for a quick phone call to discuss the travel plans,79,17
+spam,WINNER! As a valued customer you are selected to receive a £1000 cash reward. Text CLAIM to 87077. Ref: #5971,winner as a valued customer you are selected to receive a £1000 cash reward text claim to 87077 ref 5971,104,20
+ham,Can you please pick up some milk and eggs on your way home from work? :),can you please pick up some milk and eggs on your way home from work,68,15
+ham,Sounds good! Let's book the tickets for the 7pm movie screening. Thanks!,sounds good let s book the tickets for the 7pm movie screening thanks,69,13
+ham,I just sent over the revised budget spreadsheet. Please check if the numbers look right. :),i just sent over the revised budget spreadsheet please check if the numbers look right,86,15
+ham,"I'll be there in about 15 minutes, traffic is a bit slow today. :)",i ll be there in about 15 minutes traffic is a bit slow today,61,14
+ham,I just sent over the revised budget spreadsheet. Please check if the numbers look right. :),i just sent over the revised budget spreadsheet please check if the numbers look right,86,15
+ham,Let me know when you're free for a quick phone call to discuss the travel plans. :),let me know when you re free for a quick phone call to discuss the travel plans,79,17
+ham,I just sent over the revised budget spreadsheet. Please check if the numbers look right. :),i just sent over the revised budget spreadsheet please check if the numbers look right,86,15
+ham,"Sorry I missed your call earlier, I was in an important team meeting. What's up? :)",sorry i missed your call earlier i was in an important team meeting what s up,77,16
+spam,URGENT: Call 09066362206 from landline. 150p/min. You have an unclaimed parcel waiting delivery.,urgent call 09066362206 from landline 150p min you have an unclaimed parcel waiting delivery,92,14
+ham,I just sent over the revised budget spreadsheet. Please check if the numbers look right. :),i just sent over the revised budget spreadsheet please check if the numbers look right,86,15
+ham,"Great job on the presentation today, the client was really impressed with our slides! :)",great job on the presentation today the client was really impressed with our slides,83,14
+ham,I just sent over the revised budget spreadsheet. Please check if the numbers look right.,i just sent over the revised budget spreadsheet please check if the numbers look right,86,15
+spam,"URGENT! Your mobile number was awarded a £2,000 bonus prize! Call 09061701461 immediately to claim. Ref: #2205",urgent your mobile number was awarded a £2 000 bonus prize call 09061701461 immediately to claim ref 2205,105,18
+spam,Claim your complimentary 2-week gym pass at FitnessFirst today! Text FIT to 88088.,claim your complimentary 2 week gym pass at fitnessfirst today text fit to 88088,80,14
+spam,Claim your complimentary 2-week gym pass at FitnessFirst today! Text FIT to 88088. Ref: #4177,claim your complimentary 2 week gym pass at fitnessfirst today text fit to 88088 ref 4177,89,16
+ham,"Running a bit late, start eating without me. Be there around 7:30! :)",running a bit late start eating without me be there around 7 30,63,13
+ham,Could you review my pull request on GitHub when you have a moment?,could you review my pull request on github when you have a moment,65,13
+ham,Don't forget we have the project standup meeting at 10am tomorrow morning. :),don t forget we have the project standup meeting at 10am tomorrow morning,73,13
+ham,"Sorry I missed your call earlier, I was in an important team meeting. What's up?",sorry i missed your call earlier i was in an important team meeting what s up,77,16
+ham,"Hey, are we still meeting for lunch at 1pm tomorrow? :)",hey are we still meeting for lunch at 1pm tomorrow,50,10
+ham,"Great job on the presentation today, the client was really impressed with our slides! :)",great job on the presentation today the client was really impressed with our slides,83,14
+ham,Did you finish the Python assignment? Let's compare our answers tonight. Thanks!,did you finish the python assignment let s compare our answers tonight thanks,77,13
+spam,"Dear customer, your bank account has been suspended due to suspicious activity. Verify at http://secure-bank-login.xyz Ref: #4072",dear customer your bank account has been suspended due to suspicious activity verify at ref 4072,96,16
+spam,"Dear customer, your bank account has been suspended due to suspicious activity. Verify at http://secure-bank-login.xyz Ref: #7988",dear customer your bank account has been suspended due to suspicious activity verify at ref 7988,96,16
+ham,Don't forget we have the project standup meeting at 10am tomorrow morning.,don t forget we have the project standup meeting at 10am tomorrow morning,73,13
+spam,"URGENT! Your mobile number was awarded a £2,000 bonus prize! Call 09061701461 immediately to claim.",urgent your mobile number was awarded a £2 000 bonus prize call 09061701461 immediately to claim,96,16
+ham,Where did you leave the spare car keys? I can't find them on the counter. :),where did you leave the spare car keys i can t find them on the counter,71,16
+ham,"Great job on the presentation today, the client was really impressed with our slides!",great job on the presentation today the client was really impressed with our slides,83,14
+ham,"The weather is supposed to be really nice this Sunday, want to go for a hike? Thanks!",the weather is supposed to be really nice this sunday want to go for a hike thanks,82,17
+ham,"Hey, are we still meeting for lunch at 1pm tomorrow? :)",hey are we still meeting for lunch at 1pm tomorrow,50,10
+ham,"Great job on the presentation today, the client was really impressed with our slides! :)",great job on the presentation today the client was really impressed with our slides,83,14
+ham,Did you finish the Python assignment? Let's compare our answers tonight. Thanks!,did you finish the python assignment let s compare our answers tonight thanks,77,13
+spam,Hot singles in your area want to chat with you right now! Reply CHAT to 69696 to connect.,hot singles in your area want to chat with you right now reply chat to 69696 to connect,87,18
+ham,Where did you leave the spare car keys? I can't find them on the counter. :),where did you leave the spare car keys i can t find them on the counter,71,16
+ham,Let's catch up this weekend. Are you free on Saturday afternoon? :),let s catch up this weekend are you free on saturday afternoon,62,12
+ham,"I'll be there in about 15 minutes, traffic is a bit slow today.",i ll be there in about 15 minutes traffic is a bit slow today,61,14
+ham,Where did you leave the spare car keys? I can't find them on the counter. :),where did you leave the spare car keys i can t find them on the counter,71,16
+spam,"Alert: Unusual sign-in attempt detected on your PayPal account. If this was not you, visit http://paypal-verify.com. Ref: #6951",alert unusual sign in attempt detected on your paypal account if this was not you visit ref 6951,96,18
+ham,"I'm feeling much better today, thanks for checking in on me!",i m feeling much better today thanks for checking in on me,58,12
+ham,Sounds good! Let's book the tickets for the 7pm movie screening. :),sounds good let s book the tickets for the 7pm movie screening,62,12
+ham,Can you please pick up some milk and eggs on your way home from work? :),can you please pick up some milk and eggs on your way home from work,68,15
+ham,"Running a bit late, start eating without me. Be there around 7:30!",running a bit late start eating without me be there around 7 30,63,13
+spam,You have won a guaranteed £500 Amazon gift card! Claim now by replying GIFT.,you have won a guaranteed £500 amazon gift card claim now by replying gift,74,14
+ham,Where did you leave the spare car keys? I can't find them on the counter.,where did you leave the spare car keys i can t find them on the counter,71,16
+ham,Let's catch up this weekend. Are you free on Saturday afternoon?,let s catch up this weekend are you free on saturday afternoon,62,12
+ham,Happy birthday! Wishing you a fantastic year ahead filled with joy and success! Thanks!,happy birthday wishing you a fantastic year ahead filled with joy and success thanks,84,14
+ham,Let me know when you're free for a quick phone call to discuss the travel plans.,let me know when you re free for a quick phone call to discuss the travel plans,79,17
+ham,"I'm feeling much better today, thanks for checking in on me! :)",i m feeling much better today thanks for checking in on me,58,12
+ham,Can you please pick up some milk and eggs on your way home from work? Thanks!,can you please pick up some milk and eggs on your way home from work thanks,75,16
+ham,Can you please pick up some milk and eggs on your way home from work? :),can you please pick up some milk and eggs on your way home from work,68,15
+ham,"Hey, are we still meeting for lunch at 1pm tomorrow? :)",hey are we still meeting for lunch at 1pm tomorrow,50,10
+ham,"Sorry I missed your call earlier, I was in an important team meeting. What's up? :)",sorry i missed your call earlier i was in an important team meeting what s up,77,16
+ham,"I'm feeling much better today, thanks for checking in on me!",i m feeling much better today thanks for checking in on me,58,12
+ham,"I'm feeling much better today, thanks for checking in on me! :)",i m feeling much better today thanks for checking in on me,58,12
+spam,You have won a guaranteed £500 Amazon gift card! Claim now by replying GIFT. Ref: #5208,you have won a guaranteed £500 amazon gift card claim now by replying gift ref 5208,83,16
+ham,Don't forget we have the project standup meeting at 10am tomorrow morning. :),don t forget we have the project standup meeting at 10am tomorrow morning,73,13
+spam,Loan approved! Up to £5000 deposited within 1 hour. No credit checks required! Call 08000930705. Ref: #7320,loan approved up to £5000 deposited within 1 hour no credit checks required call 08000930705 ref 7320,101,17
+ham,Sounds good! Let's book the tickets for the 7pm movie screening.,sounds good let s book the tickets for the 7pm movie screening,62,12
+ham,"I'm feeling much better today, thanks for checking in on me!",i m feeling much better today thanks for checking in on me,58,12
+ham,Where did you leave the spare car keys? I can't find them on the counter.,where did you leave the spare car keys i can t find them on the counter,71,16
+ham,Let's catch up this weekend. Are you free on Saturday afternoon?,let s catch up this weekend are you free on saturday afternoon,62,12
+spam,WIN a £500 shopping spree at Tesco! To enter simply answer our quick 2-question survey: http://tesco-win.me Ref: #3551,win a £500 shopping spree at tesco to enter simply answer our quick 2 question survey ref 3551,94,18
+ham,Sounds good! Let's book the tickets for the 7pm movie screening.,sounds good let s book the tickets for the 7pm movie screening,62,12
+ham,I just sent over the revised budget spreadsheet. Please check if the numbers look right.,i just sent over the revised budget spreadsheet please check if the numbers look right,86,15
+ham,Let's catch up this weekend. Are you free on Saturday afternoon? :),let s catch up this weekend are you free on saturday afternoon,62,12
+ham,Where did you leave the spare car keys? I can't find them on the counter. :),where did you leave the spare car keys i can t find them on the counter,71,16
+ham,Happy birthday! Wishing you a fantastic year ahead filled with joy and success!,happy birthday wishing you a fantastic year ahead filled with joy and success,77,13
+ham,Can you send me the link to that recipe you made last week? It was delicious. :),can you send me the link to that recipe you made last week it was delicious,75,16
+ham,"The weather is supposed to be really nice this Sunday, want to go for a hike? :)",the weather is supposed to be really nice this sunday want to go for a hike,75,16
+ham,"Running a bit late, start eating without me. Be there around 7:30! :)",running a bit late start eating without me be there around 7 30,63,13
+ham,Let me know when you're free for a quick phone call to discuss the travel plans. Thanks!,let me know when you re free for a quick phone call to discuss the travel plans thanks,86,18
+ham,Thanks for the lecture notes! They were super helpful for the exam prep.,thanks for the lecture notes they were super helpful for the exam prep,70,13
+ham,"Just reached the airport, flight is on time. See you soon!",just reached the airport flight is on time see you soon,55,11
+ham,"Hey, are we still meeting for lunch at 1pm tomorrow? :)",hey are we still meeting for lunch at 1pm tomorrow,50,10
+ham,"Hey, are we still meeting for lunch at 1pm tomorrow? :)",hey are we still meeting for lunch at 1pm tomorrow,50,10
+spam,Loan approved! Up to £5000 deposited within 1 hour. No credit checks required! Call 08000930705. Ref: #4368,loan approved up to £5000 deposited within 1 hour no credit checks required call 08000930705 ref 4368,101,17
+ham,"Sorry I missed your call earlier, I was in an important team meeting. What's up? Thanks!",sorry i missed your call earlier i was in an important team meeting what s up thanks,84,17
+ham,Where did you leave the spare car keys? I can't find them on the counter. :),where did you leave the spare car keys i can t find them on the counter,71,16
+ham,Sounds good! Let's book the tickets for the 7pm movie screening.,sounds good let s book the tickets for the 7pm movie screening,62,12
+ham,Don't forget we have the project standup meeting at 10am tomorrow morning.,don t forget we have the project standup meeting at 10am tomorrow morning,73,13
+ham,Let me know when you're free for a quick phone call to discuss the travel plans. :),let me know when you re free for a quick phone call to discuss the travel plans,79,17
+ham,Did you finish the Python assignment? Let's compare our answers tonight.,did you finish the python assignment let s compare our answers tonight,70,12
+spam,WINNER! As a valued customer you are selected to receive a £1000 cash reward. Text CLAIM to 87077.,winner as a valued customer you are selected to receive a £1000 cash reward text claim to 87077,95,18
+ham,Did you finish the Python assignment? Let's compare our answers tonight.,did you finish the python assignment let s compare our answers tonight,70,12
+ham,"The weather is supposed to be really nice this Sunday, want to go for a hike? :)",the weather is supposed to be really nice this sunday want to go for a hike,75,16
+ham,I just sent over the revised budget spreadsheet. Please check if the numbers look right. :),i just sent over the revised budget spreadsheet please check if the numbers look right,86,15
+spam,PRIVATE! Your 2004 Account for 07781482378 has 800 points. Call 0871-872-9758 to claim your reward. Ref: #5612,private your 2004 account for 07781482378 has 800 points call 0871 872 9758 to claim your reward ref 5612,105,19
+ham,Can you please pick up some milk and eggs on your way home from work? :),can you please pick up some milk and eggs on your way home from work,68,15
+ham,Did you finish the Python assignment? Let's compare our answers tonight.,did you finish the python assignment let s compare our answers tonight,70,12
+ham,Did you finish the Python assignment? Let's compare our answers tonight. Thanks!,did you finish the python assignment let s compare our answers tonight thanks,77,13
+ham,Could you review my pull request on GitHub when you have a moment? :),could you review my pull request on github when you have a moment,65,13
+ham,"I'll be there in about 15 minutes, traffic is a bit slow today. Thanks!",i ll be there in about 15 minutes traffic is a bit slow today thanks,68,15
+ham,Thanks for the lecture notes! They were super helpful for the exam prep.,thanks for the lecture notes they were super helpful for the exam prep,70,13
+ham,Don't forget we have the project standup meeting at 10am tomorrow morning.,don t forget we have the project standup meeting at 10am tomorrow morning,73,13
+ham,Can you send me the link to that recipe you made last week? It was delicious. :),can you send me the link to that recipe you made last week it was delicious,75,16
+spam,PRIVATE! Your 2004 Account for 07781482378 has 800 points. Call 0871-872-9758 to claim your reward. Ref: #3371,private your 2004 account for 07781482378 has 800 points call 0871 872 9758 to claim your reward ref 3371,105,19
+ham,Happy birthday! Wishing you a fantastic year ahead filled with joy and success! :),happy birthday wishing you a fantastic year ahead filled with joy and success,77,13
+ham,Don't forget we have the project standup meeting at 10am tomorrow morning.,don t forget we have the project standup meeting at 10am tomorrow morning,73,13
+ham,Can you please pick up some milk and eggs on your way home from work? :),can you please pick up some milk and eggs on your way home from work,68,15
+ham,Did you finish the Python assignment? Let's compare our answers tonight.,did you finish the python assignment let s compare our answers tonight,70,12
+ham,"I'll be there in about 15 minutes, traffic is a bit slow today.",i ll be there in about 15 minutes traffic is a bit slow today,61,14
+ham,Let's catch up this weekend. Are you free on Saturday afternoon?,let s catch up this weekend are you free on saturday afternoon,62,12
+ham,"The weather is supposed to be really nice this Sunday, want to go for a hike? Thanks!",the weather is supposed to be really nice this sunday want to go for a hike thanks,82,17
+ham,Don't forget we have the project standup meeting at 10am tomorrow morning.,don t forget we have the project standup meeting at 10am tomorrow morning,73,13
+ham,Thanks for the lecture notes! They were super helpful for the exam prep. :),thanks for the lecture notes they were super helpful for the exam prep,70,13
+spam,Claim your complimentary 2-week gym pass at FitnessFirst today! Text FIT to 88088. Ref: #8970,claim your complimentary 2 week gym pass at fitnessfirst today text fit to 88088 ref 8970,89,16
+ham,Did you finish the Python assignment? Let's compare our answers tonight. :),did you finish the python assignment let s compare our answers tonight,70,12
+ham,"I'll be there in about 15 minutes, traffic is a bit slow today.",i ll be there in about 15 minutes traffic is a bit slow today,61,14
+ham,"I'll be there in about 15 minutes, traffic is a bit slow today. :)",i ll be there in about 15 minutes traffic is a bit slow today,61,14
+ham,Could you review my pull request on GitHub when you have a moment? :),could you review my pull request on github when you have a moment,65,13
+ham,Don't forget we have the project standup meeting at 10am tomorrow morning. :),don t forget we have the project standup meeting at 10am tomorrow morning,73,13
+ham,Don't forget we have the project standup meeting at 10am tomorrow morning. Thanks!,don t forget we have the project standup meeting at 10am tomorrow morning thanks,80,14
+spam,Special promotion! Buy 1 get 2 free on all health supplements. Order at http://vitamins-direct.com. Ref: #3443,special promotion buy 1 get 2 free on all health supplements order at ref 3443,78,15
+ham,Happy birthday! Wishing you a fantastic year ahead filled with joy and success! :),happy birthday wishing you a fantastic year ahead filled with joy and success,77,13
+spam,Claim your complimentary 2-week gym pass at FitnessFirst today! Text FIT to 88088. Ref: #1832,claim your complimentary 2 week gym pass at fitnessfirst today text fit to 88088 ref 1832,89,16
+spam,WIN a £500 shopping spree at Tesco! To enter simply answer our quick 2-question survey: http://tesco-win.me Ref: #9389,win a £500 shopping spree at tesco to enter simply answer our quick 2 question survey ref 9389,94,18
+spam,WIN a £500 shopping spree at Tesco! To enter simply answer our quick 2-question survey: http://tesco-win.me Ref: #8783,win a £500 shopping spree at tesco to enter simply answer our quick 2 question survey ref 8783,94,18
+ham,"I'm feeling much better today, thanks for checking in on me! Thanks!",i m feeling much better today thanks for checking in on me thanks,65,13
+ham,"Running a bit late, start eating without me. Be there around 7:30! Thanks!",running a bit late start eating without me be there around 7 30 thanks,70,14
+ham,Where did you leave the spare car keys? I can't find them on the counter. Thanks!,where did you leave the spare car keys i can t find them on the counter thanks,78,17
+ham,"I'll be there in about 15 minutes, traffic is a bit slow today.",i ll be there in about 15 minutes traffic is a bit slow today,61,14
+spam,Hot singles in your area want to chat with you right now! Reply CHAT to 69696 to connect.,hot singles in your area want to chat with you right now reply chat to 69696 to connect,87,18
+spam,"Alert: Unusual sign-in attempt detected on your PayPal account. If this was not you, visit http://paypal-verify.com. Ref: #2645",alert unusual sign in attempt detected on your paypal account if this was not you visit ref 2645,96,18
+ham,Can you please pick up some milk and eggs on your way home from work? :),can you please pick up some milk and eggs on your way home from work,68,15
+ham,"Sorry I missed your call earlier, I was in an important team meeting. What's up? :)",sorry i missed your call earlier i was in an important team meeting what s up,77,16
+spam,Double your money in 24 hours! Guaranteed crypto returns. Click http://bit.ly/fast-crypto now! Ref: #4391,double your money in 24 hours guaranteed crypto returns click now ref 4391,74,13
+ham,"Great job on the presentation today, the client was really impressed with our slides! :)",great job on the presentation today the client was really impressed with our slides,83,14
+ham,Don't forget we have the project standup meeting at 10am tomorrow morning. :),don t forget we have the project standup meeting at 10am tomorrow morning,73,13
+ham,Let's catch up this weekend. Are you free on Saturday afternoon? :),let s catch up this weekend are you free on saturday afternoon,62,12
+ham,"I'm feeling much better today, thanks for checking in on me!",i m feeling much better today thanks for checking in on me,58,12
+ham,Thanks for the lecture notes! They were super helpful for the exam prep. :),thanks for the lecture notes they were super helpful for the exam prep,70,13
+spam,FREE RINGTONE! Reply YES to 80082 to get polyphonic ringtones directly to your phone. 1.50gbp/week. Ref: #7722,free ringtone reply yes to 80082 to get polyphonic ringtones directly to your phone 1 50gbp week ref 7722,105,19
+ham,"The weather is supposed to be really nice this Sunday, want to go for a hike?",the weather is supposed to be really nice this sunday want to go for a hike,75,16
+ham,"Hey, are we still meeting for lunch at 1pm tomorrow? :)",hey are we still meeting for lunch at 1pm tomorrow,50,10
+spam,You have won a guaranteed £500 Amazon gift card! Claim now by replying GIFT.,you have won a guaranteed £500 amazon gift card claim now by replying gift,74,14
+ham,"Just reached the airport, flight is on time. See you soon! :)",just reached the airport flight is on time see you soon,55,11
+spam,"Alert: Unusual sign-in attempt detected on your PayPal account. If this was not you, visit http://paypal-verify.com. Ref: #9915",alert unusual sign in attempt detected on your paypal account if this was not you visit ref 9915,96,18
+ham,Let's catch up this weekend. Are you free on Saturday afternoon? :),let s catch up this weekend are you free on saturday afternoon,62,12
+ham,Let me know when you're free for a quick phone call to discuss the travel plans. :),let me know when you re free for a quick phone call to discuss the travel plans,79,17
+spam,WIN a £500 shopping spree at Tesco! To enter simply answer our quick 2-question survey: http://tesco-win.me Ref: #4531,win a £500 shopping spree at tesco to enter simply answer our quick 2 question survey ref 4531,94,18
+ham,Thanks for the lecture notes! They were super helpful for the exam prep. :),thanks for the lecture notes they were super helpful for the exam prep,70,13
+ham,"The weather is supposed to be really nice this Sunday, want to go for a hike? :)",the weather is supposed to be really nice this sunday want to go for a hike,75,16
+ham,Where did you leave the spare car keys? I can't find them on the counter.,where did you leave the spare car keys i can t find them on the counter,71,16
+ham,Let me know when you're free for a quick phone call to discuss the travel plans. :),let me know when you re free for a quick phone call to discuss the travel plans,79,17
+ham,"Running a bit late, start eating without me. Be there around 7:30! :)",running a bit late start eating without me be there around 7 30,63,13
+ham,Let me know when you're free for a quick phone call to discuss the travel plans. :),let me know when you re free for a quick phone call to discuss the travel plans,79,17
+ham,Don't forget we have the project standup meeting at 10am tomorrow morning. :),don t forget we have the project standup meeting at 10am tomorrow morning,73,13
+ham,I just sent over the revised budget spreadsheet. Please check if the numbers look right. :),i just sent over the revised budget spreadsheet please check if the numbers look right,86,15
+spam,"Alert: Unusual sign-in attempt detected on your PayPal account. If this was not you, visit http://paypal-verify.com. Ref: #6954",alert unusual sign in attempt detected on your paypal account if this was not you visit ref 6954,96,18
+ham,"Sorry I missed your call earlier, I was in an important team meeting. What's up?",sorry i missed your call earlier i was in an important team meeting what s up,77,16
+ham,Did you finish the Python assignment? Let's compare our answers tonight. :),did you finish the python assignment let s compare our answers tonight,70,12
+ham,"Hey, are we still meeting for lunch at 1pm tomorrow? :)",hey are we still meeting for lunch at 1pm tomorrow,50,10
+ham,Thanks for the lecture notes! They were super helpful for the exam prep. :),thanks for the lecture notes they were super helpful for the exam prep,70,13
+ham,Can you send me the link to that recipe you made last week? It was delicious. :),can you send me the link to that recipe you made last week it was delicious,75,16
+spam,Claim your complimentary 2-week gym pass at FitnessFirst today! Text FIT to 88088. Ref: #5033,claim your complimentary 2 week gym pass at fitnessfirst today text fit to 88088 ref 5033,89,16
+ham,Did you finish the Python assignment? Let's compare our answers tonight.,did you finish the python assignment let s compare our answers tonight,70,12
+spam,Your mobile contract is up for renewal! Get a brand new iPhone 15 Pro for £0 upfront. Call 0800-111-222.,your mobile contract is up for renewal get a brand new iphone 15 pro for £0 upfront call 0800 111 222,101,21
+ham,"Just reached the airport, flight is on time. See you soon! Thanks!",just reached the airport flight is on time see you soon thanks,62,12
+spam,Special promotion! Buy 1 get 2 free on all health supplements. Order at http://vitamins-direct.com. Ref: #7028,special promotion buy 1 get 2 free on all health supplements order at ref 7028,78,15
+ham,"I'm feeling much better today, thanks for checking in on me! :)",i m feeling much better today thanks for checking in on me,58,12
+ham,Sounds good! Let's book the tickets for the 7pm movie screening.,sounds good let s book the tickets for the 7pm movie screening,62,12
+ham,Did you finish the Python assignment? Let's compare our answers tonight. :),did you finish the python assignment let s compare our answers tonight,70,12
+ham,Don't forget we have the project standup meeting at 10am tomorrow morning. :),don t forget we have the project standup meeting at 10am tomorrow morning,73,13
+ham,Can you send me the link to that recipe you made last week? It was delicious. :),can you send me the link to that recipe you made last week it was delicious,75,16
+ham,Thanks for the lecture notes! They were super helpful for the exam prep. :),thanks for the lecture notes they were super helpful for the exam prep,70,13
+ham,Can you please pick up some milk and eggs on your way home from work? Thanks!,can you please pick up some milk and eggs on your way home from work thanks,75,16
+spam,"Alert: Unusual sign-in attempt detected on your PayPal account. If this was not you, visit http://paypal-verify.com.",alert unusual sign in attempt detected on your paypal account if this was not you visit,87,16
+ham,Happy birthday! Wishing you a fantastic year ahead filled with joy and success!,happy birthday wishing you a fantastic year ahead filled with joy and success,77,13
+ham,"Running a bit late, start eating without me. Be there around 7:30! Thanks!",running a bit late start eating without me be there around 7 30 thanks,70,14
+ham,"I'm feeling much better today, thanks for checking in on me! :)",i m feeling much better today thanks for checking in on me,58,12
+spam,PRIVATE! Your 2004 Account for 07781482378 has 800 points. Call 0871-872-9758 to claim your reward. Ref: #2120,private your 2004 account for 07781482378 has 800 points call 0871 872 9758 to claim your reward ref 2120,105,19
+ham,Could you review my pull request on GitHub when you have a moment?,could you review my pull request on github when you have a moment,65,13
+ham,Could you review my pull request on GitHub when you have a moment? Thanks!,could you review my pull request on github when you have a moment thanks,72,14
+ham,Let me know when you're free for a quick phone call to discuss the travel plans.,let me know when you re free for a quick phone call to discuss the travel plans,79,17
+ham,"Just reached the airport, flight is on time. See you soon! :)",just reached the airport flight is on time see you soon,55,11
+ham,I just sent over the revised budget spreadsheet. Please check if the numbers look right.,i just sent over the revised budget spreadsheet please check if the numbers look right,86,15
+ham,Let me know when you're free for a quick phone call to discuss the travel plans.,let me know when you re free for a quick phone call to discuss the travel plans,79,17
+spam,Loan approved! Up to £5000 deposited within 1 hour. No credit checks required! Call 08000930705. Ref: #3832,loan approved up to £5000 deposited within 1 hour no credit checks required call 08000930705 ref 3832,101,17
+ham,"I'll be there in about 15 minutes, traffic is a bit slow today. :)",i ll be there in about 15 minutes traffic is a bit slow today,61,14
+ham,Happy birthday! Wishing you a fantastic year ahead filled with joy and success! Thanks!,happy birthday wishing you a fantastic year ahead filled with joy and success thanks,84,14
+spam,Free entry in 2 a weekly competition to win £1000 cash. Text WIN to 82122 to enter now!,free entry in 2 a weekly competition to win £1000 cash text win to 82122 to enter now,85,18
+spam,Your mobile contract is up for renewal! Get a brand new iPhone 15 Pro for £0 upfront. Call 0800-111-222. Ref: #5225,your mobile contract is up for renewal get a brand new iphone 15 pro for £0 upfront call 0800 111 222 ref 5225,110,23
+ham,Where did you leave the spare car keys? I can't find them on the counter. Thanks!,where did you leave the spare car keys i can t find them on the counter thanks,78,17
+ham,Did you finish the Python assignment? Let's compare our answers tonight.,did you finish the python assignment let s compare our answers tonight,70,12
+ham,"I'll be there in about 15 minutes, traffic is a bit slow today. :)",i ll be there in about 15 minutes traffic is a bit slow today,61,14
+ham,Can you send me the link to that recipe you made last week? It was delicious.,can you send me the link to that recipe you made last week it was delicious,75,16
+ham,Happy birthday! Wishing you a fantastic year ahead filled with joy and success! :),happy birthday wishing you a fantastic year ahead filled with joy and success,77,13
+ham,Could you review my pull request on GitHub when you have a moment?,could you review my pull request on github when you have a moment,65,13
+ham,"I'm feeling much better today, thanks for checking in on me! :)",i m feeling much better today thanks for checking in on me,58,12
+ham,Let's catch up this weekend. Are you free on Saturday afternoon? :),let s catch up this weekend are you free on saturday afternoon,62,12
+ham,"Running a bit late, start eating without me. Be there around 7:30!",running a bit late start eating without me be there around 7 30,63,13
+ham,Where did you leave the spare car keys? I can't find them on the counter. Thanks!,where did you leave the spare car keys i can t find them on the counter thanks,78,17
+ham,Sounds good! Let's book the tickets for the 7pm movie screening.,sounds good let s book the tickets for the 7pm movie screening,62,12
+ham,"The weather is supposed to be really nice this Sunday, want to go for a hike? :)",the weather is supposed to be really nice this sunday want to go for a hike,75,16
+ham,"Sorry I missed your call earlier, I was in an important team meeting. What's up?",sorry i missed your call earlier i was in an important team meeting what s up,77,16
+ham,"Hey, are we still meeting for lunch at 1pm tomorrow?",hey are we still meeting for lunch at 1pm tomorrow,50,10
+ham,Let me know when you're free for a quick phone call to discuss the travel plans. :),let me know when you re free for a quick phone call to discuss the travel plans,79,17
+ham,Did you finish the Python assignment? Let's compare our answers tonight. Thanks!,did you finish the python assignment let s compare our answers tonight thanks,77,13
+ham,"Just reached the airport, flight is on time. See you soon!",just reached the airport flight is on time see you soon,55,11
+ham,Sounds good! Let's book the tickets for the 7pm movie screening.,sounds good let s book the tickets for the 7pm movie screening,62,12
+ham,I just sent over the revised budget spreadsheet. Please check if the numbers look right. Thanks!,i just sent over the revised budget spreadsheet please check if the numbers look right thanks,93,16
+ham,Happy birthday! Wishing you a fantastic year ahead filled with joy and success! :),happy birthday wishing you a fantastic year ahead filled with joy and success,77,13
+spam,Hot singles in your area want to chat with you right now! Reply CHAT to 69696 to connect.,hot singles in your area want to chat with you right now reply chat to 69696 to connect,87,18
+ham,"Sorry I missed your call earlier, I was in an important team meeting. What's up? Thanks!",sorry i missed your call earlier i was in an important team meeting what s up thanks,84,17
+ham,Where did you leave the spare car keys? I can't find them on the counter.,where did you leave the spare car keys i can t find them on the counter,71,16
+spam,"URGENT! Your mobile number was awarded a £2,000 bonus prize! Call 09061701461 immediately to claim.",urgent your mobile number was awarded a £2 000 bonus prize call 09061701461 immediately to claim,96,16
+spam,Exclusive offer! 50% discount on luxury watches. Visit our website http://swiss-replica.co today only! Ref: #3079,exclusive offer 50 discount on luxury watches visit our website today only ref 3079,83,14
+ham,"Great job on the presentation today, the client was really impressed with our slides! :)",great job on the presentation today the client was really impressed with our slides,83,14
+spam,Claim your complimentary 2-week gym pass at FitnessFirst today! Text FIT to 88088. Ref: #8973,claim your complimentary 2 week gym pass at fitnessfirst today text fit to 88088 ref 8973,89,16
+ham,"Running a bit late, start eating without me. Be there around 7:30! :)",running a bit late start eating without me be there around 7 30,63,13
+spam,URGENT: Call 09066362206 from landline. 150p/min. You have an unclaimed parcel waiting delivery. Ref: #5212,urgent call 09066362206 from landline 150p min you have an unclaimed parcel waiting delivery ref 5212,101,16
+ham,"I'll be there in about 15 minutes, traffic is a bit slow today. :)",i ll be there in about 15 minutes traffic is a bit slow today,61,14
+ham,Sounds good! Let's book the tickets for the 7pm movie screening.,sounds good let s book the tickets for the 7pm movie screening,62,12
+ham,Sounds good! Let's book the tickets for the 7pm movie screening.,sounds good let s book the tickets for the 7pm movie screening,62,12
+ham,Let's catch up this weekend. Are you free on Saturday afternoon? Thanks!,let s catch up this weekend are you free on saturday afternoon thanks,69,13
+ham,Can you send me the link to that recipe you made last week? It was delicious. :),can you send me the link to that recipe you made last week it was delicious,75,16
+ham,Sounds good! Let's book the tickets for the 7pm movie screening.,sounds good let s book the tickets for the 7pm movie screening,62,12
+spam,Congratulations! You won a FREE cruise to the Bahamas! Call now at 1-800-555-0199. T&Cs apply. Ref: #4744,congratulations you won a free cruise to the bahamas call now at 1 800 555 0199 t cs apply ref 4744,99,21
+ham,"The weather is supposed to be really nice this Sunday, want to go for a hike?",the weather is supposed to be really nice this sunday want to go for a hike,75,16
+spam,"Dear customer, your bank account has been suspended due to suspicious activity. Verify at http://secure-bank-login.xyz",dear customer your bank account has been suspended due to suspicious activity verify at,87,14
+spam,Loan approved! Up to £5000 deposited within 1 hour. No credit checks required! Call 08000930705. Ref: #4687,loan approved up to £5000 deposited within 1 hour no credit checks required call 08000930705 ref 4687,101,17
+ham,Let me know when you're free for a quick phone call to discuss the travel plans. :),let me know when you re free for a quick phone call to discuss the travel plans,79,17
+ham,Thanks for the lecture notes! They were super helpful for the exam prep. :),thanks for the lecture notes they were super helpful for the exam prep,70,13
+ham,Can you please pick up some milk and eggs on your way home from work?,can you please pick up some milk and eggs on your way home from work,68,15
+ham,"Just reached the airport, flight is on time. See you soon!",just reached the airport flight is on time see you soon,55,11
+ham,Can you please pick up some milk and eggs on your way home from work?,can you please pick up some milk and eggs on your way home from work,68,15
+ham,I just sent over the revised budget spreadsheet. Please check if the numbers look right.,i just sent over the revised budget spreadsheet please check if the numbers look right,86,15
+ham,"The weather is supposed to be really nice this Sunday, want to go for a hike?",the weather is supposed to be really nice this sunday want to go for a hike,75,16
+ham,I just sent over the revised budget spreadsheet. Please check if the numbers look right. :),i just sent over the revised budget spreadsheet please check if the numbers look right,86,15
+ham,Can you please pick up some milk and eggs on your way home from work? :),can you please pick up some milk and eggs on your way home from work,68,15
+ham,"The weather is supposed to be really nice this Sunday, want to go for a hike? :)",the weather is supposed to be really nice this sunday want to go for a hike,75,16
+ham,"Hey, are we still meeting for lunch at 1pm tomorrow?",hey are we still meeting for lunch at 1pm tomorrow,50,10
+ham,Where did you leave the spare car keys? I can't find them on the counter. Thanks!,where did you leave the spare car keys i can t find them on the counter thanks,78,17
+ham,"Sorry I missed your call earlier, I was in an important team meeting. What's up? :)",sorry i missed your call earlier i was in an important team meeting what s up,77,16
+spam,WINNER! As a valued customer you are selected to receive a £1000 cash reward. Text CLAIM to 87077.,winner as a valued customer you are selected to receive a £1000 cash reward text claim to 87077,95,18
+spam,You have won a guaranteed £500 Amazon gift card! Claim now by replying GIFT. Ref: #6560,you have won a guaranteed £500 amazon gift card claim now by replying gift ref 6560,83,16
+ham,Let me know when you're free for a quick phone call to discuss the travel plans. :),let me know when you re free for a quick phone call to discuss the travel plans,79,17
+ham,"I'll be there in about 15 minutes, traffic is a bit slow today.",i ll be there in about 15 minutes traffic is a bit slow today,61,14
+ham,Let's catch up this weekend. Are you free on Saturday afternoon?,let s catch up this weekend are you free on saturday afternoon,62,12
+ham,Can you send me the link to that recipe you made last week? It was delicious. Thanks!,can you send me the link to that recipe you made last week it was delicious thanks,82,17
+ham,Happy birthday! Wishing you a fantastic year ahead filled with joy and success! :),happy birthday wishing you a fantastic year ahead filled with joy and success,77,13
+ham,"Sorry I missed your call earlier, I was in an important team meeting. What's up?",sorry i missed your call earlier i was in an important team meeting what s up,77,16
+ham,I just sent over the revised budget spreadsheet. Please check if the numbers look right. :),i just sent over the revised budget spreadsheet please check if the numbers look right,86,15
+ham,"Hey, are we still meeting for lunch at 1pm tomorrow?",hey are we still meeting for lunch at 1pm tomorrow,50,10
+ham,"Just reached the airport, flight is on time. See you soon!",just reached the airport flight is on time see you soon,55,11
+ham,"Hey, are we still meeting for lunch at 1pm tomorrow? Thanks!",hey are we still meeting for lunch at 1pm tomorrow thanks,57,11
+ham,Let me know when you're free for a quick phone call to discuss the travel plans. :),let me know when you re free for a quick phone call to discuss the travel plans,79,17
+spam,PRIVATE! Your 2004 Account for 07781482378 has 800 points. Call 0871-872-9758 to claim your reward. Ref: #2828,private your 2004 account for 07781482378 has 800 points call 0871 872 9758 to claim your reward ref 2828,105,19
+ham,"The weather is supposed to be really nice this Sunday, want to go for a hike? :)",the weather is supposed to be really nice this sunday want to go for a hike,75,16
+spam,WIN a £500 shopping spree at Tesco! To enter simply answer our quick 2-question survey: http://tesco-win.me,win a £500 shopping spree at tesco to enter simply answer our quick 2 question survey,85,16
+ham,Can you please pick up some milk and eggs on your way home from work? :),can you please pick up some milk and eggs on your way home from work,68,15
+ham,Let me know when you're free for a quick phone call to discuss the travel plans.,let me know when you re free for a quick phone call to discuss the travel plans,79,17
+ham,Can you send me the link to that recipe you made last week? It was delicious. :),can you send me the link to that recipe you made last week it was delicious,75,16
+ham,Happy birthday! Wishing you a fantastic year ahead filled with joy and success! :),happy birthday wishing you a fantastic year ahead filled with joy and success,77,13
+ham,"Great job on the presentation today, the client was really impressed with our slides!",great job on the presentation today the client was really impressed with our slides,83,14
+ham,Can you send me the link to that recipe you made last week? It was delicious. :),can you send me the link to that recipe you made last week it was delicious,75,16
+ham,Happy birthday! Wishing you a fantastic year ahead filled with joy and success!,happy birthday wishing you a fantastic year ahead filled with joy and success,77,13
+ham,"Sorry I missed your call earlier, I was in an important team meeting. What's up? :)",sorry i missed your call earlier i was in an important team meeting what s up,77,16
+ham,Can you send me the link to that recipe you made last week? It was delicious.,can you send me the link to that recipe you made last week it was delicious,75,16
+spam,Exclusive offer! 50% discount on luxury watches. Visit our website http://swiss-replica.co today only!,exclusive offer 50 discount on luxury watches visit our website today only,74,12
+ham,"Just reached the airport, flight is on time. See you soon!",just reached the airport flight is on time see you soon,55,11
+ham,I just sent over the revised budget spreadsheet. Please check if the numbers look right. :),i just sent over the revised budget spreadsheet please check if the numbers look right,86,15
+ham,"Hey, are we still meeting for lunch at 1pm tomorrow? :)",hey are we still meeting for lunch at 1pm tomorrow,50,10
+ham,Let me know when you're free for a quick phone call to discuss the travel plans. :),let me know when you re free for a quick phone call to discuss the travel plans,79,17
+ham,Happy birthday! Wishing you a fantastic year ahead filled with joy and success! Thanks!,happy birthday wishing you a fantastic year ahead filled with joy and success thanks,84,14
+ham,"Just reached the airport, flight is on time. See you soon! :)",just reached the airport flight is on time see you soon,55,11
+ham,"Great job on the presentation today, the client was really impressed with our slides! :)",great job on the presentation today the client was really impressed with our slides,83,14
+ham,"Hey, are we still meeting for lunch at 1pm tomorrow? Thanks!",hey are we still meeting for lunch at 1pm tomorrow thanks,57,11
+spam,"URGENT! Your mobile number was awarded a £2,000 bonus prize! Call 09061701461 immediately to claim. Ref: #4876",urgent your mobile number was awarded a £2 000 bonus prize call 09061701461 immediately to claim ref 4876,105,18
+ham,Thanks for the lecture notes! They were super helpful for the exam prep.,thanks for the lecture notes they were super helpful for the exam prep,70,13
+ham,"I'm feeling much better today, thanks for checking in on me! :)",i m feeling much better today thanks for checking in on me,58,12
+ham,Could you review my pull request on GitHub when you have a moment? :),could you review my pull request on github when you have a moment,65,13
+spam,Hot singles in your area want to chat with you right now! Reply CHAT to 69696 to connect.,hot singles in your area want to chat with you right now reply chat to 69696 to connect,87,18
+ham,Can you please pick up some milk and eggs on your way home from work?,can you please pick up some milk and eggs on your way home from work,68,15
+ham,Happy birthday! Wishing you a fantastic year ahead filled with joy and success! :),happy birthday wishing you a fantastic year ahead filled with joy and success,77,13
+ham,Happy birthday! Wishing you a fantastic year ahead filled with joy and success! :),happy birthday wishing you a fantastic year ahead filled with joy and success,77,13
+ham,"Running a bit late, start eating without me. Be there around 7:30! :)",running a bit late start eating without me be there around 7 30,63,13
+spam,Double your money in 24 hours! Guaranteed crypto returns. Click http://bit.ly/fast-crypto now! Ref: #9393,double your money in 24 hours guaranteed crypto returns click now ref 9393,74,13
+ham,"Great job on the presentation today, the client was really impressed with our slides!",great job on the presentation today the client was really impressed with our slides,83,14
+spam,URGENT: Call 09066362206 from landline. 150p/min. You have an unclaimed parcel waiting delivery. Ref: #8186,urgent call 09066362206 from landline 150p min you have an unclaimed parcel waiting delivery ref 8186,101,16
+spam,Claim your complimentary 2-week gym pass at FitnessFirst today! Text FIT to 88088.,claim your complimentary 2 week gym pass at fitnessfirst today text fit to 88088,80,14
+ham,"Sorry I missed your call earlier, I was in an important team meeting. What's up? Thanks!",sorry i missed your call earlier i was in an important team meeting what s up thanks,84,17
+ham,Thanks for the lecture notes! They were super helpful for the exam prep. Thanks!,thanks for the lecture notes they were super helpful for the exam prep thanks,77,14
+ham,Let me know when you're free for a quick phone call to discuss the travel plans. Thanks!,let me know when you re free for a quick phone call to discuss the travel plans thanks,86,18
+spam,Claim your complimentary 2-week gym pass at FitnessFirst today! Text FIT to 88088. Ref: #9195,claim your complimentary 2 week gym pass at fitnessfirst today text fit to 88088 ref 9195,89,16
+ham,Can you send me the link to that recipe you made last week? It was delicious. :),can you send me the link to that recipe you made last week it was delicious,75,16
+ham,Where did you leave the spare car keys? I can't find them on the counter.,where did you leave the spare car keys i can t find them on the counter,71,16
+ham,I just sent over the revised budget spreadsheet. Please check if the numbers look right.,i just sent over the revised budget spreadsheet please check if the numbers look right,86,15
+ham,Let me know when you're free for a quick phone call to discuss the travel plans.,let me know when you re free for a quick phone call to discuss the travel plans,79,17
+ham,"Hey, are we still meeting for lunch at 1pm tomorrow? Thanks!",hey are we still meeting for lunch at 1pm tomorrow thanks,57,11
+ham,Did you finish the Python assignment? Let's compare our answers tonight. Thanks!,did you finish the python assignment let s compare our answers tonight thanks,77,13
+spam,WIN a £500 shopping spree at Tesco! To enter simply answer our quick 2-question survey: http://tesco-win.me Ref: #9477,win a £500 shopping spree at tesco to enter simply answer our quick 2 question survey ref 9477,94,18
+ham,Don't forget we have the project standup meeting at 10am tomorrow morning.,don t forget we have the project standup meeting at 10am tomorrow morning,73,13
+ham,"Sorry I missed your call earlier, I was in an important team meeting. What's up? :)",sorry i missed your call earlier i was in an important team meeting what s up,77,16
+ham,"Just reached the airport, flight is on time. See you soon! :)",just reached the airport flight is on time see you soon,55,11
+ham,Thanks for the lecture notes! They were super helpful for the exam prep. :),thanks for the lecture notes they were super helpful for the exam prep,70,13
+ham,Let's catch up this weekend. Are you free on Saturday afternoon? :),let s catch up this weekend are you free on saturday afternoon,62,12
+ham,"The weather is supposed to be really nice this Sunday, want to go for a hike?",the weather is supposed to be really nice this sunday want to go for a hike,75,16
+ham,"Just reached the airport, flight is on time. See you soon! :)",just reached the airport flight is on time see you soon,55,11
+ham,"Running a bit late, start eating without me. Be there around 7:30!",running a bit late start eating without me be there around 7 30,63,13
+ham,"Hey, are we still meeting for lunch at 1pm tomorrow? :)",hey are we still meeting for lunch at 1pm tomorrow,50,10
+ham,Sounds good! Let's book the tickets for the 7pm movie screening. :),sounds good let s book the tickets for the 7pm movie screening,62,12
+ham,"I'll be there in about 15 minutes, traffic is a bit slow today.",i ll be there in about 15 minutes traffic is a bit slow today,61,14
+ham,Let me know when you're free for a quick phone call to discuss the travel plans.,let me know when you re free for a quick phone call to discuss the travel plans,79,17
+ham,Can you please pick up some milk and eggs on your way home from work? Thanks!,can you please pick up some milk and eggs on your way home from work thanks,75,16
+ham,I just sent over the revised budget spreadsheet. Please check if the numbers look right. :),i just sent over the revised budget spreadsheet please check if the numbers look right,86,15
+ham,Could you review my pull request on GitHub when you have a moment?,could you review my pull request on github when you have a moment,65,13
+ham,"Great job on the presentation today, the client was really impressed with our slides! Thanks!",great job on the presentation today the client was really impressed with our slides thanks,90,15
+ham,Let's catch up this weekend. Are you free on Saturday afternoon? :),let s catch up this weekend are you free on saturday afternoon,62,12
+ham,Thanks for the lecture notes! They were super helpful for the exam prep. :),thanks for the lecture notes they were super helpful for the exam prep,70,13
+spam,Your mobile contract is up for renewal! Get a brand new iPhone 15 Pro for £0 upfront. Call 0800-111-222.,your mobile contract is up for renewal get a brand new iphone 15 pro for £0 upfront call 0800 111 222,101,21
+ham,Happy birthday! Wishing you a fantastic year ahead filled with joy and success!,happy birthday wishing you a fantastic year ahead filled with joy and success,77,13
+ham,Let's catch up this weekend. Are you free on Saturday afternoon? Thanks!,let s catch up this weekend are you free on saturday afternoon thanks,69,13
+ham,"Running a bit late, start eating without me. Be there around 7:30! :)",running a bit late start eating without me be there around 7 30,63,13
+ham,Let's catch up this weekend. Are you free on Saturday afternoon? Thanks!,let s catch up this weekend are you free on saturday afternoon thanks,69,13
+ham,"I'm feeling much better today, thanks for checking in on me!",i m feeling much better today thanks for checking in on me,58,12
+ham,Can you please pick up some milk and eggs on your way home from work?,can you please pick up some milk and eggs on your way home from work,68,15
+ham,"Hey, are we still meeting for lunch at 1pm tomorrow?",hey are we still meeting for lunch at 1pm tomorrow,50,10
+spam,WIN a £500 shopping spree at Tesco! To enter simply answer our quick 2-question survey: http://tesco-win.me Ref: #9533,win a £500 shopping spree at tesco to enter simply answer our quick 2 question survey ref 9533,94,18
+spam,URGENT: Call 09066362206 from landline. 150p/min. You have an unclaimed parcel waiting delivery. Ref: #4228,urgent call 09066362206 from landline 150p min you have an unclaimed parcel waiting delivery ref 4228,101,16
+ham,Can you please pick up some milk and eggs on your way home from work? :),can you please pick up some milk and eggs on your way home from work,68,15
+ham,I just sent over the revised budget spreadsheet. Please check if the numbers look right.,i just sent over the revised budget spreadsheet please check if the numbers look right,86,15
+spam,Congratulations! You won a FREE cruise to the Bahamas! Call now at 1-800-555-0199. T&Cs apply.,congratulations you won a free cruise to the bahamas call now at 1 800 555 0199 t cs apply,90,19
+ham,Don't forget we have the project standup meeting at 10am tomorrow morning. Thanks!,don t forget we have the project standup meeting at 10am tomorrow morning thanks,80,14
+ham,Sounds good! Let's book the tickets for the 7pm movie screening. :),sounds good let s book the tickets for the 7pm movie screening,62,12
+ham,Don't forget we have the project standup meeting at 10am tomorrow morning.,don t forget we have the project standup meeting at 10am tomorrow morning,73,13
+ham,Where did you leave the spare car keys? I can't find them on the counter. :),where did you leave the spare car keys i can t find them on the counter,71,16
+ham,"Just reached the airport, flight is on time. See you soon!",just reached the airport flight is on time see you soon,55,11
+ham,"The weather is supposed to be really nice this Sunday, want to go for a hike? :)",the weather is supposed to be really nice this sunday want to go for a hike,75,16
+ham,"Just reached the airport, flight is on time. See you soon! :)",just reached the airport flight is on time see you soon,55,11
+ham,"Sorry I missed your call earlier, I was in an important team meeting. What's up? :)",sorry i missed your call earlier i was in an important team meeting what s up,77,16
+ham,Can you please pick up some milk and eggs on your way home from work? Thanks!,can you please pick up some milk and eggs on your way home from work thanks,75,16
+ham,Happy birthday! Wishing you a fantastic year ahead filled with joy and success! :),happy birthday wishing you a fantastic year ahead filled with joy and success,77,13
+spam,Double your money in 24 hours! Guaranteed crypto returns. Click http://bit.ly/fast-crypto now!,double your money in 24 hours guaranteed crypto returns click now,65,11
+ham,I just sent over the revised budget spreadsheet. Please check if the numbers look right. :),i just sent over the revised budget spreadsheet please check if the numbers look right,86,15
+ham,"I'm feeling much better today, thanks for checking in on me! Thanks!",i m feeling much better today thanks for checking in on me thanks,65,13
+ham,Did you finish the Python assignment? Let's compare our answers tonight.,did you finish the python assignment let s compare our answers tonight,70,12
+ham,Let's catch up this weekend. Are you free on Saturday afternoon? :),let s catch up this weekend are you free on saturday afternoon,62,12
+spam,"Dear customer, your bank account has been suspended due to suspicious activity. Verify at http://secure-bank-login.xyz Ref: #1922",dear customer your bank account has been suspended due to suspicious activity verify at ref 1922,96,16
+ham,"Running a bit late, start eating without me. Be there around 7:30! :)",running a bit late start eating without me be there around 7 30,63,13
+ham,"I'm feeling much better today, thanks for checking in on me! Thanks!",i m feeling much better today thanks for checking in on me thanks,65,13
+ham,Thanks for the lecture notes! They were super helpful for the exam prep.,thanks for the lecture notes they were super helpful for the exam prep,70,13
+ham,"I'll be there in about 15 minutes, traffic is a bit slow today. Thanks!",i ll be there in about 15 minutes traffic is a bit slow today thanks,68,15
+ham,Thanks for the lecture notes! They were super helpful for the exam prep.,thanks for the lecture notes they were super helpful for the exam prep,70,13
+ham,I just sent over the revised budget spreadsheet. Please check if the numbers look right. :),i just sent over the revised budget spreadsheet please check if the numbers look right,86,15
+spam,"URGENT! Your mobile number was awarded a £2,000 bonus prize! Call 09061701461 immediately to claim. Ref: #6619",urgent your mobile number was awarded a £2 000 bonus prize call 09061701461 immediately to claim ref 6619,105,18
+ham,"I'm feeling much better today, thanks for checking in on me! :)",i m feeling much better today thanks for checking in on me,58,12
+spam,Claim your complimentary 2-week gym pass at FitnessFirst today! Text FIT to 88088. Ref: #3538,claim your complimentary 2 week gym pass at fitnessfirst today text fit to 88088 ref 3538,89,16
+ham,Can you please pick up some milk and eggs on your way home from work?,can you please pick up some milk and eggs on your way home from work,68,15
+ham,Thanks for the lecture notes! They were super helpful for the exam prep. :),thanks for the lecture notes they were super helpful for the exam prep,70,13
+ham,"Sorry I missed your call earlier, I was in an important team meeting. What's up?",sorry i missed your call earlier i was in an important team meeting what s up,77,16
+spam,Free entry in 2 a weekly competition to win £1000 cash. Text WIN to 82122 to enter now!,free entry in 2 a weekly competition to win £1000 cash text win to 82122 to enter now,85,18
+ham,Can you please pick up some milk and eggs on your way home from work? :),can you please pick up some milk and eggs on your way home from work,68,15
+ham,Could you review my pull request on GitHub when you have a moment?,could you review my pull request on github when you have a moment,65,13
+ham,Don't forget we have the project standup meeting at 10am tomorrow morning. :),don t forget we have the project standup meeting at 10am tomorrow morning,73,13
+ham,"I'm feeling much better today, thanks for checking in on me! :)",i m feeling much better today thanks for checking in on me,58,12
+ham,Could you review my pull request on GitHub when you have a moment? Thanks!,could you review my pull request on github when you have a moment thanks,72,14
+spam,WINNER! As a valued customer you are selected to receive a £1000 cash reward. Text CLAIM to 87077.,winner as a valued customer you are selected to receive a £1000 cash reward text claim to 87077,95,18
+ham,"I'm feeling much better today, thanks for checking in on me! Thanks!",i m feeling much better today thanks for checking in on me thanks,65,13
+ham,"I'm feeling much better today, thanks for checking in on me!",i m feeling much better today thanks for checking in on me,58,12
+ham,Could you review my pull request on GitHub when you have a moment? Thanks!,could you review my pull request on github when you have a moment thanks,72,14
+ham,Let's catch up this weekend. Are you free on Saturday afternoon? :),let s catch up this weekend are you free on saturday afternoon,62,12
+spam,Loan approved! Up to £5000 deposited within 1 hour. No credit checks required! Call 08000930705. Ref: #4530,loan approved up to £5000 deposited within 1 hour no credit checks required call 08000930705 ref 4530,101,17
+ham,Did you finish the Python assignment? Let's compare our answers tonight. :),did you finish the python assignment let s compare our answers tonight,70,12
+ham,Let me know when you're free for a quick phone call to discuss the travel plans. :),let me know when you re free for a quick phone call to discuss the travel plans,79,17
+spam,WINNER! As a valued customer you are selected to receive a £1000 cash reward. Text CLAIM to 87077.,winner as a valued customer you are selected to receive a £1000 cash reward text claim to 87077,95,18
+ham,"Hey, are we still meeting for lunch at 1pm tomorrow?",hey are we still meeting for lunch at 1pm tomorrow,50,10
+ham,"I'm feeling much better today, thanks for checking in on me! :)",i m feeling much better today thanks for checking in on me,58,12
+ham,Thanks for the lecture notes! They were super helpful for the exam prep.,thanks for the lecture notes they were super helpful for the exam prep,70,13
+ham,I just sent over the revised budget spreadsheet. Please check if the numbers look right. :),i just sent over the revised budget spreadsheet please check if the numbers look right,86,15
+ham,"Hey, are we still meeting for lunch at 1pm tomorrow? :)",hey are we still meeting for lunch at 1pm tomorrow,50,10
+ham,"Hey, are we still meeting for lunch at 1pm tomorrow? :)",hey are we still meeting for lunch at 1pm tomorrow,50,10
+ham,Where did you leave the spare car keys? I can't find them on the counter. :),where did you leave the spare car keys i can t find them on the counter,71,16
+ham,Where did you leave the spare car keys? I can't find them on the counter.,where did you leave the spare car keys i can t find them on the counter,71,16
+ham,I just sent over the revised budget spreadsheet. Please check if the numbers look right.,i just sent over the revised budget spreadsheet please check if the numbers look right,86,15
+spam,Hot singles in your area want to chat with you right now! Reply CHAT to 69696 to connect. Ref: #5873,hot singles in your area want to chat with you right now reply chat to 69696 to connect ref 5873,96,20
+ham,Did you finish the Python assignment? Let's compare our answers tonight. :),did you finish the python assignment let s compare our answers tonight,70,12
+ham,Can you send me the link to that recipe you made last week? It was delicious. :),can you send me the link to that recipe you made last week it was delicious,75,16
+ham,Did you finish the Python assignment? Let's compare our answers tonight. Thanks!,did you finish the python assignment let s compare our answers tonight thanks,77,13
+ham,Sounds good! Let's book the tickets for the 7pm movie screening. :),sounds good let s book the tickets for the 7pm movie screening,62,12
+ham,Sounds good! Let's book the tickets for the 7pm movie screening. :),sounds good let s book the tickets for the 7pm movie screening,62,12
+spam,Claim your complimentary 2-week gym pass at FitnessFirst today! Text FIT to 88088.,claim your complimentary 2 week gym pass at fitnessfirst today text fit to 88088,80,14
+ham,"The weather is supposed to be really nice this Sunday, want to go for a hike? :)",the weather is supposed to be really nice this sunday want to go for a hike,75,16
+ham,Can you please pick up some milk and eggs on your way home from work? :),can you please pick up some milk and eggs on your way home from work,68,15
+ham,"Great job on the presentation today, the client was really impressed with our slides! :)",great job on the presentation today the client was really impressed with our slides,83,14
+ham,Could you review my pull request on GitHub when you have a moment? :),could you review my pull request on github when you have a moment,65,13
+spam,Loan approved! Up to £5000 deposited within 1 hour. No credit checks required! Call 08000930705.,loan approved up to £5000 deposited within 1 hour no credit checks required call 08000930705,92,15
+ham,Where did you leave the spare car keys? I can't find them on the counter. :),where did you leave the spare car keys i can t find them on the counter,71,16
+ham,"Hey, are we still meeting for lunch at 1pm tomorrow? :)",hey are we still meeting for lunch at 1pm tomorrow,50,10
+ham,"I'm feeling much better today, thanks for checking in on me!",i m feeling much better today thanks for checking in on me,58,12
+spam,Loan approved! Up to £5000 deposited within 1 hour. No credit checks required! Call 08000930705.,loan approved up to £5000 deposited within 1 hour no credit checks required call 08000930705,92,15
+spam,WIN a £500 shopping spree at Tesco! To enter simply answer our quick 2-question survey: http://tesco-win.me,win a £500 shopping spree at tesco to enter simply answer our quick 2 question survey,85,16
+ham,Where did you leave the spare car keys? I can't find them on the counter. :),where did you leave the spare car keys i can t find them on the counter,71,16
+ham,"Hey, are we still meeting for lunch at 1pm tomorrow? :)",hey are we still meeting for lunch at 1pm tomorrow,50,10
+ham,Where did you leave the spare car keys? I can't find them on the counter. :),where did you leave the spare car keys i can t find them on the counter,71,16
+ham,I just sent over the revised budget spreadsheet. Please check if the numbers look right. :),i just sent over the revised budget spreadsheet please check if the numbers look right,86,15
+ham,Could you review my pull request on GitHub when you have a moment? :),could you review my pull request on github when you have a moment,65,13
+ham,"I'm feeling much better today, thanks for checking in on me!",i m feeling much better today thanks for checking in on me,58,12
+ham,"I'll be there in about 15 minutes, traffic is a bit slow today.",i ll be there in about 15 minutes traffic is a bit slow today,61,14
+ham,"I'm feeling much better today, thanks for checking in on me! Thanks!",i m feeling much better today thanks for checking in on me thanks,65,13
+spam,WIN a £500 shopping spree at Tesco! To enter simply answer our quick 2-question survey: http://tesco-win.me,win a £500 shopping spree at tesco to enter simply answer our quick 2 question survey,85,16
+ham,Did you finish the Python assignment? Let's compare our answers tonight. :),did you finish the python assignment let s compare our answers tonight,70,12
+ham,"Great job on the presentation today, the client was really impressed with our slides! :)",great job on the presentation today the client was really impressed with our slides,83,14
+ham,"Sorry I missed your call earlier, I was in an important team meeting. What's up? :)",sorry i missed your call earlier i was in an important team meeting what s up,77,16
+spam,"Dear customer, your bank account has been suspended due to suspicious activity. Verify at http://secure-bank-login.xyz",dear customer your bank account has been suspended due to suspicious activity verify at,87,14
+ham,Happy birthday! Wishing you a fantastic year ahead filled with joy and success! :),happy birthday wishing you a fantastic year ahead filled with joy and success,77,13
+ham,Thanks for the lecture notes! They were super helpful for the exam prep.,thanks for the lecture notes they were super helpful for the exam prep,70,13
+ham,"Hey, are we still meeting for lunch at 1pm tomorrow? :)",hey are we still meeting for lunch at 1pm tomorrow,50,10
+ham,"The weather is supposed to be really nice this Sunday, want to go for a hike? :)",the weather is supposed to be really nice this sunday want to go for a hike,75,16
+ham,"I'm feeling much better today, thanks for checking in on me! :)",i m feeling much better today thanks for checking in on me,58,12
+ham,"Running a bit late, start eating without me. Be there around 7:30! :)",running a bit late start eating without me be there around 7 30,63,13
+ham,"I'll be there in about 15 minutes, traffic is a bit slow today.",i ll be there in about 15 minutes traffic is a bit slow today,61,14
+ham,"The weather is supposed to be really nice this Sunday, want to go for a hike? :)",the weather is supposed to be really nice this sunday want to go for a hike,75,16
+ham,Don't forget we have the project standup meeting at 10am tomorrow morning.,don t forget we have the project standup meeting at 10am tomorrow morning,73,13
+spam,Claim your complimentary 2-week gym pass at FitnessFirst today! Text FIT to 88088. Ref: #7469,claim your complimentary 2 week gym pass at fitnessfirst today text fit to 88088 ref 7469,89,16
+ham,Did you finish the Python assignment? Let's compare our answers tonight. :),did you finish the python assignment let s compare our answers tonight,70,12
+spam,Congratulations! You won a FREE cruise to the Bahamas! Call now at 1-800-555-0199. T&Cs apply. Ref: #2202,congratulations you won a free cruise to the bahamas call now at 1 800 555 0199 t cs apply ref 2202,99,21
+ham,Let me know when you're free for a quick phone call to discuss the travel plans.,let me know when you re free for a quick phone call to discuss the travel plans,79,17
+ham,Could you review my pull request on GitHub when you have a moment? Thanks!,could you review my pull request on github when you have a moment thanks,72,14
+ham,"Hey, are we still meeting for lunch at 1pm tomorrow?",hey are we still meeting for lunch at 1pm tomorrow,50,10
+ham,Let me know when you're free for a quick phone call to discuss the travel plans. :),let me know when you re free for a quick phone call to discuss the travel plans,79,17
+spam,"URGENT! Your mobile number was awarded a £2,000 bonus prize! Call 09061701461 immediately to claim. Ref: #2619",urgent your mobile number was awarded a £2 000 bonus prize call 09061701461 immediately to claim ref 2619,105,18
+ham,"Great job on the presentation today, the client was really impressed with our slides! :)",great job on the presentation today the client was really impressed with our slides,83,14
+spam,PRIVATE! Your 2004 Account for 07781482378 has 800 points. Call 0871-872-9758 to claim your reward. Ref: #6788,private your 2004 account for 07781482378 has 800 points call 0871 872 9758 to claim your reward ref 6788,105,19
+ham,Let me know when you're free for a quick phone call to discuss the travel plans. :),let me know when you re free for a quick phone call to discuss the travel plans,79,17
+ham,"Just reached the airport, flight is on time. See you soon! :)",just reached the airport flight is on time see you soon,55,11
+ham,"Running a bit late, start eating without me. Be there around 7:30!",running a bit late start eating without me be there around 7 30,63,13
+ham,Thanks for the lecture notes! They were super helpful for the exam prep. :),thanks for the lecture notes they were super helpful for the exam prep,70,13
+ham,Thanks for the lecture notes! They were super helpful for the exam prep. Thanks!,thanks for the lecture notes they were super helpful for the exam prep thanks,77,14
+ham,Did you finish the Python assignment? Let's compare our answers tonight.,did you finish the python assignment let s compare our answers tonight,70,12
+spam,Your parcel delivery has failed because no one was home. Reschedule fee required: http://dpd-redelivery.org Ref: #3635,your parcel delivery has failed because no one was home reschedule fee required ref 3635,88,15
+ham,Sounds good! Let's book the tickets for the 7pm movie screening.,sounds good let s book the tickets for the 7pm movie screening,62,12
+ham,"Great job on the presentation today, the client was really impressed with our slides!",great job on the presentation today the client was really impressed with our slides,83,14
+ham,Don't forget we have the project standup meeting at 10am tomorrow morning. :),don t forget we have the project standup meeting at 10am tomorrow morning,73,13
+ham,Thanks for the lecture notes! They were super helpful for the exam prep. Thanks!,thanks for the lecture notes they were super helpful for the exam prep thanks,77,14
+spam,Exclusive offer! 50% discount on luxury watches. Visit our website http://swiss-replica.co today only!,exclusive offer 50 discount on luxury watches visit our website today only,74,12
+ham,Did you finish the Python assignment? Let's compare our answers tonight. :),did you finish the python assignment let s compare our answers tonight,70,12
+ham,"I'm feeling much better today, thanks for checking in on me!",i m feeling much better today thanks for checking in on me,58,12
+ham,Where did you leave the spare car keys? I can't find them on the counter. :),where did you leave the spare car keys i can t find them on the counter,71,16
+ham,Could you review my pull request on GitHub when you have a moment?,could you review my pull request on github when you have a moment,65,13
+ham,Let me know when you're free for a quick phone call to discuss the travel plans. :),let me know when you re free for a quick phone call to discuss the travel plans,79,17
+ham,Could you review my pull request on GitHub when you have a moment?,could you review my pull request on github when you have a moment,65,13
+ham,Happy birthday! Wishing you a fantastic year ahead filled with joy and success! Thanks!,happy birthday wishing you a fantastic year ahead filled with joy and success thanks,84,14
+ham,Did you finish the Python assignment? Let's compare our answers tonight.,did you finish the python assignment let s compare our answers tonight,70,12
+ham,I just sent over the revised budget spreadsheet. Please check if the numbers look right. :),i just sent over the revised budget spreadsheet please check if the numbers look right,86,15
+ham,"Great job on the presentation today, the client was really impressed with our slides!",great job on the presentation today the client was really impressed with our slides,83,14
+ham,Let's catch up this weekend. Are you free on Saturday afternoon? Thanks!,let s catch up this weekend are you free on saturday afternoon thanks,69,13
+ham,Can you please pick up some milk and eggs on your way home from work?,can you please pick up some milk and eggs on your way home from work,68,15
+ham,Let's catch up this weekend. Are you free on Saturday afternoon?,let s catch up this weekend are you free on saturday afternoon,62,12
+ham,"Running a bit late, start eating without me. Be there around 7:30!",running a bit late start eating without me be there around 7 30,63,13
+ham,Could you review my pull request on GitHub when you have a moment?,could you review my pull request on github when you have a moment,65,13
+ham,Did you finish the Python assignment? Let's compare our answers tonight. :),did you finish the python assignment let s compare our answers tonight,70,12
+ham,Did you finish the Python assignment? Let's compare our answers tonight.,did you finish the python assignment let s compare our answers tonight,70,12
+ham,"Just reached the airport, flight is on time. See you soon! :)",just reached the airport flight is on time see you soon,55,11
+ham,I just sent over the revised budget spreadsheet. Please check if the numbers look right. :),i just sent over the revised budget spreadsheet please check if the numbers look right,86,15
+spam,Double your money in 24 hours! Guaranteed crypto returns. Click http://bit.ly/fast-crypto now!,double your money in 24 hours guaranteed crypto returns click now,65,11
+ham,Did you finish the Python assignment? Let's compare our answers tonight. :),did you finish the python assignment let s compare our answers tonight,70,12
+ham,Don't forget we have the project standup meeting at 10am tomorrow morning.,don t forget we have the project standup meeting at 10am tomorrow morning,73,13
+spam,Congratulations! You won a FREE cruise to the Bahamas! Call now at 1-800-555-0199. T&Cs apply.,congratulations you won a free cruise to the bahamas call now at 1 800 555 0199 t cs apply,90,19
+ham,Thanks for the lecture notes! They were super helpful for the exam prep. :),thanks for the lecture notes they were super helpful for the exam prep,70,13
+ham,Did you finish the Python assignment? Let's compare our answers tonight. :),did you finish the python assignment let s compare our answers tonight,70,12
+spam,"Alert: Unusual sign-in attempt detected on your PayPal account. If this was not you, visit http://paypal-verify.com. Ref: #7645",alert unusual sign in attempt detected on your paypal account if this was not you visit ref 7645,96,18
+spam,FREE RINGTONE! Reply YES to 80082 to get polyphonic ringtones directly to your phone. 1.50gbp/week.,free ringtone reply yes to 80082 to get polyphonic ringtones directly to your phone 1 50gbp week,96,17
+ham,Don't forget we have the project standup meeting at 10am tomorrow morning. :),don t forget we have the project standup meeting at 10am tomorrow morning,73,13
+ham,"Hey, are we still meeting for lunch at 1pm tomorrow? :)",hey are we still meeting for lunch at 1pm tomorrow,50,10
+ham,"Great job on the presentation today, the client was really impressed with our slides!",great job on the presentation today the client was really impressed with our slides,83,14
+ham,Let's catch up this weekend. Are you free on Saturday afternoon? :),let s catch up this weekend are you free on saturday afternoon,62,12
+ham,Did you finish the Python assignment? Let's compare our answers tonight.,did you finish the python assignment let s compare our answers tonight,70,12
+ham,Happy birthday! Wishing you a fantastic year ahead filled with joy and success! Thanks!,happy birthday wishing you a fantastic year ahead filled with joy and success thanks,84,14
+spam,You have won a guaranteed £500 Amazon gift card! Claim now by replying GIFT. Ref: #3048,you have won a guaranteed £500 amazon gift card claim now by replying gift ref 3048,83,16
+ham,Let me know when you're free for a quick phone call to discuss the travel plans. :),let me know when you re free for a quick phone call to discuss the travel plans,79,17
+spam,Special promotion! Buy 1 get 2 free on all health supplements. Order at http://vitamins-direct.com. Ref: #7943,special promotion buy 1 get 2 free on all health supplements order at ref 7943,78,15
+ham,Let me know when you're free for a quick phone call to discuss the travel plans. :),let me know when you re free for a quick phone call to discuss the travel plans,79,17
+ham,Don't forget we have the project standup meeting at 10am tomorrow morning.,don t forget we have the project standup meeting at 10am tomorrow morning,73,13
+ham,Sounds good! Let's book the tickets for the 7pm movie screening.,sounds good let s book the tickets for the 7pm movie screening,62,12
+ham,"The weather is supposed to be really nice this Sunday, want to go for a hike?",the weather is supposed to be really nice this sunday want to go for a hike,75,16
+ham,"I'll be there in about 15 minutes, traffic is a bit slow today. :)",i ll be there in about 15 minutes traffic is a bit slow today,61,14
+ham,"Hey, are we still meeting for lunch at 1pm tomorrow? :)",hey are we still meeting for lunch at 1pm tomorrow,50,10
+ham,"Sorry I missed your call earlier, I was in an important team meeting. What's up? :)",sorry i missed your call earlier i was in an important team meeting what s up,77,16
+ham,"Hey, are we still meeting for lunch at 1pm tomorrow? Thanks!",hey are we still meeting for lunch at 1pm tomorrow thanks,57,11
+ham,Thanks for the lecture notes! They were super helpful for the exam prep. Thanks!,thanks for the lecture notes they were super helpful for the exam prep thanks,77,14
+ham,Let's catch up this weekend. Are you free on Saturday afternoon? :),let s catch up this weekend are you free on saturday afternoon,62,12
+ham,Where did you leave the spare car keys? I can't find them on the counter. :),where did you leave the spare car keys i can t find them on the counter,71,16
+ham,Did you finish the Python assignment? Let's compare our answers tonight.,did you finish the python assignment let s compare our answers tonight,70,12
+ham,Happy birthday! Wishing you a fantastic year ahead filled with joy and success! :),happy birthday wishing you a fantastic year ahead filled with joy and success,77,13
+ham,"I'll be there in about 15 minutes, traffic is a bit slow today. Thanks!",i ll be there in about 15 minutes traffic is a bit slow today thanks,68,15
+ham,Thanks for the lecture notes! They were super helpful for the exam prep. :),thanks for the lecture notes they were super helpful for the exam prep,70,13
+ham,Don't forget we have the project standup meeting at 10am tomorrow morning. :),don t forget we have the project standup meeting at 10am tomorrow morning,73,13
+ham,"Running a bit late, start eating without me. Be there around 7:30! :)",running a bit late start eating without me be there around 7 30,63,13
+ham,Could you review my pull request on GitHub when you have a moment?,could you review my pull request on github when you have a moment,65,13
+ham,"The weather is supposed to be really nice this Sunday, want to go for a hike? :)",the weather is supposed to be really nice this sunday want to go for a hike,75,16
+ham,"I'll be there in about 15 minutes, traffic is a bit slow today. :)",i ll be there in about 15 minutes traffic is a bit slow today,61,14
+ham,Thanks for the lecture notes! They were super helpful for the exam prep.,thanks for the lecture notes they were super helpful for the exam prep,70,13
+ham,Let's catch up this weekend. Are you free on Saturday afternoon? Thanks!,let s catch up this weekend are you free on saturday afternoon thanks,69,13
+ham,"Running a bit late, start eating without me. Be there around 7:30! :)",running a bit late start eating without me be there around 7 30,63,13
+spam,PRIVATE! Your 2004 Account for 07781482378 has 800 points. Call 0871-872-9758 to claim your reward.,private your 2004 account for 07781482378 has 800 points call 0871 872 9758 to claim your reward,96,17
+ham,"Running a bit late, start eating without me. Be there around 7:30! :)",running a bit late start eating without me be there around 7 30,63,13
+spam,"URGENT! Your mobile number was awarded a £2,000 bonus prize! Call 09061701461 immediately to claim. Ref: #7612",urgent your mobile number was awarded a £2 000 bonus prize call 09061701461 immediately to claim ref 7612,105,18
+ham,Thanks for the lecture notes! They were super helpful for the exam prep. :),thanks for the lecture notes they were super helpful for the exam prep,70,13
+ham,"Running a bit late, start eating without me. Be there around 7:30! Thanks!",running a bit late start eating without me be there around 7 30 thanks,70,14
+ham,Did you finish the Python assignment? Let's compare our answers tonight.,did you finish the python assignment let s compare our answers tonight,70,12
+ham,Sounds good! Let's book the tickets for the 7pm movie screening. Thanks!,sounds good let s book the tickets for the 7pm movie screening thanks,69,13
+ham,"Running a bit late, start eating without me. Be there around 7:30! :)",running a bit late start eating without me be there around 7 30,63,13
+spam,Your parcel delivery has failed because no one was home. Reschedule fee required: http://dpd-redelivery.org Ref: #5926,your parcel delivery has failed because no one was home reschedule fee required ref 5926,88,15
+ham,Let me know when you're free for a quick phone call to discuss the travel plans. :),let me know when you re free for a quick phone call to discuss the travel plans,79,17
+ham,"Running a bit late, start eating without me. Be there around 7:30!",running a bit late start eating without me be there around 7 30,63,13
+ham,Can you please pick up some milk and eggs on your way home from work? :),can you please pick up some milk and eggs on your way home from work,68,15
+ham,Thanks for the lecture notes! They were super helpful for the exam prep. :),thanks for the lecture notes they were super helpful for the exam prep,70,13
+ham,"Hey, are we still meeting for lunch at 1pm tomorrow? :)",hey are we still meeting for lunch at 1pm tomorrow,50,10
+ham,"Hey, are we still meeting for lunch at 1pm tomorrow? :)",hey are we still meeting for lunch at 1pm tomorrow,50,10
+spam,PRIVATE! Your 2004 Account for 07781482378 has 800 points. Call 0871-872-9758 to claim your reward. Ref: #1054,private your 2004 account for 07781482378 has 800 points call 0871 872 9758 to claim your reward ref 1054,105,19
+ham,I just sent over the revised budget spreadsheet. Please check if the numbers look right.,i just sent over the revised budget spreadsheet please check if the numbers look right,86,15
+ham,Sounds good! Let's book the tickets for the 7pm movie screening. :),sounds good let s book the tickets for the 7pm movie screening,62,12
+ham,Thanks for the lecture notes! They were super helpful for the exam prep.,thanks for the lecture notes they were super helpful for the exam prep,70,13
+ham,"Hey, are we still meeting for lunch at 1pm tomorrow?",hey are we still meeting for lunch at 1pm tomorrow,50,10
+ham,"Running a bit late, start eating without me. Be there around 7:30! :)",running a bit late start eating without me be there around 7 30,63,13
+ham,Let me know when you're free for a quick phone call to discuss the travel plans.,let me know when you re free for a quick phone call to discuss the travel plans,79,17
+ham,Can you send me the link to that recipe you made last week? It was delicious.,can you send me the link to that recipe you made last week it was delicious,75,16
+ham,Could you review my pull request on GitHub when you have a moment? :),could you review my pull request on github when you have a moment,65,13
+ham,"I'm feeling much better today, thanks for checking in on me! :)",i m feeling much better today thanks for checking in on me,58,12
+ham,Sounds good! Let's book the tickets for the 7pm movie screening. :),sounds good let s book the tickets for the 7pm movie screening,62,12
+ham,"Just reached the airport, flight is on time. See you soon! :)",just reached the airport flight is on time see you soon,55,11
+ham,Where did you leave the spare car keys? I can't find them on the counter. :),where did you leave the spare car keys i can t find them on the counter,71,16
+ham,"Just reached the airport, flight is on time. See you soon! :)",just reached the airport flight is on time see you soon,55,11
+ham,"Running a bit late, start eating without me. Be there around 7:30! Thanks!",running a bit late start eating without me be there around 7 30 thanks,70,14
+ham,"Sorry I missed your call earlier, I was in an important team meeting. What's up?",sorry i missed your call earlier i was in an important team meeting what s up,77,16
+ham,Thanks for the lecture notes! They were super helpful for the exam prep. :),thanks for the lecture notes they were super helpful for the exam prep,70,13
+spam,Your mobile contract is up for renewal! Get a brand new iPhone 15 Pro for £0 upfront. Call 0800-111-222.,your mobile contract is up for renewal get a brand new iphone 15 pro for £0 upfront call 0800 111 222,101,21
+ham,"I'm feeling much better today, thanks for checking in on me! :)",i m feeling much better today thanks for checking in on me,58,12
+ham,Let's catch up this weekend. Are you free on Saturday afternoon? :),let s catch up this weekend are you free on saturday afternoon,62,12
+ham,Could you review my pull request on GitHub when you have a moment?,could you review my pull request on github when you have a moment,65,13
+ham,"Hey, are we still meeting for lunch at 1pm tomorrow? :)",hey are we still meeting for lunch at 1pm tomorrow,50,10
+ham,Thanks for the lecture notes! They were super helpful for the exam prep.,thanks for the lecture notes they were super helpful for the exam prep,70,13
+ham,"Hey, are we still meeting for lunch at 1pm tomorrow?",hey are we still meeting for lunch at 1pm tomorrow,50,10
+ham,Thanks for the lecture notes! They were super helpful for the exam prep.,thanks for the lecture notes they were super helpful for the exam prep,70,13
+ham,Let me know when you're free for a quick phone call to discuss the travel plans.,let me know when you re free for a quick phone call to discuss the travel plans,79,17
+ham,Let me know when you're free for a quick phone call to discuss the travel plans. Thanks!,let me know when you re free for a quick phone call to discuss the travel plans thanks,86,18
+ham,"The weather is supposed to be really nice this Sunday, want to go for a hike? Thanks!",the weather is supposed to be really nice this sunday want to go for a hike thanks,82,17
+ham,Sounds good! Let's book the tickets for the 7pm movie screening. :),sounds good let s book the tickets for the 7pm movie screening,62,12
+ham,"Great job on the presentation today, the client was really impressed with our slides!",great job on the presentation today the client was really impressed with our slides,83,14
+ham,"I'll be there in about 15 minutes, traffic is a bit slow today. :)",i ll be there in about 15 minutes traffic is a bit slow today,61,14
+ham,Did you finish the Python assignment? Let's compare our answers tonight.,did you finish the python assignment let s compare our answers tonight,70,12
+ham,Could you review my pull request on GitHub when you have a moment?,could you review my pull request on github when you have a moment,65,13
+ham,"Just reached the airport, flight is on time. See you soon!",just reached the airport flight is on time see you soon,55,11
+ham,Where did you leave the spare car keys? I can't find them on the counter. :),where did you leave the spare car keys i can t find them on the counter,71,16
+ham,Can you please pick up some milk and eggs on your way home from work? :),can you please pick up some milk and eggs on your way home from work,68,15
+ham,"I'll be there in about 15 minutes, traffic is a bit slow today.",i ll be there in about 15 minutes traffic is a bit slow today,61,14
+ham,"Sorry I missed your call earlier, I was in an important team meeting. What's up?",sorry i missed your call earlier i was in an important team meeting what s up,77,16
+ham,Let me know when you're free for a quick phone call to discuss the travel plans.,let me know when you re free for a quick phone call to discuss the travel plans,79,17
+ham,Let me know when you're free for a quick phone call to discuss the travel plans. Thanks!,let me know when you re free for a quick phone call to discuss the travel plans thanks,86,18
+ham,Happy birthday! Wishing you a fantastic year ahead filled with joy and success! :),happy birthday wishing you a fantastic year ahead filled with joy and success,77,13
+ham,"Sorry I missed your call earlier, I was in an important team meeting. What's up? Thanks!",sorry i missed your call earlier i was in an important team meeting what s up thanks,84,17
+ham,Could you review my pull request on GitHub when you have a moment? :),could you review my pull request on github when you have a moment,65,13
+ham,Let me know when you're free for a quick phone call to discuss the travel plans. :),let me know when you re free for a quick phone call to discuss the travel plans,79,17
+ham,Can you please pick up some milk and eggs on your way home from work? :),can you please pick up some milk and eggs on your way home from work,68,15
+ham,Thanks for the lecture notes! They were super helpful for the exam prep. :),thanks for the lecture notes they were super helpful for the exam prep,70,13
+ham,"I'll be there in about 15 minutes, traffic is a bit slow today. :)",i ll be there in about 15 minutes traffic is a bit slow today,61,14
+ham,Can you send me the link to that recipe you made last week? It was delicious. :),can you send me the link to that recipe you made last week it was delicious,75,16
+ham,"Just reached the airport, flight is on time. See you soon! :)",just reached the airport flight is on time see you soon,55,11
+spam,Congratulations! You won a FREE cruise to the Bahamas! Call now at 1-800-555-0199. T&Cs apply. Ref: #5662,congratulations you won a free cruise to the bahamas call now at 1 800 555 0199 t cs apply ref 5662,99,21
+ham,Let's catch up this weekend. Are you free on Saturday afternoon? :),let s catch up this weekend are you free on saturday afternoon,62,12
+ham,"Running a bit late, start eating without me. Be there around 7:30! :)",running a bit late start eating without me be there around 7 30,63,13
+ham,Let me know when you're free for a quick phone call to discuss the travel plans. :),let me know when you re free for a quick phone call to discuss the travel plans,79,17
+spam,Your mobile contract is up for renewal! Get a brand new iPhone 15 Pro for £0 upfront. Call 0800-111-222.,your mobile contract is up for renewal get a brand new iphone 15 pro for £0 upfront call 0800 111 222,101,21
+ham,"Running a bit late, start eating without me. Be there around 7:30! :)",running a bit late start eating without me be there around 7 30,63,13
+ham,Let me know when you're free for a quick phone call to discuss the travel plans. :),let me know when you re free for a quick phone call to discuss the travel plans,79,17
+ham,Could you review my pull request on GitHub when you have a moment?,could you review my pull request on github when you have a moment,65,13
+ham,Can you please pick up some milk and eggs on your way home from work? :),can you please pick up some milk and eggs on your way home from work,68,15
+ham,"Great job on the presentation today, the client was really impressed with our slides! Thanks!",great job on the presentation today the client was really impressed with our slides thanks,90,15
+ham,Did you finish the Python assignment? Let's compare our answers tonight. :),did you finish the python assignment let s compare our answers tonight,70,12
+spam,Loan approved! Up to £5000 deposited within 1 hour. No credit checks required! Call 08000930705. Ref: #4600,loan approved up to £5000 deposited within 1 hour no credit checks required call 08000930705 ref 4600,101,17
+ham,Could you review my pull request on GitHub when you have a moment? Thanks!,could you review my pull request on github when you have a moment thanks,72,14
+ham,"I'll be there in about 15 minutes, traffic is a bit slow today.",i ll be there in about 15 minutes traffic is a bit slow today,61,14
+ham,"I'm feeling much better today, thanks for checking in on me! Thanks!",i m feeling much better today thanks for checking in on me thanks,65,13
+ham,"Just reached the airport, flight is on time. See you soon!",just reached the airport flight is on time see you soon,55,11
+ham,Where did you leave the spare car keys? I can't find them on the counter. :),where did you leave the spare car keys i can t find them on the counter,71,16
+ham,"The weather is supposed to be really nice this Sunday, want to go for a hike? :)",the weather is supposed to be really nice this sunday want to go for a hike,75,16
+ham,"Hey, are we still meeting for lunch at 1pm tomorrow?",hey are we still meeting for lunch at 1pm tomorrow,50,10
+ham,"Sorry I missed your call earlier, I was in an important team meeting. What's up? :)",sorry i missed your call earlier i was in an important team meeting what s up,77,16
+ham,Did you finish the Python assignment? Let's compare our answers tonight. :),did you finish the python assignment let s compare our answers tonight,70,12
+ham,Let me know when you're free for a quick phone call to discuss the travel plans. :),let me know when you re free for a quick phone call to discuss the travel plans,79,17
+ham,"I'm feeling much better today, thanks for checking in on me! :)",i m feeling much better today thanks for checking in on me,58,12
+spam,"Dear customer, your bank account has been suspended due to suspicious activity. Verify at http://secure-bank-login.xyz Ref: #7316",dear customer your bank account has been suspended due to suspicious activity verify at ref 7316,96,16
+ham,Let's catch up this weekend. Are you free on Saturday afternoon?,let s catch up this weekend are you free on saturday afternoon,62,12
+ham,Can you please pick up some milk and eggs on your way home from work?,can you please pick up some milk and eggs on your way home from work,68,15
+ham,"Hey, are we still meeting for lunch at 1pm tomorrow? :)",hey are we still meeting for lunch at 1pm tomorrow,50,10
+ham,Where did you leave the spare car keys? I can't find them on the counter. :),where did you leave the spare car keys i can t find them on the counter,71,16
+spam,Final notice! You have unpaid toll fees of £4.50. Pay immediately at http://highway-toll-uk.com to avoid legal action.,final notice you have unpaid toll fees of £4 50 pay immediately at to avoid legal action,88,17
+ham,"Great job on the presentation today, the client was really impressed with our slides! :)",great job on the presentation today the client was really impressed with our slides,83,14
+ham,"I'll be there in about 15 minutes, traffic is a bit slow today. :)",i ll be there in about 15 minutes traffic is a bit slow today,61,14
+ham,Don't forget we have the project standup meeting at 10am tomorrow morning. :),don t forget we have the project standup meeting at 10am tomorrow morning,73,13
+spam,Free entry in 2 a weekly competition to win £1000 cash. Text WIN to 82122 to enter now!,free entry in 2 a weekly competition to win £1000 cash text win to 82122 to enter now,85,18
+spam,Claim your complimentary 2-week gym pass at FitnessFirst today! Text FIT to 88088.,claim your complimentary 2 week gym pass at fitnessfirst today text fit to 88088,80,14
+ham,Thanks for the lecture notes! They were super helpful for the exam prep.,thanks for the lecture notes they were super helpful for the exam prep,70,13
+spam,URGENT: Call 09066362206 from landline. 150p/min. You have an unclaimed parcel waiting delivery. Ref: #9519,urgent call 09066362206 from landline 150p min you have an unclaimed parcel waiting delivery ref 9519,101,16
+spam,Congratulations! You won a FREE cruise to the Bahamas! Call now at 1-800-555-0199. T&Cs apply.,congratulations you won a free cruise to the bahamas call now at 1 800 555 0199 t cs apply,90,19
+ham,I just sent over the revised budget spreadsheet. Please check if the numbers look right.,i just sent over the revised budget spreadsheet please check if the numbers look right,86,15
+ham,I just sent over the revised budget spreadsheet. Please check if the numbers look right.,i just sent over the revised budget spreadsheet please check if the numbers look right,86,15
+ham,"I'm feeling much better today, thanks for checking in on me! :)",i m feeling much better today thanks for checking in on me,58,12
+ham,"Just reached the airport, flight is on time. See you soon! Thanks!",just reached the airport flight is on time see you soon thanks,62,12
+ham,Happy birthday! Wishing you a fantastic year ahead filled with joy and success!,happy birthday wishing you a fantastic year ahead filled with joy and success,77,13
+ham,Can you send me the link to that recipe you made last week? It was delicious. Thanks!,can you send me the link to that recipe you made last week it was delicious thanks,82,17
+ham,"Great job on the presentation today, the client was really impressed with our slides! :)",great job on the presentation today the client was really impressed with our slides,83,14
+ham,"I'm feeling much better today, thanks for checking in on me! Thanks!",i m feeling much better today thanks for checking in on me thanks,65,13
+ham,Sounds good! Let's book the tickets for the 7pm movie screening.,sounds good let s book the tickets for the 7pm movie screening,62,12
+ham,Can you send me the link to that recipe you made last week? It was delicious.,can you send me the link to that recipe you made last week it was delicious,75,16
+spam,Loan approved! Up to £5000 deposited within 1 hour. No credit checks required! Call 08000930705.,loan approved up to £5000 deposited within 1 hour no credit checks required call 08000930705,92,15
+spam,Final notice! You have unpaid toll fees of £4.50. Pay immediately at http://highway-toll-uk.com to avoid legal action.,final notice you have unpaid toll fees of £4 50 pay immediately at to avoid legal action,88,17
+ham,Let me know when you're free for a quick phone call to discuss the travel plans.,let me know when you re free for a quick phone call to discuss the travel plans,79,17
+ham,"Just reached the airport, flight is on time. See you soon!",just reached the airport flight is on time see you soon,55,11
+spam,You have won a guaranteed £500 Amazon gift card! Claim now by replying GIFT. Ref: #4451,you have won a guaranteed £500 amazon gift card claim now by replying gift ref 4451,83,16
+ham,Don't forget we have the project standup meeting at 10am tomorrow morning.,don t forget we have the project standup meeting at 10am tomorrow morning,73,13
+ham,"I'm feeling much better today, thanks for checking in on me! :)",i m feeling much better today thanks for checking in on me,58,12
+spam,"Dear customer, your bank account has been suspended due to suspicious activity. Verify at http://secure-bank-login.xyz",dear customer your bank account has been suspended due to suspicious activity verify at,87,14
+spam,FREE RINGTONE! Reply YES to 80082 to get polyphonic ringtones directly to your phone. 1.50gbp/week. Ref: #3219,free ringtone reply yes to 80082 to get polyphonic ringtones directly to your phone 1 50gbp week ref 3219,105,19
+ham,"Just reached the airport, flight is on time. See you soon! Thanks!",just reached the airport flight is on time see you soon thanks,62,12
+spam,WIN a £500 shopping spree at Tesco! To enter simply answer our quick 2-question survey: http://tesco-win.me Ref: #3192,win a £500 shopping spree at tesco to enter simply answer our quick 2 question survey ref 3192,94,18
+ham,"Great job on the presentation today, the client was really impressed with our slides!",great job on the presentation today the client was really impressed with our slides,83,14
+ham,"I'm feeling much better today, thanks for checking in on me! Thanks!",i m feeling much better today thanks for checking in on me thanks,65,13
+ham,Can you please pick up some milk and eggs on your way home from work?,can you please pick up some milk and eggs on your way home from work,68,15
+ham,"Sorry I missed your call earlier, I was in an important team meeting. What's up? :)",sorry i missed your call earlier i was in an important team meeting what s up,77,16
+spam,WINNER! As a valued customer you are selected to receive a £1000 cash reward. Text CLAIM to 87077. Ref: #1950,winner as a valued customer you are selected to receive a £1000 cash reward text claim to 87077 ref 1950,104,20
+ham,"Great job on the presentation today, the client was really impressed with our slides! :)",great job on the presentation today the client was really impressed with our slides,83,14
+ham,"Hey, are we still meeting for lunch at 1pm tomorrow?",hey are we still meeting for lunch at 1pm tomorrow,50,10
+ham,"I'll be there in about 15 minutes, traffic is a bit slow today. :)",i ll be there in about 15 minutes traffic is a bit slow today,61,14
+ham,Thanks for the lecture notes! They were super helpful for the exam prep. Thanks!,thanks for the lecture notes they were super helpful for the exam prep thanks,77,14
+ham,Let me know when you're free for a quick phone call to discuss the travel plans. :),let me know when you re free for a quick phone call to discuss the travel plans,79,17
+ham,"I'll be there in about 15 minutes, traffic is a bit slow today. :)",i ll be there in about 15 minutes traffic is a bit slow today,61,14
+ham,"I'll be there in about 15 minutes, traffic is a bit slow today. Thanks!",i ll be there in about 15 minutes traffic is a bit slow today thanks,68,15
+ham,Sounds good! Let's book the tickets for the 7pm movie screening.,sounds good let s book the tickets for the 7pm movie screening,62,12
+ham,I just sent over the revised budget spreadsheet. Please check if the numbers look right.,i just sent over the revised budget spreadsheet please check if the numbers look right,86,15
+ham,Let me know when you're free for a quick phone call to discuss the travel plans. :),let me know when you re free for a quick phone call to discuss the travel plans,79,17
+ham,"I'm feeling much better today, thanks for checking in on me!",i m feeling much better today thanks for checking in on me,58,12
+ham,"Great job on the presentation today, the client was really impressed with our slides!",great job on the presentation today the client was really impressed with our slides,83,14
+ham,Thanks for the lecture notes! They were super helpful for the exam prep.,thanks for the lecture notes they were super helpful for the exam prep,70,13
+ham,"Just reached the airport, flight is on time. See you soon!",just reached the airport flight is on time see you soon,55,11
+spam,Congratulations! You won a FREE cruise to the Bahamas! Call now at 1-800-555-0199. T&Cs apply. Ref: #5944,congratulations you won a free cruise to the bahamas call now at 1 800 555 0199 t cs apply ref 5944,99,21
+ham,Let me know when you're free for a quick phone call to discuss the travel plans. :),let me know when you re free for a quick phone call to discuss the travel plans,79,17
+ham,"Just reached the airport, flight is on time. See you soon!",just reached the airport flight is on time see you soon,55,11
+spam,Your parcel delivery has failed because no one was home. Reschedule fee required: http://dpd-redelivery.org,your parcel delivery has failed because no one was home reschedule fee required,79,13
+ham,Could you review my pull request on GitHub when you have a moment?,could you review my pull request on github when you have a moment,65,13
+ham,"Running a bit late, start eating without me. Be there around 7:30! :)",running a bit late start eating without me be there around 7 30,63,13
+spam,"Dear customer, your bank account has been suspended due to suspicious activity. Verify at http://secure-bank-login.xyz Ref: #2792",dear customer your bank account has been suspended due to suspicious activity verify at ref 2792,96,16
+ham,Don't forget we have the project standup meeting at 10am tomorrow morning.,don t forget we have the project standup meeting at 10am tomorrow morning,73,13
+spam,PRIVATE! Your 2004 Account for 07781482378 has 800 points. Call 0871-872-9758 to claim your reward. Ref: #5227,private your 2004 account for 07781482378 has 800 points call 0871 872 9758 to claim your reward ref 5227,105,19
+ham,Sounds good! Let's book the tickets for the 7pm movie screening.,sounds good let s book the tickets for the 7pm movie screening,62,12
+ham,"Just reached the airport, flight is on time. See you soon!",just reached the airport flight is on time see you soon,55,11
+ham,"I'm feeling much better today, thanks for checking in on me! :)",i m feeling much better today thanks for checking in on me,58,12
+ham,"Hey, are we still meeting for lunch at 1pm tomorrow? :)",hey are we still meeting for lunch at 1pm tomorrow,50,10
+spam,Exclusive offer! 50% discount on luxury watches. Visit our website http://swiss-replica.co today only!,exclusive offer 50 discount on luxury watches visit our website today only,74,12
+ham,Could you review my pull request on GitHub when you have a moment? Thanks!,could you review my pull request on github when you have a moment thanks,72,14
+ham,Don't forget we have the project standup meeting at 10am tomorrow morning. Thanks!,don t forget we have the project standup meeting at 10am tomorrow morning thanks,80,14
+ham,"Just reached the airport, flight is on time. See you soon! :)",just reached the airport flight is on time see you soon,55,11
+ham,Happy birthday! Wishing you a fantastic year ahead filled with joy and success! :),happy birthday wishing you a fantastic year ahead filled with joy and success,77,13
+spam,Loan approved! Up to £5000 deposited within 1 hour. No credit checks required! Call 08000930705.,loan approved up to £5000 deposited within 1 hour no credit checks required call 08000930705,92,15
+ham,"Sorry I missed your call earlier, I was in an important team meeting. What's up? :)",sorry i missed your call earlier i was in an important team meeting what s up,77,16
+ham,"Great job on the presentation today, the client was really impressed with our slides! :)",great job on the presentation today the client was really impressed with our slides,83,14
+ham,"Running a bit late, start eating without me. Be there around 7:30!",running a bit late start eating without me be there around 7 30,63,13
+ham,I just sent over the revised budget spreadsheet. Please check if the numbers look right. :),i just sent over the revised budget spreadsheet please check if the numbers look right,86,15
+ham,Thanks for the lecture notes! They were super helpful for the exam prep.,thanks for the lecture notes they were super helpful for the exam prep,70,13
+ham,Thanks for the lecture notes! They were super helpful for the exam prep. Thanks!,thanks for the lecture notes they were super helpful for the exam prep thanks,77,14
+ham,"The weather is supposed to be really nice this Sunday, want to go for a hike?",the weather is supposed to be really nice this sunday want to go for a hike,75,16
+ham,Did you finish the Python assignment? Let's compare our answers tonight.,did you finish the python assignment let s compare our answers tonight,70,12
+ham,Can you please pick up some milk and eggs on your way home from work? :),can you please pick up some milk and eggs on your way home from work,68,15
+ham,"Just reached the airport, flight is on time. See you soon!",just reached the airport flight is on time see you soon,55,11
+ham,"Running a bit late, start eating without me. Be there around 7:30! :)",running a bit late start eating without me be there around 7 30,63,13
+ham,Sounds good! Let's book the tickets for the 7pm movie screening.,sounds good let s book the tickets for the 7pm movie screening,62,12
+ham,"The weather is supposed to be really nice this Sunday, want to go for a hike? :)",the weather is supposed to be really nice this sunday want to go for a hike,75,16
+ham,Happy birthday! Wishing you a fantastic year ahead filled with joy and success!,happy birthday wishing you a fantastic year ahead filled with joy and success,77,13
+ham,Can you send me the link to that recipe you made last week? It was delicious. Thanks!,can you send me the link to that recipe you made last week it was delicious thanks,82,17
+ham,"I'll be there in about 15 minutes, traffic is a bit slow today.",i ll be there in about 15 minutes traffic is a bit slow today,61,14
+ham,I just sent over the revised budget spreadsheet. Please check if the numbers look right. :),i just sent over the revised budget spreadsheet please check if the numbers look right,86,15
+ham,"Great job on the presentation today, the client was really impressed with our slides! Thanks!",great job on the presentation today the client was really impressed with our slides thanks,90,15
+ham,Let's catch up this weekend. Are you free on Saturday afternoon?,let s catch up this weekend are you free on saturday afternoon,62,12
+spam,WINNER! As a valued customer you are selected to receive a £1000 cash reward. Text CLAIM to 87077. Ref: #7359,winner as a valued customer you are selected to receive a £1000 cash reward text claim to 87077 ref 7359,104,20
+ham,Don't forget we have the project standup meeting at 10am tomorrow morning.,don t forget we have the project standup meeting at 10am tomorrow morning,73,13
+ham,I just sent over the revised budget spreadsheet. Please check if the numbers look right. :),i just sent over the revised budget spreadsheet please check if the numbers look right,86,15
+ham,"The weather is supposed to be really nice this Sunday, want to go for a hike?",the weather is supposed to be really nice this sunday want to go for a hike,75,16
+ham,"I'm feeling much better today, thanks for checking in on me!",i m feeling much better today thanks for checking in on me,58,12
+spam,Final notice! You have unpaid toll fees of £4.50. Pay immediately at http://highway-toll-uk.com to avoid legal action. Ref: #4490,final notice you have unpaid toll fees of £4 50 pay immediately at to avoid legal action ref 4490,97,19
+ham,Can you send me the link to that recipe you made last week? It was delicious. :),can you send me the link to that recipe you made last week it was delicious,75,16
+ham,Did you finish the Python assignment? Let's compare our answers tonight.,did you finish the python assignment let s compare our answers tonight,70,12
+ham,Let me know when you're free for a quick phone call to discuss the travel plans.,let me know when you re free for a quick phone call to discuss the travel plans,79,17
+ham,"Hey, are we still meeting for lunch at 1pm tomorrow?",hey are we still meeting for lunch at 1pm tomorrow,50,10
+ham,"I'm feeling much better today, thanks for checking in on me! :)",i m feeling much better today thanks for checking in on me,58,12
+ham,Let me know when you're free for a quick phone call to discuss the travel plans.,let me know when you re free for a quick phone call to discuss the travel plans,79,17
+ham,"The weather is supposed to be really nice this Sunday, want to go for a hike? :)",the weather is supposed to be really nice this sunday want to go for a hike,75,16
+ham,Where did you leave the spare car keys? I can't find them on the counter. Thanks!,where did you leave the spare car keys i can t find them on the counter thanks,78,17
+ham,Let's catch up this weekend. Are you free on Saturday afternoon?,let s catch up this weekend are you free on saturday afternoon,62,12
+ham,Could you review my pull request on GitHub when you have a moment? :),could you review my pull request on github when you have a moment,65,13
+ham,Can you please pick up some milk and eggs on your way home from work? :),can you please pick up some milk and eggs on your way home from work,68,15
+ham,Happy birthday! Wishing you a fantastic year ahead filled with joy and success! :),happy birthday wishing you a fantastic year ahead filled with joy and success,77,13
+spam,Hot singles in your area want to chat with you right now! Reply CHAT to 69696 to connect.,hot singles in your area want to chat with you right now reply chat to 69696 to connect,87,18
+ham,Happy birthday! Wishing you a fantastic year ahead filled with joy and success!,happy birthday wishing you a fantastic year ahead filled with joy and success,77,13
+spam,Double your money in 24 hours! Guaranteed crypto returns. Click http://bit.ly/fast-crypto now!,double your money in 24 hours guaranteed crypto returns click now,65,11
+ham,Where did you leave the spare car keys? I can't find them on the counter. :),where did you leave the spare car keys i can t find them on the counter,71,16
+spam,"URGENT! Your mobile number was awarded a £2,000 bonus prize! Call 09061701461 immediately to claim. Ref: #8112",urgent your mobile number was awarded a £2 000 bonus prize call 09061701461 immediately to claim ref 8112,105,18
+ham,"Sorry I missed your call earlier, I was in an important team meeting. What's up? :)",sorry i missed your call earlier i was in an important team meeting what s up,77,16
+ham,I just sent over the revised budget spreadsheet. Please check if the numbers look right. :),i just sent over the revised budget spreadsheet please check if the numbers look right,86,15
+ham,"Great job on the presentation today, the client was really impressed with our slides! Thanks!",great job on the presentation today the client was really impressed with our slides thanks,90,15
+ham,Let me know when you're free for a quick phone call to discuss the travel plans.,let me know when you re free for a quick phone call to discuss the travel plans,79,17
+spam,Free entry in 2 a weekly competition to win £1000 cash. Text WIN to 82122 to enter now!,free entry in 2 a weekly competition to win £1000 cash text win to 82122 to enter now,85,18
+ham,Don't forget we have the project standup meeting at 10am tomorrow morning. :),don t forget we have the project standup meeting at 10am tomorrow morning,73,13
+spam,URGENT: Call 09066362206 from landline. 150p/min. You have an unclaimed parcel waiting delivery.,urgent call 09066362206 from landline 150p min you have an unclaimed parcel waiting delivery,92,14
+ham,Let's catch up this weekend. Are you free on Saturday afternoon?,let s catch up this weekend are you free on saturday afternoon,62,12
+spam,Hot singles in your area want to chat with you right now! Reply CHAT to 69696 to connect. Ref: #1984,hot singles in your area want to chat with you right now reply chat to 69696 to connect ref 1984,96,20
+spam,Double your money in 24 hours! Guaranteed crypto returns. Click http://bit.ly/fast-crypto now! Ref: #1688,double your money in 24 hours guaranteed crypto returns click now ref 1688,74,13
+ham,Happy birthday! Wishing you a fantastic year ahead filled with joy and success! :),happy birthday wishing you a fantastic year ahead filled with joy and success,77,13
+ham,Let me know when you're free for a quick phone call to discuss the travel plans. :),let me know when you re free for a quick phone call to discuss the travel plans,79,17
+spam,"Dear customer, your bank account has been suspended due to suspicious activity. Verify at http://secure-bank-login.xyz Ref: #5757",dear customer your bank account has been suspended due to suspicious activity verify at ref 5757,96,16
