@@ -17,9 +17,9 @@
 
 ### 📈 Current Challenge Status
 
-**Day 100 / 200** | **50.0% Complete** | **100 Days Remaining**
+**Day 101 / 200** | **50.5% Complete** | **99 Days Remaining**
 
-*Currently exploring Deep Learning & Computer Vision (CNNs).*
+*Currently exploring Natural Language Processing (NLP) & Text Classification.*
 
 </div>
 
@@ -313,9 +313,10 @@ An enterprise-grade Computer Vision experimentation pipeline tracking 7 distinct
 | 98 | Image Segmentation & Mask Analytics | ✅ |
 | 99 | Instance Segmentation & Object Shape Analytics | ✅ |
 | 100 | **50% MILESTONE**: End-to-End Analytics Pipeline | ✅ |
-| 101–200 | *Planned...* | ⬜ |
+| 101 | NLP Fundamentals & Text Data Processing | ✅ |
+| 102–200 | *Planned...* | ⬜ |
 
-## 📈 100-Day Skill Matrix
+## 📈 100-Day+ Skill Matrix
 
 | Area                  | Status    |
 | --------------------- | --------- |
@@ -336,6 +337,7 @@ An enterprise-grade Computer Vision experimentation pipeline tracking 7 distinct
 | Object Tracking       | Completed |
 | Segmentation          | Completed |
 | Instance Segmentation | Completed |
+| Natural Language Processing | In Progress |
 
 ---
 *Created and maintained as a public ledger of engineering grit and curiosity.*
