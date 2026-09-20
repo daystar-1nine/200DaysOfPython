@@ -1,0 +1,996 @@
+"""
+Data generation script for Day 104 Semantic Search Engine.
+Creates 120 curated documents across 10 categories and 25 ground-truth benchmark queries.
+"""
+
+import json
+from pathlib import Path
+
+DATA_RAW_DIR = Path(__file__).resolve().parent.parent / "data" / "raw"
+DATA_EVAL_DIR = Path(__file__).resolve().parent.parent / "data" / "evaluation"
+
+
+def generate_documents():
+    docs = [
+        # --- 1. Python (IDs 1-12) ---
+        {
+            "id": 1,
+            "title": "Python Memory Management and Garbage Collection",
+            "text": "Python manages memory using private heaps and reference counting combined with a cyclic garbage collector. When an object's reference count drops to zero, its memory is deallocated immediately. Developers can tune gc thresholds to optimize long-running application performance.",
+            "category": "Python"
+        },
+        {
+            "id": 2,
+            "title": "Understanding Python Generators and Iterators",
+            "text": "Generators in Python provide memory-efficient iteration using the yield keyword. Unlike lists that load all elements into RAM, generators produce items lazily on demand. They implement the iterator protocol with __iter__ and __next__ methods.",
+            "category": "Python"
+        },
+        {
+            "id": 3,
+            "title": "Python Metaclasses and Dynamic Class Creation",
+            "text": "Metaclasses in Python define how classes are constructed and instantiated. By inheriting from type, developers can intercept class creation, enforce API contracts, and automatically register subclasses for plugin architectures.",
+            "category": "Python"
+        },
+        {
+            "id": 4,
+            "title": "Asynchronous Programming with Asyncio in Python",
+            "text": "Asyncio is Python's standard library for writing concurrent code using async and await syntax. It relies on an event loop to handle non-blocking I/O operations efficiently, making it ideal for high-throughput network clients and web servers.",
+            "category": "Python"
+        },
+        {
+            "id": 5,
+            "title": "Mastering Python Decorators and Closures",
+            "text": "Decorators are callable objects that take a function as an argument and extend its behavior without modifying its source code. They rely on Python closures and the functools.wraps utility to preserve function metadata.",
+            "category": "Python"
+        },
+        {
+            "id": 6,
+            "title": "Object-Oriented Programming and Dunder Methods in Python",
+            "text": "Python OOP utilizes special double-underscore methods called dunder methods to enable operator overloading and custom object behavior. Implementing __repr__, __eq__, and __hash__ allows custom objects to behave like native Python types.",
+            "category": "Python"
+        },
+        {
+            "id": 7,
+            "title": "Python Type Hints and Static Type Checking with Mypy",
+            "text": "Type hints enhance code readability and enable static analysis in Python using tools like mypy. Using typing module constructs like Union, Optional, and Generic catches subtle bugs before runtime in production systems.",
+            "category": "Python"
+        },
+        {
+            "id": 8,
+            "title": "Multiprocessing and the Global Interpreter Lock in CPython",
+            "text": "CPython uses the Global Interpreter Lock to synchronize thread access to Python objects. To bypass GIL limitations for CPU-bound tasks, developers use the multiprocessing module to spawn separate processes with independent memory spaces.",
+            "category": "Python"
+        },
+        {
+            "id": 9,
+            "title": "Python Context Managers and the With Statement",
+            "text": "Context managers provide deterministic resource acquisition and release using the with statement. Defining __enter__ and __exit__ methods ensures file descriptors, database connections, and locks are cleaned up properly even when exceptions occur.",
+            "category": "Python"
+        },
+        {
+            "id": 10,
+            "title": "Functional Programming Tools in Python",
+            "text": "Python supports functional programming concepts using map, filter, reduce, and lambda expressions. The itertools and operator modules provide high-performance building blocks for composing pure functional data pipelines.",
+            "category": "Python"
+        },
+        {
+            "id": 11,
+            "title": "Packaging and Distributing Python Libraries with PyPI",
+            "text": "Distributing Python packages involves creating pyproject.toml configuration files and building wheels. Tools like build, twine, and pip facilitate uploading distribution packages to the Python Package Index.",
+            "category": "Python"
+        },
+        {
+            "id": 12,
+            "title": "High Performance Numerical Computing with Cython",
+            "text": "Cython is an optimizing static compiler that brings C-like performance to Python code. By adding static type declarations to Python functions, Cython compiles code directly into C extensions for execution speedups.",
+            "category": "Python"
+        },
+
+        # --- 2. Data Science (IDs 13-24) ---
+        {
+            "id": 13,
+            "title": "Exploratory Data Analysis and Feature Distribution",
+            "text": "Exploratory data analysis involves examining data distributions, identifying outliers, and understanding correlations before modeling. Analysts use summary statistics, box plots, and histograms to uncover hidden patterns in datasets.",
+            "category": "Data Science"
+        },
+        {
+            "id": 14,
+            "title": "Pandas DataFrame Aggregations and GroupBy Operations",
+            "text": "Pandas provides powerful split-apply-combine functionality through the groupby method. Analysts can aggregate tabular datasets by computing grouped means, standard deviations, and custom transformations across multiple columns.",
+            "category": "Data Science"
+        },
+        {
+            "id": 15,
+            "title": "Data Cleaning and Missing Value Imputation",
+            "text": "Data preprocessing requires handling missing values through mean imputation, median replacement, or predictive imputation models. Identifying whether data is missing completely at random helps prevent statistical bias during feature engineering.",
+            "category": "Data Science"
+        },
+        {
+            "id": 16,
+            "title": "Hypothesis Testing and P-Value Significance",
+            "text": "Statistical hypothesis testing evaluates whether observed empirical differences are statistically significant or due to chance. Using t-tests, ANOVA, and p-value thresholds allows data scientists to validate experimental results rigorously.",
+            "category": "Data Science"
+        },
+        {
+            "id": 17,
+            "title": "A/B Testing Frameworks and Sample Size Calculation",
+            "text": "A/B testing is a controlled experimentation methodology comparing two variants to determine which performs better on key metrics. Calculating minimum detectable effect and statistical power ensures tests reach valid conclusions.",
+            "category": "Data Science"
+        },
+        {
+            "id": 18,
+            "title": "NumPy Broadcasting and Vectorized Array Computations",
+            "text": "NumPy uses vectorization and broadcasting rules to perform arithmetic operations on multidimensional arrays without Python loops. Vectorized code executes in compiled C, providing massive speedups for matrix computations.",
+            "category": "Data Science"
+        },
+        {
+            "id": 19,
+            "title": "Correlation Analysis and Multicollinearity in Tabular Data",
+            "text": "Pearson and Spearman correlation coefficients measure linear and monotonic relationships between continuous variables. High multicollinearity can distort regression coefficient estimates, requiring variance inflation factor analysis.",
+            "category": "Data Science"
+        },
+        {
+            "id": 20,
+            "title": "Automated Feature Engineering for Tabular Datasets",
+            "text": "Feature engineering transforms raw tabular columns into informative signals through polynomial features, target encoding, and datetime decomposition. High quality features often improve predictive performance more than model complexity.",
+            "category": "Data Science"
+        },
+        {
+            "id": 21,
+            "title": "Time Series Decomposition and Seasonal Trend Analysis",
+            "text": "Time series analysis separates chronological observations into trend, seasonality, and residual components. Techniques like ARIMA and exponential smoothing forecast future values based on historical temporal patterns.",
+            "category": "Data Science"
+        },
+        {
+            "id": 22,
+            "title": "Data Visualization Best Practices with Matplotlib and Seaborn",
+            "text": "Effective data visualization communicates complex quantitative insights clearly through heatmaps, scatter plots, and violin plots. Choosing appropriate color palettes and axis scales prevents misleading visual representations.",
+            "category": "Data Science"
+        },
+        {
+            "id": 23,
+            "title": "Dimensionality Reduction with Principal Component Analysis",
+            "text": "Principal Component Analysis projects high-dimensional feature spaces onto orthogonal axes of maximal variance. PCA reduces feature correlation, mitigates the curse of dimensionality, and enables 2D data visualization.",
+            "category": "Data Science"
+        },
+        {
+            "id": 24,
+            "title": "Vehicle Maintenance Diagnostics and Sensor Data Analytics",
+            "text": "Predictive maintenance algorithms analyze automotive sensor data, engine temperatures, and vibration signals to foresee vehicle breakdowns. Scheduled maintenance inspections improve automobile reliability and fleet operations.",
+            "category": "Data Science"
+        },
+
+        # --- 3. Machine Learning (IDs 25-36) ---
+        {
+            "id": 25,
+            "title": "Linear Regression and Ordinary Least Squares",
+            "text": "Linear regression models continuous target variables by fitting a linear hyperplane that minimizes the sum of squared residuals. Assumptions include linearity, homoscedasticity, and independence of errors.",
+            "category": "Machine Learning"
+        },
+        {
+            "id": 26,
+            "title": "Logistic Regression for Binary Classification",
+            "text": "Logistic regression applies the sigmoid function to a linear combination of features to output class probabilities between zero and one. Training minimizes binary cross-entropy loss using gradient descent optimization.",
+            "category": "Machine Learning"
+        },
+        {
+            "id": 27,
+            "title": "Gradient Boosted Decision Trees with XGBoost and LightGBM",
+            "text": "Gradient boosting builds ensembles of shallow decision trees sequentially, where each new tree fits the pseudo-residuals of preceding models. Algorithms like XGBoost incorporate second-order gradients and regularization to prevent overfitting.",
+            "category": "Machine Learning"
+        },
+        {
+            "id": 28,
+            "title": "Random Forests and Bagging Ensembles",
+            "text": "Random Forest is an ensemble learning method that trains multiple decorrelated decision trees using bootstrap aggregating and random feature subsets. Averaging individual tree predictions reduces variance without increasing bias.",
+            "category": "Machine Learning"
+        },
+        {
+            "id": 29,
+            "title": "Support Vector Machines and Kernel Transformations",
+            "text": "Support Vector Machines find an optimal separating hyperplane that maximizes the margin between different classes. The kernel trick maps non-linear data into higher dimensions using radial basis functions.",
+            "category": "Machine Learning"
+        },
+        {
+            "id": 30,
+            "title": "K-Nearest Neighbors Algorithm and Distance Metrics",
+            "text": "K-Nearest Neighbors classifies query points by finding the majority vote among the k closest training samples based on Euclidean or Manhattan distance. It is a non-parametric, instance-based lazy learning algorithm.",
+            "category": "Machine Learning"
+        },
+        {
+            "id": 31,
+            "title": "Cross-Validation and Hyperparameter Optimization",
+            "text": "K-fold cross-validation estimates generalizability by partitioning training data into k folds to prevent data leakage. Hyperparameter tuning uses grid search, random search, or Bayesian optimization to maximize validation metrics.",
+            "category": "Machine Learning"
+        },
+        {
+            "id": 32,
+            "title": "Regularization Techniques: Ridge, Lasso, and ElasticNet",
+            "text": "Regularization penalizes large model weights to mitigate overfitting. L1 Lasso regularization drives non-informative feature weights to zero for feature selection, while L2 Ridge shrinks weights smoothly.",
+            "category": "Machine Learning"
+        },
+        {
+            "id": 33,
+            "title": "Evaluation Metrics: Precision, Recall, F1-Score, and ROC-AUC",
+            "text": "Evaluating classification models requires metrics beyond accuracy when dealing with imbalanced datasets. Precision measures positive predictive value, recall measures sensitivity, and ROC-AUC evaluates discrimination capability.",
+            "category": "Machine Learning"
+        },
+        {
+            "id": 34,
+            "title": "K-Means Clustering and Unsupervised Grouping",
+            "text": "K-Means partitions unlabelled datasets into k clusters by iteratively assigning samples to nearest centroids and recalculating centroid positions. The elbow method and silhouette score help identify the optimal number of clusters.",
+            "category": "Machine Learning"
+        },
+        {
+            "id": 35,
+            "title": "Automotive Telematics for Predictive Car Repair",
+            "text": "Machine learning classifiers predict auto repair requirements by analyzing engine fault codes and odometer telemetry. Early identification of transmission problems saves automotive repair costs.",
+            "category": "Machine Learning"
+        },
+        {
+            "id": 36,
+            "title": "The Dog Chased the Cat Across the Yard",
+            "text": "In this classic narrative sentence, the canine pursues the feline across the open backyard. The dog chased the cat vigorously while the feline quickly climbed up an oak tree.",
+            "category": "Machine Learning"
+        },
+
+        # --- 4. Deep Learning (IDs 37-48) ---
+        {
+            "id": 37,
+            "title": "Neural Network Fundamentals and Forward Propagation",
+            "text": "Artificial neural networks consist of stacked layers of interconnected nodes that compute weighted linear combinations followed by non-linear activation functions. Forward propagation passes input features through the network to generate predictions.",
+            "category": "Deep Learning"
+        },
+        {
+            "id": 38,
+            "title": "Backpropagation and Gradient Descent Optimization",
+            "text": "Backpropagation computes the gradient of the loss function with respect to every network weight using the mathematical chain rule of calculus. Optimizers like Adam, RMSprop, and SGD use these gradients to iteratively update weights.",
+            "category": "Deep Learning"
+        },
+        {
+            "id": 39,
+            "title": "Activation Functions: ReLU, Sigmoid, Tanh, and GELU",
+            "text": "Activation functions introduce non-linearity into neural architectures, allowing them to approximate complex functions. ReLU overcomes the vanishing gradient problem in deep networks, while modern transformers often use GELU activations.",
+            "category": "Deep Learning"
+        },
+        {
+            "id": 40,
+            "title": "Batch Normalization and Layer Normalization",
+            "text": "Normalization techniques stabilize training and accelerate convergence by standardizing layer inputs across mini-batches or feature dimensions. Batch normalization reduces internal covariate shift in deep convolutional networks.",
+            "category": "Deep Learning"
+        },
+        {
+            "id": 41,
+            "title": "Dropout Regularization and Preventing Overfitting in Deep Nets",
+            "text": "Dropout randomly deactivates a fraction of neurons during training passes, preventing co-adaptation of feature detectors. During inference, all neurons remain active with weights scaled accordingly.",
+            "category": "Deep Learning"
+        },
+        {
+            "id": 42,
+            "title": "Recurrent Neural Networks and Long Short-Term Memory",
+            "text": "Recurrent neural networks maintain hidden state vectors across sequential time steps to process temporal data. LSTM cells introduce forget, input, and output gates to mitigate vanishing gradients over long sequences.",
+            "category": "Deep Learning"
+        },
+        {
+            "id": 43,
+            "title": "The Cat Chased the Dog Across the Yard",
+            "text": "In this reversed narrative sentence, the feline pursues the canine across the open backyard. The cat chased the dog aggressively while the canine retreated under the garden fence.",
+            "category": "Deep Learning"
+        },
+        {
+            "id": 44,
+            "title": "Learning Rate Schedulers and Warmup Strategies",
+            "text": "Learning rate scheduling adjusts the optimizer step size during training using cosine annealing, step decay, or warmup phases. Proper learning rate schedules prevent divergence early on and enable fine convergence.",
+            "category": "Deep Learning"
+        },
+        {
+            "id": 45,
+            "title": "Autoencoders and Latent Space Feature Representation",
+            "text": "Autoencoders are unsupervised neural architectures that compress inputs into low-dimensional latent bottlenecks before reconstructing original samples. Variational autoencoders enforce probabilistic distributions over latent spaces.",
+            "category": "Deep Learning"
+        },
+        {
+            "id": 46,
+            "title": "Generative Adversarial Networks and Minimax Training",
+            "text": "GANs pair a generator network with a discriminator network in a zero-sum game framework. The generator synthesizes realistic data while the discriminator learns to distinguish synthetic samples from real training data.",
+            "category": "Deep Learning"
+        },
+        {
+            "id": 47,
+            "title": "Loss Functions for Deep Learning: Cross-Entropy and Focal Loss",
+            "text": "Selecting appropriate loss functions guides model parameter convergence. Categorical cross-entropy measures divergence between predicted probability distributions and one-hot labels, while focal loss addresses extreme class imbalance.",
+            "category": "Deep Learning"
+        },
+        {
+            "id": 48,
+            "title": "Weight Initialization Strategies: Xavier and He Initialization",
+            "text": "Improper weight initialization can cause activations and gradients to explode or vanish across deep layers. Xavier initialization suits tanh activations, while He initialization scales variances specifically for ReLU networks.",
+            "category": "Deep Learning"
+        },
+
+        # --- 5. Computer Vision (IDs 49-60) ---
+        {
+            "id": 49,
+            "title": "Convolutional Neural Networks and Spatial Filtering",
+            "text": "Convolutional Neural Networks extract hierarchical visual features by applying learnable 2D spatial kernels across input images. Early layers capture edges and textures, while deeper layers detect complex object parts.",
+            "category": "Computer Vision"
+        },
+        {
+            "id": 50,
+            "title": "Image Data Augmentation Techniques",
+            "text": "Data augmentation artificially expands training datasets using random crops, horizontal flips, rotations, and color jittering. Augmentation forces computer vision models to remain invariant to viewpoint and illumination changes.",
+            "category": "Computer Vision"
+        },
+        {
+            "id": 51,
+            "title": "Object Detection with YOLO and Anchor Boxes",
+            "text": "YOLO treats object detection as a single regression problem, directly predicting bounding box coordinates and class probabilities across grid cells. Real-time inference speeds make it popular for robotics and edge vision.",
+            "category": "Computer Vision"
+        },
+        {
+            "id": 52,
+            "title": "Image Segmentation with U-Net and Mask R-CNN",
+            "text": "Semantic segmentation classifies every individual pixel in an image into a category, whereas instance segmentation distinguishes separate objects. U-Net uses skip connections between encoder and decoder branches to preserve spatial resolution.",
+            "category": "Computer Vision"
+        },
+        {
+            "id": 53,
+            "title": "Transfer Learning with Pretrained ResNet and VGG Models",
+            "text": "Transfer learning leverages models pretrained on massive datasets like ImageNet by freezing feature extraction backbones and retraining final classification heads. This dramatically reduces required training time and data.",
+            "category": "Computer Vision"
+        },
+        {
+            "id": 54,
+            "title": "Edge Detection and Filtering with OpenCV",
+            "text": "Classical computer vision applies Sobel, Canny, and Laplacian filters to detect brightness discontinuities and sharp object boundaries in digital images. Gaussian blurring smooths high-frequency noise before edge detection.",
+            "category": "Computer Vision"
+        },
+        {
+            "id": 55,
+            "title": "Visual Feature Descriptors: SIFT, SURF, and ORB",
+            "text": "Keypoint detection algorithms locate scale-invariant and rotation-invariant feature points across images for matching. ORB provides a fast, patent-free binary descriptor alternative to SIFT for real-time camera tracking.",
+            "category": "Computer Vision"
+        },
+        {
+            "id": 56,
+            "title": "Optical Flow and Video Motion Tracking",
+            "text": "Optical flow calculates the apparent motion of image intensity patterns between consecutive video frames. The Lucas-Kanade differential method estimates local velocity vectors for object tracking systems.",
+            "category": "Computer Vision"
+        },
+        {
+            "id": 57,
+            "title": "Vision Transformers (ViT) and Patch Embeddings",
+            "text": "Vision Transformers split images into non-overlapping grid patches, treat each patch like a word token, and apply self-attention mechanisms. ViTs achieve state-of-the-art accuracy when pretrained on large-scale image corpora.",
+            "category": "Computer Vision"
+        },
+        {
+            "id": 58,
+            "title": "Face Recognition and Metric Learning with Triplet Loss",
+            "text": "Face recognition maps facial photographs into compact embedding spaces where images of the same person are clustered closely together. Triplet loss trains networks to minimize anchor-positive distance while maximizing anchor-negative distance.",
+            "category": "Computer Vision"
+        },
+        {
+            "id": 59,
+            "title": "Morphological Image Transformations: Dilation and Erosion",
+            "text": "Binary morphology processes image shapes using structuring elements. Dilation expands object boundaries and fills small holes, while erosion removes peripheral noise and separates touching components.",
+            "category": "Computer Vision"
+        },
+        {
+            "id": 60,
+            "title": "Color Spaces: RGB, HSV, and Grayscale Transformations",
+            "text": "Digital images are represented in multiple color spaces depending on the task. HSV separates color hue from illumination brightness, making color-based object segmentation more robust than using standard RGB channels.",
+            "category": "Computer Vision"
+        },
+
+        # --- 6. Natural Language Processing (IDs 61-72) ---
+        {
+            "id": 61,
+            "title": "Tokenization, Lemmatization, and Text Normalization",
+            "text": "Text preprocessing converts raw unstructured text into structured tokens through regex splitting, lowercasing, and punctuation stripping. Lemmatization reduces words to dictionary root lemmas using grammatical context.",
+            "category": "NLP"
+        },
+        {
+            "id": 62,
+            "title": "TF-IDF Vectorization and Term Frequency Weighting",
+            "text": "TF-IDF quantifies word importance within a document relative to an entire corpus. Multiplying term frequency by inverse document frequency diminishes the weight of common stop words while emphasizing discriminative terms.",
+            "category": "NLP"
+        },
+        {
+            "id": 63,
+            "title": "Word2Vec Embeddings: CBOW and Skip-Gram Architectures",
+            "text": "Word2Vec learns continuous vector representations of words based on distributional context. Continuous Bag of Words predicts a target word from surrounding context, while Skip-Gram predicts context words from a target token.",
+            "category": "NLP"
+        },
+        {
+            "id": 64,
+            "title": "Cosine Similarity and Semantic Vector Comparison",
+            "text": "Cosine similarity measures the angle between two multi-dimensional vectors regardless of their magnitude. In NLP, it evaluates semantic relatedness between query embeddings and document embeddings in shared vector spaces.",
+            "category": "NLP"
+        },
+        {
+            "id": 65,
+            "title": "Transformer Architecture and Multi-Head Self-Attention",
+            "text": "Transformers eliminate recurrence by using self-attention mechanisms to compute dependencies between all tokens in parallel. Multi-head attention allows the model to attend to information from different representation subspaces simultaneously.",
+            "category": "NLP"
+        },
+        {
+            "id": 66,
+            "title": "BERT: Bidirectional Encoder Representations from Transformers",
+            "text": "BERT pretrains deep bidirectional representations by conditioning on both left and right context in all transformer layers. Masked language modeling and next sentence prediction enable fine-tuning on diverse NLP downstream tasks.",
+            "category": "NLP"
+        },
+        {
+            "id": 67,
+            "title": "Document Embeddings: Mean Pooling vs Weighted Pooling",
+            "text": "Document embeddings aggregate constituent word vectors into a single document vector via mean pooling or TF-IDF weighted pooling. While simple and efficient, bag-of-vectors pooling ignores grammatical syntax and word order.",
+            "category": "NLP"
+        },
+        {
+            "id": 68,
+            "title": "Named Entity Recognition and Information Extraction",
+            "text": "Named Entity Recognition identifies and categorizes proper names in unstructured text into predefined classes such as persons, organizations, and locations. BiLSTM-CRF and transformer architectures provide high sequence labeling accuracy.",
+            "category": "NLP"
+        },
+        {
+            "id": 69,
+            "title": "N-gram Language Modeling and Perplexity Evaluation",
+            "text": "N-gram models predict the probability of a word given the previous n-1 words using Markov assumptions. Perplexity measures how well a probability model predicts a sample, with lower perplexity indicating superior predictive performance.",
+            "category": "NLP"
+        },
+        {
+            "id": 70,
+            "title": "Sentiment Analysis using Classical Machine Learning Classifiers",
+            "text": "Sentiment classification categorizes customer reviews as positive, negative, or neutral. Combining n-gram TF-IDF representations with linear Support Vector Machines or Naive Bayes yields strong baseline classification benchmarks.",
+            "category": "NLP"
+        },
+        {
+            "id": 71,
+            "title": "Information Retrieval Metrics: Precision, Recall, and MRR",
+            "text": "Evaluating retrieval systems requires ranking metrics such as Precision at K, Recall at K, and Mean Reciprocal Rank. MRR evaluates the reciprocal rank of the first relevant document across an evaluation query suite.",
+            "category": "NLP"
+        },
+        {
+            "id": 72,
+            "title": "Byte-Pair Encoding and Subword Tokenization Algorithms",
+            "text": "Subword tokenizers like Byte-Pair Encoding and WordPiece handle out-of-vocabulary words by iteratively merging frequent character pairs. Subwords balance vocabulary size with sequence representation fidelity.",
+            "category": "NLP"
+        },
+
+        # --- 7. Web Development (IDs 73-84) ---
+        {
+            "id": 73,
+            "title": "Building High Performance REST APIs with FastAPI",
+            "text": "FastAPI is a modern asynchronous web framework for building APIs in Python based on standard type hints and Pydantic validation. It generates interactive OpenAPI documentation automatically and delivers near-NodeJS performance.",
+            "category": "Web Development"
+        },
+        {
+            "id": 74,
+            "title": "RESTful API Design Principles and HTTP Status Codes",
+            "text": "REST architectures use stateless client-server communication with standard HTTP methods like GET, POST, PUT, and DELETE. Returning proper status codes such as 200 OK, 201 Created, and 404 Not Found ensures clean API contracts.",
+            "category": "Web Development"
+        },
+        {
+            "id": 75,
+            "title": "WebSockets for Real-Time Bidirectional Communication",
+            "text": "WebSockets provide persistent, full-duplex communication channels over a single TCP connection. They eliminate HTTP polling overhead, enabling low-latency chat applications, live dashboards, and multiplayer games.",
+            "category": "Web Development"
+        },
+        {
+            "id": 76,
+            "title": "Frontend Component Architecture with React and State Management",
+            "text": "React builds user interfaces using declarative, reusable components that manage local state and props. Centralized state stores like Redux or React Context coordinate data flow across complex application hierarchies.",
+            "category": "Web Development"
+        },
+        {
+            "id": 77,
+            "title": "Web Application Security: Mitigating XSS, CSRF, and SQL Injection",
+            "text": "Securing web applications requires input sanitization, parameterized database queries, and Content Security Policies. Defending against cross-site scripting and request forgery protects user session integrity.",
+            "category": "Web Development"
+        },
+        {
+            "id": 78,
+            "title": "OAuth 2.0 and JSON Web Tokens for API Authentication",
+            "text": "OAuth 2.0 delegates user authorization without exposing credentials to third parties. Stateless JWT tokens store digitally signed user claims in base64url format, enabling secure microservice authentication.",
+            "category": "Web Development"
+        },
+        {
+            "id": 79,
+            "title": "Microservices Architecture and API Gateway Routing",
+            "text": "Microservices decompose monolithic applications into independently deployable domain services. An API gateway acts as a single entry point, managing load balancing, rate limiting, and request routing.",
+            "category": "Web Development"
+        },
+        {
+            "id": 80,
+            "title": "Server-Side Rendering vs Client-Side Rendering in Web Apps",
+            "text": "Server-side rendering generates HTML on the server for faster initial page loads and improved SEO performance. Client-side rendering offloads view rendering to browser JavaScript, providing dynamic single-page transitions.",
+            "category": "Web Development"
+        },
+        {
+            "id": 81,
+            "title": "Web Caching Strategies: CDNs, Browser Cache, and Redis",
+            "text": "Caching reduces backend server load and decreases latency by storing frequently requested assets close to users. Content Delivery Networks cache static files globally, while Redis provides in-memory API response caching.",
+            "category": "Web Development"
+        },
+        {
+            "id": 82,
+            "title": "GraphQL APIs: Flexible Data Querying Without Over-Fetching",
+            "text": "GraphQL allows clients to request exactly the data fields they need using a strongly typed schema. By consolidating multiple REST endpoints into a single query, GraphQL prevents over-fetching and under-fetching.",
+            "category": "Web Development"
+        },
+        {
+            "id": 83,
+            "title": "Progressive Web Apps and Service Worker Offline Storage",
+            "text": "Progressive Web Apps deliver native-like mobile experiences through browser service workers and web app manifests. Service workers intercept network requests to enable offline caching and background push notifications.",
+            "category": "Web Development"
+        },
+        {
+            "id": 84,
+            "title": "CORS Policies and Cross-Origin Resource Sharing",
+            "text": "Cross-Origin Resource Sharing is a browser security mechanism that uses HTTP headers to restrict cross-origin requests. Proper CORS headers specify allowed origins, HTTP methods, and authentication headers for web clients.",
+            "category": "Web Development"
+        },
+
+        # --- 8. Databases (IDs 85-96) ---
+        {
+            "id": 85,
+            "title": "Relational Database Normalization: 1NF to BCNF",
+            "text": "Database normalization organizes relational schema to reduce data redundancy and eliminate update anomalies. Normal forms progressively ensure atomic column values, full functional dependency, and elimination of transitive dependencies.",
+            "category": "Databases"
+        },
+        {
+            "id": 86,
+            "title": "SQL Indexing Strategies: B-Trees and Hash Indexes",
+            "text": "Indexes accelerate database query execution by creating lookup structures on specific table columns. B-Tree indexes support efficient equality and range scans, while composite indexes optimize multi-column filter conditions.",
+            "category": "Databases"
+        },
+        {
+            "id": 87,
+            "title": "ACID Transactions and Database Isolation Levels",
+            "text": "ACID properties ensure reliable database transactions despite system failures. Isolation levels like Read Committed, Repeatable Read, and Serializable balance transactional data consistency against concurrent throughput.",
+            "category": "Databases"
+        },
+        {
+            "id": 88,
+            "title": "PostgreSQL Advanced Features: JSONB, Arrays, and Full-Text Search",
+            "text": "PostgreSQL blends relational guarantees with unstructured flexibility using JSONB columns and GIN indexing. Its built-in full-text search engine uses tsvector and tsquery types for linguistic document search.",
+            "category": "Databases"
+        },
+        {
+            "id": 89,
+            "title": "NoSQL Document Databases: MongoDB and Flexible Schemas",
+            "text": "Document databases store semi-structured data as BSON documents with dynamic schemas. MongoDB provides horizontal scaling via sharding and flexible indexing for rapidly evolving application data models.",
+            "category": "Databases"
+        },
+        {
+            "id": 90,
+            "title": "Redis In-Memory Key-Value Data Store and Caching",
+            "text": "Redis delivers sub-millisecond read and write latencies by holding dataset structures entirely in memory. It supports advanced primitives including strings, hashes, sorted sets, and publish-subscribe messaging.",
+            "category": "Databases"
+        },
+        {
+            "id": 91,
+            "title": "Database Replication, Read Replicas, and High Availability",
+            "text": "Replication copies database transactions across multiple nodes to provide fault tolerance and horizontal read scaling. Asynchronous primary-replica setups offload read traffic while maintaining high availability.",
+            "category": "Databases"
+        },
+        {
+            "id": 92,
+            "title": "Database Sharding and Horizontal Partitioning",
+            "text": "Sharding distributes database rows across distinct database instances based on a shard key. Partitioning massive tables prevents single-node hardware bottlenecks and allows databases to scale horizontally.",
+            "category": "Databases"
+        },
+        {
+            "id": 93,
+            "title": "SQL Query Optimization and EXPLAIN ANALYZE Execution Plans",
+            "text": "Optimizing slow SQL queries begins with inspecting query execution plans using EXPLAIN ANALYZE. Identifying sequential table scans, suboptimal join algorithms, and missing indexes allows engineers to tune queries.",
+            "category": "Databases"
+        },
+        {
+            "id": 94,
+            "title": "Vector Databases and Approximate Nearest Neighbor Search",
+            "text": "Vector databases index high-dimensional embeddings using algorithms like HNSW and IVF to perform approximate nearest neighbor search. They serve as the retrieval backbone for semantic search and RAG architectures.",
+            "category": "Databases"
+        },
+        {
+            "id": 95,
+            "title": "Graph Databases: Neo4j and Cypher Query Language",
+            "text": "Graph databases represent entities as nodes and relationships as edges with arbitrary properties. Neo4j uses the Cypher query language to traverse interconnected networks efficiently for fraud detection and knowledge graphs.",
+            "category": "Databases"
+        },
+        {
+            "id": 96,
+            "title": "Database Migrations and Schema Version Control with Alembic",
+            "text": "Database migrations track and apply relational schema changes reproducibly across development, staging, and production environments. Tools like Alembic and Flyway generate versioned migration scripts linked to code changes.",
+            "category": "Databases"
+        },
+
+        # --- 9. Cybersecurity (IDs 97-108) ---
+        {
+            "id": 97,
+            "title": "Symmetric and Asymmetric Cryptography: AES and RSA",
+            "text": "Cryptography protects data confidentiality and integrity. Symmetric ciphers like AES use identical secret keys for encryption and decryption, while asymmetric RSA uses public and private key pairs for secure key exchange.",
+            "category": "Cybersecurity"
+        },
+        {
+            "id": 98,
+            "title": "Public Key Infrastructure, SSL/TLS, and Digital Certificates",
+            "text": "PKI establishes trust over untrusted networks using Certificate Authorities to digitally sign X.509 certificates. The TLS handshake negotiates encryption algorithms and authenticates web servers to protect web traffic.",
+            "category": "Cybersecurity"
+        },
+        {
+            "id": 99,
+            "title": "Network Penetration Testing and Vulnerability Scanning",
+            "text": "Penetration testing simulates cyber attacks to identify security weaknesses in network configurations, ports, and software versions. Automated vulnerability scanners like Nessus highlight unpatched CVEs across server fleets.",
+            "category": "Cybersecurity"
+        },
+        {
+            "id": 100,
+            "title": "SQL Injection Attacks and Defense Mechanisms",
+            "text": "SQL injection occurs when untrusted user input is concatenated directly into database query strings. Defenses include using parameterized queries, prepared statements, and least-privilege database user accounts.",
+            "category": "Cybersecurity"
+        },
+        {
+            "id": 101,
+            "title": "Cross-Site Scripting (XSS) Prevention and Content Security Policy",
+            "text": "XSS vulnerabilities allow attackers to inject malicious client-side JavaScript into web pages viewed by other users. Defenses include HTML entity encoding, input sanitization, and strict Content Security Policy HTTP headers.",
+            "category": "Cybersecurity"
+        },
+        {
+            "id": 102,
+            "title": "Zero Trust Security Architecture and Identity Verification",
+            "text": "Zero Trust security operates on the principle of never trust, always verify. Every access request is authenticated, authorized, and encrypted regardless of whether the user is inside or outside the corporate network perimeter.",
+            "category": "Cybersecurity"
+        },
+        {
+            "id": 103,
+            "title": "Multi-Factor Authentication and Passwordless Security",
+            "text": "MFA strengthens user authentication by requiring two or more verification factors across knowledge, possession, and inherence. Modern standards like FIDO2 and WebAuthn enable secure passwordless biometric logins.",
+            "category": "Cybersecurity"
+        },
+        {
+            "id": 104,
+            "title": "Security Information and Event Management (SIEM) and Log Analysis",
+            "text": "SIEM platforms aggregate and correlate log data from network devices, firewalls, and servers to detect security incidents in real time. Security Operations Centers use SIEM alerts to investigate and remediate cyber threats.",
+            "category": "Cybersecurity"
+        },
+        {
+            "id": 105,
+            "title": "DDoS Mitigation and Web Application Firewalls (WAF)",
+            "text": "Distributed Denial of Service attacks flood servers with traffic to disrupt legitimate user availability. WAFs and cloud scrubbing centers inspect HTTP traffic patterns to filter malicious volumetric floods and botnets.",
+            "category": "Cybersecurity"
+        },
+        {
+            "id": 106,
+            "title": "Endpoint Detection and Response (EDR) Systems",
+            "text": "EDR agents continuously monitor endpoint devices to detect suspicious behavioral anomalies and malware execution. They provide security analysts with automated isolation, memory inspection, and forensic investigation tools.",
+            "category": "Cybersecurity"
+        },
+        {
+            "id": 107,
+            "title": "Secure Software Development Lifecycle and DevSecOps",
+            "text": "DevSecOps integrates automated security scanning into CI/CD pipelines through static analysis (SAST), dynamic testing (DAST), and dependency vulnerability auditing. Catching security flaws early reduces remediation costs.",
+            "category": "Cybersecurity"
+        },
+        {
+            "id": 108,
+            "title": "Threat Modeling and the STRIDE Security Framework",
+            "text": "Threat modeling identifies potential security risks during system design. The STRIDE framework categorizes threats into Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, and Elevation of Privilege.",
+            "category": "Cybersecurity"
+        },
+
+        # --- 10. Cloud (IDs 109-120) ---
+        {
+            "id": 109,
+            "title": "Cloud Computing Service Models: IaaS, PaaS, and SaaS",
+            "text": "Cloud computing delivers computing resources over the internet across three primary models. Infrastructure as a Service provides virtual machines, Platform as a Service provides managed application runtimes, and SaaS offers end-user software.",
+            "category": "Cloud"
+        },
+        {
+            "id": 110,
+            "title": "Docker Containers and Image Virtualization",
+            "text": "Docker packages applications and their dependencies into lightweight, portable container images using Linux cgroups and namespaces. Containers ensure consistent behavior across development, testing, and cloud environments.",
+            "category": "Cloud"
+        },
+        {
+            "id": 111,
+            "title": "Kubernetes Cluster Architecture and Container Orchestration",
+            "text": "Kubernetes automates the deployment, scaling, and operational management of containerized applications across server clusters. Key concepts include Pods, Deployments, Services, and ingress controllers.",
+            "category": "Cloud"
+        },
+        {
+            "id": 112,
+            "title": "Serverless Computing and AWS Lambda Function Execution",
+            "text": "Serverless architectures execute code in response to events without requiring server provisioning or maintenance. AWS Lambda scales execution automatically based on request volume and bills only for consumed compute duration.",
+            "category": "Cloud"
+        },
+        {
+            "id": 113,
+            "title": "Infrastructure as Code with Terraform and Declarative Provisioning",
+            "text": "Infrastructure as Code manages cloud infrastructure using human-readable configuration files. Terraform enables declarative provisioning and state management across multi-cloud providers like AWS, Azure, and Google Cloud.",
+            "category": "Cloud"
+        },
+        {
+            "id": 114,
+            "title": "Continuous Integration and Continuous Deployment (CI/CD) Pipelines",
+            "text": "CI/CD automates software delivery by triggering automated testing, building, and deployment upon code commits. Modern platforms like GitHub Actions and GitLab CI ensure reliable and frequent production releases.",
+            "category": "Cloud"
+        },
+        {
+            "id": 115,
+            "title": "Cloud Object Storage: Amazon S3 and Blob Storage Architectures",
+            "text": "Cloud object storage provides virtually unlimited, highly durable storage for unstructured data such as media files and data lakes. Buckets store objects identified by unique keys, accessible via RESTful APIs.",
+            "category": "Cloud"
+        },
+        {
+            "id": 116,
+            "title": "Virtual Private Clouds (VPC) and Cloud Network Subnetting",
+            "text": "A VPC isolates cloud infrastructure within a dedicated virtual network. Network engineers configure public and private subnets, route tables, and NAT gateways to secure internal microservices while allowing outbound internet access.",
+            "category": "Cloud"
+        },
+        {
+            "id": 117,
+            "title": "Site Reliability Engineering and Observability: Metrics, Logs, Traces",
+            "text": "Observability systems collect metrics, structured logs, and distributed traces to monitor distributed cloud applications. Prometheus and Grafana provide alerting and dashboards to maintain agreed Service Level Objectives.",
+            "category": "Cloud"
+        },
+        {
+            "id": 118,
+            "title": "Cloud Cost Optimization and FinOps Best Practices",
+            "text": "FinOps brings financial accountability to cloud spend through resource tagging, rightsizing instances, and utilizing reserved or spot instances. Continuous cost monitoring prevents unexpected cloud billing spikes.",
+            "category": "Cloud"
+        },
+        {
+            "id": 119,
+            "title": "Auto Scaling Groups and Load Balancing in the Cloud",
+            "text": "Auto Scaling monitors application traffic and dynamically adjusts the number of running instances to maintain performance while minimizing costs. Elastic Load Balancers distribute incoming traffic evenly across healthy targets.",
+            "category": "Cloud"
+        },
+        {
+            "id": 120,
+            "title": "Multi-Region Cloud Deployments and Disaster Recovery Strategies",
+            "text": "Multi-region architectures deploy redundant infrastructure across geographically separated cloud regions. Active-active or active-passive configurations protect systems against regional outages with low Recovery Point Objectives.",
+            "category": "Cloud"
+        }
+    ]
+    return docs
+
+
+def generate_ground_truth():
+    queries = [
+        # Exact keyword queries (TF-IDF expected to perform strongly)
+        {
+            "query_id": "Q01",
+            "query": "Python generators yield iterator",
+            "relevant_doc_ids": [2],
+            "query_type": "keyword_match",
+            "category": "Python",
+            "description": "Looking for memory-efficient iteration with generators."
+        },
+        {
+            "query_id": "Q02",
+            "query": "FastAPI REST API async openapi",
+            "relevant_doc_ids": [73, 74],
+            "query_type": "keyword_match",
+            "category": "Web Development",
+            "description": "FastAPI endpoints and REST design."
+        },
+        {
+            "query_id": "Q03",
+            "query": "Docker containers cgroups namespaces",
+            "relevant_doc_ids": [110, 111],
+            "query_type": "keyword_match",
+            "category": "Cloud",
+            "description": "Container virtualization and Docker architecture."
+        },
+        {
+            "query_id": "Q04",
+            "query": "YOLO object detection bounding box",
+            "relevant_doc_ids": [51],
+            "query_type": "keyword_match",
+            "category": "Computer Vision",
+            "description": "Real-time object detection using YOLO."
+        },
+        {
+            "query_id": "Q05",
+            "query": "PostgreSQL JSONB GIN index full-text search",
+            "relevant_doc_ids": [88],
+            "query_type": "keyword_match",
+            "category": "Databases",
+            "description": "PostgreSQL semi-structured JSONB and indexing."
+        },
+
+        # Semantic synonym / conceptual queries (Embedding search expected to excel, TF-IDF may fail or rank low)
+        {
+            "query_id": "Q06",
+            "query": "vehicle maintenance services",
+            "relevant_doc_ids": [24, 35],
+            "query_type": "semantic_synonym",
+            "category": "Data Science",
+            "description": "Synonym test: vehicle maintenance vs automotive car repair."
+        },
+        {
+            "query_id": "Q07",
+            "query": "how do neural networks learn weights through calculus?",
+            "relevant_doc_ids": [37, 38],
+            "query_type": "semantic_synonym",
+            "category": "Deep Learning",
+            "description": "Backpropagation and gradient descent conceptual query."
+        },
+        {
+            "query_id": "Q08",
+            "query": "protecting web services from malicious vulnerabilities and attacks",
+            "relevant_doc_ids": [77, 100, 101],
+            "query_type": "semantic_synonym",
+            "category": "Cybersecurity",
+            "description": "Web app defense and security vulnerabilities."
+        },
+        {
+            "query_id": "Q09",
+            "query": "measuring angle between semantic vector representations",
+            "relevant_doc_ids": [63, 64],
+            "query_type": "semantic_synonym",
+            "category": "NLP",
+            "description": "Cosine similarity in word and document embedding spaces."
+        },
+        {
+            "query_id": "Q10",
+            "query": "preventing overfitting in deep learning with dropout and regularization",
+            "relevant_doc_ids": [41, 32],
+            "query_type": "semantic_synonym",
+            "category": "Deep Learning",
+            "description": "Regularization and dropout techniques."
+        },
+
+        # Short single/two-word queries
+        {
+            "query_id": "Q11",
+            "query": "Python",
+            "relevant_doc_ids": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+            "query_type": "short_query",
+            "category": "Python",
+            "description": "Broad single keyword query for Python."
+        },
+        {
+            "query_id": "Q12",
+            "query": "Kubernetes",
+            "relevant_doc_ids": [111],
+            "query_type": "short_query",
+            "category": "Cloud",
+            "description": "Single-term container orchestration query."
+        },
+        {
+            "query_id": "Q13",
+            "query": "PCA",
+            "relevant_doc_ids": [23],
+            "query_type": "short_query",
+            "category": "Data Science",
+            "description": "Principal Component Analysis acronym."
+        },
+        {
+            "query_id": "Q14",
+            "query": "SQL indexing",
+            "relevant_doc_ids": [86, 93],
+            "query_type": "short_query",
+            "category": "Databases",
+            "description": "Two-word query for database indexes."
+        },
+        {
+            "query_id": "Q15",
+            "query": "BERT transformer",
+            "relevant_doc_ids": [65, 66],
+            "query_type": "short_query",
+            "category": "NLP",
+            "description": "Two-word transformer NLP query."
+        },
+
+        # Long verbose natural language queries
+        {
+            "query_id": "Q16",
+            "query": "how can I reduce the dimensionality of my high-dimensional dataset using orthogonal variance projections?",
+            "relevant_doc_ids": [23],
+            "query_type": "long_query",
+            "category": "Data Science",
+            "description": "Verbose question describing PCA."
+        },
+        {
+            "query_id": "Q17",
+            "query": "what is the difference between mean pooling and tf-idf weighted pooling when creating document embeddings?",
+            "relevant_doc_ids": [67],
+            "query_type": "long_query",
+            "category": "NLP",
+            "description": "Document embedding pooling strategies comparison."
+        },
+        {
+            "query_id": "Q18",
+            "query": "how do asynchronous event loops handle non-blocking concurrent network requests in python?",
+            "relevant_doc_ids": [4],
+            "query_type": "long_query",
+            "category": "Python",
+            "description": "Detailed question on Python asyncio."
+        },
+        {
+            "query_id": "Q19",
+            "query": "how to build an ensemble of shallow decision trees sequentially by fitting pseudo-residuals?",
+            "relevant_doc_ids": [27],
+            "query_type": "long_query",
+            "category": "Machine Learning",
+            "description": "Detailed explanation of gradient boosted decision trees."
+        },
+        {
+            "query_id": "Q20",
+            "query": "how can microservices communicate securely across an api gateway using json web tokens?",
+            "relevant_doc_ids": [78, 79],
+            "query_type": "long_query",
+            "category": "Web Development",
+            "description": "JWT authentication and API gateway architecture."
+        },
+
+        # Adversarial / Word-Order queries (Experimenting with mean pooling bag-of-words limitations)
+        {
+            "query_id": "Q21",
+            "query": "dog chased cat",
+            "relevant_doc_ids": [36],
+            "query_type": "word_order",
+            "category": "Machine Learning",
+            "description": "Query order: dog chased cat (Doc 36 is dog chased cat, Doc 43 is cat chased dog)."
+        },
+        {
+            "query_id": "Q22",
+            "query": "cat chased dog",
+            "relevant_doc_ids": [43],
+            "query_type": "word_order",
+            "category": "Deep Learning",
+            "description": "Query order: cat chased dog (Doc 43 is cat chased dog, Doc 36 is dog chased cat)."
+        },
+
+        # Cross-Domain / Retrieval evaluation queries
+        {
+            "query_id": "Q23",
+            "query": "evaluating retrieval ranking systems with precision recall and mean reciprocal rank",
+            "relevant_doc_ids": [71],
+            "query_type": "conceptual",
+            "category": "NLP",
+            "description": "Information retrieval metrics question."
+        },
+        {
+            "query_id": "Q24",
+            "query": "symmetric and asymmetric encryption algorithms for data confidentiality",
+            "relevant_doc_ids": [97, 98],
+            "query_type": "conceptual",
+            "category": "Cybersecurity",
+            "description": "Cryptography and PKI algorithms."
+        },
+        {
+            "query_id": "Q25",
+            "query": "automating infrastructure provisioning declaratively across multiple clouds",
+            "relevant_doc_ids": [113],
+            "query_type": "conceptual",
+            "category": "Cloud",
+            "description": "Terraform and Infrastructure as Code."
+        }
+    ]
+    return queries
+
+
+def main():
+    DATA_RAW_DIR.mkdir(parents=True, exist_ok=True)
+    DATA_EVAL_DIR.mkdir(parents=True, exist_ok=True)
+
+    docs = generate_documents()
+    queries = generate_ground_truth()
+
+    docs_file = DATA_RAW_DIR / "documents.json"
+    queries_file = DATA_EVAL_DIR / "ground_truth.json"
+
+    with open(docs_file, "w", encoding="utf-8") as f:
+        json.dump(docs, f, indent=2)
+
+    with open(queries_file, "w", encoding="utf-8") as f:
+        json.dump(queries, f, indent=2)
+
+    print(f"Generated {len(docs)} documents in {docs_file}")
+    print(f"Generated {len(queries)} ground-truth queries in {queries_file}")
+
+
+if __name__ == "__main__":
+    main()

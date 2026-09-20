@@ -1,0 +1,275 @@
+[
+  {
+    "query_id": "Q01",
+    "query": "Python generators yield iterator",
+    "relevant_doc_ids": [
+      2
+    ],
+    "query_type": "keyword_match",
+    "category": "Python",
+    "description": "Looking for memory-efficient iteration with generators."
+  },
+  {
+    "query_id": "Q02",
+    "query": "FastAPI REST API async openapi",
+    "relevant_doc_ids": [
+      73,
+      74
+    ],
+    "query_type": "keyword_match",
+    "category": "Web Development",
+    "description": "FastAPI endpoints and REST design."
+  },
+  {
+    "query_id": "Q03",
+    "query": "Docker containers cgroups namespaces",
+    "relevant_doc_ids": [
+      110,
+      111
+    ],
+    "query_type": "keyword_match",
+    "category": "Cloud",
+    "description": "Container virtualization and Docker architecture."
+  },
+  {
+    "query_id": "Q04",
+    "query": "YOLO object detection bounding box",
+    "relevant_doc_ids": [
+      51
+    ],
+    "query_type": "keyword_match",
+    "category": "Computer Vision",
+    "description": "Real-time object detection using YOLO."
+  },
+  {
+    "query_id": "Q05",
+    "query": "PostgreSQL JSONB GIN index full-text search",
+    "relevant_doc_ids": [
+      88
+    ],
+    "query_type": "keyword_match",
+    "category": "Databases",
+    "description": "PostgreSQL semi-structured JSONB and indexing."
+  },
+  {
+    "query_id": "Q06",
+    "query": "vehicle maintenance services",
+    "relevant_doc_ids": [
+      24,
+      35
+    ],
+    "query_type": "semantic_synonym",
+    "category": "Data Science",
+    "description": "Synonym test: vehicle maintenance vs automotive car repair."
+  },
+  {
+    "query_id": "Q07",
+    "query": "how do neural networks learn weights through calculus?",
+    "relevant_doc_ids": [
+      37,
+      38
+    ],
+    "query_type": "semantic_synonym",
+    "category": "Deep Learning",
+    "description": "Backpropagation and gradient descent conceptual query."
+  },
+  {
+    "query_id": "Q08",
+    "query": "protecting web services from malicious vulnerabilities and attacks",
+    "relevant_doc_ids": [
+      77,
+      100,
+      101
+    ],
+    "query_type": "semantic_synonym",
+    "category": "Cybersecurity",
+    "description": "Web app defense and security vulnerabilities."
+  },
+  {
+    "query_id": "Q09",
+    "query": "measuring angle between semantic vector representations",
+    "relevant_doc_ids": [
+      63,
+      64
+    ],
+    "query_type": "semantic_synonym",
+    "category": "NLP",
+    "description": "Cosine similarity in word and document embedding spaces."
+  },
+  {
+    "query_id": "Q10",
+    "query": "preventing overfitting in deep learning with dropout and regularization",
+    "relevant_doc_ids": [
+      41,
+      32
+    ],
+    "query_type": "semantic_synonym",
+    "category": "Deep Learning",
+    "description": "Regularization and dropout techniques."
+  },
+  {
+    "query_id": "Q11",
+    "query": "Python",
+    "relevant_doc_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "query_type": "short_query",
+    "category": "Python",
+    "description": "Broad single keyword query for Python."
+  },
+  {
+    "query_id": "Q12",
+    "query": "Kubernetes",
+    "relevant_doc_ids": [
+      111
+    ],
+    "query_type": "short_query",
+    "category": "Cloud",
+    "description": "Single-term container orchestration query."
+  },
+  {
+    "query_id": "Q13",
+    "query": "PCA",
+    "relevant_doc_ids": [
+      23
+    ],
+    "query_type": "short_query",
+    "category": "Data Science",
+    "description": "Principal Component Analysis acronym."
+  },
+  {
+    "query_id": "Q14",
+    "query": "SQL indexing",
+    "relevant_doc_ids": [
+      86,
+      93
+    ],
+    "query_type": "short_query",
+    "category": "Databases",
+    "description": "Two-word query for database indexes."
+  },
+  {
+    "query_id": "Q15",
+    "query": "BERT transformer",
+    "relevant_doc_ids": [
+      65,
+      66
+    ],
+    "query_type": "short_query",
+    "category": "NLP",
+    "description": "Two-word transformer NLP query."
+  },
+  {
+    "query_id": "Q16",
+    "query": "how can I reduce the dimensionality of my high-dimensional dataset using orthogonal variance projections?",
+    "relevant_doc_ids": [
+      23
+    ],
+    "query_type": "long_query",
+    "category": "Data Science",
+    "description": "Verbose question describing PCA."
+  },
+  {
+    "query_id": "Q17",
+    "query": "what is the difference between mean pooling and tf-idf weighted pooling when creating document embeddings?",
+    "relevant_doc_ids": [
+      67
+    ],
+    "query_type": "long_query",
+    "category": "NLP",
+    "description": "Document embedding pooling strategies comparison."
+  },
+  {
+    "query_id": "Q18",
+    "query": "how do asynchronous event loops handle non-blocking concurrent network requests in python?",
+    "relevant_doc_ids": [
+      4
+    ],
+    "query_type": "long_query",
+    "category": "Python",
+    "description": "Detailed question on Python asyncio."
+  },
+  {
+    "query_id": "Q19",
+    "query": "how to build an ensemble of shallow decision trees sequentially by fitting pseudo-residuals?",
+    "relevant_doc_ids": [
+      27
+    ],
+    "query_type": "long_query",
+    "category": "Machine Learning",
+    "description": "Detailed explanation of gradient boosted decision trees."
+  },
+  {
+    "query_id": "Q20",
+    "query": "how can microservices communicate securely across an api gateway using json web tokens?",
+    "relevant_doc_ids": [
+      78,
+      79
+    ],
+    "query_type": "long_query",
+    "category": "Web Development",
+    "description": "JWT authentication and API gateway architecture."
+  },
+  {
+    "query_id": "Q21",
+    "query": "dog chased cat",
+    "relevant_doc_ids": [
+      36
+    ],
+    "query_type": "word_order",
+    "category": "Machine Learning",
+    "description": "Query order: dog chased cat (Doc 36 is dog chased cat, Doc 43 is cat chased dog)."
+  },
+  {
+    "query_id": "Q22",
+    "query": "cat chased dog",
+    "relevant_doc_ids": [
+      43
+    ],
+    "query_type": "word_order",
+    "category": "Deep Learning",
+    "description": "Query order: cat chased dog (Doc 43 is cat chased dog, Doc 36 is dog chased cat)."
+  },
+  {
+    "query_id": "Q23",
+    "query": "evaluating retrieval ranking systems with precision recall and mean reciprocal rank",
+    "relevant_doc_ids": [
+      71
+    ],
+    "query_type": "conceptual",
+    "category": "NLP",
+    "description": "Information retrieval metrics question."
+  },
+  {
+    "query_id": "Q24",
+    "query": "symmetric and asymmetric encryption algorithms for data confidentiality",
+    "relevant_doc_ids": [
+      97,
+      98
+    ],
+    "query_type": "conceptual",
+    "category": "Cybersecurity",
+    "description": "Cryptography and PKI algorithms."
+  },
+  {
+    "query_id": "Q25",
+    "query": "automating infrastructure provisioning declaratively across multiple clouds",
+    "relevant_doc_ids": [
+      113
+    ],
+    "query_type": "conceptual",
+    "category": "Cloud",
+    "description": "Terraform and Infrastructure as Code."
+  }
+]
