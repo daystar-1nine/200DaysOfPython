@@ -17,9 +17,9 @@
 
 ### 📈 Current Challenge Status
 
-**Day 103 / 200** | **51.5% Complete** | **97 Days Remaining**
+**Day 104 / 200** | **52% Complete** | **96 Days Remaining**
 
-*Currently exploring Word Embeddings & Semantic Representation (Word2Vec).*
+*Currently exploring Semantic Search & Document Embeddings.*
 
 </div>
 
@@ -316,7 +316,8 @@ An enterprise-grade Computer Vision experimentation pipeline tracking 7 distinct
 | 101 | NLP Fundamentals & Text Data Processing | ✅ |
 | 102 | NLP Feature Engineering & Classical Text Classification | ✅ |
 | 103 | Word Embeddings & Semantic Representation | ✅ |
-| 104–200 | *Planned...* | ⬜ |
+| 104 | Semantic Search & Document Embeddings | ✅ |
+| 105–200 | *Planned...* | ⬜ |
 
 ## 📈 100-Day+ Skill Matrix
 
