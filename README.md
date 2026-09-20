@@ -17,9 +17,9 @@
 
 ### 📈 Current Challenge Status
 
-**Day 102 / 200** | **51.0% Complete** | **98 Days Remaining**
+**Day 103 / 200** | **51.5% Complete** | **97 Days Remaining**
 
-*Currently exploring NLP Feature Engineering & Classical Text Classification.*
+*Currently exploring Word Embeddings & Semantic Representation (Word2Vec).*
 
 </div>
 
@@ -315,7 +315,8 @@ An enterprise-grade Computer Vision experimentation pipeline tracking 7 distinct
 | 100 | **50% MILESTONE**: End-to-End Analytics Pipeline | ✅ |
 | 101 | NLP Fundamentals & Text Data Processing | ✅ |
 | 102 | NLP Feature Engineering & Classical Text Classification | ✅ |
-| 103–200 | *Planned...* | ⬜ |
+| 103 | Word Embeddings & Semantic Representation | ✅ |
+| 104–200 | *Planned...* | ⬜ |
 
 ## 📈 100-Day+ Skill Matrix
 
