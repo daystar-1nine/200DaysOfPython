@@ -1,0 +1,126 @@
+query_id,query,rank,document_id,title,category,hybrid_score,tfidf_score,embedding_score,is_relevant
+Q01,Python generators yield iterator,1,2,Understanding Python Generators and Iterators,Python,1.0,0.33274003863334656,0.9435775876045227,True
+Q01,Python generators yield iterator,2,5,Mastering Python Decorators and Closures,Python,0.3691973388195038,0.036595556885004044,0.6140660643577576,False
+Q01,Python generators yield iterator,3,11,Packaging and Distributing Python Libraries with PyPI,Python,0.3487946093082428,0.047736797481775284,0.5481892824172974,False
+Q01,Python generators yield iterator,4,10,Functional Programming Tools in Python,Python,0.3469155430793762,0.039863523095846176,0.5658393502235413,False
+Q01,Python generators yield iterator,5,7,Python Type Hints and Static Type Checking with Mypy,Python,0.31070539355278015,0.03553655743598938,0.5131509304046631,False
+Q02,FastAPI REST API async openapi,1,73,Building High Performance REST APIs with FastAPI,Web Development,1.0,0.21102772653102875,0.843472421169281,True
+Q02,FastAPI REST API async openapi,2,74,RESTful API Design Principles and HTTP Status Codes,Web Development,0.580318033695221,0.09782439470291138,0.5957145094871521,True
+Q02,FastAPI REST API async openapi,3,4,Asynchronous Programming with Asyncio in Python,Python,0.5197747945785522,0.05733885243535042,0.6535903215408325,False
+Q02,FastAPI REST API async openapi,4,79,Microservices Architecture and API Gateway Routing,Web Development,0.46354612708091736,0.06634888052940369,0.5266931056976318,False
+Q02,FastAPI REST API async openapi,5,3,Python Metaclasses and Dynamic Class Creation,Python,0.38377001881599426,0.03793821483850479,0.5063096284866333,False
+Q03,Docker containers cgroups namespaces,1,110,Docker Containers and Image Virtualization,Cloud,1.0,0.395822137594223,0.8807311654090881,True
+Q03,Docker containers cgroups namespaces,2,59,Morphological Image Transformations: Dilation and Erosion,Computer Vision,0.27904945611953735,0.0,0.4807461202144623,False
+Q03,Docker containers cgroups namespaces,3,85,Relational Database Normalization: 1NF to BCNF,Databases,0.2598283886909485,0.0,0.44595038890838623,False
+Q03,Docker containers cgroups namespaces,4,111,Kubernetes Cluster Architecture and Container Orchestration,Cloud,0.2487856149673462,0.0,0.4259597361087799,True
+Q03,Docker containers cgroups namespaces,5,114,Continuous Integration and Continuous Deployment (CI/CD) Pipelines,Cloud,0.22774896025657654,0.0,0.3878772556781769,False
+Q04,YOLO object detection bounding box,1,51,Object Detection with YOLO and Anchor Boxes,Computer Vision,1.0,0.4104749262332916,0.7970965504646301,True
+Q04,YOLO object detection bounding box,2,54,Edge Detection and Filtering with OpenCV,Computer Vision,0.47533735632896423,0.0802726075053215,0.6092986464500427,False
+Q04,YOLO object detection bounding box,3,106,Endpoint Detection and Response (EDR) Systems,Cybersecurity,0.33425021171569824,0.03368087112903595,0.4799509346485138,False
+Q04,YOLO object detection bounding box,4,55,"Visual Feature Descriptors: SIFT, SURF, and ORB",Computer Vision,0.3318350315093994,0.03130003437399864,0.48069465160369873,False
+Q04,YOLO object detection bounding box,5,95,Graph Databases: Neo4j and Cypher Query Language,Databases,0.29138457775115967,0.03073994442820549,0.4196997880935669,False
+Q05,PostgreSQL JSONB GIN index full-text search,1,88,"PostgreSQL Advanced Features: JSONB, Arrays, and Full-Text Search",Databases,1.0,0.5001657009124756,0.9525921940803528,True
+Q05,PostgreSQL JSONB GIN index full-text search,2,94,Vector Databases and Approximate Nearest Neighbor Search,Databases,0.4057009220123291,0.10417131334543228,0.5857451558113098,False
+Q05,PostgreSQL JSONB GIN index full-text search,3,61,"Tokenization, Lemmatization, and Text Normalization",NLP,0.3655654788017273,0.07490775734186172,0.5656284689903259,False
+Q05,PostgreSQL JSONB GIN index full-text search,4,85,Relational Database Normalization: 1NF to BCNF,Databases,0.27009496092796326,0.033955518156290054,0.46481573581695557,False
+Q05,PostgreSQL JSONB GIN index full-text search,5,68,Named Entity Recognition and Information Extraction,NLP,0.2617414593696594,0.03311445191502571,0.4509270191192627,False
+Q06,vehicle maintenance services,1,24,Vehicle Maintenance Diagnostics and Sensor Data Analytics,Data Science,1.0,0.3026299476623535,0.8510866165161133,True
+Q06,vehicle maintenance services,2,79,Microservices Architecture and API Gateway Routing,Web Development,0.3216353952884674,0.0585993155837059,0.3748971223831177,False
+Q06,vehicle maintenance services,3,112,Serverless Computing and AWS Lambda Function Execution,Cloud,0.3104299306869507,0.05501193925738335,0.36576297879219055,False
+Q06,vehicle maintenance services,4,111,Kubernetes Cluster Architecture and Container Orchestration,Cloud,0.2996552586555481,0.06332119554281235,0.32336142659187317,False
+Q06,vehicle maintenance services,5,20,Automated Feature Engineering for Tabular Datasets,Data Science,0.21983602643013,0.0,0.36627495288848877,False
+Q07,how do neural networks learn weights through calculus?,1,37,Neural Network Fundamentals and Forward Propagation,Deep Learning,0.9302892684936523,0.14997875690460205,0.7377043962478638,True
+Q07,how do neural networks learn weights through calculus?,2,42,Recurrent Neural Networks and Long Short-Term Memory,Deep Learning,0.8987908363342285,0.16826355457305908,0.6287779808044434,False
+Q07,how do neural networks learn weights through calculus?,3,49,Convolutional Neural Networks and Spatial Filtering,Computer Vision,0.8802326321601868,0.1742766797542572,0.5823182463645935,False
+Q07,how do neural networks learn weights through calculus?,4,38,Backpropagation and Gradient Descent Optimization,Deep Learning,0.6220341920852661,0.09943599253892899,0.5259068012237549,True
+Q07,how do neural networks learn weights through calculus?,5,32,"Regularization Techniques: Ridge, Lasso, and ElasticNet",Machine Learning,0.5592045783996582,0.09135477989912033,0.4744718074798584,False
+Q08,protecting web services from malicious vulnerabilities and attacks,1,101,Cross-Site Scripting (XSS) Prevention and Content Security Policy,Cybersecurity,1.0,0.13151922821998596,0.7653997540473938,True
+Q08,protecting web services from malicious vulnerabilities and attacks,2,105,DDoS Mitigation and Web Application Firewalls (WAF),Cybersecurity,0.9843332767486572,0.12779444456100464,0.7632371783256531,False
+Q08,protecting web services from malicious vulnerabilities and attacks,3,77,"Web Application Security: Mitigating XSS, CSRF, and SQL Injection",Web Development,0.6298843622207642,0.05098959431052208,0.6735580563545227,True
+Q08,protecting web services from malicious vulnerabilities and attacks,4,104,Security Information and Event Management (SIEM) and Log Analysis,Cybersecurity,0.6029305458068848,0.03681715577840805,0.7122191786766052,False
+Q08,protecting web services from malicious vulnerabilities and attacks,5,83,Progressive Web Apps and Service Worker Offline Storage,Web Development,0.5852268934249878,0.05533589422702789,0.5857125520706177,False
+Q09,measuring angle between semantic vector representations,1,64,Cosine Similarity and Semantic Vector Comparison,NLP,1.0,0.3010634183883667,0.8817195892333984,True
+Q09,measuring angle between semantic vector representations,2,63,Word2Vec Embeddings: CBOW and Skip-Gram Architectures,NLP,0.48180150985717773,0.1066053956747055,0.5513145327568054,True
+Q09,measuring angle between semantic vector representations,3,94,Vector Databases and Approximate Nearest Neighbor Search,Databases,0.44481125473976135,0.08240688592195511,0.5567265748977661,False
+Q09,measuring angle between semantic vector representations,4,29,Support Vector Machines and Kernel Transformations,Machine Learning,0.44161978363990784,0.0733402669429779,0.5768070816993713,False
+Q09,measuring angle between semantic vector representations,5,52,Image Segmentation with U-Net and Mask R-CNN,Computer Vision,0.3823903501033783,0.06053213030099869,0.5125729441642761,False
+Q10,preventing overfitting in deep learning with dropout and regularization,1,41,Dropout Regularization and Preventing Overfitting in Deep Nets,Deep Learning,1.0,0.3421538174152374,0.7758708000183105,True
+Q10,preventing overfitting in deep learning with dropout and regularization,2,32,"Regularization Techniques: Ridge, Lasso, and ElasticNet",Machine Learning,0.5490463972091675,0.09290559589862823,0.6614190936088562,True
+Q10,preventing overfitting in deep learning with dropout and regularization,3,53,Transfer Learning with Pretrained ResNet and VGG Models,Computer Vision,0.41399523615837097,0.07701245695352554,0.5111392140388489,False
+Q10,preventing overfitting in deep learning with dropout and regularization,4,40,Batch Normalization and Layer Normalization,Deep Learning,0.3949572443962097,0.06454985588788986,0.5101379752159119,False
+Q10,preventing overfitting in deep learning with dropout and regularization,5,27,Gradient Boosted Decision Trees with XGBoost and LightGBM,Machine Learning,0.388773649930954,0.10060211271047592,0.430635541677475,False
+Q11,Python,1,11,Packaging and Distributing Python Libraries with PyPI,Python,1.0,0.16483838856220245,0.7369773387908936,True
+Q11,Python,2,6,Object-Oriented Programming and Dunder Methods in Python,Python,0.9154660701751709,0.15261545777320862,0.6700955629348755,True
+Q11,Python,3,10,Functional Programming Tools in Python,Python,0.8345528244972229,0.1376514583826065,0.6200336217880249,True
+Q11,Python,4,12,High Performance Numerical Computing with Cython,Python,0.8117308616638184,0.13225097954273224,0.6109567880630493,True
+Q11,Python,5,5,Mastering Python Decorators and Closures,Python,0.8085727691650391,0.12636692821979523,0.6316587328910828,True
+Q12,Kubernetes,1,111,Kubernetes Cluster Architecture and Container Orchestration,Cloud,1.0,0.24319495260715485,0.6765874028205872,True
+Q12,Kubernetes,2,114,Continuous Integration and Continuous Deployment (CI/CD) Pipelines,Cloud,0.4387144446372986,0.0,0.5937880277633667,False
+Q12,Kubernetes,3,107,Secure Software Development Lifecycle and DevSecOps,Cybersecurity,0.32574373483657837,0.0,0.44115978479385376,False
+Q12,Kubernetes,4,110,Docker Containers and Image Virtualization,Cloud,0.31014153361320496,0.0,0.4200805425643921,False
+Q12,Kubernetes,5,102,Zero Trust Security Architecture and Identity Verification,Cybersecurity,0.303767591714859,0.0,0.41146910190582275,False
+Q13,PCA,1,23,Dimensionality Reduction with Principal Component Analysis,Data Science,1.0,0.12708042562007904,0.7359917759895325,True
+Q13,PCA,2,28,Random Forests and Bagging Ensembles,Machine Learning,0.32278263568878174,0.0,0.4593316614627838,False
+Q13,PCA,3,19,Correlation Analysis and Multicollinearity in Tabular Data,Data Science,0.30586400628089905,0.0,0.432919442653656,False
+Q13,PCA,4,40,Batch Normalization and Layer Normalization,Deep Learning,0.27324703335762024,0.0,0.38199999928474426,False
+Q13,PCA,5,53,Transfer Learning with Pretrained ResNet and VGG Models,Computer Vision,0.23434332013130188,0.0,0.3212660849094391,False
+Q14,SQL indexing,1,86,SQL Indexing Strategies: B-Trees and Hash Indexes,Databases,0.9592194557189941,0.19813427329063416,0.5903897881507874,True
+Q14,SQL indexing,2,93,SQL Query Optimization and EXPLAIN ANALYZE Execution Plans,Databases,0.7268149852752686,0.08987964689731598,0.6432954668998718,True
+Q14,SQL indexing,3,100,SQL Injection Attacks and Defense Mechanisms,Cybersecurity,0.6954476833343506,0.09741178154945374,0.5779427886009216,False
+Q14,SQL indexing,4,77,"Web Application Security: Mitigating XSS, CSRF, and SQL Injection",Web Development,0.5324336886405945,0.058149512857198715,0.4949995279312134,False
+Q14,SQL indexing,5,88,"PostgreSQL Advanced Features: JSONB, Arrays, and Full-Text Search",Databases,0.5094180703163147,0.05753335356712341,0.4671579599380493,False
+Q15,BERT transformer,1,66,BERT: Bidirectional Encoder Representations from Transformers,NLP,1.0,0.226811021566391,0.7486611008644104,True
+Q15,BERT transformer,2,65,Transformer Architecture and Multi-Head Self-Attention,NLP,0.5407286882400513,0.06967747956514359,0.5767708420753479,True
+Q15,BERT transformer,3,68,Named Entity Recognition and Information Extraction,NLP,0.4308958053588867,0.07125448435544968,0.404217392206192,False
+Q15,BERT transformer,4,63,Word2Vec Embeddings: CBOW and Skip-Gram Architectures,NLP,0.38349446654319763,0.0,0.5712403059005737,False
+Q15,BERT transformer,5,48,Weight Initialization Strategies: Xavier and He Initialization,Deep Learning,0.2630620300769806,0.0,0.3878394067287445,False
+Q16,how can I reduce the dimensionality of my high-dimensional dataset using orthogonal variance projections?,1,23,Dimensionality Reduction with Principal Component Analysis,Data Science,1.0,0.25797542929649353,0.8005720973014832,True
+Q16,how can I reduce the dimensionality of my high-dimensional dataset using orthogonal variance projections?,2,19,Correlation Analysis and Multicollinearity in Tabular Data,Data Science,0.5368632674217224,0.08172265440225601,0.6324840188026428,False
+Q16,how can I reduce the dimensionality of my high-dimensional dataset using orthogonal variance projections?,3,64,Cosine Similarity and Semantic Vector Comparison,NLP,0.46240460872650146,0.04671189934015274,0.6233528852462769,False
+Q16,how can I reduce the dimensionality of my high-dimensional dataset using orthogonal variance projections?,4,38,Backpropagation and Gradient Descent Optimization,Deep Learning,0.4549071192741394,0.04241212084889412,0.6245094537734985,False
+Q16,how can I reduce the dimensionality of my high-dimensional dataset using orthogonal variance projections?,5,10,Functional Programming Tools in Python,Python,0.44504427909851074,0.07594288140535355,0.5209820866584778,False
+Q17,what is the difference between mean pooling and tf-idf weighted pooling when creating document embeddings?,1,67,Document Embeddings: Mean Pooling vs Weighted Pooling,NLP,1.0,0.5433288216590881,0.9249380826950073,True
+Q17,what is the difference between mean pooling and tf-idf weighted pooling when creating document embeddings?,2,62,TF-IDF Vectorization and Term Frequency Weighting,NLP,0.5583232045173645,0.15889811515808105,0.7803857922554016,False
+Q17,what is the difference between mean pooling and tf-idf weighted pooling when creating document embeddings?,3,64,Cosine Similarity and Semantic Vector Comparison,NLP,0.42385587096214294,0.1180618405342102,0.61960768699646,False
+Q17,what is the difference between mean pooling and tf-idf weighted pooling when creating document embeddings?,4,63,Word2Vec Embeddings: CBOW and Skip-Gram Architectures,NLP,0.30182886123657227,0.021013054996728897,0.5656307935714722,False
+Q17,what is the difference between mean pooling and tf-idf weighted pooling when creating document embeddings?,5,70,Sentiment Analysis using Classical Machine Learning Classifiers,NLP,0.2865830659866333,0.07569456845521927,0.4565156102180481,False
+Q18,how do asynchronous event loops handle non-blocking concurrent network requests in python?,1,4,Asynchronous Programming with Asyncio in Python,Python,1.0,0.2976193130016327,0.8548442125320435,True
+Q18,how do asynchronous event loops handle non-blocking concurrent network requests in python?,2,73,Building High Performance REST APIs with FastAPI,Web Development,0.4501655697822571,0.06788560748100281,0.6153941750526428,False
+Q18,how do asynchronous event loops handle non-blocking concurrent network requests in python?,3,3,Python Metaclasses and Dynamic Class Creation,Python,0.3966060280799866,0.08130507171154022,0.5041974186897278,False
+Q18,how do asynchronous event loops handle non-blocking concurrent network requests in python?,4,104,Security Information and Event Management (SIEM) and Log Analysis,Cybersecurity,0.393982470035553,0.052973393350839615,0.5699089169502258,False
+Q18,how do asynchronous event loops handle non-blocking concurrent network requests in python?,5,18,NumPy Broadcasting and Vectorized Array Computations,Data Science,0.3797081708908081,0.0582781657576561,0.5360311269760132,False
+Q19,how to build an ensemble of shallow decision trees sequentially by fitting pseudo-residuals?,1,27,Gradient Boosted Decision Trees with XGBoost and LightGBM,Machine Learning,1.0,0.3593287467956543,0.8606821298599243,True
+Q19,how to build an ensemble of shallow decision trees sequentially by fitting pseudo-residuals?,2,28,Random Forests and Bagging Ensembles,Machine Learning,0.5827939510345459,0.15424571931362152,0.663093626499176,False
+Q19,how to build an ensemble of shallow decision trees sequentially by fitting pseudo-residuals?,3,25,Linear Regression and Ordinary Least Squares,Machine Learning,0.5116354823112488,0.11655356734991074,0.6350515484809875,False
+Q19,how to build an ensemble of shallow decision trees sequentially by fitting pseudo-residuals?,4,38,Backpropagation and Gradient Descent Optimization,Deep Learning,0.3765050172805786,0.01882416382431984,0.6363379955291748,False
+Q19,how to build an ensemble of shallow decision trees sequentially by fitting pseudo-residuals?,5,26,Logistic Regression for Binary Classification,Machine Learning,0.26265737414360046,0.014494236558675766,0.4747399091720581,False
+Q20,how can microservices communicate securely across an api gateway using json web tokens?,1,79,Microservices Architecture and API Gateway Routing,Web Development,1.0,0.2793683707714081,0.751823902130127,True
+Q20,how can microservices communicate securely across an api gateway using json web tokens?,2,78,OAuth 2.0 and JSON Web Tokens for API Authentication,Web Development,0.7188819646835327,0.19810791313648224,0.5820326805114746,True
+Q20,how can microservices communicate securely across an api gateway using json web tokens?,3,3,Python Metaclasses and Dynamic Class Creation,Python,0.5391347408294678,0.07718624174594879,0.627924382686615,False
+Q20,how can microservices communicate securely across an api gateway using json web tokens?,4,1,Python Memory Management and Garbage Collection,Python,0.3891712427139282,0.04185808449983597,0.5193850994110107,False
+Q20,how can microservices communicate securely across an api gateway using json web tokens?,5,111,Kubernetes Cluster Architecture and Container Orchestration,Cloud,0.37412524223327637,0.011264098808169365,0.5690774321556091,False
+Q21,dog chased cat,1,36,The Dog Chased the Cat Across the Yard,Machine Learning,0.9906743168830872,0.40004807710647583,0.9442707300186157,True
+Q21,dog chased cat,2,43,The Cat Chased the Dog Across the Yard,Deep Learning,0.8645773530006409,0.2916969358921051,0.9630966186523438,False
+Q21,dog chased cat,3,119,Auto Scaling Groups and Load Balancing in the Cloud,Cloud,0.22461336851119995,0.0,0.4071723222732544,False
+Q21,dog chased cat,4,56,Optical Flow and Video Motion Tracking,Computer Vision,0.20360295474529266,0.0,0.3647584915161133,False
+Q21,dog chased cat,5,46,Generative Adversarial Networks and Minimax Training,Deep Learning,0.196226567029953,0.0,0.34986773133277893,False
+Q22,cat chased dog,1,43,The Cat Chased the Dog Across the Yard,Deep Learning,1.0,0.4064401388168335,0.9630966782569885,True
+Q22,cat chased dog,2,36,The Dog Chased the Cat Across the Yard,Machine Learning,0.843874454498291,0.2871094346046448,0.9442707896232605,False
+Q22,cat chased dog,3,119,Auto Scaling Groups and Load Balancing in the Cloud,Cloud,0.22461336851119995,0.0,0.40717238187789917,False
+Q22,cat chased dog,4,56,Optical Flow and Video Motion Tracking,Computer Vision,0.20360293984413147,0.0,0.36475852131843567,False
+Q22,cat chased dog,5,46,Generative Adversarial Networks and Minimax Training,Deep Learning,0.19622653722763062,0.0,0.34986773133277893,False
+Q23,evaluating retrieval ranking systems with precision recall and mean reciprocal rank,1,71,"Information Retrieval Metrics: Precision, Recall, and MRR",NLP,1.0,0.5647416710853577,0.9461777806282043,True
+Q23,evaluating retrieval ranking systems with precision recall and mean reciprocal rank,2,33,"Evaluation Metrics: Precision, Recall, F1-Score, and ROC-AUC",Machine Learning,0.6057513952255249,0.16042552888393402,0.8817489147186279,False
+Q23,evaluating retrieval ranking systems with precision recall and mean reciprocal rank,3,117,"Site Reliability Engineering and Observability: Metrics, Logs, Traces",Cloud,0.3171834349632263,0.022794285789132118,0.5857089161872864,False
+Q23,evaluating retrieval ranking systems with precision recall and mean reciprocal rank,4,15,Data Cleaning and Missing Value Imputation,Data Science,0.28122761845588684,0.02671048976480961,0.5157042741775513,False
+Q23,evaluating retrieval ranking systems with precision recall and mean reciprocal rank,5,94,Vector Databases and Approximate Nearest Neighbor Search,Databases,0.24939203262329102,0.030851751565933228,0.4526621401309967,False
+Q24,symmetric and asymmetric encryption algorithms for data confidentiality,1,97,Symmetric and Asymmetric Cryptography: AES and RSA,Cybersecurity,1.0,0.36593902111053467,0.9262183904647827,True
+Q24,symmetric and asymmetric encryption algorithms for data confidentiality,2,98,"Public Key Infrastructure, SSL/TLS, and Digital Certificates",Cybersecurity,0.36348405480384827,0.10399355739355087,0.45870503783226013,True
+Q24,symmetric and asymmetric encryption algorithms for data confidentiality,3,115,Cloud Object Storage: Amazon S3 and Blob Storage Architectures,Cloud,0.3191934823989868,0.030211439356207848,0.553550124168396,False
+Q24,symmetric and asymmetric encryption algorithms for data confidentiality,4,13,Exploratory Data Analysis and Feature Distribution,Data Science,0.3114638924598694,0.028026776388287544,0.5455886125564575,False
+Q24,symmetric and asymmetric encryption algorithms for data confidentiality,5,24,Vehicle Maintenance Diagnostics and Sensor Data Analytics,Data Science,0.30232349038124084,0.046278953552246094,0.4884023666381836,False
+Q25,automating infrastructure provisioning declaratively across multiple clouds,1,113,Infrastructure as Code with Terraform and Declarative Provisioning,Cloud,1.0,0.18373753130435944,0.8104365468025208,True
+Q25,automating infrastructure provisioning declaratively across multiple clouds,2,116,Virtual Private Clouds (VPC) and Cloud Network Subnetting,Cloud,0.6413435935974121,0.0975719466805458,0.6258291006088257,False
+Q25,automating infrastructure provisioning declaratively across multiple clouds,3,109,"Cloud Computing Service Models: IaaS, PaaS, and SaaS",Cloud,0.5030824542045593,0.05116552114486694,0.608024001121521,False
+Q25,automating infrastructure provisioning declaratively across multiple clouds,4,120,Multi-Region Cloud Deployments and Disaster Recovery Strategies,Cloud,0.5022966265678406,0.05370434746146202,0.5965847373008728,False
+Q25,automating infrastructure provisioning declaratively across multiple clouds,5,14,Pandas DataFrame Aggregations and GroupBy Operations,Data Science,0.49730628728866577,0.11100649833679199,0.3573443293571472,False
