@@ -1,0 +1,121 @@
+label,text,target
+ham,"I'm feeling much better today, thanks for checking in on me!",0
+ham,Where did you leave the spare car keys? I can't find them on the counter. Thanks!,0
+ham,"Sorry I missed your call earlier, I was in an important team meeting. What's up?",0
+spam,Loan approved! Up to £5000 deposited within 1 hour. No credit checks required! Call 08000930705.,1
+ham,"I'll be there in about 15 minutes, traffic is a bit slow today.",0
+spam,"URGENT! Your mobile number was awarded a £2,000 bonus prize! Call 09061701461 immediately to claim. Ref: #7612",1
+ham,"Hey, are we still meeting for lunch at 1pm tomorrow?",0
+ham,"Hey, are we still meeting for lunch at 1pm tomorrow? Thanks!",0
+spam,Claim your complimentary 2-week gym pass at FitnessFirst today! Text FIT to 88088. Ref: #7413,1
+ham,"Sorry I missed your call earlier, I was in an important team meeting. What's up? Thanks!",0
+spam,Congratulations! You won a FREE cruise to the Bahamas! Call now at 1-800-555-0199. T&Cs apply. Ref: #7704,1
+spam,Hot singles in your area want to chat with you right now! Reply CHAT to 69696 to connect. Ref: #5873,1
+spam,"Dear customer, your bank account has been suspended due to suspicious activity. Verify at http://secure-bank-login.xyz",1
+ham,"Great job on the presentation today, the client was really impressed with our slides! :)",0
+spam,Loan approved! Up to £5000 deposited within 1 hour. No credit checks required! Call 08000930705. Ref: #4600,1
+ham,"Sorry I missed your call earlier, I was in an important team meeting. What's up? :)",0
+ham,Could you review my pull request on GitHub when you have a moment?,0
+ham,"Great job on the presentation today, the client was really impressed with our slides!",0
+spam,Special promotion! Buy 1 get 2 free on all health supplements. Order at http://vitamins-direct.com.,1
+ham,Thanks for the lecture notes! They were super helpful for the exam prep.,0
+ham,"Just reached the airport, flight is on time. See you soon! :)",0
+spam,URGENT: Call 09066362206 from landline. 150p/min. You have an unclaimed parcel waiting delivery. Ref: #9519,1
+ham,"Just reached the airport, flight is on time. See you soon! Thanks!",0
+ham,Let me know when you're free for a quick phone call to discuss the travel plans. :),0
+ham,"Running a bit late, start eating without me. Be there around 7:30! :)",0
+ham,Happy birthday! Wishing you a fantastic year ahead filled with joy and success!,0
+ham,Where did you leave the spare car keys? I can't find them on the counter. :),0
+spam,You have won a guaranteed £500 Amazon gift card! Claim now by replying GIFT.,1
+ham,Don't forget we have the project standup meeting at 10am tomorrow morning. :),0
+ham,Did you finish the Python assignment? Let's compare our answers tonight.,0
+ham,"Running a bit late, start eating without me. Be there around 7:30! :)",0
+ham,Can you please pick up some milk and eggs on your way home from work? :),0
+ham,"Just reached the airport, flight is on time. See you soon!",0
+ham,"Hey, are we still meeting for lunch at 1pm tomorrow? :)",0
+ham,"I'll be there in about 15 minutes, traffic is a bit slow today. :)",0
+ham,"Hey, are we still meeting for lunch at 1pm tomorrow? :)",0
+ham,Could you review my pull request on GitHub when you have a moment?,0
+ham,"Running a bit late, start eating without me. Be there around 7:30!",0
+ham,Happy birthday! Wishing you a fantastic year ahead filled with joy and success! :),0
+ham,I just sent over the revised budget spreadsheet. Please check if the numbers look right.,0
+ham,"I'll be there in about 15 minutes, traffic is a bit slow today. :)",0
+ham,Let me know when you're free for a quick phone call to discuss the travel plans. :),0
+ham,Sounds good! Let's book the tickets for the 7pm movie screening. :),0
+spam,"URGENT! Your mobile number was awarded a £2,000 bonus prize! Call 09061701461 immediately to claim. Ref: #2619",1
+ham,Sounds good! Let's book the tickets for the 7pm movie screening.,0
+ham,Thanks for the lecture notes! They were super helpful for the exam prep.,0
+spam,Loan approved! Up to £5000 deposited within 1 hour. No credit checks required! Call 08000930705.,1
+ham,Did you finish the Python assignment? Let's compare our answers tonight. :),0
+ham,"Running a bit late, start eating without me. Be there around 7:30! :)",0
+ham,Happy birthday! Wishing you a fantastic year ahead filled with joy and success! :),0
+spam,WINNER! As a valued customer you are selected to receive a £1000 cash reward. Text CLAIM to 87077.,1
+ham,"Just reached the airport, flight is on time. See you soon! :)",0
+ham,Where did you leave the spare car keys? I can't find them on the counter. :),0
+spam,Exclusive offer! 50% discount on luxury watches. Visit our website http://swiss-replica.co today only! Ref: #3079,1
+ham,"I'll be there in about 15 minutes, traffic is a bit slow today. :)",0
+ham,"I'll be there in about 15 minutes, traffic is a bit slow today.",0
+ham,"Sorry I missed your call earlier, I was in an important team meeting. What's up?",0
+spam,Free entry in 2 a weekly competition to win £1000 cash. Text WIN to 82122 to enter now!,1
+spam,PRIVATE! Your 2004 Account for 07781482378 has 800 points. Call 0871-872-9758 to claim your reward. Ref: #3371,1
+ham,Happy birthday! Wishing you a fantastic year ahead filled with joy and success!,0
+spam,Claim your complimentary 2-week gym pass at FitnessFirst today! Text FIT to 88088. Ref: #5033,1
+ham,Did you finish the Python assignment? Let's compare our answers tonight.,0
+ham,"Running a bit late, start eating without me. Be there around 7:30!",0
+ham,I just sent over the revised budget spreadsheet. Please check if the numbers look right. :),0
+ham,Could you review my pull request on GitHub when you have a moment?,0
+ham,"Hey, are we still meeting for lunch at 1pm tomorrow? :)",0
+ham,"Great job on the presentation today, the client was really impressed with our slides! :)",0
+ham,"Running a bit late, start eating without me. Be there around 7:30! :)",0
+ham,"Sorry I missed your call earlier, I was in an important team meeting. What's up? Thanks!",0
+ham,"Great job on the presentation today, the client was really impressed with our slides!",0
+spam,WIN a £500 shopping spree at Tesco! To enter simply answer our quick 2-question survey: http://tesco-win.me Ref: #1793,1
+ham,Can you send me the link to that recipe you made last week? It was delicious. :),0
+ham,"The weather is supposed to be really nice this Sunday, want to go for a hike?",0
+ham,"Just reached the airport, flight is on time. See you soon! :)",0
+spam,Claim your complimentary 2-week gym pass at FitnessFirst today! Text FIT to 88088. Ref: #8973,1
+ham,"Hey, are we still meeting for lunch at 1pm tomorrow?",0
+ham,Let's catch up this weekend. Are you free on Saturday afternoon? Thanks!,0
+ham,Thanks for the lecture notes! They were super helpful for the exam prep.,0
+ham,Sounds good! Let's book the tickets for the 7pm movie screening.,0
+ham,Don't forget we have the project standup meeting at 10am tomorrow morning. :),0
+ham,Let's catch up this weekend. Are you free on Saturday afternoon?,0
+ham,Could you review my pull request on GitHub when you have a moment?,0
+ham,"Hey, are we still meeting for lunch at 1pm tomorrow? :)",0
+spam,PRIVATE! Your 2004 Account for 07781482378 has 800 points. Call 0871-872-9758 to claim your reward. Ref: #6788,1
+ham,Can you please pick up some milk and eggs on your way home from work? :),0
+ham,Sounds good! Let's book the tickets for the 7pm movie screening. :),0
+ham,"I'll be there in about 15 minutes, traffic is a bit slow today. :)",0
+ham,Thanks for the lecture notes! They were super helpful for the exam prep. :),0
+ham,Let me know when you're free for a quick phone call to discuss the travel plans. :),0
+ham,Don't forget we have the project standup meeting at 10am tomorrow morning.,0
+ham,Thanks for the lecture notes! They were super helpful for the exam prep. :),0
+ham,I just sent over the revised budget spreadsheet. Please check if the numbers look right. :),0
+ham,Could you review my pull request on GitHub when you have a moment?,0
+ham,"The weather is supposed to be really nice this Sunday, want to go for a hike? :)",0
+ham,Sounds good! Let's book the tickets for the 7pm movie screening.,0
+ham,Let me know when you're free for a quick phone call to discuss the travel plans.,0
+ham,"Hey, are we still meeting for lunch at 1pm tomorrow? :)",0
+ham,Sounds good! Let's book the tickets for the 7pm movie screening. :),0
+ham,"Hey, are we still meeting for lunch at 1pm tomorrow? :)",0
+ham,Let's catch up this weekend. Are you free on Saturday afternoon? Thanks!,0
+ham,Thanks for the lecture notes! They were super helpful for the exam prep.,0
+ham,"The weather is supposed to be really nice this Sunday, want to go for a hike? :)",0
+ham,"Great job on the presentation today, the client was really impressed with our slides! :)",0
+ham,Thanks for the lecture notes! They were super helpful for the exam prep. :),0
+ham,Let me know when you're free for a quick phone call to discuss the travel plans.,0
+ham,"Just reached the airport, flight is on time. See you soon! :)",0
+ham,Let me know when you're free for a quick phone call to discuss the travel plans. :),0
+ham,Could you review my pull request on GitHub when you have a moment? Thanks!,0
+ham,Did you finish the Python assignment? Let's compare our answers tonight. :),0
+ham,Where did you leave the spare car keys? I can't find them on the counter. :),0
+ham,Thanks for the lecture notes! They were super helpful for the exam prep.,0
+ham,"Great job on the presentation today, the client was really impressed with our slides! Thanks!",0
+ham,I just sent over the revised budget spreadsheet. Please check if the numbers look right. :),0
+ham,Did you finish the Python assignment? Let's compare our answers tonight.,0
+ham,Where did you leave the spare car keys? I can't find them on the counter. :),0
+ham,"Sorry I missed your call earlier, I was in an important team meeting. What's up? :)",0
+spam,Your mobile contract is up for renewal! Get a brand new iPhone 15 Pro for £0 upfront. Call 0800-111-222.,1
+ham,"Hey, are we still meeting for lunch at 1pm tomorrow? :)",0
+ham,"I'm feeling much better today, thanks for checking in on me! :)",0
+ham,"Just reached the airport, flight is on time. See you soon! :)",0
