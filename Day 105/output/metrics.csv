@@ -1,0 +1,4 @@
+model,representation,accuracy,precision,recall,f1,roc_auc,parameters,training_time
+Logistic Regression,TF-IDF (1-2 ngrams),1.0,1.0,1.0,1.0,1.0,1030,0.010924899979727343
+Linear SVM,TF-IDF (1-2 ngrams),1.0,1.0,1.0,1.0,1.0,1030,0.02137669999501668
+Neural Classifier (Model C),Trainable Embedding (D=64),1.0,1.0,1.0,1.0,1.0,27265,2.5989707999979146
