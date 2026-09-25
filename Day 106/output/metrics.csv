@@ -1,0 +1,6 @@
+model,representation,f1,accuracy,precision,recall,roc_auc,parameters,training_time
+Dummy Classifier,Majority Class,0.0,0.825,0.0,0.0,0.5,0,0.001
+Logistic Regression,TF-IDF (1-2 N-grams),1.0,1.0,1.0,1.0,1.0,1030,0.010721600032411516
+Linear SVM,TF-IDF (1-2 N-grams),1.0,1.0,1.0,1.0,1.0,1030,0.017715099966153502
+Day 105 Neural Model,Embedding + Masked Pooling,1.0,1.0,1.0,1.0,1.0,28097,0.4524189999792725
+Day 106 SimpleRNN,Embedding + SimpleRNN (H=64),1.0,1.0,1.0,1.0,1.0,34305,1.2484529000357725
