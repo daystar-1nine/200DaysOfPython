@@ -17,9 +17,9 @@
 
 ### 📈 Current Challenge Status
 
-**Day 105 / 200** | **52.5% Complete** | **95 Days Remaining**
+**Day 106 / 200** | **53% Complete** | **94 Days Remaining**
 
-*Currently exploring Neural NLP & Text Classification.*
+*Currently exploring RNNs & Sequential Text Learning.*
 
 </div>
 
@@ -318,7 +318,8 @@ An enterprise-grade Computer Vision experimentation pipeline tracking 7 distinct
 | 103 | Word Embeddings & Semantic Representation | ✅ |
 | 104 | Semantic Search & Document Embeddings | ✅ |
 | 105 | Neural NLP & Text Classification | ✅ |
-| 106–200 | *Planned...* | ⬜ |
+| 106 | RNNs & Sequential Text Learning | ✅ |
+| 107–200 | *Planned...* | ⬜ |
 
 ## 📈 100-Day+ Skill Matrix
 
