@@ -17,9 +17,9 @@
 
 ### 📈 Current Challenge Status
 
-**Day 106 / 200** | **53% Complete** | **94 Days Remaining**
+**Day 107 / 200** | **53.5% Complete** | **93 Days Remaining**
 
-*Currently exploring RNNs & Sequential Text Learning.*
+*Currently exploring LSTM & Long-Term Dependencies.*
 
 </div>
 
