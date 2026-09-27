@@ -1,0 +1,10 @@
+message,actual_label,predicted_label,probability,error_type
+I just sent over the revised budget spreadsheet. Please check if the numbers look right. Thanks!,0,1,0.5194522738456726,False Positive (Ham as Spam)
+Sounds good! Let's book the tickets for the 7pm movie screening.,0,1,0.5194523930549622,False Positive (Ham as Spam)
+I just sent over the revised budget spreadsheet. Please check if the numbers look right.,0,1,0.5194523334503174,False Positive (Ham as Spam)
+"The weather is supposed to be really nice this Sunday, want to go for a hike? Thanks!",0,1,0.5194522142410278,False Positive (Ham as Spam)
+Can you send me the link to that recipe you made last week? It was delicious. Thanks!,0,1,0.5194520354270935,False Positive (Ham as Spam)
+Did you finish the Python assignment? Let's compare our answers tonight.,0,1,0.5194523930549622,False Positive (Ham as Spam)
+Thanks for the lecture notes! They were super helpful for the exam prep. :),0,1,0.5194523930549622,False Positive (Ham as Spam)
+Can you please pick up some milk and eggs on your way home from work?,0,1,0.5194522738456726,False Positive (Ham as Spam)
+Don't forget we have the project standup meeting at 10am tomorrow morning. :),0,1,0.5194523930549622,False Positive (Ham as Spam)
