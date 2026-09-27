@@ -17,9 +17,9 @@
 
 ### 📈 Current Challenge Status
 
-**Day 107 / 200** | **53.5% Complete** | **93 Days Remaining**
+**Day 108 / 200** | **54% Complete** | **92 Days Remaining**
 
-*Currently exploring LSTM & Long-Term Dependencies.*
+*Currently exploring GRU & Recurrent Model Benchmarking.*
 
 </div>
 
@@ -319,7 +319,9 @@ An enterprise-grade Computer Vision experimentation pipeline tracking 7 distinct
 | 104 | Semantic Search & Document Embeddings | ✅ |
 | 105 | Neural NLP & Text Classification | ✅ |
 | 106 | RNNs & Sequential Text Learning | ✅ |
-| 107–200 | *Planned...* | ⬜ |
+| 107 | LSTM & Long-Term Dependencies | ✅ |
+| 108 | GRU & Recurrent Model Benchmarking | ✅ |
+| 109–200 | *Planned...* | ⬜ |
 
 ## 📈 100-Day+ Skill Matrix
 
