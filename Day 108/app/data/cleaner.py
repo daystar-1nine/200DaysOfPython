@@ -12,6 +12,8 @@ def clean_sms_data(df: pd.DataFrame, drop_duplicates: bool = True) -> pd.DataFra
     - Optionally drops duplicates and resets index
     """
     clean_df = df.copy()
+    if "v1" in clean_df.columns and "v2" in clean_df.columns:
+        clean_df = clean_df.rename(columns={"v1": "label", "v2": "text"})
     clean_df = clean_df.dropna(subset=["label", "text"])
     
     # Map label to binary integer
