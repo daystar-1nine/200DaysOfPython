@@ -17,9 +17,9 @@
 
 ### 📈 Current Challenge Status
 
-**Day 109 / 200** | **54.5% Complete** | **91 Days Remaining**
+**Day 110 / 200** | **55% Complete** | **90 Days Remaining**
 
-*Currently exploring Attention Mechanism & Text Classification.*
+*Currently exploring Transformers From Scratch & Self-Attention.*
 
 </div>
 
@@ -322,7 +322,8 @@ An enterprise-grade Computer Vision experimentation pipeline tracking 7 distinct
 | 107 | LSTM & Long-Term Dependencies | ✅ |
 | 108 | GRU & Recurrent Model Benchmarking | ✅ |
 | 109 | Attention Mechanism & Text Classification | ✅ |
-| 110–200 | *Planned...* | ⬜ |
+| 110 | Transformers From Scratch | ✅ |
+| 111–200 | *Planned...* | ⬜ |
 
 ## 📈 100-Day+ Skill Matrix
 
