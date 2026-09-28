@@ -1,0 +1,6 @@
+Configuration,Parameters,Training Time (s),Accuracy,Precision,Recall,F1,ROC-AUC,Observation
+Full Transformer,315393,7.12,1.0,1.0,1.0,1.0,1.0,Baseline complete architecture with residual connections and layer normalization.
+No positional encoding,315393,7.48,1.0,1.0,1.0,1.0,1.0,Bag-of-words self-attention without token position order awareness.
+No residual,315393,7.13,1.0,1.0,1.0,1.0,1.0,Removes skip-connections; degrades gradient flow and representation preservation.
+No LayerNorm,314369,5.61,1.0,1.0,1.0,1.0,1.0,Without normalization; activations and variance drift across layers.
+No padding mask,315393,3.76,1.0,1.0,1.0,1.0,1.0,"Attention attends over meaningless pad tokens, diluting semantic attention distribution."
