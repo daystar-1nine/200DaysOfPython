@@ -17,9 +17,9 @@
 
 ### 📈 Current Challenge Status
 
-**Day 108 / 200** | **54% Complete** | **92 Days Remaining**
+**Day 109 / 200** | **54.5% Complete** | **91 Days Remaining**
 
-*Currently exploring GRU & Recurrent Model Benchmarking.*
+*Currently exploring Attention Mechanism & Text Classification.*
 
 </div>
 
@@ -321,7 +321,8 @@ An enterprise-grade Computer Vision experimentation pipeline tracking 7 distinct
 | 106 | RNNs & Sequential Text Learning | ✅ |
 | 107 | LSTM & Long-Term Dependencies | ✅ |
 | 108 | GRU & Recurrent Model Benchmarking | ✅ |
-| 109–200 | *Planned...* | ⬜ |
+| 109 | Attention Mechanism & Text Classification | ✅ |
+| 110–200 | *Planned...* | ⬜ |
 
 ## 📈 100-Day+ Skill Matrix
 
