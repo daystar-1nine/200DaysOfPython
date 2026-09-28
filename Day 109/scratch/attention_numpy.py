@@ -2,7 +2,10 @@
 Dot-Product Attention and Scaled Dot-Product Attention from scratch in NumPy.
 """
 import numpy as np
-from softmax_numpy import softmax
+try:
+    from scratch.softmax_numpy import softmax
+except ImportError:
+    from softmax_numpy import softmax
 
 def dot_product_attention(Q: np.ndarray, K: np.ndarray, V: np.ndarray):
     """

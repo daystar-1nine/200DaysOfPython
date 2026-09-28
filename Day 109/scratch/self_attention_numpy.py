@@ -6,7 +6,10 @@ mask support, and attention matrix heatmap visualization.
 import numpy as np
 import matplotlib.pyplot as plt
 from pathlib import Path
-from softmax_numpy import softmax
+try:
+    from scratch.softmax_numpy import softmax
+except ImportError:
+    from softmax_numpy import softmax
 
 class SelfAttention:
     """
