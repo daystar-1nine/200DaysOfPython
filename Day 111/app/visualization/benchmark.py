@@ -3,6 +3,8 @@ Visualization module for benchmark comparisons, training trajectories, and thres
 """
 from pathlib import Path
 from typing import Dict, Any, List
+import matplotlib
+matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd

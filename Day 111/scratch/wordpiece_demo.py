@@ -58,6 +58,13 @@ class WordPieceTokenizerDemo:
             tokens.extend(self.tokenize_word(w))
         return tokens
 
+    @property
+    def vocab_size(self) -> int:
+        return len(self.vocab)
+
+
+WordPieceTokenizerScratch = WordPieceTokenizerDemo
+
 
 if __name__ == "__main__":
     demo_vocab = {

@@ -1,7 +1,7 @@
 """
 Masking utilities for BERT Masked Language Modeling and attention processing.
 """
-from typing import Tuple, Optional, List
+from typing import Tuple, Optional, List, Union, Any
 import numpy as np
 import torch
 
@@ -65,3 +65,56 @@ def apply_bert_mlm_mask(
     # 10%: keep unchanged (decision_rand >= 0.9)
 
     return inputs, labels
+
+
+def mask_tokens(
+    token_sequence: Union[List[int], np.ndarray, torch.Tensor],
+    mask_token_id: int = 103,
+    cls_token_id: int = 101,
+    sep_token_id: int = 102,
+    mask_prob: float = 0.15,
+    vocab_size: int = 30522,
+    seed: Optional[int] = None
+) -> Tuple[Any, Any]:
+    """
+    Flexible wrapper for MLM masking that works with lists, NumPy arrays, or PyTorch tensors.
+    """
+    rng = np.random.default_rng(seed)
+    is_list = isinstance(token_sequence, list)
+    tokens = np.array(token_sequence, dtype=np.int64, copy=True)
+    labels = np.full_like(tokens, fill_value=-100)
+
+    special_tokens = {0, cls_token_id, sep_token_id, mask_token_id}
+    candidate_mask = ~np.isin(tokens, list(special_tokens))
+
+    if mask_prob <= 0.0 or not np.any(candidate_mask):
+        if is_list:
+            return list(tokens), list(labels)
+        return tokens, labels
+
+    rand_vals = rng.random(tokens.shape)
+    selected_mask = candidate_mask & (rand_vals < mask_prob)
+
+    # If no tokens selected but candidates exist and prob > 0
+    if not np.any(selected_mask) and np.any(candidate_mask):
+        cand_indices = np.argwhere(candidate_mask)
+        chosen = cand_indices[rng.integers(0, len(cand_indices))]
+        selected_mask[tuple(chosen)] = True
+
+    labels[selected_mask] = tokens[selected_mask]
+
+    decision = rng.random(tokens.shape)
+    # 80%: [MASK]
+    mask_80 = selected_mask & (decision < 0.8)
+    tokens[mask_80] = mask_token_id
+
+    # 10%: random replacement
+    rand_10 = selected_mask & (decision >= 0.8) & (decision < 0.9)
+    random_ids = rng.integers(104, vocab_size, size=tokens.shape)
+    tokens[rand_10] = random_ids[rand_10]
+
+    # 10%: keep unchanged
+
+    if is_list:
+        return list(tokens), list(labels)
+    return tokens, labels

@@ -3,6 +3,8 @@ Self-attention visualization for BERT transformer layers.
 """
 from pathlib import Path
 from typing import List, Optional
+import matplotlib
+matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import seaborn as sns
 import torch

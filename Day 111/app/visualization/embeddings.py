@@ -3,6 +3,8 @@ Dimensionality reduction and visualization for BERT [CLS] contextual representat
 """
 from pathlib import Path
 from typing import Optional
+import matplotlib
+matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import numpy as np
 from sklearn.decomposition import PCA

@@ -74,6 +74,40 @@ def create_nsp_pair(
     }
 
 
+def create_nsp_pairs(corpus: List[str], seed: Optional[int] = None) -> List[Dict[str, Any]]:
+    """
+    Creates a balanced dataset of IsNext (label=1) and NotNext (label=0) pairs from a corpus of sentences.
+    """
+    rng = np.random.default_rng(seed)
+    pairs = []
+    n = len(corpus)
+    if n < 2:
+        return pairs
+
+    for i in range(n - 1):
+        sentence_a = corpus[i]
+        # 50% probability of consecutive sentence
+        if rng.random() < 0.5:
+            sentence_b = corpus[i + 1]
+            label = 1
+        else:
+            # Pick a random non-consecutive sentence
+            choices = [j for j in range(n) if j != i + 1]
+            if not choices:
+                sentence_b = corpus[i + 1]
+                label = 1
+            else:
+                rand_idx = choices[rng.integers(0, len(choices))]
+                sentence_b = corpus[rand_idx]
+                label = 0
+        pairs.append({
+            "sentence_a": sentence_a,
+            "sentence_b": sentence_b,
+            "label": label
+        })
+    return pairs
+
+
 if __name__ == "__main__":
     sent_a = [2023, 2003, 1037, 3231]  # "this is a test"
     sent_b = [2009, 2003, 2307]        # "it is great"

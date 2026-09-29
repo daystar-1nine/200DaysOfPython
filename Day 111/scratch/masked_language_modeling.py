@@ -12,7 +12,8 @@ def mask_tokens(
     vocab_size: int = 30522,
     mask_probability: float = 0.15,
     special_token_ids: Optional[List[int]] = None,
-    seed: Optional[int] = None
+    seed: Optional[int] = None,
+    mask_prob: Optional[float] = None
 ) -> Tuple[np.ndarray, np.ndarray]:
     """
     Applies the BERT Masked Language Modeling strategy to input token IDs.
@@ -37,6 +38,9 @@ def mask_tokens(
         masked_tokens: array matching token_ids shape with masking applied
         labels: array matching token_ids shape with targets for selected positions
     """
+    if mask_prob is not None:
+        mask_probability = mask_prob
+
     rng = np.random.default_rng(seed)
     tokens = np.array(token_ids, copy=True)
     labels = np.full_like(tokens, fill_value=-100)
@@ -76,6 +80,9 @@ def mask_tokens(
     # 10%: keep unchanged (decision_probs >= 0.9) -> tokens remain as is
 
     return tokens, labels
+
+
+mask_tokens_mlm = mask_tokens
 
 
 if __name__ == "__main__":

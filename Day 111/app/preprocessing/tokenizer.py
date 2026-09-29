@@ -49,7 +49,9 @@ def inspect_tokenization(text: str, tokenizer: BertTokenizer) -> Dict[str, Any]:
         "text": text,
         "tokens": tokens,
         "input_ids": encoding["input_ids"],
+        "ids": encoding["input_ids"],
         "attention_mask": encoding.get("attention_mask", [1] * len(tokens)),
         "token_type_ids": encoding.get("token_type_ids", [0] * len(tokens)),
-        "num_tokens": len(tokens)
+        "num_tokens": len(tokens),
+        "subword_count": len([t for t in tokens if t.startswith("##")])
     }
