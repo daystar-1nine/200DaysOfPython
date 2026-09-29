@@ -1,0 +1,33 @@
+============================================================
+MINIGPT SAMPLE GENERATIONS
+============================================================
+
+--- Prompt: 'First Citizen:\n' ---
+First Citizen:
+Wene anout, ou hine arar comante ar than theid fat thelim s heich
+That t tone ave sin hengooour he frinds omingeste good
+
+--- Prompt: 'MENENIUS:\n' ---
+MENENIUS:
+Whou she athod care and the potrer ose, mant sever thes fis thand sthe ther sthis sthene wats feller.
+
+
+MENENENIUS:
+What
+
+--- Prompt: 'MARCIUS:\n' ---
+MARCIUS:
+Whar an wele athell the the sit nere ast ind priecte ont an bate,
+All mact ande and ainct mus semprin
+Whin thath the lin
+
+--- Prompt: 'The people are ' ---
+The people are hos meley speats you, su chans and maly ise anst ait they
+
+Of there sthe fome rene bores, whe theat the fis theyou  atha
+
+--- Prompt: 'Why stay we ' ---
+Why stay we beles, sallely ave hand be there athary
+'l mand paleted who do ran deat we your hear helim osthes,
+Whe brout ath se ase 
+
