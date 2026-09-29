@@ -11,23 +11,20 @@ class CharacterTokenizer:
     Maps individual characters to unique integer IDs and vice versa.
     Maintains a deterministic bidirectional mapping and handles vocabulary serialization.
     """
-    def __init__(self, chars: List[str] = None, unk_token: str = "<unk>"):
+    def __init__(self, chars: List[str] = None, unk_token: str = "<unk>", vocab: List[str] = None):
         self.unk_token = unk_token
-        if chars is not None:
-            sorted_chars = sorted(list(set(chars)))
-            if self.unk_token not in sorted_chars:
-                self.vocab = [self.unk_token] + sorted_chars
-            else:
-                self.vocab = sorted_chars
-
-            self.char2idx: Dict[str, int] = {ch: i for i, ch in enumerate(self.vocab)}
-            self.idx2char: Dict[int, str] = {i: ch for i, ch in enumerate(self.vocab)}
-            self.unk_idx = self.char2idx[self.unk_token]
+        if vocab is not None:
+            self.vocab = list(vocab)
+        elif chars is not None:
+            clean_chars = [c for c in chars if c != self.unk_token]
+            sorted_chars = sorted(list(set(clean_chars)))
+            self.vocab = [self.unk_token] + sorted_chars
         else:
             self.vocab = []
-            self.char2idx = {}
-            self.idx2char = {}
-            self.unk_idx = 0
+
+        self.char2idx: Dict[str, int] = {ch: i for i, ch in enumerate(self.vocab)}
+        self.idx2char: Dict[int, str] = {i: ch for i, ch in enumerate(self.vocab)}
+        self.unk_idx = self.char2idx.get(self.unk_token, 0)
 
     @classmethod
     def from_text(cls, text: str, unk_token: str = "<unk>") -> "CharacterTokenizer":
@@ -71,5 +68,5 @@ class CharacterTokenizer:
         filepath = Path(filepath)
         with open(filepath, "r", encoding="utf-8") as f:
             data = json.load(f)
-        tok = cls(chars=data["vocab"], unk_token=data["unk_token"])
+        tok = cls(vocab=data["vocab"], unk_token=data.get("unk_token", "<unk>"))
         return tok
