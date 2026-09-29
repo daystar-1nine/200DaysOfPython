@@ -32,3 +32,6 @@ def clean_sms_data(df: pd.DataFrame) -> pd.DataFrame:
     df = df[df["text"].str.len() > 0]
     df = df.drop_duplicates(subset=["text"]).reset_index(drop=True)
     return df
+
+
+clean_dataset = clean_sms_data

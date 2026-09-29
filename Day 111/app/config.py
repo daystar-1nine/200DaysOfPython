@@ -30,9 +30,11 @@ class Config:
     RANDOM_SEED: int = 42
 
     # Training Parameters
-    BATCH_SIZE: int = 16
+    BATCH_SIZE: int = 32
     LEARNING_RATE: float = 2e-5
-    EPOCHS: int = 4
+    FROZEN_LR: float = 1e-3
+    FINETUNED_LR: float = 2e-5
+    EPOCHS: int = 3
     PATIENCE: int = 3
     DROPOUT: float = 0.1
 
@@ -49,3 +51,14 @@ class Config:
 
 
 config = Config()
+
+# Module-level aliases
+RAW_DATA_PATH = config.RAW_DATA_FILE
+OUTPUT_DIR = config.OUTPUT_DIR
+CHARTS_DIR = config.CHARTS_DIR
+MODEL_NAME = config.BERT_MODEL_NAME
+MAX_LENGTH = config.MAX_LENGTH
+BATCH_SIZE = config.BATCH_SIZE
+EPOCHS = config.EPOCHS
+FROZEN_LR = config.FROZEN_LR
+FINETUNED_LR = config.FINETUNED_LR

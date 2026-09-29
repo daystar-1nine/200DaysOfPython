@@ -1,0 +1,10 @@
+sample_index,error_type,true_label,predicted_label,predicted_probability,error_confidence,text_length,word_count,hypothesized_cause,text
+16,False Positive,0,1,0.5801,0.5801,96,16,Conversational structure mimicking solicitation,I just sent over the revised budget spreadsheet. Please check if the numbers look right. Thanks!
+22,False Positive,0,1,0.5782,0.5782,88,15,Conversational structure mimicking solicitation,I just sent over the revised budget spreadsheet. Please check if the numbers look right.
+24,False Positive,0,1,0.5614,0.5614,72,12,Conversational structure mimicking solicitation,Sounds good! Let's book the tickets for the 7pm movie screening. Thanks!
+15,False Positive,0,1,0.5526,0.5526,66,14,Conversational structure mimicking solicitation,"I'll be there in about 15 minutes, traffic is a bit slow today. :)"
+23,False Positive,0,1,0.5363,0.5363,61,12,Conversational structure mimicking solicitation,"Just reached the airport, flight is on time. See you soon! :)"
+17,False Positive,0,1,0.5275,0.5275,88,17,Promotional or urgent trigger words in legitimate message,Let me know when you're free for a quick phone call to discuss the travel plans. Thanks!
+4,False Positive,0,1,0.5212,0.5212,85,17,Conversational structure mimicking solicitation,"The weather is supposed to be really nice this Sunday, want to go for a hike? Thanks!"
+9,False Positive,0,1,0.5195,0.5195,85,17,Conversational structure mimicking solicitation,Can you send me the link to that recipe you made last week? It was delicious. Thanks!
+2,False Positive,0,1,0.5005,0.5005,93,15,Conversational structure mimicking solicitation,"Great job on the presentation today, the client was really impressed with our slides! Thanks!"

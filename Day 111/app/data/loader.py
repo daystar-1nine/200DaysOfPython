@@ -18,3 +18,6 @@ def load_raw_sms_data(file_path: Path) -> pd.DataFrame:
             continue
 
     raise ValueError(f"Failed to read {path} with supported encodings.")
+
+
+load_data = load_raw_sms_data
