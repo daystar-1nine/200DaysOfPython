@@ -17,9 +17,9 @@
 
 ### 📈 Current Challenge Status
 
-**Day 110 / 200** | **55% Complete** | **90 Days Remaining**
+**Day 111 / 200** | **55.5% Complete** | **89 Days Remaining**
 
-*Currently exploring Transformers From Scratch & Self-Attention.*
+*Currently exploring BERT & Bidirectional Transformers.*
 
 </div>
 
@@ -323,7 +323,8 @@ An enterprise-grade Computer Vision experimentation pipeline tracking 7 distinct
 | 108 | GRU & Recurrent Model Benchmarking | ✅ |
 | 109 | Attention Mechanism & Text Classification | ✅ |
 | 110 | Transformers From Scratch | ✅ |
-| 111–200 | *Planned...* | ⬜ |
+| 111 | BERT & Bidirectional Transformers | ✅ |
+| 112–200 | *Planned...* | ⬜ |
 
 ## 📈 100-Day+ Skill Matrix
 
