@@ -12,8 +12,8 @@ def normalize_text(text: str) -> str:
     """
     if not text:
         return ""
-    # Strip null bytes and non-printable control characters (keep \n, \t)
-    text = re.sub(r"[\x00-\x08\x0b\x0c\x0e-\x1f\x7f]", "", text)
+    # Strip null bytes and non-printable control characters by replacing with space
+    text = re.sub(r"[\x00-\x08\x0b\x0c\x0e-\x1f\x7f]", " ", text)
     # Standardize whitespace on each line
     lines = [re.sub(r"[ \t]+", " ", line).strip() for line in text.split("\n")]
     # Collapse multiple consecutive empty lines into a single blank line
@@ -42,7 +42,7 @@ def quality_score(text: str) -> float:
         return 0.05
     elif length < 25:
         length_score = 0.4
-    elif length < 100:
+    elif length < 80:
         length_score = 0.8
     else:
         length_score = 1.0
@@ -59,20 +59,24 @@ def quality_score(text: str) -> float:
 
     # 3. Repeated character penalty (e.g. 5+ identical consecutive characters)
     has_repetitive_run = bool(re.search(r"(.)\1{4,}", s))
-    repetition_score = 0.3 if has_repetitive_run else 1.0
+    repetition_score = 0.2 if has_repetitive_run else 1.0
 
     # 4. URL / HTML tag penalty
     url_count = len(re.findall(r"https?://\S+|www\.\S+", s))
     html_count = len(re.findall(r"<[^>]+>", s))
-    markup_penalty = 1.0 - min(0.6, (url_count * 0.2 + html_count * 0.1))
+    markup_penalty = max(0.0, 1.0 - (url_count * 0.4 + html_count * 0.25))
 
     # Composite weighted score
     total_score = (
-        0.35 * length_score +
-        0.35 * alpha_score +
-        0.15 * repetition_score +
-        0.15 * markup_penalty
+        0.30 * length_score +
+        0.30 * alpha_score +
+        0.20 * repetition_score +
+        0.20 * markup_penalty
     )
+
+    # Compound penalty for documents containing both repetitive runs and spam markup
+    if has_repetitive_run and (url_count > 0 or html_count > 0):
+        total_score *= 0.55
 
     return round(float(max(0.0, min(1.0, total_score))), 4)
 
