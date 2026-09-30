@@ -1,0 +1,3 @@
+condition,exact_leaks,ngram_leakage_ratio,apparent_val_loss,apparent_val_perplexity
+Clean (0% Leakage),0,0.0654,2.7144,15.0948
+Contaminated (50% Leakage),4,0.5675,2.7007,14.8905

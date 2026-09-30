@@ -1,0 +1,4 @@
+model_name,parameters,embed_dim,num_layers,num_heads,train_loss,val_loss,val_perplexity,tokens_per_sec,total_time_seconds,training_flops,memory_mb
+Tiny,809088,128,4,4,2.528,2.5551,12.8729,46370.31,4.42,994207334400,452.13
+Small,4770560,256,6,8,2.2634,2.4074,11.1055,9784.41,20.93,5862064128000,616.36
+Medium,14243712,384,8,8,2.2792,2.4167,11.2087,3301.44,49.63,14002138644480,708.59

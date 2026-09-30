@@ -4,6 +4,9 @@ __pycache__/
 *$py.class
 scratch/
 Day-113/
+*.pt
+*.pth
+*.bin
 
 # C extensions
 *.so
