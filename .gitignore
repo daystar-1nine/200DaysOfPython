@@ -3,6 +3,7 @@ __pycache__/
 *.py[codz]
 *$py.class
 scratch/
+Day-113/
 
 # C extensions
 *.so
