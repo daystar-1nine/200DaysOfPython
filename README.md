@@ -17,9 +17,9 @@
 
 ### 📈 Current Challenge Status
 
-**Day 112 / 200** | **56% Complete** | **88 Days Remaining**
+**Day 113 / 200** | **56.5% Complete** | **87 Days Remaining**
 
-*Currently exploring GPT & Autoregressive Transformers.*
+*Currently exploring LLMs, Scaling Laws & GPT-Style Pretraining.*
 
 </div>
 
@@ -325,7 +325,8 @@ An enterprise-grade Computer Vision experimentation pipeline tracking 7 distinct
 | 110 | Transformers From Scratch | ✅ |
 | 111 | BERT & Bidirectional Transformers | ✅ |
 | 112 | GPT & Autoregressive Transformers | ✅ |
-| 113–200 | *Planned...* | ⬜ |
+| 113 | LLMs, Scaling Laws & GPT-Style Pretraining | ✅ |
+| 114–200 | *Planned...* | ⬜ |
 
 ## 📈 100-Day+ Skill Matrix
 
