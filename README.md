@@ -17,9 +17,9 @@
 
 ### 📈 Current Challenge Status
 
-**Day 113 / 200** | **56.5% Complete** | **87 Days Remaining**
+**Day 114 / 200** | **57.0% Complete** | **86 Days Remaining**
 
-*Currently exploring LLMs, Scaling Laws & GPT-Style Pretraining.*
+*Currently mastering Instruction Fine-Tuning & Chat Models (MiniGPT-Chat).*
 
 </div>
 
@@ -326,7 +326,8 @@ An enterprise-grade Computer Vision experimentation pipeline tracking 7 distinct
 | 111 | BERT & Bidirectional Transformers | ✅ |
 | 112 | GPT & Autoregressive Transformers | ✅ |
 | 113 | LLMs, Scaling Laws & GPT-Style Pretraining | ✅ |
-| 114–200 | *Planned...* | ⬜ |
+| 114 | Instruction Fine-Tuning & Chat Models (MiniGPT-Chat) | ✅ |
+| 115–200 | *Planned...* | ⬜ |
 
 ## 📈 100-Day+ Skill Matrix
 
