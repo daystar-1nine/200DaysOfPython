@@ -1,0 +1,478 @@
+{
+  "overall_score_pct": 16.67,
+  "total_points": 18,
+  "max_points": 108,
+  "evaluated_prompts": 54,
+  "category_breakdown": {
+    "reasoning": {
+      "score_pct": 12.5,
+      "points": 2,
+      "max_points": 16,
+      "count": 8
+    },
+    "general_knowledge": {
+      "score_pct": 10.0,
+      "points": 1,
+      "max_points": 10,
+      "count": 5
+    },
+    "data_science": {
+      "score_pct": 18.18,
+      "points": 4,
+      "max_points": 22,
+      "count": 11
+    },
+    "mathematics": {
+      "score_pct": 12.5,
+      "points": 3,
+      "max_points": 24,
+      "count": 12
+    },
+    "python": {
+      "score_pct": 30.77,
+      "points": 8,
+      "max_points": 26,
+      "count": 13
+    },
+    "coding": {
+      "score_pct": 0.0,
+      "points": 0,
+      "max_points": 10,
+      "count": 5
+    }
+  },
+  "results": [
+    {
+      "instruction": "Solve this logical problem: A bat and ball cost $1.10 in total. The bat costs $1.00 more than the ball. How much does the ball cost?",
+      "ground_truth": "The ball costs $0.05 and the bat costs $1.05.",
+      "generated": "A is is is is is is an is is is is is is in is a",
+      "score": 0,
+      "rationale": "Failed: Degenerate word repetition.",
+      "category": "reasoning"
+    },
+    {
+      "instruction": "Analyze and reason: What is the negation of 'All cats are black'?",
+      "ground_truth": "The negation is 'Some cats are not black' (at least one cat is not black).",
+      "generated": "A in ate is is is is is in an is is is is is is",
+      "score": 0,
+      "rationale": "Failed: Degenerate word repetition.",
+      "category": "reasoning"
+    },
+    {
+      "instruction": "Tell me about: what is gravity?",
+      "ground_truth": "Gravity is a fundamental natural force by which all things with mass or energy are attracted toward one another.",
+      "generated": "A is in is ie atin is is is in is is an is is is",
+      "score": 1,
+      "rationale": "Partially followed: partial keyword match (none).",
+      "category": "general_knowledge"
+    },
+    {
+      "instruction": "Tell me about: who proposed the theory of general relativity?",
+      "ground_truth": "Albert Einstein proposed the theory of general relativity in 1915.",
+      "generated": "A is in is is is ate is is in is is is an is is",
+      "score": 0,
+      "rationale": "Failed: Degenerate word repetition.",
+      "category": "general_knowledge"
+    },
+    {
+      "instruction": "Step by step answer: Is a rectangle always a square?",
+      "ground_truth": "Step-by-step: No, a rectangle is not necessarily a square unless all four of its sides are equal in length.",
+      "generated": "A is ie in is an is is is is is is an is is is i",
+      "score": 1,
+      "rationale": "Partially followed: partial keyword match (none).",
+      "category": "reasoning"
+    },
+    {
+      "instruction": "What is a confusion matrix?",
+      "ground_truth": "A confusion matrix is a table that summarizes the performance of a classification model by comparing actual vs predicted classes.",
+      "generated": "A is ie is an is in in is in is an is ie is is i",
+      "score": 1,
+      "rationale": "Partially followed: partial keyword match (none).",
+      "category": "data_science"
+    },
+    {
+      "instruction": "Define the mathematical concept of: What is the normal (Gaussian) distribution",
+      "ground_truth": "Mathematical definition: A continuous symmetric bell-shaped distribution characterized by its mean (center) and standard deviation (spread).",
+      "generated": "A is in atis is is is is is in an is is is is is",
+      "score": 0,
+      "rationale": "Failed: Degenerate word repetition.",
+      "category": "mathematics"
+    },
+    {
+      "instruction": "What does the __init__ method do?",
+      "ground_truth": "__init__ is a special dunder method in Python classes that acts as the object constructor to initialize attributes.",
+      "generated": "A is an is in in is ie is an is is is is is is a",
+      "score": 0,
+      "rationale": "Failed: Degenerate word repetition.",
+      "category": "python"
+    },
+    {
+      "instruction": "Give a clear summary of: What is an epoch?",
+      "ground_truth": "An epoch represents one complete pass through the entire training dataset.",
+      "generated": "A in is ate is is is is in is an is is is is is",
+      "score": 0,
+      "rationale": "Failed: Degenerate word repetition.",
+      "category": "data_science"
+    },
+    {
+      "instruction": "Implement in Python: Write a Python function to find the maximum element in a list",
+      "ground_truth": "def find_max(nums: list) -> int:\n    return max(nums)",
+      "generated": "A is an is is is is is is an is is is is is is a",
+      "score": 0,
+      "rationale": "Failed: Degenerate word repetition.",
+      "category": "coding"
+    },
+    {
+      "instruction": "Define and describe: What is a lambda function in Python",
+      "ground_truth": "A lambda function is a small anonymous function defined using the lambda keyword: lambda args: expression.",
+      "generated": "A in is ie an is is is is is is an is is is is i",
+      "score": 1,
+      "rationale": "Partially followed: partial keyword match (none).",
+      "category": "python"
+    },
+    {
+      "instruction": "What is the significance of: What is cosine similarity",
+      "ground_truth": "Significance: Cosine similarity measures the cosine of the angle between two non-zero vectors: (A . B) / (||A|| * ||B||).",
+      "generated": "A is an is ie is is is is an is is is is is is a",
+      "score": 0,
+      "rationale": "Failed: Degenerate word repetition.",
+      "category": "mathematics"
+    },
+    {
+      "instruction": "What is standard deviation?",
+      "ground_truth": "Standard deviation measures the amount of variation or dispersion of a set of values from their mean.",
+      "generated": "A is ie is an is in in is in is an is ie is is i",
+      "score": 1,
+      "rationale": "Partially followed: partial keyword match (none).",
+      "category": "mathematics"
+    },
+    {
+      "instruction": "Analyze and reason: If all dogs are animals, and Buddy is a dog, is Buddy an animal?",
+      "ground_truth": "Yes, by deductive reasoning (modus ponens), because Buddy is a dog and all dogs are animals, Buddy is an animal.",
+      "generated": "A is an is is is is is is an is is is is is is a",
+      "score": 0,
+      "rationale": "Failed: Degenerate word repetition.",
+      "category": "reasoning"
+    },
+    {
+      "instruction": "Explain in simple terms: Explain Python list comprehension.",
+      "ground_truth": "In simple terms, list comprehension provides a concise syntax to create lists: [expression for item in iterable if condition].",
+      "generated": "A is ie in is an is is is is is is an is is is i",
+      "score": 1,
+      "rationale": "Partially followed: partial keyword match (none).",
+      "category": "python"
+    },
+    {
+      "instruction": "Analyze and reason: What comes next in the sequence: 1, 1, 2, 3, 5, 8, ...?",
+      "ground_truth": "The next number is 13, following the Fibonacci sequence where each term is the sum of the two preceding ones.",
+      "generated": "A is in is is is is is an is is is is is is an i",
+      "score": 0,
+      "rationale": "Failed: Degenerate word repetition.",
+      "category": "reasoning"
+    },
+    {
+      "instruction": "What is an F1 score?",
+      "ground_truth": "F1 score is the harmonic mean of precision and recall: 2 * (precision * recall) / (precision + recall).",
+      "generated": "A is in is is is an is in in in is is in is ie a",
+      "score": 0,
+      "rationale": "Failed: Degenerate word repetition.",
+      "category": "data_science"
+    },
+    {
+      "instruction": "Briefly state: what is the speed of light?",
+      "ground_truth": "The speed of light in vacuum is approximately 299,792,458 meters per second (about 300,000 km/s).",
+      "generated": "A in is ate is is is is in is an is is is is is",
+      "score": 0,
+      "rationale": "Failed: Degenerate word repetition.",
+      "category": "general_knowledge"
+    },
+    {
+      "instruction": "Explain the concept of: What is learning rate in deep learning",
+      "ground_truth": "Learning rate is a hyperparameter that controls how much to adjust model weights with respect to the loss gradient.",
+      "generated": "A ie an is is is is is is an is is is is is is a",
+      "score": 0,
+      "rationale": "Failed: Degenerate word repetition.",
+      "category": "data_science"
+    },
+    {
+      "instruction": "Analyze and reason: If 2x = 10, what is the value of x?",
+      "ground_truth": "Dividing both sides by 2 gives x = 5.",
+      "generated": "A is in is is is ate is is in is is is an is is",
+      "score": 0,
+      "rationale": "Failed: Degenerate word repetition.",
+      "category": "reasoning"
+    },
+    {
+      "instruction": "Give a clear summary of: What is data leakage?",
+      "ground_truth": "Data leakage happens when information from outside the training dataset is inadvertently used to create the model.",
+      "generated": "A is in is ie is is is atis in is is is is is an",
+      "score": 1,
+      "rationale": "Partially followed: partial keyword match (none).",
+      "category": "data_science"
+    },
+    {
+      "instruction": "Provide an overview of: What is self in Python classes",
+      "ground_truth": "Overview: self represents the specific instance of the class and allows access to its attributes and methods.",
+      "generated": "A is an is ie is is is is an is is is is is is a",
+      "score": 0,
+      "rationale": "Failed: Degenerate word repetition.",
+      "category": "python"
+    },
+    {
+      "instruction": "What should an AI engineer know about: What is an epoch",
+      "ground_truth": "Key takeaway: An epoch represents one complete pass through the entire training dataset.",
+      "generated": "A ie is is in is is is atis is is in is is is an",
+      "score": 1,
+      "rationale": "Partially followed: partial keyword match (none).",
+      "category": "data_science"
+    },
+    {
+      "instruction": "Explain in simple terms: What is self in Python classes?",
+      "ground_truth": "In simple terms, self represents the specific instance of the class and allows access to its attributes and methods.",
+      "generated": "A in is ie in an is is is is is is an is is is i",
+      "score": 1,
+      "rationale": "Partially followed: partial keyword match (none).",
+      "category": "python"
+    },
+    {
+      "instruction": "Explain in simple terms: What is the difference between is and == in Python?",
+      "ground_truth": "In simple terms, == checks for equality of value, while is checks for object identity in memory.",
+      "generated": "A is an is is is is is is an is is is is is is a",
+      "score": 0,
+      "rationale": "Failed: Degenerate word repetition.",
+      "category": "python"
+    },
+    {
+      "instruction": "Briefly state: what is the main gas found in the earth's atmosphere?",
+      "ground_truth": "Nitrogen is the most abundant gas in Earth's atmosphere, accounting for roughly 78% of dry air.",
+      "generated": "A is an is is is is is is an is is is is is is a",
+      "score": 0,
+      "rationale": "Failed: Degenerate word repetition.",
+      "category": "general_knowledge"
+    },
+    {
+      "instruction": "What is the determinant of a matrix?",
+      "ground_truth": "The determinant is a scalar value computed from a square matrix that indicates whether the matrix is invertible.",
+      "generated": "A is an in in is in is in a ie in is is is is is",
+      "score": 0,
+      "rationale": "Failed: Degenerate word repetition.",
+      "category": "mathematics"
+    },
+    {
+      "instruction": "What should an AI engineer know about: What is ROC-AUC",
+      "ground_truth": "Key takeaway: ROC-AUC evaluates classification performance across all thresholds, plotting True Positive Rate vs False Positive Rate.",
+      "generated": "A is an is ie is is is is in atis is is is is is",
+      "score": 1,
+      "rationale": "Partially followed: partial keyword match (none).",
+      "category": "data_science"
+    },
+    {
+      "instruction": "How do I write this in Python: Write a Python function to compute the average of numbers",
+      "ground_truth": "def average(nums: list) -> float:\n    return sum(nums) / len(nums) if nums else 0.0",
+      "generated": "A is in is is is is is is in is is is is is is i",
+      "score": 0,
+      "rationale": "Failed: Degenerate word repetition.",
+      "category": "coding"
+    },
+    {
+      "instruction": "Provide facts on: What is the function of the human heart",
+      "ground_truth": "Fact: The heart pumps oxygenated and deoxygenated blood through the circulatory system to nourish body tissues.",
+      "generated": "A in a ie is is is is is in an is is is is is is",
+      "score": 0,
+      "rationale": "Failed: Degenerate word repetition.",
+      "category": "general_knowledge"
+    },
+    {
+      "instruction": "Provide Python code for: write a python function to sort a list in ascending order.",
+      "ground_truth": "def sort_list(nums: list) -> list:\n    return sorted(nums)",
+      "generated": "A is an is is is is is is in an is is is is is i",
+      "score": 0,
+      "rationale": "Failed: Degenerate word repetition.",
+      "category": "coding"
+    },
+    {
+      "instruction": "Give a clear summary of: What is regularization in machine learning?",
+      "ground_truth": "Regularization adds a penalty term (such as L1 or L2 norm of weights) to the loss function to prevent overfitting.",
+      "generated": "A is an is is is is is is an is is is is is is a",
+      "score": 0,
+      "rationale": "Failed: Degenerate word repetition.",
+      "category": "data_science"
+    },
+    {
+      "instruction": "Can you briefly explain: what is a tuple in python?",
+      "ground_truth": "A tuple is an ordered, immutable collection in Python defined using parentheses.",
+      "generated": "A is in an is ie is is is is an is is is is is i",
+      "score": 1,
+      "rationale": "Partially followed: partial keyword match (none).",
+      "category": "python"
+    },
+    {
+      "instruction": "What is the significance of: What is the normal (Gaussian) distribution",
+      "ground_truth": "Significance: A continuous symmetric bell-shaped distribution characterized by its mean (center) and standard deviation (spread).",
+      "generated": "A is in atis is is is is is in an is is is is is",
+      "score": 0,
+      "rationale": "Failed: Degenerate word repetition.",
+      "category": "mathematics"
+    },
+    {
+      "instruction": "How do I write this in Python: Write a Python function to reverse a string",
+      "ground_truth": "def reverse_string(s: str) -> str:\n    return s[::-1]",
+      "generated": "A is in an is is is is is is in an is is is is i",
+      "score": 0,
+      "rationale": "Failed: Degenerate word repetition.",
+      "category": "coding"
+    },
+    {
+      "instruction": "What is an eigenvalue and eigenvector?",
+      "ground_truth": "An eigenvector of a transformation is a non-zero vector whose direction is unchanged; the eigenvalue is the scaling factor.",
+      "generated": "A is an in in is is in is ie an is is is is is i",
+      "score": 1,
+      "rationale": "Partially followed: partial keyword match (none).",
+      "category": "mathematics"
+    },
+    {
+      "instruction": "Step by step answer: If x + 5 = 12, what is the value of x?",
+      "ground_truth": "Step-by-step: Subtracting 5 from both sides gives x = 7.",
+      "generated": "A is ie in is atis is is is is in is an is is is",
+      "score": 1,
+      "rationale": "Partially followed: partial keyword match (none).",
+      "category": "reasoning"
+    },
+    {
+      "instruction": "Give a simple explanation of: What is a matrix in linear algebra?",
+      "ground_truth": "A matrix is a rectangular array of numbers arranged in rows and columns used to represent linear transformations.",
+      "generated": "A in atis is is is is is in an is is is is is is",
+      "score": 0,
+      "rationale": "Failed: Degenerate word repetition.",
+      "category": "mathematics"
+    },
+    {
+      "instruction": "Explain in simple terms: What is a generator in Python?",
+      "ground_truth": "In simple terms, a generator is a function that yields values lazily on-the-fly using the yield keyword instead of returning all at once.",
+      "generated": "A is in is is ate is is is in is is an is is is",
+      "score": 0,
+      "rationale": "Failed: Degenerate word repetition.",
+      "category": "python"
+    },
+    {
+      "instruction": "Implement in Python: Write a Python function to compute the average of numbers",
+      "ground_truth": "def average(nums: list) -> float:\n    return sum(nums) / len(nums) if nums else 0.0",
+      "generated": "A is in ate is is is is is in an is is is is is",
+      "score": 0,
+      "rationale": "Failed: Degenerate word repetition.",
+      "category": "coding"
+    },
+    {
+      "instruction": "Give a simple explanation of: What is standard deviation?",
+      "ground_truth": "Standard deviation measures the amount of variation or dispersion of a set of values from their mean.",
+      "generated": "A in a ie is is is is is in an is is is is is is",
+      "score": 0,
+      "rationale": "Failed: Degenerate word repetition.",
+      "category": "mathematics"
+    },
+    {
+      "instruction": "Give a simple explanation of: What is the determinant of a matrix?",
+      "ground_truth": "The determinant is a scalar value computed from a square matrix that indicates whether the matrix is invertible.",
+      "generated": "A is in atis is is is is is in an is is is is is",
+      "score": 0,
+      "rationale": "Failed: Degenerate word repetition.",
+      "category": "mathematics"
+    },
+    {
+      "instruction": "What are args and kwargs?",
+      "ground_truth": "*args allows passing a variable number of positional arguments; **kwargs allows passing variable keyword arguments.",
+      "generated": "A is is in in is ie an is in is in is is an is i",
+      "score": 1,
+      "rationale": "Partially followed: partial keyword match (none).",
+      "category": "python"
+    },
+    {
+      "instruction": "Explain the difference between mutable and immutable types.",
+      "ground_truth": "Mutable types like lists and dicts can be modified in-place; immutable types like strings and tuples cannot be altered after creation.",
+      "generated": "A is ie in atis is is is is is in an is is is is",
+      "score": 1,
+      "rationale": "Partially followed: partial keyword match (none).",
+      "category": "python"
+    },
+    {
+      "instruction": "Explain in simple terms: Explain the difference between mutable and immutable types.",
+      "ground_truth": "In simple terms, mutable types like lists and dicts can be modified in-place; immutable types like strings and tuples cannot be altered after creation.",
+      "generated": "A is an is is is is is is an is is is is is is a",
+      "score": 0,
+      "rationale": "Failed: Degenerate word repetition.",
+      "category": "python"
+    },
+    {
+      "instruction": "Logical deduction: If 2x = 10, what is the value of x?",
+      "ground_truth": "Deduction: Dividing both sides by 2 gives x = 5.",
+      "generated": "A is an is ie is is is is an is is is is is is a",
+      "score": 0,
+      "rationale": "Failed: Degenerate word repetition.",
+      "category": "reasoning"
+    },
+    {
+      "instruction": "Provide an overview of: What is zip() used for in Python",
+      "ground_truth": "Overview: zip aggregates elements from two or more iterables into tuples based on index.",
+      "generated": "A in is ie in atis is is is is is in an is is is",
+      "score": 1,
+      "rationale": "Partially followed: partial keyword match (none).",
+      "category": "python"
+    },
+    {
+      "instruction": "What should an AI engineer know about: What is overfitting in machine learning",
+      "ground_truth": "Key takeaway: Overfitting occurs when a model learns training data noise and details too well, failing to generalize to new, unseen data.",
+      "generated": "A is an is is is is is is an is is is is is is a",
+      "score": 0,
+      "rationale": "Failed: Degenerate word repetition.",
+      "category": "data_science"
+    },
+    {
+      "instruction": "How would you define: what is gradient descent?",
+      "ground_truth": "Definition: Gradient descent is an iterative optimization algorithm that minimizes a loss function by updating parameters in the negative gradient direction.",
+      "generated": "A in an is in is ie in is an is is is is is is a",
+      "score": 0,
+      "rationale": "Failed: Degenerate word repetition.",
+      "category": "data_science"
+    },
+    {
+      "instruction": "Give a simple explanation of: What is an eigenvalue and eigenvector?",
+      "ground_truth": "An eigenvector of a transformation is a non-zero vector whose direction is unchanged; the eigenvalue is the scaling factor.",
+      "generated": "A is an is is is is is is an is is is is is is a",
+      "score": 0,
+      "rationale": "Failed: Degenerate word repetition.",
+      "category": "mathematics"
+    },
+    {
+      "instruction": "What is the derivative of a function?",
+      "ground_truth": "The derivative represents the instantaneous rate of change of a function with respect to its variable.",
+      "generated": "A is in an is in is ie is is an is is is is is i",
+      "score": 1,
+      "rationale": "Partially followed: partial keyword match (none).",
+      "category": "mathematics"
+    },
+    {
+      "instruction": "Explain mathematically: what is the normal (gaussian) distribution?",
+      "ground_truth": "A continuous symmetric bell-shaped distribution characterized by its mean (center) and standard deviation (spread).",
+      "generated": "A is an is is is is is is an is is is is is is a",
+      "score": 0,
+      "rationale": "Failed: Degenerate word repetition.",
+      "category": "mathematics"
+    },
+    {
+      "instruction": "What is a generator in Python?",
+      "ground_truth": "A generator is a function that yields values lazily on-the-fly using the yield keyword instead of returning all at once.",
+      "generated": "A is is an is in in is in is an is ie is is is i",
+      "score": 1,
+      "rationale": "Partially followed: partial keyword match (none).",
+      "category": "python"
+    },
+    {
+      "instruction": "What should an AI engineer know about: Explain the bias-variance tradeoff.",
+      "ground_truth": "Key takeaway: Bias represents error from erroneous model assumptions, while variance is sensitivity to training fluctuations. Optimal generalization balances both.",
+      "generated": "A is in ate is is is is is in is an is is is is",
+      "score": 0,
+      "rationale": "Failed: Degenerate word repetition.",
+      "category": "data_science"
+    }
+  ]
+}

@@ -113,7 +113,8 @@ def evaluate_model(
                 top_k=gen_cfg.top_k,
                 top_p=gen_cfg.top_p,
                 stop_token_id=tokenizer.end_id,
-                do_sample=gen_cfg.do_sample
+                do_sample=gen_cfg.do_sample,
+                repetition_penalty=getattr(gen_cfg, "repetition_penalty", 1.2)
             )
 
         full_output = tokenizer.decode(gen_ids[0].tolist(), skip_special_tokens=False)
@@ -171,7 +172,7 @@ def compare_base_vs_sft(
     base_model = base_model.to(device).eval()
     sft_model = sft_model.to(device).eval()
 
-    gen_cfg = GenerationConfig(max_new_tokens=48, temperature=0.2, do_sample=False)
+    gen_cfg = GenerationConfig(max_new_tokens=48, temperature=0.2, do_sample=False, repetition_penalty=1.2)
     comparisons: List[Dict[str, Any]] = []
 
     for item in prompts:
@@ -187,8 +188,8 @@ def compare_base_vs_sft(
         prompt_ids = torch.tensor([tokenizer.encode(formatted)], dtype=torch.long, device=device)
 
         with torch.no_grad():
-            out_base = base_model.generate(prompt_ids, max_new_tokens=gen_cfg.max_new_tokens, temperature=0.2, do_sample=False)
-            out_sft = sft_model.generate(prompt_ids, max_new_tokens=gen_cfg.max_new_tokens, temperature=0.2, do_sample=False)
+            out_base = base_model.generate(prompt_ids, max_new_tokens=gen_cfg.max_new_tokens, temperature=0.2, do_sample=False, repetition_penalty=1.2)
+            out_sft = sft_model.generate(prompt_ids, max_new_tokens=gen_cfg.max_new_tokens, temperature=0.2, do_sample=False, repetition_penalty=1.2)
 
         resp_base = extract_assistant_response(tokenizer.decode(out_base[0].tolist()))
         resp_sft = extract_assistant_response(tokenizer.decode(out_sft[0].tolist()))

@@ -1,0 +1,4 @@
+temperature,type_token_ratio (diversity),total_tokens_generated,unique_tokens_generated,sample_snippet
+0.2,0.28,50,14,Q: 'Explain Python lists.' -> A: 'A e i in atis an inis is is atis te is a is is i...'
+0.7,1.0,28,28,Q: 'Explain Python lists.' -> A: 'hereocutencoe dro ictiote ois ticete ade taniane...'
+1.2,1.0,16,16,Q: 'Explain Python lists.' -> A: 'crte ir e frecesvafaarot lmf thhtees gvoCfssfra...'

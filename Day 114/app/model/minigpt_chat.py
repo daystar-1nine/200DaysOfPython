@@ -266,10 +266,11 @@ class MiniGPTChat(nn.Module):
         top_k: int = 40,
         top_p: float = 0.9,
         stop_token_id: Optional[int] = None,
-        do_sample: bool = True
+        do_sample: bool = True,
+        repetition_penalty: float = 1.0
     ) -> torch.Tensor:
         """
-        Autoregressive text generation.
+        Autoregressive text generation with temperature, top-k, top-p, and repetition penalty.
         """
         self.eval()
         generated = prompt_ids.clone()
@@ -279,7 +280,19 @@ class MiniGPTChat(nn.Module):
             cond = generated if generated.size(1) <= self.config.context_length else generated[:, -self.config.context_length:]
             logits, _ = self.forward(cond)
             # Focus only on the last step
-            next_token_logits = logits[:, -1, :]
+            next_token_logits = logits[:, -1, :].clone()
+
+            # Apply repetition penalty to recently generated response tokens (not the prompt)
+            if repetition_penalty != 1.0:
+                prompt_len = prompt_ids.size(1)
+                for b in range(generated.size(0)):
+                    if generated.size(1) > prompt_len:
+                        recent_tokens = set(generated[b, max(prompt_len, generated.size(1) - 20):].tolist())
+                        for token_id in recent_tokens:
+                            if next_token_logits[b, token_id] > 0:
+                                next_token_logits[b, token_id] /= repetition_penalty
+                            else:
+                                next_token_logits[b, token_id] *= repetition_penalty
 
             if not do_sample or temperature == 0.0:
                 # Greedy decoding

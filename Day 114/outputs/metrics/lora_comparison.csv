@@ -1,0 +1,3 @@
+tuning_mode,total_parameters,trainable_parameters,trainable_percent,final_val_loss,test_instruction_score_pct,memory_efficiency,adapter_size_kb
+Full Fine-Tuning,823040,823040,100.0,2.9644,16.67,Baseline (1.0x),0.0
+"LoRA (r=8, alpha=16)",847616,24576,2.9,4.1284,0.0,33.5x parameter reduction,96.0

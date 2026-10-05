@@ -1,0 +1,2 @@
+epoch,step,train_loss,train_ppl,train_acc,val_loss,val_ppl,val_acc,lr,tokens_per_sec,elapsed_s
+1,27,3.8015,44.7702,0.1447,3.705,40.6487,0.1711,3.0000000e-05,2999.1,19.04

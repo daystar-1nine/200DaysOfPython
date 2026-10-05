@@ -1,0 +1,7 @@
+prompt,category,base_response,base_score,sft_response,sft_score,improvement
+What is a Python list?,python,"pp->JJJM -pppppppmm#lllllppppp",0,A is an is e is is is in in ate is is is is is i,1,Yes
+What is overfitting in machine learning?,data_science,"AAAAAp  --'WWW  Omppppppppppppppp>>>>>>>",0,A in ate is is is in is ie atis is is is in is i,1,Yes
+What is a matrix in linear algebra?,mathematics,"Ob$AAAAApppmJJJM  -----VV&OJJJJJJJJJJJJJJ",0,A in athe is is in is is is ate in is is is is i,1,Yes
+What is the largest planet in our solar system?,general_knowledge,bt:SSSSSSteS||W  --ppppppppppppp>>>>>>>>>>>>>>>>,0,A in ate is in is is is is ate is in is is is is,0,Equal
+"If all dogs are animals, and Buddy is a dog, is Buddy an animal?",reasoning,pppppppppppppppppppppppppppppppppppppppppppppp,0,A is an ite is is is is is an is is is is is is,0,Equal
+Write a Python function to reverse a string.,coding,"bp  --'WWW  R*$$PPPPPPPPPPPPPPPPPPPPPPZZ",0,A in ate is is in is is is ate is is in is is is,0,Equal
