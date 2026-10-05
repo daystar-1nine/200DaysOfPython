@@ -4,6 +4,7 @@ __pycache__/
 *$py.class
 scratch/
 Day-113/
+Day-114/
 *.pt
 *.pth
 *.bin
