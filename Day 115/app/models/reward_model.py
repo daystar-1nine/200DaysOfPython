@@ -25,6 +25,7 @@ class RewardModel(nn.Module):
         super().__init__()
         self.model_config = model_config or ModelConfig()
         self.reward_config = reward_config or RewardModelConfig()
+        self.config = self.model_config
 
         self.backbone = MiniGPTBackbone(self.model_config)
 

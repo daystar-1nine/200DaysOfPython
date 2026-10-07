@@ -1,0 +1,3 @@
+regime,avg_length_words,conciseness_score,proxy_reward_score,true_human_preference
+True Alignment (DPO),9.2,98.5,0.85,92.5
+Reward Hacked (Length Gaming),29.2,20.0,1.45,18.0

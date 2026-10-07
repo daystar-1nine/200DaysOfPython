@@ -3,7 +3,7 @@ Checkpointing utilities for Day 115: Preference Optimization & RLHF.
 Handles saving and restoring Reward Models, DPO Policy models, and optimizer states.
 """
 from pathlib import Path
-from typing import Optional, Dict, Any, Union
+from typing import Optional, Dict, Any, Union, List
 import torch
 import torch.nn as nn
 
@@ -72,3 +72,54 @@ def load_checkpoint(
         "metrics": data.get("metrics", {}),
         "config": data.get("config", {})
     }
+
+
+class CheckpointManager:
+    """
+    Manages periodic checkpoint rotation, pruning old checkpoints to maintain max_keep.
+    """
+    def __init__(self, checkpoint_dir: Union[str, Path], max_keep: int = 3):
+        self.checkpoint_dir = Path(checkpoint_dir)
+        self.checkpoint_dir.mkdir(parents=True, exist_ok=True)
+        self.max_keep = max_keep
+
+    def save_checkpoint(
+        self,
+        model: nn.Module,
+        optimizer: Optional[torch.optim.Optimizer] = None,
+        scheduler: Optional[Any] = None,
+        epoch: int = 0,
+        step: int = 0,
+        metrics: Optional[Dict[str, Any]] = None,
+        prefix: str = "ckpt"
+    ) -> Path:
+        filepath = self.checkpoint_dir / f"{prefix}_epoch_{epoch}_step_{step}.pt"
+        save_checkpoint(filepath, model, optimizer, scheduler, epoch, step, metrics)
+        self._prune_old_checkpoints(prefix)
+        return filepath
+
+    def load_checkpoint(
+        self,
+        filepath: Union[str, Path],
+        model: nn.Module,
+        optimizer: Optional[torch.optim.Optimizer] = None,
+        scheduler: Optional[Any] = None,
+        device: Optional[torch.device] = None,
+        strict: bool = True
+    ) -> Dict[str, Any]:
+        return load_checkpoint(filepath, model, optimizer, scheduler, device=device, strict=strict)
+
+    def list_checkpoints(self, prefix: str = "ckpt") -> List[Path]:
+        ckpts = sorted(self.checkpoint_dir.glob(f"{prefix}_epoch_*.pt"), key=lambda p: p.stat().st_mtime)
+        return ckpts
+
+    def _prune_old_checkpoints(self, prefix: str = "ckpt") -> None:
+        ckpts = self.list_checkpoints(prefix)
+        if len(ckpts) > self.max_keep:
+            to_remove = ckpts[:-self.max_keep]
+            for p in to_remove:
+                try:
+                    p.unlink()
+                except OSError:
+                    pass
+

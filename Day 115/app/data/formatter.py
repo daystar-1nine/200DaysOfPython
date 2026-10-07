@@ -52,6 +52,35 @@ def format_prompt(
     return f"{sys_part}{user_part}{asst_prefix}"
 
 
+def format_chat_prompt(
+    messages: list,
+    system_prompt: Optional[str] = DEFAULT_SYSTEM_PROMPT,
+    add_generation_prompt: bool = True
+) -> str:
+    """
+    Formats a multi-turn chat history into standard delimiter format:
+      <|system|>...<|end|><|user|>...<|end|><|assistant|>...<|end|><|assistant|>
+    """
+    parts = []
+    if system_prompt:
+        parts.append(f"{SYSTEM_TOKEN}{system_prompt.strip()}{END_TOKEN}")
+
+    for msg in messages:
+        role = msg.get("role", "user")
+        content = msg.get("content", "").strip()
+        if role == "system":
+            parts.append(f"{SYSTEM_TOKEN}{content}{END_TOKEN}")
+        elif role == "user":
+            parts.append(f"{USER_TOKEN}{content}{END_TOKEN}")
+        elif role == "assistant":
+            parts.append(f"{ASSISTANT_TOKEN}{content}{END_TOKEN}")
+
+    if add_generation_prompt:
+        parts.append(ASSISTANT_TOKEN)
+
+    return "".join(parts)
+
+
 def format_preference_pair(
     prompt: str,
     chosen: str,

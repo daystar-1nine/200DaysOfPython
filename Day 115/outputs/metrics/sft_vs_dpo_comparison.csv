@@ -1,0 +1,4 @@
+model,preference_accuracy_pct,instruction_following,helpfulness,conciseness,composite_score,avg_response_length
+Base,19.64,6.67,4.0,68.33,17.93,2.03
+SFT,23.21,48.33,29.0,93.33,49.6,7.33
+DPO,35.71,30.0,18.0,91.67,37.53,3.93

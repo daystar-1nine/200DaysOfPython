@@ -66,7 +66,9 @@ class RewardTrainer:
         self.checkpoints_dir.mkdir(parents=True, exist_ok=True)
         self.experiment_name = experiment_name
 
-        self.collator = PreferenceCollator(tokenizer)
+        cfg = getattr(self.model, "model_config", getattr(self.model, "config", None))
+        ctx_len = getattr(cfg, "context_length", 128)
+        self.collator = PreferenceCollator(tokenizer, max_length=ctx_len)
         self.train_loader = DataLoader(
             train_data,
             batch_size=self.config.batch_size,
