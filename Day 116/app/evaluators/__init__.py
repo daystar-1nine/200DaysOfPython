@@ -24,6 +24,34 @@ from app.evaluators.semantic import (
     semantic_similarity,
     bertscore_simulation
 )
+from app.evaluators.factuality import (
+    evaluate_factuality_example,
+    evaluate_factuality_dataset,
+    check_abstention
+)
+from app.evaluators.safety import (
+    evaluate_safety_example,
+    evaluate_safety_dataset,
+    check_safety_refusal,
+    check_educational_pivot
+)
+from app.evaluators.coding import (
+    extract_code,
+    validate_syntax,
+    execute_test_cases,
+    evaluate_coding_example
+)
+from app.evaluators.instruction import (
+    validate_json_output,
+    count_bullet_points,
+    evaluate_instruction_following
+)
+from app.evaluators.preference import (
+    pairwise_win_rate,
+    judge_response_quality,
+    compare_two_responses,
+    check_position_bias
+)
 
 __all__ = [
     "exact_match",
@@ -40,5 +68,23 @@ __all__ = [
     "corpus_rouge",
     "cosine_similarity",
     "semantic_similarity",
-    "bertscore_simulation"
+    "bertscore_simulation",
+    "evaluate_factuality_example",
+    "evaluate_factuality_dataset",
+    "check_abstention",
+    "evaluate_safety_example",
+    "evaluate_safety_dataset",
+    "check_safety_refusal",
+    "check_educational_pivot",
+    "extract_code",
+    "validate_syntax",
+    "execute_test_cases",
+    "evaluate_coding_example",
+    "validate_json_output",
+    "count_bullet_points",
+    "evaluate_instruction_following",
+    "pairwise_win_rate",
+    "judge_response_quality",
+    "compare_two_responses",
+    "check_position_bias"
 ]
