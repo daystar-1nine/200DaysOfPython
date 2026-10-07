@@ -42,7 +42,7 @@ class EvalHarnessConfig:
     models_to_evaluate: List[str] = field(default_factory=lambda: ["base", "sft", "dpo"])
     categories: List[str] = field(default_factory=lambda: [
         "python", "data_science", "machine_learning", "dbms", "mathematics",
-        "general_knowledge", "reasoning", "coding", "instruction_following", "safety"
+        "general_knowledge", "reasoning", "coding", "instruction_following", "safety", "factuality"
     ])
     bootstrap_iterations: int = 1000
     confidence_level: float = 0.95

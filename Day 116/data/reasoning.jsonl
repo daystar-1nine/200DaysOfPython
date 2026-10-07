@@ -1,0 +1,40 @@
+{"id": "eval_081", "category": "mathematics", "prompt": "What is 15 * 8?", "reference": "120", "references": ["120"], "expected_type": "text"}
+{"id": "eval_082", "category": "mathematics", "prompt": "What is the derivative of x^2 with respect to x?", "reference": "2x", "references": ["2 * x"], "expected_type": "text"}
+{"id": "eval_083", "category": "mathematics", "prompt": "What is the integral of 2x dx?", "reference": "x^2 + C", "references": ["x^2"], "expected_type": "text"}
+{"id": "eval_084", "category": "mathematics", "prompt": "What is 7 factorial (7!)?", "reference": "5040", "references": ["5040"], "expected_type": "text"}
+{"id": "eval_085", "category": "mathematics", "prompt": "What is the square root of 144?", "reference": "12", "references": ["12"], "expected_type": "text"}
+{"id": "eval_086", "category": "mathematics", "prompt": "What is log10(1000)?", "reference": "3", "references": ["3"], "expected_type": "text"}
+{"id": "eval_087", "category": "mathematics", "prompt": "What is the Pythagorean theorem formula?", "reference": "a^2 + b^2 = c^2", "references": ["a^2 + b^2 = c^2"], "expected_type": "text"}
+{"id": "eval_088", "category": "mathematics", "prompt": "What is the sum of interior angles of a triangle?", "reference": "180 degrees", "references": ["180", "180 degrees"], "expected_type": "text"}
+{"id": "eval_089", "category": "mathematics", "prompt": "What is the value of 2^10?", "reference": "1024", "references": ["1024"], "expected_type": "text"}
+{"id": "eval_090", "category": "mathematics", "prompt": "What is the median of [3, 7, 9, 15, 20]?", "reference": "9", "references": ["9"], "expected_type": "text"}
+{"id": "eval_091", "category": "mathematics", "prompt": "What is the mean of [10, 20, 30, 40]?", "reference": "25", "references": ["25"], "expected_type": "text"}
+{"id": "eval_092", "category": "mathematics", "prompt": "What is the dot product of [1, 2] and [3, 4]?", "reference": "11", "references": ["11"], "expected_type": "text"}
+{"id": "eval_093", "category": "mathematics", "prompt": "What is 100 divided by 4?", "reference": "25", "references": ["25"], "expected_type": "text"}
+{"id": "eval_094", "category": "mathematics", "prompt": "What is the prime number immediately after 19?", "reference": "23", "references": ["23"], "expected_type": "text"}
+{"id": "eval_095", "category": "mathematics", "prompt": "What is sin(0) in trigonometry?", "reference": "0", "references": ["0"], "expected_type": "text"}
+{"id": "eval_096", "category": "mathematics", "prompt": "What is cos(0) in trigonometry?", "reference": "1", "references": ["1"], "expected_type": "text"}
+{"id": "eval_097", "category": "mathematics", "prompt": "What is the slope of the line y = 4x + 7?", "reference": "4", "references": ["4"], "expected_type": "text"}
+{"id": "eval_098", "category": "mathematics", "prompt": "What is 25% of 80?", "reference": "20", "references": ["20"], "expected_type": "text"}
+{"id": "eval_099", "category": "mathematics", "prompt": "What is the variance of a constant variable?", "reference": "0", "references": ["0"], "expected_type": "text"}
+{"id": "eval_100", "category": "mathematics", "prompt": "What is the base of natural logarithm e rounded to two decimals?", "reference": "2.72", "references": ["2.72", "2.718"], "expected_type": "text"}
+{"id": "eval_121", "category": "reasoning", "prompt": "If all mammals breathe air, and whales are mammals, do whales breathe air?", "reference": "Yes, whales breathe air because they are mammals.", "references": ["Yes, whales breathe air."], "expected_type": "text"}
+{"id": "eval_122", "category": "reasoning", "prompt": "A bat and a ball cost $1.10 in total. The bat costs $1.00 more than the ball. How much does the ball cost?", "reference": "The ball costs 5 cents ($0.05).", "references": ["$0.05", "5 cents"], "expected_type": "text"}
+{"id": "eval_123", "category": "reasoning", "prompt": "If John is taller than Mary, and Mary is taller than Peter, who is the tallest?", "reference": "John is the tallest.", "references": ["John"], "expected_type": "text"}
+{"id": "eval_124", "category": "reasoning", "prompt": "What comes next in the sequence: 2, 4, 8, 16, ...?", "reference": "32", "references": ["32"], "expected_type": "text"}
+{"id": "eval_125", "category": "reasoning", "prompt": "If it takes 5 machines 5 minutes to make 5 widgets, how long does it take 100 machines to make 100 widgets?", "reference": "5 minutes", "references": ["5 minutes", "5"], "expected_type": "text"}
+{"id": "eval_126", "category": "reasoning", "prompt": "If today is Monday, what day will it be in 14 days?", "reference": "Monday", "references": ["Monday"], "expected_type": "text"}
+{"id": "eval_127", "category": "reasoning", "prompt": "True or False: A negative number multiplied by a negative number yields a positive number.", "reference": "True", "references": ["True"], "expected_type": "text"}
+{"id": "eval_128", "category": "reasoning", "prompt": "If you have 3 apples and you take away 2, how many apples do you have?", "reference": "You have 2 apples (the ones you took).", "references": ["2 apples", "2"], "expected_type": "text"}
+{"id": "eval_129", "category": "reasoning", "prompt": "Which weighs more: a pound of feathers or a pound of bricks?", "reference": "They weigh the same: one pound.", "references": ["They weigh the same."], "expected_type": "text"}
+{"id": "eval_130", "category": "reasoning", "prompt": "If some cats are black, and all black animals have fur, do some cats have fur?", "reference": "Yes, some cats have fur.", "references": ["Yes"], "expected_type": "text"}
+{"id": "eval_131", "category": "reasoning", "prompt": "What comes next in the sequence: 1, 1, 2, 3, 5, 8, ...?", "reference": "13", "references": ["13"], "expected_type": "text"}
+{"id": "eval_132", "category": "reasoning", "prompt": "If no doctors are aliens, and all aliens have tentacles, can a doctor have tentacles?", "reference": "Yes, a doctor could potentially have tentacles, but they cannot be an alien.", "references": ["Yes, doctor could have tentacles without being alien."], "expected_type": "text"}
+{"id": "eval_133", "category": "reasoning", "prompt": "A train travels at 60 mph for 2 hours. How far did it travel?", "reference": "120 miles", "references": ["120 miles", "120"], "expected_type": "text"}
+{"id": "eval_134", "category": "reasoning", "prompt": "If Sally has twice as many books as Bob, and Bob has 12 books, how many books does Sally have?", "reference": "24 books", "references": ["24", "24 books"], "expected_type": "text"}
+{"id": "eval_135", "category": "reasoning", "prompt": "Is a square always a rectangle?", "reference": "Yes, a square is always a rectangle with four equal sides.", "references": ["Yes"], "expected_type": "text"}
+{"id": "eval_136", "category": "reasoning", "prompt": "Is a rectangle always a square?", "reference": "No, a rectangle is not always a square.", "references": ["No"], "expected_type": "text"}
+{"id": "eval_137", "category": "reasoning", "prompt": "If you rearrange the letters CIFAIPC, what ocean do you get?", "reference": "PACIFIC", "references": ["Pacific"], "expected_type": "text"}
+{"id": "eval_138", "category": "reasoning", "prompt": "Complete the analogy: Book is to Reading as Fork is to ...?", "reference": "Eating", "references": ["Eating"], "expected_type": "text"}
+{"id": "eval_139", "category": "reasoning", "prompt": "If an algorithm runs in O(n) time, how does runtime scale when input doubles?", "reference": "The runtime doubles linearly.", "references": ["Runtime doubles linearly."], "expected_type": "text"}
+{"id": "eval_140", "category": "reasoning", "prompt": "If a light switch is flipped an odd number of times starting from OFF, what is its final state?", "reference": "ON", "references": ["ON", "On"], "expected_type": "text"}

@@ -8,7 +8,7 @@ import json
 
 VALID_CATEGORIES = {
     "python", "data_science", "machine_learning", "dbms", "mathematics",
-    "general_knowledge", "reasoning", "coding", "instruction_following", "safety"
+    "general_knowledge", "reasoning", "coding", "instruction_following", "safety", "factuality"
 }
 
 VALID_TYPES = {"text", "code", "json", "boolean", "exact"}
