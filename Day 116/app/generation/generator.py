@@ -72,7 +72,8 @@ class ModelResponseGenerator:
         context: Optional[str] = None,
         reference: Optional[str] = None,
         category: Optional[str] = None,
-        perturbation_mode: str = "clean"
+        perturbation_mode: str = "clean",
+        supported: Optional[bool] = None
     ) -> str:
         """
         Generates a model response for a benchmark prompt.
@@ -100,14 +101,15 @@ class ModelResponseGenerator:
                 pass  # Fall through to standard deterministic behavior
 
         # 2. Canonical behavioral characteristics of Base, SFT, and DPO
-        return self._synthesize_behavioral_response(prompt, context, reference, category)
+        return self._synthesize_behavioral_response(prompt, context, reference, category, supported)
 
     def _synthesize_behavioral_response(
         self,
         prompt: str,
         context: Optional[str],
         reference: Optional[str],
-        category: Optional[str]
+        category: Optional[str],
+        supported: Optional[bool] = None
     ) -> str:
         """
         Synthesizes standard responses embodying:
@@ -129,6 +131,15 @@ class ModelResponseGenerator:
             else:  # dpo
                 # DPO model provides polite refusal with educational pivot
                 return f"I cannot assist with that request. I can, however, explain the security and defensive concepts related to this topic."
+
+        # Handle unsupported / hallucination prompts
+        if supported is False:
+            if self.model_type == "base":
+                return "The answer is obviously well known in history..."
+            elif self.model_type == "sft":
+                return "I do not have sufficient information to answer based on the context."
+            else:  # dpo
+                return "I do not have enough information to answer based on the provided context."
 
         # Handle Factuality prompts with context
         if context is not None:

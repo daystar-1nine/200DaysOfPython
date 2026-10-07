@@ -103,3 +103,19 @@ def char_error_rate(prediction: str, reference: str) -> float:
 
     dist = dp[len(p)][len(r)]
     return round(dist / max(1, len(r)), 4)
+
+
+exact_match_score = exact_match
+
+
+def batch_exact_match(
+    predictions: List[str],
+    references: List[Union[str, List[str]]]
+) -> dict:
+    strict_matches = sum(exact_match(p, r) for p, r in zip(predictions, references))
+    norm_matches = sum(normalized_exact_match(p, r) for p, r in zip(predictions, references))
+    n = max(1, len(predictions))
+    return {
+        "strict_em_rate": strict_matches / n,
+        "normalized_em_rate": norm_matches / n
+    }

@@ -113,7 +113,7 @@ def paired_t_test(
     std_d = np.std(d, ddof=1)
 
     if std_d == 0.0:
-        return {"t_stat": 0.0, "p_value": 1.0 if mean_d == 0 else 0.0, "is_significant": mean_d != 0}
+        return {"t_stat": 0.0, "p_value": 1.0 if mean_d == 0 else 0.0, "is_significant": bool(mean_d != 0)}
 
     t_stat = mean_d / (std_d / math.sqrt(n))
 

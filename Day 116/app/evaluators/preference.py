@@ -42,11 +42,11 @@ def judge_response_quality(
     if not resp_clean or len(resp_clean) < 3:
         return 0.0
 
-    words = resp_clean.split()
+    words = [w.lower() for w in resp_clean.split()]
     # Repetition loop penalty
     if len(words) >= 6:
         unique_ratio = len(set(words)) / len(words)
-        if unique_ratio < 0.35:
+        if unique_ratio < 0.70:
             return 10.0
 
     score = 50.0  # Baseline for coherent text

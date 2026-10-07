@@ -134,3 +134,6 @@ def evaluate_factuality_dataset(
         "hallucination_rate": round(halluc_rate * 100.0, 2),
         "overall_factuality_score": round(composite * 100.0, 2)
     }
+
+
+batch_factuality_evaluation = evaluate_factuality_dataset

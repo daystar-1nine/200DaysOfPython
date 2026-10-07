@@ -73,6 +73,10 @@ class ChatTokenizer:
         return self.token_to_id.get("<|end|>", 4)
 
     @property
+    def eos_id(self) -> int:
+        return self.end_id
+
+    @property
     def unk_id(self) -> int:
         return self.token_to_id.get("<|unk|>", 5)
 

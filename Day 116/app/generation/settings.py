@@ -18,6 +18,10 @@ class EvaluationSettings:
     seed: int = 42
     stop_tokens: tuple = ("<|end|>", "<|user|>", "<|system|>")
 
+    @property
+    def max_tokens(self) -> int:
+        return self.max_new_tokens
+
 
 def apply_prompt_perturbation(prompt: str, mode: str = "clean", seed: int = 42) -> str:
     """
