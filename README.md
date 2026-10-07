@@ -17,9 +17,9 @@
 
 ### 📈 Current Challenge Status
 
-**Day 114 / 200** | **57.0% Complete** | **86 Days Remaining**
+**Day 115 / 200** | **57.5% Complete** | **85 Days Remaining**
 
-*Currently mastering Instruction Fine-Tuning & Chat Models (MiniGPT-Chat).*
+*Currently mastering Preference Optimization & RLHF (MiniGPT Preference Lab).*
 
 </div>
 
@@ -327,7 +327,8 @@ An enterprise-grade Computer Vision experimentation pipeline tracking 7 distinct
 | 112 | GPT & Autoregressive Transformers | ✅ |
 | 113 | LLMs, Scaling Laws & GPT-Style Pretraining | ✅ |
 | 114 | Instruction Fine-Tuning & Chat Models (MiniGPT-Chat) | ✅ |
-| 115–200 | *Planned...* | ⬜ |
+| 115 | Preference Optimization & RLHF (MiniGPT Preference Lab) | ✅ |
+| 116–200 | *Planned...* | ⬜ |
 
 ## 📈 100-Day+ Skill Matrix
 
