@@ -120,3 +120,6 @@ def generate_error_analysis_report(
         writer.writerows(error_rows)
 
     return error_rows
+
+
+run_error_analysis = generate_error_analysis_report

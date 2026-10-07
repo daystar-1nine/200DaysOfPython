@@ -127,3 +127,18 @@ def paired_t_test(
         "p_value": round(float(p_value), 5),
         "is_significant": bool(p_value < 0.05)
     }
+
+
+def compute_cohens_d(scores_a: List[float], scores_b: List[float]) -> float:
+    """
+    Computes paired Cohen's d effect size: mean(diff) / std(diff).
+    """
+    if len(scores_a) != len(scores_b) or len(scores_a) < 2:
+        return 0.0
+    a = np.array(scores_a, dtype=np.float64)
+    b = np.array(scores_b, dtype=np.float64)
+    d = a - b
+    std_d = np.std(d, ddof=1)
+    if std_d == 0.0:
+        return 0.0
+    return round(float(np.mean(d) / std_d), 4)

@@ -42,6 +42,9 @@ def load_jsonl_dataset(filepath: Path, validate: bool = True) -> List[Evaluation
     return examples
 
 
+load_evaluation_dataset = load_jsonl_dataset
+
+
 def save_jsonl_dataset(examples: List[EvaluationExample], filepath: Path) -> None:
     """
     Saves a list of EvaluationExample items to a JSONL file.

@@ -240,3 +240,20 @@ class ModelComparator:
 
         # 4. error_analysis.csv
         generate_error_analysis_report(results["all_records"], reports_dir / "error_analysis.csv")
+
+
+def compare_benchmark_results(
+    examples: List[EvaluationExample],
+    models: Optional[List[str]] = None,
+    output_dir: Optional[Path] = None,
+    settings: Optional[EvaluationSettings] = None
+) -> Dict[str, Any]:
+    """
+    Convenience function to instantiate ModelComparator, evaluate examples,
+    and optionally save outputs.
+    """
+    comparator = ModelComparator(models=models, settings=settings)
+    results = comparator.evaluate_all(examples)
+    if output_dir:
+        comparator.save_results(results, Path(output_dir))
+    return results

@@ -16,6 +16,7 @@ __all__ = [
     "VALID_CATEGORIES",
     "VALID_TYPES",
     "load_jsonl_dataset",
+    "load_evaluation_dataset",
     "save_jsonl_dataset",
     "filter_by_category",
     "validate_dataset",
