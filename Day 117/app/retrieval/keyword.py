@@ -53,6 +53,9 @@ class KeywordRetriever:
         self._is_indexed = True
         return self
 
+    fit = index
+    index_chunks = index
+
     def _compute_idf(self, term: str) -> float:
         """Smoothed Robertson-Spärck Jones IDF."""
         df = self.doc_freqs.get(term, 0)

@@ -77,8 +77,7 @@ class DenseTFIDFEmbedder(BaseEmbedder):
 
     def embed_batch(self, texts: List[str]) -> np.ndarray:
         if not self._is_fitted:
-            # Auto-fit if not explicitly fitted
-            self.fit(texts)
+            raise RuntimeError("DenseTFIDFEmbedder must be fitted before embedding text.")
 
         if not texts:
             return np.empty((0, self._dim), dtype=np.float64)
@@ -129,6 +128,10 @@ class SparseTFIDFEmbedder(BaseEmbedder):
             return len(self.vectorizer.vocabulary_)
         return self.max_features
 
+    @property
+    def dim(self) -> int:
+        return self.dimension
+
     def fit(self, texts: List[str]) -> "SparseTFIDFEmbedder":
         if not texts:
             raise ValueError("Cannot fit on empty texts.")
@@ -138,7 +141,7 @@ class SparseTFIDFEmbedder(BaseEmbedder):
 
     def embed_batch(self, texts: List[str]) -> np.ndarray:
         if not self._is_fitted:
-            self.fit(texts)
+            raise RuntimeError("SparseTFIDFEmbedder must be fitted before embedding text.")
         sparse_mat = self.vectorizer.transform(texts)
         arr = sparse_mat.toarray().astype(np.float64)
         norms = np.linalg.norm(arr, axis=1, keepdims=True)

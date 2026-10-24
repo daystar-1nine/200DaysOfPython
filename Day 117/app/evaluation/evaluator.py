@@ -98,9 +98,9 @@ class RAGEvaluator:
             error_type = "Wrong retrieval"
         elif expected_supported and r5 < 1.0 and r5 > 0.0:
             error_type = "Missing context"
-        elif grounding_res["context_relevance"] < 0.20 and expected_supported:
+        elif expected_supported and grounding_res["context_relevance"] < 0.20:
             error_type = "Irrelevant context"
-        elif grounding_res["faithfulness"] < 0.50 and not grounding_res["is_hallucinated"]:
+        elif expected_supported and grounding_res["faithfulness"] < 0.50:
             error_type = "Incomplete answer"
 
         return {

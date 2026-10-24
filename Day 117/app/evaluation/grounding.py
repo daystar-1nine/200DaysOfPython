@@ -54,6 +54,22 @@ def compute_context_relevance(question: str, context: str) -> float:
     return float(hits / len(key_q))
 
 
+def compute_token_overlap_f1(pred: str, target: str) -> float:
+    """Computes token-level precision, recall, and harmonic mean F1 between two text sequences."""
+    p_tokens = tokenize_words(pred)
+    t_tokens = tokenize_words(target)
+    if not p_tokens or not t_tokens:
+        return 0.0
+
+    common = set(p_tokens) & set(t_tokens)
+    if not common:
+        return 0.0
+
+    precision = len(common) / len(p_tokens)
+    recall = len(common) / len(t_tokens)
+    return float(2 * precision * recall / (precision + recall))
+
+
 def evaluate_grounding(
     question: str,
     answer: str,

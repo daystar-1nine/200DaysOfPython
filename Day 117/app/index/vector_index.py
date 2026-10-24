@@ -2,12 +2,23 @@
 Vector index for fast similarity search with metadata storage and persistence.
 """
 from pathlib import Path
-from typing import List, Tuple, Dict, Any, Optional
+from typing import List, Tuple, Dict, Any, Optional, NamedTuple
 import json
 import numpy as np
 
 from app.chunking.chunker import Chunk
 from app.embeddings.similarity import batch_cosine_similarity
+
+
+class ScoredChunk(NamedTuple):
+    chunk: Chunk
+    score: float
+
+
+class SizeInt(int):
+    """Integer that can also be called as a function for backwards compatibility."""
+    def __call__(self) -> int:
+        return int(self)
 
 
 class VectorIndex:
@@ -21,8 +32,12 @@ class VectorIndex:
         self.embeddings: Optional[np.ndarray] = None
         self._chunk_map: Dict[str, Chunk] = {}
 
-    def size(self) -> int:
-        """Returns total number of indexed chunks."""
+    @property
+    def size(self) -> SizeInt:
+        """Returns total number of indexed chunks (supports both property and method call)."""
+        return SizeInt(len(self.chunks))
+
+    def __len__(self) -> int:
         return len(self.chunks)
 
     def clear(self) -> None:
@@ -34,6 +49,10 @@ class VectorIndex:
     def get_chunk_by_id(self, chunk_id: str) -> Optional[Chunk]:
         """Looks up a chunk by its unique ID."""
         return self._chunk_map.get(chunk_id)
+
+    def get_chunk(self, chunk_id: str) -> Optional[Chunk]:
+        """Alias for get_chunk_by_id."""
+        return self.get_chunk_by_id(chunk_id)
 
     def all_chunks(self) -> List[Chunk]:
         """Returns all indexed chunks."""
@@ -51,10 +70,10 @@ class VectorIndex:
             emb_mat = emb_mat.reshape(1, -1)
 
         if len(chunks) != emb_mat.shape[0]:
-            raise ValueError(f"Chunk count ({len(chunks)}) must match embedding row count ({emb_mat.shape[0]})")
+            raise ValueError(f"Mismatch between chunks ({len(chunks)}) and embeddings ({emb_mat.shape[0]})")
 
         if emb_mat.shape[1] != self.dimension:
-            raise ValueError(f"Embedding dimension {emb_mat.shape[1]} does not match index dimension {self.dimension}")
+            raise ValueError(f"Dimension mismatch: expected {self.dimension}, got {emb_mat.shape[1]}")
 
         for c in chunks:
             self._chunk_map[c.metadata.chunk_id] = c
@@ -72,19 +91,21 @@ class VectorIndex:
         top_k: int = 5,
         min_score: float = 0.0,
         category_filter: Optional[str] = None,
+        filter_category: Optional[str] = None,
         doc_id_filter: Optional[str] = None
-    ) -> List[Tuple[Chunk, float]]:
+    ) -> List[ScoredChunk]:
         """
         Searches the index for the top_k most similar chunks.
         Filters by category or document_id if specified.
-        Returns List of (Chunk, similarity_score) sorted descending by score.
+        Returns List of ScoredChunk(chunk, similarity_score) sorted descending by score.
         """
+        cat_filter = category_filter or filter_category
         if self.size() == 0 or self.embeddings is None:
             return []
 
         sims = batch_cosine_similarity(query_vector, self.embeddings)
 
-        results: List[Tuple[Chunk, float]] = []
+        results: List[ScoredChunk] = []
         for idx, score in enumerate(sims):
             if score < min_score:
                 continue
@@ -92,13 +113,13 @@ class VectorIndex:
             chunk = self.chunks[idx]
             meta = chunk.metadata
 
-            if category_filter and meta.category.lower() != category_filter.lower():
+            if cat_filter and meta.category.lower() != cat_filter.lower():
                 continue
 
             if doc_id_filter and meta.document_id.lower() != doc_id_filter.lower():
                 continue
 
-            results.append((chunk, float(score)))
+            results.append(ScoredChunk(chunk, float(score)))
 
         # Sort descending by similarity score
         results.sort(key=lambda x: x[1], reverse=True)

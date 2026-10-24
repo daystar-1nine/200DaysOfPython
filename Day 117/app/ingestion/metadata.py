@@ -3,7 +3,13 @@ Metadata models for documents and chunks.
 """
 from dataclasses import dataclass, field, asdict
 from typing import Dict, Any, Optional
+from pathlib import Path
 import time
+
+
+def create_document_id(path: Path) -> str:
+    """Creates a deterministic document ID string from a file path."""
+    return f"doc_{path.stem.lower()}"
 
 
 @dataclass

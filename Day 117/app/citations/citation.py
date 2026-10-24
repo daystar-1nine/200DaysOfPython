@@ -75,6 +75,7 @@ def verify_citation_coverage(answer: str, citations: List[Citation]) -> Dict[str
         return {"has_citations": False, "cited_count": 0, "total_sources": 0, "coverage_rate": 0.0}
 
     found = 0
+    missing = []
     for c in citations:
         tag = c.format_citation_tag().lower()
         cid = c.source_id.lower()
@@ -82,11 +83,14 @@ def verify_citation_coverage(answer: str, citations: List[Citation]) -> Dict[str
         ans_lower = answer.lower()
         if tag in ans_lower or cid in ans_lower or (c_title and c_title in ans_lower):
             found += 1
+        else:
+            missing.append(c.format_citation_tag())
 
     rate = found / len(citations)
     return {
         "has_citations": found > 0,
         "cited_count": found,
         "total_sources": len(citations),
-        "coverage_rate": round(rate, 4)
+        "coverage_rate": round(rate, 4),
+        "missing_tags": missing
     }

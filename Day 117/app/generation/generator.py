@@ -82,13 +82,18 @@ class RAGGenerator:
         if not content_tokens:
             return True
 
-        # Check word overlap in top retrieved chunk
-        top_chunk_tokens = set(tokenize_words(results[0].chunk.text))
+        # Check word overlap in top retrieved chunks
+        top_chunks_text = " ".join(r.chunk.text for r in results[:2])
+        top_chunk_tokens = set(tokenize_words(top_chunks_text))
         overlap = content_tokens & top_chunk_tokens
         overlap_ratio = len(overlap) / len(content_tokens)
 
-        # If less than 20% of query keywords appear in top chunks, consider unsupported
-        return overlap_ratio >= 0.20 or max_score >= 0.35
+        # If zero keywords match, context definitely cannot support answer
+        if overlap_ratio == 0.0:
+            return False
+
+        # Require reasonable keyword overlap and relevance score
+        return overlap_ratio >= 0.20 or (max_score >= 0.60 and overlap_ratio >= 0.10)
 
     def _extract_grounded_answer(
         self,

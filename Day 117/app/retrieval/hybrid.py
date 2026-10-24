@@ -7,6 +7,7 @@ import numpy as np
 from app.chunking.chunker import Chunk
 from app.retrieval.keyword import KeywordRetriever
 from app.retrieval.semantic import SemanticRetriever
+from app.retrieval.top_k import reciprocal_rank_fusion
 
 
 class HybridRetriever:

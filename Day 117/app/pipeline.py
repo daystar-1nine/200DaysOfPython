@@ -95,7 +95,8 @@ class RAGPipeline:
         query: str,
         top_k: Optional[int] = None,
         method: Optional[str] = None,
-        category_filter: Optional[str] = None
+        category_filter: Optional[str] = None,
+        filter_category: Optional[str] = None
     ) -> List[QueryResult]:
         """
         Retrieves top_k relevant chunks using specified retrieval method:
@@ -104,20 +105,21 @@ class RAGPipeline:
         if not self._is_ready or self.index.size() == 0:
             return []
 
+        cat_filter = category_filter or filter_category
         k = top_k if top_k is not None else self.config.top_k
         meth = (method if method is not None else self.config.retrieval_method).lower()
 
         if meth == "keyword":
             raw = self.keyword_retriever.retrieve(
-                query, top_k=k, category_filter=category_filter
+                query, top_k=k, category_filter=cat_filter
             )
         elif meth == "semantic":
             raw = self.semantic_retriever.retrieve(
-                query, top_k=k, category_filter=category_filter
+                query, top_k=k, category_filter=cat_filter
             )
         elif meth == "hybrid":
             raw = self.hybrid_retriever.retrieve(
-                query, top_k=k, category_filter=category_filter
+                query, top_k=k, category_filter=cat_filter
             )
         else:
             raise ValueError(f"Unknown retrieval method '{meth}'. Choose 'keyword', 'semantic', 'hybrid'.")
@@ -129,17 +131,22 @@ class RAGPipeline:
         question: str,
         top_k: Optional[int] = None,
         method: Optional[str] = None,
-        category_filter: Optional[str] = None
+        category_filter: Optional[str] = None,
+        filter_category: Optional[str] = None
     ) -> RAGResponse:
         """
         Executes end-to-end RAG query: retrieves top context chunks,
         constructs grounded prompt, and generates answer with citations.
         """
+        if not self._is_ready:
+            raise RuntimeError("RAGPipeline must be ingested or loaded before querying.")
+
+        cat_filter = category_filter or filter_category
         results = self.retrieve(
             query=question,
             top_k=top_k,
             method=method,
-            category_filter=category_filter
+            category_filter=cat_filter
         )
         return self.generator.generate(question=question, retrieved_results=results)
 

@@ -24,7 +24,7 @@ class ContextBuilder:
         self.max_chars = max_chars
         self.separator = separator
 
-    def build_context(self, results: List[QueryResult]) -> Tuple[str, List[QueryResult]]:
+    def build_context(self, results: Any) -> Tuple[str, List[QueryResult]]:
         """
         Formats and bundles retrieved chunks up to max_chars limit.
         Returns:
@@ -33,14 +33,21 @@ class ContextBuilder:
         if not results:
             return "", []
 
+        norm_results: List[QueryResult] = []
+        for rank, item in enumerate(results, start=1):
+            if isinstance(item, QueryResult):
+                norm_results.append(item)
+            else:
+                norm_results.append(QueryResult(chunk=item, score=1.0, rank=rank))
+
         context_blocks: List[str] = []
         included_results: List[QueryResult] = []
         accumulated_len = 0
 
-        for r in results:
+        for r in norm_results:
             meta = r.chunk.metadata
             title = meta.title if meta.title else meta.document_id
-            header = f"[Chunk {r.rank} | Source: {title} — ID: {meta.chunk_id}]"
+            header = f"[Chunk {r.rank} | Source: {title} - ID: {meta.chunk_id}]"
             block = f"{header}\n{r.chunk.text.strip()}"
             block_len = len(block) + len(self.separator)
 

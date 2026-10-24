@@ -35,12 +35,29 @@ def clean_text(text: str) -> str:
     return "\n".join(lines).strip()
 
 
-def tokenize_words(text: str) -> List[str]:
+def tokenize_words(text: str, lowercase: bool = True) -> List[str]:
     """Tokenizes text into words/tokens for length estimation and keyword search."""
     if not text:
         return []
     # Split on whitespace and word boundaries while keeping alphanumeric tokens
-    return re.findall(r"\b\w+\b", text.lower())
+    tokens = re.findall(r"\b\w+\b", text)
+    return [t.lower() for t in tokens] if lowercase else tokens
+
+
+def extract_sentences(text: str) -> List[str]:
+    """Splits text into constituent sentences preserving terminals."""
+    if not text or not text.strip():
+        return []
+    sentences = re.split(r"(?<=[.!?])\s+", text.strip())
+    return [s.strip() for s in sentences if s.strip()]
+
+
+def remove_markdown_noise(text: str) -> str:
+    """Strips markdown links and headers for cleaner semantic representation."""
+    text = re.sub(r"#+\s*", "", text)
+    text = re.sub(r"\[([^\]]+)\]\([^\)]+\)", r"\1", text)
+    text = re.sub(r"[*_~`]", "", text)
+    return clean_text(text)
 
 
 def normalize_for_search(text: str) -> str:
