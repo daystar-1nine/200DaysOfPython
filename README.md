@@ -17,9 +17,9 @@
 
 ### 📈 Current Challenge Status
 
-**Day 116 / 200** | **58.0% Complete** | **84 Days Remaining**
+**Day 117 / 200** | **58.5% Complete** | **83 Days Remaining**
 
-*Currently mastering LLM Evaluation, Benchmarking & Model Quality (MiniGPT Eval Harness).*
+*Currently mastering Retrieval-Augmented Generation (RAG: Architecture, Embeddings, Hybrid Search & Grounding).*
 
 </div>
 
@@ -329,7 +329,8 @@ An enterprise-grade Computer Vision experimentation pipeline tracking 7 distinct
 | 114 | Instruction Fine-Tuning & Chat Models (MiniGPT-Chat) | ✅ |
 | 115 | Preference Optimization & RLHF (MiniGPT Preference Lab) | ✅ |
 | 116 | LLM Evaluation, Benchmarking & Model Quality (MiniGPT Eval Harness) | ✅ |
-| 117–200 | *Planned...* | ⬜ |
+| 117 | Retrieval-Augmented Generation (RAG: Architecture, Embeddings & Grounding) | ✅ |
+| 118–200 | *Planned...* | ⬜ |
 
 ## 📈 100-Day+ Skill Matrix
 
