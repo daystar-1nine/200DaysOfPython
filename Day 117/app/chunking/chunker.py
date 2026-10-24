@@ -243,9 +243,11 @@ class TextChunker:
 def chunk_text(
     text: str,
     chunk_size: int = 400,
-    overlap: int = 50,
+    overlap: Optional[int] = None,
     strategy: str = "sentence"
 ) -> List[Chunk]:
     """Convenience function to chunk text directly."""
+    if overlap is None:
+        overlap = min(50, max(0, chunk_size // 5))
     chunker = TextChunker(chunk_size=chunk_size, overlap=overlap, strategy=strategy)
     return chunker.chunk_text(text)
