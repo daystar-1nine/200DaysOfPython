@@ -1,0 +1,61 @@
+question_id,category,query_type,question,error_type,expected_supported,faithfulness,context_relevance,top_score,latency_ms
+q001,python,exact,What is the difference between a list and a tuple in Python?,Wrong retrieval,True,0.9368,0.5,1.0,1.04
+q002,python,exact,Why do generator expressions use less memory than list comprehensions?,None,True,0.9333,0.75,1.0,0.94
+q003,python,exact,Explain what a Python decorator is and how it works.,None,True,0.88,0.6,1.0,0.92
+q004,python,exact,What is the Global Interpreter Lock (GIL) in CPython?,None,True,0.8816,1.0,1.0,0.94
+q005,python,exact,Which dunder methods implement context managers for with statements?,None,True,0.8649,0.7778,0.8617,1.13
+q006,python,paraphrased,How do sets achieve O(1) average lookup time in Python?,Missing context,True,0.9111,0.875,1.0,1.02
+q007,python,short,GIL Python,None,True,0.8875,1.0,1.0,0.84
+q008,python,long,Can you explain why multiprocessing is required for CPU-bound tasks in Python due to the GIL while threading works for IO bound?,Missing context,True,0.9158,0.5882,1.0,1.0
+q009,data_science,exact,What is NumPy broadcasting and how does it work?,None,True,0.8364,0.6,1.0,0.91
+q010,data_science,exact,What is the difference between .loc and .iloc in Pandas?,None,True,0.8667,0.8333,1.0,0.93
+q011,data_science,exact,Why does chained assignment trigger SettingWithCopyWarning in Pandas?,None,True,0.8875,0.8,1.0,1.26
+q012,data_science,exact,How does the split-apply-combine strategy work in Pandas groupby?,Missing context,True,0.8472,0.7143,1.0,0.98
+q013,data_science,exact,How are outliers identified using the Interquartile Range (IQR)?,None,True,0.9082,0.8333,1.0,0.94
+q014,data_science,short,vectorized operations NumPy memory speedup,None,True,0.8846,0.8,1.0,0.86
+q015,data_science,paraphrased,What methods exist for imputing missing values in tabular data?,Missing context,True,0.8675,0.75,1.0,0.89
+q016,machine_learning,exact,What is the bias-variance tradeoff in machine learning?,None,True,0.8902,0.8,1.0,1.08
+q017,machine_learning,exact,How does Stochastic Gradient Descent differ from Batch Gradient Descent?,Missing context,True,0.907,0.75,1.0,1.23
+q018,machine_learning,exact,What is the key difference between L1 Lasso and L2 Ridge regularization?,None,True,0.8929,0.6667,1.0,1.01
+q019,machine_learning,paraphrased,Why does L1 regularization cause sparsity while L2 regularization does not?,None,True,0.881,0.5,0.9859,0.97
+q020,machine_learning,exact,How do Random Forests build upon Bagging to reduce variance?,None,True,0.9011,0.5714,1.0,0.9
+q021,machine_learning,short,Bias variance,None,True,0.8734,1.0,0.8858,0.82
+q022,machine_learning,long,Explain how boosting sequentially trains weak learners to correct previous residual errors.,Missing context,True,0.8769,0.7778,1.0,0.89
+q023,deep_learning,exact,How does the backpropagation algorithm compute gradients in neural networks?,Missing context,True,0.8553,0.8333,1.0,1.18
+q024,deep_learning,exact,Why does the ReLU activation function help prevent vanishing gradients?,None,True,0.9318,0.5714,1.0,0.98
+q025,deep_learning,exact,What is the purpose of Batch Normalization in deep architectures?,None,True,0.8507,0.6,1.0,0.9
+q026,deep_learning,exact,Explain the scaled dot-product attention formula in Transformers.,None,True,0.8953,0.6667,1.0,0.89
+q027,deep_learning,paraphrased,Why is the dot product divided by the square root of d_k in Transformer attention?,None,True,0.8953,0.6667,0.9958,0.98
+q028,deep_learning,short,Adam optimizer momentum moments,None,True,0.8875,0.75,1.0,0.82
+q029,computer_vision,exact,How do convolutional layers achieve parameter sharing?,None,True,0.8765,0.8,0.8785,1.0
+q030,computer_vision,exact,How do residual connections in ResNet solve the degradation problem?,None,True,0.9022,0.5,1.0,1.13
+q031,computer_vision,exact,What is the architectural difference between two-stage and one-stage object detectors?,None,True,0.9074,0.7,0.9781,1.06
+q032,computer_vision,exact,How does Non-Maximum Suppression (NMS) eliminate redundant bounding boxes?,None,True,0.9326,0.75,1.0,0.91
+q033,computer_vision,exact,What is Intersection over Union (IoU) in object detection?,None,True,0.9341,1.0,1.0,0.9
+q034,computer_vision,short,YOLO vs Faster R-CNN detection speed,None,True,0.9211,0.8571,1.0,0.84
+q035,nlp,exact,What are subword tokenization algorithms like BPE and WordPiece?,None,True,0.8413,0.8571,0.8942,1.05
+q036,nlp,exact,How is TF-IDF calculated and what does it measure?,Missing context,True,0.9111,0.5,1.0,1.03
+q037,nlp,exact,What is the difference between CBOW and Skip-gram in Word2Vec?,Missing context,True,0.9062,0.7143,1.0,0.95
+q038,nlp,exact,What is Retrieval-Augmented Generation (RAG) and why is it needed?,None,True,0.8571,0.7143,1.0,0.87
+q039,nlp,paraphrased,How does RAG mitigate hallucination in large language models?,None,True,0.8941,0.5,1.0,0.87
+q040,nlp,short,TF-IDF formula inverse document frequency,None,True,0.8889,0.8333,0.9736,0.85
+q041,dbms,exact,What are the ACID properties in database transactions?,None,True,0.8594,1.0,1.0,0.89
+q042,dbms,exact,How does Write-Ahead Logging (WAL) guarantee durability?,None,True,0.8837,1.0,1.0,0.97
+q043,dbms,exact,What is Third Normal Form (3NF) in database normalization?,None,True,0.8864,1.0,0.9908,0.95
+q044,dbms,exact,Why are B+Trees preferred over standard B-Trees for database indexing?,None,True,0.875,0.8,1.0,0.93
+q045,dbms,exact,What is the difference between a Hash Join and a Nested Loop Join?,None,True,0.9341,0.875,1.0,0.93
+q046,dbms,paraphrased,Explain the difference between 2NF and 3NF regarding partial vs transitive dependencies.,Missing context,True,0.9091,0.6,0.991,0.91
+q047,dbms,short,3NF database normalization,Missing context,True,0.8333,1.0,1.0,0.81
+q048,dbms,long,Can you elaborate on how relational database query optimizers choose between hash joins and merge joins?,None,True,0.9065,0.4667,1.0,1.21
+q049,general,out_of_domain,Who won the Martian Olympics 100m sprint in the year 2099?,Hallucination,False,0.8033,0.0,0.6145,0.95
+q050,general,out_of_domain,What is the attendance policy of the Hogwarts School of Witchcraft and Wizardry?,Hallucination,False,0.9189,0.1429,1.0,1.06
+q051,general,out_of_domain,How do you manufacture vibranium armor using quantum plasma torches?,Hallucination,False,0.8925,0.125,0.7251,0.87
+q052,general,out_of_domain,What is the chemical composition of spice melange on planet Arrakis?,Hallucination,False,0.9211,0.1429,0.9494,0.86
+q053,general,out_of_domain,Explain the warp drive antimatter dilution ratio for starships.,Hallucination,False,0.8519,0.1429,1.0,0.85
+q054,general,out_of_domain,Who was elected Emperor of Antarctica in 1912?,Hallucination,False,0.8167,0.0,0.5965,0.89
+q055,general,out_of_domain,What is the exact recipe for Pan-Galactic Gargle Blaster in Python?,Hallucination,False,0.8507,0.375,1.0,0.94
+q056,general,out_of_domain,Which programming language was created by subterranean Mole people in 1845?,Hallucination,False,0.8438,0.2,1.0,0.88
+q057,general,out_of_domain,What are the tax filing rules for time travelers visiting ancient Rome?,Hallucination,False,0.9062,0.2222,0.9204,0.87
+q058,general,out_of_domain,Explain the hyperspace navigation protocol for Cygnus space freighters.,Hallucination,False,0.8438,0.4286,0.9212,0.88
+q059,general,out_of_domain,Who holds the world record for breathing underwater on Jupiter?,Hallucination,False,0.875,0.3333,1.0,0.88
+q060,general,out_of_domain,What is the internal clock speed of a positronic brain in Cybertron robots?,Hallucination,False,0.875,0.1429,0.793,0.92

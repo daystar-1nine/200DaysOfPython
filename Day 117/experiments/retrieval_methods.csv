@@ -1,0 +1,4 @@
+method,precision_at_1,precision_at_3,precision_at_5,recall_at_1,recall_at_3,recall_at_5,mrr,hit_rate_at_5,faithfulness,context_relevance,latency_ms
+keyword,0.7667,0.45,0.45,0.3833,0.675,0.675,0.775,0.7833,0.8786,0.6614,0.14
+semantic,0.7667,0.4667,0.4667,0.3833,0.7,0.7,0.7806,0.8,0.8842,0.63,0.84
+hybrid,0.7667,0.4611,0.4611,0.3833,0.6917,0.6917,0.775,0.7833,0.8851,0.6383,0.95

@@ -1,0 +1,2 @@
+total_questions,retrieval_method,top_k,mean_precision_at_1,mean_precision_at_3,mean_precision_at_5,mean_recall_at_1,mean_recall_at_3,mean_recall_at_5,mrr,hit_rate_at_5,mean_faithfulness,mean_context_relevance,hallucination_rate,mean_citation_coverage,mean_latency_ms
+60,hybrid,3,0.7667,0.4611,0.4611,0.3833,0.6917,0.6917,0.775,0.7833,0.8851,0.6383,0.2,1.0,0.95

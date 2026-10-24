@@ -39,6 +39,7 @@ class RAGEvaluator:
         relevant_chunks = item.get("relevant_chunks", [])
         expected_supported = item.get("supported", True)
         category = item.get("category", "general")
+        query_type = item.get("query_type", "exact")
 
         start_time = time.perf_counter()
         response = self.pipeline.query(
@@ -47,6 +48,8 @@ class RAGEvaluator:
             method=method
         )
         elapsed_ms = (time.perf_counter() - start_time) * 1000.0
+
+        top_score = round(float(response.retrieved_chunks[0].score), 4) if response.retrieved_chunks else 0.0
 
         retrieved_cids = [r.chunk.metadata.chunk_id for r in response.retrieved_chunks]
 
@@ -103,11 +106,14 @@ class RAGEvaluator:
         return {
             "question_id": qid,
             "category": category,
+            "query_type": query_type,
             "question": question,
             "expected_chunks": relevant_chunks,
             "retrieved_chunks": retrieved_cids,
             "expected_supported": expected_supported,
             "is_supported_prediction": response.is_supported,
+            "top_score": top_score,
+            "citations": [c.to_dict() for c in response.citations],
             "answer": response.answer,
             "precision_at_1": round(p1, 4),
             "precision_at_3": round(p3, 4),
@@ -168,6 +174,7 @@ class RAGEvaluator:
         return {
             "summary": summary,
             "records": records,
+            "items": records,
             "category_breakdown": category_breakdown,
             "dataframe": df
         }
