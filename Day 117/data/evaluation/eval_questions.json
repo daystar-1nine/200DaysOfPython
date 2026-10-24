@@ -1,0 +1,734 @@
+[
+  {
+    "id": "q001",
+    "category": "python",
+    "question": "What is the difference between a list and a tuple in Python?",
+    "relevant_docs": [
+      "doc_python_data_structures"
+    ],
+    "relevant_chunks": [
+      "doc_python_data_structures_c0"
+    ],
+    "supported": true,
+    "query_type": "exact"
+  },
+  {
+    "id": "q002",
+    "category": "python",
+    "question": "Why do generator expressions use less memory than list comprehensions?",
+    "relevant_docs": [
+      "doc_python_generators_comprehensions"
+    ],
+    "relevant_chunks": [
+      "doc_python_generators_comprehensions_c0"
+    ],
+    "supported": true,
+    "query_type": "exact"
+  },
+  {
+    "id": "q003",
+    "category": "python",
+    "question": "Explain what a Python decorator is and how it works.",
+    "relevant_docs": [
+      "doc_python_decorators_functions"
+    ],
+    "relevant_chunks": [
+      "doc_python_decorators_functions_c0"
+    ],
+    "supported": true,
+    "query_type": "exact"
+  },
+  {
+    "id": "q004",
+    "category": "python",
+    "question": "What is the Global Interpreter Lock (GIL) in CPython?",
+    "relevant_docs": [
+      "doc_python_concurrency_gil"
+    ],
+    "relevant_chunks": [
+      "doc_python_concurrency_gil_c0"
+    ],
+    "supported": true,
+    "query_type": "exact"
+  },
+  {
+    "id": "q005",
+    "category": "python",
+    "question": "Which dunder methods implement context managers for with statements?",
+    "relevant_docs": [
+      "doc_python_dunder_oop"
+    ],
+    "relevant_chunks": [
+      "doc_python_dunder_oop_c0"
+    ],
+    "supported": true,
+    "query_type": "exact"
+  },
+  {
+    "id": "q006",
+    "category": "python",
+    "question": "How do sets achieve O(1) average lookup time in Python?",
+    "relevant_docs": [
+      "doc_python_data_structures"
+    ],
+    "relevant_chunks": [
+      "doc_python_data_structures_c0"
+    ],
+    "supported": true,
+    "query_type": "paraphrased"
+  },
+  {
+    "id": "q007",
+    "category": "python",
+    "question": "GIL Python",
+    "relevant_docs": [
+      "doc_python_concurrency_gil"
+    ],
+    "relevant_chunks": [
+      "doc_python_concurrency_gil_c0"
+    ],
+    "supported": true,
+    "query_type": "short"
+  },
+  {
+    "id": "q008",
+    "category": "python",
+    "question": "Can you explain why multiprocessing is required for CPU-bound tasks in Python due to the GIL while threading works for IO bound?",
+    "relevant_docs": [
+      "doc_python_concurrency_gil"
+    ],
+    "relevant_chunks": [
+      "doc_python_concurrency_gil_c0"
+    ],
+    "supported": true,
+    "query_type": "long"
+  },
+  {
+    "id": "q009",
+    "category": "data_science",
+    "question": "What is NumPy broadcasting and how does it work?",
+    "relevant_docs": [
+      "doc_numpy_vectorization"
+    ],
+    "relevant_chunks": [
+      "doc_numpy_vectorization_c0"
+    ],
+    "supported": true,
+    "query_type": "exact"
+  },
+  {
+    "id": "q010",
+    "category": "data_science",
+    "question": "What is the difference between .loc and .iloc in Pandas?",
+    "relevant_docs": [
+      "doc_pandas_indexing_selection"
+    ],
+    "relevant_chunks": [
+      "doc_pandas_indexing_selection_c0"
+    ],
+    "supported": true,
+    "query_type": "exact"
+  },
+  {
+    "id": "q011",
+    "category": "data_science",
+    "question": "Why does chained assignment trigger SettingWithCopyWarning in Pandas?",
+    "relevant_docs": [
+      "doc_pandas_indexing_selection"
+    ],
+    "relevant_chunks": [
+      "doc_pandas_indexing_selection_c0"
+    ],
+    "supported": true,
+    "query_type": "exact"
+  },
+  {
+    "id": "q012",
+    "category": "data_science",
+    "question": "How does the split-apply-combine strategy work in Pandas groupby?",
+    "relevant_docs": [
+      "doc_pandas_groupby_aggregations"
+    ],
+    "relevant_chunks": [
+      "doc_pandas_groupby_aggregations_c0"
+    ],
+    "supported": true,
+    "query_type": "exact"
+  },
+  {
+    "id": "q013",
+    "category": "data_science",
+    "question": "How are outliers identified using the Interquartile Range (IQR)?",
+    "relevant_docs": [
+      "doc_data_cleaning_missing_outliers"
+    ],
+    "relevant_chunks": [
+      "doc_data_cleaning_missing_outliers_c0"
+    ],
+    "supported": true,
+    "query_type": "exact"
+  },
+  {
+    "id": "q014",
+    "category": "data_science",
+    "question": "vectorized operations NumPy memory speedup",
+    "relevant_docs": [
+      "doc_numpy_vectorization"
+    ],
+    "relevant_chunks": [
+      "doc_numpy_vectorization_c0"
+    ],
+    "supported": true,
+    "query_type": "short"
+  },
+  {
+    "id": "q015",
+    "category": "data_science",
+    "question": "What methods exist for imputing missing values in tabular data?",
+    "relevant_docs": [
+      "doc_data_cleaning_missing_outliers"
+    ],
+    "relevant_chunks": [
+      "doc_data_cleaning_missing_outliers_c0"
+    ],
+    "supported": true,
+    "query_type": "paraphrased"
+  },
+  {
+    "id": "q016",
+    "category": "machine_learning",
+    "question": "What is the bias-variance tradeoff in machine learning?",
+    "relevant_docs": [
+      "doc_bias_variance_tradeoff"
+    ],
+    "relevant_chunks": [
+      "doc_bias_variance_tradeoff_c0"
+    ],
+    "supported": true,
+    "query_type": "exact"
+  },
+  {
+    "id": "q017",
+    "category": "machine_learning",
+    "question": "How does Stochastic Gradient Descent differ from Batch Gradient Descent?",
+    "relevant_docs": [
+      "doc_gradient_descent_optimization"
+    ],
+    "relevant_chunks": [
+      "doc_gradient_descent_optimization_c0"
+    ],
+    "supported": true,
+    "query_type": "exact"
+  },
+  {
+    "id": "q018",
+    "category": "machine_learning",
+    "question": "What is the key difference between L1 Lasso and L2 Ridge regularization?",
+    "relevant_docs": [
+      "doc_regularization_l1_l2"
+    ],
+    "relevant_chunks": [
+      "doc_regularization_l1_l2_c0"
+    ],
+    "supported": true,
+    "query_type": "exact"
+  },
+  {
+    "id": "q019",
+    "category": "machine_learning",
+    "question": "Why does L1 regularization cause sparsity while L2 regularization does not?",
+    "relevant_docs": [
+      "doc_regularization_l1_l2"
+    ],
+    "relevant_chunks": [
+      "doc_regularization_l1_l2_c0"
+    ],
+    "supported": true,
+    "query_type": "paraphrased"
+  },
+  {
+    "id": "q020",
+    "category": "machine_learning",
+    "question": "How do Random Forests build upon Bagging to reduce variance?",
+    "relevant_docs": [
+      "doc_ensemble_tree_methods"
+    ],
+    "relevant_chunks": [
+      "doc_ensemble_tree_methods_c0"
+    ],
+    "supported": true,
+    "query_type": "exact"
+  },
+  {
+    "id": "q021",
+    "category": "machine_learning",
+    "question": "Bias variance",
+    "relevant_docs": [
+      "doc_bias_variance_tradeoff"
+    ],
+    "relevant_chunks": [
+      "doc_bias_variance_tradeoff_c0"
+    ],
+    "supported": true,
+    "query_type": "short"
+  },
+  {
+    "id": "q022",
+    "category": "machine_learning",
+    "question": "Explain how boosting sequentially trains weak learners to correct previous residual errors.",
+    "relevant_docs": [
+      "doc_ensemble_tree_methods"
+    ],
+    "relevant_chunks": [
+      "doc_ensemble_tree_methods_c0"
+    ],
+    "supported": true,
+    "query_type": "long"
+  },
+  {
+    "id": "q023",
+    "category": "deep_learning",
+    "question": "How does the backpropagation algorithm compute gradients in neural networks?",
+    "relevant_docs": [
+      "doc_neural_networks_backpropagation"
+    ],
+    "relevant_chunks": [
+      "doc_neural_networks_backpropagation_c0"
+    ],
+    "supported": true,
+    "query_type": "exact"
+  },
+  {
+    "id": "q024",
+    "category": "deep_learning",
+    "question": "Why does the ReLU activation function help prevent vanishing gradients?",
+    "relevant_docs": [
+      "doc_activations_vanishing_gradients"
+    ],
+    "relevant_chunks": [
+      "doc_activations_vanishing_gradients_c0"
+    ],
+    "supported": true,
+    "query_type": "exact"
+  },
+  {
+    "id": "q025",
+    "category": "deep_learning",
+    "question": "What is the purpose of Batch Normalization in deep architectures?",
+    "relevant_docs": [
+      "doc_optimizers_batchnorm"
+    ],
+    "relevant_chunks": [
+      "doc_optimizers_batchnorm_c0"
+    ],
+    "supported": true,
+    "query_type": "exact"
+  },
+  {
+    "id": "q026",
+    "category": "deep_learning",
+    "question": "Explain the scaled dot-product attention formula in Transformers.",
+    "relevant_docs": [
+      "doc_transformers_self_attention"
+    ],
+    "relevant_chunks": [
+      "doc_transformers_self_attention_c0"
+    ],
+    "supported": true,
+    "query_type": "exact"
+  },
+  {
+    "id": "q027",
+    "category": "deep_learning",
+    "question": "Why is the dot product divided by the square root of d_k in Transformer attention?",
+    "relevant_docs": [
+      "doc_transformers_self_attention"
+    ],
+    "relevant_chunks": [
+      "doc_transformers_self_attention_c0"
+    ],
+    "supported": true,
+    "query_type": "paraphrased"
+  },
+  {
+    "id": "q028",
+    "category": "deep_learning",
+    "question": "Adam optimizer momentum moments",
+    "relevant_docs": [
+      "doc_optimizers_batchnorm"
+    ],
+    "relevant_chunks": [
+      "doc_optimizers_batchnorm_c0"
+    ],
+    "supported": true,
+    "query_type": "short"
+  },
+  {
+    "id": "q029",
+    "category": "computer_vision",
+    "question": "How do convolutional layers achieve parameter sharing?",
+    "relevant_docs": [
+      "doc_convolutional_neural_networks"
+    ],
+    "relevant_chunks": [
+      "doc_convolutional_neural_networks_c0"
+    ],
+    "supported": true,
+    "query_type": "exact"
+  },
+  {
+    "id": "q030",
+    "category": "computer_vision",
+    "question": "How do residual connections in ResNet solve the degradation problem?",
+    "relevant_docs": [
+      "doc_residual_networks"
+    ],
+    "relevant_chunks": [
+      "doc_residual_networks_c0"
+    ],
+    "supported": true,
+    "query_type": "exact"
+  },
+  {
+    "id": "q031",
+    "category": "computer_vision",
+    "question": "What is the architectural difference between two-stage and one-stage object detectors?",
+    "relevant_docs": [
+      "doc_object_detection_architectures"
+    ],
+    "relevant_chunks": [
+      "doc_object_detection_architectures_c0"
+    ],
+    "supported": true,
+    "query_type": "exact"
+  },
+  {
+    "id": "q032",
+    "category": "computer_vision",
+    "question": "How does Non-Maximum Suppression (NMS) eliminate redundant bounding boxes?",
+    "relevant_docs": [
+      "doc_detection_metrics_nms"
+    ],
+    "relevant_chunks": [
+      "doc_detection_metrics_nms_c0"
+    ],
+    "supported": true,
+    "query_type": "exact"
+  },
+  {
+    "id": "q033",
+    "category": "computer_vision",
+    "question": "What is Intersection over Union (IoU) in object detection?",
+    "relevant_docs": [
+      "doc_detection_metrics_nms"
+    ],
+    "relevant_chunks": [
+      "doc_detection_metrics_nms_c0"
+    ],
+    "supported": true,
+    "query_type": "exact"
+  },
+  {
+    "id": "q034",
+    "category": "computer_vision",
+    "question": "YOLO vs Faster R-CNN detection speed",
+    "relevant_docs": [
+      "doc_object_detection_architectures"
+    ],
+    "relevant_chunks": [
+      "doc_object_detection_architectures_c0"
+    ],
+    "supported": true,
+    "query_type": "short"
+  },
+  {
+    "id": "q035",
+    "category": "nlp",
+    "question": "What are subword tokenization algorithms like BPE and WordPiece?",
+    "relevant_docs": [
+      "doc_tokenization_subword_algorithms"
+    ],
+    "relevant_chunks": [
+      "doc_tokenization_subword_algorithms_c0"
+    ],
+    "supported": true,
+    "query_type": "exact"
+  },
+  {
+    "id": "q036",
+    "category": "nlp",
+    "question": "How is TF-IDF calculated and what does it measure?",
+    "relevant_docs": [
+      "doc_statistical_nlp_tfidf"
+    ],
+    "relevant_chunks": [
+      "doc_statistical_nlp_tfidf_c0"
+    ],
+    "supported": true,
+    "query_type": "exact"
+  },
+  {
+    "id": "q037",
+    "category": "nlp",
+    "question": "What is the difference between CBOW and Skip-gram in Word2Vec?",
+    "relevant_docs": [
+      "doc_dense_embeddings_word2vec"
+    ],
+    "relevant_chunks": [
+      "doc_dense_embeddings_word2vec_c0"
+    ],
+    "supported": true,
+    "query_type": "exact"
+  },
+  {
+    "id": "q038",
+    "category": "nlp",
+    "question": "What is Retrieval-Augmented Generation (RAG) and why is it needed?",
+    "relevant_docs": [
+      "doc_retrieval_augmented_generation"
+    ],
+    "relevant_chunks": [
+      "doc_retrieval_augmented_generation_c0"
+    ],
+    "supported": true,
+    "query_type": "exact"
+  },
+  {
+    "id": "q039",
+    "category": "nlp",
+    "question": "How does RAG mitigate hallucination in large language models?",
+    "relevant_docs": [
+      "doc_retrieval_augmented_generation"
+    ],
+    "relevant_chunks": [
+      "doc_retrieval_augmented_generation_c0"
+    ],
+    "supported": true,
+    "query_type": "paraphrased"
+  },
+  {
+    "id": "q040",
+    "category": "nlp",
+    "question": "TF-IDF formula inverse document frequency",
+    "relevant_docs": [
+      "doc_statistical_nlp_tfidf"
+    ],
+    "relevant_chunks": [
+      "doc_statistical_nlp_tfidf_c0"
+    ],
+    "supported": true,
+    "query_type": "short"
+  },
+  {
+    "id": "q041",
+    "category": "dbms",
+    "question": "What are the ACID properties in database transactions?",
+    "relevant_docs": [
+      "doc_acid_transactions_wal"
+    ],
+    "relevant_chunks": [
+      "doc_acid_transactions_wal_c0"
+    ],
+    "supported": true,
+    "query_type": "exact"
+  },
+  {
+    "id": "q042",
+    "category": "dbms",
+    "question": "How does Write-Ahead Logging (WAL) guarantee durability?",
+    "relevant_docs": [
+      "doc_acid_transactions_wal"
+    ],
+    "relevant_chunks": [
+      "doc_acid_transactions_wal_c0"
+    ],
+    "supported": true,
+    "query_type": "exact"
+  },
+  {
+    "id": "q043",
+    "category": "dbms",
+    "question": "What is Third Normal Form (3NF) in database normalization?",
+    "relevant_docs": [
+      "doc_relational_normalization"
+    ],
+    "relevant_chunks": [
+      "doc_relational_normalization_c0"
+    ],
+    "supported": true,
+    "query_type": "exact"
+  },
+  {
+    "id": "q044",
+    "category": "dbms",
+    "question": "Why are B+Trees preferred over standard B-Trees for database indexing?",
+    "relevant_docs": [
+      "doc_database_indexes_btrees"
+    ],
+    "relevant_chunks": [
+      "doc_database_indexes_btrees_c0"
+    ],
+    "supported": true,
+    "query_type": "exact"
+  },
+  {
+    "id": "q045",
+    "category": "dbms",
+    "question": "What is the difference between a Hash Join and a Nested Loop Join?",
+    "relevant_docs": [
+      "doc_sql_joins_query_optimization"
+    ],
+    "relevant_chunks": [
+      "doc_sql_joins_query_optimization_c0"
+    ],
+    "supported": true,
+    "query_type": "exact"
+  },
+  {
+    "id": "q046",
+    "category": "dbms",
+    "question": "Explain the difference between 2NF and 3NF regarding partial vs transitive dependencies.",
+    "relevant_docs": [
+      "doc_relational_normalization"
+    ],
+    "relevant_chunks": [
+      "doc_relational_normalization_c0"
+    ],
+    "supported": true,
+    "query_type": "paraphrased"
+  },
+  {
+    "id": "q047",
+    "category": "dbms",
+    "question": "3NF database normalization",
+    "relevant_docs": [
+      "doc_relational_normalization"
+    ],
+    "relevant_chunks": [
+      "doc_relational_normalization_c0"
+    ],
+    "supported": true,
+    "query_type": "short"
+  },
+  {
+    "id": "q048",
+    "category": "dbms",
+    "question": "Can you elaborate on how relational database query optimizers choose between hash joins and merge joins?",
+    "relevant_docs": [
+      "doc_sql_joins_query_optimization"
+    ],
+    "relevant_chunks": [
+      "doc_sql_joins_query_optimization_c0"
+    ],
+    "supported": true,
+    "query_type": "long"
+  },
+  {
+    "id": "q049",
+    "category": "general",
+    "question": "Who won the Martian Olympics 100m sprint in the year 2099?",
+    "relevant_docs": [],
+    "relevant_chunks": [],
+    "supported": false,
+    "query_type": "out_of_domain"
+  },
+  {
+    "id": "q050",
+    "category": "general",
+    "question": "What is the attendance policy of the Hogwarts School of Witchcraft and Wizardry?",
+    "relevant_docs": [],
+    "relevant_chunks": [],
+    "supported": false,
+    "query_type": "out_of_domain"
+  },
+  {
+    "id": "q051",
+    "category": "general",
+    "question": "How do you manufacture vibranium armor using quantum plasma torches?",
+    "relevant_docs": [],
+    "relevant_chunks": [],
+    "supported": false,
+    "query_type": "out_of_domain"
+  },
+  {
+    "id": "q052",
+    "category": "general",
+    "question": "What is the chemical composition of spice melange on planet Arrakis?",
+    "relevant_docs": [],
+    "relevant_chunks": [],
+    "supported": false,
+    "query_type": "out_of_domain"
+  },
+  {
+    "id": "q053",
+    "category": "general",
+    "question": "Explain the warp drive antimatter dilution ratio for starships.",
+    "relevant_docs": [],
+    "relevant_chunks": [],
+    "supported": false,
+    "query_type": "out_of_domain"
+  },
+  {
+    "id": "q054",
+    "category": "general",
+    "question": "Who was elected Emperor of Antarctica in 1912?",
+    "relevant_docs": [],
+    "relevant_chunks": [],
+    "supported": false,
+    "query_type": "out_of_domain"
+  },
+  {
+    "id": "q055",
+    "category": "general",
+    "question": "What is the exact recipe for Pan-Galactic Gargle Blaster in Python?",
+    "relevant_docs": [],
+    "relevant_chunks": [],
+    "supported": false,
+    "query_type": "out_of_domain"
+  },
+  {
+    "id": "q056",
+    "category": "general",
+    "question": "Which programming language was created by subterranean Mole people in 1845?",
+    "relevant_docs": [],
+    "relevant_chunks": [],
+    "supported": false,
+    "query_type": "out_of_domain"
+  },
+  {
+    "id": "q057",
+    "category": "general",
+    "question": "What are the tax filing rules for time travelers visiting ancient Rome?",
+    "relevant_docs": [],
+    "relevant_chunks": [],
+    "supported": false,
+    "query_type": "out_of_domain"
+  },
+  {
+    "id": "q058",
+    "category": "general",
+    "question": "Explain the hyperspace navigation protocol for Cygnus space freighters.",
+    "relevant_docs": [],
+    "relevant_chunks": [],
+    "supported": false,
+    "query_type": "out_of_domain"
+  },
+  {
+    "id": "q059",
+    "category": "general",
+    "question": "Who holds the world record for breathing underwater on Jupiter?",
+    "relevant_docs": [],
+    "relevant_chunks": [],
+    "supported": false,
+    "query_type": "out_of_domain"
+  },
+  {
+    "id": "q060",
+    "category": "general",
+    "question": "What is the internal clock speed of a positronic brain in Cybertron robots?",
+    "relevant_docs": [],
+    "relevant_chunks": [],
+    "supported": false,
+    "query_type": "out_of_domain"
+  }
+]

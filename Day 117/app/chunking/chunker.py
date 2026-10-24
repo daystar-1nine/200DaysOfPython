@@ -165,17 +165,16 @@ class TextChunker:
 
     def _chunk_sentences(self, text: str, chunk_size: int, overlap: int):
         """
-        Splits by sentences and bundles them until chunk_size (in words) is approached.
+        Splits by sentences and bundles them until chunk_size (in characters) is approached,
+        preserving sentence integrity.
         """
         # Split on sentence terminals while keeping punctuation
-        sentences = re.split(r"(?<=[.!?])\s+", text)
+        sentences = [s.strip() for s in re.split(r"(?<=[.!?])\s+", text) if s.strip()]
         if len(sentences) <= 1:
-            # Fall back to word chunker if no distinct sentences
-            return self._chunk_words(text, chunk_size, overlap)
+            # Fall back to character chunker if no distinct sentences
+            return self._chunk_characters(text, chunk_size, overlap)
 
         chunks, spans = [], []
-        curr_sentences = []
-        curr_word_count = 0
 
         # Build sentence character spans
         s_spans = []
@@ -192,11 +191,11 @@ class TextChunker:
         i = 0
         while i < len(sentences):
             s = sentences[i]
-            s_words = len(s.split())
-            
-            # If a single sentence is larger than chunk_size, word-chunk it directly
-            if s_words >= chunk_size:
-                sub_chunks, sub_spans = self._chunk_words(s, chunk_size, overlap)
+            s_len = len(s)
+
+            # If a single sentence is larger than chunk_size, character-chunk it directly
+            if s_len >= chunk_size:
+                sub_chunks, sub_spans = self._chunk_characters(s, chunk_size, overlap)
                 offset = s_spans[i][0]
                 for sc, (s_start, s_end) in zip(sub_chunks, sub_spans):
                     chunks.append(sc)
@@ -206,17 +205,17 @@ class TextChunker:
 
             # Build window
             window = [s]
-            w_count = s_words
+            curr_char_count = s_len
             start_s_idx = i
             j = i + 1
 
             while j < len(sentences):
                 next_s = sentences[j]
-                next_count = len(next_s.split())
-                if w_count + next_count > chunk_size:
+                next_len = len(next_s)
+                if curr_char_count + next_len + 1 > chunk_size:
                     break
                 window.append(next_s)
-                w_count += next_count
+                curr_char_count += next_len + 1
                 j += 1
 
             chunk_str = " ".join(window)
@@ -228,13 +227,13 @@ class TextChunker:
             if j >= len(sentences):
                 break
 
-            # Calculate advance step based on overlap in words
-            overlap_words = 0
+            # Calculate advance step based on overlap in characters
+            ov_chars = 0
             backtrack = j
-            while backtrack > start_s_idx + 1 and overlap_words < overlap:
+            while backtrack > start_s_idx + 1 and ov_chars < overlap:
                 backtrack -= 1
-                overlap_words += len(sentences[backtrack].split())
-            
+                ov_chars += len(sentences[backtrack]) + 1
+
             i = max(start_s_idx + 1, backtrack)
 
         return chunks, spans

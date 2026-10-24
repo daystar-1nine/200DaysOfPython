@@ -50,15 +50,31 @@ class RAGEvaluator:
 
         retrieved_cids = [r.chunk.metadata.chunk_id for r in response.retrieved_chunks]
 
+        # Build effective relevant targets (chunk IDs and document IDs)
+        target_set = set(relevant_chunks) | set(item.get("relevant_docs", []))
+        eval_relevant = list(target_set) if target_set else []
+
+        # Map retrieved chunks to target IDs when document-level match occurs
+        eval_retrieved = []
+        for r in response.retrieved_chunks:
+            cid = r.chunk.metadata.chunk_id
+            did = r.chunk.metadata.document_id
+            if cid in target_set:
+                eval_retrieved.append(cid)
+            elif did in target_set:
+                eval_retrieved.append(did)
+            else:
+                eval_retrieved.append(cid)
+
         # 1. Retrieval Metrics
-        p1 = precision_at_k(retrieved_cids, relevant_chunks, k=1)
-        p3 = precision_at_k(retrieved_cids, relevant_chunks, k=min(3, top_k))
-        p5 = precision_at_k(retrieved_cids, relevant_chunks, k=min(5, top_k))
-        r1 = recall_at_k(retrieved_cids, relevant_chunks, k=1)
-        r3 = recall_at_k(retrieved_cids, relevant_chunks, k=min(3, top_k))
-        r5 = recall_at_k(retrieved_cids, relevant_chunks, k=min(5, top_k))
-        rr = reciprocal_rank(retrieved_cids, relevant_chunks)
-        hit5 = hit_rate_at_k(retrieved_cids, relevant_chunks, k=min(5, top_k))
+        p1 = precision_at_k(eval_retrieved, eval_relevant, k=1)
+        p3 = precision_at_k(eval_retrieved, eval_relevant, k=min(3, top_k))
+        p5 = precision_at_k(eval_retrieved, eval_relevant, k=min(5, top_k))
+        r1 = recall_at_k(eval_retrieved, eval_relevant, k=1)
+        r3 = recall_at_k(eval_retrieved, eval_relevant, k=min(3, top_k))
+        r5 = recall_at_k(eval_retrieved, eval_relevant, k=min(5, top_k))
+        rr = reciprocal_rank(eval_retrieved, eval_relevant)
+        hit5 = hit_rate_at_k(eval_retrieved, eval_relevant, k=min(5, top_k))
 
         # 2. Grounding & Faithfulness
         grounding_res = evaluate_grounding(

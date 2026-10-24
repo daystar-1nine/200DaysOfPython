@@ -1,0 +1,1766 @@
+{
+  "dimension": 64,
+  "count": 110,
+  "chunks": [
+    {
+      "text": "# Convolutional Neural Networks (CNNs) and Spatial Feature Hierarchies\n\nConvolutional Neural Networks process visual grid data by applying localized 2D filter kernels across spatial dimensions. Convolutions preserve 2D spatial topology and leverage weight sharing, drastically reducing parameter counts compared to fully connected networks.",
+      "metadata": {
+        "chunk_id": "doc_convolutional_neural_networks_c0",
+        "document_id": "doc_convolutional_neural_networks",
+        "chunk_index": 0,
+        "title": "Convolutional Neural Networks (CNNs) and Spatial Feature Hierarchies",
+        "category": "computer_vision",
+        "start_char": 0,
+        "end_char": 340,
+        "token_count": 42,
+        "word_count": 42,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\computer_vision\\convolutional_neural_networks.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "Convolutions preserve 2D spatial topology and leverage weight sharing, drastically reducing parameter counts compared to fully connected networks. Deeper layers capture increasingly abstract hierarchical features, progressing from low-level edges and textures to complex object parts.",
+      "metadata": {
+        "chunk_id": "doc_convolutional_neural_networks_c1",
+        "document_id": "doc_convolutional_neural_networks",
+        "chunk_index": 1,
+        "title": "Convolutional Neural Networks (CNNs) and Spatial Feature Hierarchies",
+        "category": "computer_vision",
+        "start_char": 194,
+        "end_char": 478,
+        "token_count": 36,
+        "word_count": 36,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\computer_vision\\convolutional_neural_networks.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "Deeper layers capture increasingly abstract hierarchical features, progressing from low-level edges and textures to complex object parts. Pooling layers (such as Max Pooling and Average Pooling) downsample spatial feature maps, conferring translation invariance and expanding the effective receptive field of subsequent convolutional layers.",
+      "metadata": {
+        "chunk_id": "doc_convolutional_neural_networks_c2",
+        "document_id": "doc_convolutional_neural_networks",
+        "chunk_index": 2,
+        "title": "Convolutional Neural Networks (CNNs) and Spatial Feature Hierarchies",
+        "category": "computer_vision",
+        "start_char": 341,
+        "end_char": 683,
+        "token_count": 44,
+        "word_count": 44,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\computer_vision\\convolutional_neural_networks.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "Pooling layers (such as Max Pooling and Average Pooling) downsample spatial feature maps, conferring translation invariance and expanding the effective receptive field of subsequent convolutional layers. Strided convolutions can also perform spatial downsampling while learning parameterized decimation kernels.",
+      "metadata": {
+        "chunk_id": "doc_convolutional_neural_networks_c3",
+        "document_id": "doc_convolutional_neural_networks",
+        "chunk_index": 3,
+        "title": "Convolutional Neural Networks (CNNs) and Spatial Feature Hierarchies",
+        "category": "computer_vision",
+        "start_char": 480,
+        "end_char": 791,
+        "token_count": 38,
+        "word_count": 38,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\computer_vision\\convolutional_neural_networks.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "# Detection Evaluation Metrics: IoU, NMS, and mAP\n\nIntersection over Union (IoU) measures spatial overlap by dividing the area of overlap by the area of union between two bounding boxes: IoU = Area(A cap B) / Area(A cup B). An IoU threshold of 0.5 or 0.7 determines whether a predicted bounding box is considered a True Positive.",
+      "metadata": {
+        "chunk_id": "doc_detection_metrics_nms_c0",
+        "document_id": "doc_detection_metrics_nms",
+        "chunk_index": 0,
+        "title": "Detection Evaluation Metrics: IoU, NMS, and mAP",
+        "category": "computer_vision",
+        "start_char": 0,
+        "end_char": 329,
+        "token_count": 58,
+        "word_count": 58,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\computer_vision\\detection_metrics_nms.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "An IoU threshold of 0.5 or 0.7 determines whether a predicted bounding box is considered a True Positive. Non-Maximum Suppression (NMS) eliminates duplicate candidate boxes for the same physical object. NMS greedily selects the highest-scoring candidate box and discards all neighboring boxes whose IoU overlap exceeds a predefined threshold.",
+      "metadata": {
+        "chunk_id": "doc_detection_metrics_nms_c1",
+        "document_id": "doc_detection_metrics_nms",
+        "chunk_index": 1,
+        "title": "Detection Evaluation Metrics: IoU, NMS, and mAP",
+        "category": "computer_vision",
+        "start_char": 224,
+        "end_char": 567,
+        "token_count": 53,
+        "word_count": 53,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\computer_vision\\detection_metrics_nms.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "NMS greedily selects the highest-scoring candidate box and discards all neighboring boxes whose IoU overlap exceeds a predefined threshold. Mean Average Precision (mAP) evaluates overall detector performance by averaging precision across recall levels and semantic categories (e.g. mAP@0.5 and mAP@0.5:0.95).",
+      "metadata": {
+        "chunk_id": "doc_detection_metrics_nms_c2",
+        "document_id": "doc_detection_metrics_nms",
+        "chunk_index": 2,
+        "title": "Detection Evaluation Metrics: IoU, NMS, and mAP",
+        "category": "computer_vision",
+        "start_char": 428,
+        "end_char": 736,
+        "token_count": 48,
+        "word_count": 48,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\computer_vision\\detection_metrics_nms.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "# Object Detection: Two-Stage vs One-Stage Detectors\n\nObject detection identifies spatial bounding boxes and semantic class labels for multiple objects in an image. Two-stage detectors (such as Faster R-CNN) first generate sparse candidate regions of interest using a Region Proposal Network (RPN) and subsequently classify and refine bounding box coordinates using RoI pooling or RoIAlign.",
+      "metadata": {
+        "chunk_id": "doc_object_detection_architectures_c0",
+        "document_id": "doc_object_detection_architectures",
+        "chunk_index": 0,
+        "title": "Object Detection: Two-Stage vs One-Stage Detectors",
+        "category": "computer_vision",
+        "start_char": 0,
+        "end_char": 390,
+        "token_count": 58,
+        "word_count": 58,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\computer_vision\\object_detection_architectures.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "Two-stage detectors (such as Faster R-CNN) first generate sparse candidate regions of interest using a Region Proposal Network (RPN) and subsequently classify and refine bounding box coordinates using RoI pooling or RoIAlign.",
+      "metadata": {
+        "chunk_id": "doc_object_detection_architectures_c1",
+        "document_id": "doc_object_detection_architectures",
+        "chunk_index": 1,
+        "title": "Object Detection: Two-Stage vs One-Stage Detectors",
+        "category": "computer_vision",
+        "start_char": 165,
+        "end_char": 390,
+        "token_count": 34,
+        "word_count": 34,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\computer_vision\\object_detection_architectures.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "One-stage detectors (such as YOLO - You Only Look Once, and SSD) frame detection as a single unified regression problem, predicting bounding boxes and class probabilities directly from dense feature map grids in a single forward pass.",
+      "metadata": {
+        "chunk_id": "doc_object_detection_architectures_c2",
+        "document_id": "doc_object_detection_architectures",
+        "chunk_index": 2,
+        "title": "Object Detection: Two-Stage vs One-Stage Detectors",
+        "category": "computer_vision",
+        "start_char": 392,
+        "end_char": 626,
+        "token_count": 37,
+        "word_count": 37,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\computer_vision\\object_detection_architectures.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "While two-stage detectors traditionally achieved higher localization accuracy, modern one-stage detectors achieve comparable accuracy at real-time inference speeds (exceeding 60 FPS).",
+      "metadata": {
+        "chunk_id": "doc_object_detection_architectures_c3",
+        "document_id": "doc_object_detection_architectures",
+        "chunk_index": 3,
+        "title": "Object Detection: Two-Stage vs One-Stage Detectors",
+        "category": "computer_vision",
+        "start_char": 627,
+        "end_char": 810,
+        "token_count": 24,
+        "word_count": 24,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\computer_vision\\object_detection_architectures.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "# Residual Networks (ResNets) and Identity Skip Connections\n\nPrior to Residual Networks (ResNets), stacking dozens of convolutional layers caused degradation in training accuracy due to optimization difficulties rather than overfitting. ResNets resolve this degradation by introducing identity skip connections (shortcut connections) where input x bypasses weight layers: F(x) + x.",
+      "metadata": {
+        "chunk_id": "doc_residual_networks_c0",
+        "document_id": "doc_residual_networks",
+        "chunk_index": 0,
+        "title": "Residual Networks (ResNets) and Identity Skip Connections",
+        "category": "computer_vision",
+        "start_char": 0,
+        "end_char": 381,
+        "token_count": 49,
+        "word_count": 49,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\computer_vision\\residual_networks.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "ResNets resolve this degradation by introducing identity skip connections (shortcut connections) where input x bypasses weight layers: F(x) + x. These residual paths allow gradients to flow directly backwards through the network without attenuation, enabling stable gradient backpropagation in architectures exceeding 100 or 1000 layers.",
+      "metadata": {
+        "chunk_id": "doc_residual_networks_c1",
+        "document_id": "doc_residual_networks",
+        "chunk_index": 1,
+        "title": "Residual Networks (ResNets) and Identity Skip Connections",
+        "category": "computer_vision",
+        "start_char": 237,
+        "end_char": 575,
+        "token_count": 45,
+        "word_count": 45,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\computer_vision\\residual_networks.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "These residual paths allow gradients to flow directly backwards through the network without attenuation, enabling stable gradient backpropagation in architectures exceeding 100 or 1000 layers. Bottleneck residual blocks use 1x1 convolutions before and after 3x3 convolutions to reduce and restore feature dimensions, minimizing computational cost while maximizing representational capacity.",
+      "metadata": {
+        "chunk_id": "doc_residual_networks_c2",
+        "document_id": "doc_residual_networks",
+        "chunk_index": 2,
+        "title": "Residual Networks (ResNets) and Identity Skip Connections",
+        "category": "computer_vision",
+        "start_char": 383,
+        "end_char": 773,
+        "token_count": 49,
+        "word_count": 49,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\computer_vision\\residual_networks.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "# Handling Missing Data and Outliers in Tabular Datasets\n\nReal-world datasets frequently contain missing values represented as NaN or None. Pandas provides .isna(), .fillna(), and .dropna() for missing value imputation and deletion.",
+      "metadata": {
+        "chunk_id": "doc_data_cleaning_missing_outliers_c0",
+        "document_id": "doc_data_cleaning_missing_outliers",
+        "chunk_index": 0,
+        "title": "Handling Missing Data and Outliers in Tabular Datasets",
+        "category": "data_science",
+        "start_char": 0,
+        "end_char": 232,
+        "token_count": 32,
+        "word_count": 32,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\data_science\\data_cleaning_missing_outliers.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "Pandas provides .isna(), .fillna(), and .dropna() for missing value imputation and deletion. Imputation strategies range from simple mean, median, or mode replacement to forward/backward filling for time series, and iterative algorithms like MICE (Multivariate Imputation by Chained Equations).",
+      "metadata": {
+        "chunk_id": "doc_data_cleaning_missing_outliers_c1",
+        "document_id": "doc_data_cleaning_missing_outliers",
+        "chunk_index": 1,
+        "title": "Handling Missing Data and Outliers in Tabular Datasets",
+        "category": "data_science",
+        "start_char": 140,
+        "end_char": 434,
+        "token_count": 39,
+        "word_count": 39,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\data_science\\data_cleaning_missing_outliers.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "Imputation strategies range from simple mean, median, or mode replacement to forward/backward filling for time series, and iterative algorithms like MICE (Multivariate Imputation by Chained Equations).",
+      "metadata": {
+        "chunk_id": "doc_data_cleaning_missing_outliers_c2",
+        "document_id": "doc_data_cleaning_missing_outliers",
+        "chunk_index": 2,
+        "title": "Handling Missing Data and Outliers in Tabular Datasets",
+        "category": "data_science",
+        "start_char": 233,
+        "end_char": 434,
+        "token_count": 27,
+        "word_count": 27,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\data_science\\data_cleaning_missing_outliers.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "Outliers are typically detected using parametric Z-scores (values beyond 3 standard deviations from the mean) or non-parametric Interquartile Range (IQR) fences (values outside Q1 - 1.5*IQR to Q3 + 1.5*IQR). Capping outliers via Winsorization or transforming skewed distributions via log or Box-Cox transformations prevents extreme values from distorting linear models.",
+      "metadata": {
+        "chunk_id": "doc_data_cleaning_missing_outliers_c3",
+        "document_id": "doc_data_cleaning_missing_outliers",
+        "chunk_index": 3,
+        "title": "Handling Missing Data and Outliers in Tabular Datasets",
+        "category": "data_science",
+        "start_char": 436,
+        "end_char": 805,
+        "token_count": 55,
+        "word_count": 55,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\data_science\\data_cleaning_missing_outliers.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "# NumPy Arrays, Vectorization, and SIMD Operations\n\nNumPy forms the fundamental numerical substrate of Python data science. The core ndarray object stores homogeneous, contiguous memory buffers, enabling vectorized arithmetic operations implemented in optimized C, Fortran, and BLAS/LAPACK routines.",
+      "metadata": {
+        "chunk_id": "doc_numpy_vectorization_c0",
+        "document_id": "doc_numpy_vectorization",
+        "chunk_index": 0,
+        "title": "NumPy Arrays, Vectorization, and SIMD Operations",
+        "category": "data_science",
+        "start_char": 0,
+        "end_char": 299,
+        "token_count": 38,
+        "word_count": 38,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\data_science\\numpy_vectorization.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "The core ndarray object stores homogeneous, contiguous memory buffers, enabling vectorized arithmetic operations implemented in optimized C, Fortran, and BLAS/LAPACK routines. Vectorization replaces explicit Python for-loops with SIMD (Single Instruction, Multiple Data) processor instructions, achieving orders-of-magnitude computational speedups.",
+      "metadata": {
+        "chunk_id": "doc_numpy_vectorization_c1",
+        "document_id": "doc_numpy_vectorization",
+        "chunk_index": 1,
+        "title": "NumPy Arrays, Vectorization, and SIMD Operations",
+        "category": "data_science",
+        "start_char": 124,
+        "end_char": 472,
+        "token_count": 42,
+        "word_count": 42,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\data_science\\numpy_vectorization.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "Vectorization replaces explicit Python for-loops with SIMD (Single Instruction, Multiple Data) processor instructions, achieving orders-of-magnitude computational speedups. NumPy broadcasting allows arithmetic operations between arrays of differing shapes by aligning dimensions from right to left. Two dimensions are compatible if they are equal or if one of them is 1.",
+      "metadata": {
+        "chunk_id": "doc_numpy_vectorization_c2",
+        "document_id": "doc_numpy_vectorization",
+        "chunk_index": 2,
+        "title": "NumPy Arrays, Vectorization, and SIMD Operations",
+        "category": "data_science",
+        "start_char": 300,
+        "end_char": 671,
+        "token_count": 52,
+        "word_count": 52,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\data_science\\numpy_vectorization.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "Two dimensions are compatible if they are equal or if one of them is 1. Singleton dimensions are conceptually repeated to match the target shape without copying underlying memory buffers, preserving cache efficiency.",
+      "metadata": {
+        "chunk_id": "doc_numpy_vectorization_c3",
+        "document_id": "doc_numpy_vectorization",
+        "chunk_index": 3,
+        "title": "NumPy Arrays, Vectorization, and SIMD Operations",
+        "category": "data_science",
+        "start_char": 600,
+        "end_char": 816,
+        "token_count": 33,
+        "word_count": 33,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\data_science\\numpy_vectorization.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "# Pandas Split-Apply-Combine and GroupBy Operations\n\nThe Split-Apply-Combine paradigm divides tabular datasets into discrete groups based on specified grouping keys, applies transformation or reduction functions to each group independently, and combines the results into a unified structure.",
+      "metadata": {
+        "chunk_id": "doc_pandas_groupby_aggregations_c0",
+        "document_id": "doc_pandas_groupby_aggregations",
+        "chunk_index": 0,
+        "title": "Pandas Split-Apply-Combine and GroupBy Operations",
+        "category": "data_science",
+        "start_char": 0,
+        "end_char": 291,
+        "token_count": 40,
+        "word_count": 40,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\data_science\\pandas_groupby_aggregations.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "The .groupby() method supports aggregate functions (mean, sum, count, std), transformations that retain the original DataFrame index, and filtering operations that discard entire groups failing specific predicate criteria. Rolling window calculations allow computing moving averages, rolling standard deviations, and cumulative sums across ordered temporal data.",
+      "metadata": {
+        "chunk_id": "doc_pandas_groupby_aggregations_c1",
+        "document_id": "doc_pandas_groupby_aggregations",
+        "chunk_index": 1,
+        "title": "Pandas Split-Apply-Combine and GroupBy Operations",
+        "category": "data_science",
+        "start_char": 292,
+        "end_char": 655,
+        "token_count": 45,
+        "word_count": 45,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\data_science\\pandas_groupby_aggregations.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "Rolling window calculations allow computing moving averages, rolling standard deviations, and cumulative sums across ordered temporal data. Combining groupby with rolling or expanding windows enables powerful localized statistical feature engineering for time series forecasting.",
+      "metadata": {
+        "chunk_id": "doc_pandas_groupby_aggregations_c2",
+        "document_id": "doc_pandas_groupby_aggregations",
+        "chunk_index": 2,
+        "title": "Pandas Split-Apply-Combine and GroupBy Operations",
+        "category": "data_science",
+        "start_char": 516,
+        "end_char": 795,
+        "token_count": 34,
+        "word_count": 34,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\data_science\\pandas_groupby_aggregations.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "# Pandas Indexing, Selection, and Memory Semantics\n\nPandas structures tabular data using DataFrames (2D tables) and Series (1D labelled arrays). Data selection distinguishes between label-based indexing with .loc[] and integer position-based indexing with .iloc[]. Using boolean masks allows intuitive row filtering based on complex conditional logic.",
+      "metadata": {
+        "chunk_id": "doc_pandas_indexing_selection_c0",
+        "document_id": "doc_pandas_indexing_selection",
+        "chunk_index": 0,
+        "title": "Pandas Indexing, Selection, and Memory Semantics",
+        "category": "data_science",
+        "start_char": 0,
+        "end_char": 351,
+        "token_count": 47,
+        "word_count": 47,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\data_science\\pandas_indexing_selection.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "Using boolean masks allows intuitive row filtering based on complex conditional logic. Chained assignment (such as df[mask]['col'] = val) triggers SettingWithCopyWarning because it is ambiguous whether a view or an in-memory copy was returned by the intermediate slice. Explicit assignment using .loc[mask, 'col'] = val guarantees reliable in-place mutation and avoids silent data corruption.",
+      "metadata": {
+        "chunk_id": "doc_pandas_indexing_selection_c1",
+        "document_id": "doc_pandas_indexing_selection",
+        "chunk_index": 1,
+        "title": "Pandas Indexing, Selection, and Memory Semantics",
+        "category": "data_science",
+        "start_char": 265,
+        "end_char": 658,
+        "token_count": 57,
+        "word_count": 57,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\data_science\\pandas_indexing_selection.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "# ACID Properties and Write-Ahead Logging in Relational Databases\n\nRelational database management systems (RDBMS) guarantee transactional reliability through ACID properties. Atomicity ensures that all operations in a transaction execute successfully or the entire transaction aborts with zero side effects.",
+      "metadata": {
+        "chunk_id": "doc_acid_transactions_wal_c0",
+        "document_id": "doc_acid_transactions_wal",
+        "chunk_index": 0,
+        "title": "ACID Properties and Write-Ahead Logging in Relational Databases",
+        "category": "dbms",
+        "start_char": 0,
+        "end_char": 307,
+        "token_count": 39,
+        "word_count": 39,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\dbms\\acid_transactions_wal.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "Atomicity ensures that all operations in a transaction execute successfully or the entire transaction aborts with zero side effects. Consistency guarantees that transactions transition the database from one valid state to another, preserving integrity constraints.",
+      "metadata": {
+        "chunk_id": "doc_acid_transactions_wal_c1",
+        "document_id": "doc_acid_transactions_wal",
+        "chunk_index": 1,
+        "title": "ACID Properties and Write-Ahead Logging in Relational Databases",
+        "category": "dbms",
+        "start_char": 175,
+        "end_char": 439,
+        "token_count": 35,
+        "word_count": 35,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\dbms\\acid_transactions_wal.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "Consistency guarantees that transactions transition the database from one valid state to another, preserving integrity constraints. Isolation ensures concurrent transactions execute without interference, governed by isolation levels: Read Uncommitted, Read Committed, Repeatable Read, and Serializable.",
+      "metadata": {
+        "chunk_id": "doc_acid_transactions_wal_c2",
+        "document_id": "doc_acid_transactions_wal",
+        "chunk_index": 2,
+        "title": "ACID Properties and Write-Ahead Logging in Relational Databases",
+        "category": "dbms",
+        "start_char": 308,
+        "end_char": 611,
+        "token_count": 35,
+        "word_count": 35,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\dbms\\acid_transactions_wal.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "Isolation ensures concurrent transactions execute without interference, governed by isolation levels: Read Uncommitted, Read Committed, Repeatable Read, and Serializable. Durability guarantees that committed modifications persist permanently even across catastrophic system crashes.",
+      "metadata": {
+        "chunk_id": "doc_acid_transactions_wal_c3",
+        "document_id": "doc_acid_transactions_wal",
+        "chunk_index": 3,
+        "title": "ACID Properties and Write-Ahead Logging in Relational Databases",
+        "category": "dbms",
+        "start_char": 441,
+        "end_char": 723,
+        "token_count": 31,
+        "word_count": 31,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\dbms\\acid_transactions_wal.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "Durability guarantees that committed modifications persist permanently even across catastrophic system crashes. Durability is implemented via Write-Ahead Logging (WAL), where log records describing modifications are flushed to non-volatile disk before dirty memory pages are written to the database data files.",
+      "metadata": {
+        "chunk_id": "doc_acid_transactions_wal_c4",
+        "document_id": "doc_acid_transactions_wal",
+        "chunk_index": 4,
+        "title": "ACID Properties and Write-Ahead Logging in Relational Databases",
+        "category": "dbms",
+        "start_char": 612,
+        "end_char": 922,
+        "token_count": 42,
+        "word_count": 42,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\dbms\\acid_transactions_wal.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "# Database Indexing: B-Trees, B+Trees, and Hash Indexes\n\nDatabase indexes accelerate record retrieval queries at the cost of additional write latency and storage overhead. The B+Tree index is the standard indexing structure for relational engines.",
+      "metadata": {
+        "chunk_id": "doc_database_indexes_btrees_c0",
+        "document_id": "doc_database_indexes_btrees",
+        "chunk_index": 0,
+        "title": "Database Indexing: B-Trees, B+Trees, and Hash Indexes",
+        "category": "dbms",
+        "start_char": 0,
+        "end_char": 247,
+        "token_count": 37,
+        "word_count": 37,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\dbms\\database_indexes_btrees.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "The B+Tree index is the standard indexing structure for relational engines. It maintains a balanced, multi-way search tree where internal nodes store guiding routing keys and leaf nodes store actual record pointers or table row data. B+Trees store all data pointers exclusively in leaf nodes, which are linked together in a bidirectional doubly-linked list.",
+      "metadata": {
+        "chunk_id": "doc_database_indexes_btrees_c1",
+        "document_id": "doc_database_indexes_btrees",
+        "chunk_index": 1,
+        "title": "Database Indexing: B-Trees, B+Trees, and Hash Indexes",
+        "category": "dbms",
+        "start_char": 172,
+        "end_char": 530,
+        "token_count": 58,
+        "word_count": 58,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\dbms\\database_indexes_btrees.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "B+Trees store all data pointers exclusively in leaf nodes, which are linked together in a bidirectional doubly-linked list. This architecture makes B+Trees exceptionally efficient for range scans, prefix searches, and ordered sorting (ORDER BY) in O(log N) time. In contrast, Hash Indexes provide O(1) point lookups based on bucket hashing but cannot support range queries or sorting.",
+      "metadata": {
+        "chunk_id": "doc_database_indexes_btrees_c2",
+        "document_id": "doc_database_indexes_btrees",
+        "chunk_index": 2,
+        "title": "Database Indexing: B-Trees, B+Trees, and Hash Indexes",
+        "category": "dbms",
+        "start_char": 407,
+        "end_char": 791,
+        "token_count": 62,
+        "word_count": 62,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\dbms\\database_indexes_btrees.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "# Relational Database Normalization: 1NF, 2NF, 3NF, and BCNF\n\nNormalization organizes database relational schemas to minimize data redundancy and prevent insertion, update, and deletion anomalies. First Normal Form (1NF) requires atomic attribute values and unique primary keys.",
+      "metadata": {
+        "chunk_id": "doc_relational_normalization_c0",
+        "document_id": "doc_relational_normalization",
+        "chunk_index": 0,
+        "title": "Relational Database Normalization: 1NF, 2NF, 3NF, and BCNF",
+        "category": "dbms",
+        "start_char": 0,
+        "end_char": 278,
+        "token_count": 36,
+        "word_count": 36,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\dbms\\relational_normalization.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "First Normal Form (1NF) requires atomic attribute values and unique primary keys. Second Normal Form (2NF) builds upon 1NF by eliminating partial dependencies, ensuring that all non-key attributes depend on the complete composite primary key.",
+      "metadata": {
+        "chunk_id": "doc_relational_normalization_c1",
+        "document_id": "doc_relational_normalization",
+        "chunk_index": 1,
+        "title": "Relational Database Normalization: 1NF, 2NF, 3NF, and BCNF",
+        "category": "dbms",
+        "start_char": 197,
+        "end_char": 439,
+        "token_count": 36,
+        "word_count": 36,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\dbms\\relational_normalization.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "Second Normal Form (2NF) builds upon 1NF by eliminating partial dependencies, ensuring that all non-key attributes depend on the complete composite primary key. Third Normal Form (3NF) eliminates transitive dependencies, requiring that non-key attributes depend only on candidate keys (no non-key attribute determines another non-key attribute).",
+      "metadata": {
+        "chunk_id": "doc_relational_normalization_c2",
+        "document_id": "doc_relational_normalization",
+        "chunk_index": 2,
+        "title": "Relational Database Normalization: 1NF, 2NF, 3NF, and BCNF",
+        "category": "dbms",
+        "start_char": 279,
+        "end_char": 625,
+        "token_count": 50,
+        "word_count": 50,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\dbms\\relational_normalization.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "Third Normal Form (3NF) eliminates transitive dependencies, requiring that non-key attributes depend only on candidate keys (no non-key attribute determines another non-key attribute). Boyce-Codd Normal Form (BCNF) strictly requires that for every functional dependency X -> Y, X must be a superkey.",
+      "metadata": {
+        "chunk_id": "doc_relational_normalization_c3",
+        "document_id": "doc_relational_normalization",
+        "chunk_index": 3,
+        "title": "Relational Database Normalization: 1NF, 2NF, 3NF, and BCNF",
+        "category": "dbms",
+        "start_char": 441,
+        "end_char": 740,
+        "token_count": 45,
+        "word_count": 45,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\dbms\\relational_normalization.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "Boyce-Codd Normal Form (BCNF) strictly requires that for every functional dependency X -> Y, X must be a superkey. Higher normal forms reduce anomalies at the expense of requiring additional SQL joins during retrieval.",
+      "metadata": {
+        "chunk_id": "doc_relational_normalization_c4",
+        "document_id": "doc_relational_normalization",
+        "chunk_index": 4,
+        "title": "Relational Database Normalization: 1NF, 2NF, 3NF, and BCNF",
+        "category": "dbms",
+        "start_char": 626,
+        "end_char": 844,
+        "token_count": 34,
+        "word_count": 34,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\dbms\\relational_normalization.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "# SQL Join Algorithms and Cost-Based Query Optimization\n\nRelational database engines combine records across tables using join operations. Inner Joins return matching rows from both relations; Left Outer Joins return all rows from the left relation with matching rows from the right relation (filling unmatched attributes with NULLs).",
+      "metadata": {
+        "chunk_id": "doc_sql_joins_query_optimization_c0",
+        "document_id": "doc_sql_joins_query_optimization",
+        "chunk_index": 0,
+        "title": "SQL Join Algorithms and Cost-Based Query Optimization",
+        "category": "dbms",
+        "start_char": 0,
+        "end_char": 333,
+        "token_count": 48,
+        "word_count": 48,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\dbms\\sql_joins_query_optimization.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "Inner Joins return matching rows from both relations; Left Outer Joins return all rows from the left relation with matching rows from the right relation (filling unmatched attributes with NULLs). The Cost-Based Query Optimizer evaluates alternative physical execution plans using catalog statistics (histograms, table row counts, index selectivity).",
+      "metadata": {
+        "chunk_id": "doc_sql_joins_query_optimization_c1",
+        "document_id": "doc_sql_joins_query_optimization",
+        "chunk_index": 1,
+        "title": "SQL Join Algorithms and Cost-Based Query Optimization",
+        "category": "dbms",
+        "start_char": 138,
+        "end_char": 488,
+        "token_count": 49,
+        "word_count": 49,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\dbms\\sql_joins_query_optimization.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "The Cost-Based Query Optimizer evaluates alternative physical execution plans using catalog statistics (histograms, table row counts, index selectivity).",
+      "metadata": {
+        "chunk_id": "doc_sql_joins_query_optimization_c2",
+        "document_id": "doc_sql_joins_query_optimization",
+        "chunk_index": 2,
+        "title": "SQL Join Algorithms and Cost-Based Query Optimization",
+        "category": "dbms",
+        "start_char": 335,
+        "end_char": 488,
+        "token_count": 19,
+        "word_count": 19,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\dbms\\sql_joins_query_optimization.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "It chooses between three fundamental join algorithms: Nested Loop Join (optimal when joining small subsets against an indexed table), Hash Join (optimal for large unindexed equijoins by building an in-memory hash table on the smaller relation), and Sort-Merge Join (optimal when both input relations are already sorted on the join key).",
+      "metadata": {
+        "chunk_id": "doc_sql_joins_query_optimization_c3",
+        "document_id": "doc_sql_joins_query_optimization",
+        "chunk_index": 3,
+        "title": "SQL Join Algorithms and Cost-Based Query Optimization",
+        "category": "dbms",
+        "start_char": 489,
+        "end_char": 825,
+        "token_count": 53,
+        "word_count": 53,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\dbms\\sql_joins_query_optimization.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "# Vanishing Gradients and Non-linear Activation Functions\n\nDuring backpropagation through deep neural networks, gradients can shrink exponentially if activation functions saturate.",
+      "metadata": {
+        "chunk_id": "doc_activations_vanishing_gradients_c0",
+        "document_id": "doc_activations_vanishing_gradients",
+        "chunk_index": 0,
+        "title": "Vanishing Gradients and Non-linear Activation Functions",
+        "category": "deep_learning",
+        "start_char": 0,
+        "end_char": 180,
+        "token_count": 21,
+        "word_count": 21,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\deep_learning\\activations_vanishing_gradients.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "Classical sigmoid and tanh activations compress inputs into bounded ranges where derivative magnitudes peak below 0.25 and 1.0 respectively; multiplying these fractional derivatives across many layers drives early gradients toward zero, halting learning.",
+      "metadata": {
+        "chunk_id": "doc_activations_vanishing_gradients_c1",
+        "document_id": "doc_activations_vanishing_gradients",
+        "chunk_index": 1,
+        "title": "Vanishing Gradients and Non-linear Activation Functions",
+        "category": "deep_learning",
+        "start_char": 181,
+        "end_char": 435,
+        "token_count": 35,
+        "word_count": 35,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\deep_learning\\activations_vanishing_gradients.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "The Rectified Linear Unit (ReLU) activation, defined as max(0, x), avoids vanishing gradients for positive inputs because its derivative is exactly 1.0. However, ReLU can suffer from the 'dying ReLU' phenomenon when neurons receive large negative updates and permanently output zero.",
+      "metadata": {
+        "chunk_id": "doc_activations_vanishing_gradients_c2",
+        "document_id": "doc_activations_vanishing_gradients",
+        "chunk_index": 2,
+        "title": "Vanishing Gradients and Non-linear Activation Functions",
+        "category": "deep_learning",
+        "start_char": 437,
+        "end_char": 720,
+        "token_count": 43,
+        "word_count": 43,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\deep_learning\\activations_vanishing_gradients.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "However, ReLU can suffer from the 'dying ReLU' phenomenon when neurons receive large negative updates and permanently output zero. Variants like LeakyReLU, Parametric ReLU (PReLU), and Gaussian Error Linear Units (GELU) provide smooth non-zero gradients for negative inputs.",
+      "metadata": {
+        "chunk_id": "doc_activations_vanishing_gradients_c3",
+        "document_id": "doc_activations_vanishing_gradients",
+        "chunk_index": 3,
+        "title": "Vanishing Gradients and Non-linear Activation Functions",
+        "category": "deep_learning",
+        "start_char": 590,
+        "end_char": 864,
+        "token_count": 39,
+        "word_count": 39,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\deep_learning\\activations_vanishing_gradients.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "# Artificial Neural Networks and the Backpropagation Algorithm\n\nArtificial neural networks compose layers of interconnected artificial neurons computing affine matrix transformations followed by non-linear activation functions: y = f(W*x + b). Multi-layer perceptrons (MLPs) act as universal function approximators capable of modeling non-linear decision boundaries.",
+      "metadata": {
+        "chunk_id": "doc_neural_networks_backpropagation_c0",
+        "document_id": "doc_neural_networks_backpropagation",
+        "chunk_index": 0,
+        "title": "Artificial Neural Networks and the Backpropagation Algorithm",
+        "category": "deep_learning",
+        "start_char": 0,
+        "end_char": 366,
+        "token_count": 47,
+        "word_count": 47,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\deep_learning\\neural_networks_backpropagation.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "Multi-layer perceptrons (MLPs) act as universal function approximators capable of modeling non-linear decision boundaries. The backpropagation algorithm calculates the partial derivatives of the scalar loss with respect to every weight and bias parameter in the network via the chain rule of calculus.",
+      "metadata": {
+        "chunk_id": "doc_neural_networks_backpropagation_c1",
+        "document_id": "doc_neural_networks_backpropagation",
+        "chunk_index": 1,
+        "title": "Artificial Neural Networks and the Backpropagation Algorithm",
+        "category": "deep_learning",
+        "start_char": 244,
+        "end_char": 546,
+        "token_count": 44,
+        "word_count": 44,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\deep_learning\\neural_networks_backpropagation.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "The backpropagation algorithm calculates the partial derivatives of the scalar loss with respect to every weight and bias parameter in the network via the chain rule of calculus. Error signals are propagated backwards from the output loss layer through hidden layers to input layers.",
+      "metadata": {
+        "chunk_id": "doc_neural_networks_backpropagation_c2",
+        "document_id": "doc_neural_networks_backpropagation",
+        "chunk_index": 2,
+        "title": "Artificial Neural Networks and the Backpropagation Algorithm",
+        "category": "deep_learning",
+        "start_char": 368,
+        "end_char": 651,
+        "token_count": 44,
+        "word_count": 44,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\deep_learning\\neural_networks_backpropagation.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "Error signals are propagated backwards from the output loss layer through hidden layers to input layers. Modern deep learning frameworks construct dynamic computation graphs during the forward pass to automatically compute and accumulate these gradients during the backward pass.",
+      "metadata": {
+        "chunk_id": "doc_neural_networks_backpropagation_c3",
+        "document_id": "doc_neural_networks_backpropagation",
+        "chunk_index": 3,
+        "title": "Artificial Neural Networks and the Backpropagation Algorithm",
+        "category": "deep_learning",
+        "start_char": 547,
+        "end_char": 826,
+        "token_count": 39,
+        "word_count": 39,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\deep_learning\\neural_networks_backpropagation.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "# Adaptive Optimization Algorithms and Batch Normalization\n\nModern deep neural networks rely on adaptive learning rate optimizers.",
+      "metadata": {
+        "chunk_id": "doc_optimizers_batchnorm_c0",
+        "document_id": "doc_optimizers_batchnorm",
+        "chunk_index": 0,
+        "title": "Adaptive Optimization Algorithms and Batch Normalization",
+        "category": "deep_learning",
+        "start_char": 0,
+        "end_char": 130,
+        "token_count": 16,
+        "word_count": 16,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\deep_learning\\optimizers_batchnorm.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "The Adam (Adaptive Moment Estimation) optimizer tracks exponential moving averages of both past gradients (first moment, momentum) and squared gradients (second moment, uncentered variance), providing adaptive per-parameter learning rate scaling and robust convergence across sparse gradients.",
+      "metadata": {
+        "chunk_id": "doc_optimizers_batchnorm_c1",
+        "document_id": "doc_optimizers_batchnorm",
+        "chunk_index": 1,
+        "title": "Adaptive Optimization Algorithms and Batch Normalization",
+        "category": "deep_learning",
+        "start_char": 131,
+        "end_char": 424,
+        "token_count": 37,
+        "word_count": 37,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\deep_learning\\optimizers_batchnorm.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "Batch Normalization (BatchNorm) normalizes activations across the mini-batch dimension during training: x_hat = (x - mean) / sqrt(var + eps), followed by learnable scale (gamma) and shift (beta) transformations. BatchNorm stabilizes internal covariate shift, smooths the optimization loss landscape, and allows significantly higher learning rates while acting as a mild regularizer.",
+      "metadata": {
+        "chunk_id": "doc_optimizers_batchnorm_c2",
+        "document_id": "doc_optimizers_batchnorm",
+        "chunk_index": 2,
+        "title": "Adaptive Optimization Algorithms and Batch Normalization",
+        "category": "deep_learning",
+        "start_char": 426,
+        "end_char": 808,
+        "token_count": 49,
+        "word_count": 49,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\deep_learning\\optimizers_batchnorm.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "# Transformer Self-Attention and Scaled Dot-Product Mechanics\n\nThe Transformer architecture eliminates recurrence, processing entire sequences concurrently using scaled dot-product attention: Attention(Q, K, V) = softmax((Q * K^T) / sqrt(d_k)) * V. Query (Q), Key (K), and Value (V) matrices are linearly projected from input token representations.",
+      "metadata": {
+        "chunk_id": "doc_transformers_self_attention_c0",
+        "document_id": "doc_transformers_self_attention",
+        "chunk_index": 0,
+        "title": "Transformer Self-Attention and Scaled Dot-Product Mechanics",
+        "category": "deep_learning",
+        "start_char": 0,
+        "end_char": 348,
+        "token_count": 48,
+        "word_count": 48,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\deep_learning\\transformers_self_attention.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "Query (Q), Key (K), and Value (V) matrices are linearly projected from input token representations. Dividing the dot product by sqrt(d_k) prevents large magnitudes in high-dimensional spaces from pushing the softmax function into regions with vanishingly small gradients.",
+      "metadata": {
+        "chunk_id": "doc_transformers_self_attention_c1",
+        "document_id": "doc_transformers_self_attention",
+        "chunk_index": 1,
+        "title": "Transformer Self-Attention and Scaled Dot-Product Mechanics",
+        "category": "deep_learning",
+        "start_char": 249,
+        "end_char": 520,
+        "token_count": 40,
+        "word_count": 40,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\deep_learning\\transformers_self_attention.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "Dividing the dot product by sqrt(d_k) prevents large magnitudes in high-dimensional spaces from pushing the softmax function into regions with vanishingly small gradients. Multi-head attention splits projections into multiple representation subspaces, enabling the model to attend simultaneously to syntactic, semantic, and positional dependencies across tokens.",
+      "metadata": {
+        "chunk_id": "doc_transformers_self_attention_c2",
+        "document_id": "doc_transformers_self_attention",
+        "chunk_index": 2,
+        "title": "Transformer Self-Attention and Scaled Dot-Product Mechanics",
+        "category": "deep_learning",
+        "start_char": 349,
+        "end_char": 712,
+        "token_count": 48,
+        "word_count": 48,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\deep_learning\\transformers_self_attention.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "Multi-head attention splits projections into multiple representation subspaces, enabling the model to attend simultaneously to syntactic, semantic, and positional dependencies across tokens. Positional encodings (sinusoidal or learned rotary RoPE embeddings) inject sequence order information into the permutation-invariant attention mechanism.",
+      "metadata": {
+        "chunk_id": "doc_transformers_self_attention_c3",
+        "document_id": "doc_transformers_self_attention",
+        "chunk_index": 3,
+        "title": "Transformer Self-Attention and Scaled Dot-Product Mechanics",
+        "category": "deep_learning",
+        "start_char": 522,
+        "end_char": 866,
+        "token_count": 41,
+        "word_count": 41,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\deep_learning\\transformers_self_attention.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "# The Bias-Variance Tradeoff in Supervised Learning\n\nThe bias-variance tradeoff governs generalization error in supervised learning. Bias measures the error originating from erroneous assumptions or over-simplifications in the model learning algorithm, leading to underfitting where the model fails to capture underlying data patterns.",
+      "metadata": {
+        "chunk_id": "doc_bias_variance_tradeoff_c0",
+        "document_id": "doc_bias_variance_tradeoff",
+        "chunk_index": 0,
+        "title": "The Bias-Variance Tradeoff in Supervised Learning",
+        "category": "machine_learning",
+        "start_char": 0,
+        "end_char": 335,
+        "token_count": 45,
+        "word_count": 45,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\machine_learning\\bias_variance_tradeoff.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "Bias measures the error originating from erroneous assumptions or over-simplifications in the model learning algorithm, leading to underfitting where the model fails to capture underlying data patterns. Variance measures the model's sensitivity to small fluctuations in the training dataset, leading to overfitting where the model memorizes noise rather than signal.",
+      "metadata": {
+        "chunk_id": "doc_bias_variance_tradeoff_c1",
+        "document_id": "doc_bias_variance_tradeoff",
+        "chunk_index": 1,
+        "title": "The Bias-Variance Tradeoff in Supervised Learning",
+        "category": "machine_learning",
+        "start_char": 133,
+        "end_char": 499,
+        "token_count": 52,
+        "word_count": 52,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\machine_learning\\bias_variance_tradeoff.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "Variance measures the model's sensitivity to small fluctuations in the training dataset, leading to overfitting where the model memorizes noise rather than signal. The total expected generalization error decomposes into Bias^2 + Variance + Irreducible Error.",
+      "metadata": {
+        "chunk_id": "doc_bias_variance_tradeoff_c2",
+        "document_id": "doc_bias_variance_tradeoff",
+        "chunk_index": 2,
+        "title": "The Bias-Variance Tradeoff in Supervised Learning",
+        "category": "machine_learning",
+        "start_char": 336,
+        "end_char": 595,
+        "token_count": 36,
+        "word_count": 36,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\machine_learning\\bias_variance_tradeoff.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "The total expected generalization error decomposes into Bias^2 + Variance + Irreducible Error. Highly flexible models (such as deep decision trees or unregularized neural networks) typically exhibit low bias but high variance, whereas rigid models (such as linear regression) exhibit high bias and low variance. Cross-validation and regularization help locate the optimal tradeoff point.",
+      "metadata": {
+        "chunk_id": "doc_bias_variance_tradeoff_c3",
+        "document_id": "doc_bias_variance_tradeoff",
+        "chunk_index": 3,
+        "title": "The Bias-Variance Tradeoff in Supervised Learning",
+        "category": "machine_learning",
+        "start_char": 501,
+        "end_char": 888,
+        "token_count": 54,
+        "word_count": 54,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\machine_learning\\bias_variance_tradeoff.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "# Ensemble Learning: Bagging, Random Forests, and Gradient Boosting\n\nEnsemble methods combine multiple base estimators to produce superior predictive accuracy and robustness. Bagging (Bootstrap Aggregating) trains diverse base models in parallel on independent bootstrap samples drawn with replacement from the training set, reducing variance without increasing bias.",
+      "metadata": {
+        "chunk_id": "doc_ensemble_tree_methods_c0",
+        "document_id": "doc_ensemble_tree_methods",
+        "chunk_index": 0,
+        "title": "Ensemble Learning: Bagging, Random Forests, and Gradient Boosting",
+        "category": "machine_learning",
+        "start_char": 0,
+        "end_char": 367,
+        "token_count": 46,
+        "word_count": 46,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\machine_learning\\ensemble_tree_methods.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "Bagging (Bootstrap Aggregating) trains diverse base models in parallel on independent bootstrap samples drawn with replacement from the training set, reducing variance without increasing bias. Random Forests extend bagging by additionally selecting random feature subsets at each tree split, de-correlating individual decision trees.",
+      "metadata": {
+        "chunk_id": "doc_ensemble_tree_methods_c1",
+        "document_id": "doc_ensemble_tree_methods",
+        "chunk_index": 1,
+        "title": "Ensemble Learning: Bagging, Random Forests, and Gradient Boosting",
+        "category": "machine_learning",
+        "start_char": 175,
+        "end_char": 508,
+        "token_count": 44,
+        "word_count": 44,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\machine_learning\\ensemble_tree_methods.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "Random Forests extend bagging by additionally selecting random feature subsets at each tree split, de-correlating individual decision trees. Boosting trains weak learners sequentially, where each successive estimator focuses on correcting the residual errors or misclassifications of preceding models.",
+      "metadata": {
+        "chunk_id": "doc_ensemble_tree_methods_c2",
+        "document_id": "doc_ensemble_tree_methods",
+        "chunk_index": 2,
+        "title": "Ensemble Learning: Bagging, Random Forests, and Gradient Boosting",
+        "category": "machine_learning",
+        "start_char": 368,
+        "end_char": 670,
+        "token_count": 39,
+        "word_count": 39,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\machine_learning\\ensemble_tree_methods.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "Boosting trains weak learners sequentially, where each successive estimator focuses on correcting the residual errors or misclassifications of preceding models.",
+      "metadata": {
+        "chunk_id": "doc_ensemble_tree_methods_c3",
+        "document_id": "doc_ensemble_tree_methods",
+        "chunk_index": 3,
+        "title": "Ensemble Learning: Bagging, Random Forests, and Gradient Boosting",
+        "category": "machine_learning",
+        "start_char": 510,
+        "end_char": 670,
+        "token_count": 20,
+        "word_count": 20,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\machine_learning\\ensemble_tree_methods.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "Modern gradient boosting frameworks like XGBoost, LightGBM, and CatBoost implement regularized objective functions, second-order Taylor approximations of the loss function, and histogram-based split finding for exceptional efficiency on tabular data.",
+      "metadata": {
+        "chunk_id": "doc_ensemble_tree_methods_c4",
+        "document_id": "doc_ensemble_tree_methods",
+        "chunk_index": 4,
+        "title": "Ensemble Learning: Bagging, Random Forests, and Gradient Boosting",
+        "category": "machine_learning",
+        "start_char": 671,
+        "end_char": 921,
+        "token_count": 32,
+        "word_count": 32,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\machine_learning\\ensemble_tree_methods.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "# Gradient Descent Optimization Algorithms in Machine Learning\n\nGradient descent minimizes empirical risk loss functions by iteratively updating parameter weights in the direction opposite to the gradient of the loss with respect to parameters: w = w - lr * grad.",
+      "metadata": {
+        "chunk_id": "doc_gradient_descent_optimization_c0",
+        "document_id": "doc_gradient_descent_optimization",
+        "chunk_index": 0,
+        "title": "Gradient Descent Optimization Algorithms in Machine Learning",
+        "category": "machine_learning",
+        "start_char": 0,
+        "end_char": 263,
+        "token_count": 37,
+        "word_count": 37,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\machine_learning\\gradient_descent_optimization.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "Batch Gradient Descent computes the exact gradient over the entire training corpus, ensuring smooth monotonic convergence but incurring heavy computational and memory costs for large datasets.",
+      "metadata": {
+        "chunk_id": "doc_gradient_descent_optimization_c1",
+        "document_id": "doc_gradient_descent_optimization",
+        "chunk_index": 1,
+        "title": "Gradient Descent Optimization Algorithms in Machine Learning",
+        "category": "machine_learning",
+        "start_char": 264,
+        "end_char": 456,
+        "token_count": 26,
+        "word_count": 26,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\machine_learning\\gradient_descent_optimization.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "Stochastic Gradient Descent (SGD) updates parameters using a single random sample per iteration, introducing high stochastic variance that aids in escaping shallow local minima but leads to noisy convergence paths. Mini-batch Gradient Descent balances both paradigms by computing gradients over small subsets (e.g.",
+      "metadata": {
+        "chunk_id": "doc_gradient_descent_optimization_c2",
+        "document_id": "doc_gradient_descent_optimization",
+        "chunk_index": 2,
+        "title": "Gradient Descent Optimization Algorithms in Machine Learning",
+        "category": "machine_learning",
+        "start_char": 458,
+        "end_char": 772,
+        "token_count": 45,
+        "word_count": 45,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\machine_learning\\gradient_descent_optimization.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "Mini-batch Gradient Descent balances both paradigms by computing gradients over small subsets (e.g. 32 to 256 samples), maximizing hardware GPU parallelism while providing robust gradient estimates.",
+      "metadata": {
+        "chunk_id": "doc_gradient_descent_optimization_c3",
+        "document_id": "doc_gradient_descent_optimization",
+        "chunk_index": 3,
+        "title": "Gradient Descent Optimization Algorithms in Machine Learning",
+        "category": "machine_learning",
+        "start_char": 673,
+        "end_char": 871,
+        "token_count": 28,
+        "word_count": 28,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\machine_learning\\gradient_descent_optimization.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "# Regularization Techniques: L1 Lasso and L2 Ridge\n\nRegularization prevents machine learning models from overfitting by penalizing large parameter weights in the optimization objective. L1 regularization (Lasso) adds the sum of absolute parameter weights to the loss function (lambda * sum(|w|)).",
+      "metadata": {
+        "chunk_id": "doc_regularization_l1_l2_c0",
+        "document_id": "doc_regularization_l1_l2",
+        "chunk_index": 0,
+        "title": "Regularization Techniques: L1 Lasso and L2 Ridge",
+        "category": "machine_learning",
+        "start_char": 0,
+        "end_char": 296,
+        "token_count": 40,
+        "word_count": 40,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\machine_learning\\regularization_l1_l2.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "L1 regularization (Lasso) adds the sum of absolute parameter weights to the loss function (lambda * sum(|w|)). Because the L1 penalty has non-differentiable sharp corners at zero, it drives non-essential coefficients exactly to zero, effectively performing embedded feature selection and producing sparse models.",
+      "metadata": {
+        "chunk_id": "doc_regularization_l1_l2_c1",
+        "document_id": "doc_regularization_l1_l2",
+        "chunk_index": 1,
+        "title": "Regularization Techniques: L1 Lasso and L2 Ridge",
+        "category": "machine_learning",
+        "start_char": 186,
+        "end_char": 498,
+        "token_count": 45,
+        "word_count": 45,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\machine_learning\\regularization_l1_l2.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "Because the L1 penalty has non-differentiable sharp corners at zero, it drives non-essential coefficients exactly to zero, effectively performing embedded feature selection and producing sparse models. L2 regularization (Ridge) adds the sum of squared parameter weights (lambda * sum(w^2)), shrinking coefficients continuously toward zero without eliminating them completely.",
+      "metadata": {
+        "chunk_id": "doc_regularization_l1_l2_c2",
+        "document_id": "doc_regularization_l1_l2",
+        "chunk_index": 2,
+        "title": "Regularization Techniques: L1 Lasso and L2 Ridge",
+        "category": "machine_learning",
+        "start_char": 297,
+        "end_char": 673,
+        "token_count": 51,
+        "word_count": 51,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\machine_learning\\regularization_l1_l2.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "L2 regularization (Ridge) adds the sum of squared parameter weights (lambda * sum(w^2)), shrinking coefficients continuously toward zero without eliminating them completely. Elastic Net combines both L1 and L2 penalties with a mixing ratio parameter, successfully handling correlated feature groups where Lasso might arbitrarily select only one predictor.",
+      "metadata": {
+        "chunk_id": "doc_regularization_l1_l2_c3",
+        "document_id": "doc_regularization_l1_l2",
+        "chunk_index": 3,
+        "title": "Regularization Techniques: L1 Lasso and L2 Ridge",
+        "category": "machine_learning",
+        "start_char": 500,
+        "end_char": 855,
+        "token_count": 49,
+        "word_count": 49,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\machine_learning\\regularization_l1_l2.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "# Dense Word Embeddings: Word2Vec, GloVe, and Semantic Geometry\n\nDense word embeddings represent vocabulary tokens as continuous, low-dimensional vectors (e.g. 100 to 768 dimensions) where semantically related words occupy proximate coordinates in geometric vector space.",
+      "metadata": {
+        "chunk_id": "doc_dense_embeddings_word2vec_c0",
+        "document_id": "doc_dense_embeddings_word2vec",
+        "chunk_index": 0,
+        "title": "Dense Word Embeddings: Word2Vec, GloVe, and Semantic Geometry",
+        "category": "nlp",
+        "start_char": 0,
+        "end_char": 271,
+        "token_count": 36,
+        "word_count": 36,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\nlp\\dense_embeddings_word2vec.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "100 to 768 dimensions) where semantically related words occupy proximate coordinates in geometric vector space. Word2Vec learns these representations using shallow neural architectures: Continuous Bag of Words (CBOW) predicts target center words from context windows, while Skip-gram predicts surrounding context words given a center word using negative sampling.",
+      "metadata": {
+        "chunk_id": "doc_dense_embeddings_word2vec_c1",
+        "document_id": "doc_dense_embeddings_word2vec",
+        "chunk_index": 1,
+        "title": "Dense Word Embeddings: Word2Vec, GloVe, and Semantic Geometry",
+        "category": "nlp",
+        "start_char": 160,
+        "end_char": 523,
+        "token_count": 49,
+        "word_count": 49,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\nlp\\dense_embeddings_word2vec.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "Word2Vec learns these representations using shallow neural architectures: Continuous Bag of Words (CBOW) predicts target center words from context windows, while Skip-gram predicts surrounding context words given a center word using negative sampling.",
+      "metadata": {
+        "chunk_id": "doc_dense_embeddings_word2vec_c2",
+        "document_id": "doc_dense_embeddings_word2vec",
+        "chunk_index": 2,
+        "title": "Dense Word Embeddings: Word2Vec, GloVe, and Semantic Geometry",
+        "category": "nlp",
+        "start_char": 272,
+        "end_char": 523,
+        "token_count": 34,
+        "word_count": 34,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\nlp\\dense_embeddings_word2vec.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "Dense embeddings exhibit linear semantic compositionality, famously demonstrated by vector arithmetic: vector('King') - vector('Man') + vector('Woman') \u2248 vector('Queen'). Global Vectors (GloVe) achieves comparable representations by factorizing global log-bilinear word co-occurrence matrices across the entire corpus.",
+      "metadata": {
+        "chunk_id": "doc_dense_embeddings_word2vec_c3",
+        "document_id": "doc_dense_embeddings_word2vec",
+        "chunk_index": 3,
+        "title": "Dense Word Embeddings: Word2Vec, GloVe, and Semantic Geometry",
+        "category": "nlp",
+        "start_char": 525,
+        "end_char": 843,
+        "token_count": 38,
+        "word_count": 38,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\nlp\\dense_embeddings_word2vec.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "# Retrieval-Augmented Generation (RAG) Architecture and Grounding\n\nRetrieval-Augmented Generation (RAG) combines neural information retrieval with autoregressive language generation.",
+      "metadata": {
+        "chunk_id": "doc_retrieval_augmented_generation_c0",
+        "document_id": "doc_retrieval_augmented_generation",
+        "chunk_index": 0,
+        "title": "Retrieval-Augmented Generation (RAG) Architecture and Grounding",
+        "category": "nlp",
+        "start_char": 0,
+        "end_char": 182,
+        "token_count": 19,
+        "word_count": 19,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\nlp\\retrieval_augmented_generation.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "Rather than relying solely on parametric knowledge memorized in neural network weights during pretraining, a RAG system dynamically retrieves non-parametric factual chunks from an external indexed document store based on the user query. The retrieved chunks are concatenated into a structured grounding prompt supplied to the language model.",
+      "metadata": {
+        "chunk_id": "doc_retrieval_augmented_generation_c1",
+        "document_id": "doc_retrieval_augmented_generation",
+        "chunk_index": 1,
+        "title": "Retrieval-Augmented Generation (RAG) Architecture and Grounding",
+        "category": "nlp",
+        "start_char": 183,
+        "end_char": 525,
+        "token_count": 49,
+        "word_count": 49,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\nlp\\retrieval_augmented_generation.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "The retrieved chunks are concatenated into a structured grounding prompt supplied to the language model. This decoupled design mitigates hallucinations, circumvents training knowledge cutoff limitations, protects private internal organizational data, and enables verifiable source attribution through explicit citation tags.",
+      "metadata": {
+        "chunk_id": "doc_retrieval_augmented_generation_c2",
+        "document_id": "doc_retrieval_augmented_generation",
+        "chunk_index": 2,
+        "title": "Retrieval-Augmented Generation (RAG) Architecture and Grounding",
+        "category": "nlp",
+        "start_char": 421,
+        "end_char": 745,
+        "token_count": 39,
+        "word_count": 39,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\nlp\\retrieval_augmented_generation.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "# Statistical Text Representation: TF-IDF and Bag-of-Words\n\nThe Bag-of-Words model represents text documents as unordered frequency histograms of constituent vocabulary tokens, discarding grammatical syntax and word order. Term Frequency-Inverse Document Frequency (TF-IDF) refines Bag-of-Words by weighting tokens according to their corpus-wide specificity.",
+      "metadata": {
+        "chunk_id": "doc_statistical_nlp_tfidf_c0",
+        "document_id": "doc_statistical_nlp_tfidf",
+        "chunk_index": 0,
+        "title": "Statistical Text Representation: TF-IDF and Bag-of-Words",
+        "category": "nlp",
+        "start_char": 0,
+        "end_char": 358,
+        "token_count": 51,
+        "word_count": 51,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\nlp\\statistical_nlp_tfidf.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "Term Frequency-Inverse Document Frequency (TF-IDF) refines Bag-of-Words by weighting tokens according to their corpus-wide specificity. Term Frequency (TF) measures how frequently a term appears in a given document: TF(t, d) = count(t, d) / total_words(d).",
+      "metadata": {
+        "chunk_id": "doc_statistical_nlp_tfidf_c1",
+        "document_id": "doc_statistical_nlp_tfidf",
+        "chunk_index": 1,
+        "title": "Statistical Text Representation: TF-IDF and Bag-of-Words",
+        "category": "nlp",
+        "start_char": 223,
+        "end_char": 480,
+        "token_count": 41,
+        "word_count": 41,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\nlp\\statistical_nlp_tfidf.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "Term Frequency (TF) measures how frequently a term appears in a given document: TF(t, d) = count(t, d) / total_words(d). Inverse Document Frequency (IDF) penalizes ubiquitous words (such as 'the' or 'is') that appear across almost all documents: IDF(t) = log(N / (df(t) + 1)).",
+      "metadata": {
+        "chunk_id": "doc_statistical_nlp_tfidf_c2",
+        "document_id": "doc_statistical_nlp_tfidf",
+        "chunk_index": 2,
+        "title": "Statistical Text Representation: TF-IDF and Bag-of-Words",
+        "category": "nlp",
+        "start_char": 360,
+        "end_char": 636,
+        "token_count": 46,
+        "word_count": 46,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\nlp\\statistical_nlp_tfidf.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "Inverse Document Frequency (IDF) penalizes ubiquitous words (such as 'the' or 'is') that appear across almost all documents: IDF(t) = log(N / (df(t) + 1)). The composite weight TF*IDF identifies distinctive domain keywords, creating high-dimensional sparse document vectors suitable for lexical search and text classification.",
+      "metadata": {
+        "chunk_id": "doc_statistical_nlp_tfidf_c3",
+        "document_id": "doc_statistical_nlp_tfidf",
+        "chunk_index": 3,
+        "title": "Statistical Text Representation: TF-IDF and Bag-of-Words",
+        "category": "nlp",
+        "start_char": 481,
+        "end_char": 807,
+        "token_count": 47,
+        "word_count": 47,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\nlp\\statistical_nlp_tfidf.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "# Subword Tokenization Algorithms in Modern NLP\n\nTokenization converts raw character strings into numerical token IDs suitable for neural models. Classical word-level tokenization struggles with out-of-vocabulary (OOV) terms and morphological variations, while character-level tokenization produces excessively long sequence lengths that stress attention mechanisms.",
+      "metadata": {
+        "chunk_id": "doc_tokenization_subword_algorithms_c0",
+        "document_id": "doc_tokenization_subword_algorithms",
+        "chunk_index": 0,
+        "title": "Subword Tokenization Algorithms in Modern NLP",
+        "category": "nlp",
+        "start_char": 0,
+        "end_char": 366,
+        "token_count": 46,
+        "word_count": 46,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\nlp\\tokenization_subword_algorithms.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "Classical word-level tokenization struggles with out-of-vocabulary (OOV) terms and morphological variations, while character-level tokenization produces excessively long sequence lengths that stress attention mechanisms. Modern NLP relies on subword tokenization algorithms.",
+      "metadata": {
+        "chunk_id": "doc_tokenization_subword_algorithms_c1",
+        "document_id": "doc_tokenization_subword_algorithms",
+        "chunk_index": 1,
+        "title": "Subword Tokenization Algorithms in Modern NLP",
+        "category": "nlp",
+        "start_char": 146,
+        "end_char": 421,
+        "token_count": 34,
+        "word_count": 34,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\nlp\\tokenization_subword_algorithms.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "Modern NLP relies on subword tokenization algorithms. Byte-Pair Encoding (BPE) starts with individual characters and iteratively merges the most frequent adjacent character pairs into new tokens. WordPiece selects merges that maximize language model likelihood. Unigram Tokenizer starts with a large candidate vocabulary and iteratively prunes tokens that cause the smallest increase in unigram loss.",
+      "metadata": {
+        "chunk_id": "doc_tokenization_subword_algorithms_c2",
+        "document_id": "doc_tokenization_subword_algorithms",
+        "chunk_index": 2,
+        "title": "Subword Tokenization Algorithms in Modern NLP",
+        "category": "nlp",
+        "start_char": 368,
+        "end_char": 768,
+        "token_count": 55,
+        "word_count": 55,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\nlp\\tokenization_subword_algorithms.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "Unigram Tokenizer starts with a large candidate vocabulary and iteratively prunes tokens that cause the smallest increase in unigram loss. Byte-level BPE (used in GPT) operates directly on UTF-8 bytes to handle any Unicode string without unknown token artifacts.",
+      "metadata": {
+        "chunk_id": "doc_tokenization_subword_algorithms_c3",
+        "document_id": "doc_tokenization_subword_algorithms",
+        "chunk_index": 3,
+        "title": "Subword Tokenization Algorithms in Modern NLP",
+        "category": "nlp",
+        "start_char": 630,
+        "end_char": 892,
+        "token_count": 41,
+        "word_count": 41,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\nlp\\tokenization_subword_algorithms.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "# Global Interpreter Lock (GIL) and Concurrency in Python\n\nThe CPython implementation relies on the Global Interpreter Lock (GIL), a mutual-exclusion lock preventing multiple native operating system threads from executing Python bytecode concurrently.",
+      "metadata": {
+        "chunk_id": "doc_python_concurrency_gil_c0",
+        "document_id": "doc_python_concurrency_gil",
+        "chunk_index": 0,
+        "title": "Global Interpreter Lock (GIL) and Concurrency in Python",
+        "category": "python",
+        "start_char": 0,
+        "end_char": 251,
+        "token_count": 33,
+        "word_count": 33,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\python\\python_concurrency_gil.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "While the GIL protects CPython memory management and reference counting from race conditions, it limits CPU-bound multi-threading to a single physical core. To achieve true parallelism for CPU-bound workloads, Python programs use multiprocessing, which spawns separate operating system processes with independent memory spaces and separate GIL instances.",
+      "metadata": {
+        "chunk_id": "doc_python_concurrency_gil_c1",
+        "document_id": "doc_python_concurrency_gil",
+        "chunk_index": 1,
+        "title": "Global Interpreter Lock (GIL) and Concurrency in Python",
+        "category": "python",
+        "start_char": 252,
+        "end_char": 607,
+        "token_count": 50,
+        "word_count": 50,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\python\\python_concurrency_gil.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "To achieve true parallelism for CPU-bound workloads, Python programs use multiprocessing, which spawns separate operating system processes with independent memory spaces and separate GIL instances.",
+      "metadata": {
+        "chunk_id": "doc_python_concurrency_gil_c2",
+        "document_id": "doc_python_concurrency_gil",
+        "chunk_index": 2,
+        "title": "Global Interpreter Lock (GIL) and Concurrency in Python",
+        "category": "python",
+        "start_char": 410,
+        "end_char": 607,
+        "token_count": 26,
+        "word_count": 26,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\python\\python_concurrency_gil.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "Conversely, I/O-bound operations (such as network requests or disk reads) release the GIL while waiting for external resources, making threading or cooperative multitasking with asyncio highly effective for concurrent I/O throughput.",
+      "metadata": {
+        "chunk_id": "doc_python_concurrency_gil_c3",
+        "document_id": "doc_python_concurrency_gil",
+        "chunk_index": 3,
+        "title": "Global Interpreter Lock (GIL) and Concurrency in Python",
+        "category": "python",
+        "start_char": 608,
+        "end_char": 841,
+        "token_count": 34,
+        "word_count": 34,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\python\\python_concurrency_gil.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "# Python Built-in Data Structures and Mutability\n\nPython provides several core built-in data structures optimized for distinct access patterns. Lists are ordered, mutable sequences defined with square brackets, supporting dynamic resizing, amortized O(1) append and pop from the end, and in-place sorting.",
+      "metadata": {
+        "chunk_id": "doc_python_data_structures_c0",
+        "document_id": "doc_python_data_structures",
+        "chunk_index": 0,
+        "title": "Python Built-in Data Structures and Mutability",
+        "category": "python",
+        "start_char": 0,
+        "end_char": 305,
+        "token_count": 45,
+        "word_count": 45,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\python\\python_data_structures.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "Lists are ordered, mutable sequences defined with square brackets, supporting dynamic resizing, amortized O(1) append and pop from the end, and in-place sorting. In contrast, tuples are ordered, immutable sequences defined with parentheses; their immutability allows them to be hashed and used as dictionary keys when their constituent elements are also immutable.",
+      "metadata": {
+        "chunk_id": "doc_python_data_structures_c1",
+        "document_id": "doc_python_data_structures",
+        "chunk_index": 1,
+        "title": "Python Built-in Data Structures and Mutability",
+        "category": "python",
+        "start_char": 144,
+        "end_char": 508,
+        "token_count": 54,
+        "word_count": 54,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\python\\python_data_structures.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "In contrast, tuples are ordered, immutable sequences defined with parentheses; their immutability allows them to be hashed and used as dictionary keys when their constituent elements are also immutable. Sets are unordered collections of unique, hashable elements implemented via hash tables, providing O(1) average-time complexity for lookups, insertions, and membership tests via in keyword.",
+      "metadata": {
+        "chunk_id": "doc_python_data_structures_c2",
+        "document_id": "doc_python_data_structures",
+        "chunk_index": 2,
+        "title": "Python Built-in Data Structures and Mutability",
+        "category": "python",
+        "start_char": 306,
+        "end_char": 699,
+        "token_count": 56,
+        "word_count": 56,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\python\\python_data_structures.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "Sets are unordered collections of unique, hashable elements implemented via hash tables, providing O(1) average-time complexity for lookups, insertions, and membership tests via in keyword. Dictionaries represent associative arrays mapping unique keys to arbitrary values, preserving insertion order since Python 3.7.",
+      "metadata": {
+        "chunk_id": "doc_python_data_structures_c3",
+        "document_id": "doc_python_data_structures",
+        "chunk_index": 3,
+        "title": "Python Built-in Data Structures and Mutability",
+        "category": "python",
+        "start_char": 510,
+        "end_char": 827,
+        "token_count": 44,
+        "word_count": 44,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\python\\python_data_structures.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "Dictionaries represent associative arrays mapping unique keys to arbitrary values, preserving insertion order since Python 3.7. Under the hood, Python dictionaries use a compact array combined with a sparse hash table to minimize memory overhead while retaining O(1) key lookups.",
+      "metadata": {
+        "chunk_id": "doc_python_data_structures_c4",
+        "document_id": "doc_python_data_structures",
+        "chunk_index": 4,
+        "title": "Python Built-in Data Structures and Mutability",
+        "category": "python",
+        "start_char": 700,
+        "end_char": 979,
+        "token_count": 42,
+        "word_count": 42,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\python\\python_data_structures.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "# Python Decorators, Closures, and First-Class Functions\n\nIn Python, functions are first-class citizens, meaning they can be passed as arguments, returned from other functions, assigned to variables, and stored in collections. A closure is a function that retains access to variables in its enclosing lexical scope even after that outer scope has finished execution.",
+      "metadata": {
+        "chunk_id": "doc_python_decorators_functions_c0",
+        "document_id": "doc_python_decorators_functions",
+        "chunk_index": 0,
+        "title": "Python Decorators, Closures, and First-Class Functions",
+        "category": "python",
+        "start_char": 0,
+        "end_char": 366,
+        "token_count": 55,
+        "word_count": 55,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\python\\python_decorators_functions.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "A closure is a function that retains access to variables in its enclosing lexical scope even after that outer scope has finished execution. A decorator is a callable that accepts another function as an argument, wraps or extends its behavior without modifying the underlying source code, and returns the modified wrapper function.",
+      "metadata": {
+        "chunk_id": "doc_python_decorators_functions_c1",
+        "document_id": "doc_python_decorators_functions",
+        "chunk_index": 1,
+        "title": "Python Decorators, Closures, and First-Class Functions",
+        "category": "python",
+        "start_char": 227,
+        "end_char": 558,
+        "token_count": 52,
+        "word_count": 52,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\python\\python_decorators_functions.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "A decorator is a callable that accepts another function as an argument, wraps or extends its behavior without modifying the underlying source code, and returns the modified wrapper function. Decorators commonly implement cross-cutting concerns such as logging, execution timing, input validation, authentication, and caching.",
+      "metadata": {
+        "chunk_id": "doc_python_decorators_functions_c2",
+        "document_id": "doc_python_decorators_functions",
+        "chunk_index": 2,
+        "title": "Python Decorators, Closures, and First-Class Functions",
+        "category": "python",
+        "start_char": 368,
+        "end_char": 693,
+        "token_count": 45,
+        "word_count": 45,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\python\\python_decorators_functions.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "Decorators commonly implement cross-cutting concerns such as logging, execution timing, input validation, authentication, and caching. Using functools.wraps preserves the decorated function's original docstring, name, and signature introspection.",
+      "metadata": {
+        "chunk_id": "doc_python_decorators_functions_c3",
+        "document_id": "doc_python_decorators_functions",
+        "chunk_index": 3,
+        "title": "Python Decorators, Closures, and First-Class Functions",
+        "category": "python",
+        "start_char": 559,
+        "end_char": 805,
+        "token_count": 30,
+        "word_count": 30,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\python\\python_decorators_functions.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "# Object-Oriented Programming and Dunder Methods in Python\n\nPython object-oriented programming relies on special double-underscore (\"dunder\") methods to customize class behaviors and integrate with built-in language semantics.",
+      "metadata": {
+        "chunk_id": "doc_python_dunder_oop_c0",
+        "document_id": "doc_python_dunder_oop",
+        "chunk_index": 0,
+        "title": "Object-Oriented Programming and Dunder Methods in Python",
+        "category": "python",
+        "start_char": 0,
+        "end_char": 226,
+        "token_count": 30,
+        "word_count": 30,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\python\\python_dunder_oop.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "The __init__ method initializes newly instantiated objects, __repr__ provides an unambiguous developer representation, and __str__ yields an informal human-readable string representation. Operator overloading is accomplished through arithmetic dunders like __add__ and comparison dunders like __eq__ and __lt__. Container emulation uses __len__, __getitem__, and __setitem__.",
+      "metadata": {
+        "chunk_id": "doc_python_dunder_oop_c1",
+        "document_id": "doc_python_dunder_oop",
+        "chunk_index": 1,
+        "title": "Object-Oriented Programming and Dunder Methods in Python",
+        "category": "python",
+        "start_char": 227,
+        "end_char": 603,
+        "token_count": 45,
+        "word_count": 45,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\python\\python_dunder_oop.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "Container emulation uses __len__, __getitem__, and __setitem__. Context managers implement __enter__ and __exit__ to ensure deterministic resource allocation and reclamation (such as closing database connections or file handles) via with statements.",
+      "metadata": {
+        "chunk_id": "doc_python_dunder_oop_c2",
+        "document_id": "doc_python_dunder_oop",
+        "chunk_index": 2,
+        "title": "Object-Oriented Programming and Dunder Methods in Python",
+        "category": "python",
+        "start_char": 540,
+        "end_char": 789,
+        "token_count": 31,
+        "word_count": 31,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\python\\python_dunder_oop.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "# Python Comprehensions, Generators, and Lazy Evaluation\n\nList comprehensions provide a concise syntax for mapping and filtering iterables, constructing a full in-memory list upon execution: [x*2 for x in items if x > 0]. While highly expressive and fast due to optimized C-level bytecode loops, list comprehensions can consume excessive RAM when dealing with large or infinite sequences.",
+      "metadata": {
+        "chunk_id": "doc_python_generators_comprehensions_c0",
+        "document_id": "doc_python_generators_comprehensions",
+        "chunk_index": 0,
+        "title": "Python Comprehensions, Generators, and Lazy Evaluation",
+        "category": "python",
+        "start_char": 0,
+        "end_char": 388,
+        "token_count": 59,
+        "word_count": 59,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\python\\python_generators_comprehensions.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "While highly expressive and fast due to optimized C-level bytecode loops, list comprehensions can consume excessive RAM when dealing with large or infinite sequences. Generator expressions solve this memory bottleneck by using parentheses instead of square brackets: (x*2 for x in items). Generators produce values lazily on-demand using the iterator protocol (__iter__ and __next__).",
+      "metadata": {
+        "chunk_id": "doc_python_generators_comprehensions_c1",
+        "document_id": "doc_python_generators_comprehensions",
+        "chunk_index": 1,
+        "title": "Python Comprehensions, Generators, and Lazy Evaluation",
+        "category": "python",
+        "start_char": 222,
+        "end_char": 607,
+        "token_count": 57,
+        "word_count": 57,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\python\\python_generators_comprehensions.md",
+        "extra": {}
+      }
+    },
+    {
+      "text": "Generators produce values lazily on-demand using the iterator protocol (__iter__ and __next__). Generator functions use the yield keyword to pause execution and yield intermediate values, maintaining internal state across invocations. The itertools module further provides memory-efficient combinatoric iterators such as chain, islice, and cycle.",
+      "metadata": {
+        "chunk_id": "doc_python_generators_comprehensions_c2",
+        "document_id": "doc_python_generators_comprehensions",
+        "chunk_index": 2,
+        "title": "Python Comprehensions, Generators, and Lazy Evaluation",
+        "category": "python",
+        "start_char": 512,
+        "end_char": 858,
+        "token_count": 46,
+        "word_count": 46,
+        "source_file": "S:\\Programming\\Python200days\\Day 117\\data\\raw\\python\\python_generators_comprehensions.md",
+        "extra": {}
+      }
+    }
+  ]
+}
