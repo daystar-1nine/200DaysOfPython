@@ -1,5 +1,5 @@
 """
-Retrieval package for sparse, dense, hybrid search, RRF, metadata filtering, query optimization, and reranking.
+Retrieval package for sparse, dense, hybrid search, RRF, metadata filtering, query optimization, reranking, and MMR.
 """
 from app.retrieval.bm25_retriever import BM25Retriever
 from app.retrieval.dense_retriever import DenseRetriever
@@ -18,6 +18,11 @@ from app.retrieval.reranker import (
     CrossEncoderReranker,
     IdentityReranker,
 )
+from app.retrieval.mmr import (
+    maximal_marginal_relevance,
+    MaximalMarginalRelevance,
+    jaccard_similarity,
+)
 
 __all__ = [
     "BM25Retriever",
@@ -35,4 +40,7 @@ __all__ = [
     "BaseReranker",
     "CrossEncoderReranker",
     "IdentityReranker",
+    "maximal_marginal_relevance",
+    "MaximalMarginalRelevance",
+    "jaccard_similarity",
 ]
