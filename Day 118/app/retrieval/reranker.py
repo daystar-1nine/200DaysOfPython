@@ -8,6 +8,7 @@ from typing import List, Dict, Optional, Tuple
 import re
 import math
 from collections import Counter
+import numpy as np
 
 from app.chunking.chunker import Chunk
 from app.index.vector_index import ScoredChunk

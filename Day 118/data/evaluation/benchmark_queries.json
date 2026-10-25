@@ -1,0 +1,714 @@
+[
+  {
+    "query_id": "q_lex_01",
+    "query": "What is Python list comprehension and its canonical syntax?",
+    "query_type": "lexical",
+    "relevant_doc_ids": [
+      "doc_python_list_comprehension"
+    ],
+    "graded_relevance": {
+      "doc_python_list_comprehension": 3,
+      "doc_python_generators_iterators": 1
+    },
+    "ground_truth_answer": "Python list comprehension creates new lists using the syntax [expression for item in iterable if condition]."
+  },
+  {
+    "query_id": "q_lex_02",
+    "query": "How does SQL INNER JOIN work when rows do not match?",
+    "query_type": "lexical",
+    "relevant_doc_ids": [
+      "doc_dbms_sql_inner_join"
+    ],
+    "graded_relevance": {
+      "doc_dbms_sql_inner_join": 3
+    },
+    "ground_truth_answer": "Rows that do not match under the join predicate ON are omitted from the resulting relation."
+  },
+  {
+    "query_id": "q_lex_03",
+    "query": "What triggers a SQLSTATE 23505 error in PostgreSQL?",
+    "query_type": "lexical",
+    "relevant_doc_ids": [
+      "doc_dbms_sqlstate_23505_errors"
+    ],
+    "graded_relevance": {
+      "doc_dbms_sqlstate_23505_errors": 3
+    },
+    "ground_truth_answer": "SQLSTATE 23505 indicates a unique constraint violation when inserting or updating duplicate keys."
+  },
+  {
+    "query_id": "q_lex_04",
+    "query": "What does an HTTP 404 error status code signify?",
+    "query_type": "lexical",
+    "relevant_doc_ids": [
+      "doc_systems_http_404_error"
+    ],
+    "graded_relevance": {
+      "doc_systems_http_404_error": 3,
+      "doc_systems_http_status_codes_overview": 1
+    },
+    "ground_truth_answer": "HTTP 404 Not Found indicates that the web server cannot locate the requested resource at the specified URI."
+  },
+  {
+    "query_id": "q_lex_05",
+    "query": "What role does the gradient descent learning rate play?",
+    "query_type": "lexical",
+    "relevant_doc_ids": [
+      "doc_ml_gradient_descent_learning_rate"
+    ],
+    "graded_relevance": {
+      "doc_ml_gradient_descent_learning_rate": 3
+    },
+    "ground_truth_answer": "The learning rate controls parameter update step size; too small causes slow convergence, too large causes divergence."
+  },
+  {
+    "query_id": "q_lex_06",
+    "query": "What is the formula for TF-IDF inverse document frequency?",
+    "query_type": "lexical",
+    "relevant_doc_ids": [
+      "doc_nlp_tfidf_vectorization"
+    ],
+    "graded_relevance": {
+      "doc_nlp_tfidf_vectorization": 3,
+      "doc_nlp_bm25_retrieval_ranking": 1
+    },
+    "ground_truth_answer": "IDF penalizes ubiquitous terms using the log ratio of total documents to document frequency."
+  },
+  {
+    "query_id": "q_lex_07",
+    "query": "What parameters tune Okapi BM25 retrieval?",
+    "query_type": "lexical",
+    "relevant_doc_ids": [
+      "doc_nlp_bm25_retrieval_ranking"
+    ],
+    "graded_relevance": {
+      "doc_nlp_bm25_retrieval_ranking": 3,
+      "doc_nlp_tfidf_vectorization": 1
+    },
+    "ground_truth_answer": "Parameter k1 tunes term frequency saturation, and b tunes document length normalization."
+  },
+  {
+    "query_id": "q_lex_08",
+    "query": "What is the equation for Reciprocal Rank Fusion RRF?",
+    "query_type": "lexical",
+    "relevant_doc_ids": [
+      "doc_nlp_reciprocal_rank_fusion_rrf"
+    ],
+    "graded_relevance": {
+      "doc_nlp_reciprocal_rank_fusion_rrf": 3
+    },
+    "ground_truth_answer": "RRF sums 1 / (k0 + rank) across individual ranked retrieval lists."
+  },
+  {
+    "query_id": "q_lex_09",
+    "query": "How is Maximal Marginal Relevance MMR defined?",
+    "query_type": "lexical",
+    "relevant_doc_ids": [
+      "doc_nlp_maximal_marginal_relevance_mmr"
+    ],
+    "graded_relevance": {
+      "doc_nlp_maximal_marginal_relevance_mmr": 3
+    },
+    "ground_truth_answer": "MMR maximizes lambda * Sim(query, doc) - (1 - lambda) * max_sim(doc, selected)."
+  },
+  {
+    "query_id": "q_lex_10",
+    "query": "What is the formula for cross-entropy loss in classification?",
+    "query_type": "lexical",
+    "relevant_doc_ids": [
+      "doc_dl_cross_entropy_loss_function"
+    ],
+    "graded_relevance": {
+      "doc_dl_cross_entropy_loss_function": 3
+    },
+    "ground_truth_answer": "Cross-entropy loss sums -y_c * log(y_hat_c) over all classes."
+  },
+  {
+    "query_id": "q_lex_11",
+    "query": "What is the difference between B-Tree and Hash index in databases?",
+    "query_type": "lexical",
+    "relevant_doc_ids": [
+      "doc_dbms_indexing_btree_hash"
+    ],
+    "graded_relevance": {
+      "doc_dbms_indexing_btree_hash": 3
+    },
+    "ground_truth_answer": "B-Trees support range scans and equality in O(log N), whereas Hash indexes only support equality in O(1)."
+  },
+  {
+    "query_id": "q_lex_12",
+    "query": "What are the four ANSI SQL transaction isolation levels?",
+    "query_type": "lexical",
+    "relevant_doc_ids": [
+      "doc_dbms_acid_transactions"
+    ],
+    "graded_relevance": {
+      "doc_dbms_acid_transactions": 3
+    },
+    "ground_truth_answer": "The four levels are Read Uncommitted, Read Committed, Repeatable Read, and Serializable."
+  },
+  {
+    "query_id": "q_lex_13",
+    "query": "What is the Global Interpreter Lock GIL in Python?",
+    "query_type": "lexical",
+    "relevant_doc_ids": [
+      "doc_python_gil_concurrency"
+    ],
+    "graded_relevance": {
+      "doc_python_gil_concurrency": 3
+    },
+    "ground_truth_answer": "The GIL is a mutex in CPython that prevents multiple native OS threads from executing bytecode simultaneously."
+  },
+  {
+    "query_id": "q_lex_14",
+    "query": "How does Python PyMalloc handle small memory allocations?",
+    "query_type": "lexical",
+    "relevant_doc_ids": [
+      "doc_python_memory_management"
+    ],
+    "graded_relevance": {
+      "doc_python_memory_management": 3
+    },
+    "ground_truth_answer": "PyMalloc manages a private heap optimized for small allocations up to 512 bytes."
+  },
+  {
+    "query_id": "q_lex_15",
+    "query": "What is the TCP three-way handshake packet sequence?",
+    "query_type": "lexical",
+    "relevant_doc_ids": [
+      "doc_systems_tcp_ip_three_way_handshake"
+    ],
+    "graded_relevance": {
+      "doc_systems_tcp_ip_three_way_handshake": 3
+    },
+    "ground_truth_answer": "The sequence consists of SYN from client, SYN-ACK from server, and ACK from client."
+  },
+  {
+    "query_id": "q_lex_16",
+    "query": "What is the formula for Z-score feature standardization?",
+    "query_type": "lexical",
+    "relevant_doc_ids": [
+      "doc_ml_feature_scaling_normalization"
+    ],
+    "graded_relevance": {
+      "doc_ml_feature_scaling_normalization": 3
+    },
+    "ground_truth_answer": "Z-score standardization transforms features to zero mean and unit variance via (x - mu) / sigma."
+  },
+  {
+    "query_id": "q_lex_17",
+    "query": "How does Batch Normalization normalize activations in deep networks?",
+    "query_type": "lexical",
+    "relevant_doc_ids": [
+      "doc_dl_batch_normalization_layer"
+    ],
+    "graded_relevance": {
+      "doc_dl_batch_normalization_layer": 3
+    },
+    "ground_truth_answer": "BatchNorm computes mini-batch mean and variance, normalizes inputs, and applies learnable gamma and beta."
+  },
+  {
+    "query_id": "q_lex_18",
+    "query": "What is the Scaled Dot-Product Attention equation in transformers?",
+    "query_type": "lexical",
+    "relevant_doc_ids": [
+      "doc_dl_transformer_attention_mechanism"
+    ],
+    "graded_relevance": {
+      "doc_dl_transformer_attention_mechanism": 3
+    },
+    "ground_truth_answer": "Attention(Q, K, V) = softmax(Q K^T / sqrt(d_k)) V."
+  },
+  {
+    "query_id": "q_lex_19",
+    "query": "What does HTTP status code 429 Too Many Requests mean?",
+    "query_type": "lexical",
+    "relevant_doc_ids": [
+      "doc_systems_http_status_codes_overview"
+    ],
+    "graded_relevance": {
+      "doc_systems_http_status_codes_overview": 3
+    },
+    "ground_truth_answer": "429 indicates client rate limiting and too many requests sent in a given time window."
+  },
+  {
+    "query_id": "q_lex_20",
+    "query": "What algorithm detects cycles in database wait-for graphs?",
+    "query_type": "lexical",
+    "relevant_doc_ids": [
+      "doc_dbms_deadlock_detection"
+    ],
+    "graded_relevance": {
+      "doc_dbms_deadlock_detection": 3
+    },
+    "ground_truth_answer": "Engines run cycle detection on the transaction wait-for graph to abort a victim and break the deadlock."
+  },
+  {
+    "query_id": "q_sem_01",
+    "query": "How can I prevent a statistical model from memorizing the training dataset?",
+    "query_type": "semantic",
+    "relevant_doc_ids": [
+      "doc_ml_overfitting_regularization"
+    ],
+    "graded_relevance": {
+      "doc_ml_overfitting_regularization": 3,
+      "doc_ml_bias_variance_tradeoff": 1
+    },
+    "ground_truth_answer": "Prevent memorization using L1/L2 regularization, early stopping, data augmentation, and dropout."
+  },
+  {
+    "query_id": "q_sem_02",
+    "query": "Why do uncollected references exhaust system RAM in Python applications?",
+    "query_type": "semantic",
+    "relevant_doc_ids": [
+      "doc_python_memory_management"
+    ],
+    "graded_relevance": {
+      "doc_python_memory_management": 3
+    },
+    "ground_truth_answer": "Cyclic references or lingering references in global dictionaries prevent reference counting from deallocating memory."
+  },
+  {
+    "query_id": "q_sem_03",
+    "query": "What architectural difference exists between joint attention ranking and separate vector comparison?",
+    "query_type": "semantic",
+    "relevant_doc_ids": [
+      "doc_dl_cross_encoder_vs_bi_encoder"
+    ],
+    "graded_relevance": {
+      "doc_dl_cross_encoder_vs_bi_encoder": 3,
+      "doc_nlp_dense_embeddings_semantic_search": 1
+    },
+    "ground_truth_answer": "Cross-encoders evaluate query and document simultaneously with cross-attention, whereas bi-encoders encode them independently."
+  },
+  {
+    "query_id": "q_sem_04",
+    "query": "How do database systems handle situations where two queries block each other indefinitely?",
+    "query_type": "semantic",
+    "relevant_doc_ids": [
+      "doc_dbms_deadlock_detection"
+    ],
+    "graded_relevance": {
+      "doc_dbms_deadlock_detection": 3,
+      "doc_dbms_acid_transactions": 1
+    },
+    "ground_truth_answer": "Engines detect cycles in a wait-for-graph and abort one transaction as the deadlock victim."
+  },
+  {
+    "query_id": "q_sem_05",
+    "query": "Why does Python restrict simultaneous multi-core execution in standard threads?",
+    "query_type": "semantic",
+    "relevant_doc_ids": [
+      "doc_python_gil_concurrency"
+    ],
+    "graded_relevance": {
+      "doc_python_gil_concurrency": 3
+    },
+    "ground_truth_answer": "The Global Interpreter Lock (GIL) prevents multiple native threads from executing bytecode simultaneously to protect memory management."
+  },
+  {
+    "query_id": "q_sem_06",
+    "query": "How can I avoid duplicate side-effects when an API request is retried multiple times?",
+    "query_type": "semantic",
+    "relevant_doc_ids": [
+      "doc_systems_rest_api_idempotency"
+    ],
+    "graded_relevance": {
+      "doc_systems_rest_api_idempotency": 3
+    },
+    "ground_truth_answer": "Use idempotent HTTP methods or attach unique Idempotency-Key headers verified in a cache."
+  },
+  {
+    "query_id": "q_sem_07",
+    "query": "What mechanism allows functions to remember outer lexical variables after return?",
+    "query_type": "semantic",
+    "relevant_doc_ids": [
+      "doc_python_decorators_closures"
+    ],
+    "graded_relevance": {
+      "doc_python_decorators_closures": 3
+    },
+    "ground_truth_answer": "Lexical closures retain references to outer scope variables within nested function environments."
+  },
+  {
+    "query_id": "q_sem_08",
+    "query": "How does scaling the dot product prevent vanishing gradients in transformers?",
+    "query_type": "semantic",
+    "relevant_doc_ids": [
+      "doc_dl_transformer_attention_mechanism"
+    ],
+    "graded_relevance": {
+      "doc_dl_transformer_attention_mechanism": 3
+    },
+    "ground_truth_answer": "Dividing by sqrt(d_k) prevents large dot products from pushing softmax into regions with near-zero gradients."
+  },
+  {
+    "query_id": "q_sem_09",
+    "query": "Why do tree-structured indexes handle ordering and ranges better than hash structures?",
+    "query_type": "semantic",
+    "relevant_doc_ids": [
+      "doc_dbms_indexing_btree_hash"
+    ],
+    "graded_relevance": {
+      "doc_dbms_indexing_btree_hash": 3
+    },
+    "ground_truth_answer": "B-Tree leaf nodes are maintained in sorted order and linked sequentially, unlike hash tables."
+  },
+  {
+    "query_id": "q_sem_10",
+    "query": "How do models normalize internal layer activations across mini-batches during training?",
+    "query_type": "semantic",
+    "relevant_doc_ids": [
+      "doc_dl_batch_normalization_layer"
+    ],
+    "graded_relevance": {
+      "doc_dl_batch_normalization_layer": 3
+    },
+    "ground_truth_answer": "Batch Normalization computes mini-batch mean and variance, normalizes activations, and scales with learnable gamma and beta."
+  },
+  {
+    "query_id": "q_sem_11",
+    "query": "How does computing derivatives in reverse topological order save computational complexity?",
+    "query_type": "semantic",
+    "relevant_doc_ids": [
+      "doc_dl_backpropagation_chain_rule"
+    ],
+    "graded_relevance": {
+      "doc_dl_backpropagation_chain_rule": 3
+    },
+    "ground_truth_answer": "Reverse-mode autodiff calculates sensitivities from loss to inputs in time proportional to a single forward pass."
+  },
+  {
+    "query_id": "q_sem_12",
+    "query": "Why does averaging multiple diverse predictors reduce prediction variability without hurting accuracy?",
+    "query_type": "semantic",
+    "relevant_doc_ids": [
+      "doc_ml_bias_variance_tradeoff"
+    ],
+    "graded_relevance": {
+      "doc_ml_bias_variance_tradeoff": 3
+    },
+    "ground_truth_answer": "Bagging averages de-correlated estimators, reducing overall variance while preserving low individual bias."
+  },
+  {
+    "query_id": "q_sem_13",
+    "query": "What ensures database readers and writers never block each other concurrently?",
+    "query_type": "semantic",
+    "relevant_doc_ids": [
+      "doc_dbms_acid_transactions"
+    ],
+    "graded_relevance": {
+      "doc_dbms_acid_transactions": 3
+    },
+    "ground_truth_answer": "Multi-Version Concurrency Control (MVCC) maintains snapshot versions of tuples so readers do not lock writers."
+  },
+  {
+    "query_id": "q_sem_14",
+    "query": "How does domain name lookup discover canonical machine addresses step by step?",
+    "query_type": "semantic",
+    "relevant_doc_ids": [
+      "doc_systems_dns_resolution_lifecycle"
+    ],
+    "graded_relevance": {
+      "doc_systems_dns_resolution_lifecycle": 3
+    },
+    "ground_truth_answer": "Resolution traverses local cache, recursive resolvers, root nameservers, TLD servers, and authoritative nameservers."
+  },
+  {
+    "query_id": "q_sem_15",
+    "query": "Why should feature scaling parameters strictly avoid touching evaluation splits during preprocessing?",
+    "query_type": "semantic",
+    "relevant_doc_ids": [
+      "doc_ml_cross_validation_strategies"
+    ],
+    "graded_relevance": {
+      "doc_ml_cross_validation_strategies": 3
+    },
+    "ground_truth_answer": "Fitting scalers on validation data constitutes data leakage, artificially inflating validation performance."
+  },
+  {
+    "query_id": "q_sem_16",
+    "query": "How do generator functions suspend execution and resume later without losing state?",
+    "query_type": "semantic",
+    "relevant_doc_ids": [
+      "doc_python_generators_iterators"
+    ],
+    "graded_relevance": {
+      "doc_python_generators_iterators": 3
+    },
+    "ground_truth_answer": "The yield keyword pauses the generator frame, preserving local variables and instruction pointer."
+  },
+  {
+    "query_id": "q_sem_17",
+    "query": "What technique prevents near-duplicate text chunks from crowding the LLM prompt window?",
+    "query_type": "semantic",
+    "relevant_doc_ids": [
+      "doc_nlp_maximal_marginal_relevance_mmr"
+    ],
+    "graded_relevance": {
+      "doc_nlp_maximal_marginal_relevance_mmr": 3
+    },
+    "ground_truth_answer": "Maximal Marginal Relevance penalizes candidates highly similar to already selected chunks."
+  },
+  {
+    "query_id": "q_sem_18",
+    "query": "How do hash join algorithms merge two relational tables in memory efficiently?",
+    "query_type": "semantic",
+    "relevant_doc_ids": [
+      "doc_dbms_sql_inner_join"
+    ],
+    "graded_relevance": {
+      "doc_dbms_sql_inner_join": 3
+    },
+    "ground_truth_answer": "Hash joins construct an in-memory hash table on the smaller relation and probe it with the larger relation in O(M+N)."
+  },
+  {
+    "query_id": "q_sem_19",
+    "query": "Why do outliers damage Min-Max scaling more severely than Z-score standardization?",
+    "query_type": "semantic",
+    "relevant_doc_ids": [
+      "doc_ml_feature_scaling_normalization"
+    ],
+    "graded_relevance": {
+      "doc_ml_feature_scaling_normalization": 3
+    },
+    "ground_truth_answer": "Min-Max scaling uses extreme min and max values in the denominator, squashing all typical inliers into a narrow band."
+  },
+  {
+    "query_id": "q_sem_20",
+    "query": "How does the Python cyclical garbage collector identify unreferenced cycles?",
+    "query_type": "semantic",
+    "relevant_doc_ids": [
+      "doc_python_memory_management"
+    ],
+    "graded_relevance": {
+      "doc_python_memory_management": 3
+    },
+    "ground_truth_answer": "The generational GC tracks container objects across three generations and isolates unreachable reference cycles."
+  },
+  {
+    "query_id": "q_mix_01",
+    "query": "Could you please explain how to combine BM25 and dense retrieval with RRF fusion?",
+    "query_type": "mixed",
+    "relevant_doc_ids": [
+      "doc_nlp_reciprocal_rank_fusion_rrf"
+    ],
+    "graded_relevance": {
+      "doc_nlp_reciprocal_rank_fusion_rrf": 3,
+      "doc_nlp_bm25_retrieval_ranking": 2,
+      "doc_nlp_dense_embeddings_semantic_search": 2
+    },
+    "ground_truth_answer": "Retrieve top candidates from BM25 and dense search, then fuse ranks using the formula 1 / (60 + rank)."
+  },
+  {
+    "query_id": "q_mix_02",
+    "query": "I want to know what causes an HTTP 404 client error in single page applications.",
+    "query_type": "mixed",
+    "relevant_doc_ids": [
+      "doc_systems_http_404_error"
+    ],
+    "graded_relevance": {
+      "doc_systems_http_404_error": 3,
+      "doc_systems_http_status_codes_overview": 1
+    },
+    "ground_truth_answer": "In SPAs, servers must rewrite unmatched paths to index.html to allow client-side routing instead of returning 404."
+  },
+  {
+    "query_id": "q_mix_03",
+    "query": "Can you tell me how to prevent duplicate key collisions under SQLSTATE 23505?",
+    "query_type": "mixed",
+    "relevant_doc_ids": [
+      "doc_dbms_sqlstate_23505_errors"
+    ],
+    "graded_relevance": {
+      "doc_dbms_sqlstate_23505_errors": 3
+    },
+    "ground_truth_answer": "Use INSERT ... ON CONFLICT DO UPDATE or DO NOTHING upsert statements."
+  },
+  {
+    "query_id": "q_mix_04",
+    "query": "Tell me about tuning the gradient descent learning rate with cosine annealing warmup.",
+    "query_type": "mixed",
+    "relevant_doc_ids": [
+      "doc_ml_gradient_descent_learning_rate"
+    ],
+    "graded_relevance": {
+      "doc_ml_gradient_descent_learning_rate": 3
+    },
+    "ground_truth_answer": "Decaying the learning rate with schedules like cosine annealing with warmup stabilizes late training convergence."
+  },
+  {
+    "query_id": "q_mix_05",
+    "query": "Please describe the difference between Python list comprehensions and generator memory usage.",
+    "query_type": "mixed",
+    "relevant_doc_ids": [
+      "doc_python_list_comprehension"
+    ],
+    "graded_relevance": {
+      "doc_python_list_comprehension": 3,
+      "doc_python_generators_iterators": 1
+    },
+    "ground_truth_answer": "List comprehensions allocate full lists eagerly in memory, whereas generator expressions yield items lazily with O(1) memory."
+  },
+  {
+    "query_id": "q_mix_06",
+    "query": "Could you explain how cross-encoders differ from bi-encoders in ranking accuracy and latency?",
+    "query_type": "mixed",
+    "relevant_doc_ids": [
+      "doc_dl_cross_encoder_vs_bi_encoder"
+    ],
+    "graded_relevance": {
+      "doc_dl_cross_encoder_vs_bi_encoder": 3
+    },
+    "ground_truth_answer": "Cross-encoders achieve higher accuracy via full cross-attention but are slower, making them suitable as 2nd stage rerankers."
+  },
+  {
+    "query_id": "q_mix_07",
+    "query": "What are the rules for choosing between L1 lasso and L2 ridge regularization to avoid overfitting?",
+    "query_type": "mixed",
+    "relevant_doc_ids": [
+      "doc_ml_overfitting_regularization"
+    ],
+    "graded_relevance": {
+      "doc_ml_overfitting_regularization": 3
+    },
+    "ground_truth_answer": "L1 induces parameter sparsity for feature selection, while L2 shrinks weights smoothly to prevent extreme magnitudes."
+  },
+  {
+    "query_id": "q_mix_08",
+    "query": "How can I implement an idempotent payment API endpoint using HTTP POST and Redis?",
+    "query_type": "mixed",
+    "relevant_doc_ids": [
+      "doc_systems_rest_api_idempotency"
+    ],
+    "graded_relevance": {
+      "doc_systems_rest_api_idempotency": 3
+    },
+    "ground_truth_answer": "Send unique Idempotency-Key headers verified and locked in Redis to prevent duplicate processing."
+  },
+  {
+    "query_id": "q_mix_09",
+    "query": "What causes TCP connections to enter the TIME_WAIT state after teardown?",
+    "query_type": "mixed",
+    "relevant_doc_ids": [
+      "doc_systems_tcp_ip_three_way_handshake"
+    ],
+    "graded_relevance": {
+      "doc_systems_tcp_ip_three_way_handshake": 3
+    },
+    "ground_truth_answer": "The client waits in TIME_WAIT to ensure final ACKs are received and lingering duplicate segments expire safely."
+  },
+  {
+    "query_id": "q_mix_10",
+    "query": "Please explain how multi-head attention computes representation subspaces in transformers.",
+    "query_type": "mixed",
+    "relevant_doc_ids": [
+      "doc_dl_transformer_attention_mechanism"
+    ],
+    "graded_relevance": {
+      "doc_dl_transformer_attention_mechanism": 3
+    },
+    "ground_truth_answer": "Multi-head attention projects queries, keys, and values into h distinct linear subspaces."
+  },
+  {
+    "query_id": "q_mix_11",
+    "query": "How do database engines abort deadlocks using wait-for-graph victim selection?",
+    "query_type": "mixed",
+    "relevant_doc_ids": [
+      "doc_dbms_deadlock_detection"
+    ],
+    "graded_relevance": {
+      "doc_dbms_deadlock_detection": 3
+    },
+    "ground_truth_answer": "When a directed cycle is detected in the lock wait-for graph, one transaction is selected as victim and rolled back."
+  },
+  {
+    "query_id": "q_mix_12",
+    "query": "What is the relationship between TF-IDF inverse document frequency and BM25 term weighting?",
+    "query_type": "mixed",
+    "relevant_doc_ids": [
+      "doc_nlp_bm25_retrieval_ranking"
+    ],
+    "graded_relevance": {
+      "doc_nlp_bm25_retrieval_ranking": 3,
+      "doc_nlp_tfidf_vectorization": 2
+    },
+    "ground_truth_answer": "Both weight terms inversely by document frequency, but BM25 applies asymptotic term frequency saturation."
+  },
+  {
+    "query_id": "q_mix_13",
+    "query": "How can I avoid GIL bottlenecks for CPU-bound tasks in Python scripts?",
+    "query_type": "mixed",
+    "relevant_doc_ids": [
+      "doc_python_gil_concurrency"
+    ],
+    "graded_relevance": {
+      "doc_python_gil_concurrency": 3
+    },
+    "ground_truth_answer": "Use multiprocessing or ProcessPoolExecutor to run independent Python processes with their own GILs."
+  },
+  {
+    "query_id": "q_mix_14",
+    "query": "What happens when an HTTP request receives a 502 Bad Gateway response?",
+    "query_type": "mixed",
+    "relevant_doc_ids": [
+      "doc_systems_http_status_codes_overview"
+    ],
+    "graded_relevance": {
+      "doc_systems_http_status_codes_overview": 3
+    },
+    "ground_truth_answer": "A 502 Bad Gateway indicates that a reverse proxy or edge gateway received an invalid response from upstream servers."
+  },
+  {
+    "query_id": "q_mix_15",
+    "query": "How does cross-entropy loss simplify when paired with a softmax output activation?",
+    "query_type": "mixed",
+    "relevant_doc_ids": [
+      "doc_dl_cross_entropy_loss_function"
+    ],
+    "graded_relevance": {
+      "doc_dl_cross_entropy_loss_function": 3
+    },
+    "ground_truth_answer": "The derivative with respect to each logit simplifies directly to predicted probability minus ground truth indicator."
+  },
+  {
+    "query_id": "q_unans_01",
+    "query": "What is the capital city of France and its total population?",
+    "query_type": "unanswerable",
+    "relevant_doc_ids": [],
+    "graded_relevance": {},
+    "ground_truth_answer": "I don't have enough information in the provided documents to answer this question."
+  },
+  {
+    "query_id": "q_unans_02",
+    "query": "How do you configure an Apache Cassandra gossip protocol cluster?",
+    "query_type": "unanswerable",
+    "relevant_doc_ids": [],
+    "graded_relevance": {},
+    "ground_truth_answer": "I don't have enough information in the provided documents to answer this question."
+  },
+  {
+    "query_id": "q_unans_03",
+    "query": "What are the rules of chess regarding en passant capture?",
+    "query_type": "unanswerable",
+    "relevant_doc_ids": [],
+    "graded_relevance": {},
+    "ground_truth_answer": "I don't have enough information in the provided documents to answer this question."
+  },
+  {
+    "query_id": "q_unans_04",
+    "query": "Who won the FIFA World Cup in 1994?",
+    "query_type": "unanswerable",
+    "relevant_doc_ids": [],
+    "graded_relevance": {},
+    "ground_truth_answer": "I don't have enough information in the provided documents to answer this question."
+  },
+  {
+    "query_id": "q_unans_05",
+    "query": "What is the chemical boiling point of liquid nitrogen at 1 atmosphere?",
+    "query_type": "unanswerable",
+    "relevant_doc_ids": [],
+    "graded_relevance": {},
+    "ground_truth_answer": "I don't have enough information in the provided documents to answer this question."
+  }
+]
