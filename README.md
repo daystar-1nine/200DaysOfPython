@@ -17,9 +17,9 @@
 
 ### 📈 Current Challenge Status
 
-**Day 117 / 200** | **58.5% Complete** | **83 Days Remaining**
+**Day 118 / 200** | **59.0% Complete** | **82 Days Remaining**
 
-*Currently mastering Retrieval-Augmented Generation (RAG: Architecture, Embeddings, Hybrid Search & Grounding).*
+*Currently mastering Advanced RAG (Hybrid Search, Reciprocal Rank Fusion, Cross-Encoder Reranking & Query Optimization).*
 
 </div>
 
@@ -330,7 +330,8 @@ An enterprise-grade Computer Vision experimentation pipeline tracking 7 distinct
 | 115 | Preference Optimization & RLHF (MiniGPT Preference Lab) | ✅ |
 | 116 | LLM Evaluation, Benchmarking & Model Quality (MiniGPT Eval Harness) | ✅ |
 | 117 | Retrieval-Augmented Generation (RAG: Architecture, Embeddings & Grounding) | ✅ |
-| 118–200 | *Planned...* | ⬜ |
+| 118 | Advanced RAG: Hybrid Search, Reranking & Query Optimization (Mini RAG v2) | ✅ |
+| 119–200 | *Planned...* | ⬜ |
 
 ## 📈 100-Day+ Skill Matrix
 
