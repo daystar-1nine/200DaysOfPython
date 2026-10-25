@@ -10,6 +10,7 @@ from app.chunking.chunker import Chunk
 from app.index.vector_index import ScoredChunk
 from app.retrieval.bm25_retriever import BM25Retriever
 from app.retrieval.dense_retriever import DenseRetriever
+from app.retrieval.rrf import reciprocal_rank_fusion
 
 
 def min_max_normalize(scores: Dict[str, float]) -> Dict[str, float]:
@@ -123,26 +124,11 @@ class HybridRetriever:
         bm25_results = self.bm25.search(query, top_k=k_candidates, filter_fn=filter_fn)
         dense_results = self.dense.search(query, top_k=k_candidates, filter_fn=filter_fn)
 
-        chunk_map: Dict[str, Chunk] = {}
-        rrf_scores: Dict[str, float] = {}
-
-        # 1-based ranks
-        for rank, sc in enumerate(bm25_results, start=1):
-            cid = sc.chunk.metadata.chunk_id
-            chunk_map[cid] = sc.chunk
-            rrf_scores[cid] = rrf_scores.get(cid, 0.0) + 1.0 / (eff_k0 + rank)
-
-        for rank, sc in enumerate(dense_results, start=1):
-            cid = sc.chunk.metadata.chunk_id
-            chunk_map[cid] = sc.chunk
-            rrf_scores[cid] = rrf_scores.get(cid, 0.0) + 1.0 / (eff_k0 + rank)
-
-        fused: List[ScoredChunk] = []
-        for cid, score in rrf_scores.items():
-            fused.append(ScoredChunk(chunk=chunk_map[cid], score=float(score)))
-
-        fused.sort(key=lambda sc: (sc.score, sc.chunk.metadata.chunk_id), reverse=True)
-        return fused[:top_k]
+        return reciprocal_rank_fusion(
+            ranked_lists=[bm25_results, dense_results],
+            k0=eff_k0,
+            top_k=top_k
+        )
 
     def search(
         self,
