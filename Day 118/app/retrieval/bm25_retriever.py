@@ -115,7 +115,7 @@ class BM25Retriever:
         query: str,
         top_k: int = 5,
         filter_fn: Optional[Callable[[Chunk], bool]] = None,
-        min_score: float = 0.0
+        min_score: float = 1e-6
     ) -> List[ScoredChunk]:
         """
         Retrieves top-K chunks ranked by BM25 score.
@@ -134,7 +134,7 @@ class BM25Retriever:
                 continue
 
             s = self.score_chunk(query_terms, idx)
-            if s >= min_score:
+            if s >= min_score and s > 0.0:
                 scored.append(ScoredChunk(chunk=chunk, score=s))
 
         # Sort descending by score, tie-break by chunk_id

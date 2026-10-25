@@ -47,11 +47,11 @@ def maximal_marginal_relevance(
     Returns:
         List of selected ScoredChunks in order of selection.
     """
-    if not candidates:
-        return []
-
     if not (0.0 <= lambda_mult <= 1.0):
         raise ValueError(f"lambda_mult must be in [0.0, 1.0], got {lambda_mult}")
+
+    if not candidates:
+        return []
 
     n_candidates = len(candidates)
     if top_k >= n_candidates:
@@ -62,15 +62,18 @@ def maximal_marginal_relevance(
     if query_vector is not None and candidate_embeddings is not None and candidate_embeddings.shape[0] == n_candidates:
         sim1_scores = batch_cosine_similarity(query_vector, candidate_embeddings)
     else:
-        # Use existing candidate scores normalized to [0, 1]
+        # Use existing candidate scores
         scores = [sc.score for sc in candidates]
         min_s = min(scores)
         max_s = max(scores)
-        diff = max_s - min_s
-        if diff == 0:
-            sim1_scores = np.ones(n_candidates, dtype=np.float64)
+        if min_s >= 0.0 and max_s <= 1.0:
+            sim1_scores = np.array(scores, dtype=np.float64)
         else:
-            sim1_scores = np.array([(s - min_s) / diff for s in scores], dtype=np.float64)
+            diff = max_s - min_s
+            if diff == 0:
+                sim1_scores = np.ones(n_candidates, dtype=np.float64)
+            else:
+                sim1_scores = np.array([(s - min_s) / diff for s in scores], dtype=np.float64)
 
     # 2. Iterative selection
     selected_indices: List[int] = []
